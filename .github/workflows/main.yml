@@ -1,0 +1,26 @@
+# .github/workflows/fetch.yml
+
+name: Merge upstream branches
+on:
+  schedule:
+    - cron: 0 0 * * 1
+  workflow_dispatch:
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge upstream
+        run: |
+          git config --global user.name 'tianlong.jiang'
+          git config --global user.email 'tianlong.jiang@outlook.com'
+          git config --global credential.helper store
+          git clone https://tianlong.jiang:${{ secrets.GITHUB_TOKEN }}@github.com/tianlongJ/scoop-proxy-cn.git tmp
+          cd tmp
+          git remote add upstream https://tianlong.jiang:${{ secrets.GITHUB_TOKEN }}@github.com/lzwme/scoop-proxy-cn.git
+          git fetch upstream
+          git merge upstream/master
+          rm -rf bucket/coodesker.json
+          mv bucket/Coodesker-Portable.json bucket/coodesker.json
+          git push origin master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
