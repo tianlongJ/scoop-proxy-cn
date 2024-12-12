@@ -21,7 +21,7 @@ jobs:
           git merge upstream/main
           rm -rf bucket/coodesker.json
           mv bucket/Coodesker-Portable.json bucket/coodesker.json
-          git commit -a
+          git commit -am 'personal bucket'
           git push origin main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
