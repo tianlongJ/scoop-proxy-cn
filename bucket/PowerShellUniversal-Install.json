@@ -1,11 +1,11 @@
 {
-  "version": "5.1.0",
+  "version": "5.1.2",
   "description": "PowerShell Universal. Universal is a cross-platform solution for developing web-based tools with PowerShell. It currently provides three main features which include APIs, Automation and Dashboards",
   "homepage": "https://docs.powershelluniversal.com/",
   "license": "Proprietary",
   "changelog": "https://docs.powershelluniversal.com/changelog",
-  "url": "https://imsreleases.blob.core.windows.net/universal/production/5.1.0/PowerShellUniversal.5.1.0.msi#/setup.msi_",
-  "hash": "51af1e5e903c8205e12a3429191797ae8445523b84b39f490eab9d6be7b76c1f",
+  "url": "https://imsreleases.blob.core.windows.net/universal/production/5.1.2/PowerShellUniversal.5.1.2.msi#/setup.msi_",
+  "hash": "730eca9e2b00bd24dac7ecd0198110b10974e23457abd17dd3d74cc1d8c32730",
   "pre_download": "Assert-Administrator",
   "installer": {
     "script": [
