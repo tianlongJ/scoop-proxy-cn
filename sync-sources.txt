@@ -9,7 +9,7 @@ bucket/115.json, echoiron/echo-scoop, 0
 bucket/115chrome.json, echoiron/echo-scoop, 0
 bucket/11game-platform.json, SayCV/scoop-cvp, 0
 bucket/123pan.json, akirco/aki-apps, 1
-bucket/163MusicLyrics.json, ygguorun/scoop-bucket, 1
+bucket/163MusicLyrics.json, DoveBoy/Apps, 1
 bucket/1Remote-Portable.json, ACooper81/scoop-apps, 1
 bucket/1Remote.json, zhoujin7/tomato, 1
 bucket/1by1-Portable.json, ACooper81/scoop-apps, 0
@@ -365,7 +365,6 @@ bucket/EpicGamesLauncher-Install.json, ACooper81/scoop-apps, 0
 bucket/EpicGamesLauncher-Portable.json, ACooper81/scoop-apps, 0
 bucket/Eraser5-Portable.json, ACooper81/scoop-apps, 0
 bucket/EventLogViewer-Portable.json, ACooper81/scoop-apps, 0
-bucket/EverythingToolbar.json, kkzzhizhou/scoop-zapps, 1
 bucket/ExVR.json, Weidows-projects/scoop-3rd, 1
 bucket/ExifPilot-Portable.json, ACooper81/scoop-apps, 0
 bucket/ExplorerPatcher-Install.json, ACooper81/scoop-apps, 0
@@ -386,7 +385,7 @@ bucket/FerdiumNightly-Portable.json, ACooper81/scoop-apps, 1
 bucket/Fido-PSScript.json, ACooper81/scoop-apps, 1
 bucket/FileLocatorPro.json, kkzzhizhou/scoop-zapps, 1
 bucket/FileMenuTools-Portable.json, ACooper81/scoop-apps, 0
-bucket/FileMenuTools.json, kkzzhizhou/scoop-zapps, 1
+bucket/FileMenuTools.json, ViCrack/scoop-bucket, 0
 bucket/FileMonitor.json, ygguorun/scoop-bucket, 0
 bucket/Files-Install.json, ACooper81/scoop-apps, 0
 bucket/FilesInspector-Install.json, ACooper81/scoop-apps, 0
@@ -2445,6 +2444,7 @@ bucket/codeblocks.json, ScoopInstaller/Extras, 0
 bucket/codeowners-validator.json, ScoopInstaller/Main, 1
 bucket/codeql.json, ScoopInstaller/Main, 1
 bucket/coder.json, ScoopInstaller/Main, 1
+bucket/codesnap.json, ScoopInstaller/Extras, 1
 bucket/codespell-py.json, TheRandomLabs/Scoop-Python, 1
 bucket/codetrack.json, ScoopInstaller/Extras, 0
 bucket/coilcraft-filterdesigner.json, SayCV/scoop-cvp, 0
@@ -2493,6 +2493,7 @@ bucket/context.json, naderi/scoop-bucket, 0
 bucket/contig.json, niheaven/scoop-sysinternals, 1
 bucket/contour.json, ScoopInstaller/Extras, 1
 bucket/controlmymonitor.json, ScoopInstaller/Nirsoft, 0
+bucket/controlprinters.json, ScoopInstaller/Extras, 1
 bucket/converseen.json, ScoopInstaller/Extras, 1
 bucket/convert.net.json, ScoopInstaller/Extras, 0
 bucket/converter-now.json, naderi/scoop-bucket, 1
@@ -3282,6 +3283,7 @@ bucket/everything-np.json, ScoopInstaller/Nonportable, 0
 bucket/everything-powertoys.json, ScoopInstaller/Extras, 1
 bucket/everything-toolbar.json, naderi/scoop-bucket, 1
 bucket/everything.json, ScoopInstaller/Extras, 1
+bucket/everythingtoolbar.json, ScoopInstaller/Extras, 1
 bucket/evilpot.json, ViCrack/scoop-bucket, 1
 bucket/evince2.json, jingyu9575/scoop-jingyu9575, 0
 bucket/evkey.json, beerpiss/scoop-bucket, 1
@@ -3625,7 +3627,7 @@ bucket/foobox-cn.json, cc713/ownscoop, 1
 bucket/fopnu.json, naderi/scoop-bucket, 0
 bucket/force.json, ScoopInstaller/Main, 1
 bucket/forcebindip.json, ScoopInstaller/Main, 0
-bucket/fork.json, ScoopInstaller/Extras, 0
+bucket/fork.json, ScoopInstaller/Extras, 1
 bucket/forkgram.json, ScoopInstaller/Extras, 1
 bucket/format-factory.json, ScoopInstaller/Extras, 0
 bucket/fortio.json, aliesbelik/poldi, 1
@@ -3891,7 +3893,7 @@ bucket/github-hosts.json, DoveBoy/Apps, 1
 bucket/github.json, ScoopInstaller/Extras, 0
 bucket/gitify.json, ScoopInstaller/Extras, 1
 bucket/gitignore.json, ScoopInstaller/Main, 1
-bucket/gitkraken.json, ScoopInstaller/Extras, 0
+bucket/gitkraken.json, ScoopInstaller/Extras, 1
 bucket/gitkube.json, ScoopInstaller/Main, 1
 bucket/gitlab-release-cli.json, ScoopInstaller/Main, 0
 bucket/gitlab-runner.json, ScoopInstaller/Main, 0
@@ -7698,7 +7700,7 @@ bucket/roundedtb.json, ScoopInstaller/Extras, 1
 bucket/routedns.json, brian6932/dank-scoop, 0
 bucket/routerpassview.json, ScoopInstaller/Nirsoft, 0
 bucket/rpcs3-dev.json, cc713/ownscoop, 1
-bucket/rpcs3.json, Calinou/scoop-games, 1
+bucket/rpcs3.json, hermanjustnu/scoop-emulators, 1
 bucket/rq.json, aliesbelik/poldi, 1
 bucket/rsgain.json, ScoopInstaller/Extras, 1
 bucket/rssguard.json, ScoopInstaller/Extras, 1
@@ -9147,7 +9149,7 @@ bucket/v2ray.json, ScoopInstaller/Main, 1
 bucket/v2raya-unstable.json, DoveBoy/Apps, 0
 bucket/v2raya.json, DoveBoy/Apps, 1
 bucket/v2rayn-core-with-runtime.json, DoveBoy/Apps, 1
-bucket/v2rayn-core.json, seumsc/scoop-seu, 1
+bucket/v2rayn-core.json, DoveBoy/Apps, 1
 bucket/v2rayn-pre.json, ScoopInstaller/Versions, 1
 bucket/v2rayn-rules-dat.json, everyx/scoop-bucket, 1
 bucket/v2rayn.json, ScoopInstaller/Extras, 1
@@ -9769,7 +9771,7 @@ bucket/xdman-beta.json, ScoopInstaller/Versions, 1
 bucket/xdman.json, ScoopInstaller/Extras, 1
 bucket/xdoc2txt.json, mo-san/scoop-bucket, 0
 bucket/xebra.json, Calinou/scoop-games, 0
-bucket/xemu.json, Calinou/scoop-games, 1
+bucket/xemu.json, hermanjustnu/scoop-emulators, 1
 bucket/xenia-canary.json, Calinou/scoop-games, 1
 bucket/xenia.json, Calinou/scoop-games, 1
 bucket/xenos.json, HUMORCE/nuke, 1
@@ -9813,7 +9815,7 @@ bucket/xmplay-stuff.json, ScoopInstaller/Versions, 0
 bucket/xmplay.json, ScoopInstaller/Extras, 0
 bucket/xmrig.json, ScoopInstaller/Extras, 1
 bucket/xmusicdownloader.json, DoveBoy/Apps, 1
-bucket/xnconvert.json, ScoopInstaller/Extras, 0
+bucket/xnconvert.json, ScoopInstaller/Extras, 1
 bucket/xnresize.json, ScoopInstaller/Extras, 0
 bucket/xnview-classic-full.json, naderi/scoop-bucket, 0
 bucket/xnview-classic-min.json, naderi/scoop-bucket, 0
@@ -10137,6 +10139,8 @@ scripts/fixes-wsl-mac-dynaddr/.fixes-wsl-mac-dynaddr.bashrc, SayCV/scoop-cvp, 0
 scripts/fixes-wsl-mac-dynaddr/patch-bashrc.cmd, SayCV/scoop-cvp, 0
 scripts/fixes-wsl-mac-dynaddr/patch-bashrc.sh, SayCV/scoop-cvp, 0
 scripts/flutter-engine/.gclient.tpl, SayCV/scoop-cvp, 0
+scripts/fork/install-context.reg, ScoopInstaller/Extras, 0
+scripts/fork/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/gen-readme.ps1, iquiw/scoop-bucket, 0
 scripts/gen-visualvm-vbs.ps1, zhoujin7/tomato, 0
 scripts/get-spotify-path.ps1, TheRandomLabs/Scoop-Spotify, 0
@@ -10145,6 +10149,8 @@ scripts/git/install-context.reg, ScoopInstaller/Main, 0
 scripts/git/install-file-associations.reg, ScoopInstaller/Main, 0
 scripts/git/uninstall-context.reg, ScoopInstaller/Main, 0
 scripts/git/uninstall-file-associations.reg, ScoopInstaller/Main, 0
+scripts/gitkraken/install-context.reg, ScoopInstaller/Extras, 0
+scripts/gitkraken/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/grepwin/install-context.reg, ScoopInstaller/Extras, 0
 scripts/grepwin/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/harmonoid/install-harmonoid-associations.ps1, ScoopInstaller/Extras, 0
@@ -10181,6 +10187,8 @@ scripts/lockhunter/install-context.reg, ScoopInstaller/Extras, 0
 scripts/lockhunter/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/logitech-options-install.ahk, ACooper81/scoop-apps, 0
 scripts/logitech-options-uninstall.ahk, ACooper81/scoop-apps, 0
+scripts/losslesscut/install-associations.reg, ScoopInstaller/Extras, 0
+scripts/losslesscut/uninstall-associations.reg, ScoopInstaller/Extras, 0
 scripts/mdk533/TOOLS.INI.templ, SayCV/scoop-cvp, 0
 scripts/mdk533/install-context.reg.templ, SayCV/scoop-cvp, 0
 scripts/mdk533/uninstall-context.reg, SayCV/scoop-cvp, 0
@@ -10191,11 +10199,15 @@ scripts/modelsim-se202004-win64/install-context.reg.tpl, SayCV/scoop-cvp, 0
 scripts/modelsim-se202004-win64/scripts_modelsim.cmd.tpl, SayCV/scoop-cvp, 0
 scripts/modelsim-se202004-win64/uninstall-context.reg.tpl, SayCV/scoop-cvp, 0
 scripts/mouseinc/MouseInc.json, echoiron/echo-scoop, 0
+scripts/mp3tag/install-mp3tag-context.cmd, ScoopInstaller/Extras, 0
+scripts/mp3tag/uninstall-mp3tag-context.cmd, ScoopInstaller/Extras, 0
 scripts/msys2-mirror-cn/mirrorlist.mingw32, SayCV/scoop-cvp, 0
 scripts/msys2-mirror-cn/mirrorlist.mingw64, SayCV/scoop-cvp, 0
 scripts/msys2-mirror-cn/mirrorlist.msys, SayCV/scoop-cvp, 0
 scripts/musescore-install-file-associations.reg, TheRandomLabs/Scoop-Bucket, 0
 scripts/musescore-uninstall-file-associations.reg, TheRandomLabs/Scoop-Bucket, 0
+scripts/neovide/install-context.reg, ScoopInstaller/Extras, 0
+scripts/neovide/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/nerd-font-patcher/nerd-font-patcher.ps1, HUMORCE/nuke, 0
 scripts/netsarang/add-hosts.ps1, kkzzhizhou/scoop-zapps, 0
 scripts/notepad-install-replace.reg, everyx/scoop-bucket, 0
@@ -10326,10 +10338,14 @@ scripts/visual-studio-code/vscode-uninstall-context.reg, naderi/scoop-bucket, 0
 scripts/vscode/install-associations.reg, ScoopInstaller/Extras, 0
 scripts/vscode/install-context-it.reg, starise/Scoop-Confetti, 0
 scripts/vscode/install-context.reg, ScoopInstaller/Extras, 0
+scripts/vscode/install-github-integration.reg, ScoopInstaller/Extras, 0
 scripts/vscode/uninstall-associations.reg, ScoopInstaller/Extras, 0
 scripts/vscode/uninstall-context-it.reg, starise/Scoop-Confetti, 0
 scripts/vscode/uninstall-context.reg, ScoopInstaller/Extras, 0
+scripts/vscode/uninstall-github-integration.reg, ScoopInstaller/Extras, 0
 scripts/vulkan/install-vk-layers.ps1, ScoopInstaller/Main, 0
+scripts/wezterm/install-context.reg, ScoopInstaller/Extras, 0
+scripts/wezterm/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/windows-terminal-preview/install-context.reg, ScoopInstaller/Versions, 0
 scripts/windows-terminal-preview/uninstall-context.reg, ScoopInstaller/Versions, 0
 scripts/windows-terminal/install-context.reg, ScoopInstaller/Extras, 0
