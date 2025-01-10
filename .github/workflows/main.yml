@@ -19,8 +19,8 @@ jobs:
           git remote add upstream https://tianlong.jiang:${{ secrets.GITHUB_TOKEN }}@github.com/lzwme/scoop-proxy-cn.git
           git fetch upstream
           git merge upstream/main
-          rm -rf bucket/coodesker.json
-          cp bucket/Coodesker-Portable.json bucket/coodesker.json
+          cp -f bucket/Coodesker-Portable.json bucket/coodesker.json
+          cp -f bucket/OracleJDK8.json bucket/oracle8-jdk.json
           git diff --cached --quiet && echo "没有需要提交的文件，跳过提交。" || git commit -am "coodesker"
           git push origin main
         env:
