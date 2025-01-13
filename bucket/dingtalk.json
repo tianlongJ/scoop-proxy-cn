@@ -38,8 +38,8 @@
   },
   "shortcuts": [
     [
-      "DingtalkLauncher.exe",
-      "DingTalk"
+      "build\\dist\\Dingtalk.exe",
+      "钉钉"
     ]
   ],
   "checkver": {
