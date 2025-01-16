@@ -1257,6 +1257,7 @@ bucket/Unlocker-Portable.json, ACooper81/scoop-apps, 1
 bucket/UpdateHub-Portable.json, ACooper81/scoop-apps, 1
 bucket/UpdateManagerForWindows-Portable.json, ACooper81/scoop-apps, 1
 bucket/Upscayl-Portable.json, ACooper81/scoop-apps, 1
+bucket/UsbEAm-Hosts-Editor.json, Weidows-projects/scoop-3rd, 0
 bucket/V2V-Converter.json, kkzzhizhou/scoop-zapps, 0
 bucket/VBoxVmService-Portable.json, ACooper81/scoop-apps, 1
 bucket/VLC-Install.json, ACooper81/scoop-apps, 0
@@ -1905,7 +1906,7 @@ bucket/betterbird.json, ScoopInstaller/Extras, 0
 bucket/betterjoy-lts.json, hu3rror/scoop-muggle, 1
 bucket/betterjoy.json, Calinou/scoop-games, 1
 bucket/beyondcompare-zh-cn.json, chawyehsu/dorado, 0
-bucket/beyondcompare.json, ScoopInstaller/Extras, 1
+bucket/beyondcompare.json, ScoopInstaller/Extras, 0
 bucket/beyondcompare4.json, ScoopInstaller/Versions, 0
 bucket/bfg.json, ScoopInstaller/Main, 0
 bucket/bflat.json, ScoopInstaller/Main, 1
@@ -6230,6 +6231,7 @@ bucket/opdessertstorm.json, Calinou/scoop-games, 0
 bucket/open-log-viewer.json, ScoopInstaller/Extras, 1
 bucket/open-shell-menu-np.json, jingyu9575/scoop-jingyu9575, 1
 bucket/open-shell-np.json, ScoopInstaller/Nonportable, 1
+bucket/open-tv.json, ScoopInstaller/Extras, 1
 bucket/open-video-downloader.json, hu3rror/scoop-muggle, 1
 bucket/open-xrechnung-toolbox.json, naderi/scoop-bucket, 1
 bucket/openai-translator.json, ScoopInstaller/Extras, 1
@@ -6981,6 +6983,7 @@ bucket/phyrox-esr-portapps.json, Velgus/Scoop-Portapps, 1
 bucket/phyrox-portapps.json, Velgus/Scoop-Portapps, 1
 bucket/pia-desktop.json, ScoopInstaller/Extras, 0
 bucket/pianobar.json, ScoopInstaller/Extras, 1
+bucket/pic2meme.json, ygguorun/scoop-bucket, 1
 bucket/picacg-qt.json, cc713/ownscoop, 1
 bucket/picacomic-downloader-portable.json, DoveBoy/Apps, 1
 bucket/picacomic-downloader.json, DoveBoy/Apps, 1
@@ -7020,7 +7023,7 @@ bucket/pixel-clipper.json, brian6932/dank-scoop, 0
 bucket/pixelflasher.json, ScoopInstaller/Extras, 1
 bucket/pixelorama.json, ScoopInstaller/Extras, 1
 bucket/pixfront.json, mo-san/scoop-bucket, 0
-bucket/pixi.json, ivaquero/scoopet, 1
+bucket/pixi.json, chawyehsu/dorado, 1
 bucket/pixie.json, ScoopInstaller/Extras, 0
 bucket/pixitracker-1bit.json, ScoopInstaller/Extras, 0
 bucket/pixitracker.json, ScoopInstaller/Extras, 0
@@ -7722,7 +7725,7 @@ bucket/roundedtb.json, ScoopInstaller/Extras, 1
 bucket/routedns.json, brian6932/dank-scoop, 0
 bucket/routerpassview.json, ScoopInstaller/Nirsoft, 0
 bucket/rpcs3-dev.json, cc713/ownscoop, 1
-bucket/rpcs3.json, hermanjustnu/scoop-emulators, 1
+bucket/rpcs3.json, Calinou/scoop-games, 1
 bucket/rq.json, aliesbelik/poldi, 1
 bucket/rsgain.json, ScoopInstaller/Extras, 1
 bucket/rssguard.json, ScoopInstaller/Extras, 1
@@ -8310,6 +8313,7 @@ bucket/speedbump.json, aliesbelik/poldi, 1
 bucket/speedcrunch.json, ScoopInstaller/Extras, 0
 bucket/speedfan.json, ScoopInstaller/Extras, 0
 bucket/speedtest-cli.json, ScoopInstaller/Main, 0
+bucket/speedtest-go.json, aliesbelik/poldi, 1
 bucket/speedtest.json, ScoopInstaller/Extras, 0
 bucket/speedyfox.json, ScoopInstaller/Extras, 0
 bucket/spek-X.json, hu3rror/scoop-muggle, 1
@@ -9133,7 +9137,6 @@ bucket/usbdeview.json, ScoopInstaller/Nirsoft, 0
 bucket/usbdlm.json, rasa/scoops, 0
 bucket/usbdrivelog.json, ScoopInstaller/Nirsoft, 0
 bucket/usbeam-consoles-dns.json, hu3rror/scoop-muggle, 0
-bucket/usbeam-hosts-editor.json, seumsc/scoop-seu, 0
 bucket/usbimager.json, ScoopInstaller/Extras, 0
 bucket/usblogview.json, ScoopInstaller/Nirsoft, 0
 bucket/usblyzer.json, SayCV/scoop-cvp, 0
@@ -9908,7 +9911,7 @@ bucket/yai.json, aliesbelik/poldi, 1
 bucket/yakc.json, amorphobia/siku, 1
 bucket/yakit.json, ViCrack/scoop-bucket, 0
 bucket/yakyak.json, ScoopInstaller/Extras, 1
-bucket/yamlfmt.json, aliesbelik/poldi, 1
+bucket/yamlfmt.json, ScoopInstaller/Main, 1
 bucket/yandex.json, naderi/scoop-bucket, 0
 bucket/yank-note.json, DoveBoy/Apps, 1
 bucket/yapa.json, ScoopInstaller/Extras, 1
@@ -9983,7 +9986,7 @@ bucket/yuki.json, HCLonely/my-scoop-bucket, 1
 bucket/yumi-exfat.json, ScoopInstaller/Extras, 0
 bucket/yumi-uefi.json, ScoopInstaller/Extras, 0
 bucket/yumi.json, ScoopInstaller/Extras, 0
-bucket/yuque.json, akirco/aki-apps, 0
+bucket/yuque.json, chawyehsu/dorado, 0
 bucket/yuzu-pineapple.json, hermanjustnu/scoop-emulators, 1
 bucket/yuzu.json, hermanjustnu/scoop-emulators, 1
 bucket/yy-thunks.json, wzv5/ScoopBucket, 1
@@ -10135,9 +10138,6 @@ scripts/alacritty/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/anlogic-td/install-context.reg.tpl, SayCV/scoop-cvp, 0
 scripts/anlogic-td/uninstall-context.reg.tpl, SayCV/scoop-cvp, 0
 scripts/bee/beesvc.cmd, chawyehsu/dorado, 0
-scripts/beyondcompare/install-context-32bit.reg, ScoopInstaller/Extras, 0
-scripts/beyondcompare/install-context-64bit.reg, ScoopInstaller/Extras, 0
-scripts/beyondcompare/uninstall-context.reg, ScoopInstaller/Extras, 0
 scripts/beyondcompare4/install-context-32bit.reg, ScoopInstaller/Versions, 0
 scripts/beyondcompare4/install-context-64bit.reg, ScoopInstaller/Versions, 0
 scripts/beyondcompare4/uninstall-context.reg, ScoopInstaller/Versions, 0
