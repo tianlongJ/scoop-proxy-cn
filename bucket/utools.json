@@ -8,7 +8,7 @@
       "url": "https://open.u-tools.cn/download/uTools-6.1.0.exe#/dl.7z",
       "hash": "b6eea8420f124dda26823c846f846f04bd2ceb6693303a7d7d273d43ceabd892",
       "installer": {
-        "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\\utools\""
+        "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
       }
     },
     "32bit": {
@@ -19,13 +19,10 @@
       }
     }
   },
-  "extract_dir": "$PLUGINSDIR",
-  "extract_to": "PLUGINSDIR",
-  "post_install": "Remove-Item -RECURSE $original_dir/PLUGINSDIR",
-  "bin": "utools\\uTools.exe",
+  "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
   "shortcuts": [
     [
-      "utools\\uTools.exe",
+      "uTools.exe",
       "uTools"
     ]
   ],
