@@ -1224,6 +1224,7 @@ bucket/UAC.YoudaoDict.Pure.json, Paxxs/Cluttered-bucket, 0
 bucket/UAC.ZXPInstaller.json, Paxxs/Cluttered-bucket, 1
 bucket/UAC.kdeconnect.json, Paxxs/Cluttered-bucket, 0
 bucket/UAC.xshell6.json, Paxxs/Cluttered-bucket, 0
+bucket/UAssetGUI.json, NyaMisty/scoop_bucket_misty, 1
 bucket/UCheck-Portable.json, ACooper81/scoop-apps, 0
 bucket/UELI-Portable.json, ACooper81/scoop-apps, 1
 bucket/UGetDownloadManager-Portable.json, ACooper81/scoop-apps, 0
@@ -5526,6 +5527,7 @@ bucket/migrated/ov.json, aliesbelik/poldi, 1
 bucket/migrated/restfox.json, aliesbelik/poldi, 1
 bucket/migrated/riff.json, aliesbelik/poldi, 1
 bucket/migrated/sshs.json, aliesbelik/poldi, 1
+bucket/migrated/superfile.json, aliesbelik/poldi, 1
 bucket/migrated/tailspin.json, aliesbelik/poldi, 1
 bucket/migrated/taplo.json, aliesbelik/poldi, 1
 bucket/migrated/tcping.json, aliesbelik/poldi, 0
@@ -5534,6 +5536,7 @@ bucket/migrated/tf-summarize.json, aliesbelik/poldi, 1
 bucket/migrated/ttdl.json, aliesbelik/poldi, 1
 bucket/migrated/wait4x.json, aliesbelik/poldi, 1
 bucket/migrated/walk.json, aliesbelik/poldi, 1
+bucket/migrated/yamlfmt.json, aliesbelik/poldi, 1
 bucket/mihome-token.json, amorphobia/siku, 1
 bucket/mihomo-check.json, DoveBoy/Apps, 1
 bucket/mihomo-compatible-go120.json, DoveBoy/Apps, 1
@@ -7165,7 +7168,7 @@ bucket/powertool.json, HUMORCE/nuke, 1
 bucket/powertoys-np.json, ScoopInstaller/Nonportable, 1
 bucket/powertoys.json, ScoopInstaller/Extras, 1
 bucket/pping.json, wzv5/ScoopBucket, 1
-bucket/ppsspp-dev.json, borger/scoop-emulators, 0
+bucket/ppsspp-dev.json, Calinou/scoop-games, 0
 bucket/ppsspp.json, Calinou/scoop-games, 0
 bucket/praat.json, ScoopInstaller/Extras, 1
 bucket/pragtical.json, ScoopInstaller/Extras, 1
@@ -9381,6 +9384,7 @@ bucket/vrcx.json, ScoopInstaller/Extras, 1
 bucket/vrf-decompiler.json, HUMORCE/nuke, 1
 bucket/vroid-studio.json, ScoopInstaller/Extras, 0
 bucket/vscan.json, ViCrack/scoop-bucket, 1
+bucket/vscli.json, aliesbelik/poldi, 1
 bucket/vscode-dev.json, kiennq/scoop-misc, 1
 bucket/vscode-insider.json, naderi/scoop-bucket, 1
 bucket/vscode-insiders-portable.json, kidonng/sushi, 0
