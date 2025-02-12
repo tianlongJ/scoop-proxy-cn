@@ -8,7 +8,7 @@
   },
   "depends": "7zip19.00-helper",
   "url": "https://download.microsoft.com/download/#/dl.7z_",
-  "hash": "be874fa93cd1e0f588dfbda784de4cfd94974798d362daa6c7b28d8f7294e947",
+  "hash": "50380705843f48782f74de4c9e05bff55fa92f9e5b61ecda78b7b8b5ce07679d",
   "pre_install": [
     "$scriptdir = \"$bucketsdir\\$bucket\\scripts\"",
     "if ($architecture -eq '64bit') {",
