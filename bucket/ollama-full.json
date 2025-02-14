@@ -1,0 +1,41 @@
+{
+  "version": "0.5.9",
+  "description": "Get up and running with large language models locally.",
+  "homepage": "https://ollama.com/",
+  "license": "MIT",
+  "url": "https://github.com/ollama/ollama/releases/download/v0.5.9/OllamaSetup.exe",
+  "hash": "0fd108b6b99488c4ff7cc06bf941265eb1fa77f6a4fad90ed079fde0229af068",
+  "architecture": {
+    "64bit": {
+      "pre_install": [
+        "Get-ChildItem \"$dir\\*,1.*\" -Recurse | Rename-Item -NewName { $_.FullName -replace ',1\\.', '.' }",
+        "Get-ChildItem \"$dir\\*,2.*\" -Recurse | Remove-Item"
+      ]
+    },
+    "arm64": {
+      "pre_install": [
+        "Get-ChildItem \"$dir\\*,2.*\" -Recurse | Rename-Item -NewName { $_.FullName -replace ',2\\.', '.' }",
+        "Get-ChildItem \"$dir\\*,1.*\" -Recurse | Remove-Item"
+      ]
+    }
+  },
+  "innosetup": true,
+  "bin": "ollama.exe",
+  "shortcuts": [
+    [
+      "ollama app.exe",
+      "Ollama",
+      "",
+      "app.ico"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/ollama/ollama"
+  },
+  "autoupdate": {
+    "url": "https://github.com/ollama/ollama/releases/download/v$version/OllamaSetup.exe",
+    "hash": {
+      "url": "$baseurl/sha256sum.txt"
+    }
+  }
+}

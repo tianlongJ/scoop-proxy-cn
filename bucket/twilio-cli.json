@@ -1,0 +1,50 @@
+{
+  "version": "5.22.11",
+  "description": "Twilio CLI. Unleash the power of Twilio from your command prompt.",
+  "homepage": "https://github.com/twilio/twilio-cli",
+  "license": "MIT",
+  "notes": [
+    "* Known issue:",
+    "  - Extration requires Developer mode to be enabled, or admin rights: https://github.com/ScoopInstaller/Main/issues/4975"
+  ],
+  "suggest": {
+    "Node.js": [
+      "main/nodejs",
+      "main/nodejs-lts"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-v5.22.11/twilio-v5.22.11-win32-x64.tar.xz",
+      "hash": "b4586963537156d58abcc559957af986e2bef1cf73ed639d28b9d1eeccc4cb15"
+    },
+    "32bit": {
+      "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-v5.22.11/twilio-v5.22.11-win32-x86.tar.xz",
+      "hash": "3a6f20fedd7e736cbf70318dfb5a3115617db72474c50141970c83f65fcd2be4"
+    }
+  },
+  "extract_dir": "twilio",
+  "bin": "bin\\twilio.cmd",
+  "checkver": {
+    "url": "https://twilio-cli-prod.s3.amazonaws.com/version",
+    "jsonpath": "$.version"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-v$version/twilio-v$version-win32-x64.tar.xz",
+        "hash": {
+          "url": "https://twilio-cli-prod.s3.amazonaws.com/win32-x64",
+          "jsonpath": "$.sha256xz"
+        }
+      },
+      "32bit": {
+        "url": "https://twilio-cli-prod.s3.amazonaws.com/twilio-v$version/twilio-v$version-win32-x86.tar.xz",
+        "hash": {
+          "url": "https://twilio-cli-prod.s3.amazonaws.com/win32-x86",
+          "jsonpath": "$.sha256xz"
+        }
+      }
+    }
+  }
+}

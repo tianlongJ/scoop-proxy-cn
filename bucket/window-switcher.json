@@ -1,0 +1,68 @@
+{
+  "version": "1.13.0",
+  "description": "Easily switch between windows of the same app with Alt+` (Backtick), also switch between apps with Alt+Tab.",
+  "homepage": "https://github.com/sigoden/window-switcher",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": [
+        "https://github.com/sigoden/window-switcher/releases/download/v1.13.0/window-switcher-v1.13.0-windows-64.zip",
+        "https://github.com/sigoden/window-switcher/raw/v1.13.0/window-switcher.ini"
+      ],
+      "hash": [
+        "cefac683a36f47f7e6246d723c77ea07c9ecbb594171bf3be33da5244628fa3b",
+        "2a2552569c84aa71c6695193dd337e284b43078de2a682a32f8657d9764bbc62"
+      ]
+    },
+    "32bit": {
+      "url": [
+        "https://github.com/sigoden/window-switcher/releases/download/v1.13.0/window-switcher-v1.13.0-windows-32.zip",
+        "https://github.com/sigoden/window-switcher/raw/v1.13.0/window-switcher.ini"
+      ],
+      "hash": [
+        "abe295a93ed3177fbaf9f9298cf0f9e8428b9a45c8234813972bb914deaf591a",
+        "2a2552569c84aa71c6695193dd337e284b43078de2a682a32f8657d9764bbc62"
+      ]
+    },
+    "arm64": {
+      "url": [
+        "https://github.com/sigoden/window-switcher/releases/download/v1.13.0/window-switcher-v1.13.0-windows-arm64.zip",
+        "https://github.com/sigoden/window-switcher/raw/v1.13.0/window-switcher.ini"
+      ],
+      "hash": [
+        "d6a87e8930f0e9bb586981e0ade2bd63e961804a4952b9a6e27c5078f1c29d60",
+        "2a2552569c84aa71c6695193dd337e284b43078de2a682a32f8657d9764bbc62"
+      ]
+    }
+  },
+  "shortcuts": [
+    [
+      "window-switcher.exe",
+      "Window Switcher"
+    ]
+  ],
+  "persist": "window-switcher.ini",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": [
+          "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-64.zip",
+          "https://github.com/sigoden/window-switcher/raw/v$version/window-switcher.ini"
+        ]
+      },
+      "32bit": {
+        "url": [
+          "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-32.zip",
+          "https://github.com/sigoden/window-switcher/raw/v$version/window-switcher.ini"
+        ]
+      },
+      "arm64": {
+        "url": [
+          "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-arm64.zip",
+          "https://github.com/sigoden/window-switcher/raw/v$version/window-switcher.ini"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "4.2.4",
+  "description": "Opens required browser based on configuration",
+  "homepage": "https://www.aloneguid.uk/projects/bt/",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/aloneguid/bt/releases/download/4.2.4/bt-4.2.4.zip",
+      "hash": "e4ce195d62c0ca84e3acda0f65a98efa865f03f92798699f2b23f2e2871f0876"
+    }
+  },
+  "pre_install": [
+    "# Portable",
+    "New-Item \"$dir\\.portable\" -ItemType File | Out-Null",
+    "if (!(Test-Path \"$persist_dir\\config.ini\")) { New-Item \"$dir\\config.ini\" -ItemType File | Out-Null }",
+    "if (!(Test-Path \"$persist_dir\\hit_log.csv\")) { New-Item \"$dir\\hit_log.csv\" -ItemType File | Out-Null }"
+  ],
+  "bin": "bt.exe",
+  "shortcuts": [
+    [
+      "bt.exe",
+      "Browser Tamer"
+    ]
+  ],
+  "persist": [
+    "config.ini",
+    "hit_log.csv"
+  ],
+  "checkver": {
+    "github": "https://github.com/aloneguid/bt"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/aloneguid/bt/releases/download/$version/bt-$version.zip",
+        "hash": {
+          "url": "$url.sha256.txt"
+        }
+      }
+    }
+  }
+}
