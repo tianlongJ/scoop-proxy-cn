@@ -1847,7 +1847,7 @@ bucket/bandicam.json, echoiron/echo-scoop, 0
 bucket/bandizip-classic.json, HUMORCE/nuke, 0
 bucket/bandizip.json, ScoopInstaller/Extras, 0
 bucket/bandizip6.json, ScoopInstaller/Versions, 0
-bucket/bandwhich.json, aliesbelik/poldi, 1
+bucket/bandwhich.json, ScoopInstaller/Main, 1
 bucket/baregrep.json, ScoopInstaller/Extras, 0
 bucket/baretail.json, ScoopInstaller/Extras, 0
 bucket/barrier-np.json, ScoopInstaller/Nonportable, 1
@@ -3419,6 +3419,7 @@ bucket/fclones.json, ScoopInstaller/Extras, 1
 bucket/fd.json, ScoopInstaller/Main, 1
 bucket/feather.json, MCOfficer/scoop-bucket, 1
 bucket/featherwallet.json, ScoopInstaller/Extras, 0
+bucket/fedify.json, ScoopInstaller/Main, 1
 bucket/feedster.json, rasa/scoops, 1
 bucket/feeluown.json, ivaquero/scoopet, 1
 bucket/feem.json, ScoopInstaller/Extras, 0
@@ -4250,6 +4251,7 @@ bucket/haskell.json, ScoopInstaller/Main, 0
 bucket/haskell863.json, ScoopInstaller/Versions, 0
 bucket/haskplex.json, KnotUntied/scoop-fonts, 0
 bucket/hasura-cli.json, ScoopInstaller/Main, 1
+bucket/hatch.json, ScoopInstaller/Main, 1
 bucket/haxe-dev.json, ScoopInstaller/Versions, 1
 bucket/haxe.json, ScoopInstaller/Main, 1
 bucket/hbuilderx.json, echoiron/echo-scoop, 0
@@ -4732,7 +4734,7 @@ bucket/jmeter-pm.json, ScoopInstaller/Extras, 0
 bucket/jmeter.json, ScoopInstaller/Extras, 0
 bucket/jmkvpropedit.json, ScoopInstaller/Extras, 1
 bucket/jndinjector.json, ViCrack/scoop-bucket, 1
-bucket/jnv.json, aliesbelik/poldi, 1
+bucket/jnv.json, ScoopInstaller/Main, 1
 bucket/jo.json, ScoopInstaller/Main, 1
 bucket/joe.json, ScoopInstaller/Extras, 0
 bucket/john-the-ripper.json, jingyu9575/scoop-jingyu9575, 0
@@ -5304,6 +5306,7 @@ bucket/lunarips.json, Deide/deide-bucket, 0
 bucket/lunarvim.json, ScoopInstaller/Extras, 1
 bucket/lunatask.json, starise/Scoop-Confetti, 1
 bucket/lunatic.json, batkiz/backit, 1
+bucket/lutgen.json, ScoopInstaller/Main, 1
 bucket/lux.json, ScoopInstaller/Main, 1
 bucket/luyten.json, TheCjw/scoop-retools, 1
 bucket/lwc.json, ScoopInstaller/Main, 1
@@ -5474,6 +5477,7 @@ bucket/mendeley.json, ScoopInstaller/Extras, 0
 bucket/meow.json, ScoopInstaller/Extras, 1
 bucket/mercurial.json, ScoopInstaller/Main, 0
 bucket/mercury.json, brian6932/dank-scoop, 1
+bucket/mergiraf.json, ScoopInstaller/Main, 0
 bucket/mery.json, SayCV/scoop-cvp, 0
 bucket/mesa3d-mingw.json, Calinou/scoop-games, 1
 bucket/mesa3d.json, Calinou/scoop-games, 1
@@ -6115,7 +6119,7 @@ bucket/ntrace-v1.json, DoveBoy/Apps, 1
 bucket/ntttcp.json, aliesbelik/poldi, 1
 bucket/nu.json, ScoopInstaller/Main, 1
 bucket/nuclear.json, ScoopInstaller/Extras, 1
-bucket/nuclei.json, ViCrack/scoop-bucket, 1
+bucket/nuclei.json, ScoopInstaller/Main, 0
 bucket/nucleistudio.json, SayCV/scoop-cvp, 0
 bucket/nuget-package-explorer.json, ScoopInstaller/Extras, 0
 bucket/nuget.json, ScoopInstaller/Main, 0
@@ -7133,6 +7137,7 @@ bucket/pomerium.json, MCOfficer/scoop-bucket, 1
 bucket/pomotodo.json, ScoopInstaller/Extras, 0
 bucket/pomsky.json, ScoopInstaller/Main, 1
 bucket/popcorn-time.json, ScoopInstaller/Extras, 1
+bucket/popeye.json, ScoopInstaller/Main, 1
 bucket/poppler.json, ScoopInstaller/Main, 1
 bucket/poppler068.json, ScoopInstaller/Versions, 0
 bucket/portable-build-tools.json, amorphobia/siku, 1
@@ -8801,6 +8806,7 @@ bucket/terraform011.json, ScoopInstaller/Versions, 0
 bucket/terraformer.json, ScoopInstaller/Main, 1
 bucket/terragrunt.json, ScoopInstaller/Main, 1
 bucket/terrap.json, aliesbelik/poldi, 1
+bucket/terrascan.json, ScoopInstaller/Main, 1
 bucket/tesseract-game.json, Calinou/scoop-games, 0
 bucket/tesseract-languages.json, ScoopInstaller/Main, 1
 bucket/tesseract.json, ScoopInstaller/Main, 1
@@ -8992,6 +8998,7 @@ bucket/transmission-cli.json, ScoopInstaller/Main, 1
 bucket/transmission-portapps.json, Velgus/Scoop-Portapps, 1
 bucket/transmission.json, ScoopInstaller/Extras, 1
 bucket/trash.json, chawyehsu/dorado, 1
+bucket/trashy.json, ScoopInstaller/Main, 1
 bucket/traymond.json, ScoopInstaller/Extras, 1
 bucket/trays.json, NyaMisty/scoop_bucket_misty, 1
 bucket/trayweather.json, ScoopInstaller/Extras, 1
