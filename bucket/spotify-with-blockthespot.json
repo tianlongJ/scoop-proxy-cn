@@ -1,12 +1,12 @@
 {
   "version": "1.1.4.197.g92d52c4f",
   "description": "Old version of Spotify with BlockTheSpot to block advertisements.",
-  "homepage": "https:github.commaster131BlockTheSpot",
+  "homepage": "https://github.com/master131/BlockTheSpot",
   "license": {
     "identifier": "Freeware",
-    "url": "https:www.spotify.comaulegalend-user-agreement"
+    "url": "https://www.spotify.com/au/legal/end-user-agreement/"
   },
-  "url": "https:github.commaster131BlockTheSpotrawmasterdowngrade.bat",
+  "url": "https://github.com/master131/BlockTheSpot/raw/master/downgrade.bat",
   "hash": "e5ac829a0e6c75478d868d925663b1db9aa7d0e316ac53634766ef33c8f763c2",
   "notes": "--purge should be used to fully uninstall this package.",
   "installer": {
@@ -38,7 +38,7 @@
       "    $spotify_process | ForEach-Object { Stop-Process -Id $_.Id }",
       "} | Out-Null",
       "",
-      "Start-Process -Wait -WindowStyle Hidden cmd \"c cd D `\"$($dir)`\" && .\\downgrade.bat\"",
+      "Start-Process -Wait -WindowStyle Hidden cmd \"/c cd /D `\"$($dir)`\" && .\\downgrade.bat\"",
       "Remove-Item \"$dir\\downgrade.bat\"",
       "",
       "Remove-Item \"$([Environment]::GetFolderPath('Desktop'))\\Spotify.lnk\" | Out-Null",
@@ -47,10 +47,10 @@
       "Remove-Item \"$env:APPDATA\\Spotify\"",
       "Move-Item -ErrorAction Ignore -Force \"$env:APPDATA\\Spotify.original\" -Destination \"$env:APPDATA\\Spotify\" | Out-Null",
       "",
-      "icacls \"$env:LOCALAPPDATA\\Spotify\\Update\" reset T | Out-Null",
+      "icacls \"$env:LOCALAPPDATA\\Spotify\\Update\" /reset /T | Out-Null",
       "Remove-Item -ErrorAction Ignore -Recurse \"$env:LOCALAPPDATA\\Spotify\\Update\" | Out-Null",
       "New-Item -ErrorAction Ignore \"$env:LOCALAPPDATA\\Spotify\\Update\" -ItemType Directory | Out-Null",
-      "icacls \"$env:LOCALAPPDATA\\Spotify\\Update\" deny Everyone:R | Out-Null"
+      "icacls \"$env:LOCALAPPDATA\\Spotify\\Update\" /deny Everyone:R | Out-Null"
     ]
   },
   "post_install": "if (installed spicetify-cli) { init-spicetify-config-and-apply }",
@@ -63,9 +63,9 @@
       "",
       "Stop-Process -ErrorAction Ignore -Name Spotify | Out-Null",
       "if (-not $purge) { Move-Item -ErrorAction Ignore -Force \"$env:APPDATA\\Spotify\" -Destination \"$env:APPDATA\\Spotify.original\" }",
-      "Start-Process -Wait \"$dir\\Spotify.exe\" -ArgumentList 'Uninstall', 'Silent'",
+      "Start-Process -Wait \"$dir\\Spotify.exe\" -ArgumentList '/Uninstall', '/Silent'",
       "if (-not $purge) { Move-Item -ErrorAction Ignore -Force \"$env:APPDATA\\Spotify.original\" -Destination \"$env:APPDATA\\Spotify\" }",
-      "icacls \"$env:LOCALAPPDATA\\Spotify\\Update\" grant Everyone:R | Out-Null",
+      "icacls \"$env:LOCALAPPDATA\\Spotify\\Update\" /grant Everyone:R | Out-Null",
       "if ($purge) { Remove-Item -ErrorAction Ignore -Recurse -Force \"$env:LOCALAPPDATA\\Spotify\" }",
       "else { Remove-Item -ErrorAction Ignore -Recurse -Force \"$env:LOCALAPPDATA\\Spotify\\Update\" }"
     ]

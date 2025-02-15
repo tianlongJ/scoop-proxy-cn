@@ -1,17 +1,17 @@
 {
-  "##": "Download URL https:dotnet.microsoft.comen-usdownloaddotnet7.0",
+  "##": "Download URL https://dotnet.microsoft.com/en-us/download/dotnet/7.0",
   "version": "9.0.2",
   "description": "Microsoft .NET Core Runtime. The .NET Runtime contains just the components needed to run a console app.",
-  "homepage": "https:dotnet.microsoft.com",
+  "homepage": "https://dotnet.microsoft.com/",
   "license": "Freeware",
-  "changelog": "https:github.comdotnetcoretreemainrelease-notes",
+  "changelog": "https://github.com/dotnet/core/tree/main/release-notes",
   "architecture": {
     "64bit": {
-      "url": "https:dotnet.microsoft.comen-usdownloaddotnetthank-youruntime-9.0.2-windows-x64-installer#setup.exe",
+      "url": "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.2-windows-x64-installer#/setup.exe",
       "hash": "1633b27ca369bc30564c810dd88efa27c33e4e97041450d19be6924a19e3fd0e"
     },
     "32bit": {
-      "url": "https:dotnet.microsoft.comen-usdownloaddotnetthank-youruntime-9.0.2-windows-x86-installer#setup.exe",
+      "url": "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.2-windows-x86-installer#/setup.exe",
       "hash": "ff013db59795932d159572512d17756895d8fa6f778f31e0effd85900b78b008"
     }
   },
@@ -19,12 +19,12 @@
   "installer": {
     "script": [
       "$programname = \"Microsoft .NET Runtime*\"",
-      "$downloadlink = \"https:dotnet.microsoft.comdownloaddotnet-corecurrentruntime\"",
+      "$downloadlink = \"https://dotnet.microsoft.com/download/dotnet-core/current/runtime\"",
       "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFiles\")",
       "$filepath = \"$ProgramFiles\\dotnet\\shared\\Microsoft.NETCore.App\\$version\\System.Core.dll\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   &\"$dir\\setup.exe\" install quiet norestart | Out-Null",
+      "   &\"$dir\\setup.exe\" /install /quiet /norestart | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",
@@ -34,16 +34,16 @@
     ]
   },
   "checkver": {
-    "url": "https:dotnetcli.blob.core.windows.netdotnetrelease-metadatareleases-index.json",
+    "url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
     "regex": "\"latest-runtime\": \"([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:dotnet.microsoft.comen-usdownloaddotnetthank-youruntime-$version-windows-x64-installer#setup.exe"
+        "url": "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-$version-windows-x64-installer#/setup.exe"
       },
       "32bit": {
-        "url": "https:dotnet.microsoft.comen-usdownloaddotnetthank-youruntime-$version-windows-x86-installer#setup.exe"
+        "url": "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-$version-windows-x86-installer#/setup.exe"
       }
     }
   }

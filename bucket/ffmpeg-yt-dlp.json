@@ -1,19 +1,19 @@
 {
   "version": "7.1-195-20250214",
   "description": "FFMpeg builds of latest release branch with patches necessary for smooth integration with yt-dlp",
-  "homepage": "https:github.comyt-dlpFFmpeg-Builds",
+  "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
   "license": "MIT",
   "suggest": {
     "yt-dlp": "yt-dlp"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comyt-dlpFFmpeg-Buildsreleasesdownloadautobuild-2025-02-14-14-14ffmpeg-n7.1-195-g8cabfd922a-win64-gpl-7.1.zip",
+      "url": "https://ghfast.top/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2025-02-14-14-14/ffmpeg-n7.1-195-g8cabfd922a-win64-gpl-7.1.zip",
       "hash": "4af7bae3af544467d09cb17ea65fb9610f31adff7447e58943af1af7281e8cd3",
       "extract_dir": "ffmpeg-n7.1-195-g8cabfd922a-win64-gpl-7.1"
     },
     "32bit": {
-      "url": "https:github.comyt-dlpFFmpeg-Buildsreleasesdownloadautobuild-2025-02-14-14-14ffmpeg-n7.1-195-g8cabfd922a-win32-gpl-7.1.zip",
+      "url": "https://ghfast.top/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2025-02-14-14-14/ffmpeg-n7.1-195-g8cabfd922a-win32-gpl-7.1.zip",
       "hash": "e2af4dadfbd8ed0ab08ca8215ef8dc0081eda2b28c0c20170189bc79c05e304a",
       "extract_dir": "ffmpeg-n7.1-195-g8cabfd922a-win32-gpl-7.1"
     }
@@ -26,8 +26,8 @@
   "checkver": {
     "script": [
       "# 32-bit file is either listed above or below the 64-bit one. Therefore we need a checkver script to match it.",
-      "$url = 'https:api.github.comrepositories377430603releases'",
-      "$regex_64bit = 'autobuild-(?<buildtime>(?<builddate>\\d{4}-\\d{2}-\\d{2})-\\d{2}-\\d{2})(?<filename>ffmpeg-n(?<ffmpegver>[\\d.-]+)-\\w+-win64-gpl-[\\d.]+)\\.zip'",
+      "$url = 'https://api.github.com/repositories/377430603/releases'",
+      "$regex_64bit = 'autobuild-(?<buildtime>(?<builddate>\\d{4}-\\d{2}-\\d{2})-\\d{2}-\\d{2})/(?<filename>ffmpeg-n(?<ffmpegver>[\\d.-]+)-\\w+-win64-gpl-[\\d.]+)\\.zip'",
       "$regex_32bit = $regex_64bit.replace('win64', 'win32')",
       "$cont = $(Invoke-WebRequest($url)).Content | ConvertFrom-Json",
       "$file_urls = @()",
@@ -47,11 +47,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comyt-dlpFFmpeg-Buildsreleasesdownloadautobuild-$matchBuildtime$matchFilename64bit.zip",
+        "url": "https://ghfast.top/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename64bit.zip",
         "extract_dir": "$matchFilename64bit"
       },
       "32bit": {
-        "url": "https:github.comyt-dlpFFmpeg-Buildsreleasesdownloadautobuild-$matchBuildtime$matchFilename32bit.zip",
+        "url": "https://ghfast.top/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename32bit.zip",
         "extract_dir": "$matchFilename32bit"
       }
     }

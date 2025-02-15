@@ -1,10 +1,10 @@
 {
   "version": "1.4.3",
   "description": "Chocolatey. The package manager for Windows",
-  "homepage": "https:chocolatey.org",
+  "homepage": "https://chocolatey.org/",
   "license": "Unknown",
-  "changelog": "https:docs.chocolatey.orgen-uschocorelease-notes",
-  "url": "https:chocolatey.orginstall.ps1",
+  "changelog": "https://docs.chocolatey.org/en-us/choco/release-notes",
+  "url": "https://chocolatey.org/install.ps1",
   "hash": "44e045ed5350758616d664c5af631e7f2cd10165f5bf2bd82cbf3a0bb8f63462",
   "installer": {
     "script": [
@@ -16,23 +16,23 @@
     ]
   },
   "bin": [
-    "binchoco.exe",
-    "binchocolatey.exe",
-    "bincinst.exe",
-    "binclist.exe",
-    "bincpack.exe",
-    "bincpush.exe",
-    "bincuninst.exe",
-    "bincup.exe",
-    "bincver.exe",
-    "binRefreshEnv.cmd"
+    "bin/choco.exe",
+    "bin/chocolatey.exe",
+    "bin/cinst.exe",
+    "bin/clist.exe",
+    "bin/cpack.exe",
+    "bin/cpush.exe",
+    "bin/cuninst.exe",
+    "bin/cup.exe",
+    "bin/cver.exe",
+    "bin/RefreshEnv.cmd"
   ],
   "checkver": {
-    "url": "https:github.comchocolateychocoreleases",
-    "regex": "chocolateychocoreleasestag([\\d.]+)"
+    "url": "https://github.com/chocolatey/choco/releases",
+    "regex": "/chocolatey/choco/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:chocolatey.orginstall.ps1"
+    "url": "https://chocolatey.org/install.ps1"
   },
   "notes": "It might be better to run choco with sudo."
 }

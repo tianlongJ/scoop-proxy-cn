@@ -1,18 +1,18 @@
 {
   "version": "0.3.543",
   "description": "Neovim front-end UI",
-  "homepage": "https:github.comyatlifvim",
+  "homepage": "https://github.com/yatli/fvim",
   "license": "MIT",
   "suggest": {
     "neovim": "neovim"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comyatlifvimreleasesdownloadv0.3.543+g18454bcfvim-win-x64-v0.3.543+g18454bc.zip",
+      "url": "https://ghfast.top/https://github.com/yatli/fvim/releases/download/v0.3.543+g18454bc/fvim-win-x64-v0.3.543+g18454bc.zip",
       "hash": "4008e194c4adeebaccbc2dd359043e2dba92e3cd2865174d18d083dc407a663e"
     },
     "arm64": {
-      "url": "https:github.comyatlifvimreleasesdownloadv0.3.543+g18454bcfvim-win-arm64-v0.3.543+g18454bc.zip",
+      "url": "https://ghfast.top/https://github.com/yatli/fvim/releases/download/v0.3.543+g18454bc/fvim-win-arm64-v0.3.543+g18454bc.zip",
       "hash": "c885c9672990dd2b10c1f43cb776ee0c5c72aebbc9b2ca6b436d5e69033c41c4"
     }
   },
@@ -24,16 +24,16 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comyatlifvim",
-    "regex": "[\"]v([\\d.]+)(?<commit>[+-]g?[\\w]{7})\"?"
+    "github": "https://github.com/yatli/fvim",
+    "regex": "[/\"]v([\\d.]+)(?<commit>[+-]g?[\\w]{7})\"?"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comyatlifvimreleasesdownloadv$version$matchCommitfvim-win-x64-v$version$matchCommit.zip"
+        "url": "https://ghfast.top/https://github.com/yatli/fvim/releases/download/v$version$matchCommit/fvim-win-x64-v$version$matchCommit.zip"
       },
       "arm64": {
-        "url": "https:github.comyatlifvimreleasesdownloadv$version$matchCommitfvim-win-arm64-v$version$matchCommit.zip"
+        "url": "https://ghfast.top/https://github.com/yatli/fvim/releases/download/v$version$matchCommit/fvim-win-arm64-v$version$matchCommit.zip"
       }
     }
   }

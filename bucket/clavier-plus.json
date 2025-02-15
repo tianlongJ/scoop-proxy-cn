@@ -1,11 +1,11 @@
 {
   "version": "11.4.1",
   "description": "Keyboard shortcuts manager",
-  "homepage": "http:utilfr42.free.frutilClavier.php",
+  "homepage": "http://utilfr42.free.fr/util/Clavier.php",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https:github.comguilryderclavier-plusreleasesdownloadrelease11.4.1Clavier.zip",
+      "url": "https://ghfast.top/https://github.com/guilryder/clavier-plus/releases/download/release11.4.1/Clavier.zip",
       "hash": "a506c830d24c263bd3827228fdbc5a14ffb0537052cfe0a7c8581192ac07f8ff"
     }
   },
@@ -18,13 +18,13 @@
   ],
   "persist": "Clavier.ini",
   "checkver": {
-    "github": "https:github.comguilryderclavier-plus",
-    "regex": "downloadrelease([\\d.]+)"
+    "github": "https://github.com/guilryder/clavier-plus",
+    "regex": "download/release([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comguilryderclavier-plusreleasesdownloadrelease$versionClavier.zip"
+        "url": "https://ghfast.top/https://github.com/guilryder/clavier-plus/releases/download/release$version/Clavier.zip"
       }
     }
   }

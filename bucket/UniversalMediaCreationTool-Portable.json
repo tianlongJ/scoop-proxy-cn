@@ -1,10 +1,10 @@
 {
   "version": "2022.03.20",
   "description": "Universal MediaCreationTool. wrapper for all MCT Windows 10 versions from 1507 to 21H1 with business (Enterprise) edition support",
-  "homepage": "https:github.comAveYoMediaCreationTool.bat",
+  "homepage": "https://github.com/AveYo/MediaCreationTool.bat",
   "license": "Freeware",
-  "changelog": "https:github.comAveYoMediaCreationTool.bat",
-  "url": "https:codeload.github.comAveYoMediaCreationTool.batziprefsheadsmain#setup.7z",
+  "changelog": "https://github.com/AveYo/MediaCreationTool.bat",
+  "url": "https://codeload.github.com/AveYo/MediaCreationTool.bat/zip/refs/heads/main#/setup.7z",
   "extract_dir": "MediaCreationTool.bat-main",
   "bin": "MediaCreationTool.bat",
   "shortcuts": [
@@ -14,7 +14,7 @@
     ]
   ],
   "checkver": {
-    "url": "https:www.majorgeeks.comfilesdetailsuniversal_mediacreationtool.html",
-    "regex": "\">Universal MediaCreationTool ([\\d.]+)<a>"
+    "url": "https://www.majorgeeks.com/files/details/universal_mediacreationtool.html",
+    "regex": "\">Universal MediaCreationTool ([\\d.]+)</a>"
   }
 }

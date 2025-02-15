@@ -1,17 +1,17 @@
 {
   "version": "0.2.2",
   "description": "Manage multiple MoonBit installations",
-  "homepage": "https:github.comchawyehsumoonup",
+  "homepage": "https://github.com/chawyehsu/moonup",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comchawyehsumoonupreleasesdownloadv0.2.2moonup-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/chawyehsu/moonup/releases/download/v0.2.2/moonup-x86_64-pc-windows-msvc.zip",
       "hash": "4c66ac4923142f94fc57e32458cb9676d8813b2b4e3dcc48bbeed985f439e5a4"
     }
   },
   "bin": "moonup.exe",
   "checkver": {
-    "github": "https:github.comchawyehsumoonup",
+    "github": "https://github.com/chawyehsu/moonup",
     "regex": "v([\\d.]+(-\\w+.\\d+)?)"
   },
   "installer": {
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comchawyehsumoonupreleasesdownloadv$versionmoonup-x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/chawyehsu/moonup/releases/download/v$version/moonup-x86_64-pc-windows-msvc.zip"
       }
     },
     "hash": {

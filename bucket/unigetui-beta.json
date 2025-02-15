@@ -1,12 +1,12 @@
 {
   "version": "3.1.6-beta4",
   "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
-  "homepage": "https:www.marticliment.comunigetui",
+  "homepage": "https://www.marticliment.com/unigetui/",
   "license": {
     "identifier": "MIT license",
-    "url": "https:github.commarticlimentUniGetUI#MIT-1-ov-file"
+    "url": "https://github.com/marticliment/UniGetUI#MIT-1-ov-file"
   },
-  "url": "https:github.commarticlimentUniGetUIreleasesdownload3.1.6-beta4UniGetUI.Installer.exe",
+  "url": "https://ghfast.top/https://github.com/marticliment/UniGetUI/releases/download/3.1.6-beta4/UniGetUI.Installer.exe",
   "hash": "a7cdb0b4b1054b89a20c3a7fc2d59a098facd577a0b9db0f0756a58b497e2ef0",
   "innosetup": true,
   "shortcuts": [
@@ -16,14 +16,14 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposmarticlimentUniGetUIreleases",
-    "regex": "releasestag([\\d.]+-[\\w]+)"
+    "url": "https://api.github.com/repos/marticliment/UniGetUI/releases",
+    "regex": "/releases/tag/([\\d.]+-[\\w]+)"
   },
   "autoupdate": {
-    "url": "https:github.commarticlimentUniGetUIreleasesdownload$versionUniGetUI.Installer.exe",
+    "url": "https://ghfast.top/https://github.com/marticliment/UniGetUI/releases/download/$version/UniGetUI.Installer.exe",
     "hash": {
-      "url": "https:github.commarticlimentUniGetUIreleasestag$version",
-      "regex": "sha256: <code>$sha256<code>"
+      "url": "https://github.com/marticliment/UniGetUI/releases/tag/$version",
+      "regex": "sha256: <code>$sha256</code>"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "version": "2.3.0",
   "description": "Volume control for Windows",
-  "homepage": "https:github.comFile-New-ProjectEarTrumpet",
+  "homepage": "https://github.com/File-New-Project/EarTrumpet",
   "license": "MIT",
   "notes": [
     "Start EarTrumpet with Windows by running:",
     "reg import \"$dir\\add-startup.reg\""
   ],
-  "url": "https:packages.chocolatey.orgeartrumpet.2.3.0.nupkg",
+  "url": "https://packages.chocolatey.org/eartrumpet.2.3.0.nupkg",
   "hash": "63cd29450fc6356ca104cd1650b71a99aed5292feff37d35e88914868f69068f",
   "extract_dir": "tools",
   "pre_install": [
@@ -36,13 +36,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:chocolatey.orgpackageseartrumpet",
+    "url": "https://chocolatey.org/packages/eartrumpet",
     "regex": "Downloads of v\\s+([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:packages.chocolatey.orgeartrumpet.$version.nupkg",
+    "url": "https://packages.chocolatey.org/eartrumpet.$version.nupkg",
     "hash": {
-      "url": "https:chocolatey.orgpackageseartrumpet",
+      "url": "https://chocolatey.org/packages/eartrumpet",
       "regex": "$sha256.*?$basename"
     }
   }

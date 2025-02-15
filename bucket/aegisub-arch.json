@@ -1,11 +1,11 @@
 {
   "version": "feature_12",
   "description": "A cross-platform advanced subtitle editor",
-  "homepage": "https:github.comarch1t3chtAegisub",
+  "homepage": "https://github.com/arch1t3cht/Aegisub",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https:github.comarch1t3chtAegisubreleasesdownloadfeature_12Windows.MSVC.Release.-.portable.zip",
+      "url": "https://ghfast.top/https://github.com/arch1t3cht/Aegisub/releases/download/feature_12/Windows.MSVC.Release.-.portable.zip",
       "hash": "f85b4946ff21a2bce736411b9034431937cad828994b24301208475db769f2d0"
     }
   },
@@ -17,14 +17,14 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comarch1t3chtAegisub",
+    "github": "https://github.com/arch1t3cht/Aegisub",
     "jsonpath": "$.tag_name",
     "regex": "([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comarch1t3chtAegisubreleasesdownload$versionWindows.MSVC.Release.-.portable.zip"
+        "url": "https://ghfast.top/https://github.com/arch1t3cht/Aegisub/releases/download/$version/Windows.MSVC.Release.-.portable.zip"
       }
     }
   }

@@ -1,16 +1,16 @@
 {
   "version": "3.7.1",
   "description": "Audacity. An easy-to-use, multi-track audio editor and recorder",
-  "homepage": "https:www.audacityteam.org",
+  "homepage": "https://www.audacityteam.org",
   "license": "GPL-2.0-or-later",
-  "changelog": "https:wiki.audacityteam.orgwikiAudacity_Versions",
+  "changelog": "https://wiki.audacityteam.org/wiki/Audacity_Versions",
   "architecture": {
     "64bit": {
-      "url": "https:github.comaudacityaudacityreleasesdownloadAudacity-3.7.1audacity-win-3.7.1-64bit.exe#setup.exe",
+      "url": "https://ghfast.top/https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-win-3.7.1-64bit.exe#/setup.exe",
       "hash": "5eae3e6167be049f0995d86f24273e94f763c5a2b860ddb876d753ec8a69527e"
     },
     "32bit": {
-      "url": "https:github.comaudacityaudacityreleasesdownloadAudacity-3.7.1audacity-win-3.7.1-32bit.exe#setup.exe",
+      "url": "https://ghfast.top/https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-win-3.7.1-32bit.exe#/setup.exe",
       "hash": "7842ef996492d13eb5b3095f6e7ae976d180494e9001a6642d61f9de1ebeed49"
     }
   },
@@ -34,7 +34,7 @@
       "$filepath = \"$ProgramFiles\\Audacity\\Audacity.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   &\"$dir\\setup.exe\" verysilent norestart | Out-Null",
+      "   &\"$dir\\setup.exe\" /verysilent /norestart | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",
@@ -49,16 +49,16 @@
     "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
   ],
   "checkver": {
-    "url": "https:github.comaudacityaudacityreleases",
+    "url": "https://github.com/audacity/audacity/releases",
     "regex": "\">Audacity ([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comaudacityaudacityreleasesdownloadAudacity-$versionaudacity-win-$version-64bit.exe#setup.exe"
+        "url": "https://ghfast.top/https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-64bit.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https:github.comaudacityaudacityreleasesdownloadAudacity-$versionaudacity-win-$version-32bit.exe#setup.exe"
+        "url": "https://ghfast.top/https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-32bit.exe#/setup.exe"
       }
     }
   }

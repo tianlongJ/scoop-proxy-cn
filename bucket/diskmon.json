@@ -1,12 +1,12 @@
 {
   "version": "2.02",
   "description": "Captures all hard disk activity or acts like a software disk activity light in your system tray.",
-  "homepage": "https:learn.microsoft.comsysinternalsdownloadsdiskmon",
+  "homepage": "https://learn.microsoft.com/sysinternals/downloads/diskmon",
   "license": {
     "identifier": "Freeware",
-    "url": "https:learn.microsoft.comsysinternalslicense-terms"
+    "url": "https://learn.microsoft.com/sysinternals/license-terms"
   },
-  "url": "https:download.sysinternals.comfilesDiskMon.zip",
+  "url": "https://download.sysinternals.com/files/DiskMon.zip",
   "hash": "36c85a6dd3ae9b4a9723a9229f9bf55b5bcac607d5725e9ef100d0a67adba8d3",
   "architecture": {
     "64bit": {
@@ -19,8 +19,8 @@
       "shortcuts": [
         [
           "Diskmon64.exe",
-          "SysInternalsDiskMon",
-          "accepteula"
+          "SysInternals/DiskMon",
+          "/accepteula"
         ]
       ]
     },
@@ -29,17 +29,17 @@
       "shortcuts": [
         [
           "Diskmon.exe",
-          "SysInternalsDiskMon",
-          "accepteula"
+          "SysInternals/DiskMon",
+          "/accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsdiskmon.md",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/diskmon.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:download.sysinternals.comfilesDiskMon.zip"
+    "url": "https://download.sysinternals.com/files/DiskMon.zip"
   }
 }

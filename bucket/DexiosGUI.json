@@ -1,11 +1,11 @@
 {
   "version": "4.0.2",
   "description": "File encryption tool.",
-  "homepage": "https:github.comAntidote1911dexiosgui",
+  "homepage": "https://github.com/Antidote1911/dexiosgui",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https:github.comAntidote1911dexiosguireleasesdownload4.0.2dexiosgui_win_x64.zip",
+      "url": "https://ghfast.top/https://github.com/Antidote1911/dexiosgui/releases/download/4.0.2/dexiosgui_win_x64.zip",
       "hash": "2c02a5ac606a6b7354288bde9f9a2de8211fc83c3ff8bd7f15336c3304ced268"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comAntidote1911dexiosguireleasesdownload$versiondexiosgui_win_x64.zip"
+        "url": "https://ghfast.top/https://github.com/Antidote1911/dexiosgui/releases/download/$version/dexiosgui_win_x64.zip"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
-  "homepage": "https:github.comiquiwdocker-cli-binary",
+  "homepage": "https://github.com/iquiw/docker-cli-binary",
   "description": "The Docker CLI",
   "license": "Apache-2.0",
   "version": "20.10.12",
   "architecture": {
     "64bit": {
-      "url": "https:github.comiquiwdocker-cli-binaryreleasesdownloadv20.10.12docker-v20.10.12.7z",
+      "url": "https://ghfast.top/https://github.com/iquiw/docker-cli-binary/releases/download/v20.10.12/docker-v20.10.12.7z",
       "hash": "f243dd5336d1a24228380ce84b6af5009aba131fbb6424d98f08d495d4598dec"
     }
   },
@@ -14,11 +14,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comiquiwdocker-cli-binaryreleasesdownloadv$versiondocker-v$version.7z"
+        "url": "https://ghfast.top/https://github.com/iquiw/docker-cli-binary/releases/download/v$version/docker-v$version.7z"
       }
     },
     "hash": {
-      "url": "$baseurlsha256sum.txt"
+      "url": "$baseurl/sha256sum.txt"
     }
   }
 }

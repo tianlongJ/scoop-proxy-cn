@@ -1,12 +1,12 @@
 {
   "version": "0.6.10",
   "description": "TeXworks is a LaTeX editor with integrated PDF viewer and a clean, simple interface.",
-  "homepage": "http:tug.orgtexworks",
-  "url": "https:github.comTeXworkstexworksreleasesdownloadrelease-0.6.10TeXworks-win10-0.6.10-202502131411-git_7380941.zip",
+  "homepage": "http://tug.org/texworks/",
+  "url": "https://ghfast.top/https://github.com/TeXworks/texworks/releases/download/release-0.6.10/TeXworks-win10-0.6.10-202502131411-git_7380941.zip",
   "hash": "fc2f5e94085020679c242d063975035465c74108afb9294eadffd134b84516a5",
   "pre_install": [
-    "if(!(Test-Path \"$dirtexworks-setup.ini\")) {",
-    "Add-Content \"$dirtexworks-setup.ini\" \"inipath = .setting`r`libpath = .setting\"",
+    "if(!(Test-Path \"$dir/texworks-setup.ini\")) {",
+    "Add-Content \"$dir/texworks-setup.ini\" \"inipath = ./setting/`r`libpath = ./setting/\"",
     "}"
   ],
   "bin": "TeXworks.exe",
@@ -21,10 +21,10 @@
     "texworks-setup.ini"
   ],
   "checkver": {
-    "url": "https:github.comTeXworkstexworksreleaseslatest",
+    "url": "https://github.com/TeXworks/texworks/releases/latest",
     "regex": "TeXworks-win10-(?<version>[\\d.]+)-(?<build>.+)?\\.zip"
   },
   "autoupdate": {
-    "url": "https:github.comTeXworkstexworksreleasesdownloadrelease-$versionTeXworks-win10-$version-$matchBuild.zip"
+    "url": "https://ghfast.top/https://github.com/TeXworks/texworks/releases/download/release-$version/TeXworks-win10-$version-$matchBuild.zip"
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": "1.9",
-  "description": "pyTranscriber can be used to generate automatic transcription  automatic subtitles for audiovideo files through a friendly graphical user interface.",
-  "homepage": "https:github.comraryelcostasouzapyTranscriber",
+  "description": "pyTranscriber can be used to generate automatic transcription / automatic subtitles for audio/video files through a friendly graphical user interface.",
+  "homepage": "https://github.com/raryelcostasouza/pyTranscriber",
   "license": "GPL-3.0 license",
   "architecture": {
     "64bit": {
-      "url": "https:github.comraryelcostasouzapyTranscriberreleasesdownloadv1.9pyTranscriber-v1.9-win-portable.zip",
+      "url": "https://ghfast.top/https://github.com/raryelcostasouza/pyTranscriber/releases/download/v1.9/pyTranscriber-v1.9-win-portable.zip",
       "hash": "e65f329bc59cf89f643466f15f96efa5e423356ddd11e63379c7fa71de80ac41"
     }
   },
@@ -16,14 +16,14 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposraryelcostasouzapyTranscriberreleases",
+    "url": "https://api.github.com/repos/raryelcostasouza/pyTranscriber/releases",
     "jsonpath": "$[0].tag_name",
     "regex": "(?<tag>v([\\w.-]+))"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comraryelcostasouzapyTranscriberreleasesdownload$matchTagpyTranscriber-v$version-win-portable.zip"
+        "url": "https://ghfast.top/https://github.com/raryelcostasouza/pyTranscriber/releases/download/$matchTag/pyTranscriber-v$version-win-portable.zip"
       }
     }
   }

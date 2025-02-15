@@ -1,15 +1,15 @@
 {
   "version": "4.0.0.0",
   "description": "Open with++ context menu shell extension",
-  "homepage": "https:github.comstax76OpenWithPlusPlus",
+  "homepage": "https://github.com/stax76/OpenWithPlusPlus",
   "license": "MIT",
   "notes": ".Net framework 4.8 is required",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comstax76OpenWithPlusPlusreleasesdownloadv4.0OpenWithPP-4.0.0.0.zip",
+      "url": "https://ghfast.top/https://github.com/stax76/OpenWithPlusPlus/releases/download/v4.0/OpenWithPP-4.0.0.0.zip",
       "hash": "f2babe7b7996114fbdd7d374476f55f79cfdcf30d0fb21a890d740b876c83e68"
     }
   },
@@ -31,13 +31,13 @@
   ],
   "persist": "settings",
   "checkver": {
-    "github": "https:github.comstax76OpenWithPlusPlus",
+    "github": "https://github.com/stax76/OpenWithPlusPlus",
     "regex": "OpenWithPP-([\\d.]+)\\.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comstax76OpenWithPlusPlusreleasesdownloadv$majorVersion.$minorVersionOpenWithPP-$version.zip"
+        "url": "https://ghfast.top/https://github.com/stax76/OpenWithPlusPlus/releases/download/v$majorVersion.$minorVersion/OpenWithPP-$version.zip"
       }
     }
   }

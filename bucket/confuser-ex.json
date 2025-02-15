@@ -1,9 +1,9 @@
 {
   "version": "1.6.0",
   "description": "Protector for .NET applications",
-  "homepage": "https:mkaring.github.ioConfuserEx",
+  "homepage": "https://mkaring.github.io/ConfuserEx/",
   "license": "MIT",
-  "url": "https:github.commkaringConfuserExreleasesdownloadv1.6.0ConfuserEx.zip",
+  "url": "https://ghfast.top/https://github.com/mkaring/ConfuserEx/releases/download/v1.6.0/ConfuserEx.zip",
   "hash": "91c7a4387c3fc3d05aebd7da7235e5e0f12a628b88fcdf87c2af12c40f96ec79",
   "bin": [
     "Confuser.CLI.exe",
@@ -19,9 +19,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.commkaringConfuserEx"
+    "github": "https://github.com/mkaring/ConfuserEx"
   },
   "autoupdate": {
-    "url": "https:github.commkaringConfuserExreleasesdownloadv$versionConfuserEx.zip"
+    "url": "https://ghfast.top/https://github.com/mkaring/ConfuserEx/releases/download/v$version/ConfuserEx.zip"
   }
 }

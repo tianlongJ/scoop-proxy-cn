@@ -1,18 +1,18 @@
 {
   "version": "5.5.0.20241111",
   "description": "Open Source OCR Engine",
-  "homepage": "https:tesseract-ocr.github.io",
+  "homepage": "https://tesseract-ocr.github.io",
   "license": "Apache-2.0",
   "notes": [
     "Recognition data files can be installed via \"scoop install tesseract-languages\"",
-    "or downloaded manually from https:github.comtesseract-ocrtessdata_fast"
+    "or downloaded manually from https://github.com/tesseract-ocr/tessdata_fast"
   ],
   "suggest": {
     "tesseract-languages": "tesseract-languages"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comtesseract-ocrtesseractreleasesdownload5.5.0tesseract-ocr-w64-setup-5.5.0.20241111.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe#/dl.7z",
       "hash": "f3fc4236425b690c8be756f35793f77394ee004be0a6460a440c754d892f68bc"
     }
   },
@@ -47,13 +47,13 @@
   ],
   "persist": "tessdata",
   "checkver": {
-    "github": "https:github.comtesseract-ocrtesseract",
+    "github": "https://github.com/tesseract-ocr/tesseract",
     "regex": "tesseract-ocr-w64-setup-([\\d.]+).exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comtesseract-ocrtesseractreleasesdownload$matchHeadtesseract-ocr-w64-setup-$version.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/tesseract-ocr/tesseract/releases/download/$matchHead/tesseract-ocr-w64-setup-$version.exe#/dl.7z"
       }
     }
   }

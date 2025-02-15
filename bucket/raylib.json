@@ -1,15 +1,15 @@
 {
   "version": "5.5",
   "description": "A simple and easy-to-use library to enjoy videogames programming (this version is for the Microsoft Visual C++ compiler)",
-  "homepage": "https:www.raylib.com",
+  "homepage": "https://www.raylib.com/",
   "license": "Zlib",
   "architecture": {
     "64bit": {
-      "url": "https:github.comraysan5raylibreleasesdownload5.5raylib-5.5_win64_msvc16.zip",
+      "url": "https://ghfast.top/https://github.com/raysan5/raylib/releases/download/5.5/raylib-5.5_win64_msvc16.zip",
       "hash": "8d046084d12353183e701ef4c9d276c21fcd3243c2a368091fabfb2769b8507c"
     },
     "32bit": {
-      "url": "https:github.comraysan5raylibreleasesdownload5.5raylib-5.5_win32_msvc16.zip",
+      "url": "https://ghfast.top/https://github.com/raysan5/raylib/releases/download/5.5/raylib-5.5_win32_msvc16.zip",
       "hash": "2b2da0a469f1ecf52b71001a4c990ff2f3c62041f5553c92316628f1fa1bfb5a"
     }
   },
@@ -18,7 +18,7 @@
     "Move-Item \"$dir\\raylib-*\\*\" \"$dir\" && Remove-Item \"$dir\\raylib-*\"",
     "# Configure pkg-config file with the library data.",
     "# Download raylib pkg-config file",
-    "Invoke-WebRequest -Uri https:raw.githubusercontent.comraysan5raylib$versionraylib.pc.in -OutFile $dir\\raylib.pc.in",
+    "Invoke-WebRequest -Uri https://ghfast.top/https://raw.githubusercontent.com/raysan5/raylib/$version/raylib.pc.in -OutFile $dir\\raylib.pc.in",
     "# Create helper variables:",
     "$pc_in = \"$dir\\raylib.pc.in\"",
     "$pc_out = \"$dir\\lib\\pkgconfig\\raylib.pc\"",
@@ -29,8 +29,8 @@
     "# Configure the pkg-config file.",
     "Set-Content $pc_out ((Get-Content $pc_in) `",
     "    -replace \"@CMAKE_INSTALL_PREFIX@\",\"\" `",
-    "    -replace \"@libdir_for_pc_file@\",\"`${exec_prefix}lib\" `",
-    "    -replace \"@includedir_for_pc_file@\",\"`${prefix}include\" `",
+    "    -replace \"@libdir_for_pc_file@\",\"`${exec_prefix}/lib\" `",
+    "    -replace \"@includedir_for_pc_file@\",\"`${prefix}/include\" `",
     "    -replace \"@PROJECT_VERSION@\",\"$version\" `",
     "    -replace \"@PKG_CONFIG_LIBS_EXTRA@\",\"\" `",
     "    -replace \"@PKG_CONFIG_LIBS_PRIVATE@\",\"\" `",
@@ -81,15 +81,15 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comraysan5raylib"
+    "github": "https://github.com/raysan5/raylib"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comraysan5raylibreleasesdownload$versionraylib-$version_win64_msvc16.zip"
+        "url": "https://ghfast.top/https://github.com/raysan5/raylib/releases/download/$version/raylib-$version_win64_msvc16.zip"
       },
       "32bit": {
-        "url": "https:github.comraysan5raylibreleasesdownload$versionraylib-$version_win32_msvc16.zip"
+        "url": "https://ghfast.top/https://github.com/raysan5/raylib/releases/download/$version/raylib-$version_win32_msvc16.zip"
       }
     }
   }

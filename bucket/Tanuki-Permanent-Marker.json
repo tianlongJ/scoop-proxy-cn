@@ -1,12 +1,12 @@
 {
   "version": "1.22",
   "description": "CJK font that imitates the strokes of permanent marker pen.",
-  "homepage": "http:tanukifont.comtanuki-permanent-marker",
+  "homepage": "http://tanukifont.com/tanuki-permanent-marker/",
   "license": {
     "identifier": "Freeware",
-    "url": "https:tanukifont.comfonts-user-policy"
+    "url": "https://tanukifont.com/fonts-user-policy/"
   },
-  "url": "https:tanukifont.comdownloadTanukiMagic_1_22.zip",
+  "url": "https://tanukifont.com/download/TanukiMagic_1_22.zip",
   "hash": "67f9ef68b043c036dc8c64cc70c266b9547853978fcf209050a8221c91766e1f",
   "installer": {
     "script": [
@@ -29,7 +29,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -93,6 +93,6 @@
     "replace": "${1}.${2}"
   },
   "autoupdate": {
-    "url": "https:tanukifont.comdownloadTanukiMagic_$majorVersion_$minorVersion.zip"
+    "url": "https://tanukifont.com/download/TanukiMagic_$majorVersion_$minorVersion.zip"
   }
 }

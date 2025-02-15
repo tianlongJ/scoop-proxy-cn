@@ -1,17 +1,17 @@
 {
   "version": "2.22",
   "description": "A clash client for Windows, support clash core and Clash.Meta core",
-  "homepage": "https:github.com2dustclashN",
+  "homepage": "https://github.com/2dust/clashN",
   "license": {
     "identifier": "GPL-3.0-only",
-    "url": "https:github.com2dustclashNrawmainLICENSE"
+    "url": "https://github.com/2dust/clashN/raw/main/LICENSE"
   },
   "notes": [
     "Create scheduled task by running: '$dir\\create-scheduled-task.ps1'",
     "Delete scheduled task by running: '$dir\\delete-scheduled-task.ps1'"
   ],
   "depends": "sudo",
-  "url": "https:github.com2dustclashNreleasesdownload2.22clashN.zip",
+  "url": "https://ghfast.top/https://github.com/2dust/clashN/releases/download/2.22/clashN.zip",
   "hash": "7cdd6047cf8bbc04197dadea17fc2383092cfb735a1142c3289df5fc62a0c12f",
   "extract_dir": "clashN",
   "pre_install": [
@@ -44,10 +44,10 @@
     "data"
   ],
   "checkver": {
-    "url": "https:api.github.comrepos2dustclashNtags",
-    "regex": "refstags([\\d.]+)"
+    "url": "https://api.github.com/repos/2dust/clashN/tags",
+    "regex": "/refs/tags/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.com2dustclashNreleasesdownload$versionclashN.zip"
+    "url": "https://ghfast.top/https://github.com/2dust/clashN/releases/download/$version/clashN.zip"
   }
 }

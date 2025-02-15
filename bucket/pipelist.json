@@ -1,12 +1,12 @@
 {
   "version": "1.02",
   "description": "Displays the named pipes on your system, including the number of maximum instances and active instances for each pipe.",
-  "homepage": "https:learn.microsoft.comsysinternalsdownloadspipelist",
+  "homepage": "https://learn.microsoft.com/sysinternals/downloads/pipelist",
   "license": {
     "identifier": "Freeware",
-    "url": "https:learn.microsoft.comsysinternalslicense-terms"
+    "url": "https://learn.microsoft.com/sysinternals/license-terms"
   },
-  "url": "https:download.sysinternals.comfilesPipeList.zip",
+  "url": "https://download.sysinternals.com/files/PipeList.zip",
   "hash": "7bfef3046bfcce3efa666c4ae235b3a903ddc8ddba830a5c3ee4178e0a712b8d",
   "architecture": {
     "64bit": {
@@ -30,10 +30,10 @@
     }
   },
   "checkver": {
-    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadspipelist.md",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pipelist.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:download.sysinternals.comfilesPipeList.zip"
+    "url": "https://download.sysinternals.com/files/PipeList.zip"
   }
 }

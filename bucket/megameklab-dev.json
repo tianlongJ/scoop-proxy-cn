@@ -1,9 +1,9 @@
 {
   "version": "0.50.03",
   "description": "BattleTech unit modification program for MegaMek (development version)",
-  "homepage": "https:megamek.org",
+  "homepage": "https://megamek.org",
   "license": "GPL-2.0-or-later",
-  "url": "https:github.comMegaMekmegameklabreleasesdownloadv0.50.03megameklab-windows-0.50.03.zip",
+  "url": "https://ghfast.top/https://github.com/MegaMek/megameklab/releases/download/v0.50.03/megameklab-windows-0.50.03.zip",
   "shortcuts": [
     [
       "MegaMekLab.exe",
@@ -11,9 +11,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comMegaMekmegameklab"
+    "github": "https://github.com/MegaMek/megameklab"
   },
   "autoupdate": {
-    "url": "https:github.comMegaMekmegameklabreleasesdownloadv$versionmegameklab-windows-$version.zip"
+    "url": "https://ghfast.top/https://github.com/MegaMek/megameklab/releases/download/v$version/megameklab-windows-$version.zip"
   }
 }

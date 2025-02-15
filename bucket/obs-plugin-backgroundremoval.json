@@ -1,21 +1,21 @@
 {
   "version": "0.4.0",
-  "homepage": "https:github.comroyshilobs-backgroundremoval",
+  "homepage": "https://github.com/royshil/obs-backgroundremoval",
   "description": "An OBS plugin that allows the user to use their phone as a webcam for OBS Studio.",
   "license": "GPL-2.0",
   "notes": "If you don't have any obs-studio version installed in your computer, please install one of the following below. Then uninstall this app and install it again.",
   "suggest": {
     "OBS": [
-      "3rdOBSStudio-Portable",
-      "extrasobs-studio",
-      "extrasobs-studio-small",
-      "versionsobs-studio-pre",
-      "versionsobs-studio27"
+      "3rd/OBSStudio-Portable",
+      "extras/obs-studio",
+      "extras/obs-studio-small",
+      "versions/obs-studio-pre",
+      "versions/obs-studio27"
     ]
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comroyshilobs-backgroundremovalreleasesdownloadv0.4.0obs-backgroundremoval-0.4.0-win64.zip",
+      "url": "https://ghfast.top/https://github.com/royshil/obs-backgroundremoval/releases/download/v0.4.0/obs-backgroundremoval-0.4.0-win64.zip",
       "hash": "29e525a2a2d8675ce84bed49441941dfe18004fb62c9d1d652b2029a13216768"
     }
   },
@@ -40,10 +40,10 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comroyshilobs-backgroundremoval"
+    "github": "https://github.com/royshil/obs-backgroundremoval"
   },
   "autoupdate": {
-    "url": "https:github.comroyshilobs-backgroundremovalreleasesdownloadv$versionobs-backgroundremoval-$version-win64.zip",
+    "url": "https://ghfast.top/https://github.com/royshil/obs-backgroundremoval/releases/download/v$version/obs-backgroundremoval-$version-win64.zip",
     "hash": {
       "mode": "download"
     }

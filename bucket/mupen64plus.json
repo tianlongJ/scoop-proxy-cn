@@ -1,17 +1,17 @@
 {
   "version": "2.6.0",
   "description": "A front-end for mupen64plus",
-  "homepage": "https:github.commupen64plusmupen64plus-core",
+  "homepage": "https://github.com/mupen64plus/mupen64plus-core",
   "license": {
     "identifier": "GPL-2.0-or-later",
-    "url": "https:github.commupen64plusmupen64plus-coreblobmasterLICENSES"
+    "url": "https://github.com/mupen64plus/mupen64plus-core/blob/master/LICENSES"
   },
   "suggest": {
-    "Microsoft Visual C++ Runtime 2019": "extrasvcredist2019"
+    "Microsoft Visual C++ Runtime 2019": "extras/vcredist2019"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.commupen64plusmupen64plus-corereleasesdownload2.6.0mupen64plus-bundle-win64-2.6.0.zip",
+      "url": "https://ghfast.top/https://github.com/mupen64plus/mupen64plus-core/releases/download/2.6.0/mupen64plus-bundle-win64-2.6.0.zip",
       "hash": "8292c68d6ffc3428d4181ac09b1368ef2adb2cc568325545aac78cb6c1e66e21",
       "extract_dir": "Release"
     }
@@ -37,13 +37,13 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.commupen64plusmupen64plus-core",
+    "github": "https://github.com/mupen64plus/mupen64plus-core",
     "regex": "v([\\d\\.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commupen64plusmupen64plus-corereleasesdownload$versionmupen64plus-bundle-win64-$version.zip"
+        "url": "https://ghfast.top/https://github.com/mupen64plus/mupen64plus-core/releases/download/$version/mupen64plus-bundle-win64-$version.zip"
       }
     }
   }

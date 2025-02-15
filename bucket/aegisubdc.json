@@ -1,13 +1,13 @@
 {
   "version": "9215",
   "description": "Aegisub Daydream Cafe Edition, a patched wangqr build to include latest libraries et all",
-  "homepage": "https:github.comRistelliseAegisubDC",
+  "homepage": "https://github.com/Ristellise/AegisubDC",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
       "url": [
-        "https:github.comRistelliseAegisubDCreleasesdownload9215Aegisub-9215B-ToThePromisedSky.zip",
-        "https:github.comRistelliseAegisubDCreleasesdownload9215locale-9215B.zip"
+        "https://ghfast.top/https://github.com/Ristellise/AegisubDC/releases/download/9215/Aegisub-9215B-ToThePromisedSky.zip",
+        "https://ghfast.top/https://github.com/Ristellise/AegisubDC/releases/download/9215/locale-9215B.zip"
       ],
       "hash": [
         "547714adabf4a3d6d816305aec3dacfde30f990fb24a74ec22a5e1307e566e71",
@@ -22,15 +22,15 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comRistelliseAegisubDC",
+    "github": "https://github.com/Ristellise/AegisubDC",
     "regex": "(?sm)Aegisub-(?<build>(?<version>\\d+)\\w*?)-(?<codename>[\\w-]+)\\.zip.*?(?<localefilename>locale-\\w+?)\\.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
         "url": [
-          "https:github.comRistelliseAegisubDCreleasesdownload$versionAegisub-$matchBuild-$matchCodename.zip",
-          "https:github.comRistelliseAegisubDCreleasesdownload$version$matchLocalefilename.zip"
+          "https://ghfast.top/https://github.com/Ristellise/AegisubDC/releases/download/$version/Aegisub-$matchBuild-$matchCodename.zip",
+          "https://ghfast.top/https://github.com/Ristellise/AegisubDC/releases/download/$version/$matchLocalefilename.zip"
         ]
       }
     }

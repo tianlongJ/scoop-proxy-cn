@@ -1,21 +1,21 @@
 {
   "version": "1.2.2",
-  "homepage": "https:github.comdimtpapobs-scale-to-sound",
+  "homepage": "https://github.com/dimtpap/obs-scale-to-sound",
   "description": "An OBS plugin that allows the user to use their phone as a webcam for OBS Studio.",
   "license": "GPL-2.0",
   "notes": "If you don't have any obs-studio version installed in your computer, please install one of the following below. Then uninstall this app and install it again.",
   "suggest": {
     "OBS": [
-      "3rdOBSStudio-Portable",
-      "extrasobs-studio",
-      "extrasobs-studio-small",
-      "versionsobs-studio-pre",
-      "versionsobs-studio27"
+      "3rd/OBSStudio-Portable",
+      "extras/obs-studio",
+      "extras/obs-studio-small",
+      "versions/obs-studio-pre",
+      "versions/obs-studio27"
     ]
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comdimtpapobs-scale-to-soundreleasesdownload1.2.2obs-scale-to-sound-1.2.2-windows.zip",
+      "url": "https://ghfast.top/https://github.com/dimtpap/obs-scale-to-sound/releases/download/1.2.2/obs-scale-to-sound-1.2.2-windows.zip",
       "hash": "046e239a4009d8c7c7d8bca68b9525cbb439d53d4b7a03f991dc3091a3fdbea7"
     }
   },
@@ -40,10 +40,10 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comdimtpapobs-scale-to-sound"
+    "github": "https://github.com/dimtpap/obs-scale-to-sound"
   },
   "autoupdate": {
-    "url": "https:github.comdimtpapobs-scale-to-soundreleasesdownload$versionobs-scale-to-sound-$version-windows.zip",
+    "url": "https://ghfast.top/https://github.com/dimtpap/obs-scale-to-sound/releases/download/$version/obs-scale-to-sound-$version-windows.zip",
     "hash": {
       "mode": "download"
     }

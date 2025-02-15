@@ -1,23 +1,23 @@
 {
   "version": "0.2",
-  "homepage": "https:portableappk.comportable-sogouwb",
-  "url": "https:scoop-zapps.ziiyc.comdSogouWubi-PortableSogouWubi-Portable-0.2.exe#dl.7z",
+  "homepage": "https://portableappk.com/portable-sogouwb/",
+  "url": "https://scoop-zapps.ziiyc.com/d/SogouWubi-Portable/SogouWubi-Portable-0.2.exe#/dl.7z",
   "hash": "52a16ed3a686c80997001a99fc24a198da562ff14b8146c134449820d482f229",
   "checkver": {
-    "url": "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterversionsSogouWubi-Portable.latest",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/SogouWubi-Portable.latest",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:scoop-zapps.ziiyc.comdSogouWubi-PortableSogouWubi-Portable-$version.exe#dl.7z",
+    "url": "https://scoop-zapps.ziiyc.com/d/SogouWubi-Portable/SogouWubi-Portable-$version.exe#/dl.7z",
     "hash": {
       "url": "$url.sha256",
       "regex": "$sha256"
     }
   },
   "installer": {
-    "script": "Start-Process -Wait $dir\\SogouWBPortable.exe i"
+    "script": "Start-Process -Wait $dir\\SogouWBPortable.exe /i"
   },
   "uninstaller": {
-    "script": "Start-Process -Wait $dir\\SogouWBPortable.exe u"
+    "script": "Start-Process -Wait $dir\\SogouWBPortable.exe /u"
   }
 }

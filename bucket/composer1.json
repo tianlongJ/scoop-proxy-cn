@@ -1,10 +1,10 @@
 {
   "version": "1.10.27",
   "description": "Dependency Manager for PHP (version 1)",
-  "homepage": "https:getcomposer.org",
+  "homepage": "https://getcomposer.org/",
   "license": "MIT",
   "notes": "'composer selfupdate --1' is aliased to 'scoop update composer'",
-  "url": "https:getcomposer.orgdownload1.10.27composer.phar",
+  "url": "https://getcomposer.org/download/1.10.27/composer.phar",
   "hash": "230d28fb29f3c6c07ab2382390bef313e36de17868b2bd23b2e070554cae23d2",
   "pre_install": [
     "@(",
@@ -35,11 +35,11 @@
     ]
   },
   "checkver": {
-    "url": "https:github.comcomposercomposerreleases",
-    "regex": "tag(1\\.[\\d.]+)[^-]"
+    "url": "https://github.com/composer/composer/releases",
+    "regex": "tag/(1\\.[\\d.]+)[^-]"
   },
   "autoupdate": {
-    "url": "https:getcomposer.orgdownload$versioncomposer.phar",
+    "url": "https://getcomposer.org/download/$version/composer.phar",
     "hash": {
       "url": "$url.sha256sum"
     }

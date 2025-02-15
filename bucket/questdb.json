@@ -1,14 +1,14 @@
 {
   "version": "8.2.2",
   "description": "An open source SQL database designed to process time series data, faster.",
-  "homepage": "https:questdb.io",
+  "homepage": "https://questdb.io",
   "license": "Apache-2.0",
   "suggest": {
-    "JDK": "javaopenjdk"
+    "JDK": "java/openjdk"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comquestdbquestdbreleasesdownload8.2.2questdb-8.2.2-no-jre-bin.tar.gz",
+      "url": "https://ghfast.top/https://github.com/questdb/questdb/releases/download/8.2.2/questdb-8.2.2-no-jre-bin.tar.gz",
       "hash": "2f3dc06ce1b03ea4d5da06da71aa61301f585c8bae30d77cdac6f575747befb0",
       "extract_dir": "questdb-8.2.2-no-jre-bin"
     }
@@ -20,12 +20,12 @@
     "log"
   ],
   "checkver": {
-    "github": "https:github.comquestdbquestdb"
+    "github": "https://github.com/questdb/questdb"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comquestdbquestdbreleasesdownload$versionquestdb-$version-no-jre-bin.tar.gz",
+        "url": "https://ghfast.top/https://github.com/questdb/questdb/releases/download/$version/questdb-$version-no-jre-bin.tar.gz",
         "extract_dir": "questdb-$version-no-jre-bin"
       }
     }

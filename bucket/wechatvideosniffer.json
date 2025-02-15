@@ -1,9 +1,9 @@
 {
   "version": "2.6",
   "description": "微信视频号下载工具",
-  "homepage": "https:github.comkanadeblisst00WechatVideoSniffer",
+  "homepage": "https://github.com/kanadeblisst00/WechatVideoSniffer",
   "license": "Unknown",
-  "url": "https:github.comkanadeblisst00WechatVideoSnifferreleasesdownload2.6WechatVideoSniffer_2.6.zip",
+  "url": "https://ghfast.top/https://github.com/kanadeblisst00/WechatVideoSniffer/releases/download/2.6/WechatVideoSniffer_2.6.zip",
   "hash": "d63baf46c67bc2f9aa3ed5d5a2eda97051fdcfd81e70a4bb535b933c0c761439",
   "pre_install": "Get-ChildItem \"$dir\\视频号下载助手*.exe\" | Rename-Item -NewName 'WechatVideoSniffer.exe'",
   "shortcuts": [
@@ -13,11 +13,11 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposkanadeblisst00WechatVideoSnifferreleases",
+    "url": "https://api.github.com/repos/kanadeblisst00/WechatVideoSniffer/releases",
     "jsonpath": "$[0].assets[*].browser_download_url",
-    "regex": "releasesdownload([\\d.]+)(?<file>WechatVideoSniffer.*?\\.zip)"
+    "regex": "/releases/download/([\\d.]+)/(?<file>WechatVideoSniffer.*?\\.zip)"
   },
   "autoupdate": {
-    "url": "https:github.comkanadeblisst00WechatVideoSnifferreleasesdownload$version$matchFile"
+    "url": "https://ghfast.top/https://github.com/kanadeblisst00/WechatVideoSniffer/releases/download/$version/$matchFile"
   }
 }

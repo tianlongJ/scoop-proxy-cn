@@ -1,10 +1,10 @@
 {
   "version": "2.59.3-39",
   "description": "An elegant Facebook Messenger desktop app.",
-  "homepage": "https:sindresorhus.comcaprine",
+  "homepage": "https://sindresorhus.com/caprine/",
   "license": {
     "identifier": "MIT",
-    "url": "https:github.comsindresorhuscaprineblobmasterlicense"
+    "url": "https://github.com/sindresorhus/caprine/blob/master/license"
   },
   "persist": [
     "data",
@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comportappscaprine-portablereleasesdownload2.59.3-39caprine-portable-win64-2.59.3-39.7z#dl.7z",
+      "url": "https://ghfast.top/https://github.com/portapps/caprine-portable/releases/download/2.59.3-39/caprine-portable-win64-2.59.3-39.7z#/dl.7z",
       "hash": "7b10ef6dabe287f2f107d56a87001b71a59085e9192f5a83feb34ae3b8da5565"
     }
   },
@@ -25,18 +25,18 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\caprine-portable.yml\")) { New-Item \"$dir\\caprine-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https:github.comportappscaprine-portablereleases",
-    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
+    "url": "https://github.com/portapps/caprine-portable/releases",
+    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comportappscaprine-portablereleasesdownload$versioncaprine-portable-win64-$version.7z#dl.7z"
+        "url": "https://ghfast.top/https://github.com/portapps/caprine-portable/releases/download/$version/caprine-portable-win64-$version.7z#/dl.7z"
       }
     },
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https:portapps.ioappcaprine-portable)"
+  "notes": "Installed from Portapps (https://portapps.io/app/caprine-portable/)"
 }

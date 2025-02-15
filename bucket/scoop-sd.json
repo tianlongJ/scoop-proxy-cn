@@ -1,17 +1,17 @@
 {
   "version": "0.3",
-  "description": "A program to search for scoop packages. Powered by https:scoopsearch.github.io",
-  "homepage": "https:github.comgrisha765scoop-search-directory",
+  "description": "A program to search for scoop packages. Powered by https://scoopsearch.github.io/",
+  "homepage": "https://github.com/grisha765/scoop-search-directory",
   "license": "Unknown",
-  "url": "https:github.comgrisha765scoop-search-directoryreleasesdownloadscoop-ds_v0.3scoop-sd.exe",
+  "url": "https://ghfast.top/https://github.com/grisha765/scoop-search-directory/releases/download/scoop-ds_v0.3/scoop-sd.exe",
   "hash": "50b58db02522383cb3a149716036738bc0cb626846a0c328f3009a544bd5c5ee",
   "bin": "scoop-sd.exe",
   "checkver": {
-    "url": "https:api.github.comrepositories464864051releaseslatest",
+    "url": "https://api.github.com/repositories/464864051/releases/latest",
     "jsonpath": "$.tag_name",
     "regex": "(?<prefix>[\\w-]+)v(?<version>[\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comgrisha765scoop-search-directoryreleasesdownload$matchPrefixv$versionscoop-sd.exe"
+    "url": "https://ghfast.top/https://github.com/grisha765/scoop-search-directory/releases/download/$matchPrefixv$version/scoop-sd.exe"
   }
 }

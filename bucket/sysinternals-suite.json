@@ -1,14 +1,14 @@
 {
   "version": "2025.02.13",
   "description": "A set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment.",
-  "homepage": "https:learn.microsoft.comsysinternals",
+  "homepage": "https://learn.microsoft.com/sysinternals",
   "license": {
     "identifier": "Freeware",
-    "url": "https:learn.microsoft.comsysinternalslicense-terms"
+    "url": "https://learn.microsoft.com/sysinternals/license-terms"
   },
   "architecture": {
     "64bit": {
-      "url": "https:download.sysinternals.comfilesSysinternalsSuite.zip",
+      "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
       "hash": "1c471a212790bb20d973550ab39342dbbe71658648d04317759ee39a5ea9547a",
       "bin": [
         [
@@ -298,136 +298,136 @@
       "shortcuts": [
         [
           "AccessEnum.exe",
-          "SysInternalsAccessEnum - View accesses to directories, files and registry keys",
-          "accepteula"
+          "SysInternals/AccessEnum - View accesses to directories, files and registry keys",
+          "/accepteula"
         ],
         [
           "AdExplorer64.exe",
-          "SysInternalsADExplorer - Active Directory viewer and editor",
-          "accepteula"
+          "SysInternals/ADExplorer - Active Directory viewer and editor",
+          "/accepteula"
         ],
         [
           "AdInsight64.exe",
-          "SysInternalsADInsight - An LDAP real-time monitoring tool",
-          "accepteula"
+          "SysInternals/ADInsight - An LDAP real-time monitoring tool",
+          "/accepteula"
         ],
         [
           "Autologon64.exe",
-          "SysInternalsAutologon - Bypass password screen during logon",
-          "accepteula"
+          "SysInternals/Autologon - Bypass password screen during logon",
+          "/accepteula"
         ],
         [
           "autoruns64.exe",
-          "SysInternalsAutoruns - View startup programs and processes"
+          "SysInternals/Autoruns - View startup programs and processes"
         ],
         [
           "Bginfo64.exe",
-          "SysInternalsBGInfo - Wallpaper text configurator",
-          "accepteula"
+          "SysInternals/BGInfo - Wallpaper text configurator",
+          "/accepteula"
         ],
         [
           "Cacheset64.exe",
-          "SysInternalsCacheSet - Control the Cache Manager's working set size",
-          "accepteula"
+          "SysInternals/CacheSet - Control the Cache Manager's working set size",
+          "/accepteula"
         ],
         [
           "CPUSTRES64.EXE",
-          "SysInternalsCPU Stress - Simulate CPU activity by running up to 64 threads in a tight loop",
-          "accepteula"
+          "SysInternals/CPU Stress - Simulate CPU activity by running up to 64 threads in a tight loop",
+          "/accepteula"
         ],
         [
           "Dbgview64.exe",
-          "SysInternalsDebugView - View OutputDebugString and DbgPrint output",
-          "accepteula"
+          "SysInternals/DebugView - View OutputDebugString and DbgPrint output",
+          "/accepteula"
         ],
         [
           "Desktops64.exe",
-          "SysInternalsDesktops - Create up to four virtual desktops",
-          "accepteula"
+          "SysInternals/Desktops - Create up to four virtual desktops",
+          "/accepteula"
         ],
         [
           "Disk2vhd64.exe",
-          "SysInternalsDisk2vhd - Create VHD files from online disk",
-          "accepteula"
+          "SysInternals/Disk2vhd - Create VHD files from online disk",
+          "/accepteula"
         ],
         [
           "Diskmon64.exe",
-          "SysInternalsDiskMon - Disk activity monitor",
-          "accepteula"
+          "SysInternals/DiskMon - Disk activity monitor",
+          "/accepteula"
         ],
         [
           "DiskView64.exe",
-          "SysInternalsDiskView - Graphical disk sector utility",
-          "accepteula"
+          "SysInternals/DiskView - Graphical disk sector utility",
+          "/accepteula"
         ],
         [
           "LoadOrd64.exe",
-          "SysInternalsLoadOrder - See the order in which devices are loaded",
-          "accepteula"
+          "SysInternals/LoadOrder - See the order in which devices are loaded",
+          "/accepteula"
         ],
         [
           "NotMyFault64.exe",
-          "SysInternalsNotMyFault - Crash, hang, and cause kernel memory leaks",
-          "accepteula"
+          "SysInternals/NotMyFault - Crash, hang, and cause kernel memory leaks",
+          "/accepteula"
         ],
         [
           "portmon.exe",
-          "SysInternalsPortMon - Serial and parallel port activity monitor",
-          "accepteula"
+          "SysInternals/PortMon - Serial and parallel port activity monitor",
+          "/accepteula"
         ],
         [
           "procexp64.exe",
-          "SysInternalsProcessExplorer - Enhanced Task Manager",
-          "accepteula"
+          "SysInternals/ProcessExplorer - Enhanced Task Manager",
+          "/accepteula"
         ],
         [
           "Procmon64.exe",
-          "SysInternalsProcessMonitor - Monitor file system, registry, process, thread and DLL activity",
-          "accepteula"
+          "SysInternals/ProcessMonitor - Monitor file system, registry, process, thread and DLL activity",
+          "/accepteula"
         ],
         [
           "RAMMap64.exe",
-          "SysInternalsRamMap - Graphical display of memory usage",
-          "accepteula"
+          "SysInternals/RamMap - Graphical display of memory usage",
+          "/accepteula"
         ],
         [
           "RDCMan.exe",
-          "SysInternalsRDCMan - Remote Desktop Connection Manager"
+          "SysInternals/RDCMan - Remote Desktop Connection Manager"
         ],
         [
           "ShareEnum64.exe",
-          "SysInternalsShareEnum - View network shares",
-          "accepteula"
+          "SysInternals/ShareEnum - View network shares",
+          "/accepteula"
         ],
         [
           "ShellRunas.exe",
-          "SysInternalsShellRunas - Launching programs under different accounts",
-          "accepteula"
+          "SysInternals/ShellRunas - Launching programs under different accounts",
+          "/accepteula"
         ],
         [
           "tcpview64.exe",
-          "SysInternalsTCPView - List TCP UDP endpoints",
-          "accepteula"
+          "SysInternals/TCPView - List TCP UDP endpoints",
+          "/accepteula"
         ],
         [
           "vmmap64.exe",
-          "SysInternalsVMMap - View Virtual and Physical Memory",
-          "accepteula"
+          "SysInternals/VMMap - View Virtual and Physical Memory",
+          "/accepteula"
         ],
         [
           "Winobj64.exe",
-          "SysInternalsWinObj - Object Manager namespace viewer",
-          "accepteula"
+          "SysInternals/WinObj - Object Manager namespace viewer",
+          "/accepteula"
         ],
         [
           "ZoomIt64.exe",
-          "SysInternalsZoomIt - Screen magnifier for zooming and drawing on the screen",
-          "accepteula"
+          "SysInternals/ZoomIt - Screen magnifier for zooming and drawing on the screen",
+          "/accepteula"
         ]
       ]
     },
     "32bit": {
-      "url": "https:download.sysinternals.comfilesSysinternalsSuite.zip",
+      "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
       "hash": "1c471a212790bb20d973550ab39342dbbe71658648d04317759ee39a5ea9547a",
       "bin": [
         "accesschk.exe",
@@ -510,136 +510,136 @@
       "shortcuts": [
         [
           "AccessEnum.exe",
-          "SysInternalsAccessEnum - View accesses to directories, files and registry keys",
-          "accepteula"
+          "SysInternals/AccessEnum - View accesses to directories, files and registry keys",
+          "/accepteula"
         ],
         [
           "AdExplorer.exe",
-          "SysInternalsADExplorer - Active Directory viewer and editor",
-          "accepteula"
+          "SysInternals/ADExplorer - Active Directory viewer and editor",
+          "/accepteula"
         ],
         [
           "AdInsight.exe",
-          "SysInternalsADInsight - An LDAP real-time monitoring tool",
-          "accepteula"
+          "SysInternals/ADInsight - An LDAP real-time monitoring tool",
+          "/accepteula"
         ],
         [
           "Autologon.exe",
-          "SysInternalsAutologon - Bypass password screen during logon",
-          "accepteula"
+          "SysInternals/Autologon - Bypass password screen during logon",
+          "/accepteula"
         ],
         [
           "autoruns.exe",
-          "SysInternalsAutoruns - View startup programs and processes"
+          "SysInternals/Autoruns - View startup programs and processes"
         ],
         [
           "Bginfo.exe",
-          "SysInternalsBGInfo - Wallpaper text configurator",
-          "accepteula"
+          "SysInternals/BGInfo - Wallpaper text configurator",
+          "/accepteula"
         ],
         [
           "Cacheset.exe",
-          "SysInternalsCacheSet - Control the Cache Manager's working set size",
-          "accepteula"
+          "SysInternals/CacheSet - Control the Cache Manager's working set size",
+          "/accepteula"
         ],
         [
           "CPUSTRES.EXE",
-          "SysInternalsCPU Stress - Simulate CPU activity by running up to 64 threads in a tight loop",
-          "accepteula"
+          "SysInternals/CPU Stress - Simulate CPU activity by running up to 64 threads in a tight loop",
+          "/accepteula"
         ],
         [
           "Dbgview.exe",
-          "SysInternalsDebugView - View OutputDebugString and DbgPrint output",
-          "accepteula"
+          "SysInternals/DebugView - View OutputDebugString and DbgPrint output",
+          "/accepteula"
         ],
         [
           "Desktops.exe",
-          "SysInternalsDesktops - Create up to four virtual desktops",
-          "accepteula"
+          "SysInternals/Desktops - Create up to four virtual desktops",
+          "/accepteula"
         ],
         [
           "Disk2vhd.exe",
-          "SysInternalsDisk2vhd - Create VHD files from online disk",
-          "accepteula"
+          "SysInternals/Disk2vhd - Create VHD files from online disk",
+          "/accepteula"
         ],
         [
           "Diskmon.exe",
-          "SysInternalsDiskMon - Disk activity monitor",
-          "accepteula"
+          "SysInternals/DiskMon - Disk activity monitor",
+          "/accepteula"
         ],
         [
           "DiskView.exe",
-          "SysInternalsDiskView - Graphical disk sector utility",
-          "accepteula"
+          "SysInternals/DiskView - Graphical disk sector utility",
+          "/accepteula"
         ],
         [
           "LoadOrd.exe",
-          "SysInternalsLoadOrder - See the order in which devices are loaded",
-          "accepteula"
+          "SysInternals/LoadOrder - See the order in which devices are loaded",
+          "/accepteula"
         ],
         [
           "NotMyFault.exe",
-          "SysInternalsNotMyFault - Crash, hang, and cause kernel memory leaks",
-          "accepteula"
+          "SysInternals/NotMyFault - Crash, hang, and cause kernel memory leaks",
+          "/accepteula"
         ],
         [
           "portmon.exe",
-          "SysInternalsPortMon - Serial and parallel port activity monitor",
-          "accepteula"
+          "SysInternals/PortMon - Serial and parallel port activity monitor",
+          "/accepteula"
         ],
         [
           "procexp.exe",
-          "SysInternalsProcessExplorer - Enhanced Task Manager",
-          "accepteula"
+          "SysInternals/ProcessExplorer - Enhanced Task Manager",
+          "/accepteula"
         ],
         [
           "Procmon.exe",
-          "SysInternalsProcessMonitor - Monitor file system, registry, process, thread and DLL activity",
-          "accepteula"
+          "SysInternals/ProcessMonitor - Monitor file system, registry, process, thread and DLL activity",
+          "/accepteula"
         ],
         [
           "RAMMap.exe",
-          "SysInternalsRamMap - Graphical display of memory usage",
-          "accepteula"
+          "SysInternals/RamMap - Graphical display of memory usage",
+          "/accepteula"
         ],
         [
           "RDCMan.exe",
-          "SysInternalsRDCMan - Remote Desktop Connection Manager"
+          "SysInternals/RDCMan - Remote Desktop Connection Manager"
         ],
         [
           "ShareEnum.exe",
-          "SysInternalsShareEnum - View network shares",
-          "accepteula"
+          "SysInternals/ShareEnum - View network shares",
+          "/accepteula"
         ],
         [
           "ShellRunas.exe",
-          "SysInternalsShellRunas - Launching programs under different accounts",
-          "accepteula"
+          "SysInternals/ShellRunas - Launching programs under different accounts",
+          "/accepteula"
         ],
         [
           "tcpview.exe",
-          "SysInternalsTCPView - List TCP UDP endpoints",
-          "accepteula"
+          "SysInternals/TCPView - List TCP UDP endpoints",
+          "/accepteula"
         ],
         [
           "vmmap.exe",
-          "SysInternalsVMMap - View Virtual and Physical Memory",
-          "accepteula"
+          "SysInternals/VMMap - View Virtual and Physical Memory",
+          "/accepteula"
         ],
         [
           "Winobj.exe",
-          "SysInternalsWinObj - Object Manager namespace viewer",
-          "accepteula"
+          "SysInternals/WinObj - Object Manager namespace viewer",
+          "/accepteula"
         ],
         [
           "ZoomIt.exe",
-          "SysInternalsZoomIt - Screen magnifier for zooming and drawing on the screen",
-          "accepteula"
+          "SysInternals/ZoomIt - Screen magnifier for zooming and drawing on the screen",
+          "/accepteula"
         ]
       ]
     },
     "arm64": {
-      "url": "https:download.sysinternals.comfilesSysinternalsSuite-ARM64.zip",
+      "url": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip",
       "hash": "0c1148c56780daa15a65aacf8455736595aa3687f879971138fbe89ecd185074",
       "bin": [
         [
@@ -870,101 +870,101 @@
       "shortcuts": [
         [
           "AdExplorer64a.exe",
-          "SysInternalsAdExplorer - Active Directory viewer and editor",
-          "accepteula"
+          "SysInternals/AdExplorer - Active Directory viewer and editor",
+          "/accepteula"
         ],
         [
           "AdInsight64a.exe",
-          "SysInternalsAdInsight - An LDAP real-time monitoring tool",
-          "accepteula"
+          "SysInternals/AdInsight - An LDAP real-time monitoring tool",
+          "/accepteula"
         ],
         [
           "Autologon64a.exe",
-          "SysInternalsAutologon - Bypass password screen during logon",
-          "accepteula"
+          "SysInternals/Autologon - Bypass password screen during logon",
+          "/accepteula"
         ],
         [
           "Autoruns64a.exe",
-          "SysInternalsAutoruns - View startup programs and processes"
+          "SysInternals/Autoruns - View startup programs and processes"
         ],
         [
           "Dbgview64a.exe",
-          "SysInternalsDebugView - View OutputDebugString and DbgPrint output",
-          "accepteula"
+          "SysInternals/DebugView - View OutputDebugString and DbgPrint output",
+          "/accepteula"
         ],
         [
           "Disk2vhd64a.exe",
-          "SysInternalsDisk2vhd - Create VHD files from online disk",
-          "accepteula"
+          "SysInternals/Disk2vhd - Create VHD files from online disk",
+          "/accepteula"
         ],
         [
           "DiskView64a.exe",
-          "SysInternalsDiskView - Graphical disk sector utility",
-          "accepteula"
+          "SysInternals/DiskView - Graphical disk sector utility",
+          "/accepteula"
         ],
         [
           "LoadOrd64a.EXE",
-          "SysInternalsLoadOrder - See the order in which devices are loaded",
-          "accepteula"
+          "SysInternals/LoadOrder - See the order in which devices are loaded",
+          "/accepteula"
         ],
         [
           "NotMyFault64a.exe",
-          "SysInternalsNotMyFault - Crash, hang, and cause kernel memory leaks",
-          "accepteula"
+          "SysInternals/NotMyFault - Crash, hang, and cause kernel memory leaks",
+          "/accepteula"
         ],
         [
           "procexp64a.exe",
-          "SysInternalsProcess Explorer - Enhanced Task Manager",
-          "accepteula"
+          "SysInternals/Process Explorer - Enhanced Task Manager",
+          "/accepteula"
         ],
         [
           "ProcMon64a.exe",
-          "SysInternalsProcess Monitor - Monitor file system, registry, process, thread and DLL activity",
-          "accepteula"
+          "SysInternals/Process Monitor - Monitor file system, registry, process, thread and DLL activity",
+          "/accepteula"
         ],
         [
           "RAMMap64a.exe",
-          "SysInternalsRamMap - Graphical display of memory usage",
-          "accepteula"
+          "SysInternals/RamMap - Graphical display of memory usage",
+          "/accepteula"
         ],
         [
           "tcpview64a.exe",
-          "SysInternalsTCPView - List TCP UDP endpoints",
-          "accepteula"
+          "SysInternals/TCPView - List TCP UDP endpoints",
+          "/accepteula"
         ],
         [
           "vmmap64a.exe",
-          "SysInternalsVMMap - View Virtual and Physical Memory",
-          "accepteula"
+          "SysInternals/VMMap - View Virtual and Physical Memory",
+          "/accepteula"
         ],
         [
           "Winobj64a.exe",
-          "SysInternalsWinObj - Object Manager namespace viewer",
-          "accepteula"
+          "SysInternals/WinObj - Object Manager namespace viewer",
+          "/accepteula"
         ],
         [
           "ZoomIt64a.exe",
-          "SysInternalsZoomIt - Screen magnifier for zooming and drawing on the screen",
-          "accepteula"
+          "SysInternals/ZoomIt - Screen magnifier for zooming and drawing on the screen",
+          "/accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalslivesysinternalsdownloadssysinternals-suite.md",
-    "regex": "ms.date: (\\d{2})(\\d{2})(\\d{4})",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/live/sysinternals/downloads/sysinternals-suite.md",
+    "regex": "ms.date: (\\d{2})/(\\d{2})/(\\d{4})",
     "replace": "${3}.${1}.${2}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:download.sysinternals.comfilesSysinternalsSuite.zip"
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip"
       },
       "32bit": {
-        "url": "https:download.sysinternals.comfilesSysinternalsSuite.zip"
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip"
       },
       "arm64": {
-        "url": "https:download.sysinternals.comfilesSysinternalsSuite-ARM64.zip"
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip"
       }
     }
   }

@@ -1,15 +1,15 @@
 {
-  "##": "Download URL and Hashes https:github.commicrosoftwinget-pkgstreemastermanifestsmMicrosoftPowerBI",
+  "##": "Download URL and Hashes https://github.com/microsoft/winget-pkgs/tree/master/manifests/m/Microsoft/PowerBI",
   "version": "2.139.2054.0",
   "description": "Power BI Desktop. Create rich, interactive reports with visual analytics at your fingertips",
-  "homepage": "https:powerbi.microsoft.comen-usdesktop",
+  "homepage": "https://powerbi.microsoft.com/en-us/desktop/",
   "license": {
     "identifier": "Freeware",
-    "url": "https:www.microsoft.comen-uslegalintellectualpropertycopyrightdefault.aspx"
+    "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
   },
   "architecture": {
     "64bit": {
-      "url": "https:download.microsoft.comdownload880880BCA75-79DD-466A-927D-1ABF1F5454B0PBIDesktopSetup_x64.exe#setup.exe",
+      "url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe#/setup.exe",
       "hash": "22acb7e95cb5ba3051890057be6391b59685191e2bbd9feea26f864094b1aa43"
     }
   },
@@ -46,14 +46,14 @@
     "if (Test-Path \"$CommonDesktopPath\\Power BI Desktop.lnk\") {Remove-Item \"$CommonDesktopPath\\Power BI Desktop.lnk\" -Force}"
   ],
   "checkver": {
-    "url": "https:github.commicrosoftwinget-pkgstreemastermanifestsmMicrosoftPowerBI",
-    "regex": "manifestsmMicrosoftPowerBI([\\d.]+)",
+    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/m/Microsoft/PowerBI",
+    "regex": "manifests/m/Microsoft/PowerBI/([\\d.]+)",
     "reverse": true
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:download.microsoft.comdownload880880BCA75-79DD-466A-927D-1ABF1F5454B0PBIDesktopSetup_x64.exe#setup.exe"
+        "url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe#/setup.exe"
       }
     }
   }

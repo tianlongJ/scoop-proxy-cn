@@ -1,11 +1,11 @@
 {
   "version": "3.2.1",
   "description": "Command Line Interface for Google Actions SDK",
-  "homepage": "https:github.comactions-on-googlegactions",
+  "homepage": "https://github.com/actions-on-google/gactions",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:registry.npmjs.org@assistantgactions-gactions-3.2.1.tgz",
+      "url": "https://registry.npmjs.org/@assistant/gactions/-/gactions-3.2.1.tgz",
       "hash": "sha1:148aedd6d3992a16605a6de3c831b1ae704a509a",
       "extract_dir": "package\\bin"
     }
@@ -17,16 +17,16 @@
     ]
   ],
   "checkver": {
-    "url": "https:registry.npmjs.org@assistantgactionslatest",
+    "url": "https://registry.npmjs.org/@assistant/gactions/latest",
     "jsonpath": "$.version"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:registry.npmjs.org@assistantgactions-gactions-$version.tgz",
+        "url": "https://registry.npmjs.org/@assistant/gactions/-/gactions-$version.tgz",
         "hash": {
           "mode": "json",
-          "url": "https:registry.npmjs.org@assistantgactions$version",
+          "url": "https://registry.npmjs.org/@assistant/gactions/$version",
           "jsonpath": "$.dist.shasum"
         }
       }

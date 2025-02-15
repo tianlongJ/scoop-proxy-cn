@@ -1,15 +1,15 @@
 {
   "version": "1.14.9.29743",
   "description": "An Apache™ Subversion (SVN)® client, implemented as a Windows shell extension.",
-  "homepage": "https:tortoisesvn.net",
+  "homepage": "https://tortoisesvn.net",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
       "url": [
-        "https:sourceforge.netprojectstortoisesvnfiles1.14.9ApplicationTortoiseSVN-1.14.9.29743-x64-svn-1.14.5.msi",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoise-svntortoisesvn-install-tools.reg.templ",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoise-svntortoisesvn-install.reg.templ",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoise-svntortoisesvn-uninstall.reg"
+        "https://sourceforge.net/projects/tortoisesvn/files/1.14.9/Application/TortoiseSVN-1.14.9.29743-x64-svn-1.14.5.msi",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoise-svn/tortoisesvn-install-tools.reg.templ",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoise-svn/tortoisesvn-install.reg.templ",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoise-svn/tortoisesvn-uninstall.reg"
       ],
       "hash": [
         "sha1:68608ab7f1e52a66556b6affb01e9ce7f0023a09",
@@ -20,10 +20,10 @@
     },
     "32bit": {
       "url": [
-        "https:sourceforge.netprojectstortoisesvnfiles1.14.9ApplicationTortoiseSVN-1.14.9.29743-win32-svn-1.14.5.msi",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoisesvntortoisesvn-install-tools.reg.templ",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoisesvntortoisesvn-install.reg.templ",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoisesvntortoisesvn-uninstall.reg"
+        "https://sourceforge.net/projects/tortoisesvn/files/1.14.9/Application/TortoiseSVN-1.14.9.29743-win32-svn-1.14.5.msi",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoisesvn/tortoisesvn-install-tools.reg.templ",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoisesvn/tortoisesvn-install.reg.templ",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoisesvn/tortoisesvn-uninstall.reg"
       ],
       "hash": [
         "sha1:a2fa2acba50cb5cc1f20b89731bd87d764b588a6",
@@ -34,10 +34,10 @@
     },
     "arm64": {
       "url": [
-        "https:sourceforge.netprojectstortoisesvnfiles1.14.9ApplicationTortoiseSVN-1.14.9.29743-ARM64-svn-1.14.5.msi",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoisesvntortoisesvn-install-tools.reg.templ",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoisesvntortoisesvn-install.reg.templ",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptstortoisesvntortoisesvn-uninstall.reg"
+        "https://sourceforge.net/projects/tortoisesvn/files/1.14.9/Application/TortoiseSVN-1.14.9.29743-ARM64-svn-1.14.5.msi",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoisesvn/tortoisesvn-install-tools.reg.templ",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoisesvn/tortoisesvn-install.reg.templ",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/tortoisesvn/tortoisesvn-uninstall.reg"
       ],
       "hash": [
         "sha1:2cd4ab9c4d514bdd0940f300b1dc324499325349",
@@ -72,22 +72,22 @@
     [
       "bin\\TortoiseProc.exe",
       "TortoiseSVN",
-      "command:rtfm"
+      "/command:rtfm"
     ],
     [
       "bin\\TortoiseProc.exe",
       "TortoiseSVN Project Monitor",
-      "command:monitor"
+      "/command:monitor"
     ],
     [
       "bin\\TortoiseProc.exe",
       "TortoiseSVN Repository Browser",
-      "command:repobrowser"
+      "/command:repobrowser"
     ],
     [
       "bin\\TortoiseProc.exe",
       "TortoiseSVN Settings",
-      "command:settings"
+      "/command:settings"
     ]
   ],
   "post_install": [
@@ -109,19 +109,19 @@
     "For file associations, run '$dir\\tortoisesvn-install-tools.reg'"
   ],
   "checkver": {
-    "url": "https:tortoisesvn.netdownloads.html",
-    "re": "tortoisesvnfiles(?<release>[\\d.]+)ApplicationTortoiseSVN-([\\d.]+)-x64-svn-(?<svn>[\\d.]+).msi"
+    "url": "https://tortoisesvn.net/downloads.html",
+    "re": "tortoisesvn/files/(?<release>[\\d.]+)/Application/TortoiseSVN-([\\d.]+)-x64-svn-(?<svn>[\\d.]+).msi"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:sourceforge.netprojectstortoisesvnfiles$matchReleaseApplicationTortoiseSVN-$version-x64-svn-$matchSvn.msi"
+        "url": "https://sourceforge.net/projects/tortoisesvn/files/$matchRelease/Application/TortoiseSVN-$version-x64-svn-$matchSvn.msi"
       },
       "32bit": {
-        "url": "https:sourceforge.netprojectstortoisesvnfiles$matchReleaseApplicationTortoiseSVN-$version-win32-svn-$matchSvn.msi"
+        "url": "https://sourceforge.net/projects/tortoisesvn/files/$matchRelease/Application/TortoiseSVN-$version-win32-svn-$matchSvn.msi"
       },
       "arm64": {
-        "url": "https:sourceforge.netprojectstortoisesvnfiles$matchReleaseApplicationTortoiseSVN-$version-ARM64-svn-$matchSvn.msi"
+        "url": "https://sourceforge.net/projects/tortoisesvn/files/$matchRelease/Application/TortoiseSVN-$version-ARM64-svn-$matchSvn.msi"
       }
     }
   }

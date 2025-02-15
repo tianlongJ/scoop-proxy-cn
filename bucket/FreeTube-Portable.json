@@ -1,12 +1,12 @@
 {
   "version": "0.23.1-beta",
   "description": "FreeTube. The private YouTube client",
-  "homepage": "https:freetubeapp.io",
+  "homepage": "https://freetubeapp.io",
   "license": "AGPL-3.0-only",
-  "changelog": "https:github.comFreeTubeAppFreeTubereleases",
+  "changelog": "https://github.com/FreeTubeApp/FreeTube/releases",
   "architecture": {
     "64bit": {
-      "url": "https:github.comFreeTubeAppFreeTubereleasesdownloadv0.23.1-betafreetube-0.23.1-win-x64-portable.zip#dl.7z",
+      "url": "https://ghfast.top/https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.1-beta/freetube-0.23.1-win-x64-portable.zip#/dl.7z",
       "hash": "b32ef438fce5fb3f5ac0e5eae5ecb1c8e03f2fa950e9d45e4c431c80ca3c4206"
     }
   },
@@ -17,13 +17,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comFreeTubeAppFreeTubereleases",
-    "regex": "FreeTubeAppFreeTubetreev([\\w.-]+)"
+    "url": "https://github.com/FreeTubeApp/FreeTube/releases",
+    "regex": "/FreeTubeApp/FreeTube/tree/v([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comFreeTubeAppFreeTubereleasesdownloadv$versionfreetube-$matchHead-win-x64-portable.zip#dl.7z"
+        "url": "https://ghfast.top/https://github.com/FreeTubeApp/FreeTube/releases/download/v$version/freetube-$matchHead-win-x64-portable.zip#/dl.7z"
       }
     }
   }

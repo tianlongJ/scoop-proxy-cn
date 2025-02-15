@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files.",
-  "homepage": "https:github.comYaoFANGUKvideo-subtitle-extractor",
+  "homepage": "https://github.com/YaoFANGUK/video-subtitle-extractor",
   "license": {
     "identifier": "Shareware"
   },
@@ -9,7 +9,7 @@
   "#depends": [
     ""
   ],
-  "url": "https:github.comYaoFANGUKvideo-subtitle-extractorreleasesdownload1.0.0vse_windows_GPU.7z",
+  "url": "https://ghfast.top/https://github.com/YaoFANGUK/video-subtitle-extractor/releases/download/1.0.0/vse_windows_GPU.7z",
   "hash": "7e76b00d9c07c632aa3a4902c95677112a7e99a1333981c789f9bdd30229ce85",
   "extract_dir": "",
   "post_install": [
@@ -17,12 +17,12 @@
     "",
     ""
   ],
-  "bin": "vsevse.exe",
+  "bin": "vse/vse.exe",
   "checkver": {
-    "github": "https:github.comYaoFANGUKvideo-subtitle-extractor"
+    "github": "https://github.com/YaoFANGUK/video-subtitle-extractor"
   },
   "autoupdate": {
-    "url": "https:github.comYaoFANGUKvideo-subtitle-extractorreleasesdownloadv$versionvse_windows_GPU.7z",
+    "url": "https://ghfast.top/https://github.com/YaoFANGUK/video-subtitle-extractor/releases/download/v$version/vse_windows_GPU.7z",
     "extract_dir": ""
   }
 }

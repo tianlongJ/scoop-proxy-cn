@@ -1,7 +1,7 @@
 {
   "version": "1.2.0",
   "description": "TI Analog engineer's calculator",
-  "homepage": "https:www.ti.comtoolANALOG-ENGINEER-CALC",
+  "homepage": "https://www.ti.com/tool/ANALOG-ENGINEER-CALC",
   "license": "Shareware",
   "#depends": [
     ""
@@ -11,10 +11,10 @@
     "This PC-based tool provides a graphical interface with a list of various common calculations ranging from setting op-amp gain with feedback resistors to ",
     "selecting appropriate circuit design elements for stabilizing an analog-to-digital converter (ADC) drive buffer circuit. In addition to being useful as ",
     "a stand-alone tool, this calculator pairs well with the concepts described in the Analog Engineer's Pocket Reference.",
-    "https:www.ti.comlitdfsbac164hsbac164h.zip",
+    "https://www.ti.com/lit/df/sbac164h/sbac164h.zip",
     ""
   ],
-  "url": "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0sbac164h-cvp.zip",
+  "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/sbac164h-cvp.zip",
   "hash": "f9852bd62d44969916801d64672d6f12163a871e79abd2a7bb1eaeebb335a25c",
   "extract_dir": "Analog Engineers Calculator Installer",
   "extract_to": "installer",
@@ -42,7 +42,7 @@
       "",
       "Write-Host \"S2. Installing with inst.spec...\" -ForegroundColor DarkCyan",
       "",
-      "$proc = Start-Process \"$dir\\installer\\setup.exe\" -ArgumentList @(\"$dir\\installer\\inst.spec\", 'q', 'AcceptLicenses yes', 'r:n', \"log $dir\\ScoopInstall.log\", 'confirmCriticalWarnings', 'disableNotificationCheck') -Verb RunAs -PassThru",
+      "$proc = Start-Process \"$dir\\installer\\setup.exe\" -ArgumentList @(\"$dir\\installer\\inst.spec\", '/q', '/AcceptLicenses yes', '/r:n', \"/log $dir\\ScoopInstall.log\", '/confirmCriticalWarnings', '/disableNotificationCheck') -Verb RunAs -PassThru",
       "$timeouted = $null # reset any previously set timeout",
       "# wait up to x seconds for normal termination",
       "$proc | Wait-Process -Timeout 180 -ErrorAction SilentlyContinue -ErrorVariable timeouted",
@@ -65,7 +65,7 @@
     "script": [
       "",
       "",
-      "Start-Process \"$dir\\Programs\\National Instruments\\Shared\\NIUninstaller\\uninst.exe\" -ArgumentList @('qb x all') -Verb RunAs -Wait | Out-Null",
+      "Start-Process \"$dir\\Programs\\National Instruments\\Shared\\NIUninstaller\\uninst.exe\" -ArgumentList @('/qb /x all') -Verb RunAs -Wait | Out-Null",
       "#Remove-Item \"$dir\\installer\" -Recurse -Force",
       "",
       ""

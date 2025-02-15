@@ -1,10 +1,10 @@
 {
   "version": "5.0.1252.0",
   "description": "NanaZip. The 7-Zip derivative intended for the modern Windows experience",
-  "homepage": "https:github.comM2TeamNanaZip",
+  "homepage": "https://github.com/M2Team/NanaZip",
   "license": "MIT",
-  "changelog": "https:github.comM2TeamNanaZipreleases",
-  "url": "https:github.comM2TeamNanaZipreleasesdownload5.0.1252.0NanaZip_5.0.1252.0.msixbundle#dl.7z",
+  "changelog": "https://github.com/M2Team/NanaZip/releases",
+  "url": "https://ghfast.top/https://github.com/M2Team/NanaZip/releases/download/5.0.1252.0/NanaZip_5.0.1252.0.msixbundle#/dl.7z",
   "hash": "98b3111af394ddc3864d084fd43ec4415b72e30abe38078f35140ed99eb1f662",
   "pre_install": [
     "Remove-Item -Path \"$dir\\*\" -Exclude *.msix -Recurse -Force",
@@ -29,9 +29,9 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comM2TeamNanaZipreleasesdownload$versionNanaZip_$version.msixbundle#dl.7z",
+    "url": "https://ghfast.top/https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle#/dl.7z",
     "hash": {
-      "url": "https:github.comM2TeamNanaZipreleasestag$version",
+      "url": "https://github.com/M2Team/NanaZip/releases/tag/$version",
       "regex": "(?s)$basename.*?$sha256"
     }
   }

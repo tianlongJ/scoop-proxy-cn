@@ -1,15 +1,15 @@
 {
   "version": "4.9.1",
   "description": "Static analysis tool for Java",
-  "homepage": "https:spotbugs.github.io",
+  "homepage": "https://spotbugs.github.io/",
   "license": "LGPL-2.1-only",
   "suggest": {
     "JDK": [
-      "javaoraclejdk",
-      "javaopenjdk"
+      "java/oraclejdk",
+      "java/openjdk"
     ]
   },
-  "url": "https:repo.maven.apache.orgmaven2comgithubspotbugsspotbugs4.9.1spotbugs-4.9.1.zip",
+  "url": "https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs/4.9.1/spotbugs-4.9.1.zip",
   "hash": "f7ee284368d64d33f97e142f33e8251cddeacf366df20853fefa342be281f31a",
   "extract_dir": "spotbugs-4.9.1",
   "bin": "bin\\spotbugs.bat",
@@ -23,11 +23,11 @@
   ],
   "persist": "plugin",
   "checkver": {
-    "url": "https:api.github.comrepositories72889410releases",
+    "url": "https://api.github.com/repositories/72889410/releases",
     "jsonpath": "$[0].tag_name"
   },
   "autoupdate": {
-    "url": "https:repo.maven.apache.orgmaven2comgithubspotbugsspotbugs$versionspotbugs-$version.zip",
+    "url": "https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs/$version/spotbugs-$version.zip",
     "extract_dir": "spotbugs-$version"
   }
 }

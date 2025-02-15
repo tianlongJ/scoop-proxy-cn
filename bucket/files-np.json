@@ -1,9 +1,9 @@
 {
   "version": "3.7.11",
-  "homepage": "https:files.community",
+  "homepage": "https://files.community/",
   "description": "A modern file manager that helps users organize their files and folders.",
   "license": "MIT",
-  "url": "https:cdn.files.communityfilesstableFiles.Package_3.7.11.0_Stable_TestFiles.Package_3.7.11.0_x64_arm64_Stable.msixbundle#setup.msixbundle",
+  "url": "https://cdn.files.community/files/stable/Files.Package_3.7.11.0_Stable_Test/Files.Package_3.7.11.0_x64_arm64_Stable.msixbundle#/setup.msixbundle",
   "hash": "243a989ea173e6ddfa31b8e018a96c98aefca3ae3645c98e62419da46160d90e",
   "pre_install": [
     "Start-Process 'powershell' -Wait -WindowStyle 'Hidden' -ArgumentList @('-C', \"Add-AppxPackage \"\"$dir\\setup.msixbundle\"\"\")",
@@ -16,9 +16,9 @@
     "Start-Sleep -Seconds 2"
   ],
   "checkver": {
-    "github": "https:github.comfiles-communityFiles"
+    "github": "https://github.com/files-community/Files"
   },
   "autoupdate": {
-    "url": "https:cdn.files.communityfilesstableFiles.Package_$version.0_Stable_TestFiles.Package_$version.0_x64_arm64_Stable.msixbundle#setup.msixbundle"
+    "url": "https://cdn.files.community/files/stable/Files.Package_$version.0_Stable_Test/Files.Package_$version.0_x64_arm64_Stable.msixbundle#/setup.msixbundle"
   }
 }

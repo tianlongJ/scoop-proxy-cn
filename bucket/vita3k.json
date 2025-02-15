@@ -1,14 +1,14 @@
 {
   "version": "3737-0b5ee98",
   "description": "Experimental PlayStation Vita emulator",
-  "homepage": "https:vita3k.org",
+  "homepage": "https://vita3k.org",
   "license": "GPL-2.0-only",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comVita3KVita3Kreleasesdownloadcontinuouswindows-latest.zip",
+      "url": "https://ghfast.top/https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip",
       "hash": "f336ba35bddff73c3b16ac06dfa741bc0f22224d8c4c18994b1e53a3e6a2a404"
     }
   },
@@ -30,7 +30,7 @@
   ],
   "checkver": {
     "script": [
-      "$url = 'https:github.comVita3KVita3Kreleasestagcontinuous'",
+      "$url = 'https://github.com/Vita3K/Vita3K/releases/tag/continuous'",
       "$build_regex = 'Vita3K Build: (\\d+)'",
       "$commit_regex = 'Corresponding commit: ([a-f0-9]{7})'",
       "",
@@ -49,7 +49,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comVita3KVita3Kreleasesdownloadcontinuouswindows-latest.zip"
+        "url": "https://ghfast.top/https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "2001394528",
   "description": "Increase or reduce the privilege level of the calling code on Windows systems",
-  "homepage": "https:github.comwezEleDo",
+  "homepage": "https://github.com/wez/EleDo",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comwezEleDoreleasesdownloadContinuousEleDo.zip",
+      "url": "https://ghfast.top/https://github.com/wez/EleDo/releases/download/Continuous/EleDo.zip",
       "hash": "50de6e5e733b2c16385a82bd6f125e2e6a93e099ad5e8911f47a0daa4cc0b52a"
     }
   },
@@ -15,13 +15,13 @@
     "normdo.exe"
   ],
   "checkver": {
-    "url": "https:api.github.comrepositories263497322actionsworkflowscontinuous.ymlruns?branch=master&status=success",
+    "url": "https://api.github.com/repositories/263497322/actions/workflows/continuous.yml/runs?branch=master&status=success",
     "jsonpath": "$.workflow_runs[0].id"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comwezEleDoreleasesdownloadContinuousEleDo.zip"
+        "url": "https://ghfast.top/https://github.com/wez/EleDo/releases/download/Continuous/EleDo.zip"
       }
     }
   }

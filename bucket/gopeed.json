@@ -1,11 +1,11 @@
 {
   "version": "1.6.10",
   "description": "A modern download manager that supports all platforms",
-  "homepage": "https:github.comGopeedLabgopeed",
+  "homepage": "https://github.com/GopeedLab/gopeed",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:github.comGopeedLabgopeedreleasesdownloadv1.6.10Gopeed-v1.6.10-windows-amd64-portable.zip",
+      "url": "https://ghfast.top/https://github.com/GopeedLab/gopeed/releases/download/v1.6.10/Gopeed-v1.6.10-windows-amd64-portable.zip",
       "hash": "c145ebdf7c641810ad6147907fdf703720bc4056a5bcf6ca3ff01b554d9467cb"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comGopeedLabgopeedreleasesdownloadv$versionGopeed-v$version-windows-amd64-portable.zip"
+        "url": "https://ghfast.top/https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64-portable.zip"
       }
     }
   }

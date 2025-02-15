@@ -1,11 +1,11 @@
 {
   "version": "2.0.0-alpha-2",
   "description": "Cloud music player based on NetEase Player, featuring more elegant UI",
-  "homepage": "https:music.qier222.com",
+  "homepage": "https://music.qier222.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comqier222YesPlayMusicreleasesdownloadv2.0.0-alpha-2R3PLAY-2.0.0-win-x64-Setup.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/qier222/YesPlayMusic/releases/download/v2.0.0-alpha-2/R3PLAY-2.0.0-win-x64-Setup.exe#/dl.7z",
       "hash": "13d529e7cefe3b2ed8e0b6bb285654cf072f7694cdf5280f991f656473b5f021"
     }
   },
@@ -29,13 +29,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposqier222YesPlayMusicreleases",
-    "regex": "(?sm)browser_download_url.*?releasesdownloadv([\\w.-]+)(?<file>R3PLAY-([\\d.]+)-win-x64-Setup.*?\\.exe)"
+    "url": "https://api.github.com/repos/qier222/YesPlayMusic/releases",
+    "regex": "(?sm)browser_download_url.*?releases/download/v([\\w.-]+)/(?<file>R3PLAY-([\\d.]+)-win-x64-Setup.*?\\.exe)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comqier222YesPlayMusicreleasesdownloadv$version$matchFile#dl.7z"
+        "url": "https://ghfast.top/https://github.com/qier222/YesPlayMusic/releases/download/v$version/$matchFile#/dl.7z"
       }
     }
   }

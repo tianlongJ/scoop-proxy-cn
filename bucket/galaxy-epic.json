@@ -1,8 +1,8 @@
 {
-  "homepage": "https:github.comFriendsOfGalaxygalaxy-integration-epic",
+  "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic",
   "version": "0.49.1",
   "depends": "sudo",
-  "url": "https:github.comFriendsOfGalaxygalaxy-integration-epicreleasesdownloadv0.49.1windows.zip",
+  "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-epic/releases/download/v0.49.1/windows.zip",
   "hash": "226a5dc0b8410aaa48b45bc27d03e1b7f4ce86fc427cc3b755e125b23fda6b32",
   "extract_to": "integration",
   "uninstaller": {
@@ -37,7 +37,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -45,7 +45,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -67,10 +67,10 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comFriendsOfGalaxygalaxy-integration-epic",
+    "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-epic",
     "re": "Version v(?<version>[\\d\\w.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comFriendsOfGalaxygalaxy-integration-epicreleasesdownloadv$versionwindows.zip"
+    "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-epic/releases/download/v$version/windows.zip"
   }
 }

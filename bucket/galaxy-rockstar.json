@@ -1,8 +1,8 @@
 {
-  "homepage": "https:github.comFriendsOfGalaxygalaxy-integration-rockstar",
+  "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar",
   "version": "0.5.13",
   "depends": "sudo",
-  "url": "https:github.comFriendsOfGalaxygalaxy-integration-rockstarreleasesdownload0.5.13windows.zip",
+  "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/0.5.13/windows.zip",
   "hash": "5242ba4267e5278b98f23921d1f041a8dd576927b7ca444da8b40f29ef8859a7",
   "extract_to": "integration",
   "uninstaller": {
@@ -37,7 +37,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -45,7 +45,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -67,9 +67,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comFriendsOfGalaxygalaxy-integration-rockstar"
+    "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar"
   },
   "autoupdate": {
-    "url": "https:github.comFriendsOfGalaxygalaxy-integration-rockstarreleasesdownload$versionwindows.zip"
+    "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-rockstar/releases/download/$version/windows.zip"
   }
 }

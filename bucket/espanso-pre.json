@@ -1,14 +1,14 @@
 {
   "version": "2.1.7-beta",
   "description": "Text expander",
-  "homepage": "https:espanso.org",
+  "homepage": "https://espanso.org",
   "license": "GPL-3.0-only",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comfederico-terziespansoreleasesdownloadv2.1.7-betaEspanso-Win-Portable-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/federico-terzi/espanso/releases/download/v2.1.7-beta/Espanso-Win-Portable-x86_64.zip",
       "hash": "d5c06af09615e989cdc917ce8373f32a33969b5fce41352a91a2a38aa8846ca8"
     }
   },
@@ -26,13 +26,13 @@
   ],
   "persist": ".espanso",
   "checkver": {
-    "url": "https:github.comfederico-terziespansoreleases",
+    "url": "https://github.com/federico-terzi/espanso/releases",
     "regex": "v([\\d.]+(?:-alpha|-beta))"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comfederico-terziespansoreleasesdownloadv$versionEspanso-Win-Portable-x86_64.zip",
+        "url": "https://ghfast.top/https://github.com/federico-terzi/espanso/releases/download/v$version/Espanso-Win-Portable-x86_64.zip",
         "hash": {
           "url": "$url.sha256.txt"
         }

@@ -1,15 +1,15 @@
 {
   "version": "1.2.1",
   "description": "A tool for liberating data tables trapped inside PDF files.",
-  "homepage": "https:tabula.technology",
+  "homepage": "https://tabula.technology/",
   "license": "MIT",
   "suggest": {
     "JDK": [
-      "javaoraclejdk",
-      "javaopenjdk"
+      "java/oraclejdk",
+      "java/openjdk"
     ]
   },
-  "url": "https:github.comtabulapdftabulareleasesdownloadv1.2.1tabula-win-1.2.1.zip",
+  "url": "https://ghfast.top/https://github.com/tabulapdf/tabula/releases/download/v1.2.1/tabula-win-1.2.1.zip",
   "hash": "a5bd9afd969c7488f91ea3a7a09d56a1b53fe86ee231b81d205a8c1a9d459a05",
   "extract_dir": "tabula",
   "bin": "tabula.exe",
@@ -20,12 +20,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comtabulapdftabula"
+    "github": "https://github.com/tabulapdf/tabula"
   },
   "autoupdate": {
-    "url": "https:github.comtabulapdftabulareleasesdownloadv$versiontabula-win-$version.zip",
+    "url": "https://ghfast.top/https://github.com/tabulapdf/tabula/releases/download/v$version/tabula-win-$version.zip",
     "hash": {
-      "url": "https:github.comtabulapdftabulareleasestagv$version"
+      "url": "https://github.com/tabulapdf/tabula/releases/tag/v$version"
     }
   }
 }

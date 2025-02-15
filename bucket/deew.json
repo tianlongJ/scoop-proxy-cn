@@ -1,14 +1,14 @@
 {
   "version": "3.2.1",
   "description": "Dolby Encoding Engine Wrapper",
-  "homepage": "https:github.compcrolanddeew",
+  "homepage": "https://github.com/pcroland/deew",
   "license": "MIT",
   "suggest": {
     "ffmpeg": "ffmpeg"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.compcrolanddeewreleasesdownload3.2.1deew.exe",
+      "url": "https://ghfast.top/https://github.com/pcroland/deew/releases/download/3.2.1/deew.exe",
       "hash": "e1e4a19984c5c5e3a366c38559b6801995be67c9addbb609f4b9b5d445a95027"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.compcrolanddeewreleasesdownload$versiondeew.exe"
+        "url": "https://ghfast.top/https://github.com/pcroland/deew/releases/download/$version/deew.exe"
       }
     }
   }

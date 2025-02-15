@@ -1,14 +1,14 @@
 {
   "version": "0.15.0",
   "description": "GPU-accelerated terminal emulator",
-  "homepage": "https:github.comalacrittyalacritty",
+  "homepage": "https://github.com/alacritty/alacritty",
   "license": "Apache-2.0",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
-  "url": "https:github.comalacrittyalacrittyreleasesdownloadv0.15.0Alacritty-v0.15.0-portable.exe#alacritty.exe",
+  "url": "https://ghfast.top/https://github.com/alacritty/alacritty/releases/download/v0.15.0/Alacritty-v0.15.0-portable.exe#/alacritty.exe",
   "hash": "1104bc61f574236f356eee4ab1bb2abb1966a4438c7c5315e1b5354f8abf0e23",
-  "pre_install": "if(!(Test-Path \"$diralacritty.toml\")) { Add-Content \"$diralacritty.toml\" $null }",
+  "pre_install": "if(!(Test-Path \"$dir/alacritty.toml\")) { Add-Content \"$dir/alacritty.toml\" $null }",
   "bin": [
     "alacritty.exe",
     [
@@ -30,6 +30,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comalacrittyalacrittyreleasesdownloadv$versionAlacritty-v$version-portable.exe#alacritty.exe"
+    "url": "https://ghfast.top/https://github.com/alacritty/alacritty/releases/download/v$version/Alacritty-v$version-portable.exe#/alacritty.exe"
   }
 }

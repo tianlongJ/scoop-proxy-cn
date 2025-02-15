@@ -1,12 +1,12 @@
 {
   "version": "2.5.2",
   "description": "Advanced PassGen. Free and open-source application that can help you generate passwords and export them",
-  "homepage": "https:codedead.comsoftwareadvanced-passgen",
+  "homepage": "https://codedead.com/software/advanced-passgen",
   "license": "GPL-3.0-only",
-  "changelog": "https:github.comCodeDeadAdvanced-PassGenreleases",
+  "changelog": "https://github.com/CodeDead/Advanced-PassGen/releases",
   "architecture": {
     "64bit": {
-      "url": "https:github.comCodeDeadAdvanced-PassGenreleasesdownloadv2.5.2advanced-passgen_2.5.2_x64_en-US.msi",
+      "url": "https://ghfast.top/https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.5.2/advanced-passgen_2.5.2_x64_en-US.msi",
       "hash": "e3801b72aaa5646c8d34b9fab03e955cc41d78665a8605c6ac4cc21ed4eaa4b2"
     }
   },
@@ -19,12 +19,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comCodeDeadAdvanced-PassGen"
+    "github": "https://github.com/CodeDead/Advanced-PassGen"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comCodeDeadAdvanced-PassGenreleasesdownloadv$versionadvanced-passgen_$version_x64_en-US.msi"
+        "url": "https://ghfast.top/https://github.com/CodeDead/Advanced-PassGen/releases/download/v$version/advanced-passgen_$version_x64_en-US.msi"
       }
     }
   }

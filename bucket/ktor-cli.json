@@ -1,11 +1,11 @@
 {
   "version": "0.4.0",
   "description": "Command-line tool for creating Ktor projects",
-  "homepage": "https:github.comktorioktor-cli",
+  "homepage": "https://github.com/ktorio/ktor-cli",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comktorioktor-clireleasesdownload0.4.0ktor.exe",
+      "url": "https://ghfast.top/https://github.com/ktorio/ktor-cli/releases/download/0.4.0/ktor.exe",
       "hash": "6ac91e8d85fcf7f94483e51e08d0974e21324208404548399825fbc6da61691d"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comktorioktor-clireleasesdownload$versionktor.exe"
+        "url": "https://ghfast.top/https://github.com/ktorio/ktor-cli/releases/download/$version/ktor.exe"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "3.4.16",
   "description": "Extend your GitHub workflow beyond your browser.",
-  "homepage": "https:desktop.github.com",
+  "homepage": "https://desktop.github.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comdesktopdesktopreleasesdownloadrelease-3.4.16GitHubDesktop-3.4.16-x64-full.nupkg",
+      "url": "https://ghfast.top/https://github.com/desktop/desktop/releases/download/release-3.4.16/GitHubDesktop-3.4.16-x64-full.nupkg",
       "hash": "99d874b3573d9e0a8af43ba5814678236cdfc91da3eb0a3631cba713cc2e51f5"
     }
   },
@@ -18,17 +18,17 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comrepositories58559694tags",
-    "regex": "tagsrelease-([\\d.]+)\""
+    "url": "https://api.github.com/repositories/58559694/tags",
+    "regex": "tags/release-([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comdesktopdesktopreleasesdownloadrelease-$versionGitHubDesktop-$version-x64-full.nupkg"
+        "url": "https://ghfast.top/https://github.com/desktop/desktop/releases/download/release-$version/GitHubDesktop-$version-x64-full.nupkg"
       }
     },
     "hash": {
-      "url": "$baseurlGitHub.Desktop-$version-checksums.txt"
+      "url": "$baseurl/GitHub.Desktop-$version-checksums.txt"
     }
   }
 }

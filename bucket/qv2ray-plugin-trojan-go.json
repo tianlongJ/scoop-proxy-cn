@@ -1,15 +1,15 @@
 {
   "version": "3.0.0",
   "description": "Trojan-Go plugin for Qv2ray",
-  "homepage": "https:github.comQv2rayQvPlugin-Trojan-Go",
+  "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan-Go",
   "license": "GPL-3.0-only",
   "depends": [
-    "extrasqv2ray",
-    "sushitrojan-go"
+    "extras/qv2ray",
+    "sushi/trojan-go"
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comQv2rayQvPlugin-Trojan-Goreleasesdownloadv3.0.0QvPlugin-TrojanGo.v3.0.0.Windows-x64.dll",
+      "url": "https://ghfast.top/https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v3.0.0/QvPlugin-TrojanGo.v3.0.0.Windows-x64.dll",
       "hash": "872f61bbf1f85c6d8cff8048c5df995e53b7dc9aa9fbbc40090ce88bcd3d8946"
     }
   },
@@ -23,9 +23,9 @@
       "$config = \"$(appdir qv2ray $global)\\current\\config\\plugin_settings\\qvtrojango_plugin.conf\"",
       "if (-not (Test-Path $config)) {",
       "    New-Item \"$(appdir qv2ray $global)\\current\\config\\plugin_settings\" -ItemType Directory | Out-Null",
-      "    $trojanGoPath = $(appdir trojan-go $global).Replace('\\', '')",
+      "    $trojanGoPath = $(appdir trojan-go $global).Replace('\\', '/')",
       "    @{",
-      "        'kernelPath' = \"$trojanGoPathcurrenttrojan-go.exe\"",
+      "        'kernelPath' = \"$trojanGoPath/current/trojan-go.exe\"",
       "    } | ConvertTo-Json -Depth 20 | Out-File $config",
       "}"
     ]

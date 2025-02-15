@@ -2,12 +2,12 @@
   "version": "2.030",
   "description": "Haskplex = Hasklig + IBM Plex Mono",
   "license": "OFL-1.1",
-  "homepage": "https:github.comhuytdhaskplex-font",
+  "homepage": "https://github.com/huytd/haskplex-font",
   "url": [
-    "https:github.comhuytdhaskplex-fontrawmasterHaskplexHaskplex-Bold.ttf",
-    "https:github.comhuytdhaskplex-fontrawmasterHaskplexHaskplex-BoldItalic.ttf",
-    "https:github.comhuytdhaskplex-fontrawmasterHaskplexHaskplex-Italic.ttf",
-    "https:github.comhuytdhaskplex-fontrawmasterHaskplexHaskplex-Regular.ttf"
+    "https://github.com/huytd/haskplex-font/raw/master/Haskplex/Haskplex-Bold.ttf",
+    "https://github.com/huytd/haskplex-font/raw/master/Haskplex/Haskplex-BoldItalic.ttf",
+    "https://github.com/huytd/haskplex-font/raw/master/Haskplex/Haskplex-Italic.ttf",
+    "https://github.com/huytd/haskplex-font/raw/master/Haskplex/Haskplex-Regular.ttf"
   ],
   "hash": [
     "8412086d4786003a9aefa207ad59cbb4e8f928eca0252c9481dc39b71352681b",
@@ -36,7 +36,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

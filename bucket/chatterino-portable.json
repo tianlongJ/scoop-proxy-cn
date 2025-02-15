@@ -1,16 +1,16 @@
 {
   "version": "13308025542",
-  "description": "Chat client for https:twitch.tv",
-  "homepage": "https:github.comChatterinochatterino2",
+  "description": "Chat client for https://twitch.tv",
+  "homepage": "https://github.com/Chatterino/chatterino2",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comChatterinochatterino2releasesdownloadnightly-buildchatterino-windows-x86-64-Qt-6.7.1.zip",
+      "url": "https://ghfast.top/https://github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.1.zip",
       "hash": "7d5ebd72b2eadd240d0e05745893f6f80702e097415c321f5231c1f2778c8f01",
       "extract_dir": "Chatterino2",
       "pre_install": [
-        "Get-ChildItem \"$dirchatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o-portable') }",
-        "$modes = \"$dirmodes\"",
+        "Get-ChildItem \"$dir/chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o-portable') }",
+        "$modes = \"$dir/modes\"",
         "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Invoke-Expression \"'portable' >$(if (Test-Path $modes) { '>' }) `$modes\""
       ]
@@ -31,9 +31,9 @@
   "checkver": {
     "script": [
       "try {",
-      "    $null = (Invoke-WebRequest https:raw.githubusercontent.comChatterinochatterino2master.githubworkflowsbuild.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
+      "    $null = (Invoke-WebRequest https://ghfast.top/https://raw.githubusercontent.com/Chatterino/chatterino2/master/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
       "    $Matches[1],",
-      "    (Invoke-RestMethod 'https:api.github.comrepositories77624593actionsworkflowsbuild.ymlruns?branch=master&status=success').workflow_runs[0].id -join ' '",
+      "    (Invoke-RestMethod 'https://api.github.com/repositories/77624593/actions/workflows/build.yml/runs?branch=master&status=success').workflow_runs[0].id -join ' '",
       "}",
       "catch { '' }"
     ],
@@ -42,7 +42,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comChatterinochatterino2releasesdownloadnightly-buildchatterino-windows-x86-64-Qt-$matchQt.zip"
+        "url": "https://ghfast.top/https://github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
       }
     }
   }

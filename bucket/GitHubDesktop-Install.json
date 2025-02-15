@@ -1,11 +1,11 @@
 {
   "version": "3.4.16",
   "description": "GitHub Desktop. Extend your GitHub workflow beyond your browser.",
-  "homepage": "https:desktop.github.com",
+  "homepage": "https://desktop.github.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:central.github.comdeploymentsdesktopdesktoplatestwin32?format=msi#setup.msi_",
+      "url": "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi#/setup.msi_",
       "hash": "a9c3504f46c39bb791d0720e71c2bbeac4b6d4ba39bb03715e34ce1d44f02034"
     }
   },
@@ -31,7 +31,7 @@
       "$regPath = \"HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\GitHubDesktop\"",
       "if((Get-ItemProperty -LiteralPath \"$regPath\").DisplayVersion -lt [Version]\"$version\")",
       "{",
-      "   Invoke-ExternalCommand msiexec -ArgumentList @('i', \"$dir\\setup.msi_\", 'qn') -RunAs | Out-Null",
+      "   Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn') -RunAs | Out-Null",
       "   Start-Sleep -s 10",
       "   &\"$ProgramFilesPath\\GitHub Desktop Deployment\\GitHubDesktopDeploymentTool.exe\" -s | Out-Null",
       "   Start-Sleep -s 30",
@@ -48,13 +48,13 @@
     "if (Test-Path \"$DesktopDirectory\\GitHub Desktop.lnk\") {Remove-Item \"$DesktopDirectory\\GitHub Desktop.lnk\" -Force}"
   ],
   "checkver": {
-    "url": "https:github.comdesktopdesktoptags",
-    "regex": "desktopdesktopreleasestagrelease-([\\d.]+)\""
+    "url": "https://github.com/desktop/desktop/tags",
+    "regex": "/desktop/desktop/releases/tag/release-([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:central.github.comdeploymentsdesktopdesktoplatestwin32?format=msi#setup.msi_"
+        "url": "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi#/setup.msi_"
       }
     }
   }

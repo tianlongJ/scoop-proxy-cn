@@ -1,11 +1,11 @@
 {
   "version": "2025.0",
   "description": "The Lobster Programming Language",
-  "homepage": "https:github.comaardappellobster",
+  "homepage": "https://github.com/aardappel/lobster",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comaardappellobsterreleasesdownloadv2025.0lobster_windows_release.zip",
+      "url": "https://ghfast.top/https://github.com/aardappel/lobster/releases/download/v2025.0/lobster_windows_release.zip",
       "hash": "a2282ae95f2e39ade4168d09588a8632a63cf8a3e94a0a65e27368795074b639"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comaardappellobsterreleasesdownloadv$versionlobster_windows_release.zip"
+        "url": "https://ghfast.top/https://github.com/aardappel/lobster/releases/download/v$version/lobster_windows_release.zip"
       }
     }
   }

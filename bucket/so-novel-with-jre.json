@@ -1,12 +1,12 @@
 {
   "version": "1.5.9",
   "description": "交互式书源下载器，支持 epub 导出",
-  "homepage": "https:github.compcdd-groupso-novel",
+  "homepage": "https://github.com/pcdd-group/so-novel",
   "license": {
     "identifier": "Apache-2.0 license",
-    "url": "https:github.compcdd-groupso-novel#Apache-2.0-1-ov-file"
+    "url": "https://github.com/pcdd-group/so-novel#Apache-2.0-1-ov-file"
   },
-  "url": "https:github.compcdd-groupso-novelreleasesdownloadv1.5.9sonovel-win64-with-jre.tar.gz",
+  "url": "https://ghfast.top/https://github.com/pcdd-group/so-novel/releases/download/v1.5.9/sonovel-win64-with-jre.tar.gz",
   "hash": "0a5617dda83ee17be227f4e570c8a5e0d85432578b97d8892cf880da8aa4538d",
   "extract_dir": "SoNovel",
   "shortcuts": [
@@ -17,11 +17,11 @@
   ],
   "persist": "config.ini",
   "checkver": {
-    "url": "https:api.github.comrepospcdd-groupso-novelreleases",
+    "url": "https://api.github.com/repos/pcdd-group/so-novel/releases",
     "jsonpath": "$[*].assets[*].browser_download_url",
-    "regex": "releasesdownloadv([\\d.]+)(?<file>sonovel-win(?:64)?-with-jre\\.tar.gz)"
+    "regex": "/releases/download/v([\\d.]+)/(?<file>sonovel-win(?:64)?-with-jre\\.tar.gz)"
   },
   "autoupdate": {
-    "url": "https:github.compcdd-groupso-novelreleasesdownloadv$version$matchFile"
+    "url": "https://ghfast.top/https://github.com/pcdd-group/so-novel/releases/download/v$version/$matchFile"
   }
 }

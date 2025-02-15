@@ -1,11 +1,11 @@
 {
   "version": "1.04",
   "description": "STEP_J: a mp3 tag editor with spreadsheet-like operations (the successor to STEP_K)",
-  "homepage": "https:github.comjarupxxSTEP_J",
+  "homepage": "https://github.com/jarupxx/STEP_J",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:github.comjarupxxSTEP_Jreleasesdownload1.04step_j_x64_104.7z#dl.zip",
+      "url": "https://ghfast.top/https://github.com/jarupxx/STEP_J/releases/download/1.04/step_j_x64_104.7z#/dl.zip",
       "hash": "5b8607a2af277d2a21043fa82ad695ef47026d574971374512d59de2ba1787c2",
       "extract_dir": "step_j_x64_104"
     }
@@ -33,7 +33,7 @@
   "persist": "SuperTagEditor.ini",
   "checkver": {
     "script": [
-      "$json = Invoke-RestMethod -Uri https:api.github.comreposjarupxxSTEP_Jreleaseslatest",
+      "$json = Invoke-RestMethod -Uri https://api.github.com/repos/jarupxx/STEP_J/releases/latest",
       "$ver = [regex]::Match($json.name, '[0-9.]+').Value",
       "$url = $json.assets[0].browser_download_url",
       "Write-Output \"$ver $url\""
@@ -43,7 +43,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "$matchUrl#dl.zip",
+        "url": "$matchUrl#/dl.zip",
         "extract_dir": "step_j_x64_$cleanVersion"
       }
     }

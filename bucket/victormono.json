@@ -2,15 +2,15 @@
   "version": "1.5.6",
   "description": "Victor Mono",
   "license": "MIT",
-  "homepage": "https:rubjo.github.iovictor-mono",
-  "url": "https:rubjo.github.iovictor-monoVictorMonoAll.zip",
+  "homepage": "https://rubjo.github.io/victor-mono/",
+  "url": "https://rubjo.github.io/victor-mono/VictorMonoAll.zip",
   "hash": "eab377ad3bcc7a202697c024ebb8c8728f99789c4f093d358f3d202052cc9496",
   "extract_dir": "TTF",
   "checkver": {
-    "github": "https:github.comrubjovictor-mono"
+    "github": "https://github.com/rubjo/victor-mono"
   },
   "autoupdate": {
-    "url": "https:rubjo.github.iovictor-monoVictorMonoAll.zip"
+    "url": "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   },
   "installer": {
     "script": [
@@ -33,7 +33,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

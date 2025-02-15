@@ -1,10 +1,10 @@
 {
   "version": "v1.5.3-rc1",
   "description": "The Outline Manager application creates and manages Outline servers, powered by Shadowsocks (nightly version)",
-  "homepage": "https:github.comJigsaw-Codeoutline-server",
+  "homepage": "https://github.com/Jigsaw-Code/outline-server",
   "license": "Apache-2.0",
   "notes": "We don't persist your Outline Manager data, they are still storaged in \"$env:APPDATA\\Outline Manager\".",
-  "url": "https:github.comJigsaw-Codeoutline-serverreleasesdownloadserver-v1.5.3-rc1Outline-Manager.exe#dl.zip",
+  "url": "https://ghfast.top/https://github.com/Jigsaw-Code/outline-server/releases/download/server-v1.5.3-rc1/Outline-Manager.exe#/dl.zip",
   "hash": "8197b0547030c5a7dd96d3c0f1951eaa98386025da2a308be0902c9113149986",
   "installer": {
     "script": [
@@ -20,10 +20,10 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comJigsaw-Codeoutline-serverreleases",
-    "regex": "releasestag(?:server-)(v?[\\w.-]+)"
+    "url": "https://github.com/Jigsaw-Code/outline-server/releases",
+    "regex": "/releases/tag/(?:server-)(v?[\\w.-]+)"
   },
   "autoupdate": {
-    "url": "https:github.comJigsaw-Codeoutline-serverreleasesdownloadserver-$versionOutline-Manager.exe#dl.zip"
+    "url": "https://ghfast.top/https://github.com/Jigsaw-Code/outline-server/releases/download/server-$version/Outline-Manager.exe#/dl.zip"
   }
 }

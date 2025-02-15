@@ -1,14 +1,14 @@
 {
   "version": "1.0.2",
   "description": "Continuation of Clash core project",
-  "homepage": "https:merlinkodo.github.ioClash-Rev-Doc",
+  "homepage": "https://merlinkodo.github.io/Clash-Rev-Doc",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https:github.comMerlinKodoclash-revblobdevLICENSE"
+    "url": "https://github.com/MerlinKodo/clash-rev/blob/dev/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comMerlinKodoclash-revreleasesdownloadv1.0.2clash.rev-windows-amd64-compatible-go120-v1.0.2.zip",
+      "url": "https://ghfast.top/https://github.com/MerlinKodo/clash-rev/releases/download/v1.0.2/clash.rev-windows-amd64-compatible-go120-v1.0.2.zip",
       "hash": "54770c35f046133e5501c636cb7deaf08fb48bd484413be6771ca0359aa7170d"
     }
   },
@@ -21,13 +21,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposMerlinKodoclash-revreleaseslatest",
-    "regex": "releasestagv([\\d.]+)"
+    "url": "https://api.github.com/repos/MerlinKodo/clash-rev/releases/latest",
+    "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comMerlinKodoclash-revreleasesdownloadv$versionclash.rev-windows-amd64-compatible-go120-v$version.zip"
+        "url": "https://ghfast.top/https://github.com/MerlinKodo/clash-rev/releases/download/v$version/clash.rev-windows-amd64-compatible-go120-v$version.zip"
       }
     }
   }

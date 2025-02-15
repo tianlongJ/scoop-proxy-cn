@@ -1,11 +1,11 @@
 {
   "version": "20240523-7604753a",
-  "description": "A fork of the SSHTelnet client PuTTY with new features such as background images, transparent window, clickable URLs and zooming.",
-  "homepage": "https:github.comlalbornozPuTTie",
+  "description": "A fork of the SSH/Telnet client PuTTY with new features such as background images, transparent window, clickable URLs and zooming.",
+  "homepage": "https://github.com/lalbornoz/PuTTie",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comlalbornozPuTTiereleasesdownloadPuTTie-file-Release-7604753aPuTTie-file-Release-7604753a.zip",
+      "url": "https://ghfast.top/https://github.com/lalbornoz/PuTTie/releases/download/PuTTie-file-Release-7604753a/PuTTie-file-Release-7604753a.zip",
       "hash": "935ae1c900b9ab9cf4cb3dedb85a641c27747b1170599e02c6846e6d0b927199"
     }
   },
@@ -40,14 +40,14 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comrepositories138299134releaseslatest",
+    "url": "https://api.github.com/repositories/138299134/releases/latest",
     "regex": "(?s)Release-(?<sha>[0-9a-f]{8}).*?updated_at.*?(\\d{4})-(\\d{2})-(\\d{2})",
     "replace": "${1}${2}${3}-${sha}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comlalbornozPuTTiereleasesdownloadPuTTie-file-Release-$matchShaPuTTie-file-Release-$matchSha.zip"
+        "url": "https://ghfast.top/https://github.com/lalbornoz/PuTTie/releases/download/PuTTie-file-Release-$matchSha/PuTTie-file-Release-$matchSha.zip"
       }
     },
     "extract_dir": "PuTTie-file-Release-$matchSha"

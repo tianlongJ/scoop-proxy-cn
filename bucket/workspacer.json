@@ -1,12 +1,12 @@
 {
   "version": "0.9.11",
   "description": "A tiling window manager for Windows 10",
-  "homepage": "https:workspacer.org",
+  "homepage": "https://workspacer.org",
   "license": "MIT",
   "notes": "Add \"context.Branch = Branch.None;\" at the start of your config to disable auto-updates.",
   "architecture": {
     "64bit": {
-      "url": "https:github.comworkspacerworkspacerreleasesdownloadv0.9.11workspacer-0.9.11-stable.zip",
+      "url": "https://ghfast.top/https://github.com/workspacer/workspacer/releases/download/v0.9.11/workspacer-0.9.11-stable.zip",
       "hash": "0b19779a84adefb9646de4598586eb67a563920195b66fabc39c5cf11f6a3c4c"
     }
   },
@@ -19,12 +19,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comworkspacerworkspacer"
+    "github": "https://github.com/workspacer/workspacer"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comworkspacerworkspacerreleasesdownloadv$versionworkspacer-$version-stable.zip"
+        "url": "https://ghfast.top/https://github.com/workspacer/workspacer/releases/download/v$version/workspacer-$version-stable.zip"
       }
     }
   }

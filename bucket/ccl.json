@@ -1,9 +1,9 @@
 {
   "version": "1.13",
   "description": "Clozure Common Lisp",
-  "homepage": "https:ccl.clozure.com",
+  "homepage": "https://ccl.clozure.com/",
   "license": "Apache-2.0",
-  "url": "https:github.comClozurecclreleasesdownloadv1.13ccl-1.13-windowsx86.zip",
+  "url": "https://ghfast.top/https://github.com/Clozure/ccl/releases/download/v1.13/ccl-1.13-windowsx86.zip",
   "hash": "1ee7438ec648c3f577ea9f1216f57b130dab68e38fbd87a1a86d557f548a284a",
   "extract_dir": "ccl",
   "architecture": {
@@ -37,9 +37,9 @@
     }
   },
   "checkver": {
-    "github": "https:github.comClozureccl"
+    "github": "https://github.com/Clozure/ccl"
   },
   "autoupdate": {
-    "url": "https:github.comClozurecclreleasesdownloadv$versionccl-$version-windowsx86.zip"
+    "url": "https://ghfast.top/https://github.com/Clozure/ccl/releases/download/v$version/ccl-$version-windowsx86.zip"
   }
 }

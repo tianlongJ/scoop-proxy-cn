@@ -1,13 +1,13 @@
 {
   "version": "1.4.1196",
   "description": "A full-featured launcher, access programs and web contents as you type.",
-  "homepage": "http:www.wox.one",
+  "homepage": "http://www.wox.one",
   "license": "MIT",
   "suggest": {
     "Python3": "python",
-    "Everything": "extraseverything"
+    "Everything": "extras/everything"
   },
-  "url": "https:github.comWox-launcherWoxreleasesdownloadv1.4.1196Wox-1.4.1196-full.nupkg",
+  "url": "https://ghfast.top/https://github.com/Wox-launcher/Wox/releases/download/v1.4.1196/Wox-1.4.1196-full.nupkg",
   "hash": "sha1:69fcc97e4b7b2702885463793ad617ed2d0c94b6",
   "extract_dir": "lib\\net462",
   "bin": "Wox.exe",
@@ -18,13 +18,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comWox-launcherWoxreleases",
-    "regex": "treev([\\d.]+)"
+    "url": "https://github.com/Wox-launcher/Wox/releases",
+    "regex": "tree/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comWox-launcherWoxreleasesdownloadv$versionWox-$version-full.nupkg",
+    "url": "https://ghfast.top/https://github.com/Wox-launcher/Wox/releases/download/v$version/Wox-$version-full.nupkg",
     "hash": {
-      "url": "$baseurlRELEASES"
+      "url": "$baseurl/RELEASES"
     }
   }
 }

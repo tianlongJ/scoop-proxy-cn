@@ -1,12 +1,12 @@
 {
   "version": "0.1.9",
   "description": "Simple template processing command line tool to help build static websites",
-  "homepage": "https:github.comretrogradeorbitbootleg",
+  "homepage": "https://github.com/retrogradeorbit/bootleg",
   "license": "EPL-2.0",
-  "depends": "extrasvcredist",
+  "depends": "extras/vcredist",
   "architecture": {
     "64bit": {
-      "url": "https:github.comretrogradeorbitbootlegreleasesdownloadv0.1.9bootleg-0.1.9-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/retrogradeorbit/bootleg/releases/download/v0.1.9/bootleg-0.1.9-windows-amd64.zip",
       "hash": "442fab8b80885708ba4745302283200b9a23612a1b50720e4e9323691d9b7c99"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comretrogradeorbitbootlegreleasesdownloadv$versionbootleg-$version-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/retrogradeorbit/bootleg/releases/download/v$version/bootleg-$version-windows-amd64.zip"
       }
     }
   }

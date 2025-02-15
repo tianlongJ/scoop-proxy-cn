@@ -1,11 +1,11 @@
 {
   "version": "0.10.5",
   "description": "Command-line tool for generating beautiful code snippets",
-  "homepage": "https:github.commistrickyCodeSnap",
+  "homepage": "https://github.com/mistricky/CodeSnap",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.commistrickyCodeSnapreleasesdownloadv0.8.3codesnap-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/mistricky/CodeSnap/releases/download/v0.8.3/codesnap-x86_64-pc-windows-msvc.zip",
       "hash": "aeceb73f52acb14b80be36109af989803beda63cd4b97398927cd10d657d24df"
     }
   },
@@ -13,7 +13,7 @@
   "checkver": "github",
   "autoupdate": {
     "architecture": {
-      "url": "https:github.commistrickyCodeSnapreleasesdownloadv$versioncodesnap-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/mistricky/CodeSnap/releases/download/v$version/codesnap-x86_64-pc-windows-msvc.zip",
       "hash": {
         "mode": "download"
       }

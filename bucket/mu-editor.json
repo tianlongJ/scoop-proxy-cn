@@ -2,13 +2,13 @@
   "##": "User config is stored at '$Env:LocalAppData\\python\\mu'",
   "version": "1.2.0",
   "description": "A small, simple editor for beginner Python programmers.",
-  "homepage": "https:codewith.mu",
+  "homepage": "https://codewith.mu",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
       "url": [
-        "https:github.commu-editormureleasesdownloadv1.2.0MuEditor-win64-1.2.0.msi",
-        "https:github.commu-editormu-editor.github.iorawmasterfavicon.ico#icon.ico"
+        "https://ghfast.top/https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi",
+        "https://github.com/mu-editor/mu-editor.github.io/raw/master/favicon.ico#/icon.ico"
       ],
       "hash": [
         "8bef34673998ca5644f9d222fc4a13e24a64023a72940e685bcec27827cd765e",
@@ -26,12 +26,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.commu-editormu"
+    "github": "https://github.com/mu-editor/mu"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commu-editormureleasesdownloadv$versionMuEditor-win64-$version.msi"
+        "url": "https://ghfast.top/https://github.com/mu-editor/mu/releases/download/v$version/MuEditor-win64-$version.msi"
       }
     }
   }

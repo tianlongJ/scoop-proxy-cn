@@ -1,9 +1,9 @@
 {
   "version": "1.0.28-0",
   "description": "CJK programming font based on Iosevka and Source Han Sans (Nerd Fonts patched)",
-  "homepage": "https:github.comjonz94Sarasa-Gothic-Nerd-Fonts",
+  "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
   "license": "OFL-1.1",
-  "url": "https:github.comjonz94ttc-sarasa-gothic-nerd-fontsreleasesdownloadv1.0.28-0sarasa-nerd-font-ttc.zip",
+  "url": "https://ghfast.top/https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v1.0.28-0/sarasa-nerd-font-ttc.zip",
   "hash": "c35b723ddc42338cc948d960aa4e547898293fe9181d8aa18cae5f6ce173335f",
   "pre_install": [
     "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -91,10 +91,10 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comjonz94ttc-sarasa-gothic-nerd-fonts",
-    "regex": "releasestag(?:v|V)?([\\d.-]+)"
+    "github": "https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts",
+    "regex": "releases/tag/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https:github.comjonz94ttc-sarasa-gothic-nerd-fontsreleasesdownloadv$versionsarasa-nerd-font-ttc.zip"
+    "url": "https://ghfast.top/https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v$version/sarasa-nerd-font-ttc.zip"
   }
 }

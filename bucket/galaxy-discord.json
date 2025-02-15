@@ -1,20 +1,20 @@
 {
-  "homepage": "https:github.comErtegogog-galaxy-discord",
+  "homepage": "https://github.com/Ertego/gog-galaxy-discord",
   "version": "0.1",
   "depends": "sudo",
-  "url": "https:github.comErtegogog-galaxy-discordreleasesdownload0.1discord.zip",
+  "url": "https://ghfast.top/https://github.com/Ertego/gog-galaxy-discord/releases/download/0.1/discord.zip",
   "hash": "ef13aaf3067fa845fd3d168aa2dc1a069d61112ede189a02ba020d40b8c0913b",
   "extract_dir": "discord",
   "extract_to": "integration",
   "notes": [
-    "NOTESINSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
+    "NOTES/INSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
     "    DISCLAIMER: WHILE THIS INTEGRATION IS TECHNICALLY NOT VIOLATING THE DISCORD TOS, I'M NOT RESPONSIBLE FOR BANNED ACCOUNTS USING THIS INTEGRATION",
     "    (It doesn't access the API and doesn't modify the client) (please also note the license)",
     "    Please read this readme before using the integration:",
     "    Now that we got the nasty big disclaimer written in ugly caps out of our way, this is how to use it:",
     "    1.    Make sure discord is open and running",
     "    2.    Click 'Connect' in the GOG Galaxy 2 Integration Settings (This will restart discord in developer mode so the integration can attach a debugger to it)",
-    "    3.    Wait until discord has restarted and shows the activity page  a server page",
+    "    3.    Wait until discord has restarted and shows the activity page / a server page",
     "    4.    Click connect and wait until the integration collects all the data it needs (This will open the friends page in discord)"
   ],
   "uninstaller": {
@@ -49,7 +49,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -57,7 +57,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -79,9 +79,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comErtegogog-galaxy-discord"
+    "github": "https://github.com/Ertego/gog-galaxy-discord"
   },
   "autoupdate": {
-    "url": "https:github.comErtegogog-galaxy-discordreleasesdownload$versiondiscord.zip"
+    "url": "https://ghfast.top/https://github.com/Ertego/gog-galaxy-discord/releases/download/$version/discord.zip"
   }
 }

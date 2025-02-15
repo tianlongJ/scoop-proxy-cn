@@ -1,11 +1,11 @@
 {
   "version": "3.4.2",
   "description": "Command-line interface to Grafana Loki",
-  "homepage": "https:github.comgrafanaloki",
+  "homepage": "https://github.com/grafana/loki",
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:github.comgrafanalokireleasesdownloadv3.4.2logcli-windows-amd64.exe.zip",
+      "url": "https://ghfast.top/https://github.com/grafana/loki/releases/download/v3.4.2/logcli-windows-amd64.exe.zip",
       "hash": "be8fc0118e521666cfc8f7e726855022d279f6fb3b29795c407e973942f196d6"
     }
   },
@@ -19,11 +19,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comgrafanalokireleasesdownloadv$versionlogcli-windows-amd64.exe.zip"
+        "url": "https://ghfast.top/https://github.com/grafana/loki/releases/download/v$version/logcli-windows-amd64.exe.zip"
       }
     },
     "hash": {
-      "url": "$baseurlSHA256SUMS"
+      "url": "$baseurl/SHA256SUMS"
     }
   }
 }

@@ -2,12 +2,12 @@
   "version": "0.059",
   "description": "repository for JuliaMono, a monospaced font with reasonable Unicode support.",
   "license": "OFL-1.1",
-  "homepage": "https:github.comcormullionjuliamono",
-  "url": "https:github.comcormullionjuliamonoreleasesdownloadv0.059JuliaMono.zip",
+  "homepage": "https://github.com/cormullion/juliamono",
+  "url": "https://ghfast.top/https://github.com/cormullion/juliamono/releases/download/v0.059/JuliaMono.zip",
   "hash": "9af0bdae65e498d922ce4af7342904e9fce324a41f978f7b03e8f08994627daa",
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comcormullionjuliamonoreleasesdownloadv$versionJuliaMono.zip"
+    "url": "https://ghfast.top/https://github.com/cormullion/juliamono/releases/download/v$version/JuliaMono.zip"
   },
   "pre_install": "Get-ChildItem $dir -Exclude *Latin.ttf,LICENSE | Remove-Item",
   "installer": {
@@ -31,7 +31,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

@@ -2,12 +2,12 @@
   "version": "1.33",
   "description": "Google Fonts - Arimo",
   "license": "OFL-1.1",
-  "homepage": "https:fonts.google.comspecimenArimo",
+  "homepage": "https://fonts.google.com/specimen/Arimo",
   "url": [
-    "https:github.comgooglefontsnoto-fontsrawmasterhintedttfArimoArimo-Bold.ttf",
-    "https:github.comgooglefontsnoto-fontsrawmasterhintedttfArimoArimo-BoldItalic.ttf",
-    "https:github.comgooglefontsnoto-fontsrawmasterhintedttfArimoArimo-Italic.ttf",
-    "https:github.comgooglefontsnoto-fontsrawmasterhintedttfArimoArimo-Regular.ttf"
+    "https://github.com/googlefonts/noto-fonts/raw/master/hinted/ttf/Arimo/Arimo-Bold.ttf",
+    "https://github.com/googlefonts/noto-fonts/raw/master/hinted/ttf/Arimo/Arimo-BoldItalic.ttf",
+    "https://github.com/googlefonts/noto-fonts/raw/master/hinted/ttf/Arimo/Arimo-Italic.ttf",
+    "https://github.com/googlefonts/noto-fonts/raw/master/hinted/ttf/Arimo/Arimo-Regular.ttf"
   ],
   "hash": [
     "10724c3733f60cdec733da1a439de9100e1593ceb219cc4d03c443bef1feb9b6",
@@ -36,7 +36,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

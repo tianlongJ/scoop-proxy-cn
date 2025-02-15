@@ -1,23 +1,23 @@
 {
   "version": "20250215.0",
-  "homepage": "https:www.swift.org",
+  "homepage": "https://www.swift.org/",
   "description": "A general-purpose programming language built using a modern approach to safety, performance, and software design patterns.",
   "license": "Apache-2.0",
   "suggest": {
-    "python": "mainpython",
-    "vcredist": "extrasvcredist2022"
+    "python": "main/python",
+    "vcredist": "extras/vcredist2022"
   },
   "notes": [
     "To make Swift toolchain work, you must have Visual Studio and Windows SDK components installed.",
-    "Read https:www.swift.orggetting-started#support-files for Supporting Files installation guide."
+    "Read https://www.swift.org/getting-started/#support-files for Supporting Files installation guide."
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comthebrowsercompanyswift-buildreleasesdownload20250215.0installer-amd64.exe#swiftsetup.exe",
+      "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/20250215.0/installer-amd64.exe#/swiftsetup.exe",
       "hash": "bea9542cb557cdb8135c8ed5b252290fc082fa8934d2ad255dfd19985e02e2e5"
     },
     "arm64": {
-      "url": "https:github.comthebrowsercompanyswift-buildreleasesdownload20250215.0installer-arm64.exe#swiftsetup.exe",
+      "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/20250215.0/installer-arm64.exe#/swiftsetup.exe",
       "hash": "4c48e31fe4bb775821c04b027da7c0a6b2813c1e2ebae312fd24c8c3b0149c4f"
     }
   },
@@ -51,16 +51,16 @@
     "SDKROOT": "$dir\\Platforms\\Windows.platform\\Developer\\SDKs\\Windows.sdk"
   },
   "checkver": {
-    "github": "https:github.comthebrowsercompanyswift-build",
+    "github": "https://github.com/thebrowsercompany/swift-build",
     "regex": "(\\d{8}\\.\\d)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comthebrowsercompanyswift-buildreleasesdownload$versioninstaller-amd64.exe#swiftsetup.exe"
+        "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
       },
       "arm64": {
-        "url": "https:github.comthebrowsercompanyswift-buildreleasesdownload$versioninstaller-arm64.exe#swiftsetup.exe"
+        "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
       }
     }
   }

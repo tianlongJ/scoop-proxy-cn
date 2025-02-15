@@ -1,13 +1,13 @@
 {
   "version": "2020-02-16T10.35.42",
   "description": "Extension for Spicetify that automatically decreases the volume at specific intervals of time.",
-  "homepage": "https:github.comamanharwaraspicetify-autoVolume",
+  "homepage": "https://github.com/amanharwara/spicetify-autoVolume",
   "license": "GPL-3.0-only",
   "depends": "spicetify-cli",
-  "url": "https:github.comamanharwaraspicetify-autoVolumearchivemaster.zip",
+  "url": "https://ghfast.top/https://github.com/amanharwara/spicetify-autoVolume/archive/master.zip",
   "hash": "ff2367d95bc3bc2aaa004e06701df721e1fdf68d0c769bf995317a03fa811fae",
   "notes": [
-    "See here for configuration options: https:github.comamanharwaraspicetify-autoVolume#changing-the-intervalminimum-volume",
+    "See here for configuration options: https://github.com/amanharwara/spicetify-autoVolume#changing-the-intervalminimum-volume",
     "--purge should be used to fully uninstall this package."
   ],
   "extract_dir": "spicetify-autoVolume-master",
@@ -60,11 +60,11 @@
     ]
   },
   "checkver": {
-    "url": "https:api.github.comreposamanharwaraspicetify-autoVolumecommits",
+    "url": "https://api.github.com/repos/amanharwara/spicetify-autoVolume/commits",
     "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
     "replace": "$1$2.$3.$4"
   },
   "autoupdate": {
-    "url": "https:github.comamanharwaraspicetify-autoVolumearchivemaster.zip"
+    "url": "https://ghfast.top/https://github.com/amanharwara/spicetify-autoVolume/archive/master.zip"
   }
 }

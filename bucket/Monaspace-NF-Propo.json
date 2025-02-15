@@ -1,9 +1,9 @@
 {
   "version": "3.3.0",
   "description": "Nerd Fonts patched 'Monaspace' Font family. (Proportional version, for GUI usecases)",
-  "homepage": "https:github.comryanoasisnerd-fonts",
+  "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https:github.comryanoasisnerd-fontsreleasesdownloadv3.3.0Monaspace.zip",
+  "url": "https://ghfast.top/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Monaspace.zip",
   "hash": "91a13b333535805029b6da0c0e8b008c7ea1c1665f079b735791b4bb24ee9459",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -87,6 +87,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comryanoasisnerd-fontsreleasesdownloadv$versionMonaspace.zip"
+    "url": "https://ghfast.top/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Monaspace.zip"
   }
 }

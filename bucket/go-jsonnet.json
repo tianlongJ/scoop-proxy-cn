@@ -1,11 +1,11 @@
 {
   "version": "0.20.0",
   "description": "A data templating language for app and tool developers",
-  "homepage": "https:github.comgooglego-jsonnet",
+  "homepage": "https://github.com/google/go-jsonnet",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comgooglego-jsonnetreleasesdownloadv0.20.0go-jsonnet_0.20.0_Windows_x86_64.tar.gz",
+      "url": "https://ghfast.top/https://github.com/google/go-jsonnet/releases/download/v0.20.0/go-jsonnet_0.20.0_Windows_x86_64.tar.gz",
       "hash": "82440a646a8d29487a243afc880db245f612a205d3eccbb900bc76d7a4049ad1"
     }
   },
@@ -17,11 +17,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comgooglego-jsonnetreleasesdownloadv$versiongo-jsonnet_$version_Windows_x86_64.tar.gz"
+        "url": "https://ghfast.top/https://github.com/google/go-jsonnet/releases/download/v$version/go-jsonnet_$version_Windows_x86_64.tar.gz"
       }
     },
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   }
 }

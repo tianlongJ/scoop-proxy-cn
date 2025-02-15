@@ -1,9 +1,9 @@
 {
   "version": "9.4.0.2386",
   "description": "Amazon Music. Your Music: Simplae, Fast, Advanced.",
-  "homepage": "https:www.amazon.comb?node=16962657011",
+  "homepage": "https://www.amazon.com/b?node=16962657011",
   "license": "",
-  "url": "https:d2j9xt6n9dg5d3.cloudfront.netwin23861115_85d5deb94597adc2d891a921c0bf51c9AmazonMusicInstaller.exe#setup.exe",
+  "url": "https://d2j9xt6n9dg5d3.cloudfront.net/win/23861115_85d5deb94597adc2d891a921c0bf51c9/AmazonMusicInstaller.exe#/setup.exe",
   "hash": "d863b2a2ad55c7c5f07f818f1d54ac51a7e3457dc28aba8b78da197d658d90cc",
   "installer": {
     "script": [
@@ -27,16 +27,16 @@
       "$programname = \"Amazon Music\"",
       "$DesktopPath = [Environment]::GetFolderPath(\"DesktopDirectory\")",
       "if (Test-Path \"$DesktopPath\\$programname.lnk\") {Remove-Item \"$DesktopPath\\$programname.lnk\" -Force}",
-      "taskkill F IM \"Amazon Music\" FI 'status eq running'",
-      "taskkill F IM \"Amazon Music Helper\" FI 'status eq running'"
+      "taskkill /F /IM \"Amazon Music\" /FI 'status eq running'",
+      "taskkill /F /IM \"Amazon Music Helper\" /FI 'status eq running'"
     ]
   },
   "checkver": {
-    "url": "https:github.commicrosoftwinget-pkgstreemastermanifestsaAmazonMusic",
-    "regex": "AmazonMusic([\\d.]+)\"",
+    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/Amazon/Music",
+    "regex": "/Amazon/Music/([\\d.]+)\"",
     "reverse": true
   },
   "autoupdate": {
-    "url": "https:d2j9xt6n9dg5d3.cloudfront.netwin23861115_85d5deb94597adc2d891a921c0bf51c9AmazonMusicInstaller.exe#setup.exe"
+    "url": "https://d2j9xt6n9dg5d3.cloudfront.net/win/23861115_85d5deb94597adc2d891a921c0bf51c9/AmazonMusicInstaller.exe#/setup.exe"
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": "1.000-beta",
   "description": "CJK (Chinese-Japanese-Korean) sans-serif font.",
-  "homepage": "https:sites.google.comviewjtfoundryenourproject",
+  "homepage": "https://sites.google.com/view/jtfoundry/en/ourproject",
   "license": "OFL-1.1",
-  "url": "https:www.googleapis.comdrivev3files1Zp-jKyTSM45NpBHRWlI6A5bQ7cRsGi1y?alt=media&key=AIzaSyAiaA0bWx34SyfTRvyl4UCCHwsCkvUBECc#font.7z",
+  "url": "https://www.googleapis.com/drive/v3/files/1Zp-jKyTSM45NpBHRWlI6A5bQ7cRsGi1y?alt=media&key=AIzaSyAiaA0bWx34SyfTRvyl4UCCHwsCkvUBECc#/font.7z",
   "hash": "5A58784EEEB1D9DD8955D8FCFC8A20BF668447ACB6836DBD9441E66AC5C3C2BF",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

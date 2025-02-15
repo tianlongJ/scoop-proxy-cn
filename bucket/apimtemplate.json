@@ -1,24 +1,24 @@
 {
   "version": "1.1.1",
   "description": "Azure API Management DevOps Resource Kit",
-  "homepage": "https:github.comAzureazure-api-management-devops-resource-kit",
+  "homepage": "https://github.com/Azure/azure-api-management-devops-resource-kit",
   "license": "MIT",
   "depends": "azure-cli",
   "architecture": {
     "64bit": {
-      "url": "https:github.comAzureazure-api-management-devops-resource-kitreleasesdownload1.1.1reskit-1.1.1.zip",
+      "url": "https://ghfast.top/https://github.com/Azure/azure-api-management-devops-resource-kit/releases/download/1.1.1/reskit-1.1.1.zip",
       "hash": "11cfd076512f968bc394520942e5411d3ae25c9ac8df71139f6b02a361415dcd"
     }
   },
   "bin": "armtemplates.exe",
   "checkver": {
-    "url": "https:github.comAzureazure-api-management-devops-resource-kitreleases",
-    "regex": "tag([\\d.]+)\""
+    "url": "https://github.com/Azure/azure-api-management-devops-resource-kit/releases",
+    "regex": "tag/([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comAzureazure-api-management-devops-resource-kitreleasesdownload$versionreskit-$version.zip"
+        "url": "https://ghfast.top/https://github.com/Azure/azure-api-management-devops-resource-kit/releases/download/$version/reskit-$version.zip"
       }
     }
   }

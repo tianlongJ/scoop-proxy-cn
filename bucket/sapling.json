@@ -1,7 +1,7 @@
 {
   "version": "0.2.20241203.120811.a2174689",
   "description": "Sapling SCM is a cross-platform, highly scalable, Git-compatible source control system.",
-  "homepage": "https:sapling-scm.com",
+  "homepage": "https://sapling-scm.com/",
   "license": "GPL-2.0-only",
   "notes": [
     "The name of the Sapling CLI sl.exe conflicts with the sl shell built-in in PowerShell (sl is an alias for Set-Location, which is equivalent to cd).",
@@ -17,14 +17,14 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comfacebooksaplingreleasesdownload0.2.20241203-120811+a2174689sapling_windows_0.2.20241203-120811+a2174689_amd64.zip",
+      "url": "https://ghfast.top/https://github.com/facebook/sapling/releases/download/0.2.20241203-120811+a2174689/sapling_windows_0.2.20241203-120811+a2174689_amd64.zip",
       "hash": "857acaab26f9f932e9d6b47be37468a58666f12e48f32e2bf951f2f25bd28827"
     }
   },
   "extract_dir": "Sapling",
   "bin": "sl.exe",
   "checkver": {
-    "url": "https:api.github.comrepositories58146669releaseslatest",
+    "url": "https://api.github.com/repositories/58146669/releases/latest",
     "jsonpath": "$.tag_name",
     "regex": "(?<tag>(?<ver>[\\d.]+)\\.(?<date>[\\d]{8})-(?<time>[\\d]{6})\\+(?<hash>[\\da-f]{8}))",
     "replace": "${ver}.${date}.${time}.${hash}"
@@ -32,7 +32,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comfacebooksaplingreleasesdownload$matchTagsapling_windows_$matchTag_amd64.zip"
+        "url": "https://ghfast.top/https://github.com/facebook/sapling/releases/download/$matchTag/sapling_windows_$matchTag_amd64.zip"
       }
     }
   }

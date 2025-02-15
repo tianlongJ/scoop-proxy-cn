@@ -1,15 +1,15 @@
 {
   "version": "0.6.2",
   "description": "PasteBar - Limitless, Free Clipboard Manager for Mac and Windows",
-  "homepage": "https:github.comPasteBarPasteBarApp",
+  "homepage": "https://github.com/PasteBar/PasteBarApp",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https:github.comPasteBarPasteBarAppreleasesdownloadv0.6.2PasteBar_0.6.2_x64-setup.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/PasteBar/PasteBarApp/releases/download/v0.6.2/PasteBar_0.6.2_x64-setup.exe#/dl.7z",
       "hash": "a1293a6d1d63206ed52e887c781c89792ccf371d740942ffc925fcc0660e0d41"
     },
     "arm64": {
-      "url": "https:github.comPasteBarPasteBarAppreleasesdownloadv0.6.2PasteBar_0.6.2_arm64-setup.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/PasteBar/PasteBarApp/releases/download/v0.6.2/PasteBar_0.6.2_arm64-setup.exe#/dl.7z",
       "hash": "fccc6ba6ee20514b4c1c990e3d8fa96d5a213b085dbefb7db9b9775353f285c2"
     }
   },
@@ -17,7 +17,7 @@
   "installer": {
     "script": [
       "# handle runtime cache",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:LOCALAPPDATA\\app.anothervision.pasteBar\"",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\userdata\" -Target \"$env:APPDATA\\app.anothervision.pasteBar\"",
       "Remove-Module -Name AppsUtils"
@@ -25,7 +25,7 @@
   },
   "uninstaller": {
     "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
       "Dismount-ExternalRuntimeData -Target \"$env:LOCALAPPDATA\\app.anothervision.pasteBar\"",
       "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\app.anothervision.pasteBar\"",
       "Remove-Module -Name AppsUtils"
@@ -38,16 +38,16 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposPasteBarPasteBarAppreleases",
-    "regex": "releasestagv([\\d.]+)"
+    "url": "https://api.github.com/repos/PasteBar/PasteBarApp/releases",
+    "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comPasteBarPasteBarAppreleasesdownloadv$versionPasteBar_$version_x64-setup.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/PasteBar/PasteBarApp/releases/download/v$version/PasteBar_$version_x64-setup.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https:github.comPasteBarPasteBarAppreleasesdownloadv$versionPasteBar_$version_arm64-setup.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/PasteBar/PasteBarApp/releases/download/v$version/PasteBar_$version_arm64-setup.exe#/dl.7z"
       }
     }
   }

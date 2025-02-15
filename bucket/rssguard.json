@@ -1,14 +1,14 @@
 {
   "version": "4.8.1",
-  "description": "A simple, light and easy-to-use RSSATOM feed aggregator",
-  "homepage": "https:github.commartinrotterrssguard",
+  "description": "A simple, light and easy-to-use RSS/ATOM feed aggregator",
+  "homepage": "https://github.com/martinrotter/rssguard",
   "license": "GPL-3.0-only",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.commartinrotterrssguardreleasesdownload4.8.1rssguard-4.8.1-3dde4064f-win10.7z",
+      "url": "https://ghfast.top/https://github.com/martinrotter/rssguard/releases/download/4.8.1/rssguard-4.8.1-3dde4064f-win10.7z",
       "hash": "f5783fc0fcd0cff889fcdf2b3a0c33320f6ff89697cd0039fab429acd8b1c14d"
     }
   },
@@ -21,14 +21,14 @@
   ],
   "persist": "data4",
   "checkver": {
-    "url": "https:api.github.comrepositories23906078releaseslatest",
-    "jsonpath": "$.assets[?(@.name =~ ^rssguard-([\\d.]+)-([\\w]+)-win10.7z$)].name",
+    "url": "https://api.github.com/repositories/23906078/releases/latest",
+    "jsonpath": "$.assets[?(@.name =~ /^rssguard-([\\d.]+)-([\\w]+)-win10.7z$/)].name",
     "regex": "rssguard-(?<version>([\\d.]+))-(?<commit>[\\w]+)-win10.7z"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commartinrotterrssguardreleasesdownload$versionrssguard-$version-$matchCommit-win10.7z"
+        "url": "https://ghfast.top/https://github.com/martinrotter/rssguard/releases/download/$version/rssguard-$version-$matchCommit-win10.7z"
       }
     }
   }

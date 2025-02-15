@@ -1,14 +1,14 @@
 {
   "version": "7.50.7200",
   "description": "Aida64 Extreme Edition. System information tool with extremely detailed information about hardware and benchmarks to measure the performance of the computer",
-  "homepage": "https:www.aida64.comproductsaida64-extreme",
+  "homepage": "https://www.aida64.com/products/aida64-extreme",
   "license": {
     "identifier": "Proprietary",
-    "url": "https:www.aida64.comlicensing"
+    "url": "https://www.aida64.com/licensing"
   },
   "url": [
-    "http:download.aida64.comaida64extreme750.zip",
-    "https:gist.githubusercontent.comPaxxsd000313f20f0f43631386dac8ead4ca0rawe88d0d1edcfe5bf46238d299165faa7b0e7030d1pkey.txt"
+    "http://download.aida64.com/aida64extreme750.zip",
+    "https://ghfast.top/https://gist.githubusercontent.com/Paxxs/d000313f20f0f43631386dac8ead4ca0/raw/e88d0d1edcfe5bf46238d299165faa7b0e7030d1/pkey.txt"
   ],
   "hash": [
     "5b905482274c012c9096999bd58761951f4ac5d76ac95ddaf17808920a32c2b8",
@@ -30,10 +30,10 @@
     "pkey.txt"
   ],
   "checkver": {
-    "url": "https:www.aida64.comdownloadslatesta64xe",
+    "url": "https://www.aida64.com/downloads/latesta64xe",
     "regex": "Version: ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "http:download.aida64.comaida64extreme$majorVersion$minorVersion.zip"
+    "url": "http://download.aida64.com/aida64extreme$majorVersion$minorVersion.zip"
   }
 }

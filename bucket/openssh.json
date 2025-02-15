@@ -1,16 +1,16 @@
 {
   "version": "9.8.1.0p1",
   "description": "The premier connectivity tool for remote login with the SSH protocol. (Microsoft build)",
-  "homepage": "https:www.openssh.com",
+  "homepage": "https://www.openssh.com",
   "license": "SSH-OpenSSH",
   "architecture": {
     "64bit": {
-      "url": "https:github.comPowerShellWin32-OpenSSHreleasesdownloadv9.8.1.0p1-PreviewOpenSSH-Win64.zip",
+      "url": "https://ghfast.top/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.8.1.0p1-Preview/OpenSSH-Win64.zip",
       "hash": "c7a1369cd73c8165be00c66e90291c4dd67784de7c3aa3af18c68ebedffa6ea9",
       "extract_dir": "OpenSSH-Win64"
     },
     "32bit": {
-      "url": "https:github.comPowerShellWin32-OpenSSHreleasesdownloadv9.8.1.0p1-PreviewOpenSSH-Win32.zip",
+      "url": "https://ghfast.top/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.8.1.0p1-Preview/OpenSSH-Win32.zip",
       "hash": "6794ac43d806b6474f5bc501b819c723b96b07605ca3df99b67805c7b659be8e",
       "extract_dir": "OpenSSH-Win32"
     }
@@ -28,16 +28,16 @@
     "sshd.exe"
   ],
   "checkver": {
-    "github": "https:github.comPowerShellWin32-OpenSSH",
-    "regex": "tagv([\\d.]+p\\d)-Preview"
+    "github": "https://github.com/PowerShell/Win32-OpenSSH",
+    "regex": "tag/v([\\d.]+p\\d)-Preview"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comPowerShellWin32-OpenSSHreleasesdownloadv$version-PreviewOpenSSH-Win64.zip"
+        "url": "https://ghfast.top/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version-Preview/OpenSSH-Win64.zip"
       },
       "32bit": {
-        "url": "https:github.comPowerShellWin32-OpenSSHreleasesdownloadv$version-PreviewOpenSSH-Win32.zip"
+        "url": "https://ghfast.top/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version-Preview/OpenSSH-Win32.zip"
       }
     }
   },

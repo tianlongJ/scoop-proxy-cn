@@ -1,8 +1,8 @@
 {
-  "homepage": "https:pcsx2.net",
+  "homepage": "https://pcsx2.net",
   "version": "2.3.131",
   "description": "Playstation 2 Emulator",
-  "url": "https:github.comPCSX2pcsx2releasesdownloadv2.3.131pcsx2-v2.3.131-windows-x64-Qt.7z",
+  "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v2.3.131/pcsx2-v2.3.131-windows-x64-Qt.7z",
   "hash": "2f0ba255a87b053dfda8c016ca6868d4101574030214c9613b410be57f467b65",
   "bin": "pcsx2-qt.exe",
   "shortcuts": [
@@ -25,13 +25,13 @@
     "videos"
   ],
   "checkver": {
-    "url": "https:api.github.comreposPCSX2pcsx2releases",
+    "url": "https://api.github.com/repos/PCSX2/pcsx2/releases",
     "jsonpath": {
       "version": "$.[0].name"
     },
     "regex": "(\\d+\\.\\d+\\.\\d+)"
   },
   "autoupdate": {
-    "url": "https:github.comPCSX2pcsx2releasesdownloadv$versionpcsx2-v$version-windows-x64-Qt.7z"
+    "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
   }
 }

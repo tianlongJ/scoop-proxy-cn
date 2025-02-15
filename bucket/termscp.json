@@ -1,11 +1,11 @@
 {
   "version": "0.16.1",
-  "description": "Terminal UI file explorer with SCPSFTPFTP support",
-  "homepage": "https:github.comveesotermscp",
+  "description": "Terminal UI file explorer with SCP/SFTP/FTP support",
+  "homepage": "https://github.com/veeso/termscp",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comveesotermscpreleasesdownloadv0.16.1termscp-v0.16.1-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/veeso/termscp/releases/download/v0.16.1/termscp-v0.16.1-x86_64-pc-windows-msvc.zip",
       "hash": "7e281f7903d5771d401d9768629fcbbcc8540e92dd15388a376aac4b3ea19978"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comveesotermscpreleasesdownloadv$versiontermscp-v$version-x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/veeso/termscp/releases/download/v$version/termscp-v$version-x86_64-pc-windows-msvc.zip"
       }
     }
   }

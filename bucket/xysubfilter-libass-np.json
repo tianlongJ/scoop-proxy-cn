@@ -1,9 +1,9 @@
 {
   "version": "20240526",
   "description": "An open-source DirectShow subtitle renderer. Variant with libass backend",
-  "homepage": "https:github.comMasaikixy-VSFilter",
+  "homepage": "https://github.com/Masaiki/xy-VSFilter",
   "license": "GPL-2.0-only",
-  "url": "https:github.comMasaikixy-VSFilterreleasesdownload20240526XySubFilter_with_libass_20240526.zip",
+  "url": "https://ghfast.top/https://github.com/Masaiki/xy-VSFilter/releases/download/20240526/XySubFilter_with_libass_20240526.zip",
   "hash": "2d6cf57a23226ce9a2aff1b361d6dbb41dff4d8032d71d88e43460cea45df75c",
   "architecture": {
     "64bit": {
@@ -20,13 +20,13 @@
     "}"
   ],
   "installer": {
-    "script": "regsvr32 s \"$dir\\XySubFilter.dll\""
+    "script": "regsvr32 /s \"$dir\\XySubFilter.dll\""
   },
   "uninstaller": {
-    "script": "regsvr32 u s \"$dir\\XySubFilter.dll\""
+    "script": "regsvr32 /u /s \"$dir\\XySubFilter.dll\""
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comMasaikixy-VSFilterreleasesdownload$versionXySubFilter_with_libass_$version.zip"
+    "url": "https://ghfast.top/https://github.com/Masaiki/xy-VSFilter/releases/download/$version/XySubFilter_with_libass_$version.zip"
   }
 }

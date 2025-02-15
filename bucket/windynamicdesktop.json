@@ -1,15 +1,15 @@
 {
   "version": "5.6.0",
   "description": "Cycle through multiple wallpapers based on the times of sunrise and sunset.",
-  "homepage": "https:github.comt1m0thyjWinDynamicDesktop",
+  "homepage": "https://github.com/t1m0thyj/WinDynamicDesktop",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comt1m0thyjWinDynamicDesktopreleasesdownloadv5.6.0WinDynamicDesktop_5.6.0_x64_Portable.exe#WinDynamicDesktop.exe",
+      "url": "https://ghfast.top/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.6.0/WinDynamicDesktop_5.6.0_x64_Portable.exe#/WinDynamicDesktop.exe",
       "hash": "7fe1af3af2195654ef774b6fb19fbc35582dbf1e6615ff4855f3215228dcf555"
     },
     "32bit": {
-      "url": "https:github.comt1m0thyjWinDynamicDesktopreleasesdownloadv5.6.0WinDynamicDesktop_5.6.0_x86_Portable.exe#WinDynamicDesktop.exe",
+      "url": "https://ghfast.top/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.6.0/WinDynamicDesktop_5.6.0_x86_Portable.exe#/WinDynamicDesktop.exe",
       "hash": "f793613c9ce641f760cf098c3f6f045c1ae3007219acb83ab203f8594e992bde"
     }
   },
@@ -36,14 +36,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comt1m0thyjWinDynamicDesktopreleasesdownloadv$versionWinDynamicDesktop_$version_x64_Portable.exe#WinDynamicDesktop.exe"
+        "url": "https://ghfast.top/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x64_Portable.exe#/WinDynamicDesktop.exe"
       },
       "32bit": {
-        "url": "https:github.comt1m0thyjWinDynamicDesktopreleasesdownloadv$versionWinDynamicDesktop_$version_x86_Portable.exe#WinDynamicDesktop.exe"
+        "url": "https://ghfast.top/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x86_Portable.exe#/WinDynamicDesktop.exe"
       }
     },
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": "1.2",
   "description": "Software to disable peak limiter in Windows Audio Engine.",
-  "homepage": "https:kawamoto.no-ip.orghentekomyapp_en.html#dpeaklim",
+  "homepage": "https://kawamoto.no-ip.org/henteko/myapp_en.html#dpeaklim",
   "license": "MIT",
-  "url": "https:kawamoto.no-ip.orghentekomyappdpeaklim12.zip",
+  "url": "https://kawamoto.no-ip.org/henteko/myapp/dpeaklim12.zip",
   "hash": "1a88df9e764d2d0f210c8876b7f74fcc6857b9801b421dfeeca6350d038e4303",
   "extract_dir": "dpeaklim",
   "architecture": {
@@ -15,10 +15,10 @@
     }
   },
   "checkver": {
-    "url": "https:github.comskawamoto0dpeaklim",
+    "url": "https://github.com/skawamoto0/dpeaklim",
     "regex": "Disable Peak Limiter in Windows Audio Engine Ver ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:kawamoto.no-ip.orghentekomyappdpeaklim$cleanVersion.zip"
+    "url": "https://kawamoto.no-ip.org/henteko/myapp/dpeaklim$cleanVersion.zip"
   }
 }

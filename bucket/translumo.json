@@ -1,14 +1,14 @@
 {
   "version": "0.9.6",
   "description": "Advanced real-time screen translator for games, hardcoded subtitles in videos, static text and etc.",
-  "homepage": "https:github.comDanily07Translumo",
+  "homepage": "https://github.com/Danily07/Translumo",
   "license": {
     "identifier": "Apache-2.0 license",
-    "url": "https:github.comDanily07TranslumoblobmasterLICENSE"
+    "url": "https://github.com/Danily07/Translumo/blob/master/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comDanily07Translumoreleasesdownloadv.0.9.6Translumo-v.0.9.6.zip",
+      "url": "https://ghfast.top/https://github.com/Danily07/Translumo/releases/download/v.0.9.6/Translumo-v.0.9.6.zip",
       "hash": "7fa35a002469a54d60ceba3bd737f09c40221c4ede7a977ee4c74fefd2e21048"
     }
   },
@@ -28,13 +28,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comDanily07Translumoreleases.atom",
-    "regex": "releasestagv.([\\d.]+)"
+    "url": "https://github.com/Danily07/Translumo/releases.atom",
+    "regex": "/releases/tag/v.([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comDanily07Translumoreleasesdownloadv.$versionTranslumo-v.$version.zip"
+        "url": "https://ghfast.top/https://github.com/Danily07/Translumo/releases/download/v.$version/Translumo-v.$version.zip"
       }
     }
   }

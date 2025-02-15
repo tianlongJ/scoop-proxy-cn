@@ -1,11 +1,11 @@
 {
   "version": "4.10.0",
   "description": "Open Source Computer Vision Library",
-  "homepage": "https:opencv.org",
+  "homepage": "https://opencv.org/",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comopencvopencvreleasesdownload4.10.0opencv-4.10.0-windows.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/opencv/opencv/releases/download/4.10.0/opencv-4.10.0-windows.exe#/dl.7z",
       "hash": "bff38466091c313dac21a0b73eea8278316a89c1d434c6f0b10697e087670168"
     }
   },
@@ -15,15 +15,15 @@
   },
   "env_add_path": "x64\\vc16\\bin",
   "checkver": {
-    "url": "https:opencv.orgreleases",
-    "regex": "\\*\\s<span>OpenCV – ([\\d.]+)"
+    "url": "https://opencv.org/releases/",
+    "regex": "\\*\\s</span>OpenCV – ([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comopencvopencvreleasesdownload$versionopencv-$version-windows.exe#dl.7z",
+        "url": "https://ghfast.top/https://github.com/opencv/opencv/releases/download/$version/opencv-$version-windows.exe#/dl.7z",
         "hash": {
-          "url": "https:github.comopencvopencvreleases",
+          "url": "https://github.com/opencv/opencv/releases",
           "regex": "$sha256\\sopencv-$version-windows.exe"
         }
       }

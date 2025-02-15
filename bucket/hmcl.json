@@ -1,9 +1,9 @@
 {
-  "homepage": "https:github.comhuanghongxunHMCL",
+  "homepage": "https://github.com/huanghongxun/HMCL",
   "description": "A powered Minecraft launcher that supports a lot of features.",
   "license": "GPL-3.0-only",
   "version": "3.6.11",
-  "url": "http:ci.huangyuhui.netjobHMCL-stable11artifactHMCLbuildlibsHMCL-3.6.11.exe#hmcl.exe",
+  "url": "http://ci.huangyuhui.net/job/HMCL-stable/11/artifact/HMCL/build/libs/HMCL-3.6.11.exe#/hmcl.exe",
   "hash": "sha1:b8512d18d629efc2807949daa522ec4a96b47cdc",
   "bin": "hmcl.exe",
   "shortcuts": [
@@ -14,8 +14,8 @@
   ],
   "suggest": {
     "JDK": [
-      "javaoraclejdk",
-      "javaopenjdk"
+      "java/oraclejdk",
+      "java/openjdk"
     ]
   },
   "pre_install": [
@@ -31,13 +31,13 @@
     ".minecraft"
   ],
   "checkver": {
-    "url": "https:hmcl.huangyuhui.netapiupdate_link?channel=stable&download_link=true",
+    "url": "https://hmcl.huangyuhui.net/api/update_link?channel=stable&download_link=true",
     "jsonpath": "$.version"
   },
   "autoupdate": {
-    "url": "http:ci.huangyuhui.netjobHMCL-stable$patchVersionartifactHMCLbuildlibsHMCL-$version.exe#hmcl.exe",
+    "url": "http://ci.huangyuhui.net/job/HMCL-stable/$patchVersion/artifact/HMCL/build/libs/HMCL-$version.exe#/hmcl.exe",
     "hash": {
-      "url": "https:hmcl.huangyuhui.netapiupdate_link?channel=stable&download_link=true",
+      "url": "https://hmcl.huangyuhui.net/api/update_link?channel=stable&download_link=true",
       "jsonpath": "$.exesha1"
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "0.16.2",
   "description": "Simple web-based and cross platform PostgreSQL database explorer",
-  "homepage": "https:github.comsosedoffpgweb",
+  "homepage": "https://github.com/sosedoff/pgweb",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comsosedoffpgwebreleasesdownloadv0.16.2pgweb_windows_amd64.zip",
+      "url": "https://ghfast.top/https://github.com/sosedoff/pgweb/releases/download/v0.16.2/pgweb_windows_amd64.zip",
       "hash": "620f21b347f2cfea6cd2b656225880b4b2b5f0aee0fc17267841d18bc1cf872c"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comsosedoffpgwebreleasesdownloadv$versionpgweb_windows_amd64.zip"
+        "url": "https://ghfast.top/https://github.com/sosedoff/pgweb/releases/download/v$version/pgweb_windows_amd64.zip"
       }
     }
   }

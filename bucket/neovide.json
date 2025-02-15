@@ -1,7 +1,7 @@
 {
   "version": "0.14.0",
   "description": "A simple GUI for Neovim",
-  "homepage": "https:neovide.dev",
+  "homepage": "https://neovide.dev",
   "license": "MIT",
   "notes": [
     "Add Open with Neovide as a context menu option by running:",
@@ -23,7 +23,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comneovideneovidereleasesdownload0.14.0neovide.exe.zip",
+      "url": "https://ghfast.top/https://github.com/neovide/neovide/releases/download/0.14.0/neovide.exe.zip",
       "hash": "99dd9e553b744d97e42a5cf31695945cc54b39223899a887964bca540763d1df"
     }
   },
@@ -36,12 +36,12 @@
   ],
   "pre_uninstall": "if ($cmd -eq 'uninstall') { reg import \"$dir\\uninstall-context.reg\" *>nul }",
   "checkver": {
-    "github": "https:github.comneovideneovide"
+    "github": "https://github.com/neovide/neovide"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comneovideneovidereleasesdownload$versionneovide.exe.zip"
+        "url": "https://ghfast.top/https://github.com/neovide/neovide/releases/download/$version/neovide.exe.zip"
       }
     }
   }

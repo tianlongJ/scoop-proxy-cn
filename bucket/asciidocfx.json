@@ -1,14 +1,14 @@
 {
   "version": "1.8.10",
-  "description": "A bookdocument editor to build PDF, Epub, Mobi and HTML books, documents and slides.",
-  "homepage": "https:asciidocfx.com",
+  "description": "A book/document editor to build PDF, Epub, Mobi and HTML books, documents and slides.",
+  "homepage": "https://asciidocfx.com",
   "license": "Apache-2.0",
   "suggest": {
     "PlantUML Support": "graphviz"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comasciidocfxAsciidocFXreleasesdownloadv1.8.10AsciidocFX_Windows.zip",
+      "url": "https://ghfast.top/https://github.com/asciidocfx/AsciidocFX/releases/download/v1.8.10/AsciidocFX_Windows.zip",
       "hash": "a0d470db785877b05e3cc03396b1388cdc7fee8d992fcc156dc212bc22af0f46"
     }
   },
@@ -24,15 +24,15 @@
     "log"
   ],
   "checkver": {
-    "github": "https:github.comasciidocfxAsciidocFX"
+    "github": "https://github.com/asciidocfx/AsciidocFX"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comasciidocfxAsciidocFXreleasesdownloadv$versionAsciidocFX_Windows.zip",
+        "url": "https://ghfast.top/https://github.com/asciidocfx/AsciidocFX/releases/download/v$version/AsciidocFX_Windows.zip",
         "hash": {
-          "url": "$baseurlupdates.xml",
-          "xpath": "updateDescriptorentry[@fileName='$basename']@sha256Sum"
+          "url": "$baseurl/updates.xml",
+          "xpath": "/updateDescriptor/entry[@fileName='$basename']/@sha256Sum"
         }
       }
     }

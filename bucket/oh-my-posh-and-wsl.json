@@ -1,32 +1,32 @@
 {
   "version": "6.8.0",
   "description": "A prompt theme engine for any shell",
-  "homepage": "https:ohmyposh.dev",
+  "homepage": "https://ohmyposh.dev",
   "license": {
     "identifier": "GPL-3.0-only",
-    "url": "https:github.comJanDeDobbeleeroh-my-posh3blobmainCOPYING"
+    "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/blob/main/COPYING"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.xiu2.xyzhttps:github.comJanDeDobbeleeroh-my-posh3releasesdownloadv6.8.0posh-windows-wsl-amd64.7z",
+      "url": "https://github.xiu2.xyz/https://ghfast.top/https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v6.8.0/posh-windows-wsl-amd64.7z",
       "hash": "ac653de6f751231de53649e3dab83a145e1f728df5767e0619f63b7c19da9caf"
     }
   },
   "bin": [
-    "binoh-my-posh-wsl",
-    "binoh-my-posh.exe"
+    "bin/oh-my-posh-wsl",
+    "bin/oh-my-posh.exe"
   ],
   "checkver": {
-    "github": "https:github.comJanDeDobbeleeroh-my-posh3"
+    "github": "https://github.com/JanDeDobbeleer/oh-my-posh3"
   },
   "post_install": [
     "Write-Host 'Thanks for installing Oh my Posh.'",
-    "Write-Host 'Have a look at https:ohmyposh.devdocsinstallation for detailed instructions for your shell.'"
+    "Write-Host 'Have a look at https://ohmyposh.dev/docs/installation for detailed instructions for your shell.'"
   ],
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.xiu2.xyzhttps:github.comJanDeDobbeleeroh-my-posh3releasesdownloadv$versionposh-windows-wsl-amd64.7z",
+        "url": "https://github.xiu2.xyz/https://ghfast.top/https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v$version/posh-windows-wsl-amd64.7z",
         "hash": {
           "url": "$url.sha256"
         }

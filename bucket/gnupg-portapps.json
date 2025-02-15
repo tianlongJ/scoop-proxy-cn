@@ -1,9 +1,9 @@
 {
   "version": "2.4.3-12",
   "description": "A complete and free implementation of the OpenPGP standard.",
-  "homepage": "https:www.gnupg.org",
+  "homepage": "https://www.gnupg.org",
   "license": "GPL-3.0-only",
-  "url": "https:github.comportappsgnupg-portablereleasesdownload2.4.3-12gnupg-portable-win32-2.4.3-12.7z#dl.7z",
+  "url": "https://ghfast.top/https://github.com/portapps/gnupg-portable/releases/download/2.4.3-12/gnupg-portable-win32-2.4.3-12.7z#/dl.7z",
   "hash": "9e3bfe4ee1480020896f32807f5448081bd33861a1dd9314398b31aa594ba2ed",
   "persist": [
     "data",
@@ -18,14 +18,14 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\gnupg-portable.yml\")) { New-Item \"$dir\\gnupg-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https:github.comportappsgnupg-portablereleases",
-    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
+    "url": "https://github.com/portapps/gnupg-portable/releases",
+    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https:github.comportappsgnupg-portablereleasesdownload$versiongnupg-portable-win32-$version.7z#dl.7z",
+    "url": "https://ghfast.top/https://github.com/portapps/gnupg-portable/releases/download/$version/gnupg-portable-win32-$version.7z#/dl.7z",
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https:portapps.ioappgnupg-portable)"
+  "notes": "Installed from Portapps (https://portapps.io/app/gnupg-portable/)"
 }

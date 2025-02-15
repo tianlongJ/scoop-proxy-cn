@@ -1,9 +1,9 @@
 {
   "version": "1.5.5.0",
   "description": "Lightweight text editor.",
-  "homepage": "https:www.notepadsapp.com",
+  "homepage": "https://www.notepadsapp.com/",
   "license": "MIT",
-  "url": "https:github.com0x7c13Notepadsreleasesdownloadv1.5.5.0Notepads_1.5.5.0_x86_x64_arm64.msixbundle#Notepads.msixbundle",
+  "url": "https://ghfast.top/https://github.com/0x7c13/Notepads/releases/download/v1.5.5.0/Notepads_1.5.5.0_x86_x64_arm64.msixbundle#/Notepads.msixbundle",
   "hash": "53daed660db335dee27af2ca60e2255683d0a4efe6cca9e85da146a573dd4693",
   "installer": {
     "script": [
@@ -40,9 +40,9 @@
   },
   "persist": "Settings",
   "checkver": {
-    "github": "https:github.com0x7c13Notepads"
+    "github": "https://github.com/0x7c13/Notepads"
   },
   "autoupdate": {
-    "url": "https:github.com0x7c13Notepadsreleasesdownloadv$versionNotepads_$version_x86_x64_arm64.msixbundle#Notepads.msixbundle"
+    "url": "https://ghfast.top/https://github.com/0x7c13/Notepads/releases/download/v$version/Notepads_$version_x86_x64_arm64.msixbundle#/Notepads.msixbundle"
   }
 }

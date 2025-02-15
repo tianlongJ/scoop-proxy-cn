@@ -1,15 +1,15 @@
 {
   "version": "20240822",
   "description": "Free, enhanced port of the classic FPS Marathon trilogy by Bungie Software",
-  "homepage": "https:alephone.lhowon.org",
+  "homepage": "https://alephone.lhowon.org/",
   "license": {
     "identifier": "GPL-3.0-only",
-    "url": "https:github.comAleph-One-MarathonalephoneblobmasterCOPYING"
+    "url": "https://github.com/Aleph-One-Marathon/alephone/blob/master/COPYING"
   },
   "url": [
-    "https:github.comAleph-One-Marathonalephonereleasesdownloadrelease-20240822Marathon-20240822-Win.zip",
-    "https:github.comAleph-One-Marathonalephonereleasesdownloadrelease-20240822Marathon2-20240822-Win.zip",
-    "https:github.comAleph-One-Marathonalephonereleasesdownloadrelease-20240822MarathonInfinity-20240822-Win.zip"
+    "https://ghfast.top/https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20240822/Marathon-20240822-Win.zip",
+    "https://ghfast.top/https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20240822/Marathon2-20240822-Win.zip",
+    "https://ghfast.top/https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20240822/MarathonInfinity-20240822-Win.zip"
   ],
   "hash": [
     "23ff590d6503ce8ec410629b193fd588e986ed39cad1589c96308c894bcfe1f3",
@@ -28,28 +28,28 @@
   ],
   "shortcuts": [
     [
-      "Marathon 1Classic Marathon.exe",
+      "Marathon 1/Classic Marathon.exe",
       "Aleph One (Marathon 1)"
     ],
     [
-      "Marathon 2Classic Marathon 2.exe",
+      "Marathon 2/Classic Marathon 2.exe",
       "Aleph One (Marathon 2)"
     ],
     [
-      "Marathon InfinityClassic Marathon Infinity.exe",
+      "Marathon Infinity/Classic Marathon Infinity.exe",
       "Aleph One (Marathon Infinity)"
     ]
   ],
   "checkver": {
-    "url": "https:alephone.lhowon.org",
+    "url": "https://alephone.lhowon.org/",
     "regex": "(\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d)",
     "replace": "$1$2$3"
   },
   "autoupdate": {
     "url": [
-      "https:github.comAleph-One-Marathonalephonereleasesdownloadrelease-$versionMarathon-$version-Win.zip",
-      "https:github.comAleph-One-Marathonalephonereleasesdownloadrelease-$versionMarathon2-$version-Win.zip",
-      "https:github.comAleph-One-Marathonalephonereleasesdownloadrelease-$versionMarathonInfinity-$version-Win.zip"
+      "https://ghfast.top/https://github.com/Aleph-One-Marathon/alephone/releases/download/release-$version/Marathon-$version-Win.zip",
+      "https://ghfast.top/https://github.com/Aleph-One-Marathon/alephone/releases/download/release-$version/Marathon2-$version-Win.zip",
+      "https://ghfast.top/https://github.com/Aleph-One-Marathon/alephone/releases/download/release-$version/MarathonInfinity-$version-Win.zip"
     ],
     "extract_dir": [
       "Marathon-$version",

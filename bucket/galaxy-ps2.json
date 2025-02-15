@@ -1,14 +1,14 @@
 {
-  "homepage": "https:github.comAHCodergalaxy-integration-ps2",
+  "homepage": "https://github.com/AHCoder/galaxy-integration-ps2/",
   "version": "0.2021.09.14",
   "depends": "sudo",
   "license": "MIT",
   "description": "GOG Galaxy 2.0 Unofficial PS2 Integration",
-  "url": "https:github.comAHCodergalaxy-integration-ps2archive2d57a094e4447a2016074a42dd4d7b425985a48a.zip",
+  "url": "https://ghfast.top/https://github.com/AHCoder/galaxy-integration-ps2/archive/2d57a094e4447a2016074a42dd4d7b425985a48a.zip",
   "hash": "702543f5d6e810c926b396dbbf01242772cb81201536c34878c2dbcc5c0ad2df",
   "extract_dir": "galaxy-integration-ps2-2d57a094e4447a2016074a42dd4d7b425985a48a",
   "extract_to": "integration",
-  "notes": "Configuration: https:github.comAHCodergalaxy-integration-ps2wikiConfiguration",
+  "notes": "Configuration: https://github.com/AHCoder/galaxy-integration-ps2/wiki/Configuration",
   "uninstaller": {
     "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\ps2\").Delete()"
   },
@@ -41,7 +41,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -49,7 +49,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -71,12 +71,12 @@
     "}"
   ],
   "checkver": {
-    "url": "https:github.comAHCodergalaxy-integration-ps2commitsmaster.atom",
+    "url": "https://github.com/AHCoder/galaxy-integration-ps2/commits/master.atom",
     "regex": "(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})",
     "replace": "0.${1}.${2}.${3}"
   },
   "autoupdate": {
-    "url": "https:github.comAHCodergalaxy-integration-ps2archive$matchSha.zip",
+    "url": "https://ghfast.top/https://github.com/AHCoder/galaxy-integration-ps2/archive/$matchSha.zip",
     "extract_dir": "galaxy-integration-ps2-$matchSha"
   }
 }

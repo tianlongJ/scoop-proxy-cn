@@ -1,11 +1,11 @@
 {
   "version": "1.0",
   "description": "Drivers Backup allows you to save your drivers locally.",
-  "homepage": "https:github.comskalahonzaDriversBackup",
+  "homepage": "https://github.com/skalahonza/DriversBackup",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comskalahonzaDriversBackupreleasesdownload1.0Bin.zip",
+      "url": "https://ghfast.top/https://github.com/skalahonza/DriversBackup/releases/download/1.0/Bin.zip",
       "hash": ""
     }
   },
@@ -18,24 +18,24 @@
   ],
   "0bin": [
     [
-      "ProgramsDriversBackup.exe",
+      "Programs/DriversBackup.exe",
       "DriversBackup"
     ]
   ],
   "shortcuts": [
     [
-      "ProgramsDriversBackup.exe",
+      "Programs/DriversBackup.exe",
       "DriversBackup"
     ]
   ],
   "persist": "profile",
   "checkver": {
-    "github": "https:github.comskalahonzaDriversBackup"
+    "github": "https://github.com/skalahonza/DriversBackup"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comskalahonzaDriversBackupreleasesdownload$versionBin.zip"
+        "url": "https://ghfast.top/https://github.com/skalahonza/DriversBackup/releases/download/$version/Bin.zip"
       }
     }
   }

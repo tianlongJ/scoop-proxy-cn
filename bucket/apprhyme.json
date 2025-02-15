@@ -1,12 +1,12 @@
 {
   "version": "1.0.9",
   "description": "使用Flutter和Rust构建的开源免费音乐软件",
-  "homepage": "https:github.comcanxin121app_rhyme",
+  "homepage": "https://github.com/canxin121/app_rhyme",
   "license": {
     "identifier": "MIT license",
-    "url": "https:github.comcanxin121app_rhyme#MIT-1-ov-file"
+    "url": "https://github.com/canxin121/app_rhyme#MIT-1-ov-file"
   },
-  "url": "https:github.comcanxin121app_rhymereleasesdownloadv1.0.9AppRhyme-release-windows-x86_64-1.0.9-setup.exe",
+  "url": "https://ghfast.top/https://github.com/canxin121/app_rhyme/releases/download/v1.0.9/AppRhyme-release-windows-x86_64-1.0.9-setup.exe",
   "hash": "6dcf03494ec4e3dd0d705fe0705fbd7daa4786f58d40146dd17dd53e38f4fe00",
   "innosetup": true,
   "shortcuts": [
@@ -16,10 +16,10 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposcanxin121app_rhymereleases",
-    "regex": "releasestagv([\\d.]+)"
+    "url": "https://api.github.com/repos/canxin121/app_rhyme/releases",
+    "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comcanxin121app_rhymereleasesdownloadv$versionAppRhyme-release-windows-x86_64-$version-setup.exe"
+    "url": "https://ghfast.top/https://github.com/canxin121/app_rhyme/releases/download/v$version/AppRhyme-release-windows-x86_64-$version-setup.exe"
   }
 }

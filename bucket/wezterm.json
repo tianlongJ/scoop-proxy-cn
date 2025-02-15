@@ -1,7 +1,7 @@
 {
   "version": "20240203-110809-5046fc22",
   "description": "GPU-accelerated terminal emulator",
-  "homepage": "https:github.comwezwezterm",
+  "homepage": "https://github.com/wez/wezterm",
   "license": "Apache-2.0",
   "notes": [
     "Add Open with Wezterm as a context menu option by running:",
@@ -9,7 +9,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comwezweztermreleasesdownload20240203-110809-5046fc22WezTerm-windows-20240203-110809-5046fc22.zip",
+      "url": "https://ghfast.top/https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-windows-20240203-110809-5046fc22.zip",
       "hash": "57e5d03b585303d81e8b8e96d1230362852eb39aca92b3b29c7a42cfb82f9ac4"
     }
   },
@@ -36,13 +36,13 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comwezwezterm",
+    "github": "https://github.com/wez/wezterm",
     "regex": "WezTerm-windows-([\\w-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comwezweztermreleasesdownload$versionWezTerm-windows-$version.zip"
+        "url": "https://ghfast.top/https://github.com/wez/wezterm/releases/download/$version/WezTerm-windows-$version.zip"
       }
     },
     "extract_dir": "WezTerm-windows-$version",

@@ -1,8 +1,8 @@
 {
   "version": "3.2.5",
   "license": "SIL OFL 1.1",
-  "homepage": "https:github.comfont-storeFarbodFont",
-  "url": "https:github.comfont-storeFarbodFontreleasesdownloadv3.2.5Farbod-3.2.5.zip",
+  "homepage": "https://github.com/font-store/FarbodFont",
+  "url": "https://ghfast.top/https://github.com/font-store/FarbodFont/releases/download/v3.2.5/Farbod-3.2.5.zip",
   "hash": "da43dcb7b37a242d426771d20aa181b60ab91411c4b6b5408aa4d5473c07cdc4",
   "pre_install": [
     "Remove-Item $dir\\* -exclude *.ttf -Force -Recurse"
@@ -49,10 +49,10 @@
     ]
   },
   "checkver": {
-    "url": "https:github.comfont-storeFarbodFonttags",
-    "regex": "releasestagv([\\d.]+)"
+    "url": "https://github.com/font-store/FarbodFont/tags",
+    "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comfont-storeFarbodFontreleasesdownloadv$versionFarbod-$version.zip"
+    "url": "https://ghfast.top/https://github.com/font-store/FarbodFont/releases/download/v$version/Farbod-$version.zip"
   }
 }

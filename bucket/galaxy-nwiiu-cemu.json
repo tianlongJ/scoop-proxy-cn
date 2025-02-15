@@ -1,8 +1,8 @@
 {
-  "homepage": "https:github.comLeonardFiedrowiczgalaxy-integration-cemu",
+  "homepage": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu",
   "version": "1.2",
   "depends": "sudo",
-  "url": "https:github.comLeonardFiedrowiczgalaxy-integration-cemureleasesdownloadv1.2galaxy-integration-cemu.zip",
+  "url": "https://ghfast.top/https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v1.2/galaxy-integration-cemu.zip",
   "hash": "178c53218a18b3c1fdb018e600ca1f1a715f8dd1d3732c2458d3a6e7ac42399c",
   "extract_dir": "galaxy-integration-cemu",
   "extract_to": "integration",
@@ -38,7 +38,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -46,7 +46,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -68,9 +68,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comLeonardFiedrowiczgalaxy-integration-cemu"
+    "github": "https://github.com/LeonardFiedrowicz/galaxy-integration-cemu"
   },
   "autoupdate": {
-    "url": "https:github.comLeonardFiedrowiczgalaxy-integration-cemureleasesdownloadv$versiongalaxy-integration-cemu.zip"
+    "url": "https://ghfast.top/https://github.com/LeonardFiedrowicz/galaxy-integration-cemu/releases/download/v$version/galaxy-integration-cemu.zip"
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": "4.14.0",
   "description": "Modern source port for Doom, Heretic, Hexen and more",
-  "homepage": "https:zdoom.org",
+  "homepage": "https://zdoom.org/",
   "license": "GPL-3.0-or-later",
   "notes": [
     "Place WAD files (game data) in:",
@@ -10,7 +10,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comZDoomgzdoomreleasesdownloadg4.14.0gzdoom-4-14-0a-windows.zip",
+      "url": "https://ghfast.top/https://github.com/ZDoom/gzdoom/releases/download/g4.14.0/gzdoom-4-14-0a-windows.zip",
       "hash": "BD846558FE9FBDF3063D93C522935FB0F263568F73A374537EF732066A5E5CC5"
     }
   },
@@ -34,13 +34,13 @@
     "Screenshots"
   ],
   "checkver": {
-    "github": "https:github.comZDoomgzdoom",
-    "regex": "releasestag(?:g)?([\\w.]+)"
+    "github": "https://github.com/ZDoom/gzdoom",
+    "regex": "/releases/tag/(?:g)?([\\w.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comZDoomgzdoomreleasesdownloadg$versiongzdoom-$dashVersion-Windows.zip"
+        "url": "https://ghfast.top/https://github.com/ZDoom/gzdoom/releases/download/g$version/gzdoom-$dashVersion-Windows.zip"
       }
     }
   }

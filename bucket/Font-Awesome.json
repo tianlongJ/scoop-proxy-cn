@@ -1,11 +1,11 @@
 {
   "version": "6.7.2",
   "description": "The most popular icon set",
-  "homepage": "https:fontawesome.com",
+  "homepage": "https://fontawesome.com",
   "license": "OFL-1.1",
-  "url": "https:github.comFortAwesomeFont-Awesomereleasesdownload6.7.2fontawesome-free-6.7.2-desktop.zip",
+  "url": "https://ghfast.top/https://github.com/FortAwesome/Font-Awesome/releases/download/6.7.2/fontawesome-free-6.7.2-desktop.zip",
   "hash": "22ff7898b429b997a45e1cf89bb869ed3abcc65333d90289181ba5363c8fd19b",
-  "extract_dir": "fontawesome-free-6.7.2-desktopotfs",
+  "extract_dir": "fontawesome-free-6.7.2-desktop/otfs",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -27,7 +27,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -87,10 +87,10 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comFortAwesomeFont-Awesome"
+    "github": "https://github.com/FortAwesome/Font-Awesome"
   },
   "autoupdate": {
-    "url": "https:github.comFortAwesomeFont-Awesomereleasesdownload$versionfontawesome-free-$version-desktop.zip",
-    "extract_dir": "fontawesome-free-$version-desktopotfs"
+    "url": "https://ghfast.top/https://github.com/FortAwesome/Font-Awesome/releases/download/$version/fontawesome-free-$version-desktop.zip",
+    "extract_dir": "fontawesome-free-$version-desktop/otfs"
   }
 }

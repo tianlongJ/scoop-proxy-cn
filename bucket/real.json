@@ -1,14 +1,14 @@
 {
   "version": "0.2.0",
   "description": "Reduce audio latency on Windows 10.",
-  "homepage": "https:github.comminiant-gitREAL",
+  "homepage": "https://github.com/miniant-git/REAL",
   "license": "MIT",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comminiant-gitREALreleasesdownloadupdater-v2REAL.exe",
+      "url": "https://ghfast.top/https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe",
       "hash": "d9767fd0e29a9fcdd274282de81c82d7b8fb16f268fa2a7cec50c01d0dd3c4ad"
     }
   },
@@ -22,13 +22,13 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comminiant-gitREAL",
+    "github": "https://github.com/miniant-git/REAL",
     "regex": "[>\"]REAL\\s+v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comminiant-gitREALreleasesdownloadupdater-v2REAL.exe"
+        "url": "https://ghfast.top/https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe"
       }
     }
   }

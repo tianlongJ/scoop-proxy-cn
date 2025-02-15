@@ -1,9 +1,9 @@
 {
   "version": "9.53",
   "description": "A full-featured graphical IRC client.",
-  "homepage": "https:www.icechat.net",
+  "homepage": "https://www.icechat.net",
   "license": "GPL-2.0-or-later",
-  "url": "https:github.comicechatIceChatreleasesdownload9.53Picechat-portable.zip",
+  "url": "https://ghfast.top/https://github.com/icechat/IceChat/releases/download/9.53P/icechat-portable.zip",
   "hash": "af2e4ab15ccf167c6688d7f63e7763ab35c7cd58ce6a7746de545aaf234e8db2",
   "bin": "IceChat2009.exe",
   "shortcuts": [
@@ -13,9 +13,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comicechatIceChat"
+    "github": "https://github.com/icechat/IceChat"
   },
   "autoupdate": {
-    "url": "https:github.comicechatIceChatreleasesdownload$versionPicechat-portable.zip"
+    "url": "https://ghfast.top/https://github.com/icechat/IceChat/releases/download/$versionP/icechat-portable.zip"
   }
 }

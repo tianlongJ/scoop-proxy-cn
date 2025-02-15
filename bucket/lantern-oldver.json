@@ -1,10 +1,10 @@
 {
   "##": "This package is nonportable because the installer cannot be properly extracted after version 5.5.6.",
   "version": "6.0.10",
-  "description": "HTTPHTTPS proxy.",
-  "homepage": "https:getlantern.org",
+  "description": "HTTP/HTTPS proxy.",
+  "homepage": "https://getlantern.org/",
   "license": "Apache-2.0",
-  "url": "https:github.comgetlanternlanternreleasesdownload6.0.10update_windows_386.bz2",
+  "url": "https://ghfast.top/https://github.com/getlantern/lantern/releases/download/6.0.10/update_windows_386.bz2",
   "hash": "",
   "pre_install": [
     "",
@@ -26,7 +26,7 @@
     "",
     "#ensure \"$env:AppData\\$companyname\" | Out-Null",
     "if (-not (Test-Path \"$env:AppData\\$companyname\")) {",
-    "    cmd.exe c mklink j \"$env:AppData\\$companyname\" \"$dir\\data\\AppData\"",
+    "    cmd.exe /c mklink /j \"$env:AppData\\$companyname\" \"$dir\\data\\AppData\"",
     "}",
     "",
     "Start-Process \"$dir\\lantern.exe\" -Verb RunAs -PassThru",
@@ -36,14 +36,14 @@
   "installer": {
     "script": [
       "Rename-Item \"$dir\\update_windows_386\" \"$dir\\lantern.exe\"",
-      "#Invoke-ExternalCommand \"$dir\\lantern.exe\" -ArgumentList @('S', \"D=$dir\") | Out-Null",
+      "#Invoke-ExternalCommand \"$dir\\lantern.exe\" -ArgumentList @('/S', \"/D=$dir\") | Out-Null",
       "#Remove-Item \"$dir\\update_windows_386\"",
       "#Remove-Item -Recurse \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\Lantern\"",
       "#Remove-Item \"$([Environment]::GetFolderPath('Desktop'))\\Lantern.lnk\""
     ]
   },
   "uninstaller": {
-    "script": "#Invoke-ExternalCommand \"$dir\\uninstall.exe\" -ArgumentList 'S' | Out-Null"
+    "script": "#Invoke-ExternalCommand \"$dir\\uninstall.exe\" -ArgumentList '/S' | Out-Null"
   },
   "#bin": "lantern.exe",
   "shortcuts": [

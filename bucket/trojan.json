@@ -1,14 +1,14 @@
 {
   "version": "1.16.0",
   "description": "An unidentifiable mechanism for bypassing GFW",
-  "homepage": "https:trojan-gfw.github.iotrojan",
+  "homepage": "https://trojan-gfw.github.io/trojan/",
   "license": "GPL-3.0-only",
   "suggest": {
-    "vcredist": "extrasvcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comtrojan-gfwtrojanreleasesdownloadv1.16.0trojan-1.16.0-win.zip",
+      "url": "https://ghfast.top/https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-win.zip",
       "hash": "0e6107a73e113b30893d66844ed8d619a125c5f5e54c559727e87a33f1add423"
     }
   },
@@ -17,12 +17,12 @@
   "bin": "trojan.exe",
   "persist": "config.json",
   "checkver": {
-    "github": "https:github.comtrojan-gfwtrojan"
+    "github": "https://github.com/trojan-gfw/trojan"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comtrojan-gfwtrojanreleasesdownloadv$versiontrojan-$version-win.zip"
+        "url": "https://ghfast.top/https://github.com/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip"
       }
     }
   }

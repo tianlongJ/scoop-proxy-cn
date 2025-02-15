@@ -1,7 +1,7 @@
 {
   "version": "2025.02.0-171",
   "description": "A next-generation data science IDE",
-  "homepage": "https:positron.posit.co",
+  "homepage": "https://positron.posit.co",
   "license": "Elastic-2.0",
   "suggest": {
     "R": "r",
@@ -9,13 +9,13 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.composit-devpositronreleasesdownload2025.02.0-171Positron-2025.02.0-171-UserSetup.exe",
+      "url": "https://ghfast.top/https://github.com/posit-dev/positron/releases/download/2025.02.0-171/Positron-2025.02.0-171-UserSetup.exe",
       "hash": "149010807041349073353b8e4a4a9ca28368cad1d36a6746c4703a15a6241557",
       "extract_dir": "{code_GetDestDir}"
     }
   },
   "innosetup": true,
-  "bin": "binpositron.cmd",
+  "bin": "bin/positron.cmd",
   "shortcuts": [
     [
       "Positron.exe",
@@ -23,13 +23,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.composit-devpositronreleases.atom",
-    "regex": "<title>([\\d.-]+)<title>"
+    "url": "https://github.com/posit-dev/positron/releases.atom",
+    "regex": "<title>([\\d.-]+)</title>"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.composit-devpositronreleasesdownload$versionPositron-$version-UserSetup.exe"
+        "url": "https://ghfast.top/https://github.com/posit-dev/positron/releases/download/$version/Positron-$version-UserSetup.exe"
       }
     }
   }

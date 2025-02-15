@@ -1,10 +1,10 @@
 {
   "version": "0.3.8",
-  "homepage": "https:harmonoid.com",
+  "homepage": "https://harmonoid.com/",
   "description": "Plays & manages your music library. Looks beautiful & juicy. Playlists, visuals, synced lyrics, pitch shift, volume boost & more.",
   "license": {
     "identifier": "Freeware",
-    "url": "https:raw.githubusercontent.comharmonoidharmonoidmasterEULA.txt"
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/harmonoid/harmonoid/master/EULA.txt"
   },
   "notes": [
     "To install harmonoid file associations, run:",
@@ -19,7 +19,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comalexmercerind2harmonoid-releasesreleasesdownloadv0.3.8harmonoid-windows-exe.zip",
+      "url": "https://ghfast.top/https://github.com/alexmercerind2/harmonoid-releases/releases/download/v0.3.8/harmonoid-windows-exe.zip",
       "hash": "10439b686a4bb95fe469299ba676a5dfa3f9de492a288b77db02b9b2ee524ea4"
     }
   },
@@ -57,12 +57,12 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comalexmercerind2harmonoid-releases"
+    "github": "https://github.com/alexmercerind2/harmonoid-releases"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comalexmercerind2harmonoid-releasesreleasesdownloadv$versionharmonoid-windows-exe.zip"
+        "url": "https://ghfast.top/https://github.com/alexmercerind2/harmonoid-releases/releases/download/v$version/harmonoid-windows-exe.zip"
       }
     }
   }

@@ -1,19 +1,19 @@
 {
   "version": "0.4.2",
   "description": "A CLI tool for deta.space",
-  "homepage": "https:github.comdetaspace-cli",
+  "homepage": "https://github.com/deta/space-cli",
   "license": "MIT",
   "notes": [
     "Don't forget to run `space login`.",
-    "See the manual `https:deta.spacedocsenbasicscli`"
+    "See the manual `https://deta.space/docs/en/basics/cli`"
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comdetaspace-clireleasesdownloadv0.4.2space-windows-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/deta/space-cli/releases/download/v0.4.2/space-windows-x86_64.zip",
       "hash": "eb25955353c07665f865ac676bbdda4f81fd6c4c5d944a3b23f97cc5f60c3ea9"
     },
     "arm64": {
-      "url": "https:github.comdetaspace-clireleasesdownloadv0.4.2space-windows-arm64.zip",
+      "url": "https://ghfast.top/https://github.com/deta/space-cli/releases/download/v0.4.2/space-windows-arm64.zip",
       "hash": "2ed455b21d4ec8b2aa5077d23674cc6f62d61ead3219c22dec888ebc63724b87"
     }
   },
@@ -22,14 +22,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comdetaspace-clireleasesdownloadv$versionspace-windows-x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/deta/space-cli/releases/download/v$version/space-windows-x86_64.zip"
       },
       "arm64": {
-        "url": "https:github.comdetaspace-clireleasesdownloadv$versionspace-windows-arm64.zip"
+        "url": "https://ghfast.top/https://github.com/deta/space-cli/releases/download/v$version/space-windows-arm64.zip"
       }
     },
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   }
 }

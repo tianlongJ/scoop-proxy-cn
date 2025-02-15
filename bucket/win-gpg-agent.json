@@ -1,7 +1,7 @@
 {
   "version": "1.6.3",
-  "description": "Simple set of tools to make working with GPG and SSH keys easier on Windows 1011.",
-  "homepage": "https:github.comrupor-githubwin-gpg-agent",
+  "description": "Simple set of tools to make working with GPG and SSH keys easier on Windows 10/11.",
+  "homepage": "https://github.com/rupor-github/win-gpg-agent",
   "license": "Apache-2.0",
   "notes": [
     "win-gpg-agent is configured to have SSH_AUTH_SOCK to point to named pipe.",
@@ -12,7 +12,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comrupor-githubwin-gpg-agentreleasesdownloadv1.6.3win-gpg-agent.zip",
+      "url": "https://ghfast.top/https://github.com/rupor-github/win-gpg-agent/releases/download/v1.6.3/win-gpg-agent.zip",
       "hash": "23cc5e7b7e1937049ab7a416871713f44fbf84a002aa58fd6326d99876b79cd0"
     }
   },

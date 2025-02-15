@@ -1,9 +1,9 @@
 {
   "version": "0.23.0",
   "description": "Refined Evernote desktop app",
-  "homepage": "https:klaussinani.techtusk",
+  "homepage": "https://klaussinani.tech/tusk/",
   "license": "MIT",
-  "url": "https:github.comklaussinanituskreleasesdownloadv0.23.0tusk-0.23.0.exe#dl.7z",
+  "url": "https://ghfast.top/https://github.com/klaussinani/tusk/releases/download/v0.23.0/tusk-0.23.0.exe#/dl.7z",
   "hash": "838b087669b43c54220436e7007035a8c90b4bc94543e9bd9eb5de2961644b05",
   "architecture": {
     "64bit": {
@@ -22,9 +22,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comklaussinanitusk"
+    "github": "https://github.com/klaussinani/tusk"
   },
   "autoupdate": {
-    "url": "https:github.comklaussinanituskreleasesdownloadv$versiontusk-$version.exe#dl.7z"
+    "url": "https://ghfast.top/https://github.com/klaussinani/tusk/releases/download/v$version/tusk-$version.exe#/dl.7z"
   }
 }

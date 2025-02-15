@@ -1,10 +1,10 @@
 {
   "version": "1.3",
   "description": "FreezeToStock. Temporarily Pause Non-Required Processes and Services before Gaming",
-  "homepage": "https:github.comrcmaehlFreezeToStock",
+  "homepage": "https://github.com/rcmaehl/FreezeToStock",
   "license": "Freeware",
-  "changelog": "https:github.comrcmaehlFreezeToStockreleases",
-  "url": "https:github.comrcmaehlFreezeToStockreleasesdownload1.3FTS.exe",
+  "changelog": "https://github.com/rcmaehl/FreezeToStock/releases",
+  "url": "https://ghfast.top/https://github.com/rcmaehl/FreezeToStock/releases/download/1.3/FTS.exe",
   "hash": "2a5331e9670f044e8672fb19788d44ff240ebbb1e2875b0430a4567a9692bc16",
   "bin": "FTS.exe",
   "shortcuts": [
@@ -14,9 +14,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comrcmaehlFreezeToStock"
+    "github": "https://github.com/rcmaehl/FreezeToStock"
   },
   "autoupdate": {
-    "url": "https:github.comrcmaehlFreezeToStockreleasesdownload$versionFTS.exe"
+    "url": "https://ghfast.top/https://github.com/rcmaehl/FreezeToStock/releases/download/$version/FTS.exe"
   }
 }

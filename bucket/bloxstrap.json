@@ -1,11 +1,11 @@
 {
   "version": "2.8.6",
-  "homepage": "https:github.compizzaboxerbloxstrap",
+  "homepage": "https://github.com/pizzaboxer/bloxstrap",
   "description": "Open-source, feature-packed alternative bootstrapper for Roblox",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.compizzaboxerbloxstrapreleasesdownloadv2.8.6Bloxstrap-v2.8.6.exe#setup.exe",
+      "url": "https://ghfast.top/https://github.com/pizzaboxer/bloxstrap/releases/download/v2.8.6/Bloxstrap-v2.8.6.exe#/setup.exe",
       "hash": "b4e27af0caf72026adc98fa65d34d5fe22882b2c3b36291f39fb2c69b3183efc"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.compizzaboxerbloxstrapreleasesdownloadv$versionBloxstrap-v$version.exe#setup.exe"
+        "url": "https://ghfast.top/https://github.com/pizzaboxer/bloxstrap/releases/download/v$version/Bloxstrap-v$version.exe#/setup.exe"
       }
     }
   }

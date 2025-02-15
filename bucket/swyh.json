@@ -1,9 +1,9 @@
 {
   "version": "1.5.0",
-  "homepage": "https:www.streamwhatyouhear.com",
-  "description": "Stream the sound from your PC to an UPnPDLNA device.",
+  "homepage": "https://www.streamwhatyouhear.com/",
+  "description": "Stream the sound from your PC to an UPnP/DLNA device.",
   "license": "GPL-2.0",
-  "url": "https:github.comStreamWhatYouHearSWYHreleasesdownload1.5.0SWYH_1.5.0.exe",
+  "url": "https://ghfast.top/https://github.com/StreamWhatYouHear/SWYH/releases/download/1.5.0/SWYH_1.5.0.exe",
   "hash": "267f72ff5ccb056855574a1eb9b52d7916a3057b79f687cd5e1cc0c113bbe9ca",
   "innosetup": true,
   "shortcuts": [
@@ -13,9 +13,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comStreamWhatYouHearSWYH"
+    "github": "https://github.com/StreamWhatYouHear/SWYH"
   },
   "autoupdate": {
-    "url": "https:github.comStreamWhatYouHearSWYHreleasesdownload$versionSWYH_$version.exe"
+    "url": "https://ghfast.top/https://github.com/StreamWhatYouHear/SWYH/releases/download/$version/SWYH_$version.exe"
   }
 }

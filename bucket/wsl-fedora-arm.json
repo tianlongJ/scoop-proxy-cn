@@ -1,9 +1,9 @@
 {
-  "homepage": "https:github.comWhitewaterFoundryFedora-Remix-for-WSL",
+  "homepage": "https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/",
   "description": "Fedora Remix for WSL",
   "license": "Open Source",
   "version": "31.5.0",
-  "url": "https:github.comWhitewaterFoundryFedora-Remix-for-WSLreleasesdownload31.5.0Fedora-Remix-for-WSL_31.5.0.0_x64_arm64.appxbundle",
+  "url": "https://ghfast.top/https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases/download/31.5.0/Fedora-Remix-for-WSL_31.5.0.0_x64_arm64.appxbundle",
   "shortcuts": [
     [
       "fedoraremix.exe",
@@ -23,10 +23,10 @@
     ]
   },
   "uninstaller": {
-    "script": "wslconfig u fedoraremix"
+    "script": "wslconfig /u fedoraremix"
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comWhitewaterFoundryFedora-Remix-for-WSLreleasesdownload$versionFedora-Remix-for-WSL_$version.0_x64_arm64.appxbundle"
+    "url": "https://ghfast.top/https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases/download/$version/Fedora-Remix-for-WSL_$version.0_x64_arm64.appxbundle"
   }
 }

@@ -1,10 +1,10 @@
 {
   "version": "2019-06-10T03.49.03",
   "description": "Google-style theme for Spicetify.",
-  "homepage": "https:github.comkhanhasgoogle-spicetify",
+  "homepage": "https://github.com/khanhas/google-spicetify",
   "license": "GPL-3.0-only",
   "depends": "spicetify-cli",
-  "url": "https:github.comkhanhasgoogle-spicetifyarchivemaster.zip",
+  "url": "https://ghfast.top/https://github.com/khanhas/google-spicetify/archive/master.zip",
   "hash": "e57f263335f3977a03d3bd40c27552a2e6dded92fa63ef2a7a8fd33d70bd3731",
   "notes": [
     "Run the following commands to apply this theme:",
@@ -36,11 +36,11 @@
     "script": "Remove-Item -Recurse -ErrorAction Ignore \"$env:USERPROFILE\\.spicetify\\Themes\\google-spicetify\""
   },
   "checkver": {
-    "url": "https:api.github.comreposkhanhasgoogle-spicetifycommits",
+    "url": "https://api.github.com/repos/khanhas/google-spicetify/commits",
     "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
     "replace": "$1$2.$3.$4"
   },
   "autoupdate": {
-    "url": "https:github.comkhanhasgoogle-spicetifyarchivemaster.zip"
+    "url": "https://ghfast.top/https://github.com/khanhas/google-spicetify/archive/master.zip"
   }
 }

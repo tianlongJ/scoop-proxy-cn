@@ -1,24 +1,24 @@
 {
   "version": "0.8.76",
   "description": "A multi-platform proxy client based on ClashMeta, simple and easy to use, open-source and ad-free.",
-  "homepage": "https:github.comchen08209FlClash",
+  "homepage": "https://github.com/chen08209/FlClash",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https:github.comchen08209FlClash#GPL-3.0-1-ov-file"
+    "url": "https://github.com/chen08209/FlClash#GPL-3.0-1-ov-file"
   },
-  "url": "https:github.comchen08209FlClashreleasesdownloadv0.8.76FlClash-0.8.76-windows-amd64.zip",
+  "url": "https://ghfast.top/https://github.com/chen08209/FlClash/releases/download/v0.8.76/FlClash-0.8.76-windows-amd64.zip",
   "hash": "d220fc88e9968d4a3ed3e5050ec0a8859c92de8af624cd2fafadab9d9c58a7b7",
   "installer": {
     "script": [
       "# handle runtime cache",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:APPDATA\\com.follow\"",
       "Remove-Module -Name AppsUtils"
     ]
   },
   "uninstaller": {
     "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
       "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\com.follow\"",
       "Remove-Module -Name AppsUtils"
     ]
@@ -31,11 +31,11 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposchen08209FlClashreleases",
+    "url": "https://api.github.com/repos/chen08209/FlClash/releases",
     "jsonpath": "$[0].assets[*].browser_download_url",
-    "regex": "releasesdownloadv([\\d.]+)FlClash-([\\d.]+)-windows-amd64"
+    "regex": "/releases/download/v([\\d.]+)/FlClash-([\\d.]+)-windows-amd64"
   },
   "autoupdate": {
-    "url": "https:github.comchen08209FlClashreleasesdownloadv$versionFlClash-$version-windows-amd64.zip"
+    "url": "https://ghfast.top/https://github.com/chen08209/FlClash/releases/download/v$version/FlClash-$version-windows-amd64.zip"
   }
 }

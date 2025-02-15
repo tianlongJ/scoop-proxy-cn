@@ -1,16 +1,16 @@
 {
-  "##": "Download url https:code.visualstudio.comdownload#",
+  "##": "Download url https://code.visualstudio.com/download#",
   "version": "1.97.2",
   "description": "Visual Studio Code. is a lightweight but powerful source code editor.",
-  "homepage": "https:code.visualstudio.com",
+  "homepage": "https://code.visualstudio.com/",
   "license": {
     "identifier": "Freeware",
-    "url": "https:code.visualstudio.comLicense"
+    "url": "https://code.visualstudio.com/License/"
   },
-  "changelog": "https:code.visualstudio.comupdatesv1_97",
+  "changelog": "https://code.visualstudio.com/updates/v1_97",
   "architecture": {
     "64bit": {
-      "url": "https:code.visualstudio.comshadownload?build=stable&os=win32-x64#setup.exe",
+      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64#/setup.exe",
       "hash": "5c7c9613b97b06bc524ace9cba6bf740b699a7df4d8c0d2650830057bd6fcd00"
     }
   },
@@ -34,7 +34,7 @@
       "$filepath = \"$ProgramFiles\\Microsoft VS Code\\Code.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   &\"$dir\\setup.exe\" VERYSILENT MERGETASKS=!runcode,!desktopicon,!quicklaunchicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath | Out-Null",
+      "   &\"$dir\\setup.exe\" /VERYSILENT /MERGETASKS=!runcode,!desktopicon,!quicklaunchicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",
@@ -44,13 +44,13 @@
     ]
   },
   "checkver": {
-    "github": "https:github.commicrosoftvscode"
+    "github": "https://github.com/microsoft/vscode"
   },
   "autoupdate": {
-    "changelog": "https:code.visualstudio.comupdatesv$majorVersion_$minorVersion",
+    "changelog": "https://code.visualstudio.com/updates/v$majorVersion_$minorVersion",
     "architecture": {
       "64bit": {
-        "url": "https:code.visualstudio.comshadownload?build=stable&os=win32-x64#setup.exe"
+        "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64#/setup.exe"
       }
     }
   }

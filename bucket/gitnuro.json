@@ -1,11 +1,11 @@
 {
   "version": "1.4.3",
   "description": "A FOSS Git multiplatform client for newbies and pros",
-  "homepage": "https:gitnuro.com",
+  "homepage": "https://gitnuro.com/",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https:github.comJetpackDubaGitnuroreleasesdownloadv1.4.3Gitnuro_Windows_Portable_1.4.3.zip",
+      "url": "https://ghfast.top/https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.3/Gitnuro_Windows_Portable_1.4.3.zip",
       "hash": "cc4a4526b7f09ecd72fa2210e500d09d696abcf1233741ffc0fe4a14933da4cb"
     }
   },
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comJetpackDubaGitnuro"
+    "github": "https://github.com/JetpackDuba/Gitnuro"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comJetpackDubaGitnuroreleasesdownloadv$versionGitnuro_Windows_Portable_$version.zip"
+        "url": "https://ghfast.top/https://github.com/JetpackDuba/Gitnuro/releases/download/v$version/Gitnuro_Windows_Portable_$version.zip"
       }
     },
     "hash": {

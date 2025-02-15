@@ -1,16 +1,16 @@
 {
   "version": "1.0.8_240914",
   "description": "一款支持高度自定义的 Java 内存马生成工具",
-  "homepage": "https:github.compen4uinjava-memshell-generator",
+  "homepage": "https://github.com/pen4uin/java-memshell-generator",
   "license": "Freeware",
-  "notes": "https:github.comViCrackscoop-bucketblobmasterbucketjava-memshell-generator.json",
+  "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/java-memshell-generator.json",
   "suggest": {
     "JDK": [
-      "javaoraclejdk",
-      "javaopenjdk"
+      "java/oraclejdk",
+      "java/openjdk"
     ]
   },
-  "url": "https:github.compen4uinjava-memshell-generatorreleasesdownloadv1.0.8_240914jmg-all-1.0.8_240914.jar",
+  "url": "https://ghfast.top/https://github.com/pen4uin/java-memshell-generator/releases/download/v1.0.8_240914/jmg-all-1.0.8_240914.jar",
   "hash": "d62aa1e063b595a800ab720655dc88ab7f0166033cadf0b0da699da4379a4d5a",
   "pre_install": "Set-Content \"$dir\\java-memshell-generator.bat\" '@pushd %~dp0\n@start javaw.exe -jar \"jmg-all-1.0.8_240914.jar\" %*\n@popd' -Encoding Ascii",
   "bin": "java-memshell-generator.bat",
@@ -22,6 +22,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.compen4uinjava-memshell-generatorreleasesdownloadv$versionjmg-all-$version.jar"
+    "url": "https://ghfast.top/https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jmg-all-$version.jar"
   }
 }

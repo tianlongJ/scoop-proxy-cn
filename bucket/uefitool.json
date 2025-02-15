@@ -1,12 +1,12 @@
 {
   "version": "0.28.0",
   "description": " Automagically sends IP broadcast packets to all interfaces on Windows.",
-  "homepage": "https:github.comLongSoftUEFITool",
+  "homepage": "https://github.com/LongSoft/UEFITool",
   "license": "GPL-3.0-or-later",
   "url": [
-    "https:github.comLongSoftUEFIToolreleasesdownload0.28.0UEFIPatch_0.28.0_win32.zip",
-    "https:github.comLongSoftUEFIToolreleasesdownload0.28.0UEFIReplace_0.28.0_win32.zip",
-    "https:github.comLongSoftUEFIToolreleasesdownload0.28.0UEFITool_0.28.0_win32.zip"
+    "https://ghfast.top/https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFIPatch_0.28.0_win32.zip",
+    "https://ghfast.top/https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFIReplace_0.28.0_win32.zip",
+    "https://ghfast.top/https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFITool_0.28.0_win32.zip"
   ],
   "hash": [
     "f69175e06508dd45ad655a99360a97f6a3700788ba4ac73504e93bbafb56e7cd",
@@ -24,15 +24,15 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposLongSoftUEFIToolreleases",
-    "jsonpath": "$[?(@.tag_name =~ ^0\\.)].tag_name",
+    "url": "https://api.github.com/repos/LongSoft/UEFITool/releases",
+    "jsonpath": "$[?(@.tag_name =~ /^0\\./)].tag_name",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
     "url": [
-      "https:github.comLongSoftUEFIToolreleasesdownload$versionUEFIPatch_$version_win32.zip",
-      "https:github.comLongSoftUEFIToolreleasesdownload$versionUEFIReplace_$version_win32.zip",
-      "https:github.comLongSoftUEFIToolreleasesdownload$versionUEFITool_$version_win32.zip"
+      "https://ghfast.top/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFIPatch_$version_win32.zip",
+      "https://ghfast.top/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFIReplace_$version_win32.zip",
+      "https://ghfast.top/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFITool_$version_win32.zip"
     ]
   }
 }

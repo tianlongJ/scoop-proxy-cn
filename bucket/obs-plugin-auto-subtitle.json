@@ -1,21 +1,21 @@
 {
   "version": "1.1.0",
-  "homepage": "https:github.comsummershrimpobs-auto-subtitle",
+  "homepage": "https://github.com/summershrimp/obs-auto-subtitle",
   "description": "An OBS plugin that allows the user to use their phone as a webcam for OBS Studio.",
   "license": "GPL-2.0",
   "notes": "If you don't have any obs-studio version installed in your computer, please install one of the following below. Then uninstall this app and install it again.",
   "suggest": {
     "OBS": [
-      "3rdOBSStudio-Portable",
-      "extrasobs-studio",
-      "extrasobs-studio-small",
-      "versionsobs-studio-pre",
-      "versionsobs-studio27"
+      "3rd/OBSStudio-Portable",
+      "extras/obs-studio",
+      "extras/obs-studio-small",
+      "versions/obs-studio-pre",
+      "versions/obs-studio27"
     ]
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comsummershrimpobs-auto-subtitlereleasesdownload1.1.0obs-auto-subtitle-1.1.0-windows-x64.zip",
+      "url": "https://ghfast.top/https://github.com/summershrimp/obs-auto-subtitle/releases/download/1.1.0/obs-auto-subtitle-1.1.0-windows-x64.zip",
       "hash": "60256cb319a82b19f68b3ee68bec84615b8646ba12028d39a2ed25323ba742b2"
     }
   },
@@ -42,12 +42,12 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comsummershrimpobs-auto-subtitle"
+    "github": "https://github.com/summershrimp/obs-auto-subtitle"
   },
   "autoupdate": {
-    "url": "https:github.comsummershrimpobs-auto-subtitlereleasesdownload$versionobs-auto-subtitle-$version-windows-x64.zip",
+    "url": "https://ghfast.top/https://github.com/summershrimp/obs-auto-subtitle/releases/download/$version/obs-auto-subtitle-$version-windows-x64.zip",
     "hash": {
-      "url": "https:github.comsummershrimpobs-auto-subtitlereleasestag$version",
+      "url": "https://github.com/summershrimp/obs-auto-subtitle/releases/tag/$version",
       "regex": "windows-x64.zip: $sha256"
     }
   }

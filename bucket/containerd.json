@@ -1,11 +1,11 @@
 {
   "version": "2.0.2",
   "description": "An open and reliable container runtime",
-  "homepage": "https:containerd.io",
+  "homepage": "https://containerd.io",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comcontainerdcontainerdreleasesdownloadv2.0.2containerd-2.0.2-windows-amd64.tar.gz",
+      "url": "https://ghfast.top/https://github.com/containerd/containerd/releases/download/v2.0.2/containerd-2.0.2-windows-amd64.tar.gz",
       "hash": "c8f6ee6d13368cbabcf13e742161df7bc2675a00850d65d29d4e2384999f1672"
     }
   },
@@ -15,12 +15,12 @@
     "bin\\ctr.exe"
   ],
   "checkver": {
-    "github": "https:github.comcontainerdcontainerd"
+    "github": "https://github.com/containerd/containerd"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comcontainerdcontainerdreleasesdownloadv$versioncontainerd-$version-windows-amd64.tar.gz"
+        "url": "https://ghfast.top/https://github.com/containerd/containerd/releases/download/v$version/containerd-$version-windows-amd64.tar.gz"
       }
     },
     "hash": {

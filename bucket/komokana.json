@@ -1,14 +1,14 @@
 {
   "version": "0.1.5",
   "description": "An automatic application-aware keyboard layer switcher for Windows",
-  "homepage": "https:github.comLGUG2Zkomokana",
+  "homepage": "https://github.com/LGUG2Z/komokana",
   "license": "MIT",
   "suggest": {
-    "komorebi": "extraskomorebi"
+    "komorebi": "extras/komorebi"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comLGUG2Zkomokanareleasesdownloadv0.1.5komokana-0.1.5-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/LGUG2Z/komokana/releases/download/v0.1.5/komokana-0.1.5-x86_64-pc-windows-msvc.zip",
       "hash": "663e1ac2af2f8bffc172f83d138baaaa2beb55381001e07eb719692dca2e4c57"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comLGUG2Zkomokanareleasesdownloadv$versionkomokana-$version-x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/LGUG2Z/komokana/releases/download/v$version/komokana-$version-x86_64-pc-windows-msvc.zip"
       }
     }
   }

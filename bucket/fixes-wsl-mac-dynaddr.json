@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "description": "WSL2",
-  "homepage": "https:github.commicrosoftWSL",
+  "homepage": "https://github.com/microsoft/WSL",
   "license": "Freeware",
   "#depends": [
     ""
@@ -10,7 +10,7 @@
     "fixes-wsl-mac-dynaddr"
   ],
   "url": [
-    "https:github.comexcitoonemptyreleasesdownloadempty-1.0.7empty-1.0.7.zip"
+    "https://ghfast.top/https://github.com/excitoon/empty/releases/download/empty-1.0.7/empty-1.0.7.zip"
   ],
   "hash": [
     "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"

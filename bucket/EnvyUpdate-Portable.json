@@ -1,10 +1,10 @@
 {
   "version": "3.6",
   "description": "EnvyUpdate. A small update checker for NVidia GPUs.",
-  "homepage": "https:github.comfyr77EnvyUpdate",
+  "homepage": "https://github.com/fyr77/EnvyUpdate",
   "license": "MIT",
-  "changelog": "https:github.comfyr77EnvyUpdatereleases",
-  "url": "https:github.comfyr77EnvyUpdatereleasesdownload3.6EnvyUpdate.zip",
+  "changelog": "https://github.com/fyr77/EnvyUpdate/releases",
+  "url": "https://ghfast.top/https://github.com/fyr77/EnvyUpdate/releases/download/3.6/EnvyUpdate.zip",
   "hash": "74278e6904506290dc8996bf017ef611b2459d04b345698690cab6eb272439a8",
   "bin": "EnvyUpdate.exe",
   "shortcuts": [
@@ -14,9 +14,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comfyr77EnvyUpdate"
+    "github": "https://github.com/fyr77/EnvyUpdate"
   },
   "autoupdate": {
-    "url": "https:github.comfyr77EnvyUpdatereleasesdownload$versionEnvyUpdate.zip"
+    "url": "https://ghfast.top/https://github.com/fyr77/EnvyUpdate/releases/download/$version/EnvyUpdate.zip"
   }
 }

@@ -1,22 +1,22 @@
 {
   "version": "1.12.0.1517",
   "description": "Modern, dynamic a functional dialect of the LISP programming language for JVM",
-  "homepage": "https:clojure.org",
+  "homepage": "https://clojure.org",
   "license": "EPL-1.0",
   "notes": "Please fully exit and restart any active terminal sessions.",
   "suggest": {
     "JDK": [
-      "javaopenjdk",
-      "javatemurin-jdk",
-      "javaoraclejdk"
+      "java/openjdk",
+      "java/temurin-jdk",
+      "java/oraclejdk"
     ]
   },
-  "depends": "extrasvcredist2022",
+  "depends": "extras/vcredist2022",
   "architecture": {
     "64bit": {
       "url": [
-        "https:github.comborkdudedeps.cljreleasesdownloadv1.12.0.1517deps.clj-1.12.0.1517-windows-amd64.zip",
-        "https:github.comclojurebrew-installreleasesdownload1.12.0.1517clojure-tools.zip"
+        "https://ghfast.top/https://github.com/borkdude/deps.clj/releases/download/v1.12.0.1517/deps.clj-1.12.0.1517-windows-amd64.zip",
+        "https://ghfast.top/https://github.com/clojure/brew-install/releases/download/1.12.0.1517/clojure-tools.zip"
       ],
       "hash": [
         "ad3aef3a82f4f7c4ff26c7427ed22d5f5a22030f41be927e284093a2fea7e6e4",
@@ -46,16 +46,16 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comborkdudedeps.cljreleases",
-    "regex": "tagv([\\d.]+)(-[\\d]+)?",
+    "url": "https://github.com/borkdude/deps.clj/releases",
+    "regex": "tag/v([\\d.]+)(-[\\d]+)?",
     "replace": "${1}${2}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
         "url": [
-          "https:github.comborkdudedeps.cljreleasesdownloadv$versiondeps.clj-$version-windows-amd64.zip",
-          "https:github.comclojurebrew-installreleasesdownload$matchHead$matchTailclojure-tools.zip"
+          "https://ghfast.top/https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip",
+          "https://ghfast.top/https://github.com/clojure/brew-install/releases/download/$matchHead$matchTail/clojure-tools.zip"
         ]
       }
     }

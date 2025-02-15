@@ -1,18 +1,18 @@
 {
   "version": "4-4192",
   "description": "A sophisticated text editor for code, markup and prose",
-  "homepage": "https:www.sublimetext.comdownload",
+  "homepage": "https://www.sublimetext.com/download",
   "license": {
     "identifier": "Shareware",
-    "url": "https:www.sublimetext.comeula"
+    "url": "https://www.sublimetext.com/eula"
   },
   "notes": "Add Sublime Text as a context menu option by running: \"reg import '$dir\\install-context.reg'\"",
   "architecture": {
     "64bit": {
       "url": [
-        "https:download.sublimetext.comsublime_text_build_4192_x64.zip",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptssublime-textsublime-text-install-context.reg",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptssublime-textsublime-text-uninstall-context.reg"
+        "https://download.sublimetext.com/sublime_text_build_4192_x64.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/sublime-text/sublime-text-install-context.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/sublime-text/sublime-text-uninstall-context.reg"
       ],
       "hash": [
         "6ac2ef44c553bbf43de54b6a50f0f09f17df17a431fc7b3976bffcb6926ae2b7",
@@ -22,9 +22,9 @@
     },
     "32bit": {
       "url": [
-        "https:download.sublimetext.comsublime_text_build_4192.zip",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptssublime-textsublime-text-install-context.reg",
-        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptssublime-textsublime-text-uninstall-context.reg"
+        "https://download.sublimetext.com/sublime_text_build_4192.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/sublime-text/sublime-text-install-context.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/sublime-text/sublime-text-uninstall-context.reg"
       ],
       "hash": [
         "614a0787bab30cffd3538abd7ad7b3fa8b38aafdcc30e648c5686b1f2ec496f5",
@@ -55,7 +55,7 @@
   ],
   "persist": "Data",
   "checkver": {
-    "url": "https:www.sublimetext.comupdates4stable_update_check",
+    "url": "https://www.sublimetext.com/updates/4/stable_update_check",
     "jsonpath": "$.latest_version",
     "regex": "((\\d)\\d+)",
     "replace": "$2-$1"
@@ -63,10 +63,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:download.sublimetext.comsublime_text_build_$preReleaseVersion_x64.zip"
+        "url": "https://download.sublimetext.com/sublime_text_build_$preReleaseVersion_x64.zip"
       },
       "32bit": {
-        "url": "https:download.sublimetext.comsublime_text_build_$preReleaseVersion.zip"
+        "url": "https://download.sublimetext.com/sublime_text_build_$preReleaseVersion.zip"
       }
     }
   }

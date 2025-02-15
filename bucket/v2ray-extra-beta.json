@@ -1,10 +1,10 @@
 {
   "version": "5.13.0",
   "description": "The extra resources of v2ray (beta)",
-  "homepage": "https:github.comv2flyv2ray-core",
+  "homepage": "https://github.com/v2fly/v2ray-core",
   "license": "MIT",
-  "depends": "maplev2ray-beta",
-  "url": "https:github.comv2flyv2ray-corereleasesdownloadv5.13.0v2ray-extra.zip",
+  "depends": "maple/v2ray-beta",
+  "url": "https://ghfast.top/https://github.com/v2fly/v2ray-core/releases/download/v5.13.0/v2ray-extra.zip",
   "hash": "dfd68f58266ade44c878631df594b6be2b58d212f6e4fa1ac62d9516988ab3fd",
   "installer": {
     "script": [
@@ -26,10 +26,10 @@
     ]
   },
   "checkver": {
-    "url": "https:github.comv2flyv2ray-corereleases",
-    "regex": "releasestag(?:v|V)?([\\w.]+)"
+    "url": "https://github.com/v2fly/v2ray-core/releases",
+    "regex": "/releases/tag/(?:v|V)?([\\w.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comv2flyv2ray-corereleasesdownloadv$versionv2ray-extra.zip"
+    "url": "https://ghfast.top/https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-extra.zip"
   }
 }

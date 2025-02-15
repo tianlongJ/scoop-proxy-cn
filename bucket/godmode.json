@@ -1,14 +1,14 @@
 {
   "version": "1.0.0-beta.10",
-  "description": "AI Chat Browser: Fast, Full webapp access to ChatGPT  Claude  Bard  Bing  Llama2! I use this 20 times a day.",
-  "homepage": "https:smol.ai",
+  "description": "AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day.",
+  "homepage": "https://smol.ai/",
   "license": {
     "identifier": "MIT license",
-    "url": "https:github.comsmol-aiGodModeblobmainLICENSE"
+    "url": "https://github.com/smol-ai/GodMode/blob/main/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comsmol-aiGodModereleasesdownloadv1.0.0-beta.10GodMode.Setup.1.0.0-beta.10.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/smol-ai/GodMode/releases/download/v1.0.0-beta.10/GodMode.Setup.1.0.0-beta.10.exe#/dl.7z",
       "hash": "78936db952a617a583f4709281229bf4de29212a16bf4d105ea3046a443154fb",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -16,7 +16,7 @@
       ]
     },
     "arm64": {
-      "url": "https:github.comsmol-aiGodModereleasesdownloadv1.0.0-beta.10GodMode.Setup.1.0.0-beta.10.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/smol-ai/GodMode/releases/download/v1.0.0-beta.10/GodMode.Setup.1.0.0-beta.10.exe#/dl.7z",
       "hash": "78936db952a617a583f4709281229bf4de29212a16bf4d105ea3046a443154fb",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
@@ -40,16 +40,16 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comrepossmol-aiGodModereleases",
-    "regex": "(?sm)browser_download_url.*?releasesdownloadv([\\d.]+(-beta[\\d.]+)?)GodMode.Setup.([\\d.]+(-beta[\\d.]+)?).exe"
+    "url": "https://api.github.com/repos/smol-ai/GodMode/releases",
+    "regex": "(?sm)browser_download_url.*?/releases/download/v([\\d.]+(-beta[\\d.]+)?)/GodMode.Setup.([\\d.]+(-beta[\\d.]+)?).exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comsmol-aiGodModereleasesdownloadv$versionGodMode.Setup.$version.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/smol-ai/GodMode/releases/download/v$version/GodMode.Setup.$version.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https:github.comsmol-aiGodModereleasesdownloadv$versionGodMode.Setup.$version.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/smol-ai/GodMode/releases/download/v$version/GodMode.Setup.$version.exe#/dl.7z"
       }
     }
   }

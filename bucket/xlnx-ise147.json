@@ -1,7 +1,7 @@
 {
   "version": "20210610",
   "description": "ISE® design suite supports the Spartan®-6, Virtex®-6, and CoolRunner™ devices",
-  "homepage": "https:www.xilinx.comproductsdesign-toolsise-design-suite.html",
+  "homepage": "https://www.xilinx.com/products/design-tools/ise-design-suite.html",
   "license": "Trialware",
   "depends": [
     "silentcmd"
@@ -10,24 +10,24 @@
     "ISE Design Suite: Embedded Edition",
     "ISE Design Suite: System Edition",
     "ISE Design Suite: WebPACK Edition",
-    "Known Issues: https:www.xilinx.comsupportanswers68433.html",
+    "Known Issues: https://www.xilinx.com/support/answers/68433.html",
     "Not work in Win10",
-    "  https:www.xilinx.commemberformsdownloadxef.html?filename=Xilinx_ISE_14.7_Win10_14.7_VM_0213_1.zip",
+    "  https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_ISE_14.7_Win10_14.7_VM_0213_1.zip",
     ""
   ],
   "url": [
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p01.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p02.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p01.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p02.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p03.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p04.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p05.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p06.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p07.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p08.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p03-p09.7z",
-    "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-p04.7z"
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p01.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p02.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p01.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p02.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p03.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p04.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p05.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p06.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p07.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p08.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p03-p09.7z",
+    "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-p04.7z"
   ],
   "hash": [
     "8ec093588a3c38b6dec8753a5dda80ac6837207477b29688ff9584c404982019",
@@ -61,14 +61,14 @@
     "ISEROOT",
     "ISEROOT",
     "ISEROOT",
-    "ISEROOTISE",
-    "ISEROOTISE",
-    "ISEROOTISE",
-    "ISEROOTISE",
-    "ISEROOTISE",
-    "ISEROOTISE",
-    "ISEROOTISE",
-    "ISEROOTISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
+    "ISEROOT/ISE",
     "ISEROOT"
   ],
   "pre_install": [
@@ -77,7 +77,7 @@
     "",
     "'data', 'home', 'scripts' | ForEach-Object { ensure \"$dir\\$_\" | Out-Null }",
     "",
-    "$current_dir = if (get_config NO_JUNCTIONS) { $dir } else { \"$(appdir $app $global)\\current\".Replace('', '\\') }",
+    "$current_dir = if (get_config NO_JUNCTIONS) { $dir } else { \"$(appdir $app $global)\\current\".Replace('/', '\\') }",
     "",
     "$TOOL_INST_PATH = \"$current_dir\"",
     "$escdir = $TOOL_INST_PATH -replace \"\\\\\",\"\\\\\"",
@@ -90,7 +90,7 @@
     "",
     "$bucketdir = Find-BucketDirectory -Name $bucket",
     "",
-    "$current_dir = if (get_config NO_JUNCTIONS) { $dir } else { \"$(appdir $app $global)\\current\".Replace('', '\\') }",
+    "$current_dir = if (get_config NO_JUNCTIONS) { $dir } else { \"$(appdir $app $global)\\current\".Replace('/', '\\') }",
     "",
     "$XLNX_ISE_INSTALL_ROOT = \"$current_dir\"",
     "$escdir = $XLNX_ISE_INSTALL_ROOT -replace \"\\\\\",\"\\\\\"",
@@ -109,11 +109,11 @@
     "cp \"$dir\\data\\nt\\libPortability.dll\"   \"$XLNX_ISE_INSTALL_ROOT\\ISEROOT\\.xinstall\\bin\\nt\\libPortability.dll\"",
     "",
     "$icon = \"$env:systemroot\\system32\\cmd.exe\"",
-    "$arguments = \"k %XLNX_ISE_INSTALL_ROOT%\\ISEROOT\\settings32.bat\"",
+    "$arguments = \"/k %XLNX_ISE_INSTALL_ROOT%\\ISEROOT\\settings32.bat\"",
     "startmenu_shortcut \"$icon\" 'EDA\\ISE147\\ISE Design Suite 32 Bit Command Prompt CVP' $arguments \"$icon\" $global",
     "",
     "$icon = \"$env:systemroot\\system32\\cmd.exe\"",
-    "$arguments = \"k %XLNX_ISE_INSTALL_ROOT%\\ISEROOT\\settings64.bat\"",
+    "$arguments = \"/k %XLNX_ISE_INSTALL_ROOT%\\ISEROOT\\settings64.bat\"",
     "startmenu_shortcut \"$icon\" 'EDA\\ISE147\\ISE Design Suite 64 Bit Command Prompt CVP' $arguments \"$icon\" $global",
     "",
     ""
@@ -182,17 +182,17 @@
   ],
   "env_set": {
     "XLNX_ISE_INSTALL_ROOT": "$dir",
-    "XILINXD_LICENSE_FILE": "$dirdatalicense.lic"
+    "XILINXD_LICENSE_FILE": "$dir/data/license.lic"
   },
   "persist": [
     "AppData",
     "home"
   ],
   "checkver": {
-    "url": "https:github.comSayCVgh-cdn-edareleases",
+    "url": "https://github.com/SayCV/gh-cdn-eda/releases",
     "regex": "xlnx-ise147-([\\d.]+).7z<"
   },
   "autoupdate": {
-    "url": "https:github.comSayCVgh-cdn-edareleasesdownloadv1.0.1xlnx-ise147-$version.7z"
+    "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-eda/releases/download/v1.0.1/xlnx-ise147-$version.7z"
   }
 }

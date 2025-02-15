@@ -1,10 +1,10 @@
 {
   "version": "2024.4.2",
   "description": "NVDA (NonVisual Desktop Access) is a free 'screen reader' which enables blind and vision impaired people to use computers. It reads the text on the screen in a computerized voice.",
-  "homepage": "https:www.nvaccess.org",
+  "homepage": "https://www.nvaccess.org/",
   "license": {
     "identifier": "Freeware",
-    "url": "https:github.comnvaccessnvdablobmastercopying.txt"
+    "url": "https://github.com/nvaccess/nvda/blob/master/copying.txt"
   },
   "notes": [
     "Add NVDA to startup by running:",
@@ -34,7 +34,7 @@
     "Write-Host $mes -ForegroundColor Yellow",
     "if ($cmd -eq 'uninstall') { reg import \"$dir\\remove-startup.reg\" }"
   ],
-  "url": "https:www.nvaccess.orgfilesnvdareleases2024.4.2nvda_2024.4.2.exe#dl.7z",
+  "url": "https://www.nvaccess.org/files/nvda/releases/2024.4.2/nvda_2024.4.2.exe#/dl.7z",
   "hash": "b66bbc3d87f11140fe9493ca22955c401c0b09abd0bf3c9d49260807986d4f05",
   "bin": [
     "nvda.exe",
@@ -51,10 +51,10 @@
     ]
   ],
   "checkver": {
-    "url": "https:www.nvaccess.orgcategorynewsreleases",
-    "regex": "NVDA ([\\d.]+) Released<a>"
+    "url": "https://www.nvaccess.org/category/news/releases/",
+    "regex": "NVDA ([\\d.]+) Released</a>"
   },
   "autoupdate": {
-    "url": "https:www.nvaccess.orgfilesnvdareleases$versionnvda_$version.exe#dl.7z"
+    "url": "https://www.nvaccess.org/files/nvda/releases/$version/nvda_$version.exe#/dl.7z"
   }
 }

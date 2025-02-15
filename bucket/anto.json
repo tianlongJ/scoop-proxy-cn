@@ -1,12 +1,12 @@
 {
   "version": "3.7.0",
   "description": "字幕文件(srt)翻译工具，Windows专用",
-  "homepage": "https:github.comspeautyanto",
+  "homepage": "https://github.com/speauty/anto",
   "license": {
     "identifier": "MIT license",
-    "url": "https:github.comspeautyanto#MIT-1-ov-file"
+    "url": "https://github.com/speauty/anto#MIT-1-ov-file"
   },
-  "url": "https:github.comspeautyantoreleasesdownloadv3.7.0anto-v3.7.0-windows.exe#anto.exe",
+  "url": "https://ghfast.top/https://github.com/speauty/anto/releases/download/v3.7.0/anto-v3.7.0-windows.exe#/anto.exe",
   "hash": "d7eeaa770ee3f2998df226aaec60bd29686117ede50063831f54a660a073d963",
   "bin": "anto.exe",
   "shortcuts": [
@@ -16,11 +16,11 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposspeautyantoreleases",
+    "url": "https://api.github.com/repos/speauty/anto/releases",
     "jsonpath": "$[0].assets[*].browser_download_url",
-    "regex": "releasesdownloadv([\\d.]+)anto-v([\\d.]+)-windows\\.exe"
+    "regex": "/releases/download/v([\\d.]+)/anto-v([\\d.]+)-windows\\.exe"
   },
   "autoupdate": {
-    "url": "https:github.comspeautyantoreleasesdownloadv$versionanto-v$version-windows.exe#anto.exe"
+    "url": "https://ghfast.top/https://github.com/speauty/anto/releases/download/v$version/anto-v$version-windows.exe#/anto.exe"
   }
 }

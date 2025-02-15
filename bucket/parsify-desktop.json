@@ -1,14 +1,14 @@
 {
   "version": "2.0.0",
   "description": "Next generation notepad-based calculator, built with extendibility and privacy in mind.",
-  "homepage": "https:parsify.app",
+  "homepage": "https://parsify.app/",
   "license": {
     "identifier": "Shareware",
-    "url": "https:parsify.appterms"
+    "url": "https://parsify.app/terms"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comparsify-devdesktopreleasesdownloadv2.0.0-rc.3Parsify-Desktop-2.0.0-rc.3-win-x64.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/parsify-dev/desktop/releases/download/v2.0.0-rc.3/Parsify-Desktop-2.0.0-rc.3-win-x64.exe#/dl.7z",
       "hash": "30df95d0fcb11ae72f3257adfd289fa7c7ddf0677d598e28dbcb812bf994d2e3",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -23,13 +23,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comparsify-devdesktopreleaseslatest",
+    "url": "https://github.com/parsify-dev/desktop/releases/latest",
     "regex": "Parsify.Desktop-([\\d\\.]+)(?<postfix>-.*?)-win-x64.exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comparsify-devdesktopreleasesdownloadv$version$matchPostfixParsify-Desktop-$version$matchPostfix-win-x64.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/parsify-dev/desktop/releases/download/v$version$matchPostfix/Parsify-Desktop-$version$matchPostfix-win-x64.exe#/dl.7z"
       }
     }
   }

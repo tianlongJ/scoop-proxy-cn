@@ -1,7 +1,7 @@
 {
   "version": "1.1.1",
   "description": "Multi-platform process allowing to sleep on LAN a linux or windows computer, through wake-on-lan (reversed) magic packets or through HTTP REST requests.",
-  "homepage": "https:github.comSR-Gsleep-on-lan",
+  "homepage": "https://github.com/SR-G/sleep-on-lan",
   "license": "Apache-2.0",
   "notes": [
     "This manifest uses a script, which needs admin privilege, to install sleep-on-lan as system service.",
@@ -9,13 +9,13 @@
     "sudo \"$dir\\install-service.ps1\"",
     "",
     "You can edit \"$dir\\sol.json\" for more configurations, and then force update this app to apply it.",
-    "Please read the documentations first: https:github.comSR-Gsleep-on-lan#configuration"
+    "Please read the documentations first: https://github.com/SR-G/sleep-on-lan#configuration"
   ],
   "depends": [
-    "maingsudo",
-    "mainnssm"
+    "main/gsudo",
+    "main/nssm"
   ],
-  "url": "https:github.comSR-Gsleep-on-lanreleasesdownload1.1.1-RELEASESleepOnLAN-1.1.1-RELEASE.zip",
+  "url": "https://ghfast.top/https://github.com/SR-G/sleep-on-lan/releases/download/1.1.1-RELEASE/SleepOnLAN-1.1.1-RELEASE.zip",
   "hash": "6a3c5ec48a85663233ea641c4b1a90283b2fe9b46487c31c3b9338de75e2b6da",
   "architecture": {
     "64bit": {
@@ -69,6 +69,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comSR-Gsleep-on-lanreleasesdownload$version-RELEASESleepOnLAN-$version-RELEASE.zip"
+    "url": "https://ghfast.top/https://github.com/SR-G/sleep-on-lan/releases/download/$version-RELEASE/SleepOnLAN-$version-RELEASE.zip"
   }
 }

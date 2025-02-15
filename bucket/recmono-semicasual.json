@@ -2,12 +2,12 @@
   "version": "1.085",
   "description": "Recursive Mono & Sans is a variable font family for code & UI",
   "license": "OFL-1.1",
-  "homepage": "https:github.comarrowtyperecursive",
+  "homepage": "https://github.com/arrowtype/recursive",
   "url": [
-    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoSemicasualRecMonoSemicasual-Bold-1.085.ttf",
-    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoSemicasualRecMonoSemicasual-BoldItalic-1.085.ttf",
-    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoSemicasualRecMonoSemicasual-Italic-1.085.ttf",
-    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoSemicasualRecMonoSemicasual-Regular-1.085.ttf"
+    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Bold-1.085.ttf",
+    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-BoldItalic-1.085.ttf",
+    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Italic-1.085.ttf",
+    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Regular-1.085.ttf"
   ],
   "hash": [
     "ba673819e4b5e8a460b8a4ef586b5ee6d801e97356799c61be0a1b41eedf5f84",
@@ -18,10 +18,10 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoSemicasualRecMonoSemicasual-Bold-$version.ttf",
-      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoSemicasualRecMonoSemicasual-BoldItalic-$version.ttf",
-      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoSemicasualRecMonoSemicasual-Italic-$version.ttf",
-      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoSemicasualRecMonoSemicasual-Regular-$version.ttf"
+      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Bold-$version.ttf",
+      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-BoldItalic-$version.ttf",
+      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Italic-$version.ttf",
+      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Regular-$version.ttf"
     ]
   },
   "installer": {
@@ -45,7 +45,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

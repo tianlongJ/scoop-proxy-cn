@@ -1,7 +1,7 @@
 {
   "version": "3.64.0",
   "description": "Lossless trimming tool for video and audio files",
-  "homepage": "https:github.commifilossless-cut",
+  "homepage": "https://github.com/mifi/lossless-cut",
   "license": "GPL-2.0-or-later",
   "notes": [
     "For .mp4 and .mkv file associations, run:",
@@ -9,7 +9,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.commifilossless-cutreleasesdownloadv3.64.0LosslessCut-win-x64.7z",
+      "url": "https://ghfast.top/https://github.com/mifi/lossless-cut/releases/download/v3.64.0/LosslessCut-win-x64.7z",
       "hash": "158ae74e26790134fe634f3371e2081db54cfffe41836a33204c82e54c66227a"
     }
   },
@@ -43,7 +43,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commifilossless-cutreleasesdownloadv$versionLosslessCut-win-x64.7z"
+        "url": "https://ghfast.top/https://github.com/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
       }
     }
   }

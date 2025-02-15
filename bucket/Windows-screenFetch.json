@@ -1,13 +1,13 @@
 {
   "version": "1.5.8",
-  "description": "A Powershell port of bashunix screenfetch.",
-  "homepage": "https:github.comAkariiinMKIIWindows-screenFetch",
+  "description": "A Powershell port of bash/unix screenfetch.",
+  "homepage": "https://github.com/AkariiinMKII/Windows-screenFetch",
   "license": "GPL-3.0-only",
   "notes": [
     "Run following command to import Windows-screenFetch automatically in Powershell:",
     "$dir\\add-profile-content.ps1"
   ],
-  "url": "https:github.comAkariiinMKIIWindows-screenFetcharchivev1.5.8.zip",
+  "url": "https://ghfast.top/https://github.com/AkariiinMKII/Windows-screenFetch/archive/v1.5.8.zip",
   "hash": "17ffe6c64cd0c7713ba55d80dac471bd3d28d8275541f602011ae961d4eb86ee",
   "extract_dir": "Windows-screenFetch-1.5.8",
   "psmodule": {
@@ -44,11 +44,11 @@
     "}"
   ],
   "checkver": {
-    "url": "https:api.github.comreposAkariiinMKIIWindows-screenFetchtags",
-    "regex": "tagsv([\\d.]+)\""
+    "url": "https://api.github.com/repos/AkariiinMKII/Windows-screenFetch/tags",
+    "regex": "tags/v([\\d.]+)\""
   },
   "autoupdate": {
-    "url": "https:github.comAkariiinMKIIWindows-screenFetcharchivev$version.zip",
+    "url": "https://ghfast.top/https://github.com/AkariiinMKII/Windows-screenFetch/archive/v$version.zip",
     "extract_dir": "Windows-screenFetch-$version"
   }
 }

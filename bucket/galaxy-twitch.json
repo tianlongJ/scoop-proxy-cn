@@ -1,13 +1,13 @@
 {
-  "homepage": "https:github.comnyash-qqgalaxy-plugin-twitch",
+  "homepage": "https://github.com/nyash-qq/galaxy-plugin-twitch",
   "version": "0.5",
   "depends": "sudo",
-  "url": "https:github.comnyash-qqgalaxy-plugin-twitchreleasesdownload0.5twitch_8b831aed-dd5f-c0c5-c843-41f9751f67a2_v0.5_win32.zip",
+  "url": "https://ghfast.top/https://github.com/nyash-qq/galaxy-plugin-twitch/releases/download/0.5/twitch_8b831aed-dd5f-c0c5-c843-41f9751f67a2_v0.5_win32.zip",
   "hash": "1cca3b7517e05b87eb3eb99545df2e3c61354152bff16bf7f71ba0f516000b61",
   "extract_to": "integration",
   "notes": [
-    "NOTESINSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
-    "    In order to use this plugin you have to be authenticated in Twitch App (https:www.twitch.tvdownloads)"
+    "NOTES/INSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
+    "    In order to use this plugin you have to be authenticated in Twitch App (https://www.twitch.tv/downloads)"
   ],
   "uninstaller": {
     "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\twitch\").Delete()"
@@ -41,7 +41,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -49,7 +49,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -71,9 +71,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comnyash-qqgalaxy-plugin-twitch"
+    "github": "https://github.com/nyash-qq/galaxy-plugin-twitch"
   },
   "autoupdate": {
-    "url": "https:github.comnyash-qqgalaxy-plugin-twitchreleasesdownload$versiontwitch_8b831aed-dd5f-c0c5-c843-41f9751f67a2_v$version_win32.zip"
+    "url": "https://ghfast.top/https://github.com/nyash-qq/galaxy-plugin-twitch/releases/download/$version/twitch_8b831aed-dd5f-c0c5-c843-41f9751f67a2_v$version_win32.zip"
   }
 }

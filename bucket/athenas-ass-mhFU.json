@@ -1,8 +1,8 @@
 {
-  "homepage": "https:www.facebook.comAthenasArmorSetSearch",
+  "homepage": "https://www.facebook.com/AthenasArmorSetSearch/",
   "version": "3.42b",
   "description": "Monster Hunter FU character build tool",
-  "url": "https:github.comDeideathenas-assreleasesdownload4athenas-ass-mhFU-v3.42b.zip",
+  "url": "https://ghfast.top/https://github.com/Deide/athenas-ass/releases/download/4/athenas-ass-mhFU-v3.42b.zip",
   "bin": "athenas-ass-mhFU-v3.42b.exe",
   "persist": [
     "Data",

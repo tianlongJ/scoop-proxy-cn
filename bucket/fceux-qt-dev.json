@@ -1,14 +1,14 @@
 {
   "version": "1945-2b8f6e76",
   "description": "Nintendo NES and Famicom emulator",
-  "homepage": "http:www.fceux.com",
+  "homepage": "http://www.fceux.com",
   "license": {
-    "url": "https:github.comTASEmulatorsfceuxblobmasterCOPYING",
+    "url": "https://github.com/TASEmulators/fceux/blob/master/COPYING",
     "identifier": "GPL-2.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https:ci.appveyor.comapibuildjobsiwrxy128589r6q7lartifactsfceux-win64-QtSDL.zip",
+      "url": "https://ci.appveyor.com/api/buildjobs/iwrxy128589r6q7l/artifacts/fceux-win64-QtSDL.zip",
       "hash": "ad0cf5e26eba426fc50cfe45e43449947601e55fd245441ee2fe9ab69a3ea9f9"
     }
   },
@@ -39,7 +39,7 @@
     "fceux.cfg"
   ],
   "checkver": {
-    "url": "https:ci.appveyor.comapiprojectszeromusfceux",
+    "url": "https://ci.appveyor.com/api/projects/zeromus/fceux",
     "script": [
       "$jobqt = json_path $page $.build.jobs[2].jobId",
       "$build = json_path $page $.build.buildNumber",
@@ -52,7 +52,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:ci.appveyor.comapibuildjobs$matchJobqtartifactsfceux-win64-QtSDL.zip"
+        "url": "https://ci.appveyor.com/api/buildjobs/$matchJobqt/artifacts/fceux-win64-QtSDL.zip"
       }
     }
   }

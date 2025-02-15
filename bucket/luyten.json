@@ -1,20 +1,20 @@
 {
-  "homepage": "https:github.comdeathmarineLuyten",
+  "homepage": "https://github.com/deathmarine/Luyten",
   "description": "An Open Source Java Decompiler Gui for Procyon",
   "version": "0.5.4",
   "license": "Apache 2.0",
   "hash": "02691aadd38c230f17c6d680253188549d8086d2537f22808d38f3f5d3f0e466",
-  "url": "https:github.comdeathmarineLuytenreleasesdownloadv0.5.4luyten-0.5.4.exe",
+  "url": "https://ghfast.top/https://github.com/deathmarine/Luyten/releases/download/v0.5.4/luyten-0.5.4.exe",
   "suggest": {
     "JDK": [
-      "javaoraclejdk",
-      "javaopenjdk"
+      "java/oraclejdk",
+      "java/openjdk"
     ]
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comdeathmarineLuytenreleasesdownloadv$versionluyten-$version.exe"
+    "url": "https://ghfast.top/https://github.com/deathmarine/Luyten/releases/download/v$version/luyten-$version.exe"
   },
-  "pre_install": "Move-Item $dirluyten-$version.exe $dirluyten.exe",
+  "pre_install": "Move-Item $dir/luyten-$version.exe $dir/luyten.exe",
   "bin": "luyten.exe"
 }

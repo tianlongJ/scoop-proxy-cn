@@ -1,9 +1,9 @@
 {
   "version": "1.7.4",
   "description": "A modern alternative to the Microsoft Assembly Binding Log Viewer (FUSLOGVW.exe)",
-  "homepage": "https:github.com86Box86BoxManager",
+  "homepage": "https://github.com/86Box/86BoxManager",
   "license": "MIT",
-  "url": "https:github.comawaescherFusionreleasesdownloadv1.7.4Fusion++.1.7.4.zip",
+  "url": "https://ghfast.top/https://github.com/awaescher/Fusion/releases/download/v1.7.4/Fusion++.1.7.4.zip",
   "bin": [
     [
       "fusion++.exe",
@@ -19,6 +19,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comawaescherFusionreleasesdownloadv$versionFusion++.$version.zip"
+    "url": "https://ghfast.top/https://github.com/awaescher/Fusion/releases/download/v$version/Fusion++.$version.zip"
   }
 }

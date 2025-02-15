@@ -1,7 +1,7 @@
 {
   "version": "1.0.55",
   "description": "A high-performance cache-store from Microsoft Research.",
-  "homepage": "https:microsoft.github.iogarnet",
+  "homepage": "https://microsoft.github.io/garnet",
   "license": "MIT",
   "notes": [
     "Garnet requires .NET 8 SDK.",
@@ -13,15 +13,15 @@
     "GarnetServer.exe --config-import-path redis.conf --config-import-format RedisConf"
   ],
   "suggest": {
-    "dotnet8-sdk": "maindotnet-sdk"
+    "dotnet8-sdk": "main/dotnet-sdk"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.commicrosoftgarnetreleasesdownloadv1.0.55win-x64-based-readytorun.zip",
+      "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v1.0.55/win-x64-based-readytorun.zip",
       "hash": "0a74a7e6a2afb928ef25a8481f91eef74aae3a893813a8912e0fe25bf918154d"
     },
     "arm64": {
-      "url": "https:github.commicrosoftgarnetreleasesdownloadv1.0.55win-arm64-based-readytorun.zip",
+      "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v1.0.55/win-arm64-based-readytorun.zip",
       "hash": "c609081286baf321c0aad49deed386ef274e6a22652b3fcfe18a95c748b43941"
     }
   },
@@ -31,15 +31,15 @@
     "config"
   ],
   "checkver": {
-    "github": "https:github.commicrosoftgarnet"
+    "github": "https://github.com/microsoft/garnet"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commicrosoftgarnetreleasesdownloadv$versionwin-x64-based-readytorun.zip"
+        "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v$version/win-x64-based-readytorun.zip"
       },
       "arm64": {
-        "url": "https:github.commicrosoftgarnetreleasesdownloadv$versionwin-arm64-based-readytorun.zip"
+        "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v$version/win-arm64-based-readytorun.zip"
       }
     }
   }

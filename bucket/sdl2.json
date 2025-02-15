@@ -1,11 +1,11 @@
 {
   "version": "2.30.12",
   "description": "SDL (Simple DirectMedia Layer) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.",
-  "homepage": "https:www.libsdl.org",
+  "homepage": "https://www.libsdl.org",
   "license": "Zlib",
   "url": [
-    "https:github.comlibsdl-orgSDLreleasesdownloadrelease-2.30.12SDL2-devel-2.30.12-VC.zip",
-    "https:github.comlibsdl-orgSDLreleasesdownloadrelease-2.30.12SDL2-2.30.12.zip"
+    "https://ghfast.top/https://github.com/libsdl-org/SDL/releases/download/release-2.30.12/SDL2-devel-2.30.12-VC.zip",
+    "https://ghfast.top/https://github.com/libsdl-org/SDL/releases/download/release-2.30.12/SDL2-2.30.12.zip"
   ],
   "hash": [
     "1ca980f9964fb44cf94be235c9818fa1dc8e3f76b08096d751b2d689e5e37d02",
@@ -30,8 +30,8 @@
       "Set-Content $pcout ((gc $pcin) `",
       "    -replace \"@prefix@\",\"\" `",
       "    -replace \"@exec_prefix@\",\"`${prefix}\" `",
-      "    -replace \"@libdir@\",\"`${exec_prefix}lib\" `",
-      "    -replace \"@includedir@\",\"`${prefix}include\" `",
+      "    -replace \"@libdir@\",\"`${exec_prefix}/lib\" `",
+      "    -replace \"@includedir@\",\"`${prefix}/include\" `",
       "    -replace \"@SDL_VERSION@\",\"$version\" `",
       "    -replace \"@SDL_RLD_FLAGS@\",\"\" `",
       "    -replace \"@SDL_LIBS@\",\"-lSDL2\" `",
@@ -79,13 +79,13 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comlibsdl-orgSDL",
-    "regex": "tagrelease-([\\d.]+)"
+    "github": "https://github.com/libsdl-org/SDL",
+    "regex": "tag/release-([\\d.]+)"
   },
   "autoupdate": {
     "url": [
-      "https:github.comlibsdl-orgSDLreleasesdownloadrelease-$versionSDL2-devel-$version-VC.zip",
-      "https:github.comlibsdl-orgSDLreleasesdownloadrelease-$versionSDL2-$version.zip"
+      "https://ghfast.top/https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-devel-$version-VC.zip",
+      "https://ghfast.top/https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-$version.zip"
     ]
   }
 }

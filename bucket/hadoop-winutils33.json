@@ -1,27 +1,27 @@
 {
   "version": "3.3.6",
   "description": "Windows binaries for Hadoop versions.",
-  "homepage": "https:github.comcdarlintwinutils",
+  "homepage": "https://github.com/cdarlint/winutils/",
   "license": "Apache-2.0",
   "suggest": {
-    "JDK": "javaopenjdk"
+    "JDK": "java/openjdk"
   },
   "url": [
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhadoop",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhadoop.cmd",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhadoop.dll",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhadoop.exp",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhadoop.lib",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhadoop.pdb",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhdfs",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binhdfs.cmd",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binlibwinutils.lib",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binmapred",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binmapred.cmd",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binwinutils.exe",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binwinutils.pdb",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binyarn",
-    "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-3.3.6binyarn.cmd"
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hadoop",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hadoop.cmd",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hadoop.dll",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hadoop.exp",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hadoop.lib",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hadoop.pdb",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hdfs",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/hdfs.cmd",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/libwinutils.lib",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/mapred",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/mapred.cmd",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/winutils.exe",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/winutils.pdb",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/yarn",
+    "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-3.3.6/bin/yarn.cmd"
   ],
   "hash": [
     "e8a1f032a56beceb1989c8467b58109d2bff47f8c7bc5de3dde76cf2c6452abf",
@@ -42,28 +42,28 @@
   ],
   "bin": "winutils.exe",
   "checkver": {
-    "url": "https:api.github.comreposcdarlintwinutilscontents",
+    "url": "https://api.github.com/repos/cdarlint/winutils/contents/",
     "jsonpath": "$..name",
     "reverse": true,
     "regex": "hadoop-(3.3\\.\\d+)"
   },
   "autoupdate": {
     "url": [
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhadoop",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhadoop.cmd",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhadoop.dll",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhadoop.exp",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhadoop.lib",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhadoop.pdb",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhdfs",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinhdfs.cmd",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinlibwinutils.lib",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinmapred",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinmapred.cmd",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinwinutils.exe",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinwinutils.pdb",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinyarn",
-      "https:raw.githubusercontent.comcdarlintwinutilsmasterhadoop-$versionbinyarn.cmd"
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.cmd",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.dll",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.exp",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.lib",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hadoop.pdb",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hdfs",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/hdfs.cmd",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/libwinutils.lib",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/mapred",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/mapred.cmd",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/winutils.exe",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/winutils.pdb",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/yarn",
+      "https://ghfast.top/https://raw.githubusercontent.com/cdarlint/winutils/master/hadoop-$version/bin/yarn.cmd"
     ]
   }
 }

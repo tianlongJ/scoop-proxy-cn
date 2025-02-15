@@ -1,8 +1,8 @@
 {
-  "homepage": "https:github.comFriendsOfGalaxygalaxy-integration-origin",
+  "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
   "version": "0.40",
   "depends": "sudo",
-  "url": "https:github.comFriendsOfGalaxygalaxy-integration-originreleasesdownloadv0.40windows.zip",
+  "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v0.40/windows.zip",
   "hash": "992f61d81f2857ca363b63c9e77637725e0e6e7f19fdac0e78003f2c27c0f9b9",
   "extract_to": "integration",
   "uninstaller": {
@@ -37,7 +37,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -45,7 +45,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -67,10 +67,10 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comFriendsOfGalaxygalaxy-integration-origin",
+    "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-origin",
     "re": "Version v(?<version>[\\d\\w.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comFriendsOfGalaxygalaxy-integration-originreleasesdownloadv$versionwindows.zip"
+    "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-origin/releases/download/v$version/windows.zip"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "$schema": "https:raw.githubusercontent.comScoopInstallerScoopmasterschema.json",
-  "homepage": "https:cemu.info",
+  "$schema": "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+  "homepage": "https://cemu.info/",
   "version": "2.6",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https:github.comcemu-projectCemureleasesdownloadv2.6cemu-2.6-windows-x64.zip",
+      "url": "https://ghfast.top/https://github.com/cemu-project/Cemu/releases/download/v2.6/cemu-2.6-windows-x64.zip",
       "hash": "a6bcc2bc42a362d10213819948f3152fae7d47f70067f25939b51d3ddcfb0896"
     }
   },
@@ -33,17 +33,17 @@
     "sharedFonts"
   ],
   "suggest": {
-    "vcredist": "extrasvcredist2015",
+    "vcredist": "extras/vcredist2015",
     "cemuhook": "cemuhook"
   },
   "checkver": {
-    "url": "https:github.comcemu-projectCemureleases",
-    "re": "tagv([\\d\\w.-]+)"
+    "url": "https://github.com/cemu-project/Cemu/releases",
+    "re": "/tag/v([\\d\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comcemu-projectCemureleasesdownloadv$versioncemu-$version-windows-x64.zip"
+        "url": "https://ghfast.top/https://github.com/cemu-project/Cemu/releases/download/v$version/cemu-$version-windows-x64.zip"
       }
     },
     "extract_dir": "cemu_$version"

@@ -1,15 +1,15 @@
 {
   "version": "5.1",
-  "description": "Sorting VisualizerAudiolizer",
-  "homepage": "https:github.comGaming32ArrayV",
+  "description": "Sorting Visualizer/Audiolizer",
+  "homepage": "https://github.com/Gaming32/ArrayV",
   "license": {
     "identifier": "MIT",
-    "url": "https:github.comGaming32ArrayVblobmainLICENSE"
+    "url": "https://github.com/Gaming32/ArrayV/blob/main/LICENSE"
   },
   "suggest": {
     "JRE": "zulu-jre"
   },
-  "url": "https:github.comGaming32ArrayVreleasesdownloadv5.1ArrayV-5.1.jar#ArrayV.jar",
+  "url": "https://ghfast.top/https://github.com/Gaming32/ArrayV/releases/download/v5.1/ArrayV-5.1.jar#/ArrayV.jar",
   "hash": "d3ac15ee741d3e11639b312b40d432a96bff60d15b1cdb4f1afe36a887746852",
   "bin": [
     [
@@ -19,6 +19,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comGaming32ArrayVreleasesdownloadv$versionArrayV-$version.jar#ArrayV.jar"
+    "url": "https://ghfast.top/https://github.com/Gaming32/ArrayV/releases/download/v$version/ArrayV-$version.jar#/ArrayV.jar"
   }
 }

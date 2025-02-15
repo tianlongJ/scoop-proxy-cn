@@ -1,11 +1,11 @@
 {
   "version": "0.16.0",
   "description": "A utility for generating 2FA codes for Steam and managing Steam trade confirmations.",
-  "homepage": "https:github.comdyc3steamguard-cli",
+  "homepage": "https://github.com/dyc3/steamguard-cli",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https:github.comdyc3steamguard-clireleasesdownloadv0.16.0steamguard.exe",
+      "url": "https://ghfast.top/https://github.com/dyc3/steamguard-cli/releases/download/v0.16.0/steamguard.exe",
       "hash": "97cc38e495e5f97d2071871652156d1d35e1aa40d53501eb0add2985995048a4"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comdyc3steamguard-clireleasesdownloadv$versionsteamguard.exe"
+        "url": "https://ghfast.top/https://github.com/dyc3/steamguard-cli/releases/download/v$version/steamguard.exe"
       }
     }
   }

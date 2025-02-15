@@ -1,14 +1,14 @@
 {
   "version": "debug",
   "description": "wifi-direct-legacy-ap-plus: Windows 10, soft AP, WiFi direct.",
-  "homepage": "https:github.comgovertWiFiDirectLegacyAPPlus",
+  "homepage": "https://github.com/govert/WiFiDirectLegacyAPPlus",
   "license": "Freeware",
   "url": [
-    "https:github.comgrzwolfWiFiDirectLegacyAPPlusreleasesdownloaddebugWiFiDirectLegacyAPPlus.exe",
-    "https:github.comgrzwolfWiFiDirectLegacyAPPlusreleasesdownloaddebugmsvcp140d.dll",
-    "https:github.comgrzwolfWiFiDirectLegacyAPPlusreleasesdownloaddebugucrtbased.dll",
-    "https:github.comgrzwolfWiFiDirectLegacyAPPlusreleasesdownloaddebugvcruntime140d.dll",
-    "https:github.comgrzwolfWiFiDirectLegacyAPPlusreleasesdownloaddebugvcruntime140_1d.dll"
+    "https://ghfast.top/https://github.com/grzwolf/WiFiDirectLegacyAPPlus/releases/download/debug/WiFiDirectLegacyAPPlus.exe",
+    "https://ghfast.top/https://github.com/grzwolf/WiFiDirectLegacyAPPlus/releases/download/debug/msvcp140d.dll",
+    "https://ghfast.top/https://github.com/grzwolf/WiFiDirectLegacyAPPlus/releases/download/debug/ucrtbased.dll",
+    "https://ghfast.top/https://github.com/grzwolf/WiFiDirectLegacyAPPlus/releases/download/debug/vcruntime140d.dll",
+    "https://ghfast.top/https://github.com/grzwolf/WiFiDirectLegacyAPPlus/releases/download/debug/vcruntime140_1d.dll"
   ],
   "hash": [
     "69c7cdcaf2e46ad409e07904436d393146cfaccd9274bad5a33c116b2339f77e",
@@ -23,6 +23,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comgrzwolfWiFiDirectLegacyAPPlusreleasesdownload$versionWiFiDirectLegacyAPPlus.exe"
+    "url": "https://ghfast.top/https://github.com/grzwolf/WiFiDirectLegacyAPPlus/releases/download/$version/WiFiDirectLegacyAPPlus.exe"
   }
 }

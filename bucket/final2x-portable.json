@@ -1,18 +1,18 @@
 {
   "version": "2024-12-14",
   "description": "2^x Image Super-Resolution",
-  "homepage": "https:github.comTohruskyFinal2x",
+  "homepage": "https://github.com/Tohrusky/Final2x",
   "license": {
     "identifier": "BSD-3-Clause license",
-    "url": "https:github.comTohruskyFinal2xblobmainLICENSE"
+    "url": "https://github.com/Tohrusky/Final2x/blob/main/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comTohruskyFinal2xreleasesdownload2024-12-14Final2x-windows-x64-unpacked.7z",
+      "url": "https://ghfast.top/https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-x64-unpacked.7z",
       "hash": "1d718728e372002626c963b444002a9434a6e78816eb3bcb0cf8e67d6a39ad40"
     },
     "arm64": {
-      "url": "https:github.comTohruskyFinal2xreleasesdownload2024-12-14Final2x-windows-arm64-unpacked.7z",
+      "url": "https://ghfast.top/https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-arm64-unpacked.7z",
       "hash": "4c8d0dc09d57987f60cc7558ab36fc732e94ebcdd3d3895783328c826ba5e377"
     }
   },
@@ -32,17 +32,17 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposTohruskyFinal2xreleases",
+    "url": "https://api.github.com/repos/Tohrusky/Final2x/releases",
     "jp": "$[0].assets[*].browser_download_url",
-    "regex": "releasesdownload([\\d-]+)(?<arm64>Final2x-windows-arm64-unpacked\\.(?:zip|7z)).*?(?<x64>Final2x-windows-x64-unpacked\\.(?:zip|7z))"
+    "regex": "/releases/download/([\\d-]+)/(?<arm64>Final2x-windows-arm64-unpacked\\.(?:zip|7z)).*?(?<x64>Final2x-windows-x64-unpacked\\.(?:zip|7z))"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comTohruskyFinal2xreleasesdownload$version$matchX64"
+        "url": "https://ghfast.top/https://github.com/Tohrusky/Final2x/releases/download/$version/$matchX64"
       },
       "arm64": {
-        "url": "https:github.comTohruskyFinal2xreleasesdownload$version$matchArm64"
+        "url": "https://ghfast.top/https://github.com/Tohrusky/Final2x/releases/download/$version/$matchArm64"
       }
     }
   }

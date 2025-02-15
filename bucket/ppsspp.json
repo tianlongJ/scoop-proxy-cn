@@ -1,11 +1,11 @@
 {
   "version": "1.18.1",
   "description": "Sony PlayStation Portable (PSP) emulator",
-  "homepage": "https:www.ppsspp.org",
+  "homepage": "https://www.ppsspp.org",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https:ppsspp.orgfiles1_18_1ppsspp_win.zip",
+      "url": "https://ppsspp.org/files/1_18_1/ppsspp_win.zip",
       "hash": "c6e746356bfafad973953c7a473bf0561afe2e692b40b23e03d32c79cf67495f",
       "shortcuts": [
         [
@@ -15,7 +15,7 @@
       ]
     },
     "32bit": {
-      "url": "https:ppsspp.orgfiles1_18_1ppsspp_win.zip",
+      "url": "https://ppsspp.org/files/1_18_1/ppsspp_win.zip",
       "hash": "c6e746356bfafad973953c7a473bf0561afe2e692b40b23e03d32c79cf67495f",
       "shortcuts": [
         [
@@ -25,7 +25,7 @@
       ]
     },
     "arm64": {
-      "url": "https:ppsspp.orgfiles1_18_1PPSSPPWindowsARM64.zip",
+      "url": "https://ppsspp.org/files/1_18_1/PPSSPPWindowsARM64.zip",
       "hash": "e4e5cfa8478e0118ebc310aa027d3d20ee27fb66bfa019ef000c9ef7d8301ad4",
       "shortcuts": [
         [
@@ -47,19 +47,19 @@
     "memstick"
   ],
   "checkver": {
-    "github": "https:github.comhrydgardppsspp",
+    "github": "https://github.com/hrydgard/ppsspp",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:ppsspp.orgfiles$underscoreVersionppsspp_win.zip"
+        "url": "https://ppsspp.org/files/$underscoreVersion/ppsspp_win.zip"
       },
       "32bit": {
-        "url": "https:ppsspp.orgfiles$underscoreVersionppsspp_win.zip"
+        "url": "https://ppsspp.org/files/$underscoreVersion/ppsspp_win.zip"
       },
       "arm64": {
-        "url": "https:ppsspp.orgfiles$underscoreVersionPPSSPPWindowsARM64.zip"
+        "url": "https://ppsspp.org/files/$underscoreVersion/PPSSPPWindowsARM64.zip"
       }
     }
   }

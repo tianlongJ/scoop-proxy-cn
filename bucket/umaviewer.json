@@ -1,11 +1,11 @@
 {
-  "homepage": "https:github.comkatboi01UmaViewer",
+  "homepage": "https://github.com/katboi01/UmaViewer",
   "description": "Asset Viewer for Uma Musume",
   "license": "Unknown",
   "version": "0.0.20250131101342",
   "architecture": {
     "64bit": {
-      "url": "https:github.comkatboi01UmaViewerreleasesdownloadAutoBuild_7eb8de69df615178f9e500dbcae8a156d619be54UmaViewer.zip",
+      "url": "https://ghfast.top/https://github.com/katboi01/UmaViewer/releases/download/AutoBuild_7eb8de69df615178f9e500dbcae8a156d619be54/UmaViewer.zip",
       "hash": "391b4c14fdae6d7eb4afdc9f4d3564aca54cd2cb6111d9fd9a2fe173c5b19d8d"
     }
   },
@@ -15,10 +15,10 @@
       "UmaViewer"
     ]
   ],
-  "extract_dir": "buildStandaloneWindows64",
+  "extract_dir": "build/StandaloneWindows64",
   "checkver": {
     "script": [
-      "$html = Invoke-WebRequest -Uri 'https:api.github.comreposkatboi01UmaViewerreleaseslatest'",
+      "$html = Invoke-WebRequest -Uri 'https://api.github.com/repos/katboi01/UmaViewer/releases/latest'",
       "$json = $html.Content | ConvertFrom-Json",
       "$date = $json.assets[0].created_at.replace(':', '').replace('-', '').replace('T', '').replace('Z', '')",
       "$version = '0.0.' + $date",
@@ -29,6 +29,6 @@
     "regex": "(?<version>[\\d.]+)\\s(?<commit>.+)"
   },
   "autoupdate": {
-    "url": "https:github.comkatboi01UmaViewerreleasesdownloadAutoBuild_$matchCommitUmaViewer.zip"
+    "url": "https://ghfast.top/https://github.com/katboi01/UmaViewer/releases/download/AutoBuild_$matchCommit/UmaViewer.zip"
   }
 }

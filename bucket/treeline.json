@@ -1,9 +1,9 @@
 {
   "version": "3.1.6",
   "description": "An information storage program",
-  "homepage": "http:treeline.bellz.org",
+  "homepage": "http://treeline.bellz.org/",
   "license": "GPL-2.0-or-later",
-  "url": "https:github.comdoug-101TreeLinereleasesdownloadv3.1.6treeline-3.1.6-install-user.exe",
+  "url": "https://ghfast.top/https://github.com/doug-101/TreeLine/releases/download/v3.1.6/treeline-3.1.6-install-user.exe",
   "hash": "ee95c69d53f23797fffc4fdc0dc38b34d917abb12e4815c34e3379da4deedfc1",
   "innosetup": true,
   "shortcuts": [
@@ -14,9 +14,9 @@
   ],
   "persist": "config",
   "checkver": {
-    "github": "https:github.comdoug-101TreeLine"
+    "github": "https://github.com/doug-101/TreeLine"
   },
   "autoupdate": {
-    "url": "https:github.comdoug-101TreeLinereleasesdownloadv$versiontreeline-$version-install-user.exe"
+    "url": "https://ghfast.top/https://github.com/doug-101/TreeLine/releases/download/v$version/treeline-$version-install-user.exe"
   }
 }

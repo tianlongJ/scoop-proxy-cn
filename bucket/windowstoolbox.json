@@ -1,9 +1,9 @@
 {
   "version": "1.0.4",
-  "description": "A powerful but simple, easy to use toolbox for Windows 1011",
-  "homepage": "https:github.comWinTweakersWindowsToolbox",
+  "description": "A powerful but simple, easy to use toolbox for Windows 10/11",
+  "homepage": "https://github.com/WinTweakers/WindowsToolbox",
   "license": "MIT,Beerware",
-  "url": "https:github.comWinTweakersWindowsToolboxarchive1.0.4.zip",
+  "url": "https://ghfast.top/https://github.com/WinTweakers/WindowsToolbox/archive/1.0.4.zip",
   "hash": "d98e185c92f3e4997e3b9092deba87cedaf0408928161248bbc58eb3b7aeef79",
   "extract_dir": "WindowsToolbox-1.0.4",
   "bin": [
@@ -14,10 +14,10 @@
   ],
   "notes": "Does not work with PowerShell Core.",
   "checkver": {
-    "github": "https:github.comWinTweakersWindowsToolbox"
+    "github": "https://github.com/WinTweakers/WindowsToolbox"
   },
   "autoupdate": {
-    "url": "https:github.comWinTweakersWindowsToolboxarchive$version.zip",
+    "url": "https://ghfast.top/https://github.com/WinTweakers/WindowsToolbox/archive/$version.zip",
     "extract_dir": "WindowsToolbox-$version"
   }
 }

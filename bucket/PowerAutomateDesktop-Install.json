@@ -1,9 +1,9 @@
 {
   "version": "2.51.344.24350",
   "description": "Power Automate Desktop. Easily automate anything from your desktop",
-  "homepage": "https:flow.microsoft.comen-usdesktop",
+  "homepage": "https://flow.microsoft.com/en-us/desktop/",
   "license": "",
-  "url": "https:go.microsoft.comfwlink?LinkId=2102613&clcid=0x409#setup.exe",
+  "url": "https://go.microsoft.com/fwlink/?LinkId=2102613&clcid=0x409#/setup.exe",
   "hash": "f4997d2609877db45df6d1e6688701f5d9cbbb2e4bb9813c349ed772c65717b6",
   "pre_download": "Assert-Administrator",
   "pre_install": [
@@ -35,11 +35,11 @@
     ]
   },
   "checkver": {
-    "url": "https:github.commicrosoftwinget-pkgstreemastermanifestsmMicrosoftPowerAutomateDesktop",
-    "regex": "MicrosoftPowerAutomateDesktop([\\d.]+)",
+    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/m/Microsoft/PowerAutomateDesktop",
+    "regex": "Microsoft/PowerAutomateDesktop/([\\d.]+)",
     "reverse": true
   },
   "autoupdate": {
-    "url": "https:go.microsoft.comfwlink?LinkId=2102613&clcid=0x409#setup.exe"
+    "url": "https://go.microsoft.com/fwlink/?LinkId=2102613&clcid=0x409#/setup.exe"
   }
 }

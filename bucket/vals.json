@@ -1,15 +1,15 @@
 {
   "version": "0.39.1",
   "description": "Helm-like configuration values loader with support for various sources",
-  "homepage": "https:github.comvariantdevvals",
+  "homepage": "https://github.com/variantdev/vals",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comvariantdevvalsreleasesdownloadv0.39.1vals_0.39.1_windows_amd64.tar.gz",
+      "url": "https://ghfast.top/https://github.com/variantdev/vals/releases/download/v0.39.1/vals_0.39.1_windows_amd64.tar.gz",
       "hash": "1ca35a8416151ed1e2c17e41764512d36c9b9c7f0ca8b1f9c54a9d0cd33592cc"
     },
     "32bit": {
-      "url": "https:github.comvariantdevvalsreleasesdownloadv0.39.1vals_0.39.1_windows_386.tar.gz",
+      "url": "https://ghfast.top/https://github.com/variantdev/vals/releases/download/v0.39.1/vals_0.39.1_windows_386.tar.gz",
       "hash": "bc3142caaec22152274dd5faa57133e5dc089a63523949138ed8595423fa9276"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comvariantdevvalsreleasesdownloadv$versionvals_$version_windows_amd64.tar.gz"
+        "url": "https://ghfast.top/https://github.com/variantdev/vals/releases/download/v$version/vals_$version_windows_amd64.tar.gz"
       },
       "32bit": {
-        "url": "https:github.comvariantdevvalsreleasesdownloadv$versionvals_$version_windows_386.tar.gz"
+        "url": "https://ghfast.top/https://github.com/variantdev/vals/releases/download/v$version/vals_$version_windows_386.tar.gz"
       }
     }
   }

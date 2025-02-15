@@ -1,15 +1,15 @@
 {
   "version": "1.4.1.1026",
-  "description": "Locate files and folders by name instantly. (lite version, does not contain IPC and ETPFTPHTTP servers)",
-  "homepage": "https:www.voidtools.com",
+  "description": "Locate files and folders by name instantly. (lite version, does not contain IPC and ETP/FTP/HTTP servers)",
+  "homepage": "https://www.voidtools.com",
   "license": "MIT",
   "notes": "Run '$dir\\install-context.reg' to add Everything to right-click context menu.",
   "architecture": {
     "64bit": {
       "url": [
-        "https:www.voidtools.comEverything-1.4.1.1026.x64.Lite.zip",
-        "https:raw.githubusercontent.comScoopInstallerExtrasmasterscriptseverythinginstall-context.reg",
-        "https:raw.githubusercontent.comScoopInstallerExtrasmasterscriptseverythinguninstall-context.reg"
+        "https://www.voidtools.com/Everything-1.4.1.1026.x64.Lite.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/install-context.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
       ],
       "hash": [
         "4d0ee8434d110ed17cf857eca669fe7af255ddf980dab945214caff0665e706d",
@@ -19,9 +19,9 @@
     },
     "32bit": {
       "url": [
-        "https:www.voidtools.comEverything-1.4.1.1026.x86.Lite.zip",
-        "https:raw.githubusercontent.comScoopInstallerExtrasmasterscriptseverythinginstall-context.reg",
-        "https:raw.githubusercontent.comScoopInstallerExtrasmasterscriptseverythinguninstall-context.reg"
+        "https://www.voidtools.com/Everything-1.4.1.1026.x86.Lite.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/install-context.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
       ],
       "hash": [
         "50a5ff115e337328a70794987885950b2d6efc10630487cc8e2ea50362ebbdd2",
@@ -62,14 +62,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:www.voidtools.comEverything-$version.x64.Lite.zip"
+        "url": "https://www.voidtools.com/Everything-$version.x64.Lite.zip"
       },
       "32bit": {
-        "url": "https:www.voidtools.comEverything-$version.x86.Lite.zip"
+        "url": "https://www.voidtools.com/Everything-$version.x86.Lite.zip"
       }
     },
     "hash": {
-      "url": "$baseurlEverything-$version.sha256"
+      "url": "$baseurl/Everything-$version.sha256"
     }
   }
 }

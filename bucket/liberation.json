@@ -2,16 +2,16 @@
   "version": "2.1.5",
   "description": "The Liberation(tm) Fonts is a font family which aims at metric compatibility with Arial, Times New Roman, and Courier New.",
   "license": "OFL-1.1",
-  "homepage": "https:github.comliberationfontsliberation-fonts",
-  "url": "https:github.comliberationfontsliberation-fontsfiles7261482liberation-fonts-ttf-2.1.5.tar.gz",
+  "homepage": "https://github.com/liberationfonts/liberation-fonts",
+  "url": "https://github.com/liberationfonts/liberation-fonts/files/7261482/liberation-fonts-ttf-2.1.5.tar.gz",
   "hash": "7191c669bf38899f73a2094ed00f7b800553364f90e2637010a69c0e268f25d0",
   "extract_dir": "liberation-fonts-ttf-2.1.5",
   "checkver": {
-    "github": "https:github.comliberationfontsliberation-fonts",
-    "re": ".*liberation-fontsfiles(?<fileno>[\\d]+)liberation-fonts-ttf-(?<version>[\\d.]+).tar.gz"
+    "github": "https://github.com/liberationfonts/liberation-fonts",
+    "re": ".*/liberation-fonts/files/(?<fileno>[\\d]+)/liberation-fonts-ttf-(?<version>[\\d.]+).tar.gz"
   },
   "autoupdate": {
-    "url": "https:github.comliberationfontsliberation-fontsfiles$matchFilenoliberation-fonts-ttf-$version.tar.gz",
+    "url": "https://github.com/liberationfonts/liberation-fonts/files/$matchFileno/liberation-fonts-ttf-$version.tar.gz",
     "extract_dir": "liberation-fonts-ttf-$version"
   },
   "installer": {
@@ -35,7 +35,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

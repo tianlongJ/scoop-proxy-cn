@@ -1,32 +1,32 @@
 {
   "version": "2025.5.1",
   "description": "A new language and compiler for shader development.",
-  "homepage": "https:shader-slang.com",
+  "homepage": "https://shader-slang.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comshader-slangslangreleasesdownloadv2025.5.1slang-2025.5.1-windows-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/shader-slang/slang/releases/download/v2025.5.1/slang-2025.5.1-windows-x86_64.zip",
       "hash": "df8968ea56d7d70c3bb449f75585ea1f8ede05265a0723762b0b8566c32cd4ee"
     },
     "arm64": {
-      "url": "https:github.comshader-slangslangreleasesdownloadv2025.5.1slang-2025.5.1-windows-aarch64.zip",
+      "url": "https://ghfast.top/https://github.com/shader-slang/slang/releases/download/v2025.5.1/slang-2025.5.1-windows-aarch64.zip",
       "hash": "c7e3b05ca35d0bda28d3192130ec452039f0faf8e5747878745a762056228a2b"
     }
   },
   "bin": [
-    "binslangc.exe",
-    "binslangd.exe"
+    "bin/slangc.exe",
+    "bin/slangd.exe"
   ],
   "checkver": {
-    "github": "https:github.comshader-slangslang"
+    "github": "https://github.com/shader-slang/slang"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comshader-slangslangreleasesdownloadv$versionslang-$version-windows-x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-x86_64.zip"
       },
       "arm64": {
-        "url": "https:github.comshader-slangslangreleasesdownloadv$versionslang-$version-windows-aarch64.zip"
+        "url": "https://ghfast.top/https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-aarch64.zip"
       }
     }
   }

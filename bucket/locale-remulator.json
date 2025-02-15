@@ -1,12 +1,12 @@
 {
   "version": "1.5.4_Latale",
   "description": "System Region and Language Simulator.",
-  "homepage": "https:github.comInWILLLocale_Remulator",
+  "homepage": "https://github.com/InWILL/Locale_Remulator",
   "license": "LGPL-3.0-only",
   "notes": "Please run `LRInstaller.exe` to complete installation.",
   "architecture": {
     "64bit": {
-      "url": "https:github.comInWILLLocale_Remulatorreleasesdownloadv1.5.4_LataleLocale_Remulator.1.5.4_Latale.zip",
+      "url": "https://ghfast.top/https://github.com/InWILL/Locale_Remulator/releases/download/v1.5.4_Latale/Locale_Remulator.1.5.4_Latale.zip",
       "hash": "e6d3bff4f1736da4eae6c1961aa71fbc874e4e31fc845258ef23e21b99ae34a6",
       "extract_dir": "Locale_Remulator.1.5.4_Latale"
     }
@@ -29,14 +29,14 @@
   ],
   "persist": "LRConfig.xml",
   "checkver": {
-    "url": "https:api.github.comreposInWILLLocale_Remulatorreleases",
+    "url": "https://api.github.com/repos/InWILL/Locale_Remulator/releases",
     "jsonpath": "$..tag_name",
     "regex": "v([-\\d.\\w]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comInWILLLocale_Remulatorreleasesdownloadv$versionLocale_Remulator.$version.zip",
+        "url": "https://ghfast.top/https://github.com/InWILL/Locale_Remulator/releases/download/v$version/Locale_Remulator.$version.zip",
         "extract_dir": "Locale_Remulator.$version"
       }
     }

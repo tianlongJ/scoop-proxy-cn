@@ -2,12 +2,12 @@
   "version": "2.000",
   "description": "Free variable writing fonts from iA",
   "license": "OFL-1.1",
-  "homepage": "https:github.comiaoloiA-Fonts",
+  "homepage": "https://github.com/iaolo/iA-Fonts",
   "url": [
-    "https:github.comiaoloiA-FontsrawmasteriA%20Writer%20DuoStaticiAWriterDuoS-Bold.ttf",
-    "https:github.comiaoloiA-FontsrawmasteriA%20Writer%20DuoStaticiAWriterDuoS-BoldItalic.ttf",
-    "https:github.comiaoloiA-FontsrawmasteriA%20Writer%20DuoStaticiAWriterDuoS-Italic.ttf",
-    "https:github.comiaoloiA-FontsrawmasteriA%20Writer%20DuoStaticiAWriterDuoS-Regular.ttf"
+    "https://github.com/iaolo/iA-Fonts/raw/master/iA%20Writer%20Duo/Static/iAWriterDuoS-Bold.ttf",
+    "https://github.com/iaolo/iA-Fonts/raw/master/iA%20Writer%20Duo/Static/iAWriterDuoS-BoldItalic.ttf",
+    "https://github.com/iaolo/iA-Fonts/raw/master/iA%20Writer%20Duo/Static/iAWriterDuoS-Italic.ttf",
+    "https://github.com/iaolo/iA-Fonts/raw/master/iA%20Writer%20Duo/Static/iAWriterDuoS-Regular.ttf"
   ],
   "hash": [
     "779963585007973753ba1c4aa85d67b21c29854c1f9730411d80dc0c879b0908",
@@ -36,7 +36,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

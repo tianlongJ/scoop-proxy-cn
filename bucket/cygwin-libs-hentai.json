@@ -1,10 +1,10 @@
 {
   "version": "2.927",
   "description": "A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows",
-  "homepage": "https:cygwin.com",
+  "homepage": "https://cygwin.com/",
   "license": {
     "identifier": "GPL-3.0-or-later,X11,Public Domain",
-    "url": "https:cygwin.comfaq.html#faq.what.free"
+    "url": "https://cygwin.com/faq.html#faq.what.free"
   },
   "notes": [
     "To start a Cygwin shell, type \"cygwin\".",
@@ -14,15 +14,15 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https:cygwin.comsetup-x86_64.exe#cygwin-setup.exe",
-        "https:raw.githubusercontent.comMoskliagcc-hentaimaingcc.po"
+        "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/Mosklia/gcc-hentai/main/gcc.po"
       ],
       "hash": "a17217e66dd7c40fa4851a433335c1f3f003cd627116c708b2f6e66eba886ea9"
     },
     "32bit": {
       "url": [
-        "https:cygwin.comsetup-x86.exe#cygwin-setup.exe",
-        "https:raw.githubusercontent.comMoskliagcc-hentaimaingcc.po"
+        "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe",
+        "https://ghfast.top/https://raw.githubusercontent.com/Mosklia/gcc-hentai/main/gcc.po"
       ],
       "hash": "b6ee008d97379c9d22f0b412d1a99972e9eae32c8c10cf7ae3520aa27f9ac47b"
     }
@@ -38,7 +38,7 @@
       "--root",
       "$dir\\root",
       "--site",
-      "https:mirrors.tuna.tsinghua.edu.cncygwin",
+      "https://mirrors.tuna.tsinghua.edu.cn/cygwin/",
       "-P",
       "gcc-core,gcc-g++,gettext"
     ],
@@ -61,7 +61,7 @@
     [
       "cygwin-setup.exe",
       "Cygwin\\Cygwin Setup",
-      "--no-admin --no-shortcuts --root \"$persist_dir\\root\" --local-package-dir \"$persist_dir\\packages\" --site \"https:mirrors.tuna.tsinghua.edu.cncygwin\""
+      "--no-admin --no-shortcuts --root \"$persist_dir\\root\" --local-package-dir \"$persist_dir\\packages\" --site \"https://mirrors.tuna.tsinghua.edu.cn/cygwin/\""
     ],
     [
       "root\\bin\\mintty.exe",
@@ -82,16 +82,16 @@
   ],
   "pre_uninstall": "unlink_persist_data @{persist = @('packages', 'root')} $dir",
   "checkver": {
-    "url": "https:cygwin.comgit?p=cygwin-appssetup.git;a=tags",
+    "url": "https://cygwin.com/git/?p=cygwin-apps/setup.git;a=tags",
     "regex": ">release_([\\d.]+)<"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:cygwin.comsetup-x86_64.exe#cygwin-setup.exe"
+        "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe"
       },
       "32bit": {
-        "url": "https:cygwin.comsetup-x86.exe#cygwin-setup.exe"
+        "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe"
       }
     },
     "hash": {

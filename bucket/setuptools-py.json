@@ -1,10 +1,10 @@
 {
   "version": "75.8.0",
-  "homepage": "https:github.compypasetuptools",
+  "homepage": "https://github.com/pypa/setuptools",
   "description": "Library designed to facilitate packaging Python projects.",
   "license": "MIT",
   "depends": "python-bucket-utils",
-  "url": "https:github.compypasetuptoolsarchivev75.8.0.zip",
+  "url": "https://ghfast.top/https://github.com/pypa/setuptools/archive/v75.8.0.zip",
   "hash": "152f92f5462cb53c87e63de113f1dfc88e138764dda10b81b3fe1c759ebb13af",
   "extract_dir": "setuptools-75.8.0",
   "installer": {
@@ -21,11 +21,11 @@
     ]
   },
   "checkver": {
-    "url": "https:api.github.comrepospypasetuptoolstags",
+    "url": "https://api.github.com/repos/pypa/setuptools/tags",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.compypasetuptoolsarchivev$version.zip",
+    "url": "https://ghfast.top/https://github.com/pypa/setuptools/archive/v$version.zip",
     "extract_dir": "setuptools-$version"
   }
 }

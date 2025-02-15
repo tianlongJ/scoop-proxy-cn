@@ -1,12 +1,12 @@
 {
   "version": "3.6.3",
   "description": "Markdown editing and weblog publishing tool",
-  "homepage": "https:markdownmonster.west-wind.com",
+  "homepage": "https://markdownmonster.west-wind.com",
   "license": {
     "identifier": "Proprietary",
-    "url": "https:markdownmonster.west-wind.compurchase.aspx#License"
+    "url": "https://markdownmonster.west-wind.com/purchase.aspx#License"
   },
-  "url": "https:github.comRickStrahlMarkdownMonsterReleasesrawmasterCurrentReleaseMarkdownMonsterPortable.zip",
+  "url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterPortable.zip",
   "hash": "b15d278a769b664954232f0e25752f5761bceaa73960a27ce4c34676826e39be",
   "bin": "mmcli.exe",
   "shortcuts": [
@@ -17,10 +17,10 @@
   ],
   "persist": "PortableSettings",
   "checkver": {
-    "url": "https:raw.githubusercontent.comRickStrahlMarkdownMonsterReleasesmasterCurrentReleaseMarkdownMonster_Version.xml",
-    "regex": "<Version>([\\d.]+)<Version>"
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml",
+    "regex": "<Version>([\\d.]+)</Version>"
   },
   "autoupdate": {
-    "url": "https:github.comRickStrahlMarkdownMonsterReleasesrawmasterCurrentReleaseMarkdownMonsterPortable.zip"
+    "url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterPortable.zip"
   }
 }

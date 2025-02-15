@@ -1,13 +1,13 @@
 {
   "version": "2021.04.16",
   "description": "压缩解压一键处理，助力办公安全省时",
-  "homepage": "https:yasuo.360.cn",
+  "homepage": "https://yasuo.360.cn/",
   "license": "Unknown",
   "architecture": {
     "64bit": {
       "url": [
-        "https:dl.360safe.com360zip_setup.exe#dl.7z",
-        "https:github.comWeidows-projectsscoop-3rdreleasesdownload1.0.07z.dll"
+        "https://dl.360safe.com/360zip_setup.exe#/dl.7z",
+        "https://ghfast.top/https://github.com/Weidows-projects/scoop-3rd/releases/download/1.0.0/7z.dll"
       ],
       "hash": [
         "c355973a5934ac090e499335688972ae0119566c5224e6c5940be417b2be3e8d",
@@ -35,11 +35,11 @@
     ]
   ],
   "checkver": {
-    "url": "https:yasuo.360.cnupdate.html",
+    "url": "https://yasuo.360.cn/update.html",
     "regex": "class=\"date\">([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:dl.360safe.com360zip_setup.exe#dl.7z",
+    "url": "https://dl.360safe.com/360zip_setup.exe#/dl.7z",
     "hash": {
       "mode": "download"
     }

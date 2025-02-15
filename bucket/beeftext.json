@@ -1,11 +1,11 @@
 {
   "version": "16.0",
-  "description": "An open-source text substitutionsnippet management tool.",
-  "homepage": "https:beeftext.org",
+  "description": "An open-source text substitution/snippet management tool.",
+  "homepage": "https://beeftext.org/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comxmicheloBeeftextreleasesdownloadv16.0Beeftext-16.0-PortableEdition.zip",
+      "url": "https://ghfast.top/https://github.com/xmichelo/Beeftext/releases/download/v16.0/Beeftext-16.0-PortableEdition.zip",
       "hash": "4a64ed2bf2ea8a853dad4fb5453e058bd01287d9ed09185ec02e0d5f81f8018d"
     }
   },
@@ -18,12 +18,12 @@
   ],
   "persist": "Data",
   "checkver": {
-    "github": "https:github.comxmicheloBeeftext"
+    "github": "https://github.com/xmichelo/Beeftext"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comxmicheloBeeftextreleasesdownloadv$versionBeeftext-$version-PortableEdition.zip"
+        "url": "https://ghfast.top/https://github.com/xmichelo/Beeftext/releases/download/v$version/Beeftext-$version-PortableEdition.zip"
       }
     }
   }

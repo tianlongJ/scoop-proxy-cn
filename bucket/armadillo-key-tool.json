@@ -1,7 +1,7 @@
 {
   "version": "0.4",
   "description": "Armadillo Key Tool",
-  "homepage": "https:github.commrexodiaakt",
+  "homepage": "https://github.com/mrexodia/akt",
   "license": "Freeware",
   "#depends": [
     ""
@@ -10,23 +10,23 @@
     "Armadillo Key Tool",
     ""
   ],
-  "url": "https:github.commrexodiaaktreleasesdownloadv0.4akt04.zip",
+  "url": "https://ghfast.top/https://github.com/mrexodia/akt/releases/download/v0.4/akt04.zip",
   "hash": "283645157390b01cb6717c4a51ede4a6ece57c273b42e8e75e7218b205aa55e7",
   "shortcuts": [
     [
       "Armadillo_KeyTool.exe",
-      "HackUnpackersArmadillo Key Tool"
+      "Hack/Unpackers/Armadillo Key Tool"
     ],
     [
       "NanoLol.exe",
-      "HackUnpackersArmadillo NanoLol"
+      "Hack/Unpackers/Armadillo NanoLol"
     ]
   ],
   "checkver": {
-    "github": "https:github.commrexodiaakt",
+    "github": "https://github.com/mrexodia/akt",
     "regex": "akt([\\d.-]+).zip"
   },
   "autoupdate": {
-    "url": "https:github.commrexodiaaktreleasesdownloadv$versionakt$cleanVersion.zip"
+    "url": "https://ghfast.top/https://github.com/mrexodia/akt/releases/download/v$version/akt$cleanVersion.zip"
   }
 }

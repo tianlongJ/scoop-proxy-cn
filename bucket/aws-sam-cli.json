@@ -1,7 +1,7 @@
 {
   "version": "1.133.0",
   "description": "Build, test, debug, and deploy Serverless applications from CLI",
-  "homepage": "https:aws.amazon.comserverlesssam",
+  "homepage": "https://aws.amazon.com/serverless/sam/",
   "license": "Apache-2.0",
   "depends": "lessmsi",
   "suggest": {
@@ -9,7 +9,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comawsaws-sam-clireleasesdownloadv1.133.0AWS_SAM_CLI_64_PY3.msi#dl.msi_",
+      "url": "https://ghfast.top/https://github.com/aws/aws-sam-cli/releases/download/v1.133.0/AWS_SAM_CLI_64_PY3.msi#/dl.msi_",
       "hash": "a78afe0da6e6e3a9f65a2629e76bb1244f63a3801d903cb6be7c400d1da1d441"
     }
   },
@@ -28,17 +28,17 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comawsaws-sam-cli"
+    "github": "https://github.com/aws/aws-sam-cli"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comawsaws-sam-clireleasesdownloadv$versionAWS_SAM_CLI_64_PY3.msi#dl.msi_"
+        "url": "https://ghfast.top/https://github.com/aws/aws-sam-cli/releases/download/v$version/AWS_SAM_CLI_64_PY3.msi#/dl.msi_"
       }
     },
     "hash": {
-      "url": "https:github.comawsaws-sam-clireleasestagv$version",
-      "regex": "(?sm)>$basename<.*?>\\s*$sha256<"
+      "url": "https://github.com/aws/aws-sam-cli/releases/tag/v$version",
+      "regex": "(?sm)>$basename</.*?>\\s*$sha256</"
     }
   }
 }

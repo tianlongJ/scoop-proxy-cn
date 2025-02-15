@@ -1,21 +1,21 @@
 {
   "version": "2025-02-14",
   "description": "Simple, expressive & portable programming language for efficient scripting",
-  "homepage": "https:arturo-lang.io",
+  "homepage": "https://arturo-lang.io/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comarturo-langnightlyreleasesdownload2025-02-14arturo-nightly.2025-02-13-amd64-windows-full.zip",
+      "url": "https://ghfast.top/https://github.com/arturo-lang/nightly/releases/download/2025-02-14/arturo-nightly.2025-02-13-amd64-windows-full.zip",
       "hash": "c5b1d60385b1e5c95af63170f19abd759be01f56f882a84a475b0e1362a3ef27"
     }
   },
   "bin": "arturo.exe",
   "checkver": {
-    "url": "https:api.github.comrepositories331569615releaseslatest",
+    "url": "https://api.github.com/repositories/331569615/releases/latest",
     "jsonpath": "$.assets[*].browser_download_url",
-    "regex": "download(?<version>\\d{4}-\\d{2}-\\d{2})arturo-nightly.(?<date>\\d{4}-\\d{2}-\\d{2})"
+    "regex": "download/(?<version>\\d{4}-\\d{2}-\\d{2})/arturo-nightly.(?<date>\\d{4}-\\d{2}-\\d{2})"
   },
   "autoupdate": {
-    "url": "https:github.comarturo-langnightlyreleasesdownload$matchVersionarturo-nightly.$matchDate-amd64-windows-full.zip"
+    "url": "https://ghfast.top/https://github.com/arturo-lang/nightly/releases/download/$matchVersion/arturo-nightly.$matchDate-amd64-windows-full.zip"
   }
 }

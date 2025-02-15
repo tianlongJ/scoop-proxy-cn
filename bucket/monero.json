@@ -1,17 +1,17 @@
 {
   "version": "0.18.3.4",
   "description": "The secure, private, untraceable cryptocurrency",
-  "homepage": "https:getmonero.org",
+  "homepage": "https://getmonero.org",
   "license": "BSD-3-Clause",
   "notes": "For 32bit, use 'monero-cli' instead.",
   "architecture": {
     "64bit": {
-      "url": "https:dlsrc.getmonero.orgguimonero-gui-win-x64-v0.18.3.4.zip",
+      "url": "https://dlsrc.getmonero.org/gui/monero-gui-win-x64-v0.18.3.4.zip",
       "hash": "b5d42dddd722e728e480337f89038c8ea606c6507bf0c88ddf2af25050c9b751"
     }
   },
   "extract_dir": "monero-gui-v0.18.3.4",
-  "pre_install": "if (!(Test-Path \"$persist_dir$($p = 'monero-storage')\")) { New-Item -ItemType Directory \"$dir$p\" | Out-Null }",
+  "pre_install": "if (!(Test-Path \"$persist_dir$($p = '/monero-storage')\")) { New-Item -ItemType Directory \"$dir$p\" | Out-Null }",
   "persist": "monero-storage",
   "bin": [
     "monerod.exe",
@@ -48,16 +48,16 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.commonero-projectmonero-gui"
+    "github": "https://github.com/monero-project/monero-gui"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:dlsrc.getmonero.orgguimonero-gui-win-x64-v$version.zip"
+        "url": "https://dlsrc.getmonero.org/gui/monero-gui-win-x64-v$version.zip"
       }
     },
     "hash": {
-      "url": "https:github.commonero-projectmonero-guireleasestagv$version",
+      "url": "https://github.com/monero-project/monero-gui/releases/tag/v$version",
       "regex": "(?sm)$basename.*?$sha256"
     },
     "extract_dir": "monero-gui-v$version"

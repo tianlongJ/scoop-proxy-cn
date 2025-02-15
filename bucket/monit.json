@@ -1,14 +1,14 @@
 {
   "version": "0.8.1",
   "description": "Monit - 用于展示各种信息的桌面小组件.",
-  "homepage": "https:monit.fzf404.art",
+  "homepage": "https://monit.fzf404.art",
   "license": {
     "identifier": "MIT",
-    "url": "https:github.comfzf404MonitrawmainLICENSE"
+    "url": "https://github.com/fzf404/Monit/raw/main/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comfzf404Monitreleasesdownloadv0.8.1Monit-0.8.1-win-x64.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/fzf404/Monit/releases/download/v0.8.1/Monit-0.8.1-win-x64.exe#/dl.7z",
       "hash": "ba42b0bef5a81d36a9756b89ec73d000227e9c18eb1bdd4936272ae4c614e25c",
       "pre_install": [
         "if (Test-Path \"$env:AppData\\monit\") {",
@@ -31,14 +31,14 @@
   ],
   "persist": "User Data",
   "checkver": {
-    "github": "https:github.comfzf404Monit"
+    "github": "https://github.com/fzf404/Monit"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comfzf404Monitreleasesdownloadv$versionMonit-$version-win-x64.exe#dl.7z",
+        "url": "https://ghfast.top/https://github.com/fzf404/Monit/releases/download/v$version/Monit-$version-win-x64.exe#/dl.7z",
         "hash": {
-          "url": "$baseurllatest.yml",
+          "url": "$baseurl/latest.yml",
           "mode": "extract",
           "regex": "(?sm)$basename.*?sha512:\\s+$base64"
         }

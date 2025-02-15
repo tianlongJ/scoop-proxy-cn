@@ -1,11 +1,11 @@
 {
   "version": "2023.04.14",
   "description": "OpenOrCadParser - FOSS Parser for Cadence OrCAD designs.",
-  "homepage": "https:github.comWerni2AOpenOrCadParser",
+  "homepage": "https://github.com/Werni2A/OpenOrCadParser",
   "license": "MIT",
   "depends": "vcredist2022",
   "extract_dir": "",
-  "url": "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.1openorcadparser-cli-x64-v2023.04.14.7z",
+  "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.1/openorcadparser-cli-x64-v2023.04.14.7z",
   "hash": "b813912cbc5eae81257850d8e6a93ad77e9a2000b0a82e3c407a082aec193444",
   "bin": [
     [
@@ -14,11 +14,11 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposSayCVgh-cdn-cvpreleasestagsv1.0.1",
+    "url": "https://api.github.com/repos/SayCV/gh-cdn-cvp/releases/tags/v1.0.1",
     "jsonpath": "assets.browser_download_url",
     "regex": "openorcadparser-cli-x64-v([\\d.]+)\\.7z"
   },
   "autoupdate": {
-    "url": "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.1openorcadparser-cli-x64-v$version.7z"
+    "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.1/openorcadparser-cli-x64-v$version.7z"
   }
 }

@@ -1,12 +1,12 @@
 {
   "version": "3.1.6",
   "description": "UniGetUI. The main goal of this project is to create an intuitive GUI for the most common CLI package managers for Windows.",
-  "homepage": "https:github.commarticlimentUniGetUI",
+  "homepage": "https://github.com/marticliment/UniGetUI",
   "license": "LGPL-2.1-only",
-  "changelog": "https:github.commarticlimentUniGetUIreleases",
+  "changelog": "https://github.com/marticliment/UniGetUI/releases",
   "architecture": {
     "64bit": {
-      "url": "https:github.commarticlimentUniGetUIreleasesdownload3.1.6UniGetUI.Installer.exe",
+      "url": "https://ghfast.top/https://github.com/marticliment/UniGetUI/releases/download/3.1.6/UniGetUI.Installer.exe",
       "hash": "d77959b5268b4850f8b98de02d7b7bf6ce25a7ea7a9a15ec764065f03f10ca97"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commarticlimentUniGetUIreleasesdownload$versionUniGetUI.Installer.exe"
+        "url": "https://ghfast.top/https://github.com/marticliment/UniGetUI/releases/download/$version/UniGetUI.Installer.exe"
       }
     }
   }

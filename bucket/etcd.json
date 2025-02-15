@@ -1,11 +1,11 @@
 {
   "version": "3.5.18",
   "description": "A distributed, reliable key-value store for the most critical data of a distributed system",
-  "homepage": "https:etcd.io",
+  "homepage": "https://etcd.io/",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.cometcd-ioetcdreleasesdownloadv3.5.18etcd-v3.5.18-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/etcd-io/etcd/releases/download/v3.5.18/etcd-v3.5.18-windows-amd64.zip",
       "hash": "c17126fe42852d2eef181f94b17af26b6289052de9d28f8fe5edb6783f461c59",
       "extract_dir": "etcd-v3.5.18-windows-amd64"
     }
@@ -15,15 +15,15 @@
     "etcdctl.exe"
   ],
   "checkver": {
-    "github": "https:github.cometcd-ioetcd"
+    "github": "https://github.com/etcd-io/etcd"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.cometcd-ioetcdreleasesdownloadv$versionetcd-v$version-windows-amd64.zip",
+        "url": "https://ghfast.top/https://github.com/etcd-io/etcd/releases/download/v$version/etcd-v$version-windows-amd64.zip",
         "extract_dir": "etcd-v$version-windows-amd64",
         "hash": {
-          "url": "$baseurlSHA256SUMS",
+          "url": "$baseurl/SHA256SUMS",
           "regex": "^$sha256\\s+$url$"
         }
       }

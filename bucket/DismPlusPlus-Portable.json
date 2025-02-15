@@ -1,10 +1,10 @@
 {
   "version": "10.1.1002.2",
   "description": "DISM++. A gatis Windows utility similar to DISM, but with a GUI and based on CBS",
-  "homepage": "https:www.chuyu.me",
+  "homepage": "https://www.chuyu.me",
   "license": "Unknown",
-  "changelog": "https:github.comChuyu-TeamDism-Multi-languageblobmasterUpdateHistory.md",
-  "url": "https:github.comChuyu-TeamDism-Multi-languagereleasesdownloadv10.1.1002.2Dism++10.1.1002.1B.zip",
+  "changelog": "https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/UpdateHistory.md",
+  "url": "https://ghfast.top/https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1002.2/Dism++10.1.1002.1B.zip",
   "hash": "5bbab96d60704854efd8246a7d9371688b9102261544827fc8884126d70bcb3b",
   "architecture": {
     "64bit": {
@@ -37,9 +37,9 @@
     }
   },
   "checkver": {
-    "github": "https:github.comChuyu-TeamDism-Multi-language"
+    "github": "https://github.com/Chuyu-Team/Dism-Multi-language"
   },
   "autoupdate": {
-    "url": "https:github.comChuyu-TeamDism-Multi-languagereleasesdownloadv$versionDism++$version.zip"
+    "url": "https://ghfast.top/https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$version/Dism++$version.zip"
   }
 }

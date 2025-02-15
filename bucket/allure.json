@@ -1,9 +1,9 @@
 {
   "version": "2.32.2",
   "description": "A flexible lightweight multi-language test report tool",
-  "homepage": "https:github.comallure-frameworkallure2",
+  "homepage": "https://github.com/allure-framework/allure2",
   "license": "Apache-2.0",
-  "url": "https:github.comallure-frameworkallure2releasesdownload2.32.2allure-2.32.2.zip",
+  "url": "https://ghfast.top/https://github.com/allure-framework/allure2/releases/download/2.32.2/allure-2.32.2.zip",
   "hash": "3f28885e2118f6317c92f667eaddcc6491400af1fb9773c1f3797a5fa5174953",
   "extract_dir": "allure-2.32.2",
   "bin": "bin\\allure.bat",
@@ -12,7 +12,7 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comallure-frameworkallure2releasesdownload$versionallure-$version.zip",
+    "url": "https://ghfast.top/https://github.com/allure-framework/allure2/releases/download/$version/allure-$version.zip",
     "extract_dir": "allure-$version"
   }
 }

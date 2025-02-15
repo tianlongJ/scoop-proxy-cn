@@ -1,9 +1,9 @@
 {
   "version": "1.3.2",
   "description": "Bing每日壁纸，自动获取Bing的精美图片设置为壁纸，并且支持随机切换历史壁纸，查看壁纸故事",
-  "homepage": "https:github.comjadepengbing-wallpaper",
+  "homepage": "https://github.com/jadepeng/bing-wallpaper",
   "license": "Freeware",
-  "url": "https:github.comjadepengbing-wallpaperreleasesdownloadv1.3.2V1.3.2.zip#dl.7z",
+  "url": "https://ghfast.top/https://github.com/jadepeng/bing-wallpaper/releases/download/v1.3.2/V1.3.2.zip#/dl.7z",
   "hash": "871ff7bf14741235db92443fb990a764eff3203c98f629090617c99c469c72df",
   "extract_to": "Programs",
   "post_install": [
@@ -47,9 +47,9 @@
     "Programs\\cache"
   ],
   "checkver": {
-    "github": "https:github.comjadepengbing-wallpaper"
+    "github": "https://github.com/jadepeng/bing-wallpaper"
   },
   "autoupdate": {
-    "url": "https:github.comjadepengbing-wallpaperreleasesdownloadv$versionV$version.zip#dl.7z"
+    "url": "https://ghfast.top/https://github.com/jadepeng/bing-wallpaper/releases/download/v$version/V$version.zip#/dl.7z"
   }
 }

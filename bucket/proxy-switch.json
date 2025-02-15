@@ -1,8 +1,8 @@
 {
   "version": "1.2.0",
-  "homepage": "https:github.comreisederproxy-switch",
+  "homepage": "https://github.com/reiseder/proxy-switch/",
   "license": "MIT",
-  "url": "https:github.comreisederproxy-switchreleasesdownloadv1.2.0ProxySwitch_v1.2.0.7z",
+  "url": "https://ghfast.top/https://github.com/reiseder/proxy-switch/releases/download/v1.2.0/ProxySwitch_v1.2.0.7z",
   "hash": "27b10a2402677aaaa2c518cf60463102c907a4545088f802517586e58f4f55ad",
   "pre_install": "Rename-Item (Get-ChildItem \"$dir\\ProxySwitch_v*.exe\") ProxySwitch.exe",
   "shortcuts": [
@@ -12,9 +12,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comreisederproxy-switch"
+    "github": "https://github.com/reiseder/proxy-switch"
   },
   "autoupdate": {
-    "url": "https:github.comreisederproxy-switchreleasesdownloadv$versionProxySwitch_v$version.7z"
+    "url": "https://ghfast.top/https://github.com/reiseder/proxy-switch/releases/download/v$version/ProxySwitch_v$version.7z"
   }
 }

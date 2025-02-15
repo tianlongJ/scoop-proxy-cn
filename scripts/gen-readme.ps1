@@ -1,6 +1,6 @@
 $result = "# Personal Scoop bucket
 
-[![Build status](https:ci.appveyor.comapiprojectsstatussdwq9tekqddjawo7branchmaster?svg=true)](https:ci.appveyor.comprojectiquiwscoop-bucketbranchmaster)
+[![Build status](https://ci.appveyor.com/api/projects/status/sdwq9tekqddjawo7/branch/master?svg=true)](https://ci.appveyor.com/project/iquiw/scoop-bucket/branch/master)
 
 ## Applications
 
@@ -17,7 +17,7 @@ foreach ($file in $files) {
     $homepage = $json.homepage
     $descr = $json.description
     $unofficial = ''
-    if ($homepage -match "github.comiquiw.*-(binary|dll)" -and
+    if ($homepage -match "github.com/iquiw/.*-(binary|dll)" -and
         $name -ne 'rireq') {
         $unofficial = 'O'
     }

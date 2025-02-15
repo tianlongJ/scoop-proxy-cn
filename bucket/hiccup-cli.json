@@ -1,12 +1,12 @@
 {
   "version": "0.1.0",
   "description": "CLI to convert HTML to Hiccup syntax",
-  "homepage": "https:github.comkwrooijenhiccup-cli",
+  "homepage": "https://github.com/kwrooijen/hiccup-cli",
   "license": "MIT",
-  "depends": "extrasvcredist2022",
+  "depends": "extras/vcredist2022",
   "architecture": {
     "64bit": {
-      "url": "https:github.comkwrooijenhiccup-clireleasesdownload0.1.0hiccup-cli-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/kwrooijen/hiccup-cli/releases/download/0.1.0/hiccup-cli-windows-amd64.zip",
       "hash": "fb0e63f023779ef87c8534f49f8c3380b12fcf1e6d945773f74bc4945406e43d"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comkwrooijenhiccup-clireleasesdownload$versionhiccup-cli-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/kwrooijen/hiccup-cli/releases/download/$version/hiccup-cli-windows-amd64.zip"
       }
     }
   }

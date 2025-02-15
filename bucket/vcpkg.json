@@ -1,12 +1,12 @@
 {
   "version": "2025.01.13",
-  "description": "CC++ dependency manager from Microsoft For all platforms, buildsystems, and workflows",
-  "homepage": "https:vcpkg.io",
+  "description": "C/C++ dependency manager from Microsoft For all platforms, buildsystems, and workflows",
+  "homepage": "https://vcpkg.io/",
   "license": "MIT",
   "suggest": {
     "Git": "git"
   },
-  "url": "https:github.commicrosoftvcpkgarchiverefstags2025.01.13.zip",
+  "url": "https://ghfast.top/https://github.com/microsoft/vcpkg/archive/refs/tags/2025.01.13.zip",
   "hash": "ab78561ee5a5227583964db69f6be33a1e36ab7dd1a9af79ce2e5885919c4446",
   "extract_dir": "vcpkg-2025.01.13",
   "pre_install": [
@@ -16,7 +16,7 @@
     "    }",
     "    if (!(Test-Path \"$persist_dir\\.git\")) {",
     "        git -C \"$dir\" init --quiet --separate-git-dir \"$persist_dir\\.git\"",
-    "        git -C \"$dir\" remote add -t master origin https:github.commicrosoftvcpkg",
+    "        git -C \"$dir\" remote add -t master origin https://github.com/microsoft/vcpkg",
     "    } else {",
     "        Write-Output \"gitdir: $persist_dir\\.git\" | Out-File -FilePath \"$dir\\.git\"",
     "    }",
@@ -46,10 +46,10 @@
     "packages"
   ],
   "checkver": {
-    "github": "https:github.commicrosoftvcpkg"
+    "github": "https://github.com/microsoft/vcpkg/"
   },
   "autoupdate": {
-    "url": "https:github.commicrosoftvcpkgarchiverefstags$version.zip",
+    "url": "https://ghfast.top/https://github.com/microsoft/vcpkg/archive/refs/tags/$version.zip",
     "extract_dir": "vcpkg-$version"
   }
 }

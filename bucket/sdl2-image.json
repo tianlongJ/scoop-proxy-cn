@@ -1,11 +1,11 @@
 {
   "version": "2.8.5",
   "description": "SDL_image is an image loading library that is used with the SDL library, and almost as portable. It allows a programmer to use multiple image formats without having to code all the loading and conversion algorithms themselves.",
-  "homepage": "https:github.comlibsdl-orgSDL_image",
+  "homepage": "https://github.com/libsdl-org/SDL_image",
   "license": "Zlib",
   "url": [
-    "https:github.comlibsdl-orgSDL_imagereleasesdownloadrelease-2.8.5SDL2_image-devel-2.8.5-VC.zip",
-    "https:github.comlibsdl-orgSDL_imagereleasesdownloadrelease-2.8.5SDL2_image-2.8.5.zip"
+    "https://ghfast.top/https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.5/SDL2_image-devel-2.8.5-VC.zip",
+    "https://ghfast.top/https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.5/SDL2_image-2.8.5.zip"
   ],
   "hash": [
     "f1f1e9bd1bd6d92ac3c93730784f40bcf4b66857ca5e2d0fd3b2fe05d1900c34",
@@ -52,8 +52,8 @@
       "Set-Content $pc_out ((gc $pc_in) `",
       "    -replace \"@prefix@\",\"\" `",
       "    -replace \"@exec_prefix@\",\"`${prefix}\" `",
-      "    -replace \"@libdir@\",\"`${exec_prefix}lib\" `",
-      "    -replace \"@includedir@\",\"`${prefix}include\" `",
+      "    -replace \"@libdir@\",\"`${exec_prefix}/lib\" `",
+      "    -replace \"@includedir@\",\"`${prefix}/include\" `",
       "    -replace \"@PACKAGE@\",\"SDL2_image\" `",
       "    -replace \"@VERSION@\",\"$version\" `",
       "    -replace \"@SDL_VERSION@\",\"2.0.0\" `",
@@ -115,13 +115,13 @@
     ]
   },
   "checkver": {
-    "url": "https:github.comlibsdl-orgSDL_imagereleases",
+    "url": "https://github.com/libsdl-org/SDL_image/releases",
     "regex": "release-([\\d.]+)"
   },
   "autoupdate": {
     "url": [
-      "https:github.comlibsdl-orgSDL_imagereleasesdownloadrelease-$versionSDL2_image-devel-$version-VC.zip",
-      "https:github.comlibsdl-orgSDL_imagereleasesdownloadrelease-$versionSDL2_image-$version.zip"
+      "https://ghfast.top/https://github.com/libsdl-org/SDL_image/releases/download/release-$version/SDL2_image-devel-$version-VC.zip",
+      "https://ghfast.top/https://github.com/libsdl-org/SDL_image/releases/download/release-$version/SDL2_image-$version.zip"
     ]
   }
 }

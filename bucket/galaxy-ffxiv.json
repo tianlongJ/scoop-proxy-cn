@@ -1,8 +1,8 @@
 {
-  "homepage": "https:github.comRZetkogalaxy-integration-ffxiv",
+  "homepage": "https://github.com/RZetko/galaxy-integration-ffxiv",
   "version": "1.2.2",
   "depends": "sudo",
-  "url": "https:github.comRZetkogalaxy-integration-ffxivreleasesdownloadv1.2.2galaxy-integration-ffxiv-1.2.2.zip",
+  "url": "https://ghfast.top/https://github.com/RZetko/galaxy-integration-ffxiv/releases/download/v1.2.2/galaxy-integration-ffxiv-1.2.2.zip",
   "hash": "265fde0fc3b6c408446abd6aa1c022260494853106bc30fbea79956ab5ec3218",
   "extract_dir": "ffxiv",
   "extract_to": "integration",
@@ -38,7 +38,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -46,7 +46,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -68,9 +68,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https:github.comRZetkogalaxy-integration-ffxiv"
+    "github": "https://github.com/RZetko/galaxy-integration-ffxiv"
   },
   "autoupdate": {
-    "url": "https:github.comRZetkogalaxy-integration-ffxivreleasesdownloadv$versiongalaxy-integration-ffxiv-$version.zip"
+    "url": "https://ghfast.top/https://github.com/RZetko/galaxy-integration-ffxiv/releases/download/v$version/galaxy-integration-ffxiv-$version.zip"
   }
 }

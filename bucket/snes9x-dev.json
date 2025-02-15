@@ -1,14 +1,14 @@
 {
   "version": "1.63-1485-1ef1c3e",
   "description": "Nintendo SNES (Super Nintendo Entertainment System) emulator",
-  "homepage": "http:www.snes9x.com",
+  "homepage": "http://www.snes9x.com/",
   "license": {
-    "url": "https:github.comsnes9xgitsnes9xblobmasterLICENSE",
+    "url": "https://github.com/snes9xgit/snes9x/blob/master/LICENSE",
     "identifier": "Freeware"
   },
   "architecture": {
     "64bit": {
-      "url": "https:ci.appveyor.comapibuildjobsli061norf99v6d65artifactssnes9x-1.63-1485-1ef1c3e-win32-x64.zip",
+      "url": "https://ci.appveyor.com/api/buildjobs/li061norf99v6d65/artifacts/snes9x-1.63-1485-1ef1c3e-win32-x64.zip",
       "hash": "709d94ded0b89342a775944a015703c451372876e70755349025ae59f984777a",
       "bin": [
         [
@@ -24,7 +24,7 @@
       ]
     },
     "32bit": {
-      "url": "https:ci.appveyor.comapibuildjobs87j3j2hpka0lsb5rartifactssnes9x-1.63-1485-1ef1c3e-win32.zip",
+      "url": "https://ci.appveyor.com/api/buildjobs/87j3j2hpka0lsb5r/artifacts/snes9x-1.63-1485-1ef1c3e-win32.zip",
       "hash": "4afd7f7a4374c4f72dd95d442dcb655cb2aa19eef1d49662bfab3f3c3c4fe307",
       "bin": "snes9x.exe",
       "shortcuts": [
@@ -45,7 +45,7 @@
     "snes9x.conf"
   ],
   "checkver": {
-    "url": "https:ci.appveyor.comapiprojectssnes9xsnes9x",
+    "url": "https://ci.appveyor.com/api/projects/snes9x/snes9x",
     "script": [
       "$version = json_path $page $.build.version",
       "$job32 = json_path $page $.build.jobs[0].jobId",
@@ -60,10 +60,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:ci.appveyor.comapibuildjobs$matchJob64artifactssnes9x-$matchVersion-$matchCommit-win32-x64.zip"
+        "url": "https://ci.appveyor.com/api/buildjobs/$matchJob64/artifacts/snes9x-$matchVersion-$matchCommit-win32-x64.zip"
       },
       "32bit": {
-        "url": "https:ci.appveyor.comapibuildjobs$matchJob32artifactssnes9x-$matchVersion-$matchCommit-win32.zip"
+        "url": "https://ci.appveyor.com/api/buildjobs/$matchJob32/artifacts/snes9x-$matchVersion-$matchCommit-win32.zip"
       }
     }
   }

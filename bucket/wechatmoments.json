@@ -1,12 +1,12 @@
 {
   "version": "0.0.2",
   "description": "微信朋友圈导出工具-技术爬爬虾",
-  "homepage": "https:github.comtech-shrimpWechatMoments",
+  "homepage": "https://github.com/tech-shrimp/WechatMoments",
   "license": {
     "identifier": "Apache-2.0 license",
-    "url": "https:github.comtech-shrimpWechatMoments#Apache-2.0-1-ov-file"
+    "url": "https://github.com/tech-shrimp/WechatMoments#Apache-2.0-1-ov-file"
   },
-  "url": "https:github.comtech-shrimpWechatMomentsreleasesdownload0.0.2wechat_moments.zip",
+  "url": "https://ghfast.top/https://github.com/tech-shrimp/WechatMoments/releases/download/0.0.2/wechat_moments.zip",
   "hash": "89f636aee02ee55d60036d228c902c6a398928ccb04b5518edc689d08ec7716a",
   "extract_dir": "wechat_moments",
   "shortcuts": [
@@ -16,10 +16,10 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comrepostech-shrimpWechatMomentsreleases",
-    "regex": "releasestag([\\d.]+)"
+    "url": "https://api.github.com/repos/tech-shrimp/WechatMoments/releases",
+    "regex": "/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.comtech-shrimpWechatMomentsreleasesdownload$versionwechat_moments.zip"
+    "url": "https://ghfast.top/https://github.com/tech-shrimp/WechatMoments/releases/download/$version/wechat_moments.zip"
   }
 }

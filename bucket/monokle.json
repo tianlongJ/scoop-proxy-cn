@@ -1,7 +1,7 @@
 {
   "version": "2.4.8",
   "description": "K8s tool for creating, validating, debugging and managing manifests.",
-  "homepage": "https:kubeshop.github.iomonokle",
+  "homepage": "https://kubeshop.github.io/monokle",
   "license": "MIT",
   "depends": "kubectl",
   "suggest": {
@@ -10,7 +10,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comkubeshopmonoklereleasesdownloadv2.4.8Monokle-win-2.4.8-x64.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/kubeshop/monokle/releases/download/v2.4.8/Monokle-win-2.4.8-x64.exe#/dl.7z",
       "hash": "sha512:9919711ab5fa1cfcc3b56c1a67bd36405c2eb9f0854aae4cd32f8b5517ecb030293d0ef183be559f4f18bd172b7896452dff7c3243034310b86c0e839d925056"
     }
   },
@@ -36,14 +36,14 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comkubeshopmonokle"
+    "github": "https://github.com/kubeshop/monokle"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comkubeshopmonoklereleasesdownloadv$versionMonokle-win-$version-x64.exe#dl.7z",
+        "url": "https://ghfast.top/https://github.com/kubeshop/monokle/releases/download/v$version/Monokle-win-$version-x64.exe#/dl.7z",
         "hash": {
-          "url": "$baseurllatest.yml",
+          "url": "$baseurl/latest.yml",
           "regex": "sha512:\\s+$base64"
         }
       }

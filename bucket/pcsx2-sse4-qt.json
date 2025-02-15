@@ -1,17 +1,17 @@
 {
   "version": "1.7.4287",
   "description": "Sony PlayStation 2 emulator",
-  "homepage": "https:pcsx2.net",
+  "homepage": "https://pcsx2.net/",
   "license": {
-    "url": "https:github.comPCSX2pcsx2blobmasterCOPYING.GPLv3",
+    "url": "https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3",
     "identifier": "GPL-3.0"
   },
   "suggest": {
-    "Microsoft Visual C++ Runtime 2019": "extrasvcredist2019"
+    "Microsoft Visual C++ Runtime 2019": "extras/vcredist2019"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comPCSX2pcsx2releasesdownloadv1.7.4287pcsx2-v1.7.4287-windows-64bit-SSE4-Qt.7z",
+      "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v1.7.4287/pcsx2-v1.7.4287-windows-64bit-SSE4-Qt.7z",
       "hash": "9f94bebd169f42a51c8db0936206c367bdb3d8b73d42874dec03786807ac3357",
       "bin": [
         [
@@ -50,7 +50,7 @@
     "sstates"
   ],
   "checkver": {
-    "url": "https:github.comPCSX2pcsx2releases.atom",
+    "url": "https://github.com/PCSX2/pcsx2/releases.atom",
     "script": [
       "$xml = [xml]$page",
       "$title = ($xml.feed.entry | Sort-Object -Descending { $_.updated })[0].title",
@@ -61,13 +61,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comPCSX2pcsx2releasesdownloadv$versionpcsx2-v$version-windows-64bit-SSE4-Qt.7z"
+        "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-64bit-SSE4-Qt.7z"
       }
     }
   },
   "notes": [
     "ATTENTION: PCSX2 requires a dump of the PS2 BIOS to function.",
     "Place the BIOS file in $persist_dir\\bios",
-    "Learn more at https:wiki.pcsx2.netSetting_up_Windows_version#BIOS"
+    "Learn more at https://wiki.pcsx2.net/Setting_up_Windows_version#BIOS"
   ]
 }

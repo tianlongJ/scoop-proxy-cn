@@ -1,15 +1,15 @@
 {
   "version": "3.6.4",
   "description": "SpotiFlyer Java. A music downloader for Spotify, Youtube, Gaana, Jio-Saavn and SoundCloud.",
-  "homepage": "https:spotiflyer.app",
+  "homepage": "https://spotiflyer.app/",
   "license": "GPL-3.0",
   "changelog": "",
   "suggest": {
-    "ffmpeg": "mainffmpeg"
+    "ffmpeg": "main/ffmpeg"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comShabinderSpotiFlyerreleasesdownloadv3.6.3SpotiFlyer-windows-x64-3.6.3.jar#SpotiFlyer.jar",
+      "url": "https://ghfast.top/https://github.com/Shabinder/SpotiFlyer/releases/download/v3.6.3/SpotiFlyer-windows-x64-3.6.3.jar#/SpotiFlyer.jar",
       "hash": "ea91f1d50cfacff95eabb57c5dff47843174f349f55d11d44d09850960da58dd"
     }
   },
@@ -24,12 +24,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comShabinderSpotiFlyer"
+    "github": "https://github.com/Shabinder/SpotiFlyer"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comShabinderSpotiFlyerreleasesdownloadv$versionSpotiFlyer-windows-x64-$version.jar#SpotiFlyer.jar"
+        "url": "https://ghfast.top/https://github.com/Shabinder/SpotiFlyer/releases/download/v$version/SpotiFlyer-windows-x64-$version.jar#/SpotiFlyer.jar"
       }
     }
   }

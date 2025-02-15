@@ -1,13 +1,13 @@
 {
   "version": "1.1",
   "description": "Android audio forwarding (scrcpy, but for audio)",
-  "homepage": "https:github.comrom1vsndcpy",
+  "homepage": "https://github.com/rom1v/sndcpy",
   "license": "MIT",
   "depends": [
     "adb",
-    "extrasvlc"
+    "extras/vlc"
   ],
-  "url": "https:github.comrom1vsndcpyreleasesdownloadv1.1sndcpy-v1.1.zip",
+  "url": "https://ghfast.top/https://github.com/rom1v/sndcpy/releases/download/v1.1/sndcpy-v1.1.zip",
   "hash": "b045320ddddbc5a237d6d95213c664f03b2f46ef8bbfcef91c2d95644ed42bbc",
   "bin": "sndcpy.bat",
   "env_set": {
@@ -16,9 +16,9 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comrom1vsndcpyreleasesdownloadv$versionsndcpy-v$version.zip",
+    "url": "https://ghfast.top/https://github.com/rom1v/sndcpy/releases/download/v$version/sndcpy-v$version.zip",
     "hash": {
-      "url": "$baseurlSHA256SUMS.txt"
+      "url": "$baseurl/SHA256SUMS.txt"
     }
   }
 }

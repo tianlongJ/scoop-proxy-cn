@@ -1,9 +1,9 @@
 {
   "version": "2.3.9",
-  "description": "A fast media playerrecorderconverter",
-  "homepage": "https:github.comstsazphiola",
+  "description": "A fast media player/recorder/converter",
+  "homepage": "https://github.com/stsaz/phiola",
   "license": "GPL-3.0-only",
-  "url": "https:github.comstsazphiolareleasesdownloadv2.3.9phiola-2.3.9-windows-x64.zip",
+  "url": "https://ghfast.top/https://github.com/stsaz/phiola/releases/download/v2.3.9/phiola-2.3.9-windows-x64.zip",
   "hash": "92a535c9b85b0a026f95b84f37773b4f2432523682153d917061e31edf1cca75",
   "extract_dir": "phiola-2",
   "bin": "phiola.exe",
@@ -16,11 +16,11 @@
   "pre_install": "if(!(Test-Path \"$dir\\mod\\gui\\user.conf\")) { Add-Content \"$dir\\mod\\gui\\user.conf\" $null }",
   "persist": "mod\\gui\\user.conf",
   "checkver": {
-    "url": "https:github.comstsazphiolatags",
-    "re": "releasestagv([\\d\\w.-]+)"
+    "url": "https://github.com/stsaz/phiola/tags",
+    "re": "/releases/tag/v([\\d\\w.-]+)"
   },
   "autoupdate": {
-    "url": "https:github.comstsazphiolareleasesdownloadv$versionphiola-$version-windows-x64.zip",
+    "url": "https://ghfast.top/https://github.com/stsaz/phiola/releases/download/v$version/phiola-$version-windows-x64.zip",
     "extract_dir": "phiola-$majorVersion"
   }
 }

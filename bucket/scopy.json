@@ -1,9 +1,9 @@
 {
   "version": "1.4.1",
   "description": "A software oscilloscope and signal analysis toolset",
-  "homepage": "https:wiki.analog.comuniversitytoolsm2kscopy",
+  "homepage": "https://wiki.analog.com/university/tools/m2k/scopy",
   "license": "GPL-3.0-only",
-  "url": "https:github.comanalogdevicesincscopyreleasesdownloadv1.4.1scopy-v1.4.1-Windows-setup.exe",
+  "url": "https://ghfast.top/https://github.com/analogdevicesinc/scopy/releases/download/v1.4.1/scopy-v1.4.1-Windows-setup.exe",
   "hash": "a8710d06247e86596fc5c6aa1f3df16b0bad386244f9a60913ba5ab64bcbb247",
   "innosetup": true,
   "architecture": {
@@ -35,10 +35,10 @@
     "SCOPY_PYTHONPATH": "$dir\\python3.7;$dir\\python3.7\\plat-win;$dir\\python3.7\\lib-dynload;$dir\\python3.7\\site-packages"
   },
   "checkver": {
-    "github": "https:github.comanalogdevicesincscopy",
+    "github": "https://github.com/analogdevicesinc/scopy",
     "regex": "scopy-v([\\d.]+)-Windows"
   },
   "autoupdate": {
-    "url": "https:github.comanalogdevicesincscopyreleasesdownloadv$versionscopy-v$version-Windows-setup.exe"
+    "url": "https://ghfast.top/https://github.com/analogdevicesinc/scopy/releases/download/v$version/scopy-v$version-Windows-setup.exe"
   }
 }

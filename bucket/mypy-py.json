@@ -1,13 +1,13 @@
 {
   "version": "0.812",
-  "homepage": "http:www.mypy-lang.org",
+  "homepage": "http://www.mypy-lang.org/",
   "description": "Optional static type checker for Python.",
   "license": {
     "identifier": "MIT,PSF-2.0,CNRI-Python,Unknown",
-    "url": "https:github.compythonmypyblobmasterLICENSE"
+    "url": "https://github.com/python/mypy/blob/master/LICENSE"
   },
   "depends": "python-bucket-utils",
-  "url": "https:github.compythonmypyarchivev0.812.zip",
+  "url": "https://ghfast.top/https://github.com/python/mypy/archive/v0.812.zip",
   "hash": "127b8823091a83f0184c41bf526a1053ac4fb63b61486e0d56c81e47718b4c09",
   "extract_dir": "mypy-0.812",
   "installer": {
@@ -24,10 +24,10 @@
     ]
   },
   "checkver": {
-    "github": "https:github.compythonmypy"
+    "github": "https://github.com/python/mypy"
   },
   "autoupdate": {
-    "url": "https:github.compythonmypyarchivev$version.zip",
+    "url": "https://ghfast.top/https://github.com/python/mypy/archive/v$version.zip",
     "extract_dir": "mypy-$version"
   }
 }

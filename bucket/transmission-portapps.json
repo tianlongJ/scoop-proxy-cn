@@ -1,12 +1,12 @@
 {
   "version": "3.00-1",
   "description": "Fast, easy, and free BitTorrent client.",
-  "homepage": "https:transmissionbt.com",
+  "homepage": "https://transmissionbt.com/",
   "license": {
     "identifier": "GPL-2.0-or-later",
-    "url": "https:github.comtransmissiontransmissionblobmasterCOPYING"
+    "url": "https://github.com/transmission/transmission/blob/master/COPYING"
   },
-  "url": "https:github.comportappstransmission-portablereleasesdownload3.00-1transmission-portable-win64-3.00-1.7z#dl.7z",
+  "url": "https://ghfast.top/https://github.com/portapps/transmission-portable/releases/download/3.00-1/transmission-portable-win64-3.00-1.7z#/dl.7z",
   "hash": "2cd53ab9392ac5aae361357a09dc01f2226668f412760827592ccea27b551cb0",
   "persist": [
     "data",
@@ -21,14 +21,14 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\transmission-portable.yml\")) { New-Item \"$dir\\transmission-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https:github.comportappstransmission-portablereleases",
-    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
+    "url": "https://github.com/portapps/transmission-portable/releases",
+    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https:github.comportappstransmission-portablereleasesdownload$versiontransmission-portable-win64-$version.7z#dl.7z",
+    "url": "https://ghfast.top/https://github.com/portapps/transmission-portable/releases/download/$version/transmission-portable-win64-$version.7z#/dl.7z",
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https:portapps.ioapptransmission-portable)"
+  "notes": "Installed from Portapps (https://portapps.io/app/transmission-portable/)"
 }

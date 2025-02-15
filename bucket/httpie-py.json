@@ -1,10 +1,10 @@
 {
   "version": "3.2.4",
-  "homepage": "https:httpie.org",
+  "homepage": "https://httpie.org/",
   "description": "Command-line HTTP client.",
   "license": "BSD-3-Clause",
   "depends": "python-bucket-utils",
-  "url": "https:github.comjakubroztocilhttpiearchive3.2.4.zip",
+  "url": "https://ghfast.top/https://github.com/jakubroztocil/httpie/archive/3.2.4.zip",
   "hash": "5e2c9cc9f9c05a4fbb553c56386c1dc317f529c3ae9c050a2f2b7a5d4b9cdf1c",
   "extract_dir": "httpie-3.2.4",
   "installer": {
@@ -21,10 +21,10 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comjakubroztocilhttpie"
+    "github": "https://github.com/jakubroztocil/httpie"
   },
   "autoupdate": {
-    "url": "https:github.comjakubroztocilhttpiearchive$version.zip",
+    "url": "https://ghfast.top/https://github.com/jakubroztocil/httpie/archive/$version.zip",
     "extract_dir": "httpie-$version"
   }
 }

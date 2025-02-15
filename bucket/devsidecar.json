@@ -1,12 +1,12 @@
 {
   "version": "1.8.5",
   "description": "开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速",
-  "homepage": "https:github.comdocmirrordev-sidecar",
+  "homepage": "https://github.com/docmirror/dev-sidecar",
   "license": "MPL-2.0",
   "depends": "7zip",
   "architecture": {
     "64bit": {
-      "url": "https:github.comdocmirrordev-sidecarreleasesdownloadv1.8.5DevSidecar-1.8.5.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/docmirror/dev-sidecar/releases/download/v1.8.5/DevSidecar-1.8.5.exe#/dl.7z",
       "hash": "afa8c07a63467f8e293bd122aab928d4854cb33e5c0d37591ae3734605f40d41"
     }
   },
@@ -22,13 +22,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:github.comdocmirrordev-sidecar",
-    "regex": "releasestagv?(?<version>.+)?\""
+    "url": "https://github.com/docmirror/dev-sidecar",
+    "regex": "/releases/tag/v?(?<version>.+)?\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comdocmirrordev-sidecarreleasesdownloadv$versionDevSidecar-$version.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version.exe#/dl.7z"
       }
     }
   }

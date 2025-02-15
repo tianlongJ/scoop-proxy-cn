@@ -1,9 +1,9 @@
 {
   "version": "2.5",
   "description": "Screenshot Tool",
-  "homepage": "https:lightscreen.com.ar",
+  "homepage": "https://lightscreen.com.ar",
   "license": "GPL-2.0-only",
-  "url": "https:github.comckaiserLightscreenreleasesdownloadv2.5LightscreenSetup-2.5.exe",
+  "url": "https://ghfast.top/https://github.com/ckaiser/Lightscreen/releases/download/v2.5/LightscreenSetup-2.5.exe",
   "hash": "626479bfd6b160df9be29ff169937575e371b50d258c2ad51bf4dcbd8e8251aa",
   "installer": {
     "script": [
@@ -23,9 +23,9 @@
   ],
   "persist": "Screenshots",
   "checkver": {
-    "github": "https:github.comckaiserLightscreen"
+    "github": "https://github.com/ckaiser/Lightscreen"
   },
   "autoupdate": {
-    "url": "https:github.comckaiserLightscreenreleasesdownloadv$versionLightscreenSetup-$version.exe"
+    "url": "https://ghfast.top/https://github.com/ckaiser/Lightscreen/releases/download/v$version/LightscreenSetup-$version.exe"
   }
 }

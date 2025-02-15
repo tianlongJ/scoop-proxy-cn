@@ -1,17 +1,17 @@
 {
   "version": "1.3.7",
   "description": "Distributed Workflow Engine for Microservices Orchestration",
-  "homepage": "https:camunda.comproductscloudworkflow-engine",
+  "homepage": "https://camunda.com/products/cloud/workflow-engine/",
   "license": {
     "identifier": "Zeebe Community License v1.0",
-    "url": "https:camunda.comlegaltermscloud-terms-and-conditionszeebe-community-license-v1-0"
+    "url": "https://camunda.com/legal/terms/cloud-terms-and-conditions/zeebe-community-license-v1-0/"
   },
   "suggest": {
-    "JDK": "javaopenjdk"
+    "JDK": "java/openjdk"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comcamunda-cloudzeebereleasesdownload1.3.7camunda-cloud-zeebe-1.3.7.zip",
+      "url": "https://ghfast.top/https://github.com/camunda-cloud/zeebe/releases/download/1.3.7/camunda-cloud-zeebe-1.3.7.zip",
       "hash": "sha1:9be66c8c91ab3aeb07b1861f40a29e6b4f183ffc"
     }
   },

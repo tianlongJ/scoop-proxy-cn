@@ -1,15 +1,15 @@
 {
   "version": "0.1.0",
   "description": "Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software.",
-  "homepage": "https:olivevideoeditor.org",
+  "homepage": "https://olivevideoeditor.org",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:olivevideoeditor.orgdlOlive-1e3cf53-Windows-x86_64.zip",
+      "url": "https://olivevideoeditor.org/dl/Olive-1e3cf53-Windows-x86_64.zip",
       "hash": "sha1:8d5cd30b71bc71178a3ccd857ec543002f7c0414"
     },
     "32bit": {
-      "url": "https:olivevideoeditor.orgdlOlive-1e3cf53-Windows-i686.zip",
+      "url": "https://olivevideoeditor.org/dl/Olive-1e3cf53-Windows-i686.zip",
       "hash": "sha1:99464160f6035ae8254b7a5a39c00a65ab476fb1"
     }
   },
@@ -31,16 +31,16 @@
     "shortcuts"
   ],
   "checkver": {
-    "url": "https:github.comolive-editorolivereleases",
+    "url": "https://github.com/olive-editor/olive/releases",
     "regex": "(?sm)Release build \\(([\\d.]+).*?Olive-(?<commit>\\w+)-Windows-"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:olivevideoeditor.orgdlOlive-$matchCommit-Windows-x86_64.zip"
+        "url": "https://olivevideoeditor.org/dl/Olive-$matchCommit-Windows-x86_64.zip"
       },
       "32bit": {
-        "url": "https:olivevideoeditor.orgdlOlive-$matchCommit-Windows-i686.zip"
+        "url": "https://olivevideoeditor.org/dl/Olive-$matchCommit-Windows-i686.zip"
       }
     },
     "hash": {

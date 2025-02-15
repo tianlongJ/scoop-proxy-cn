@@ -1,11 +1,11 @@
 {
   "version": "19.1.7",
-  "description": "Collection of modular and reusable compiler and toolchain technologies. (arm64aarch64 only)",
-  "homepage": "https:www.llvm.org",
+  "description": "Collection of modular and reusable compiler and toolchain technologies. (arm64/aarch64 only)",
+  "homepage": "https://www.llvm.org",
   "license": "NCSA",
   "architecture": {
     "arm64": {
-      "url": "https:github.comllvmllvm-projectreleasesdownloadllvmorg-19.1.7LLVM-19.1.7-woa64.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-woa64.exe#/dl.7z",
       "hash": "08d871c9a20caf0987ede1a4e44d489e28854c9f2fff3da98b486891f4856e05"
     }
   },
@@ -16,13 +16,13 @@
     "LLVM_LIB_DIR": "$dir\\lib"
   },
   "checkver": {
-    "github": "https:github.comllvmllvm-project",
-    "regex": "tagllvmorg-([\\d._]+)"
+    "github": "https://github.com/llvm/llvm-project",
+    "regex": "tag/llvmorg-([\\d._]+)"
   },
   "autoupdate": {
     "architecture": {
       "arm64": {
-        "url": "https:github.comllvmllvm-projectreleasesdownloadllvmorg-$versionLLVM-$version-woa64.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-woa64.exe#/dl.7z"
       }
     }
   }

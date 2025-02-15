@@ -1,11 +1,11 @@
 {
-  "homepage": "https:github.commamba-orgmamba",
+  "homepage": "https://github.com/mamba-org/mamba",
   "description": "Micromamba is a tiny version of mamba, the fast conda package installer.",
   "version": "2.0.6-0",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https:github.commamba-orgmicromamba-releasesreleasesdownload2.0.6-0micromamba-win-64#micromamba.exe",
+      "url": "https://ghfast.top/https://github.com/mamba-org/micromamba-releases/releases/download/2.0.6-0/micromamba-win-64#/micromamba.exe",
       "hash": "457dd55f7575b401014a6ae674383a2b4dc1e3f33cf99831395e93990daac612"
     }
   },
@@ -15,13 +15,13 @@
     "MAMBA_EXE": "$dir\\micromamba.exe"
   },
   "checkver": {
-    "url": "https:api.anaconda.orgreleaseconda-forgemicromambalatest",
-    "regex": "win-64micromamba-([\\d.]+([\\w-]+)).tar.bz2"
+    "url": "https://api.anaconda.org/release/conda-forge/micromamba/latest",
+    "regex": "win-64/micromamba-([\\d.]+([\\w-]+)).tar.bz2"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commamba-orgmicromamba-releasesreleasesdownload$versionmicromamba-win-64#micromamba.exe",
+        "url": "https://ghfast.top/https://github.com/mamba-org/micromamba-releases/releases/download/$version/micromamba-win-64#/micromamba.exe",
         "hash": {
           "url": "$url.sha256"
         }
@@ -34,7 +34,7 @@
     "(& $env:MAMBA_EXE 'shell' 'hook' -s 'powershell') | Out-String | Invoke-Expression",
     "",
     "Also note that the mamba base environment located in $env:MAMBA_ROOT_PREFIX is now NOT persisted,",
-    "we advice to setup 'envs_dirs' to use a seperated path like '~.condaenvs' and avoid using the base env.",
-    "https:conda.ioprojectscondaenlatestuser-guideconfigurationuse-condarc.html#specify-environment-directories-envs-dirs"
+    "we advice to setup 'envs_dirs' to use a seperated path like '~/.conda/envs' and avoid using the base env.",
+    "https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs"
   ]
 }

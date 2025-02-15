@@ -1,11 +1,11 @@
 {
   "version": "6.10.3",
   "description": "The IDE for competitive programming (beta)",
-  "homepage": "https:github.comcpeditorcpeditor",
+  "homepage": "https://github.com/cpeditor/cpeditor",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:github.comcpeditorcpeditorreleasesdownload6.10.3cpeditor-6.10.3-windows-x64-portable.zip",
+      "url": "https://ghfast.top/https://github.com/cpeditor/cpeditor/releases/download/6.10.3/cpeditor-6.10.3-windows-x64-portable.zip",
       "hash": "f1dc0aa68388b4b4ce40e9434679eb37ffd6b2367807762e9cc62b150d0faa73"
     }
   },
@@ -41,17 +41,17 @@
     "cp_editor_settings.ini"
   ],
   "checkver": {
-    "url": "https:github.comcpeditorcpeditorreleases",
-    "regex": "releasestag(?:v|V)?([\\d.]+)"
+    "url": "https://github.com/cpeditor/cpeditor/releases",
+    "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comcpeditorcpeditorreleasesdownload$versioncpeditor-$version-windows-x64-portable.zip"
+        "url": "https://ghfast.top/https://github.com/cpeditor/cpeditor/releases/download/$version/cpeditor-$version-windows-x64-portable.zip"
       }
     },
     "hash": {
-      "url": "https:github.comcpeditorcpeditorreleasesdownload$versioncpeditor-$version-sha256-checksums.txt"
+      "url": "https://ghfast.top/https://github.com/cpeditor/cpeditor/releases/download/$version/cpeditor-$version-sha256-checksums.txt"
     }
   }
 }

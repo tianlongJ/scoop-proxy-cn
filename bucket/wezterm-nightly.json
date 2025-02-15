@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "description": "GPU-accelerated terminal emulator (nightly builds)",
-  "homepage": "https:github.comwezwezterm",
+  "homepage": "https://github.com/wez/wezterm",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comwezweztermreleasesdownloadnightlyWezTerm-windows-nightly.zip"
+      "url": "https://ghfast.top/https://github.com/wez/wezterm/releases/download/nightly/WezTerm-windows-nightly.zip"
     }
   },
   "installer": {

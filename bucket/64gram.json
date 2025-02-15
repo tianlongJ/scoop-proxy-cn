@@ -1,14 +1,14 @@
 {
   "version": "1.1.58",
   "description": "Unofficial Telegram Desktop with some enhancements.",
-  "homepage": "https:64gr.am",
+  "homepage": "https://64gr.am",
   "license": {
     "identifier": "GPL-3.0-openssl-exception",
-    "url": "https:github.comTDesktop-x64tdesktopblobdevLICENSE"
+    "url": "https://github.com/TDesktop-x64/tdesktop/blob/dev/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comTDesktop-x64tdesktopreleasesdownloadv1.1.5864Gram_1.1.58_x64.zip",
+      "url": "https://ghfast.top/https://github.com/TDesktop-x64/tdesktop/releases/download/v1.1.58/64Gram_1.1.58_x64.zip",
       "hash": "31274202b5a6452b40f352d4892a8b8b286081d35bf69ffdb7f39bd3ed7207e9"
     }
   },
@@ -28,12 +28,12 @@
   ],
   "persist": "tdata",
   "checkver": {
-    "github": "https:github.comTDesktop-x64tdesktop"
+    "github": "https://github.com/TDesktop-x64/tdesktop"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comTDesktop-x64tdesktopreleasesdownloadv$version64Gram_$version_x64.zip"
+        "url": "https://ghfast.top/https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x64.zip"
       }
     }
   }

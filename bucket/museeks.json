@@ -1,11 +1,11 @@
 {
   "version": "0.20.6",
   "description": "A simple and clean music player",
-  "homepage": "https:museeks.io",
+  "homepage": "https://museeks.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.commartpiemuseeksreleasesdownload0.20.6Museeks_0.20.6_x64-setup.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/martpie/museeks/releases/download/0.20.6/Museeks_0.20.6_x64-setup.exe#/dl.7z",
       "hash": "ca92e83302f76bbade77e52235ec55b417946ee5692b8ab21e693a73b1f19fdb"
     }
   },
@@ -18,12 +18,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.commartpiemuseeks"
+    "github": "https://github.com/martpie/museeks"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commartpiemuseeksreleasesdownload$versionMuseeks_$version_x64-setup.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/martpie/museeks/releases/download/$version/Museeks_$version_x64-setup.exe#/dl.7z"
       }
     },
     "hash": {

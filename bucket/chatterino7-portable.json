@@ -1,16 +1,16 @@
 {
   "version": "13268193903",
-  "description": "Chat client for https:twitch.tv",
-  "homepage": "https:github.comSevenTVchatterino7",
+  "description": "Chat client for https://twitch.tv",
+  "homepage": "https://github.com/SevenTV/chatterino7",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comSevenTVchatterino7releasesdownloadnightly-buildchatterino-windows-x86-64-Qt-6.7.3.zip",
+      "url": "https://ghfast.top/https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.3.zip",
       "hash": "aaa9afa7f09421b72b805c767313a3714c319dd550092c3cb1e71eded9624467",
       "extract_dir": "Chatterino2",
       "pre_install": [
-        "Get-ChildItem \"$dirchatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o7-portable') }",
-        "$modes = \"$dirmodes\"",
+        "Get-ChildItem \"$dir/chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o7-portable') }",
+        "$modes = \"$dir/modes\"",
         "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Invoke-Expression \"'portable' >$(if (Test-Path $modes) { '>' }) `$modes\""
       ]
@@ -31,9 +31,9 @@
   "checkver": {
     "script": [
       "try {",
-      "    $null = (Invoke-WebRequest https:raw.githubusercontent.comSevenTVchatterino7chatterino7.githubworkflowsbuild.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
+      "    $null = (Invoke-WebRequest https://ghfast.top/https://raw.githubusercontent.com/SevenTV/chatterino7/chatterino7/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
       "    $Matches[1],",
-      "    (Invoke-RestMethod 'https:api.github.comrepositories342454835actionsworkflowsbuild.ymlruns?branch=chatterino7&status=success').workflow_runs[0].id -join ' '",
+      "    (Invoke-RestMethod 'https://api.github.com/repositories/342454835/actions/workflows/build.yml/runs?branch=chatterino7&status=success').workflow_runs[0].id -join ' '",
       "}",
       "catch { '' }"
     ],
@@ -42,7 +42,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comSevenTVchatterino7releasesdownloadnightly-buildchatterino-windows-x86-64-Qt-$matchQt.zip"
+        "url": "https://ghfast.top/https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
       }
     }
   }

@@ -1,14 +1,14 @@
 {
   "version": "1.6.2",
   "description": "RDP Wrapper Library",
-  "homepage": "https:github.comstascorprdpwrap",
+  "homepage": "https://github.com/stascorp/rdpwrap",
   "license": {
     "identifier": "Apache-2.0"
   },
   "url": [
-    "https:github.comstascorprdpwrapreleasesdownloadv1.6.2RDPWrap-v1.6.2.zip",
-    "https:cdn.jsdelivr.netghasmtronrdpwrap@masterautoupdate.zip",
-    "https:gist.github.comPaxxs25f44af08977b771fed9e0f5cf167898raw6cb120732af23effb019e5a97bdcecc545f50121autoupdate.bat#auto.bat"
+    "https://ghfast.top/https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWrap-v1.6.2.zip",
+    "https://cdn.jsdelivr.net/gh/asmtron/rdpwrap@master/autoupdate.zip",
+    "https://gist.github.com/Paxxs/25f44af08977b771fed9e0f5cf167898/raw/6cb120732af23effb019e5a97bdcecc545f50121/autoupdate.bat#/auto.bat"
   ],
   "hash": [
     "35a9481ddbed5177431a9ea4bd09468fe987797d7b1231d64942d17eb54ec269",
@@ -28,8 +28,8 @@
       "Move-Item -Path \"$dir\\*\" `",
       "   -Destination \"$env:ProgramFiles\\RDP Wrapper\" -Exclude \"*.json\" -Force",
       "write-host \"执行安装脚本...\"",
-      "cmd.exe c \"$env:ProgramFiles\\RDP Wrapper\\install.bat\"",
-      "cmd.exe c \"$env:ProgramFiles\\RDP Wrapper\\autoupdate.bat\"",
+      "cmd.exe /c \"$env:ProgramFiles\\RDP Wrapper\\install.bat\"",
+      "cmd.exe /c \"$env:ProgramFiles\\RDP Wrapper\\autoupdate.bat\"",
       "",
       "$shortcutPath = \"$(shortcut_folder $false)\"",
       "write-host \"Creating shortcut in $shortcutPath...\"",
@@ -45,7 +45,7 @@
       "If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] \"Administrator\")){",
       "    abort \"ERROR: install require UAC. Please try again.\"",
       "}",
-      "cmd.exe c \"$env:ProgramFiles\\RDP Wrapper\\uninstall.bat\"",
+      "cmd.exe /c \"$env:ProgramFiles\\RDP Wrapper\\uninstall.bat\"",
       "Remove-Item -Path \"$env:ProgramFiles\\RDP Wrapper\" -Recurse",
       "",
       "$shortcutPath = \"$(shortcut_folder $false)\"",
@@ -58,6 +58,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https:github.comstascorprdpwrapreleasesdownloadv$versionRDPWrap-v$version.zip"
+    "url": "https://ghfast.top/https://github.com/stascorp/rdpwrap/releases/download/v$version/RDPWrap-v$version.zip"
   }
 }

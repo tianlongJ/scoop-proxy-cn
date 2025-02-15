@@ -1,17 +1,17 @@
 {
   "version": "nightly",
   "description": "ScummVM is a program which allows you to run certain classic graphical adventure and role-playing games",
-  "homepage": "https:www.scummvm.org",
+  "homepage": "https://www.scummvm.org/",
   "license": {
-    "url": "https:github.comscummvmscummvmblobmasterCOPYING",
+    "url": "https://github.com/scummvm/scummvm/blob/master/COPYING",
     "identifier": "GPL-3.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https:buildbot.scummvm.orgdailybuildsmasterwindows-x86-64-master-latest.zip"
+      "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-64-master-latest.zip"
     },
     "32bit": {
-      "url": "https:buildbot.scummvm.orgdailybuildsmasterwindows-x86-master-latest.zip"
+      "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-master-latest.zip"
     }
   },
   "extract_to": "tmp",

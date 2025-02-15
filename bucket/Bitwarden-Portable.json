@@ -1,9 +1,9 @@
 {
   "version": "2025.2.0",
   "description": "Bitwarden. Password management solutions for individuals, teams, and business organizations",
-  "homepage": "https:bitwarden.com",
+  "homepage": "https://bitwarden.com",
   "license": "GPL-3.0-or-later",
-  "url": "https:github.combitwardenclientsreleasesdownloaddesktop-v2025.2.0Bitwarden-Portable-2025.2.0.exe",
+  "url": "https://ghfast.top/https://github.com/bitwarden/clients/releases/download/desktop-v2025.2.0/Bitwarden-Portable-2025.2.0.exe",
   "hash": "5470986f20fa2e1b8816627b515aba661e56e42ca9ac82513f085d9d0bc4782c",
   "pre_install": "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
   "bin": "Bitwarden.exe",
@@ -21,10 +21,10 @@
     "}"
   ],
   "checkver": {
-    "url": "https:github.combitwardenclientsreleases",
+    "url": "https://github.com/bitwarden/clients/releases",
     "regex": "Desktop v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:github.combitwardenclientsreleasesdownloaddesktop-v$versionBitwarden-Portable-$version.exe"
+    "url": "https://ghfast.top/https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
   }
 }

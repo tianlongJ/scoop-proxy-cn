@@ -1,14 +1,14 @@
 {
   "version": "4176",
   "description": "Nintendo Switch emulator",
-  "homepage": "https:github.compineappleEApineapple-src",
+  "homepage": "https://github.com/pineappleEA/pineapple-src",
   "license": {
-    "url": "https:github.compineappleEApineapple-srcblobmainLICENSE",
+    "url": "https://github.com/pineappleEA/pineapple-src/blob/main/LICENSE",
     "identifier": "GPL-2.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.compineappleEApineapple-srcreleasesdownloadEA-4176Windows-Yuzu-EA-4176.zip",
+      "url": "https://ghfast.top/https://github.com/pineappleEA/pineapple-src/releases/download/EA-4176/Windows-Yuzu-EA-4176.zip",
       "hash": "b5d5a12dd2320f442187919ef9e9680a83c36d98fa80584f13114face49bf2a0"
     }
   },
@@ -45,13 +45,13 @@
     "plugins"
   ],
   "checkver": {
-    "github": "https:github.compineappleEApineapple-src",
+    "github": "https://github.com/pineappleEA/pineapple-src",
     "regex": "EA-(\\d+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.compineappleEApineapple-srcreleasesdownloadEA-$versionWindows-Yuzu-EA-$version.zip"
+        "url": "https://ghfast.top/https://github.com/pineappleEA/pineapple-src/releases/download/EA-$version/Windows-Yuzu-EA-$version.zip"
       }
     }
   }

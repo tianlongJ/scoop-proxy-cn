@@ -1,12 +1,12 @@
 {
   "version": "4.90",
   "description": "Intercepts calls made to DbgPrint by device drivers and OutputDebugString made by Win32 programs.",
-  "homepage": "https:learn.microsoft.comsysinternalsdownloadsdebugview",
+  "homepage": "https://learn.microsoft.com/sysinternals/downloads/debugview",
   "license": {
     "identifier": "Freeware",
-    "url": "https:learn.microsoft.comsysinternalslicense-terms"
+    "url": "https://learn.microsoft.com/sysinternals/license-terms"
   },
-  "url": "https:download.sysinternals.comfilesDebugView.zip",
+  "url": "https://download.sysinternals.com/files/DebugView.zip",
   "hash": "05cfa3dde3d98eb333d0582556f4f520e6207fe8d335bd1e910d90692798f913",
   "architecture": {
     "64bit": {
@@ -19,8 +19,8 @@
       "shortcuts": [
         [
           "dbgview64.exe",
-          "SysInternalsDebugView",
-          "accepteula"
+          "SysInternals/DebugView",
+          "/accepteula"
         ]
       ]
     },
@@ -29,8 +29,8 @@
       "shortcuts": [
         [
           "Dbgview.exe",
-          "SysInternalsDebugView",
-          "accepteula"
+          "SysInternals/DebugView",
+          "/accepteula"
         ]
       ]
     },
@@ -44,17 +44,17 @@
       "shortcuts": [
         [
           "Dbgview64a.exe",
-          "SysInternalsDebugView",
-          "accepteula"
+          "SysInternals/DebugView",
+          "/accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsdebugview.md",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/debugview.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:download.sysinternals.comfilesDebugView.zip"
+    "url": "https://download.sysinternals.com/files/DebugView.zip"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "url": "https:github.comwangzqscoop-filesrawmasterwindbgwindbg32.zip",
+  "url": "https://github.com/wangzq/scoop-files/raw/master/windbg/windbg32.zip",
   "version": "10.0.19041.1",
   "bin": [
     [
@@ -21,11 +21,11 @@
   "shortcuts": [
     [
       "windbg.exe",
-      "HackDisassemblersWindbg x86 "
+      "Hack/Disassemblers/Windbg x86 "
     ],
     [
       "gflags.exe",
-      "HackDisassemblersGFlags x86"
+      "Hack/Disassemblers/GFlags x86"
     ]
   ]
 }

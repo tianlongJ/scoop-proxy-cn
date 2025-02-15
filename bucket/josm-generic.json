@@ -1,14 +1,14 @@
 {
   "version": "19307",
   "description": "An extensible editor for ​OpenStreetMap",
-  "homepage": "https:josm.openstreetmap.de",
+  "homepage": "https://josm.openstreetmap.de/",
   "license": "GPL-2.0-or-later",
   "suggest": {
-    "JRE with JFX": "javazulufx21-jre"
+    "JRE with JFX": "java/zulufx21-jre"
   },
   "url": [
-    "https:josm.openstreetmap.dedownloadjosm-snapshot-19307.jar",
-    "https:raw.githubusercontent.comopenstreetmapjosmmasternativewindowslogo.ico"
+    "https://josm.openstreetmap.de/download/josm-snapshot-19307.jar",
+    "https://ghfast.top/https://raw.githubusercontent.com/openstreetmap/josm/master/native/windows/logo.ico"
   ],
   "hash": [
     "d3c75a71f26b45b764f018fe9435b6b3c62e195be729dbcc40df36e65baca219",
@@ -17,7 +17,7 @@
   "pre_install": [
     "Push-Location",
     "Set-Location $dir",
-    "Set-Content -Value \"@echo off`nif `\"%1`\" == `\"h`\" goto begin`nmshta vbscript:createobject(`\"wscript.shell`\").run(`\"%~nx0 h`\",0)(window.close)&&exit`n:begin`njavaw -D64 --add-exports=java.basesun.security.action=ALL-UNNAMED --add-exports=java.desktopcom.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-exports=java.desktopcom.sun.imageio.spi=ALL-UNNAMED -jar $((Get-ChildItem josm*.jar)[0].Name)\" -Path josm.cmd",
+    "Set-Content -Value \"@echo off`nif `\"%1`\" == `\"h`\" goto begin`nmshta vbscript:createobject(`\"wscript.shell`\").run(`\"%~nx0 h`\",0)(window.close)&&exit`n:begin`njavaw -D64 --add-exports=java.base/sun.security.action=ALL-UNNAMED --add-exports=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-exports=java.desktop/com.sun.imageio.spi=ALL-UNNAMED -jar $((Get-ChildItem josm*.jar)[0].Name)\" -Path josm.cmd",
     "Pop-Location"
   ],
   "shortcuts": [
@@ -29,10 +29,10 @@
     ]
   ],
   "checkver": {
-    "url": "https:josm.openstreetmap.dewikiChangelog",
+    "url": "https://josm.openstreetmap.de/wiki/Changelog",
     "regex": "Stable release (\\d+)"
   },
   "autoupdate": {
-    "url": "https:josm.openstreetmap.dedownloadjosm-snapshot-$version.jar"
+    "url": "https://josm.openstreetmap.de/download/josm-snapshot-$version.jar"
   }
 }

@@ -1,16 +1,16 @@
 {
   "##": "We install to $dir\\install instead of just $dir because for some reason, Scoop has trouble removing $dir upon uninstallation.",
   "version": "3.6.0.0",
-  "homepage": "https:www.biglybt.com",
+  "homepage": "https://www.biglybt.com/",
   "description": "BitTorrent client.",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:github.comBiglySoftwareBiglyBTreleasesdownloadv3.6.0.0Github_BiglyBT_Installer64.exe#setup.exe",
+      "url": "https://ghfast.top/https://github.com/BiglySoftware/BiglyBT/releases/download/v3.6.0.0/Github_BiglyBT_Installer64.exe#/setup.exe",
       "hash": "18c031c93ac42f56aae25ecc977946ea36fe66bbe986dda68828c609882037fb"
     },
     "32bit": {
-      "url": "https:github.comBiglySoftwareBiglyBTreleasesdownloadv3.6.0.0Github_BiglyBT_Installer32.exe#setup.exe",
+      "url": "https://ghfast.top/https://github.com/BiglySoftware/BiglyBT/releases/download/v3.6.0.0/Github_BiglyBT_Installer32.exe#/setup.exe",
       "hash": "ba1ac11ffde4910ba6ee4d48749c740e1a83381158f59232fd6885b5477c3a7d"
     }
   },
@@ -34,19 +34,19 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comBiglySoftwareBiglyBT"
+    "github": "https://github.com/BiglySoftware/BiglyBT"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comBiglySoftwareBiglyBTreleasesdownloadv$versionGithub_BiglyBT_Installer64.exe#setup.exe"
+        "url": "https://ghfast.top/https://github.com/BiglySoftware/BiglyBT/releases/download/v$version/Github_BiglyBT_Installer64.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https:github.comBiglySoftwareBiglyBTreleasesdownloadv$versionGithub_BiglyBT_Installer32.exe#setup.exe"
+        "url": "https://ghfast.top/https://github.com/BiglySoftware/BiglyBT/releases/download/v$version/Github_BiglyBT_Installer32.exe#/setup.exe"
       }
     },
     "hash": {
-      "url": "$baseurlGithub_sha256sum.txt"
+      "url": "$baseurl/Github_sha256sum.txt"
     }
   }
 }

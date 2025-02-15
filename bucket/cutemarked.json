@@ -1,8 +1,8 @@
 {
-  "homepage": "http:cloose.github.ioCuteMarkEd",
+  "homepage": "http://cloose.github.io/CuteMarkEd",
   "version": "0.11.3",
-  "license": "https:github.comclooseCuteMarkEdblobdevelopLICENSE.md",
-  "url": "http:dl.bintray.comclooseCuteMarkEdcutemarked-0.11.3.zip",
+  "license": "https://github.com/cloose/CuteMarkEd/blob/develop/LICENSE.md",
+  "url": "http://dl.bintray.com/cloose/CuteMarkEd/cutemarked-0.11.3.zip",
   "hash": "8b2fc2e814707b932b4bf28dcbbc2f592414824d9689dfd335289545f3dbe097",
   "shortcuts": [
     [
@@ -11,9 +11,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comclooseCuteMarkEd"
+    "github": "https://github.com/cloose/CuteMarkEd"
   },
   "autoupdate": {
-    "url": "http:dl.bintray.comclooseCuteMarkEdcutemarked-$version.zip"
+    "url": "http://dl.bintray.com/cloose/CuteMarkEd/cutemarked-$version.zip"
   }
 }

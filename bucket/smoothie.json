@@ -1,11 +1,11 @@
 {
   "version": "Nightly_2024.04.12_00-05",
-  "homepage": "https:github.comcouleur-tweak-tipssmoothie-rs",
+  "homepage": "https://github.com/couleur-tweak-tips/smoothie-rs",
   "license": "GPL-3.0",
-  "description": "Add motion blur to your videos by doing frame blending (andor interpolation) using Smoothie: an user friendly VapourSynth wrapper ",
+  "description": "Add motion blur to your videos by doing frame blending (and/or interpolation) using Smoothie: an user friendly VapourSynth wrapper ",
   "architecture": {
     "64bit": {
-      "url": "https:github.comcouleur-tweak-tipssmoothie-rsreleasesdownloadNightly_2024.04.12_00-05smoothie-rs-nightly.zip",
+      "url": "https://ghfast.top/https://github.com/couleur-tweak-tips/smoothie-rs/releases/download/Nightly_2024.04.12_00-05/smoothie-rs-nightly.zip",
       "hash": "13C426920A246F185ABB02C610B8324B424BD95170E643FB2DC2625226D87840"
     }
   },
@@ -46,12 +46,12 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comcouleur-tweak-tipssmoothie-rs"
+    "github": "https://github.com/couleur-tweak-tips/smoothie-rs"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comcouleur-tweak-tipssmoothie-rsreleasesdownload$versionsmoothie-rs-nightly.zip"
+        "url": "https://ghfast.top/https://github.com/couleur-tweak-tips/smoothie-rs/releases/download/$version/smoothie-rs-nightly.zip"
       }
     }
   }

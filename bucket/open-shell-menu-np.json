@@ -1,12 +1,12 @@
 {
-  "homepage": "https:open-shell.github.ioOpen-Shell-Menu",
+  "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
   "version": "4.4.191",
   "license": "MIT",
-  "url": "https:github.comOpen-ShellOpen-Shell-Menureleasesdownloadv4.4.191OpenShellSetup_4_4_191.exe#OpenShellSetup.exe",
+  "url": "https://ghfast.top/https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.191/OpenShellSetup_4_4_191.exe#/OpenShellSetup.exe",
   "hash": "9e9c32badb52444ca8a8726aef7c220ff48de8c7916cdfdca4dff6e009ac1f0c",
   "installer": {
     "args": [
-      "qn",
+      "/qn",
       "APPLICATIONFOLDER=\"$dir\""
     ],
     "keep": true
@@ -14,15 +14,15 @@
   "uninstaller": {
     "file": "OpenShellSetup.exe",
     "args": [
-      "x",
+      "/x",
       "%MSI%",
-      "qn"
+      "/qn"
     ]
   },
   "checkver": {
-    "github": "https:github.comOpen-ShellOpen-Shell-Menu"
+    "github": "https://github.com/Open-Shell/Open-Shell-Menu"
   },
   "autoupdate": {
-    "url": "https:github.comOpen-ShellOpen-Shell-Menureleasesdownloadv$versionOpenShellSetup_$underscoreVersion.exe#OpenShellSetup.exe"
+    "url": "https://ghfast.top/https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v$version/OpenShellSetup_$underscoreVersion.exe#/OpenShellSetup.exe"
   }
 }

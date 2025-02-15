@@ -1,8 +1,8 @@
 {
   "version": "latest",
-  "homepage": "https:github.comabbodi1406KMS_VL_ALL_AIO",
+  "homepage": "https://github.com/abbodi1406/KMS_VL_ALL_AIO",
   "description": "",
-  "url": "https:github.comabbodi1406KMS_VL_ALL_AIOrawmasterKMS_VL_ALL_AIO.cmd",
+  "url": "https://github.com/abbodi1406/KMS_VL_ALL_AIO/raw/master/KMS_VL_ALL_AIO.cmd",
   "hash": "",
   "bin": "KMS_VL_ALL_AIO.cmd",
   "pre_install": "Add-MpPreference -ExclusionPath $dir",

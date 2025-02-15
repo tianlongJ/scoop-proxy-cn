@@ -1,10 +1,10 @@
 {
   "version": "0.9.60.2",
   "description": "Open-source FTP server software",
-  "homepage": "https:filezilla-project.org",
+  "homepage": "https://filezilla-project.org/",
   "license": "GPL-2.0-or-later",
   "notes": "Run 'filezilla_server' as Admin to configure FileZilla Server.",
-  "url": "https:raw.githubusercontent.comScoopInstallerBinarymasterfilezilla-serverFileZilla_Server-0_9_60_2.exe#dl.7z",
+  "url": "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Binary/master/filezilla-server/FileZilla_Server-0_9_60_2.exe#/dl.7z",
   "hash": "sha512:0e0a92f3693d31d09341354ce212f42e1941743cf5f49bffe58b0c05cbc04865470e96c145ae0ffeea060a86d618da2a7de78a38946a9c3a2dcb956d0f2b3cfa",
   "installer": {
     "script": [
@@ -14,9 +14,9 @@
   },
   "uninstaller": {
     "script": [
-      "taskkill F IM 'FileZilla Server Interface.exe' FI 'status eq running' | Out-Null",
-      "Start-Process 'cmd' -ArgumentList @('c', 'net', 'stop', '\"Filezilla Server\"') -Verb RunAs -Wait | Out-Null",
-      "Start-Process 'cmd' -ArgumentList @('c', 'sc', 'delete', '\"Filezilla Server\"') -Verb RunAs -Wait | Out-Null"
+      "taskkill /F /IM 'FileZilla Server Interface.exe' /FI 'status eq running' | Out-Null",
+      "Start-Process 'cmd' -ArgumentList @('/c', 'net', 'stop', '\"Filezilla Server\"') -Verb RunAs -Wait | Out-Null",
+      "Start-Process 'cmd' -ArgumentList @('/c', 'sc', 'delete', '\"Filezilla Server\"') -Verb RunAs -Wait | Out-Null"
     ]
   },
   "bin": [
@@ -34,12 +34,12 @@
     [
       "FileZilla Server.exe",
       "Start FileZilla Server",
-      "start"
+      "/start"
     ],
     [
       "FileZilla Server.exe",
       "Stop FileZilla Server",
-      "stop"
+      "/stop"
     ]
   ],
   "persist": "FileZilla Server.xml"

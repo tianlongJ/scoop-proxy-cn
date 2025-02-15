@@ -1,12 +1,12 @@
 {
   "version": "1.52",
   "description": "An advanced Active Directory (AD) viewer and editor.",
-  "homepage": "https:learn.microsoft.comsysinternalsdownloadsadexplorer",
+  "homepage": "https://learn.microsoft.com/sysinternals/downloads/adexplorer",
   "license": {
     "identifier": "Freeware",
-    "url": "https:learn.microsoft.comsysinternalslicense-terms"
+    "url": "https://learn.microsoft.com/sysinternals/license-terms"
   },
-  "url": "https:download.sysinternals.comfilesAdExplorer.zip",
+  "url": "https://download.sysinternals.com/files/AdExplorer.zip",
   "hash": "56536bff1e9da136a53f68c6f4f1cd51f79be919a27249a193a2bc8fc472e89a",
   "architecture": {
     "64bit": {
@@ -19,8 +19,8 @@
       "shortcuts": [
         [
           "ADExplorer64.exe",
-          "SysInternalsADExplorer",
-          "accepteula"
+          "SysInternals/ADExplorer",
+          "/accepteula"
         ]
       ]
     },
@@ -29,8 +29,8 @@
       "shortcuts": [
         [
           "ADExplorer.exe",
-          "SysInternalsADExplorer",
-          "accepteula"
+          "SysInternals/ADExplorer",
+          "/accepteula"
         ]
       ]
     },
@@ -44,17 +44,17 @@
       "shortcuts": [
         [
           "ADExplorer64a.exe",
-          "SysInternalsADExplorer",
-          "accepteula"
+          "SysInternals/ADExplorer",
+          "/accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsadexplorer.md",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/adexplorer.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:download.sysinternals.comfilesAdExplorer.zip"
+    "url": "https://download.sysinternals.com/files/AdExplorer.zip"
   }
 }

@@ -1,12 +1,12 @@
 {
   "version": "1.2.0",
   "description": "下载番茄小说",
-  "homepage": "https:github.comying-ckfanqienovel-downloader",
+  "homepage": "https://github.com/ying-ck/fanqienovel-downloader",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https:github.comying-ckfanqienovel-downloader#GPL-3.0-1-ov-file"
+    "url": "https://github.com/ying-ck/fanqienovel-downloader#GPL-3.0-1-ov-file"
   },
-  "url": "https:github.comying-ckfanqienovel-downloaderreleasesdownloadv1.2.0fanqienovel-downloader-v1.2.0.exe",
+  "url": "https://ghfast.top/https://github.com/ying-ck/fanqienovel-downloader/releases/download/v1.2.0/fanqienovel-downloader-v1.2.0.exe",
   "hash": "53a875643c052492f113206c62fa28bdaabc890479093330b6e63a3c96d45fd3",
   "pre_install": "Get-ChildItem \"$dir\\fanqienovel*.exe\" | Rename-Item -NewName 'fanqienovel.exe'",
   "shortcuts": [
@@ -17,11 +17,11 @@
   ],
   "persist": "data",
   "checkver": {
-    "url": "https:api.github.comreposying-ckfanqienovel-downloaderreleases",
+    "url": "https://api.github.com/repos/ying-ck/fanqienovel-downloader/releases",
     "jp": "$[*].assets[*].browser_download_url",
-    "regex": "releasesdownloadv([\\d.]+)(?<file>fanqienovel-downloader.*?\\.exe)"
+    "regex": "/releases/download/v([\\d.]+)/(?<file>fanqienovel-downloader.*?\\.exe)"
   },
   "autoupdate": {
-    "url": "https:github.comying-ckfanqienovel-downloaderreleasesdownloadv$version$matchFile"
+    "url": "https://ghfast.top/https://github.com/ying-ck/fanqienovel-downloader/releases/download/v$version/$matchFile"
   }
 }

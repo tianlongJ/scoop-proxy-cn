@@ -1,23 +1,23 @@
 {
   "version": "2025.02.11.232920",
   "description": "yt-dlp (official) nightly builds",
-  "homepage": "https:github.comyt-dlpyt-dlp-nightly-builds",
+  "homepage": "https://github.com/yt-dlp/yt-dlp-nightly-builds",
   "license": "Freeware",
   "suggest": {
     "ffmpeg": "ffmpeg-nightly"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comyt-dlpyt-dlp-nightly-buildsreleasesdownload2025.02.11.232920yt-dlp.exe",
+      "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.02.11.232920/yt-dlp.exe",
       "hash": "sha512:6588f9b268c1b8ccc649ac71026347f2e72e4dae6692af731ccea5f4c74aecd21dcb10bee1e42e7cb834e4524338f96b79f1fbef9bdab1572e14d5eba4f02598"
     },
     "32bit": {
-      "url": "https:github.comyt-dlpyt-dlp-nightly-buildsreleasesdownload2025.02.11.232920yt-dlp_x86.exe#yt-dlp.exe",
+      "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.02.11.232920/yt-dlp_x86.exe#/yt-dlp.exe",
       "hash": "sha512:51427140944064d59812f1c02500b5ed4976d59efbd3ef7b7ed328d1ae2f909c45904cfb428b1d4a1e2a8fd1382c568d9746eb0ea0292a9e10ec00c75dce8101"
     }
   },
   "bin": "yt-dlp.exe",
-  "pre_install": "$null = if (!(Test-Path \"$persist_diryt-dlp.conf\")) { New-Item \"$diryt-dlp.conf\" }",
+  "pre_install": "$null = if (!(Test-Path \"$persist_dir/yt-dlp.conf\")) { New-Item \"$dir/yt-dlp.conf\" }",
   "persist": [
     "yt-dlp.conf",
     "ytdlp_plugins"
@@ -26,14 +26,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comyt-dlpyt-dlp-nightly-buildsreleasesdownload$versionyt-dlp.exe"
+        "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/$version/yt-dlp.exe"
       },
       "32bit": {
-        "url": "https:github.comyt-dlpyt-dlp-nightly-buildsreleasesdownload$versionyt-dlp_x86.exe#yt-dlp.exe"
+        "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
       }
     },
     "hash": {
-      "url": "$baseurlSHA2-512SUMS"
+      "url": "$baseurl/SHA2-512SUMS"
     }
   }
 }

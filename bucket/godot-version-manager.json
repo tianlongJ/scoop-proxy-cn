@@ -1,11 +1,11 @@
 {
   "version": "1.17.1",
   "description": "Download, install and manage any version of Godot Engine from a simple app.",
-  "homepage": "https:github.comnoidexegodot-version-manager",
+  "homepage": "https://github.com/noidexe/godot-version-manager",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comnoidexegodot-version-managerreleasesdownloadv1.17.1Godot.Version.Manager.v1.17.1-win.zip",
+      "url": "https://ghfast.top/https://github.com/noidexe/godot-version-manager/releases/download/v1.17.1/Godot.Version.Manager.v1.17.1-win.zip",
       "hash": "9a4a42b484f075e79452b2aa1d03245f1433c86f1727b756aab29de7fed3edd5"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comnoidexegodot-version-managerreleasesdownloadv$versionGodot.Version.Manager.v$version-win.zip"
+        "url": "https://ghfast.top/https://github.com/noidexe/godot-version-manager/releases/download/v$version/Godot.Version.Manager.v$version-win.zip"
       }
     }
   }

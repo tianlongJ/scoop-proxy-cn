@@ -1,16 +1,16 @@
 {
   "##": ".bat won't be able to modify shell sessions of PowerShell, Fish, Bash etc. Therefore env_add_path is required.",
   "version": "4.0.3",
-  "description": "LLVM to WebAssembly compiler. Compiles CC++ to WebAssembly that can be run on most web browsers.",
-  "homepage": "https:emscripten.org",
+  "description": "LLVM to WebAssembly compiler. Compiles C/C++ to WebAssembly that can be run on most web browsers.",
+  "homepage": "https://emscripten.org/",
   "license": "MIT|NCSA",
   "notes": [
     "Run \"emsdk install latest\" and \"emsdk activate latest\" to set up emsdk.",
-    "For more details, check \"https:emscripten.orgdocsgetting_starteddownloads.html\""
+    "For more details, check \"https://emscripten.org/docs/getting_started/downloads.html\""
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comemscripten-coreemsdkarchiverefstags4.0.3.zip",
+      "url": "https://ghfast.top/https://github.com/emscripten-core/emsdk/archive/refs/tags/4.0.3.zip",
       "hash": "0a406a89b2b8cebcdca3ca9da16c27266b3761bf6e1f251140b73758f690aef6"
     }
   },
@@ -32,13 +32,13 @@
     ".emscripten"
   ],
   "checkver": {
-    "url": "https:github.comemscripten-coreemsdktags",
-    "regex": "tag([\\d.]+)"
+    "url": "https://github.com/emscripten-core/emsdk/tags",
+    "regex": "tag/([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comemscripten-coreemsdkarchiverefstags$version.zip"
+        "url": "https://ghfast.top/https://github.com/emscripten-core/emsdk/archive/refs/tags/$version.zip"
       }
     },
     "extract_dir": "emsdk-$version"

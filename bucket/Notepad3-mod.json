@@ -1,7 +1,7 @@
 {
   "version": "6.24.1221.1",
   "description": "Notepad like text editor based on the Scintilla source code.",
-  "homepage": "https:www.rizonesoft.comdownloadsnotepad3",
+  "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
   "license": "BSD-3-Clause",
   "bin": [
     "Notepad3.exe",
@@ -26,11 +26,11 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_6.24.1221.1Notepad3_6.24.1221.1_x64_Portable.zip",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3replace-windows-notepad.reg",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3restore-windows-notepad.reg",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3add-open-with-notepad3.reg",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3remove-open-with-notepad3.reg"
+        "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.24.1221.1/Notepad3_6.24.1221.1_x64_Portable.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/replace-windows-notepad.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/restore-windows-notepad.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/add-open-with-notepad3.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/remove-open-with-notepad3.reg"
       ],
       "hash": [
         "3ab81bdf132f041a489a09ed2476886218efef8242fe5badf1c8920868c21f70",
@@ -42,11 +42,11 @@
     },
     "32bit": {
       "url": [
-        "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_6.24.1221.1Notepad3_6.24.1221.1_x86_Portable.zip",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3replace-windows-notepad.reg",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3restore-windows-notepad.reg",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3add-open-with-notepad3.reg",
-        "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterscriptsnotepad3remove-open-with-notepad3.reg"
+        "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.24.1221.1/Notepad3_6.24.1221.1_x86_Portable.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/replace-windows-notepad.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/restore-windows-notepad.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/add-open-with-notepad3.reg",
+        "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/scripts/notepad3/remove-open-with-notepad3.reg"
       ],
       "hash": [
         "bacda2e4617194104167b8dc7171adaac414f0f952fb59a6518f656ca0fa9c34",
@@ -59,8 +59,8 @@
   },
   "uninstaller": {
     "script": [
-      "sudo regedit s $dir\\restore-windows-notepad.reg",
-      "sudo regedit s $dir\\remove-open-with-notepad3.reg"
+      "sudo regedit /s $dir\\restore-windows-notepad.reg",
+      "sudo regedit /s $dir\\remove-open-with-notepad3.reg"
     ]
   },
   "post_install": [
@@ -70,25 +70,25 @@
     "    $content = $content -Replace '\\$notepad3', $notepad3",
     "    Set-Content \"$dir\\replace-windows-notepad.reg\" $content -Encoding ASCII",
     "}",
-    "sudo regedit s $dir\\replace-windows-notepad.reg",
+    "sudo regedit /s $dir\\replace-windows-notepad.reg",
     "if (Test-Path(\"$dir\\add-open-with-notepad3.reg\")) {",
     "    $content = Get-Content \"$dir\\add-open-with-notepad3.reg\"",
     "    $content = $content -Replace '\\$notepad3', $notepad3",
     "    Set-Content \"$dir\\add-open-with-notepad3.reg\" $content -Encoding ASCII",
     "}",
-    "sudo regedit s $dir\\add-open-with-notepad3.reg"
+    "sudo regedit /s $dir\\add-open-with-notepad3.reg"
   ],
   "checkver": {
-    "url": "https:github.comrizonesoftNotepad3releases",
-    "regex": "tagRELEASE_([\\d.]+)"
+    "url": "https://github.com/rizonesoft/Notepad3/releases",
+    "regex": "tag/RELEASE_([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_$versionNotepad3_$version_x64_Portable.zip"
+        "url": "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x64_Portable.zip"
       },
       "32bit": {
-        "url": "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_$versionNotepad3_$version_x86_Portable.zip"
+        "url": "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x86_Portable.zip"
       }
     }
   }

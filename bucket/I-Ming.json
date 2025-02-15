@@ -1,13 +1,13 @@
 {
   "version": "8.10",
   "description": "Traditional printing orthography Traditional Chinese font 傳承印刷字形的正體（繁體）中文字型",
-  "homepage": "https:github.comichitenfontI.Ming",
+  "homepage": "https://github.com/ichitenfont/I.Ming",
   "license": "IPA",
   "url": [
-    "https:github.comichitenfontI.Mingreleasesdownload8.10I.Ming-8.10.ttf",
-    "https:github.comichitenfontI.Mingreleasesdownload8.10I.MingCP-8.10.ttf",
-    "https:github.comichitenfontI.Mingreleasesdownload8.10I.MingVar-8.10.ttf",
-    "https:github.comichitenfontI.Mingreleasesdownload8.10I.MingVarCP-8.10.ttf"
+    "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/8.10/I.Ming-8.10.ttf",
+    "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/8.10/I.MingCP-8.10.ttf",
+    "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/8.10/I.MingVar-8.10.ttf",
+    "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/8.10/I.MingVarCP-8.10.ttf"
   ],
   "hash": [
     "cba13b75b050d671b611d0063147262e421e14359ad4530948b070f56111f0f3",
@@ -36,7 +36,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
+      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -98,10 +98,10 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https:github.comichitenfontI.Mingreleasesdownload$versionI.Ming-$version.ttf",
-      "https:github.comichitenfontI.Mingreleasesdownload$versionI.MingCP-$version.ttf",
-      "https:github.comichitenfontI.Mingreleasesdownload$versionI.MingVar-$version.ttf",
-      "https:github.comichitenfontI.Mingreleasesdownload$versionI.MingVarCP-$version.ttf"
+      "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.Ming-$version.ttf",
+      "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingCP-$version.ttf",
+      "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingVar-$version.ttf",
+      "https://ghfast.top/https://github.com/ichitenfont/I.Ming/releases/download/$version/I.MingVarCP-$version.ttf"
     ]
   }
 }

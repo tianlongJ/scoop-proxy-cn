@@ -1,14 +1,14 @@
 {
   "version": "0.9.1",
   "description": "Music player with a sleek UI",
-  "homepage": "https:getharmony.xyz",
+  "homepage": "https://getharmony.xyz/",
   "license": {
     "identifier": "Shareware",
-    "url": "https:getharmony.xyzlicense"
+    "url": "https://getharmony.xyz/license"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comvincelwtharmonyreleasesdownloadv0.9.1harmony-0.9.1-setup.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/vincelwt/harmony/releases/download/v0.9.1/harmony-0.9.1-setup.exe#/dl.7z",
       "hash": "5583d9963e8425a9f47c7023465ad959610e2183a39ccc04a423a61f5b6bc7d6",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -23,12 +23,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comvincelwtharmony"
+    "github": "https://github.com/vincelwt/harmony"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comvincelwtharmonyreleasesdownloadv$versionharmony-$version-setup.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/vincelwt/harmony/releases/download/v$version/harmony-$version-setup.exe#/dl.7z"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "version": "0.9.6",
   "description": "MeshCommander. The ultimate open source Intel® AMT management console",
-  "homepage": "https:www.meshcommander.commeshcommander",
+  "homepage": "https://www.meshcommander.com/meshcommander",
   "license": "GPL-3.0-only",
-  "changelog": "https:github.commaxirusmeshcommanderreleases",
-  "url": "https:meshcentral.commeshcommanderMeshCommander-0.9.6.msi",
+  "changelog": "https://github.com/maxirus/meshcommander/releases",
+  "url": "https://meshcentral.com/meshcommander/MeshCommander-0.9.6.msi",
   "hash": "e284fa77a20b57d62a998078142eecd9f2c985befe32b948bd69e2d355ecf9e1",
-  "extract_dir": "Open SourceMeshCommander",
+  "extract_dir": "Open Source/MeshCommander",
   "shortcuts": [
     [
       "nw.exe",
@@ -14,10 +14,10 @@
     ]
   ],
   "checkver": {
-    "url": "https:www.meshcommander.commeshcommander",
+    "url": "https://www.meshcommander.com/meshcommander",
     "regex": "MeshCommander ([\\d.]+)<"
   },
   "autoupdate": {
-    "url": "https:meshcentral.commeshcommanderMeshCommander-$version.msi"
+    "url": "https://meshcentral.com/meshcommander/MeshCommander-$version.msi"
   }
 }

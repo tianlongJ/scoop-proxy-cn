@@ -1,13 +1,13 @@
 {
   "version": "2.1.0",
-  "homepage": "http:http-prompt.com",
+  "homepage": "http://http-prompt.com/",
   "description": "Command-line HTTP client featuring autocomplete and syntax highlighting.",
   "license": "MIT",
   "depends": [
     "httpie-py",
     "python-bucket-utils"
   ],
-  "url": "https:github.comeliangcshttp-promptarchivev2.1.0.zip",
+  "url": "https://ghfast.top/https://github.com/eliangcs/http-prompt/archive/v2.1.0.zip",
   "hash": "f7a96441988ce012305eac616d8f7e300e84571af1e34cf01137774b4c0ff6a6",
   "extract_dir": "http-prompt-2.1.0",
   "installer": {
@@ -24,10 +24,10 @@
     ]
   },
   "checkver": {
-    "github": "https:github.comeliangcshttp-prompt"
+    "github": "https://github.com/eliangcs/http-prompt"
   },
   "autoupdate": {
-    "url": "https:github.comeliangcshttp-promptarchivev$version.zip",
+    "url": "https://ghfast.top/https://github.com/eliangcs/http-prompt/archive/v$version.zip",
     "extract_dir": "http-prompt-$version"
   }
 }

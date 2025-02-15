@@ -1,12 +1,12 @@
 {
   "version": "2.41",
   "description": "Graphical disk sector utility.",
-  "homepage": "https:learn.microsoft.comsysinternalsdownloadsdiskview",
+  "homepage": "https://learn.microsoft.com/sysinternals/downloads/diskview",
   "license": {
     "identifier": "Freeware",
-    "url": "https:learn.microsoft.comsysinternalslicense-terms"
+    "url": "https://learn.microsoft.com/sysinternals/license-terms"
   },
-  "url": "https:download.sysinternals.comfilesDiskView.zip",
+  "url": "https://download.sysinternals.com/files/DiskView.zip",
   "hash": "0ceac1623419ce74cfd079823130a76e23d1932ba6cc396157a299e9f23ebe2d",
   "architecture": {
     "64bit": {
@@ -19,8 +19,8 @@
       "shortcuts": [
         [
           "DiskView64.exe",
-          "SysInternalsDiskView",
-          "accepteula"
+          "SysInternals/DiskView",
+          "/accepteula"
         ]
       ]
     },
@@ -29,8 +29,8 @@
       "shortcuts": [
         [
           "DiskView.exe",
-          "SysInternalsDiskView",
-          "accepteula"
+          "SysInternals/DiskView",
+          "/accepteula"
         ]
       ]
     },
@@ -44,17 +44,17 @@
       "shortcuts": [
         [
           "DiskView64a.exe",
-          "SysInternalsDiskView",
-          "accepteula"
+          "SysInternals/DiskView",
+          "/accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsdiskview.md",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/diskview.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https:download.sysinternals.comfilesDiskView.zip"
+    "url": "https://download.sysinternals.com/files/DiskView.zip"
   }
 }

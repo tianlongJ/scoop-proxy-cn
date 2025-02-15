@@ -1,18 +1,18 @@
 {
   "version": "3.3.3.1",
-  "homepage": "https:bluepointlilac.github.ioContextMenuManager",
+  "homepage": "https://bluepointlilac.github.io/ContextMenuManager/",
   "description": "A program to manage the Windows right-click context menu.",
   "license": "MIT",
   "url": [
-    "https:github.comBluePointLilacContextMenuManagerreleasesdownload3.3.3.1ContextMenuManager.NET.4.0.exe#context-menu-manager.exe",
-    "https:raw.githubusercontent.comBluePointLilacContextMenuManager3.3.3.1languagesen-US.ini"
+    "https://ghfast.top/https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.3.3.1/ContextMenuManager.NET.4.0.exe#/context-menu-manager.exe",
+    "https://ghfast.top/https://raw.githubusercontent.com/BluePointLilac/ContextMenuManager/3.3.3.1/languages/en-US.ini"
   ],
   "hash": [
     "1352c2222d2d28dd1a8824334f16c0676dfe88cd7211de873ec9b125f6782ec7",
     "dafd917370694cb6434444bd278f131cf1204b371a7242c9179a4afa36afcc23"
   ],
   "suggest": {
-    ".NET Desktop Runtime": "extraswindowsdesktop-runtime"
+    ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
   },
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\Config\\Config.ini\")) {",
@@ -36,12 +36,12 @@
   ],
   "post_install": "Move-Item \"$dir\\en-US.ini\" \"$dir\\Config\\Languages\"",
   "checkver": {
-    "github": "https:github.comBluePointLilacContextMenuManager"
+    "github": "https://github.com/BluePointLilac/ContextMenuManager"
   },
   "autoupdate": {
     "url": [
-      "https:github.comBluePointLilacContextMenuManagerreleasesdownload$versionContextMenuManager.NET.4.0.exe#context-menu-manager.exe",
-      "https:raw.githubusercontent.comBluePointLilacContextMenuManager$versionlanguagesen-US.ini"
+      "https://ghfast.top/https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.NET.4.0.exe#/context-menu-manager.exe",
+      "https://ghfast.top/https://raw.githubusercontent.com/BluePointLilac/ContextMenuManager/$version/languages/en-US.ini"
     ]
   }
 }

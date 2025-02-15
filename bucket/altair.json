@@ -1,11 +1,11 @@
 {
   "version": "8.1.4",
   "description": "Feature-rich GraphQL Client",
-  "homepage": "https:altair.sirmuel.design",
+  "homepage": "https://altair.sirmuel.design",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comaltair-graphqlaltairreleasesdownloadv8.1.4altair_8.1.4_x64_win.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/altair-graphql/altair/releases/download/v8.1.4/altair_8.1.4_x64_win.exe#/dl.7z",
       "hash": "sha512:c3827864cbe5650785d44efe93a95d4689355373e0b789889fb096f159c11c2875f3b5930fc652f95128b5f749aa77689d085363f0b7ca5a925f7ec825b0c0fe",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -20,14 +20,14 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comaltair-graphqlaltair"
+    "github": "https://github.com/altair-graphql/altair"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comaltair-graphqlaltairreleasesdownloadv$versionaltair_$version_x64_win.exe#dl.7z",
+        "url": "https://ghfast.top/https://github.com/altair-graphql/altair/releases/download/v$version/altair_$version_x64_win.exe#/dl.7z",
         "hash": {
-          "url": "$baseurllatest.yml",
+          "url": "$baseurl/latest.yml",
           "regex": "sha512:\\s+$base64"
         }
       }

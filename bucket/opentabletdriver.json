@@ -1,19 +1,19 @@
 {
   "version": "0.6.5.1",
   "description": "Open source, cross-platform, user-mode tablet driver",
-  "homepage": "https:opentabletdriver.net",
+  "homepage": "https://opentabletdriver.net",
   "license": {
     "identifier": "LGPL-3.0",
-    "url": "https:github.comOpenTabletDriverOpenTabletDriverblobmasterLICENSE"
+    "url": "https://github.com/OpenTabletDriver/OpenTabletDriver/blob/master/LICENSE"
   },
-  "notes": "Only certain tablets require zadig, see https:opentabletdriver.netWikiInstallWindows#winusb",
+  "notes": "Only certain tablets require zadig, see https://opentabletdriver.net/Wiki/Install/Windows#winusb",
   "suggest": {
-    ".NET SDK": "versionsdotnet6-sdk",
-    "WinUSB": "nonportablezadig-np"
+    ".NET SDK": "versions/dotnet6-sdk",
+    "WinUSB": "nonportable/zadig-np"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comOpenTabletDriverOpenTabletDriverreleasesdownloadv0.6.5.1OpenTabletDriver-0.6.5.1_win-x64.zip",
+      "url": "https://ghfast.top/https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/OpenTabletDriver-0.6.5.1_win-x64.zip",
       "hash": "bc549e0ccfc6a7c12d131777f1592487fed9f6fc45c11afa2763612d6dfc4316"
     }
   },
@@ -45,12 +45,12 @@
   ],
   "persist": "userdata",
   "checkver": {
-    "github": "https:github.comOpenTabletDriverOpenTabletDriver"
+    "github": "https://github.com/OpenTabletDriver/OpenTabletDriver"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comOpenTabletDriverOpenTabletDriverreleasesdownloadv$versionOpenTabletDriver-$version_win-x64.zip"
+        "url": "https://ghfast.top/https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v$version/OpenTabletDriver-$version_win-x64.zip"
       }
     }
   }

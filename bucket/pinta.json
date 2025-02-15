@@ -1,11 +1,11 @@
 {
   "version": "2.1.2",
   "description": "Open source program for drawing and image editing.",
-  "homepage": "https:www.pinta-project.com",
+  "homepage": "https://www.pinta-project.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comPintaProjectPintareleasesdownload2.1.2Pinta.exe#Pinta-dl.exe",
+      "url": "https://ghfast.top/https://github.com/PintaProject/Pinta/releases/download/2.1.2/Pinta.exe#/Pinta-dl.exe",
       "hash": "5e0a8d5af1a1807ae6d5c57ed2c1969b5b1ac0a110b2c015c0c8c09de1f06465"
     }
   },
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comPintaProjectPinta"
+    "github": "https://github.com/PintaProject/Pinta"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comPintaProjectPintareleasesdownload$versionPinta.exe#Pinta-dl.exe"
+        "url": "https://ghfast.top/https://github.com/PintaProject/Pinta/releases/download/$version/Pinta.exe#/Pinta-dl.exe"
       }
     }
   }

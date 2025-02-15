@@ -1,10 +1,10 @@
 {
   "version": "v7.1",
   "description": "A remapping program for Nintendo Switch controllers",
-  "homepage": "https:github.comDavidobotBetterJoy",
+  "homepage": "https://github.com/Davidobot/BetterJoy",
   "license": {
     "identifier": "MIT",
-    "url": "https:github.comDavidobotBetterJoyblobmasterLICENSE"
+    "url": "https://github.com/Davidobot/BetterJoy/blob/master/LICENSE"
   },
   "notes": [
     "BetterJoy needs vigembus installed to function.",
@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comDavidobotBetterJoyreleasesdownloadv7.1BetterJoy_v7.1.zip",
+      "url": "https://ghfast.top/https://github.com/Davidobot/BetterJoy/releases/download/v7.1/BetterJoy_v7.1.zip",
       "hash": "a9ffe5bb14b05e775f34f9eeff41fca89a350d49252eedae1e330e88952e7f36"
     }
   },
@@ -33,14 +33,14 @@
     "settings"
   ],
   "checkver": {
-    "github": "https:github.comDavidobotBetterJoy",
-    "regex": "download(?<build>v[\\d\\.]+[a-z]?)",
+    "github": "https://github.com/Davidobot/BetterJoy",
+    "regex": "download/(?<build>v[\\d\\.]+[a-z]?)",
     "replace": "${1}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comDavidobotBetterJoyreleasesdownload$matchBuildBetterJoy_$matchBuild.zip"
+        "url": "https://ghfast.top/https://github.com/Davidobot/BetterJoy/releases/download/$matchBuild/BetterJoy_$matchBuild.zip"
       }
     }
   }

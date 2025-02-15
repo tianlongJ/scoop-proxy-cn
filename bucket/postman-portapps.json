@@ -1,10 +1,10 @@
 {
   "version": "11.6.1-60",
   "description": "A complete toolchain for API developers.",
-  "homepage": "https:www.getpostman.com",
+  "homepage": "https://www.getpostman.com/",
   "license": {
     "identifier": "Freeware",
-    "url": "https:www.getpostman.compricing"
+    "url": "https://www.getpostman.com/pricing"
   },
   "persist": [
     "data",
@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https:github.comportappspostman-portablereleasesdownload11.6.1-60postman-portable-win64-11.6.1-60.7z#dl.7z",
+      "url": "https://ghfast.top/https://github.com/portapps/postman-portable/releases/download/11.6.1-60/postman-portable-win64-11.6.1-60.7z#/dl.7z",
       "hash": "0ce061a562e27faf6fc2e3b6c5e8d83923d4204c301c086a74e10643c8babc44"
     }
   },
@@ -25,18 +25,18 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\postman-portable.yml\")) { New-Item \"$dir\\postman-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https:github.comportappspostman-portablereleases",
-    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
+    "url": "https://github.com/portapps/postman-portable/releases",
+    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comportappspostman-portablereleasesdownload$versionpostman-portable-win64-$version.7z#dl.7z"
+        "url": "https://ghfast.top/https://github.com/portapps/postman-portable/releases/download/$version/postman-portable-win64-$version.7z#/dl.7z"
       }
     },
     "hash": {
-      "url": "$baseurlchecksums.txt"
+      "url": "$baseurl/checksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https:portapps.ioapppostman-portable)"
+  "notes": "Installed from Portapps (https://portapps.io/app/postman-portable/)"
 }

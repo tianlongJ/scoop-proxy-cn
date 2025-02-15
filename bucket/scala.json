@@ -1,16 +1,16 @@
 {
   "version": "3.6.3",
   "description": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
-  "homepage": "https:www.scala-lang.org",
+  "homepage": "https://www.scala-lang.org/",
   "license": "BSD-3-Clause",
   "notes": [
-    "Scala 3 has been installed. If you haven't migrated yet, install versionsscala2.",
-    "Or follow the migration guide: https:docs.scala-lang.orgscala3guidesmigrationcompatibility-intro.html"
+    "Scala 3 has been installed. If you haven't migrated yet, install versions/scala2.",
+    "Or follow the migration guide: https://docs.scala-lang.org/scala3/guides/migration/compatibility-intro.html"
   ],
   "suggest": {
-    "JDK": "javaopenjdk"
+    "JDK": "java/openjdk"
   },
-  "url": "https:github.comscalascala3releasesdownload3.6.3scala3-3.6.3.msi",
+  "url": "https://ghfast.top/https://github.com/scala/scala3/releases/download/3.6.3/scala3-3.6.3.msi",
   "hash": "a5f768bb74af3a3215cdfb695cbe4a96b933429ee23e4f640395301f810a9805",
   "extract_dir": "PFiles\\Scala",
   "bin": [
@@ -22,10 +22,10 @@
     "SCALA_HOME": "$dir"
   },
   "checkver": {
-    "github": "https:github.comscalascala3"
+    "github": "https://github.com/scala/scala3/"
   },
   "autoupdate": {
-    "url": "https:github.comscalascala3releasesdownload$versionscala3-$version.msi",
+    "url": "https://ghfast.top/https://github.com/scala/scala3/releases/download/$version/scala3-$version.msi",
     "hash": {
       "url": "$url.sha256"
     }

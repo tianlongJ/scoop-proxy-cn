@@ -1,11 +1,11 @@
 {
   "version": "2.4.0",
   "description": "ePub XHTML Visual Editor",
-  "homepage": "https:github.comSigil-EbookPageEdit",
+  "homepage": "https://github.com/Sigil-Ebook/PageEdit",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https:github.comSigil-EbookPageEditreleasesdownload2.4.0PageEdit-2.4.0-Windows-x64-Setup.exe",
+      "url": "https://ghfast.top/https://github.com/Sigil-Ebook/PageEdit/releases/download/2.4.0/PageEdit-2.4.0-Windows-x64-Setup.exe",
       "hash": "2ad9f5b1d760f20099bb05b0bb9c42c6de9a9bc80313020072d776e6d958dca1"
     }
   },
@@ -21,11 +21,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comSigil-EbookPageEditreleasesdownload$versionPageEdit-$version-Windows-x64-Setup.exe"
+        "url": "https://ghfast.top/https://github.com/Sigil-Ebook/PageEdit/releases/download/$version/PageEdit-$version-Windows-x64-Setup.exe"
       }
     },
     "hash": {
-      "url": "$baseurlPageEdit-$version-CHECKSUMS.sha256.txt"
+      "url": "$baseurl/PageEdit-$version-CHECKSUMS.sha256.txt"
     }
   }
 }

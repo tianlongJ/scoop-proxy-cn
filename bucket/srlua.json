@@ -1,13 +1,13 @@
 {
   "version": "5.4.7",
   "description": "A tool for building self-running Lua programs",
-  "homepage": "https:github.comLuaDistsrlua",
+  "homepage": "https://github.com/LuaDist/srlua",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": [
-        "https:joedf.ahkscript.orgLuaBuildshdatasrlua-5.4.7_Win64_bin.zip",
-        "https:joedf.ahkscript.orgLuaBuildshdatalibgcc_s_dw2-1.dll.zip"
+        "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-5.4.7_Win64_bin.zip",
+        "https://joedf.ahkscript.org/LuaBuilds/hdata/libgcc_s_dw2-1.dll.zip"
       ],
       "hash": [
         "89d2a8d1dcf4241d135afb379f6cc4e9c6335a174e8cad4021fc43552cfb2401",
@@ -16,8 +16,8 @@
     },
     "32bit": {
       "url": [
-        "https:joedf.ahkscript.orgLuaBuildshdatasrlua-5.4.7_Win32_bin.zip",
-        "https:joedf.ahkscript.orgLuaBuildshdatalibgcc_s_dw2-1.dll.zip"
+        "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-5.4.7_Win32_bin.zip",
+        "https://joedf.ahkscript.org/LuaBuilds/hdata/libgcc_s_dw2-1.dll.zip"
       ],
       "hash": [
         "8f96525f4095f5423ef9c3182b7af34650591fcceb13869e71c31437ae3ea38b",
@@ -30,16 +30,16 @@
     "srglue.exe"
   ],
   "checkver": {
-    "url": "https:joedf.ahkscript.orgLuaBuilds",
+    "url": "https://joedf.ahkscript.org/LuaBuilds/",
     "regex": "Lua ([\\d.]+(-[\\w]+)?)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:joedf.ahkscript.orgLuaBuildshdatasrlua-$version_Win64_bin.zip"
+        "url": "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-$version_Win64_bin.zip"
       },
       "32bit": {
-        "url": "https:joedf.ahkscript.orgLuaBuildshdatasrlua-$version_Win32_bin.zip"
+        "url": "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-$version_Win32_bin.zip"
       }
     }
   }

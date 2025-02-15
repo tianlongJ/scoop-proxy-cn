@@ -1,16 +1,16 @@
 {
   "version": "12869158128",
   "description": "Chat client for twitch.tv. See releases for download. Only nightlies are supported (fork of Chatterino 2).",
-  "homepage": "https:github.comMm2PLdankerino",
+  "homepage": "https://github.com/Mm2PL/dankerino",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https:github.comMm2PLdankerinoreleasesdownloadnightly-buildchatterino-windows-x86-64-Qt-6.7.1.zip",
+      "url": "https://ghfast.top/https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.1.zip",
       "hash": "0b2b6d16e1c1e2f401d54773388073fc6d7ac96afb02790945746679d8c67f9d",
       "extract_dir": "Chatterino2",
       "pre_install": [
-        "Get-ChildItem \"$dirchatterino.exe\" | Rename-Item -NewName { $_.name.Replace('chatterino', 'dankerino-portable') }",
-        "$modes = \"$dirmodes\"",
+        "Get-ChildItem \"$dir/chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('chatterino', 'dankerino-portable') }",
+        "$modes = \"$dir/modes\"",
         "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Invoke-Expression \"'portable' >$(if (Test-Path $modes) { '>' }) `$modes\""
       ]
@@ -31,9 +31,9 @@
   "checkver": {
     "script": [
       "try {",
-      "    $null = (Invoke-WebRequest https:raw.githubusercontent.comMm2PLdankerinodankerino.githubworkflowsbuild.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
+      "    $null = (Invoke-WebRequest https://ghfast.top/https://raw.githubusercontent.com/Mm2PL/dankerino/dankerino/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
       "    $Matches[1],",
-      "    (Invoke-RestMethod 'https:api.github.comrepositories202738310actionsworkflowsbuild.ymlruns?branch=dankerino&status=success').workflow_runs[0].id -join ' '",
+      "    (Invoke-RestMethod 'https://api.github.com/repositories/202738310/actions/workflows/build.yml/runs?branch=dankerino&status=success').workflow_runs[0].id -join ' '",
       "}",
       "catch { '' }"
     ],
@@ -42,7 +42,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comMm2PLdankerinoreleasesdownloadnightly-buildchatterino-windows-x86-64-Qt-$matchQt.zip"
+        "url": "https://ghfast.top/https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
       }
     }
   }

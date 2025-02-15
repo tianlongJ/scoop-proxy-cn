@@ -1,14 +1,14 @@
 {
   "version": "0.3.2",
-  "description": "Audio Share can share WindowsLinux computer's audio to Android phone over network, so your phone becomes the speaker of computer. (You needn't to buy a new speaker😄.)",
-  "homepage": "https:github.commkckr0audio-share",
+  "description": "Audio Share can share Windows/Linux computer's audio to Android phone over network, so your phone becomes the speaker of computer. (You needn't to buy a new speaker😄.)",
+  "homepage": "https://github.com/mkckr0/audio-share",
   "license": {
     "identifier": "Apache-2.0 license",
-    "url": "https:github.commkckr0audio-shareblobmainLICENSE"
+    "url": "https://github.com/mkckr0/audio-share/blob/main/LICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.commkckr0audio-sharereleasesdownloadv0.3.2AudioShareServer.exe",
+      "url": "https://ghfast.top/https://github.com/mkckr0/audio-share/releases/download/v0.3.2/AudioShareServer.exe",
       "hash": "b53c8825be320e5f0c06b4f7efe4fea2023093818a0426d4e7f17bbc4ad1e0c7"
     }
   },
@@ -19,13 +19,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposmkckr0audio-sharereleases",
-    "regex": "releasestagv([\\d.]+)"
+    "url": "https://api.github.com/repos/mkckr0/audio-share/releases",
+    "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.commkckr0audio-sharereleasesdownloadv$versionAudioShareServer.exe"
+        "url": "https://ghfast.top/https://github.com/mkckr0/audio-share/releases/download/v$version/AudioShareServer.exe"
       }
     }
   }

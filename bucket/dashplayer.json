@@ -1,9 +1,9 @@
 {
   "version": "5.1.2",
   "description": "A vedio player just for learning English",
-  "homepage": "https:github.comsolidSpoonDashPlayer",
+  "homepage": "https://github.com/solidSpoon/DashPlayer",
   "license": "MIT",
-  "url": "https:github.comsolidSpoonDashPlayerreleasesdownloadv5.1.2DashPlayer-5.1.2.setup.exe",
+  "url": "https://ghfast.top/https://github.com/solidSpoon/DashPlayer/releases/download/v5.1.2/DashPlayer-5.1.2.setup.exe",
   "hash": "11eb166cbaf90efad8f28d77f67a04d2bf7028e2b0ce0b8fc6a2d6d338255deb",
   "installer": {
     "script": [
@@ -19,9 +19,9 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comsolidSpoonDashPlayer"
+    "github": "https://github.com/solidSpoon/DashPlayer"
   },
   "autoupdate": {
-    "url": "https:github.comsolidSpoonDashPlayerreleasesdownloadv$versionDashPlayer-$version.setup.exe"
+    "url": "https://ghfast.top/https://github.com/solidSpoon/DashPlayer/releases/download/v$version/DashPlayer-$version.setup.exe"
   }
 }

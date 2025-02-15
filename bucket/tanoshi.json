@@ -1,14 +1,14 @@
 {
   "version": "0.30.0",
   "description": "Selfhosted web manga reader",
-  "homepage": "https:faldez.github.iotanoshi",
+  "homepage": "https://faldez.github.io/tanoshi",
   "license": "MIT",
-  "notes": "If the GUI does not work properly, you may install Microsoft Edge WebView2 Runtime (https:go.microsoft.comfwlinkp?LinkId=2124703) manually.",
+  "notes": "If the GUI does not work properly, you may install Microsoft Edge WebView2 Runtime (https://go.microsoft.com/fwlink/p/?LinkId=2124703) manually.",
   "architecture": {
     "64bit": {
       "url": [
-        "https:github.comfaldeztanoshireleasesdownloadv0.29.2Tanoshi_0.29.2_x64_en-US.msi",
-        "https:github.comfaldeztanoshireleasesdownloadv0.30.0tanoshi-win.exe#tanoshi-cli.exe"
+        "https://ghfast.top/https://github.com/faldez/tanoshi/releases/download/v0.29.2/Tanoshi_0.29.2_x64_en-US.msi",
+        "https://ghfast.top/https://github.com/faldez/tanoshi/releases/download/v0.30.0/tanoshi-win.exe#/tanoshi-cli.exe"
       ],
       "hash": [
         "81f844bb503a20392ffa9b18c728c5de272c7b1c96bcc30bd8f5b77acf000384",
@@ -25,14 +25,14 @@
     ]
   ],
   "checkver": {
-    "github": "https:github.comfaldeztanoshi"
+    "github": "https://github.com/faldez/tanoshi"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
         "url": [
-          "https:github.comfaldeztanoshireleasesdownloadv0.29.2Tanoshi_0.29.2_x64_en-US.msi",
-          "https:github.comfaldeztanoshireleasesdownloadv$versiontanoshi-win.exe#tanoshi-cli.exe"
+          "https://ghfast.top/https://github.com/faldez/tanoshi/releases/download/v0.29.2/Tanoshi_0.29.2_x64_en-US.msi",
+          "https://ghfast.top/https://github.com/faldez/tanoshi/releases/download/v$version/tanoshi-win.exe#/tanoshi-cli.exe"
         ]
       }
     }

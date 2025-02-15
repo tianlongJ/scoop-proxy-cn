@@ -1,14 +1,14 @@
 {
   "version": "0.45.2",
   "description": "Local-first, E2E encrypted software for creating and storing tasks, notes, ideas, documents, workflows, and more.",
-  "homepage": "https:anytype.io",
+  "homepage": "https://anytype.io/",
   "license": {
     "identifier": "Freeware",
-    "url": "https:anytype.ioterms_of_use"
+    "url": "https://anytype.io/terms_of_use"
   },
   "architecture": {
     "64bit": {
-      "url": "https:github.comanyprotoanytype-tsreleasesdownloadv0.45.2Anytype.Setup.0.45.2.exe#dl.7z",
+      "url": "https://ghfast.top/https://github.com/anyproto/anytype-ts/releases/download/v0.45.2/Anytype.Setup.0.45.2.exe#/dl.7z",
       "hash": "a1622925dcee718243137005df45ea79a07bc5828f90fd480578a581d3feb687",
       "pre_install": [
         "Remove-Item \"$dir\\resources\" -Recurse",
@@ -24,13 +24,13 @@
     ]
   ],
   "checkver": {
-    "url": "https:api.github.comreposanyprotoanytype-tsreleases",
+    "url": "https://api.github.com/repos/anyproto/anytype-ts/releases",
     "regex": "Anytype\\.Setup\\.([\\d.]+)\\.exe\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comanyprotoanytype-tsreleasesdownloadv$versionAnytype.Setup.$version.exe#dl.7z"
+        "url": "https://ghfast.top/https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.$version.exe#/dl.7z"
       }
     }
   }

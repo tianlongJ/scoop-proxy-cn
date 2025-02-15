@@ -1,11 +1,11 @@
 {
   "version": "3.0.28",
-  "description": "Scans K8s clusters, YAML files, and HELM charts, and detect misconfigurations and software vulnerabilities at early stages of the CICD pipeline and provides a risk score instantly and risk trends over time.",
-  "homepage": "https:github.comkubescapekubescape",
+  "description": "Scans K8s clusters, YAML files, and HELM charts, and detect misconfigurations and software vulnerabilities at early stages of the CI/CD pipeline and provides a risk score instantly and risk trends over time.",
+  "homepage": "https://github.com/kubescape/kubescape/",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https:github.comkubescapekubescapereleasesdownloadv3.0.28kubescape.exe",
+      "url": "https://ghfast.top/https://github.com/kubescape/kubescape/releases/download/v3.0.28/kubescape.exe",
       "hash": "fb697b4c0dfd65a9ba8bb8d7b3f8828e3b5d0c612f46c9cb297198e088db36bd"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https:github.comkubescapekubescapereleasesdownloadv$versionkubescape.exe"
+        "url": "https://ghfast.top/https://github.com/kubescape/kubescape/releases/download/v$version/kubescape.exe"
       }
     }
   }
