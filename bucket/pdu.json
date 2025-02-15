@@ -1,11 +1,11 @@
 {
   "version": "0.11.0",
   "description": "Highly parallelized, blazing fast directory tree analyzer",
-  "homepage": "https://github.com/KSXGitHub/parallel-disk-usage",
+  "homepage": "https:github.comKSXGitHubparallel-disk-usage",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/KSXGitHub/parallel-disk-usage/releases/download/0.11.0/pdu-x86_64-pc-windows-msvc.exe#/pdu.exe",
+      "url": "https:github.comKSXGitHubparallel-disk-usagereleasesdownload0.11.0pdu-x86_64-pc-windows-msvc.exe#pdu.exe",
       "hash": "39d94288e9e1061f6cdc69073d3675bd0eec874b48a1476a0fa80ba82cf5c5cb"
     }
   },
@@ -14,11 +14,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/KSXGitHub/parallel-disk-usage/releases/download/$version/pdu-x86_64-pc-windows-msvc.exe#/pdu.exe"
+        "url": "https:github.comKSXGitHubparallel-disk-usagereleasesdownload$versionpdu-x86_64-pc-windows-msvc.exe#pdu.exe"
       }
     },
     "hash": {
-      "url": "$baseurl/sha256sum.txt"
+      "url": "$baseurlsha256sum.txt"
     }
   }
 }

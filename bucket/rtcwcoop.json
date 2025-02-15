@@ -1,8 +1,8 @@
 {
   "version": "1.0.2",
   "description": "Source port for playing Return to Castle Wolfenstein cooperatively",
-  "homepage": "https://www.rtcwcoop.com/",
-  "license": "https://github.com/rtcwcoop/rtcwcoop/blob/master/COPYING.txt",
+  "homepage": "https:www.rtcwcoop.com",
+  "license": "https:github.comrtcwcooprtcwcoopblobmasterCOPYING.txt",
   "notes": [
     "Place game data files (such as pak0.pk3, sp_pak1.pk3-sp_pak4.pk3, mp_*.pk3) in:",
     "",
@@ -10,7 +10,7 @@
   ],
   "architecture": {
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/rtcwcoop/rtcwcoop/releases/download/1.0.2/rtcwcoop-1.0.2-win-x86.zip",
+      "url": "https:github.comrtcwcooprtcwcoopreleasesdownload1.0.2rtcwcoop-1.0.2-win-x86.zip",
       "hash": "7946046c9de3189d9f08d7a9d345b3a2b9b5f2fb3b58d7e56f0709fb18112119",
       "extract_dir": "rtcwcoop-1.0.2-win-x86",
       "bin": [
@@ -31,7 +31,7 @@
       ]
     },
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rtcwcoop/rtcwcoop/releases/download/1.0.2/rtcwcoop-1.0.2-win-x64.zip",
+      "url": "https:github.comrtcwcooprtcwcoopreleasesdownload1.0.2rtcwcoop-1.0.2-win-x64.zip",
       "hash": "3eb112b1198cf6f1b820dc29c90c6bd5e4acc91b59011934de4c2a7d66b85982",
       "extract_dir": "rtcwcoop-1.0.2-win-x64",
       "bin": [
@@ -54,16 +54,16 @@
   },
   "persist": "Main",
   "checkver": {
-    "github": "https://github.com/rtcwcoop/rtcwcoop"
+    "github": "https:github.comrtcwcooprtcwcoop"
   },
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/rtcwcoop/rtcwcoop/releases/download/$version/rtcwcoop-$version-win-x86.zip",
+        "url": "https:github.comrtcwcooprtcwcoopreleasesdownload$versionrtcwcoop-$version-win-x86.zip",
         "extract_dir": "rtcwcoop-$version-win-x86"
       },
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rtcwcoop/rtcwcoop/releases/download/$version/rtcwcoop-$version-win-x64.zip",
+        "url": "https:github.comrtcwcooprtcwcoopreleasesdownload$versionrtcwcoop-$version-win-x64.zip",
         "extract_dir": "rtcwcoop-$version-win-x64"
       }
     }

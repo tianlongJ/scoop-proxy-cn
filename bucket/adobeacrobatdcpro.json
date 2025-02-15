@@ -1,18 +1,18 @@
 {
   "version": "21.001.20142",
   "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
-  "homepage": "https://get.adobe.com/reader/",
+  "homepage": "https:get.adobe.comreader",
   "license": {
     "identifier": "Proprietary",
-    "url": "https://wwwimages2.adobe.com/www.adobe.com/content/dam/acom/en/legal/licenses-terms/pdf/PlatformClients_PC_WWEULA-en_US-20150407_1357.pdf"
+    "url": "https:wwwimages2.adobe.comwww.adobe.comcontentdamacomenlegallicenses-termspdfPlatformClients_PC_WWEULA-en_US-20150407_1357.pdf"
   },
   "suggest": {
     "Microsoft Visual C++ Redistributable": [
-      "extras/vcredist2012",
-      "extras/vcredist2013"
+      "extrasvcredist2012",
+      "extrasvcredist2013"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/canyuedao/Adobe-Acrobat-Pro-DC-v2021.001.20142/releases/download/x64/Adobe.Acrobat.Pro.DC.v2021.001.20142.7z",
+  "url": "https:github.comcanyuedaoAdobe-Acrobat-Pro-DC-v2021.001.20142releasesdownloadx64Adobe.Acrobat.Pro.DC.v2021.001.20142.7z",
   "hash": "76d0b6a725d8e88eb51b54add46b14fbd9b1ee9cc007ca8440f822f3aacc9ecf",
   "pre_install": [
     "if (!(is_admin)) { error \"Admin rights required to remove ActivityWatch service\"; break }",
@@ -71,11 +71,11 @@
     "script": [
       "",
       "#Write-Host \":: Extract AcroPro.msi to the installer folder\" -ForegroundColor DarkCyan",
-      "#$arguments = @(\"/a $dir\\setup\\AcroPro.msi\", \"TARGETDIR=$dir\\installer\", '/qb')",
+      "#$arguments = @(\"a $dir\\setup\\AcroPro.msi\", \"TARGETDIR=$dir\\installer\", 'qb')",
       "#Start-Process \"msiexec\" -ArgumentList $arguments -Wait",
       "#Get-ChildItem -Path \"$dir\\installer\\program files\\Adobe\\Acrobat DC\" -Recurse -Force | Move-Item -Destination \"$dir\\Programs\" -Force",
       "",
-      "Start-Process \"$dir\\setup\\setup.exe\" -ArgumentList @('-sfx_nu', '/sALL', '/msi', 'EULA_ACCEPT=YES', 'ENABLE_CHROMEEXT=0', 'DISABLE_BROWSER_INTEGRATION=1', 'ENABLE_OPTIMIZATION=YES', 'ADD_THUMBNAILPREVIEW=0', 'DISABLEDESKTOPSHORTCUT=1', \"/log $dir\\ScoopInstall.log\", \"INSTALLDIR=$dir\\Programs\\\") -Verb RunAs -Wait",
+      "Start-Process \"$dir\\setup\\setup.exe\" -ArgumentList @('-sfx_nu', 'sALL', 'msi', 'EULA_ACCEPT=YES', 'ENABLE_CHROMEEXT=0', 'DISABLE_BROWSER_INTEGRATION=1', 'ENABLE_OPTIMIZATION=YES', 'ADD_THUMBNAILPREVIEW=0', 'DISABLEDESKTOPSHORTCUT=1', \"log $dir\\ScoopInstall.log\", \"INSTALLDIR=$dir\\Programs\\\") -Verb RunAs -Wait",
       "",
       "#Remove-Item \"$dir\\installer\" -Recurse -Force | Out-Null",
       "Remove-Item -Path \"$dir\\setup\" -Recurse -Force",
@@ -87,7 +87,7 @@
   },
   "pre_uninstaller": [
     "sudo Remove-Item \"${env:CommonProgramFiles}\\Adobe\" -Force -Recurse",
-    "Start-Process \"$dir\\Programs\\Setup Files\\{AC76BA86-1033-FFFF-7760-0C0F074E4100}\\setup.exe\" -ArgumentList @('/sAll', '/rs', '/msi', '/qn', '/uninstall', '/norestart') -Verb RunAs -Wait",
+    "Start-Process \"$dir\\Programs\\Setup Files\\{AC76BA86-1033-FFFF-7760-0C0F074E4100}\\setup.exe\" -ArgumentList @('sAll', 'rs', 'msi', 'qn', 'uninstall', 'norestart') -Verb RunAs -Wait",
     ""
   ],
   "shortcuts0": [
@@ -101,10 +101,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/canyuedao/Adobe-Acrobat-Pro-DC-v2021.001.20142/releases",
+    "github": "https:github.comcanyuedaoAdobe-Acrobat-Pro-DC-v2021.001.20142releases",
     "regex": "Adobe.Acrobat.Pro.DC.v([\\d.-]+).7z"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/canyuedao/Adobe-Acrobat-Pro-DC-v2021.001.20142/releases/download/x64/Adobe.Acrobat.Pro.DC.v$version.7z"
+    "url": "https:github.comcanyuedaoAdobe-Acrobat-Pro-DC-v2021.001.20142releasesdownloadx64Adobe.Acrobat.Pro.DC.v$version.7z"
   }
 }

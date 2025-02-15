@@ -1,9 +1,9 @@
 {
   "version": "2.2",
   "description": "Taking screenshots without bloatware features",
-  "homepage": "https://www.henrypp.org/product/freeshooter",
+  "homepage": "https:www.henrypp.orgproductfreeshooter",
   "license": "GPL-3.0-only",
-  "url": "https://ghfast.top/https://github.com/henrypp/freeshooter/releases/download/v.2.2/freeshooter-2.2-bin.zip",
+  "url": "https:github.comhenryppfreeshooterreleasesdownloadv.2.2freeshooter-2.2-bin.zip",
   "hash": "b8f8ec48c6c0b7910531148588bd184bdf0050e48e6ee44d25df064199fc97e7",
   "architecture": {
     "64bit": {
@@ -23,13 +23,13 @@
   ],
   "persist": "freeshooter.ini",
   "checkver": {
-    "github": "https://github.com/henrypp/freeshooter",
-    "regex": "releases/tag/v\\.([\\d.]+)"
+    "github": "https:github.comhenryppfreeshooter",
+    "regex": "releasestagv\\.([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/henrypp/freeshooter/releases/download/v.$version/freeshooter-$version-bin.zip",
+    "url": "https:github.comhenryppfreeshooterreleasesdownloadv.$versionfreeshooter-$version-bin.zip",
     "hash": {
-      "url": "$baseurl/freeshooter-$version.sha256"
+      "url": "$baseurlfreeshooter-$version.sha256"
     }
   }
 }

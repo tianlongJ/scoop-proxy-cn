@@ -1,23 +1,23 @@
 {
   "version": "3.2.0",
   "description": "Quake Command-Line Application",
-  "homepage": "https://quake.360.cn",
+  "homepage": "https:quake.360.cn",
   "license": "Apache-2.0",
-  "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/quake_rs.json",
+  "notes": "https:github.comViCrackscoop-bucketblobmasterbucketquake_rs.json",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/360quake/quake_rs/releases/download/v3.2.0/quake-x86_64-pc-windows-msvc.zip",
+      "url": "https:github.com360quakequake_rsreleasesdownloadv3.2.0quake-x86_64-pc-windows-msvc.zip",
       "hash": "912c851c0a97d5279fee4aafde389dff09880fb6ee20a2219904f54f2d27ac54"
     }
   },
   "bin": "quake.exe",
   "checkver": {
-    "github": "https://github.com/360quake/quake_rs"
+    "github": "https:github.com360quakequake_rs"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/360quake/quake_rs/releases/download/v$version/quake-x86_64-pc-windows-msvc.zip"
+        "url": "https:github.com360quakequake_rsreleasesdownloadv$versionquake-x86_64-pc-windows-msvc.zip"
       }
     }
   }

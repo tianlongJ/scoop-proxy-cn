@@ -1,19 +1,19 @@
 {
   "version": "4.0.6",
   "description": "Transmission. A fast, easy, and free BitTorrent client",
-  "homepage": "https://transmissionbt.com/",
+  "homepage": "https:transmissionbt.com",
   "license": "GPL-2.0-only|GPL-3.0-only",
-  "changelog": "https://github.com/transmission/transmission/releases",
+  "changelog": "https:github.comtransmissiontransmissionreleases",
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "extrasvcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/transmission/transmission/releases/download/4.0.6/transmission-4.0.6-x64.msi",
+      "url": "https:github.comtransmissiontransmissionreleasesdownload4.0.6transmission-4.0.6-x64.msi",
       "hash": "29417282f2a5405018a211aa94e60d324657cf347e7a496ca7a51798ede0f6c1"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/transmission/transmission/releases/download/4.0.6/transmission-4.0.6-x86.msi",
+      "url": "https:github.comtransmissiontransmissionreleasesdownload4.0.6transmission-4.0.6-x86.msi",
       "hash": "b7bdac970c686cfcdc249dc96fabb83fe85057e7d53f4c9aa55dc71891ba8c26"
     }
   },
@@ -36,15 +36,15 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/transmission/transmission"
+    "github": "https:github.comtransmissiontransmission"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/transmission/transmission/releases/download/$version/transmission-$version-x64.msi"
+        "url": "https:github.comtransmissiontransmissionreleasesdownload$versiontransmission-$version-x64.msi"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/transmission/transmission/releases/download/$version/transmission-$version-x86.msi"
+        "url": "https:github.comtransmissiontransmissionreleasesdownload$versiontransmission-$version-x86.msi"
       }
     }
   }

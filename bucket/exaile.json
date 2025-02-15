@@ -1,9 +1,9 @@
 {
   "version": "4.1.3",
   "description": "A music player with a simple interface and powerful music management capabilities.",
-  "homepage": "https://www.exaile.org/",
+  "homepage": "https:www.exaile.org",
   "license": "GPL-2.0-only",
-  "url": "https://ghfast.top/https://github.com/exaile/exaile/releases/download/4.1.3/exaile-4.1.3.exe#/dl.7z",
+  "url": "https:github.comexaileexailereleasesdownload4.1.3exaile-4.1.3.exe#dl.7z",
   "hash": "9a763da5da135052898ebd054098dfb02fc67b2391efc79bb7f0bc61b7d732d5",
   "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
   "bin": "exaile.exe",
@@ -16,12 +16,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/exaile/exaile"
+    "github": "https:github.comexaileexaile"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/exaile/exaile/releases/download/$version/exaile-$version.exe#/dl.7z",
+    "url": "https:github.comexaileexailereleasesdownload$versionexaile-$version.exe#dl.7z",
     "hash": {
-      "url": "https://github.com/exaile/exaile/releases/tag/$version",
+      "url": "https:github.comexaileexailereleasestag$version",
       "regex": "SHA256 \\($basename\\) = $sha256"
     }
   }

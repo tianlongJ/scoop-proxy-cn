@@ -1,12 +1,12 @@
 {
   "version": "4.3.1",
-  "homepage": "https://cinny.in/",
+  "homepage": "https:cinny.in",
   "description": "A simple, elegant and secure Matrix client protected by e2ee with the power of open source.",
   "license": "MIT",
   "notes": "Settings are stored in the ~\\AppData\\Local\\in.cinny.app directory.",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/cinnyapp/cinny-desktop/releases/download/v4.3.1/Cinny_desktop-x86_64.msi",
+      "url": "https:github.comcinnyappcinny-desktopreleasesdownloadv4.3.1Cinny_desktop-x86_64.msi",
       "hash": "71f14846422a7715b9a4024044d7f6a61989623fa0d89c28c586bccc00deed72"
     }
   },
@@ -19,12 +19,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/cinnyapp/cinny-desktop"
+    "github": "https:github.comcinnyappcinny-desktop"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/cinnyapp/cinny-desktop/releases/download/v$version/Cinny_desktop-x86_64.msi"
+        "url": "https:github.comcinnyappcinny-desktopreleasesdownloadv$versionCinny_desktop-x86_64.msi"
       }
     }
   }

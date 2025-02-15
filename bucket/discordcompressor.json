@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "homepage": "https://github.com/vladaad/discordcompressor",
+  "homepage": "https:github.comvladaaddiscordcompressor",
   "description": "A small program in Go that efficiently compresses videos using ffmpeg.",
-  "pre_install": "if (-Not(Get-Command ffmpeg -ErrorAction Ignore)){scoop.cmd install main/ffmpeg}",
+  "pre_install": "if (-Not(Get-Command ffmpeg -ErrorAction Ignore)){scoop.cmd install mainffmpeg}",
   "depends": "ffmpeg",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/vladaad/discordcompressor/releases/download/1.0/discordcompressor-windows.zip",
+      "url": "https:github.comvladaaddiscordcompressorreleasesdownload1.0discordcompressor-windows.zip",
       "hash": "7492eb3546662063bfd8cacb1184adfab33e134d9480490ea7c23d880b27b830",
       "bin": [
         "discordcompressor.exe",
@@ -25,7 +25,7 @@
   "post_install": [
     "if (-Not(Get-Command ffmpeg.exe -ErrorAction Ignore)){",
     "Write-Output \"Installing FFmpeg..\"",
-    "scoop.cmd install main/ffmpeg",
+    "scoop.cmd install mainffmpeg",
     "}",
     "$SendTo = [System.Environment]::GetFolderPath('SendTo')",
     "$Lnk = \"$SendTo\\DiscordCompressor.lnk\"",
@@ -39,7 +39,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/vladaad/discordcompressor/releases/download/$version/discordcompressor-windows.zip"
+        "url": "https:github.comvladaaddiscordcompressorreleasesdownload$versiondiscordcompressor-windows.zip"
       }
     }
   }

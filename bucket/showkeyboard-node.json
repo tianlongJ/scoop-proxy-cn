@@ -1,14 +1,14 @@
 {
   "version": "1.35",
   "description": "show the key and heatmap that pressed by keyboard or mouse",
-  "homepage": "https://github.com/pattazl/showKeyBoard",
+  "homepage": "https:github.compattazlshowKeyBoard",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/pattazl/showKeyBoard/blob/master/LICENSE"
+    "url": "https:github.compattazlshowKeyBoardblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/pattazl/showKeyBoard/releases/download/1.35/ShowKeyBoard_Setup_v1.35_241222.node.exe#/dl.7z",
+      "url": "https:github.compattazlshowKeyBoardreleasesdownload1.35ShowKeyBoard_Setup_v1.35_241222.node.exe#dl.7z",
       "hash": "a284b261414afb60341926fb702688565b5e500782cc4a7fdeb6346dec7281f5"
     }
   },
@@ -21,13 +21,13 @@
   ],
   "persist": "showKeyBoard.ini",
   "checkver": {
-    "url": "https://api.github.com/repos/pattazl/showKeyBoard/releases",
-    "regex": "(?sm)browser_download_url.*?/releases/download/([\\d.]+)/ShowKeyBoard_Setup_v([\\d.]+)_(?<date>[\\d.]+).node.exe"
+    "url": "https:api.github.comrepospattazlshowKeyBoardreleases",
+    "regex": "(?sm)browser_download_url.*?releasesdownload([\\d.]+)ShowKeyBoard_Setup_v([\\d.]+)_(?<date>[\\d.]+).node.exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/pattazl/showKeyBoard/releases/download/$version/ShowKeyBoard_Setup_v$version_$matchDate.node.exe#/dl.7z"
+        "url": "https:github.compattazlshowKeyBoardreleasesdownload$versionShowKeyBoard_Setup_v$version_$matchDate.node.exe#dl.7z"
       }
     }
   }

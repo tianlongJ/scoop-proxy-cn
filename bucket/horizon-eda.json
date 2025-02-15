@@ -1,29 +1,29 @@
 {
   "version": "2.6.0",
   "description": "Horizon is a free EDA package",
-  "homepage": "https://horizon-eda.org/",
+  "homepage": "https:horizon-eda.org",
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/horizon-eda/horizon/releases/download/v2.6.0/horizon-eda-2.6.0-x64.msi",
+      "url": "https:github.comhorizon-edahorizonreleasesdownloadv2.6.0horizon-eda-2.6.0-x64.msi",
       "hash": "fe3c2124abaadd408758af414c3f370d9aaad0a9fb988ccc55c6b367e6ece6e1"
     }
   },
-  "extract_dir": "PFiles/Horizon EDA",
+  "extract_dir": "PFilesHorizon EDA",
   "shortcuts": [
     [
-      "bin/horizon-eda.exe",
+      "binhorizon-eda.exe",
       "Horizon EDA"
     ]
   ],
-  "persist": "share/themes",
+  "persist": "sharethemes",
   "checkver": {
-    "github": "https://github.com/horizon-eda/horizon"
+    "github": "https:github.comhorizon-edahorizon"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/horizon-eda/horizon/releases/download/v$version/horizon-eda-$version-x64.msi"
+        "url": "https:github.comhorizon-edahorizonreleasesdownloadv$versionhorizon-eda-$version-x64.msi"
       }
     }
   }

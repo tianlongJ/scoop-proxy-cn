@@ -1,10 +1,10 @@
 {
   "version": "1.7.3.8",
   "description": "RuckZuck. Software Package Manager for Windows provides a quick way to install and update software...",
-  "homepage": "https://ruckzuck.tools/",
+  "homepage": "https:ruckzuck.tools",
   "license": "Freeware",
-  "changelog": "https://github.com/rzander/ruckzuck/releases",
-  "url": "https://ghfast.top/https://github.com/rzander/ruckzuck/releases/download/1.7.3.8/RuckZuck.exe#/RuckZuck.exe",
+  "changelog": "https:github.comrzanderruckzuckreleases",
+  "url": "https:github.comrzanderruckzuckreleasesdownload1.7.3.8RuckZuck.exe#RuckZuck.exe",
   "hash": "f9901af92efd9048c91a79cd92180df0a7a4fee18c643f0904f9dc5a370cd9f7",
   "bin": "RuckZuck.exe",
   "shortcuts": [
@@ -14,9 +14,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/rzander/ruckzuck"
+    "github": "https:github.comrzanderruckzuck"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/rzander/ruckzuck/releases/download/$version/RuckZuck.exe#/RuckZuck.exe"
+    "url": "https:github.comrzanderruckzuckreleasesdownload$versionRuckZuck.exe#RuckZuck.exe"
   }
 }

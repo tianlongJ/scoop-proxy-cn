@@ -1,13 +1,13 @@
 {
   "version": "135.0.3139.0",
   "description": "Microsoft Edge Canary. The chromium based Microsoft Edge browser (Canary Channel)",
-  "homepage": "https://www.microsoftedgeinsider.com/en-us/welcome?channel=canary",
+  "homepage": "https:www.microsoftedgeinsider.comen-uswelcome?channel=canary",
   "license": "Freeware",
   "architecture": {
     "64bit": {
       "url": [
-        "https://dorado-api.deno.dev/edge?arch=64&channel=canary&version=135.0.3139.0&dl#/dl.7z",
-        "https://github.com/ACooper81/SharedFiles/raw/master/Icons/msedgecanary.ico"
+        "https:dorado-api.deno.devedge?arch=64&channel=canary&version=135.0.3139.0&dl#dl.7z",
+        "https:github.comACooper81SharedFilesrawmasterIconsmsedgecanary.ico"
       ],
       "hash": [
         "fcb1d6587f185cdd002bca83195e2362cbaa4f17e06dbfb50d21fab37379db71",
@@ -28,13 +28,13 @@
   ],
   "persist": "User Data",
   "checkver": {
-    "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https://msedgedriver.azureedge.net/LATEST_CANARY).Content))",
+    "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https:msedgedriver.azureedge.netLATEST_CANARY).Content))",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary&version=$version&dl#/dl.7z"
+        "url": "https:dorado-api.deno.devedge?arch=64&channel=canary&version=$version&dl#dl.7z"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "3.4.0",
   "description": "A keyboard-focused browser with a minimal GUI",
-  "homepage": "https://www.qutebrowser.org",
+  "homepage": "https:www.qutebrowser.org",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/qutebrowser/qutebrowser/releases/download/v3.4.0/qutebrowser-3.4.0-windows-standalone.zip",
+      "url": "https:github.comqutebrowserqutebrowserreleasesdownloadv3.4.0qutebrowser-3.4.0-windows-standalone.zip",
       "hash": "19da38efb803c5679e41457a1a0b540ea3609e9e41a8598e9188e2f3084e5db5",
       "extract_dir": "qutebrowser-3.4.0"
     }
@@ -18,12 +18,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/qutebrowser/qutebrowser"
+    "github": "https:github.comqutebrowserqutebrowser"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/qutebrowser/qutebrowser/releases/download/v$version/qutebrowser-$version-windows-standalone.zip",
+        "url": "https:github.comqutebrowserqutebrowserreleasesdownloadv$versionqutebrowser-$version-windows-standalone.zip",
         "extract_dir": "qutebrowser-$version"
       }
     }

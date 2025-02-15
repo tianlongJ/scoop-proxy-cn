@@ -1,12 +1,12 @@
 {
   "version": "2.1",
   "description": "Set Volume ID of FAT or NTFS drives.",
-  "homepage": "https://learn.microsoft.com/sysinternals/downloads/volumeid",
+  "homepage": "https:learn.microsoft.comsysinternalsdownloadsvolumeid",
   "license": {
     "identifier": "Freeware",
-    "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    "url": "https:learn.microsoft.comsysinternalslicense-terms"
   },
-  "url": "https://download.sysinternals.com/files/VolumeId.zip",
+  "url": "https:download.sysinternals.comfilesVolumeId.zip",
   "hash": "4b478c68c79300538d8a92538fe07797a6dbda2c444095a3cfafe159103f6c10",
   "architecture": {
     "64bit": {
@@ -22,10 +22,10 @@
     }
   },
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/volumeid.md",
+    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsvolumeid.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://download.sysinternals.com/files/VolumeId.zip"
+    "url": "https:download.sysinternals.comfilesVolumeId.zip"
   }
 }

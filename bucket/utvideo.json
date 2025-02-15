@@ -1,25 +1,25 @@
 {
   "version": "23.1.0",
   "description": "Ut Video Codec Suite - fast lossless video codec",
-  "homepage": "https://github.com/umezawatakeshi/utvideo",
+  "homepage": "https:github.comumezawatakeshiutvideo",
   "license": "GPL-3.0",
-  "url": "https://ghfast.top/https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-23.1.0/utvideo-23.1.0-win.exe",
+  "url": "https:github.comumezawatakeshiutvideoreleasesdownloadutvideo-23.1.0utvideo-23.1.0-win.exe",
   "hash": "CC6148208AFD7E365B32E1CA80B6526C3DD9258387382D4B09066A43E730679D",
   "installer": {
     "args": [
-      "/VERYSILENT",
-      "/DIR=$dir"
+      "VERYSILENT",
+      "DIR=$dir"
     ]
   },
   "uninstaller": {
     "file": "unins000.exe",
     "args": [
-      "/VERYSILENT",
-      "/NORESTART"
+      "VERYSILENT",
+      "NORESTART"
     ]
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-$version/utvideo-$version-win.exe"
+    "url": "https:github.comumezawatakeshiutvideoreleasesdownloadutvideo-$versionutvideo-$version-win.exe"
   }
 }

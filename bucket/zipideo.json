@@ -1,9 +1,9 @@
 {
   "version": "1.0.10",
   "description": "⚡zipideo: 视频压缩电脑桌面端软件",
-  "homepage": "https://github.com/aaaaa-pi/zipideo",
+  "homepage": "https:github.comaaaaa-pizipideo",
   "license": "Unknown",
-  "url": "https://ghfast.top/https://github.com/aaaaa-pi/zipideo/releases/download/v1.0.10/zipideo-1.0.10-setup.exe#/dl.7z",
+  "url": "https:github.comaaaaa-pizipideoreleasesdownloadv1.0.10zipideo-1.0.10-setup.exe#dl.7z",
   "hash": "sha512:6dc2a3c9e8bebc85edfc911efc9f358b226cccfed47a1fc602d3eb8e7a00b11995abcb0579893309ae4a0e736b2b477ed9be8c690f172ed7515f30ba32af5e1c",
   "pre_install": [
     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -25,13 +25,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/aaaaa-pi/zipideo/releases",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:api.github.comreposaaaaa-pizipideoreleases",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/aaaaa-pi/zipideo/releases/download/v$version/zipideo-$version-setup.exe#/dl.7z",
+    "url": "https:github.comaaaaa-pizipideoreleasesdownloadv$versionzipideo-$version-setup.exe#dl.7z",
     "hash": {
-      "url": "$baseurl/latest.yml",
+      "url": "$baseurllatest.yml",
       "regex": "sha512:\\s+$base64"
     }
   }

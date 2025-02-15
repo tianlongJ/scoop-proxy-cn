@@ -1,9 +1,9 @@
 {
   "version": "0.2025.02.13.19fea6e",
   "description": "Uninstall Microsoft Edge silently, through an executable or batch script.",
-  "homepage": "https://github.com/ShadowWhisperer/Remove-MS-Edge",
+  "homepage": "https:github.comShadowWhispererRemove-MS-Edge",
   "license": "Unknown",
-  "url": "https://ghfast.top/https://github.com/ShadowWhisperer/Remove-MS-Edge/archive/19fea6ec9f5f5e21f4f91f383515463fc914caea.zip",
+  "url": "https:github.comShadowWhispererRemove-MS-Edgearchive19fea6ec9f5f5e21f4f91f383515463fc914caea.zip",
   "hash": "bf2c2aeb675fff02d7eb2904fe3860bc354d55857f6bec36c79030b461cafeb7",
   "extract_dir": "Remove-MS-Edge-19fea6ec9f5f5e21f4f91f383515463fc914caea",
   "shortcuts": [
@@ -25,12 +25,12 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/ShadowWhisperer/Remove-MS-Edge/commits/main.atom",
-    "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
+    "url": "https:github.comShadowWhispererRemove-MS-Edgecommitsmain.atom",
+    "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
     "replace": "0.${1}.${2}.${3}.${short}"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ShadowWhisperer/Remove-MS-Edge/archive/$matchSha.zip",
+    "url": "https:github.comShadowWhispererRemove-MS-Edgearchive$matchSha.zip",
     "extract_dir": "Remove-MS-Edge-$matchSha"
   }
 }

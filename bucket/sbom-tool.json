@@ -1,11 +1,11 @@
 {
   "version": "3.1.0",
   "description": "The SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.",
-  "homepage": "https://github.com/microsoft/sbom-tool",
+  "homepage": "https:github.commicrosoftsbom-tool",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/microsoft/sbom-tool/releases/download/v3.1.0/sbom-tool-win-x64.exe",
+      "url": "https:github.commicrosoftsbom-toolreleasesdownloadv3.1.0sbom-tool-win-x64.exe",
       "hash": "e0de5ce4ddd23f204d13c52f21c5227300aac3fb08d0efc443b7c1aee9c0a1ea"
     }
   },
@@ -13,10 +13,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/microsoft/sbom-tool/releases/download/v$version/sbom-tool-win-x64.exe",
+        "url": "https:github.commicrosoftsbom-toolreleasesdownloadv$versionsbom-tool-win-x64.exe",
         "hash": {
-          "url": "$baseurl/win-x64-manifest.spdx.json",
-          "jsonpath": "$.files[?(@.fileName == './$basename')].checksums[?(@.algorithm == 'SHA256')].checksumValue"
+          "url": "$baseurlwin-x64-manifest.spdx.json",
+          "jsonpath": "$.files[?(@.fileName == '.$basename')].checksums[?(@.algorithm == 'SHA256')].checksumValue"
         }
       }
     }

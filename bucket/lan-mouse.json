@@ -1,11 +1,11 @@
 {
   "version": "0.10.0",
   "description": "mouse & keyboard sharing via LAN",
-  "homepage": "https://github.com/feschber/lan-mouse",
+  "homepage": "https:github.comfeschberlan-mouse",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/feschber/lan-mouse/releases/download/v0.10.0/lan-mouse-windows.zip",
+      "url": "https:github.comfeschberlan-mousereleasesdownloadv0.10.0lan-mouse-windows.zip",
       "hash": "66b45ae67ebfac4eb32c61c3f4ac46814519437aa051156ae9e0a9db4737b170"
     }
   },
@@ -17,10 +17,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/feschber/lan-mouse"
+    "github": "https:github.comfeschberlan-mouse"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/feschber/lan-mouse/releases/download/v$version/lan-mouse-windows.zip",
+    "url": "https:github.comfeschberlan-mousereleasesdownloadv$versionlan-mouse-windows.zip",
     "hash": {
       "mode": "download"
     }

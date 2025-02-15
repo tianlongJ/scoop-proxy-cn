@@ -1,14 +1,14 @@
 {
   "version": "0.9.5.7",
   "description": "Download bilibili videos (contributed videos, fanfics, movies, courses), live streams, and comics.",
-  "homepage": "https://github.com/vooidzero/B23Downloader",
+  "homepage": "https:github.comvooidzeroB23Downloader",
   "license": {
     "identifier": "GPL-3.0-or-later",
-    "url": "https://github.com/vooidzero/B23Downloader/raw/main/LICENSE"
+    "url": "https:github.comvooidzeroB23DownloaderrawmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/vooidzero/B23Downloader/releases/download/v0.9.5/B23Dld-v0.9.5.7-win7-64.zip",
+      "url": "https:github.comvooidzeroB23Downloaderreleasesdownloadv0.9.5B23Dld-v0.9.5.7-win7-64.zip",
       "hash": "06028e805205396e0378f232d9e13397087bc0aad21bdfe78adc16739f5a33fa",
       "extract_dir": "B23Dld-v0.9.5.7-win_64"
     }
@@ -20,13 +20,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/vooidzero/B23Downloader/releases",
-    "regex": "releases/download/v(?<tag>[\\d.]+)/B23Dld-v([\\d.]+)-win7-64.zip"
+    "url": "https:api.github.comreposvooidzeroB23Downloaderreleases",
+    "regex": "releasesdownloadv(?<tag>[\\d.]+)B23Dld-v([\\d.]+)-win7-64.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/vooidzero/B23Downloader/releases/download/v$matchTag/B23Dld-v$version-win7-64.zip",
+        "url": "https:github.comvooidzeroB23Downloaderreleasesdownloadv$matchTagB23Dld-v$version-win7-64.zip",
         "extract_dir": "B23Dld-v$version-win_64"
       }
     }

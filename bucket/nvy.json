@@ -1,11 +1,11 @@
 {
   "version": "0.4.1",
   "description": "A Neovim client in C++",
-  "homepage": "https://github.com/RMichelsen/Nvy",
+  "homepage": "https:github.comRMichelsenNvy",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/RMichelsen/Nvy/releases/download/v0.4.1/Nvy.exe",
+      "url": "https:github.comRMichelsenNvyreleasesdownloadv0.4.1Nvy.exe",
       "hash": "34a2ab342fb5ab0aa7f4df85cede5677fe5580ece446b0519331e318db2b551d"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/RMichelsen/Nvy/releases/download/v$version/Nvy.exe"
+        "url": "https:github.comRMichelsenNvyreleasesdownloadv$versionNvy.exe"
       }
     }
   }

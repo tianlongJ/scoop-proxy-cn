@@ -1,12 +1,12 @@
 {
   "version": "1.61",
   "description": "Scan file shares on your network and view their security settings to close security holes.",
-  "homepage": "https://learn.microsoft.com/sysinternals/downloads/shareenum",
+  "homepage": "https:learn.microsoft.comsysinternalsdownloadsshareenum",
   "license": {
     "identifier": "Freeware",
-    "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    "url": "https:learn.microsoft.comsysinternalslicense-terms"
   },
-  "url": "https://download.sysinternals.com/files/ShareEnum.zip",
+  "url": "https:download.sysinternals.comfilesShareEnum.zip",
   "hash": "7f88cabcf12a502e8242d5d1d899ee6d1ddec6642e56cbd6511a698827cbfcba",
   "architecture": {
     "64bit": {
@@ -19,8 +19,8 @@
       "shortcuts": [
         [
           "ShareEnum64.exe",
-          "SysInternals/ShareEnum",
-          "/accepteula"
+          "SysInternalsShareEnum",
+          "accepteula"
         ]
       ]
     },
@@ -29,17 +29,17 @@
       "shortcuts": [
         [
           "ShareEnum.exe",
-          "SysInternals/ShareEnum",
-          "/accepteula"
+          "SysInternalsShareEnum",
+          "accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/shareenum.md",
+    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsshareenum.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://download.sysinternals.com/files/ShareEnum.zip"
+    "url": "https:download.sysinternals.comfilesShareEnum.zip"
   }
 }

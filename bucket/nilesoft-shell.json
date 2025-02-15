@@ -1,24 +1,24 @@
 {
   "version": "1.9.18",
   "description": "Powerful context menu manager for Windows File Explorer",
-  "homepage": "https://nilesoft.org/",
+  "homepage": "https:nilesoft.org",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/moudey/Shell/blob/main/LICENSE"
+    "url": "https:github.commoudeyShellblobmainLICENSE"
   },
   "architecture": {
     "32bit": {
-      "url": "https://nilesoft.org/download/shell/1.9.18/setup-x86.msi",
+      "url": "https:nilesoft.orgdownloadshell1.9.18setup-x86.msi",
       "hash": "4e1f8f3dd4b39bd9c08b9443c1260fea069e1ce827eaaa312be3d657aaecee96",
       "extract_dir": "PFiles\\Nilesoft Shell"
     },
     "64bit": {
-      "url": "https://nilesoft.org/download/shell/1.9.18/setup-x64.msi",
+      "url": "https:nilesoft.orgdownloadshell1.9.18setup-x64.msi",
       "hash": "06a44d6831e2aab27d8913b312ab65c3e0b1be739d02f6f88edfb8747c74d8a4",
       "extract_dir": "PFiles64\\Nilesoft Shell"
     },
     "arm64": {
-      "url": "https://nilesoft.org/download/shell/1.9.18/setup-arm64.msi",
+      "url": "https:nilesoft.orgdownloadshell1.9.18setup-arm64.msi",
       "hash": "46b64b58efd34af8139e3bb64ae02a6964a4e80d792be72abb3bca54db1edeff",
       "extract_dir": "PFiles64\\Nilesoft Shell"
     }
@@ -48,19 +48,19 @@
     "shell.nss"
   ],
   "checkver": {
-    "url": "https://nilesoft.org/download/changes",
+    "url": "https:nilesoft.orgdownloadchanges",
     "regex": "Version ([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://nilesoft.org/download/shell/$version/setup-x86.msi"
+        "url": "https:nilesoft.orgdownloadshell$versionsetup-x86.msi"
       },
       "64bit": {
-        "url": "https://nilesoft.org/download/shell/$version/setup-x64.msi"
+        "url": "https:nilesoft.orgdownloadshell$versionsetup-x64.msi"
       },
       "arm64": {
-        "url": "https://nilesoft.org/download/shell/$version/setup-arm64.msi"
+        "url": "https:nilesoft.orgdownloadshell$versionsetup-arm64.msi"
       }
     }
   }

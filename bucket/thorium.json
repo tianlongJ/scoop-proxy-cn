@@ -1,14 +1,14 @@
 {
   "version": "130.0.6723.174",
   "description": "Chromium fork for Linux, Windows, MacOS, Android, and Raspberry Pi named after radioactive element No. 90.",
-  "homepage": "https://thorium.rocks/",
+  "homepage": "https:thorium.rocks",
   "license": {
     "identifier": "BSD 3-Clause",
-    "url": "https://github.com/Alex313031/Thorium-Win/blob/main/LICENSE"
+    "url": "https:github.comAlex313031Thorium-WinblobmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/Thorium_SSE3_130.0.6723.174.zip",
+      "url": "https:github.comAlex313031Thorium-WinreleasesdownloadM130.0.6723.174Thorium_SSE3_130.0.6723.174.zip",
       "hash": "fbe6c6d673f964ace536bda405f572cccb53e897acab8f0bb96b1f214efc6b01"
     }
   },
@@ -37,13 +37,13 @@
   },
   "persist": "USER_DATA",
   "checkver": {
-    "github": "https://github.com/Alex313031/Thorium-Win",
-    "regex": "/releases/tag/M(?<version>(?:\\d+\\.){3}\\d+)"
+    "github": "https:github.comAlex313031Thorium-Win",
+    "regex": "releasestagM(?<version>(?:\\d+\\.){3}\\d+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
+        "url": "https:github.comAlex313031Thorium-WinreleasesdownloadM$versionThorium_SSE3_$version.zip"
       }
     }
   }

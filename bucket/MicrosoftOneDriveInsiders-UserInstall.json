@@ -1,16 +1,16 @@
 {
   "version": "23.073.0404.0001",
   "description": "Microsoft OneDrive Insiders. Save your photos and files to OneDrive and access them from any device, anywhere.",
-  "homepage": "https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage",
+  "homepage": "https:www.microsoft.comen-wwmicrosoft-365onedriveonline-cloud-storage",
   "license": "Proprietary",
-  "changelog": "https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0",
+  "changelog": "https:support.microsoft.comen-usofficeonedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0",
   "architecture": {
     "64bit": {
-      "url": "https://oneclient.sfx.ms/Win/Installers/23.073.0404.0001/amd64/OneDriveSetup.exe#/setup.exe",
+      "url": "https:oneclient.sfx.msWinInstallers23.073.0404.0001amd64OneDriveSetup.exe#setup.exe",
       "hash": "fb1c455e98004dcff56bc892a51561650f9ebbc25f8e966d9cfea12384657ef3"
     },
     "32bit": {
-      "url": "https://oneclient.sfx.ms/Win/Installers/23.073.0404.0001/OneDriveSetup.exe#/setup.exe",
+      "url": "https:oneclient.sfx.msWinInstallers23.073.0404.0001OneDriveSetup.exe#setup.exe",
       "hash": "714960a7885ea0a21a516ca51eda895a002eaf695502661c7b943ec9b02bc4e4"
     }
   },
@@ -21,7 +21,7 @@
       "$filepath = \"$LocalAppData\\Microsoft\\OneDrive\\OneDrive.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   &\"$dir\\setup.exe\" /silent /update /restart | Out-Null",
+      "   &\"$dir\\setup.exe\" silent update restart | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",
@@ -31,16 +31,16 @@
     ]
   },
   "checkver": {
-    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/m/Microsoft/OneDrive",
-    "regex": "manifests/m/Microsoft/OneDrive/Insiders/([\\d.]+)"
+    "url": "https:github.commicrosoftwinget-pkgstreemastermanifestsmMicrosoftOneDrive",
+    "regex": "manifestsmMicrosoftOneDriveInsiders([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://oneclient.sfx.ms/Win/Installers/$version/amd64/OneDriveSetup.exe#/setup.exe"
+        "url": "https:oneclient.sfx.msWinInstallers$versionamd64OneDriveSetup.exe#setup.exe"
       },
       "32bit": {
-        "url": "https://oneclient.sfx.ms/Win/Installers/$version/OneDriveSetup.exe#/setup.exe"
+        "url": "https:oneclient.sfx.msWinInstallers$versionOneDriveSetup.exe#setup.exe"
       }
     }
   }

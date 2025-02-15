@@ -1,6 +1,6 @@
 {
   "version": "2.10.0",
-  "homepage": "http://lyswhut.github.io/lx-music-doc/",
+  "homepage": "http:lyswhut.github.iolx-music-doc",
   "description": "a free & open source music finder",
   "license": "Apache-2.0",
   "shortcuts": [
@@ -10,42 +10,42 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/lyswhut/lx-music-desktop/"
+    "github": "https:github.comlyswhutlx-music-desktop"
   },
   "architecture": {
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-win7_x86-green.7z",
+      "url": "https:github.comlyswhutlx-music-desktopreleasesdownloadv2.10.0lx-music-desktop-v2.10.0-win7_x86-green.7z",
       "hash": "md5:13a03b79a609315aaf87eb8be6ef719a"
     },
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-win_x64-green.7z",
+      "url": "https:github.comlyswhutlx-music-desktopreleasesdownloadv2.10.0lx-music-desktop-v2.10.0-win_x64-green.7z",
       "hash": "md5:d8ce5cb52c1210533d7fd8d25371bde0"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-win_arm64-green.7z",
+      "url": "https:github.comlyswhutlx-music-desktopreleasesdownloadv2.10.0lx-music-desktop-v2.10.0-win_arm64-green.7z",
       "hash": "md5:54be245553192399da79d61d8b6df11d"
     }
   },
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win7_x86-green.7z",
+        "url": "https:github.comlyswhutlx-music-desktopreleasesdownloadv$versionlx-music-desktop-v$version-win7_x86-green.7z",
         "hash": {
-          "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v$version",
+          "url": "https:github.comlyswhutlx-music-desktopreleasestagv$version",
           "regex": "$md5\\s+lx-music-desktop\\s+v$version\\s+win_x86\\s+green"
         }
       },
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_x64-green.7z",
+        "url": "https:github.comlyswhutlx-music-desktopreleasesdownloadv$versionlx-music-desktop-v$version-win_x64-green.7z",
         "hash": {
-          "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v$version",
+          "url": "https:github.comlyswhutlx-music-desktopreleasestagv$version",
           "regex": "$md5\\s+lx-music-desktop\\s+v$version\\s+win_x64\\s+green"
         }
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_arm64-green.7z",
+        "url": "https:github.comlyswhutlx-music-desktopreleasesdownloadv$versionlx-music-desktop-v$version-win_arm64-green.7z",
         "hash": {
-          "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v$version",
+          "url": "https:github.comlyswhutlx-music-desktopreleasestagv$version",
           "regex": "$md5\\s+lx-music-desktop\\s+v$version\\s+win_arm64\\s+green"
         }
       }

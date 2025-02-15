@@ -1,11 +1,11 @@
 {
   "version": "0.5.2",
   "description": "ExVR: Experience Virtual Reality",
-  "homepage": "https://github.com/xiaofeiyu0723/ExVR",
+  "homepage": "https:github.comxiaofeiyu0723ExVR",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xiaofeiyu0723/ExVR/releases/download/0.5.2/main.zip",
+      "url": "https:github.comxiaofeiyu0723ExVRreleasesdownload0.5.2main.zip",
       "hash": "fe93047c84774806de9912dbeeaac289e4d1e7f5215991ad51ebb7204d7f4e80",
       "extract_dir": "main"
     }
@@ -17,10 +17,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/xiaofeiyu0723/ExVR"
+    "github": "https:github.comxiaofeiyu0723ExVR"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/xiaofeiyu0723/ExVR/releases/download/$version/main.zip",
+    "url": "https:github.comxiaofeiyu0723ExVRreleasesdownload$versionmain.zip",
     "hash": {
       "mode": "download"
     }

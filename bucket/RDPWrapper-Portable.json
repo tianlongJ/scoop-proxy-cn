@@ -1,15 +1,15 @@
 {
   "version": "1.6.2",
   "description": "RDP Wrapper. The goal of this project is to enable Remote Desktop Host support and concurrent RDP sessions on reduced functionality systems for home usage",
-  "homepage": "https://github.com/stascorp/rdpwrap",
+  "homepage": "https:github.comstascorprdpwrap",
   "license": {
     "identifier": "Apache-2.0",
-    "url": "https://github.com/stascorp/rdpwrap/blob/master/LICENSE"
+    "url": "https:github.comstascorprdpwrapblobmasterLICENSE"
   },
   "pre_download": "Assert-Administrator",
   "url": [
-    "https://ghfast.top/https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWrap-v1.6.2.zip#/cosi.alfa",
-    "https://ghfast.top/https://raw.githubusercontent.com/asmtron/rdpwrap/master/autoupdate.zip#/auto.alfa"
+    "https:github.comstascorprdpwrapreleasesdownloadv1.6.2RDPWrap-v1.6.2.zip#cosi.alfa",
+    "https:raw.githubusercontent.comasmtronrdpwrapmasterautoupdate.zip#auto.alfa"
   ],
   "hash": [
     "35a9481ddbed5177431a9ea4bd09468fe987797d7b1231d64942d17eb54ec269",

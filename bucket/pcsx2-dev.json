@@ -1,22 +1,22 @@
 {
   "version": "2.3.155",
   "description": "A feature rich FOSS PlayStation 2 emulator (development version)",
-  "homepage": "https://pcsx2.net/",
+  "homepage": "https:pcsx2.net",
   "license": {
     "identifier": "GPL-3.0",
-    "url": "https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3"
+    "url": "https:github.comPCSX2pcsx2blobmasterCOPYING.GPLv3"
   },
   "notes": [
     "ATTENTION: PCSX2 requires a dump of the PS2 BIOS to function.",
     "Place the BIOS file in $persist_dir\\bios",
-    "Learn more at https://wiki.pcsx2.net/Setting_up_Windows_version#BIOS"
+    "Learn more at https:wiki.pcsx2.netSetting_up_Windows_version#BIOS"
   ],
   "suggest": {
-    "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
+    "Microsoft Visual C++ Runtime 2022": "extrasvcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v2.3.155/pcsx2-v2.3.155-windows-x64-Qt.7z",
+      "url": "https:github.comPCSX2pcsx2releasesdownloadv2.3.155pcsx2-v2.3.155-windows-x64-Qt.7z",
       "hash": "8f5d2058ef162602abf5f2d1c2a170cc2c00ed9d9fe4fbcafbfd13188e3adab3"
     }
   },
@@ -62,14 +62,14 @@
     "textures"
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/PCSX2/pcsx2/releases?per_page=1",
+    "url": "https:api.github.comreposPCSX2pcsx2releases?per_page=1",
     "jsonpath": "$[?(@.prerelease == true)].tag_name",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
+        "url": "https:github.comPCSX2pcsx2releasesdownloadv$versionpcsx2-v$version-windows-x64-Qt.7z"
       }
     }
   }

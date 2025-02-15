@@ -1,9 +1,9 @@
 {
   "version": "1.1.2",
   "description": "A Windows app for bulk editing compatibility settings",
-  "homepage": "https://nbusseneau.github.io/CompatibilityManager/",
+  "homepage": "https:nbusseneau.github.ioCompatibilityManager",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/nbusseneau/CompatibilityManager/releases/download/v1.1.2/CompatibilityManager.v1.1.2.7z",
+  "url": "https:github.comnbusseneauCompatibilityManagerreleasesdownloadv1.1.2CompatibilityManager.v1.1.2.7z",
   "hash": "c8e890fde904ea633e02df17ae3078c48b3107f936aa03b0b634d3040b9ea245",
   "extract_dir": "CompatibilityManager",
   "shortcuts": [
@@ -14,9 +14,9 @@
   ],
   "persist": "CompatibilityManager.exe.config",
   "checkver": {
-    "github": "https://github.com/nbusseneau/CompatibilityManager"
+    "github": "https:github.comnbusseneauCompatibilityManager"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/nbusseneau/CompatibilityManager/releases/download/v$version/CompatibilityManager.v$version.7z"
+    "url": "https:github.comnbusseneauCompatibilityManagerreleasesdownloadv$versionCompatibilityManager.v$version.7z"
   }
 }

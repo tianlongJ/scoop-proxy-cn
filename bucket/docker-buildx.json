@@ -1,23 +1,23 @@
 {
   "version": "0.20.1",
   "description": "Docker CLI plugin for extended build capabilities with BuildKit",
-  "homepage": "https://github.com/docker/buildx",
+  "homepage": "https:github.comdockerbuildx",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/docker/buildx/releases/download/v0.20.1/buildx-v0.20.1.windows-amd64.exe#/docker-buildx.exe",
+      "url": "https:github.comdockerbuildxreleasesdownloadv0.20.1buildx-v0.20.1.windows-amd64.exe#docker-buildx.exe",
       "hash": "39f53ec70c6ce37beca6898809e8eb89a77a1651be35ea50b51629c7a5d3b1f2"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/docker/buildx/releases/download/v0.20.1/buildx-v0.20.1.windows-arm64.exe#/docker-buildx.exe",
+      "url": "https:github.comdockerbuildxreleasesdownloadv0.20.1buildx-v0.20.1.windows-arm64.exe#docker-buildx.exe",
       "hash": "ecb7728e38a91c712e0d5cbefbc9aebf0fefe0581136d8859b2f0e70403f87ef"
     }
   },
   "bin": "docker-buildx.exe",
   "post_install": [
-    "$docker_plugin_dir=(Join-Path $Env:USERPROFILE .docker/cli-plugins)",
+    "$docker_plugin_dir=(Join-Path $Env:USERPROFILE .dockercli-plugins)",
     "if ($global) {",
-    "  $docker_plugin_dir=(Join-Path $Env:ProgramData Docker/cli-plugins)",
+    "  $docker_plugin_dir=(Join-Path $Env:ProgramData Dockercli-plugins)",
     "  echo \"INFO: docker-buildx will be installed to global directory $docker_plugin_dir\"",
     "}",
     "echo 'Installing docker-buildx as docker-cli plugin...'",
@@ -25,26 +25,26 @@
     "Copy-Item (Join-Path $original_dir docker-buildx.exe) (Join-Path $docker_plugin_dir docker-buildx.exe)"
   ],
   "post_uninstall": [
-    "$docker_plugin_dir=(Join-Path $Env:USERPROFILE .docker/cli-plugins)",
+    "$docker_plugin_dir=(Join-Path $Env:USERPROFILE .dockercli-plugins)",
     "if ($global) {",
-    "  $docker_plugin_dir=(Join-Path $Env:ProgramData Docker/cli-plugins)",
+    "  $docker_plugin_dir=(Join-Path $Env:ProgramData Dockercli-plugins)",
     "}",
     "Remove-Item -Force (Join-Path $docker_plugin_dir docker-buildx.exe)"
   ],
   "checkver": {
-    "github": "https://github.com/docker/buildx"
+    "github": "https:github.comdockerbuildx"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-amd64.exe#/docker-buildx.exe"
+        "url": "https:github.comdockerbuildxreleasesdownloadv$versionbuildx-v$version.windows-amd64.exe#docker-buildx.exe"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-arm64.exe#/docker-buildx.exe"
+        "url": "https:github.comdockerbuildxreleasesdownloadv$versionbuildx-v$version.windows-arm64.exe#docker-buildx.exe"
       }
     },
     "hash": {
-      "url": "https://ghfast.top/https://github.com/docker/buildx/releases/download/v$version/checksums.txt"
+      "url": "https:github.comdockerbuildxreleasesdownloadv$versionchecksums.txt"
     }
   }
 }

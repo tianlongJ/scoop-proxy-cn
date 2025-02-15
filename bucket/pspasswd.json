@@ -1,12 +1,12 @@
 {
   "version": "1.25",
   "description": "Changes account passwords.",
-  "homepage": "https://learn.microsoft.com/sysinternals/downloads/pspasswd",
+  "homepage": "https:learn.microsoft.comsysinternalsdownloadspspasswd",
   "license": {
     "identifier": "Freeware",
-    "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    "url": "https:learn.microsoft.comsysinternalslicense-terms"
   },
-  "url": "https://download.sysinternals.com/files/pspasswd.zip",
+  "url": "https:download.sysinternals.comfilespspasswd.zip",
   "hash": "2b8600cb7ff9dbdb5f4ca0c9e13c6db8bfa4ffb40484ff1124f438a906143c8f",
   "architecture": {
     "64bit": {
@@ -30,10 +30,10 @@
     }
   },
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pspasswd.md",
+    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadspspasswd.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://download.sysinternals.com/files/pspasswd.zip"
+    "url": "https:download.sysinternals.comfilespspasswd.zip"
   }
 }

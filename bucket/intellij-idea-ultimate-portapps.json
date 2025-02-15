@@ -1,10 +1,10 @@
 {
   "version": "2024.1.1-42",
   "description": "Cross-Platform Java IDE for professional developers by JetBrains.",
-  "homepage": "https://www.jetbrains.com/idea/",
+  "homepage": "https:www.jetbrains.comidea",
   "license": {
     "identifier": "Proprietary",
-    "url": "https://www.jetbrains.com/store/terms/"
+    "url": "https:www.jetbrains.comstoreterms"
   },
   "innosetup": true,
   "persist": [
@@ -13,7 +13,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2024.1.1-42/intellij-idea-ultimate-portable-win64.exe",
+      "url": "https:github.comportappsintellij-idea-ultimate-portablereleasesdownload2024.1.1-42intellij-idea-ultimate-portable-win64.exe",
       "hash": "d29db82b6b13fbc326109e6e8cb433cf0767ac61a16d7894d9d56204fe7dee80",
       "bin": "intellij-idea-ultimate-portable-win64.exe",
       "shortcuts": [
@@ -26,18 +26,18 @@
   },
   "pre_install": "if(!(Test-Path \"$persist_dir\\intellij-idea-ultimate-portable.yml\")) { New-Item \"$dir\\intellij-idea-ultimate-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases",
-    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    "url": "https:github.comportappsintellij-idea-ultimate-portablereleases",
+    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/$version/intellij-idea-ultimate-portable-win64.exe"
+        "url": "https:github.comportappsintellij-idea-ultimate-portablereleasesdownload$versionintellij-idea-ultimate-portable-win64.exe"
       }
     },
     "hash": {
-      "url": "$baseurl/checksums.txt"
+      "url": "$baseurlchecksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https://portapps.io/app/intellij-idea-ultimate-portable/)"
+  "notes": "Installed from Portapps (https:portapps.ioappintellij-idea-ultimate-portable)"
 }

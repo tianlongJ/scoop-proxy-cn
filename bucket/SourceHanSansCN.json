@@ -1,16 +1,16 @@
 {
   "version": "2.004",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/adobe-fonts/source-han-sans",
-  "description": "Source Han Sans Subset OTF - Simplified Chinese OpenType/CFF fonts",
+  "homepage": "https:github.comadobe-fontssource-han-sans",
+  "description": "Source Han Sans Subset OTF - Simplified Chinese OpenTypeCFF fonts",
   "url": [
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Bold.otf",
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-ExtraLight.otf",
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Heavy.otf",
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Light.otf",
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Medium.otf",
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Normal.otf",
-    "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Regular.otf"
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Bold.otf",
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-ExtraLight.otf",
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Heavy.otf",
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Light.otf",
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Medium.otf",
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Normal.otf",
+    "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Regular.otf"
   ],
   "hash": [
     "997dd673efde3a7cc7410da3ccde2a729f26dc9e1a81ad659a2d6666d36b7974",
@@ -25,13 +25,13 @@
   "depends": "sudo",
   "autoupdate": {
     "url": [
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Bold.otf",
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-ExtraLight.otf",
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Heavy.otf",
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Light.otf",
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Medium.otf",
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Normal.otf",
-      "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/CN/SourceHanSansCN-Regular.otf"
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Bold.otf",
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-ExtraLight.otf",
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Heavy.otf",
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Light.otf",
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Medium.otf",
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Normal.otf",
+      "https:github.comadobe-fontssource-han-sansrawreleaseSubsetOTFCNSourceHanSansCN-Regular.otf"
     ]
   },
   "installer": {

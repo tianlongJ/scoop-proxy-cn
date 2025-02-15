@@ -1,11 +1,11 @@
 {
   "version": "3.3.7",
   "description": "Graphical client for the Soulseek file sharing network",
-  "homepage": "https://nicotine-plus.org",
+  "homepage": "https:nicotine-plus.org",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/nicotine-plus/nicotine-plus/releases/download/3.3.7/windows-x86_64-package.zip",
+      "url": "https:github.comnicotine-plusnicotine-plusreleasesdownload3.3.7windows-x86_64-package.zip",
       "hash": "c57d5a94e188bc560ee4930497243a85adf72d4bf17b49054aeab02564cce85e"
     }
   },
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/nicotine-plus/nicotine-plus"
+    "github": "https:github.comnicotine-plusnicotine-plus"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/nicotine-plus/nicotine-plus/releases/download/$version/windows-x86_64-package.zip"
+        "url": "https:github.comnicotine-plusnicotine-plusreleasesdownload$versionwindows-x86_64-package.zip"
       }
     },
     "hash": {

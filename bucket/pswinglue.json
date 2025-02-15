@@ -1,16 +1,16 @@
 {
   "version": "0.5.5",
   "description": "A PowerShell module consisting of an assortment of useful scripts.",
-  "homepage": "https://github.com/ralish/PSWinGlue",
+  "homepage": "https:github.comralishPSWinGlue",
   "license": "",
-  "url": "https://ghfast.top/https://github.com/ralish/PSWinGlue/archive/v0.5.5.zip",
+  "url": "https:github.comralishPSWinGluearchivev0.5.5.zip",
   "extract_dir": "PSWinGlue-0.5.5",
   "psmodule": {
     "name": "PSWinGlue"
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ralish/PSWinGlue/archive/v$version.zip",
+    "url": "https:github.comralishPSWinGluearchivev$version.zip",
     "extract_dir": "PSWinGlue-$version"
   }
 }

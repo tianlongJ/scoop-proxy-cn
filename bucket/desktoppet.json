@@ -1,11 +1,11 @@
 {
   "version": "1.3.1",
   "description": "Add a screen mate to your desktop",
-  "homepage": "https://adrianotiger.github.io/desktopPet/",
+  "homepage": "https:adrianotiger.github.iodesktopPet",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Adrianotiger/desktopPet/releases/download/v1.3.1/DesktopPet.zip",
+      "url": "https:github.comAdrianotigerdesktopPetreleasesdownloadv1.3.1DesktopPet.zip",
       "hash": "1a9df66e1dcbf8e3ef5f92a8ef164647bd86a1b1a3912e3f7e14485a897e7b15"
     }
   },
@@ -16,12 +16,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/Adrianotiger/desktopPet"
+    "github": "https:github.comAdrianotigerdesktopPet"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Adrianotiger/desktopPet/releases/download/v$version/DesktopPet.zip"
+        "url": "https:github.comAdrianotigerdesktopPetreleasesdownloadv$versionDesktopPet.zip"
       }
     }
   }

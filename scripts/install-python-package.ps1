@@ -1,7 +1,7 @@
 # Usage: install-python-package [options]
 # Summary: Installs a Python package using setup.py
 # Help: For example, to globally install a Python package from Git:
-#       install-python-package --global --dir keyring --repo https://github.com/jaraco/keyring.git --clone-dir keyring
+#       install-python-package --global --dir keyring --repo https:github.comjaracokeyring.git --clone-dir keyring
 #
 # Installed files are recorded in "installed_files.txt" in the setup directory.
 #

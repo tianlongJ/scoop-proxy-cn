@@ -1,8 +1,8 @@
 {
   "version": "v1.4.0",
   "description": "Source port for Doom 3: BFG Edition",
-  "homepage": "https://github.com/RobertBeckebans/RBDOOM-3-BFG",
-  "license": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/blob/master/COPYING.txt",
+  "homepage": "https:github.comRobertBeckebansRBDOOM-3-BFG",
+  "license": "https:github.comRobertBeckebansRBDOOM-3-BFGblobmasterCOPYING.txt",
   "notes": [
     "Place game data in:",
     "",
@@ -10,9 +10,9 @@
     "",
     "In case of errors about a missing XAudio library, set up DirectX using the installer below:",
     "",
-    "https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe"
+    "https:download.microsoft.comdownload84A84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14directx_Jun2010_redist.exe"
   ],
-  "url": "https://ghfast.top/https://github.com/RobertBeckebans/RBDOOM-3-BFG/releases/download/v1.4.0/RBDOOM-3-BFG-1.4.0.9-lite-win64-20220306-git-f81a8c1.7z",
+  "url": "https:github.comRobertBeckebansRBDOOM-3-BFGreleasesdownloadv1.4.0RBDOOM-3-BFG-1.4.0.9-lite-win64-20220306-git-f81a8c1.7z",
   "hash": "c116eba68c0c2abc6bed8ef6343d62e4f00f2328b98c0fc5a56523166e540c87",
   "shortcuts": [
     [
@@ -22,10 +22,10 @@
   ],
   "persist": "base",
   "checkver": {
-    "url": "https://github.com/RobertBeckebans/RBDOOM-3-BFG/releases/latest",
-    "regex": "/RobertBeckebans/RBDOOM-3-BFG/releases/download/([a-zA-Z\\d.\\-]+)/RBDOOM-3-BFG-(?<file>[a-zA-Z\\d.\\-]+)\\.7z"
+    "url": "https:github.comRobertBeckebansRBDOOM-3-BFGreleaseslatest",
+    "regex": "RobertBeckebansRBDOOM-3-BFGreleasesdownload([a-zA-Z\\d.\\-]+)RBDOOM-3-BFG-(?<file>[a-zA-Z\\d.\\-]+)\\.7z"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/RobertBeckebans/RBDOOM-3-BFG/releases/download/$version/RBDOOM-3-BFG-$matchFile.7z"
+    "url": "https:github.comRobertBeckebansRBDOOM-3-BFGreleasesdownload$versionRBDOOM-3-BFG-$matchFile.7z"
   }
 }

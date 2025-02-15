@@ -1,9 +1,9 @@
 {
-  "homepage": "https://github.com/mishamosher/CentOS-WSL/",
+  "homepage": "https:github.commishamosherCentOS-WSL",
   "description": "CentOS 9 for WSL",
   "license": "Open Source",
   "version": "9-stream-20220718",
-  "url": "https://ghfast.top/https://github.com/mishamosher/CentOS-WSL/releases/download/9-stream-20220718/CentOS9-stream.zip",
+  "url": "https:github.commishamosherCentOS-WSLreleasesdownload9-stream-20220718CentOS9-stream.zip",
   "shortcuts": [
     [
       "CentOS9-stream.exe",
@@ -11,10 +11,10 @@
     ]
   ],
   "uninstaller": {
-    "script": "wslconfig /u CentOS9-stream"
+    "script": "wslconfig u CentOS9-stream"
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/mishamosher/CentOS-WSL/releases/download/$version/CentOS9-stream.zip"
+    "url": "https:github.commishamosherCentOS-WSLreleasesdownload$versionCentOS9-stream.zip"
   }
 }

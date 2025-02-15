@@ -1,18 +1,18 @@
 {
   "version": "1.0.0",
   "description": "微信聊天记录持久化备份本地硬盘，释放手机存储空间。",
-  "homepage": "https://github.com/greycodee/wechat-backup",
+  "homepage": "https:github.comgreycodeewechat-backup",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/greycodee/wechat-backup/blob/master/LICENSE"
+    "url": "https:github.comgreycodeewechat-backupblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/greycodee/wechat-backup/releases/download/v1.0.0/wechat-backup_windows_v1.0.0.tar.gz",
+      "url": "https:github.comgreycodeewechat-backupreleasesdownloadv1.0.0wechat-backup_windows_v1.0.0.tar.gz",
       "hash": "44d5087ac8b15fa2ceea3fd506dea2993db43869ce7361a6bd459214dd86e881"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/greycodee/wechat-backup/releases/download/v1.0.0/wechat-backup_arm64_v1.0.0.tar.gz",
+      "url": "https:github.comgreycodeewechat-backupreleasesdownloadv1.0.0wechat-backup_arm64_v1.0.0.tar.gz",
       "hash": "5a5aa568272df84713d335bfd803a28ad75e69c2f11d670a60570906c20806bb"
     }
   },
@@ -27,16 +27,16 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/greycodee/wechat-backup/releases.atom",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:github.comgreycodeewechat-backupreleases.atom",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/greycodee/wechat-backup/releases/download/v$version/wechat-backup_windows_v$version.tar.gz"
+        "url": "https:github.comgreycodeewechat-backupreleasesdownloadv$versionwechat-backup_windows_v$version.tar.gz"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/greycodee/wechat-backup/releases/download/v$version/wechat-backup_arm64_v$version.tar.gz"
+        "url": "https:github.comgreycodeewechat-backupreleasesdownloadv$versionwechat-backup_arm64_v$version.tar.gz"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "2.0.18-1",
   "description": "Collaborative note taking. Notion with notion-enhancer embedded.",
-  "homepage": "https://notion-enhancer.github.io/",
+  "homepage": "https:notion-enhancer.github.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/Notion-Enhanced-2.0.18-1-win.zip",
+      "url": "https:github.comnotion-enhancernotion-repackagedreleasesdownloadv2.0.18-1Notion-Enhanced-2.0.18-1-win.zip",
       "hash": "22fb539c65caf2fbbaa201ac8ce983e6bf7c4af7e05ea706302c7c4c1947165e"
     }
   },
@@ -16,13 +16,13 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/notion-enhancer/notion-repackaged",
-    "regex": "/releases/tag/v([\\d.-]+)"
+    "github": "https:github.comnotion-enhancernotion-repackaged",
+    "regex": "releasestagv([\\d.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/notion-enhancer/notion-repackaged/releases/download/v$version/Notion-Enhanced-$version-win.zip"
+        "url": "https:github.comnotion-enhancernotion-repackagedreleasesdownloadv$versionNotion-Enhanced-$version-win.zip"
       }
     }
   }

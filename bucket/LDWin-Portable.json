@@ -1,10 +1,10 @@
 {
   "version": "2.2",
   "description": "LDWin. Link Discovery Client for Windows",
-  "homepage": "https://github.com/chall32/LDWin",
+  "homepage": "https:github.comchall32LDWin",
   "license": "Unknown",
-  "changelog": "https://github.com/chall32/LDWin/blob/master/ChangeLog.txt",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/chall32/LDWin/refs/heads/master/LDWin.exe",
+  "changelog": "https:github.comchall32LDWinblobmasterChangeLog.txt",
+  "url": "https:raw.githubusercontent.comchall32LDWinrefsheadsmasterLDWin.exe",
   "hash": "ed0bf3c3746fcaa8f4efcf12ad26c590cba709f229c0f4f8fc33e6df227b1872",
   "shortcuts": [
     [
@@ -13,10 +13,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/chall32/LDWin/blob/master/ChangeLog.txt",
+    "url": "https:github.comchall32LDWinblobmasterChangeLog.txt",
     "regex": "Release ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/chall32/LDWin/refs/heads/master/LDWin.exe"
+    "url": "https:raw.githubusercontent.comchall32LDWinrefsheadsmasterLDWin.exe"
   }
 }

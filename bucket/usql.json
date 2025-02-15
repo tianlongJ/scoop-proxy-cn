@@ -1,11 +1,11 @@
 {
   "version": "0.19.17",
   "description": "Universal command-line interface for SQL databases",
-  "homepage": "https://github.com/xo/usql",
+  "homepage": "https:github.comxousql",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xo/usql/releases/download/v0.19.17/usql-0.19.17-windows-amd64.zip",
+      "url": "https:github.comxousqlreleasesdownloadv0.19.17usql-0.19.17-windows-amd64.zip",
       "hash": "3fa1d8f423210ffa9bcfcb7c1fe5cbf33df1b49cb9ae8ddf0d29a871a12a84e6"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/xo/usql/releases/download/v$version/usql-$version-windows-amd64.zip"
+        "url": "https:github.comxousqlreleasesdownloadv$versionusql-$version-windows-amd64.zip"
       }
     }
   }

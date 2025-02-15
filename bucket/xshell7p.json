@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.netsarang.com/zh/xshell/",
+  "homepage": "https:www.netsarang.comzhxshell",
   "description": "业界最强大的SSH客户机",
   "version": "7.0.0108",
   "depends": [
@@ -7,12 +7,12 @@
     "vcredist2012",
     "vcredist2019"
   ],
-  "url": "https://scoop-zapps.ziiyc.com/d/Xshell7p/Xshell-7.0.0108p.exe#/setup.exe",
+  "url": "https:scoop-zapps.ziiyc.comdXshell7pXshell-7.0.0108p.exe#setup.exe",
   "hash": "e26e1d97a99df042990a14b045151284707b24a30a550445282485c140483940",
   "installer": {
     "script": [
-      "Start-Process -Wait \"$dir\\setup.exe\" \"/b$dir /S /v/qn\" -Verb RunAs",
-      "Start-Process -Wait msiexec \"/i `\"$dir\\Xshell` 7.msi`\" INSTALLDIR=`\"$dir`\" /qb\" -Verb RunAs"
+      "Start-Process -Wait \"$dir\\setup.exe\" \"b$dir S vqn\" -Verb RunAs",
+      "Start-Process -Wait msiexec \"i `\"$dir\\Xshell` 7.msi`\" INSTALLDIR=`\"$dir`\" qb\" -Verb RunAs"
     ],
     "keep": true
   },
@@ -22,10 +22,10 @@
     "$userdir = $env:USERPROFILE.Replace('\\', '\\\\')",
     "$escdir = $dir -replace \"\\\\\",\"\\\\\"",
     "(gc \"$bucketdir\\..\\scripts\\xshell7p\\register.reg.templ\") | % { $_ -replace 'USERPROFILE', \"$userdir\" } | out-file -enc oem \"$dir\\register.reg\"",
-    "sudo regedit /s $dir\\register.reg"
+    "sudo regedit s $dir\\register.reg"
   ],
   "uninstaller": {
-    "script": "Start-Process -Wait msiexec \"/x `\"$dir\\Xshell` 7.msi`\" /qb\" -Verb RunAs"
+    "script": "Start-Process -Wait msiexec \"x `\"$dir\\Xshell` 7.msi`\" qb\" -Verb RunAs"
   },
   "shortcuts": [
     [
@@ -34,11 +34,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/xshell7p.latest",
+    "url": "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterversionsxshell7p.latest",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://scoop-zapps.ziiyc.com/d/Xshell7p/Xshell-$versionp.exe#/setup.exe",
+    "url": "https:scoop-zapps.ziiyc.comdXshell7pXshell-$versionp.exe#setup.exe",
     "hash": {
       "url": "$url.sha256",
       "regex": "$sha256"

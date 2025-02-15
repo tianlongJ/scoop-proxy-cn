@@ -1,8 +1,8 @@
 {
   "version": "0.0.2",
   "license": "SIL OFL 1.1",
-  "homepage": "https://github.com/font-store/ShahabFont",
-  "url": "https://ghfast.top/https://github.com/font-store/ShahabFont/releases/download/v0.0.2/pack.0.0.2.zip",
+  "homepage": "https:github.comfont-storeShahabFont",
+  "url": "https:github.comfont-storeShahabFontreleasesdownloadv0.0.2pack.0.0.2.zip",
   "hash": "c369617408bf83a71a155c86abe0988a4500c8c576e84752897255e5dd3ff3f7",
   "pre_install": [
     "Move-Item $dir\\fonts\\*.ttf $dir",
@@ -51,10 +51,10 @@
     ]
   },
   "checkver": {
-    "url": "https://github.com/font-store/ShahabFont/tags",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:github.comfont-storeShahabFonttags",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/font-store/ShahabFont/releases/download/v$version/pack.$version.zip"
+    "url": "https:github.comfont-storeShahabFontreleasesdownloadv$versionpack.$version.zip"
   }
 }

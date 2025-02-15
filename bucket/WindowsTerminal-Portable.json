@@ -1,23 +1,23 @@
 {
   "version": "1.22.10352.0",
   "description": "Windows Terminal. The new Windows Terminal, and the original Windows console host - all in the same place!",
-  "homepage": "https://github.com/microsoft/terminal",
+  "homepage": "https:github.commicrosoftterminal",
   "license": "MIT",
-  "changelog": "https://github.com/microsoft/terminal/releases",
+  "changelog": "https:github.commicrosoftterminalreleases",
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "extrasvcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/microsoft/terminal/releases/download/v1.22.10352.0/Microsoft.WindowsTerminal_1.22.10352.0_x64.zip",
+      "url": "https:github.commicrosoftterminalreleasesdownloadv1.22.10352.0Microsoft.WindowsTerminal_1.22.10352.0_x64.zip",
       "hash": "c2cf549a567f60daf291dc87d06f69e74935426e96a5ed0f04845d8abe5504dd"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/microsoft/terminal/releases/download/v1.22.10352.0/Microsoft.WindowsTerminal_1.22.10352.0_x86.zip",
+      "url": "https:github.commicrosoftterminalreleasesdownloadv1.22.10352.0Microsoft.WindowsTerminal_1.22.10352.0_x86.zip",
       "hash": "72116064667162890225b6112fcda4a5db15dff272491a6d1dc5cabd635803a4"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/microsoft/terminal/releases/download/v1.22.10352.0/Microsoft.WindowsTerminal_1.22.10352.0_arm64.zip",
+      "url": "https:github.commicrosoftterminalreleasesdownloadv1.22.10352.0Microsoft.WindowsTerminal_1.22.10352.0_arm64.zip",
       "hash": "5bd8ecca870f377fa98378d0a75c00d97152cf218c70458376ba0fe645aca387"
     }
   },
@@ -68,17 +68,17 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_x64.zip"
+        "url": "https:github.commicrosoftterminalreleasesdownloadv$versionMicrosoft.WindowsTerminal_$version_x64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_x86.zip"
+        "url": "https:github.commicrosoftterminalreleasesdownloadv$versionMicrosoft.WindowsTerminal_$version_x86.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_arm64.zip"
+        "url": "https:github.commicrosoftterminalreleasesdownloadv$versionMicrosoft.WindowsTerminal_$version_arm64.zip"
       }
     },
     "hash": {
-      "url": "https://github.com/microsoft/terminal/releases/tag/v$version",
+      "url": "https:github.commicrosoftterminalreleasestagv$version",
       "regex": "(?s)$basename.*?$sha256"
     },
     "extract_dir": "terminal-$version"

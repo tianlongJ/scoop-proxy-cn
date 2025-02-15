@@ -1,12 +1,12 @@
 {
   "version": "0.1.1",
   "description": "cat,add,update hosts file with powershell.",
-  "homepage": "https://github.com/akirco/powershell/tree/master/hosts-editor",
+  "homepage": "https:github.comakircopowershelltreemasterhosts-editor",
   "license": "MIT",
   "url": [
-    "https://ghfast.top/https://raw.githubusercontent.com/akirco/powershell/master/hosts-editor/hosts",
-    "https://ghfast.top/https://raw.githubusercontent.com/akirco/powershell/master/hosts-editor/sudo.ps1",
-    "https://ghfast.top/https://raw.githubusercontent.com/akirco/powershell/master/hosts-editor/hosts.ps1"
+    "https:raw.githubusercontent.comakircopowershellmasterhosts-editorhosts",
+    "https:raw.githubusercontent.comakircopowershellmasterhosts-editorsudo.ps1",
+    "https:raw.githubusercontent.comakircopowershellmasterhosts-editorhosts.ps1"
   ],
   "hash": [
     "f9a69393a6de631b44a0b2d06f3d5fb6eb80f6d3aa67adb7dd363689b7931529",
@@ -20,6 +20,6 @@
     "name": "hosts"
   },
   "depends": [
-    "aki/powerhtml"
+    "akipowerhtml"
   ]
 }

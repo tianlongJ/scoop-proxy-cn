@@ -1,9 +1,9 @@
 {
   "version": "0.7.0",
   "description": "The R installation manager: Install, remove, configure R versions.",
-  "homepage": "https://github.com/r-lib/rig",
+  "homepage": "https:github.comr-librig",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/r-lib/rig/releases/download/v0.7.0/rig-windows-0.7.0.exe",
+  "url": "https:github.comr-librigreleasesdownloadv0.7.0rig-windows-0.7.0.exe",
   "hash": "9e4d8bae8ce820d25b9a1f49a54ce9c2fa732bcccd47920f49d714f21beb1e02",
   "bin": "rig.exe",
   "innosetup": true,
@@ -19,7 +19,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/r-lib/rig/releases/download/v$version/rig-windows-$version.exe"
+    "url": "https:github.comr-librigreleasesdownloadv$versionrig-windows-$version.exe"
   },
   "notes": [
     "Usage: Add the following to the end of your PowerShell $profile to get autocompletion:",

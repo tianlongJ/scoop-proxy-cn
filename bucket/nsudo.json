@@ -1,9 +1,9 @@
 {
   "version": "8.2",
   "description": "Powerful System Administration Tool",
-  "homepage": "https://github.com/M2Team/NSudo",
+  "homepage": "https:github.comM2TeamNSudo",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/M2Team/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip",
+  "url": "https:github.comM2TeamNSudoreleasesdownload8.2NSudo_8.2_All_Components.zip",
   "hash": "346e38030cc9eeef48223804ba27631db96691d68bfc5d1728140d468f555204",
   "architecture": {
     "64bit": {
@@ -42,9 +42,9 @@
     "Nsudo Launcher\\Win32\\NSudo.json"
   ],
   "checkver": {
-    "github": "https://github.com/M2Team/NSudo"
+    "github": "https:github.comM2TeamNSudo"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/M2Team/NSudo/releases/download/$version/NSudo_$version_All_Components.zip"
+    "url": "https:github.comM2TeamNSudoreleasesdownload$versionNSudo_$version_All_Components.zip"
   }
 }

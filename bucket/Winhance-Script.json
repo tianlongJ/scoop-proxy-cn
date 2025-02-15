@@ -1,10 +1,10 @@
 {
   "version": "nightly",
   "description": "Winhance - Windows Enhancement Utility.",
-  "homepage": "https://github.com/memstechtips/Winhance",
+  "homepage": "https:github.commemstechtipsWinhance",
   "license": "CC BY-NC-SA 4.0",
-  "changelog": "https://github.com/memstechtips/Winhance",
-  "url": "https://github.com/memstechtips/Winhance/blob/main/README.md",
+  "changelog": "https:github.commemstechtipsWinhance",
+  "url": "https:github.commemstechtipsWinhanceblobmainREADME.md",
   "installer": {
     "script": [
       "New-Item -Path \"$dir\\powershell.exe\" -ItemType SymbolicLink -Target  \"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\""
@@ -14,7 +14,7 @@
     [
       "powershell.exe",
       "Winhance - Windows Enhancement Utility",
-      "-Command irm https://github.com/memstechtips/Winhance/raw/main/Winhance.ps1 | iex"
+      "-Command irm https:github.commemstechtipsWinhancerawmainWinhance.ps1 | iex"
     ]
   ]
 }

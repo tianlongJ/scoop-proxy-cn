@@ -1,10 +1,10 @@
 {
   "version": "8.4.9",
   "description": "A remapping program for Nintendo Switch controllers",
-  "homepage": "https://github.com/d3xMachina/BetterJoy",
+  "homepage": "https:github.comd3xMachinaBetterJoy",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/d3xMachina/BetterJoy/blob/master/LICENSE"
+    "url": "https:github.comd3xMachinaBetterJoyblobmasterLICENSE"
   },
   "notes": [
     "BetterJoy needs vigembus installed to function.",
@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/d3xMachina/BetterJoy/releases/download/v8.4.9/BetterJoy.zip",
+      "url": "https:github.comd3xMachinaBetterJoyreleasesdownloadv8.4.9BetterJoy.zip",
       "hash": "d1b251c24dc068967ef0d3568b05338a770a8ef55ea48c635380fbba987f3f6a"
     }
   },
@@ -36,7 +36,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/d3xMachina/BetterJoy/releases/download/v$version/BetterJoy.zip"
+        "url": "https:github.comd3xMachinaBetterJoyreleasesdownloadv$versionBetterJoy.zip"
       }
     }
   }

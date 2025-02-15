@@ -1,11 +1,11 @@
 {
   "version": "1.5.2+532",
-  "description": "An e-hentai/exhentai app make on flutter",
-  "homepage": "https://github.com/honjow/FEhViewer",
+  "description": "An e-hentaiexhentai app make on flutter",
+  "homepage": "https:github.comhonjowFEhViewer",
   "license": "GPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/honjow/FEhViewer/releases/download/v1.5.2+532/FEhViewer_1.5.2+532_windows.zip",
+      "url": "https:github.comhonjowFEhViewerreleasesdownloadv1.5.2+532FEhViewer_1.5.2+532_windows.zip",
       "hash": "3475420f3fa0139297ce76a3c1beebe61fdd6f26aabad82027a0ee5c1eb97cf0",
       "extract_dir": "FEhViewer"
     }
@@ -17,13 +17,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/honjow/FEhViewer/releases",
-    "re": "releases/tag.*v([\\d.\\+]+)"
+    "url": "https:github.comhonjowFEhViewerreleases",
+    "re": "releasestag.*v([\\d.\\+]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/honjow/FEhViewer/releases/download/v$version/FEhViewer_$version_windows.zip"
+        "url": "https:github.comhonjowFEhViewerreleasesdownloadv$versionFEhViewer_$version_windows.zip"
       }
     }
   }

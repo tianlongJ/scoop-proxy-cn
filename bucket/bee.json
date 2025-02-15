@@ -1,14 +1,14 @@
 {
-  "homepage": "https://swarm.ethereum.org/",
+  "homepage": "https:swarm.ethereum.org",
   "description": "A Swarm client implemented in Go",
   "version": "2.4.0",
   "license": "BSD-3-Clause",
   "suggest": {
-    "sudo": "main/gsudo"
+    "sudo": "maingsudo"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ethersphere/bee/releases/download/v2.4.0/bee-windows-amd64.zip",
+      "url": "https:github.cometherspherebeereleasesdownloadv2.4.0bee-windows-amd64.zip",
       "hash": "c930c862251eab35608a2283c65f1cd13b0e87b2e653d9f8243f2b08f961a916"
     }
   },
@@ -31,9 +31,9 @@
       "Copy-Item -Path $beeConfTemplate -Destination \"$dir\\template.bee.yaml\" -Force",
       "if (!(Test-Path $dataPersistDir)) {",
       "    New-Item -Force -Path $dataPersistDir -ItemType Directory | Out-Null",
-      "    (Get-Content -Path $beeConfTemplate -Raw) -replace './bee.yaml',\"$dataPersistDir\\bee.yaml\" | Set-Content -Path $beeConfTemplate",
-      "    (Get-Content -Path $beeConfTemplate -Raw) -replace './data',\"$dataPersistDir\\.bee\" | Set-Content -Path $beeConfTemplate",
-      "    (Get-Content -Path $beeConfTemplate -Raw) -replace './password',\"$dataPersistDir\\password\" | Set-Content -Path $beeConfTemplate",
+      "    (Get-Content -Path $beeConfTemplate -Raw) -replace '.bee.yaml',\"$dataPersistDir\\bee.yaml\" | Set-Content -Path $beeConfTemplate",
+      "    (Get-Content -Path $beeConfTemplate -Raw) -replace '.data',\"$dataPersistDir\\.bee\" | Set-Content -Path $beeConfTemplate",
+      "    (Get-Content -Path $beeConfTemplate -Raw) -replace '.password',\"$dataPersistDir\\password\" | Set-Content -Path $beeConfTemplate",
       "    GeneratePassword(32) | Out-File -FilePath \"$dataPersistDir\\password\" -Encoding ASCII -NoNewline -Force",
       "    Copy-Item -Path $beeConfTemplate -Destination $dataPersistDir -Force",
       "}",
@@ -42,7 +42,7 @@
       "$binScript = \"@echo off`n%~dp0bee.exe --config %~dp0data\\bee.yaml %*\"",
       "New-Item -Force -Path \"$dir\\bee.cmd\" -ItemType File -Value $binScript | Out-Null",
       "# Copy service helper",
-      "$serviceHelper = $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/bee/beesvc.cmd)",
+      "$serviceHelper = $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsbeebeesvc.cmd)",
       "Copy-Item -Path $serviceHelper -Destination $dir"
     ]
   },
@@ -52,16 +52,16 @@
   ],
   "persist": "data",
   "checkver": {
-    "github": "https://github.com/ethersphere/bee"
+    "github": "https:github.cometherspherebee"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ethersphere/bee/releases/download/v$version/bee-windows-amd64.zip"
+        "url": "https:github.cometherspherebeereleasesdownloadv$versionbee-windows-amd64.zip"
       }
     },
     "hash": {
-      "url": "https://ghfast.top/https://github.com/ethersphere/bee/releases/download/v$version/bee_$version_checksums.txt"
+      "url": "https:github.cometherspherebeereleasesdownloadv$versionbee_$version_checksums.txt"
     }
   },
   "notes": [
@@ -70,7 +70,7 @@
     "Newer version of bee may come with new configs (bee.yaml), Scoop will not merge new configs, you should merge it manully.",
     "",
     "Please make sure there is sufficient eth and bzz available on your address.",
-    "Learn how to fund your node by visiting our docs at https://docs.ethswarm.org/docs/installation/quick-start#fund-your-node",
+    "Learn how to fund your node by visiting our docs at https:docs.ethswarm.orgdocsinstallationquick-start#fund-your-node",
     "",
     "By using this bee package, a single node would be set up for development purposes. For production, docker-managed multiple nodes are recommended.",
     ""

@@ -1,10 +1,10 @@
 {
   "version": "7.50.7200",
   "description": "Aida64 Engineer Edition. Industry-leading system information, diagnostic and benchmarking solution for corporate IT technicians and engineers.",
-  "homepage": "https://www.aida64.com/products/aida64-engineer/",
+  "homepage": "https:www.aida64.comproductsaida64-engineer",
   "url": [
-    "http://download.aida64.com/aida64engineer750.zip",
-    "https://ghfast.top/https://gist.githubusercontent.com/Ash258/e143436e2f9183a650424d635b535e51/raw/cosi.aiden#/pkey.txt"
+    "http:download.aida64.comaida64engineer750.zip",
+    "https:gist.githubusercontent.comAsh258e143436e2f9183a650424d635b535e51rawcosi.aiden#pkey.txt"
   ],
   "hash": [
     "f2af58f22603694641f8cd827fee94c4896552ecbfcdadd8e737d98d27d41ad4",
@@ -31,10 +31,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://www.aida64.com/downloads/latesta64ee",
+    "url": "https:www.aida64.comdownloadslatesta64ee",
     "regex": "AIDA64 Engineer ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "http://download.aida64.com/aida64engineer$majorVersion$minorVersion.zip"
+    "url": "http:download.aida64.comaida64engineer$majorVersion$minorVersion.zip"
   }
 }

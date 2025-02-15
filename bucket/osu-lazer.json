@@ -1,9 +1,9 @@
 {
   "version": "2025.118.3",
   "description": "A free-to-win rhythm game. Rhythm is just a click away!",
-  "homepage": "https://osu.ppy.sh/",
+  "homepage": "https:osu.ppy.sh",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/ppy/osu/releases/download/2025.118.3/osulazer-2025.118.3-full.nupkg#/dl.7z",
+  "url": "https:github.comppyosureleasesdownload2025.118.3osulazer-2025.118.3-full.nupkg#dl.7z",
   "hash": "sha1:102cd374741b176ee258ae371cfd6a6ae62e4d4c",
   "extract_dir": "lib\\app",
   "pre_install": [
@@ -32,12 +32,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/ppy/osu"
+    "github": "https:github.comppyosu"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ppy/osu/releases/download/$version/osulazer-$version-full.nupkg#/dl.7z",
+    "url": "https:github.comppyosureleasesdownload$versionosulazer-$version-full.nupkg#dl.7z",
     "hash": {
-      "url": "https://ghfast.top/https://github.com/ppy/osu/releases/download/$version/RELEASES",
+      "url": "https:github.comppyosureleasesdownload$versionRELEASES",
       "regex": "$sha1 .*full.nupkg"
     }
   }

@@ -1,14 +1,14 @@
 {
   "version": "8.0.0",
   "description": "Find duplicates, empty folders, similar images, unnecessary files, etc.",
-  "homepage": "https://github.com/qarmin/czkawka",
+  "homepage": "https:github.comqarminczkawka",
   "license": {
     "identifier": "MIT, CC-BY-4.0, Unknown",
-    "url": "https://www.reshot.com/license/"
+    "url": "https:www.reshot.comlicense"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/qarmin/czkawka/releases/download/8.0.0/windows_czkawka_gui_46.zip",
+      "url": "https:github.comqarminczkawkareleasesdownload8.0.0windows_czkawka_gui_46.zip",
       "hash": "7383855bbab3119274b6ed57fd468a4f48c4e221646a61f816aa5a562223b7b0"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/qarmin/czkawka/releases/download/$version/windows_czkawka_gui_46.zip"
+        "url": "https:github.comqarminczkawkareleasesdownload$versionwindows_czkawka_gui_46.zip"
       }
     }
   }

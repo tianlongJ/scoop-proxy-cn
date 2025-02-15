@@ -1,7 +1,7 @@
 {
   "version": "6.24.1221.1",
   "description": "Notepad-like text editor based on the Scintilla source code",
-  "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
+  "homepage": "https:www.rizonesoft.comdownloadsnotepad3",
   "license": "BSD-3-Clause",
   "notes": [
     "To add Notepad3 to right-click context menu, run:",
@@ -9,11 +9,11 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.24.1221.1/Notepad3_6.24.1221.1_x64_Portable.zip",
+      "url": "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_6.24.1221.1Notepad3_6.24.1221.1_x64_Portable.zip",
       "hash": "3ab81bdf132f041a489a09ed2476886218efef8242fe5badf1c8920868c21f70"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.24.1221.1/Notepad3_6.24.1221.1_x86_Portable.zip",
+      "url": "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_6.24.1221.1Notepad3_6.24.1221.1_x86_Portable.zip",
       "hash": "bacda2e4617194104167b8dc7171adaac414f0f952fb59a6518f656ca0fa9c34"
     }
   },
@@ -54,16 +54,16 @@
     "Notepad3.ini"
   ],
   "checkver": {
-    "url": "https://github.com/rizonesoft/Notepad3/releases",
-    "regex": "tag/RELEASE_([\\d.]+)"
+    "url": "https:github.comrizonesoftNotepad3releases",
+    "regex": "tagRELEASE_([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x64_Portable.zip"
+        "url": "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_$versionNotepad3_$version_x64_Portable.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x86_Portable.zip"
+        "url": "https:github.comrizonesoftNotepad3releasesdownloadRELEASE_$versionNotepad3_$version_x86_Portable.zip"
       }
     }
   }

@@ -1,13 +1,13 @@
 {
   "version": "0.88.0",
   "description": "Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the Windows 95 era PowerToys project, this reboot provides power users with ways to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows.",
-  "homepage": "https://github.com/microsoft/PowerToys",
+  "homepage": "https:github.commicrosoftPowerToys",
   "license": {
     "identifier": "MIT"
   },
   "notes": "",
   "depends": "dotnet-desktop-runtime",
-  "url": "https://ghfast.top/https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe#/install.exe",
+  "url": "https:github.commicrosoftPowerToysreleasesdownloadv0.88.0PowerToysSetup-0.88.0-x64.exe#install.exe",
   "hash": "c43742db7aa3f8b01fe7ae1da591f0342767afe5bbacb72f2968ce5e8ee1e3ac",
   "installer": {
     "script": [
@@ -42,11 +42,11 @@
       "    abort 'Unable to find product Code.'",
       "}",
       "$id = Get-Content $idFile",
-      "Start-Process msiexec.exe -ArgumentList '/q',\"/x $id\" -Wait"
+      "Start-Process msiexec.exe -ArgumentList 'q',\"x $id\" -Wait"
     ]
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe#/install.exe"
+    "url": "https:github.commicrosoftPowerToysreleasesdownloadv$versionPowerToysSetup-$version-x64.exe#install.exe"
   }
 }

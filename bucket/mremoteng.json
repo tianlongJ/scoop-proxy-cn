@@ -1,9 +1,9 @@
 {
   "version": "1.76.20.24615",
   "description": "Tabbed, multi-protocol, remote connections manager",
-  "homepage": "https://mremoteng.org/",
+  "homepage": "https:mremoteng.org",
   "license": "GPL-2.0-only",
-  "url": "https://ghfast.top/https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi",
+  "url": "https:github.commRemoteNGmRemoteNGreleasesdownloadv1.76.20mRemoteNG-Installer-1.76.20.24615.msi",
   "hash": "2c4d1efb90124f885215f88304c9ecc8bbeecc9cca285f6d17baae43b49f6227",
   "extract_dir": "mRemoteNG",
   "bin": "mRemoteNG.exe",
@@ -14,10 +14,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/mRemoteNG/mRemoteNG",
+    "github": "https:github.commRemoteNGmRemoteNG",
     "regex": "mRemoteNG-Installer-([\\d.]+)\\.msi"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/mRemoteNG/mRemoteNG/releases/download/v$matchHead/mRemoteNG-Installer-$version.msi"
+    "url": "https:github.commRemoteNGmRemoteNGreleasesdownloadv$matchHeadmRemoteNG-Installer-$version.msi"
   }
 }

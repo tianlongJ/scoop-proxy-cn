@@ -1,11 +1,11 @@
 {
   "version": "5.6.0",
   "description": "Cross-platform Desktop App for android messages.",
-  "homepage": "https://github.com/OrangeDrangon/android-messages-desktop",
+  "homepage": "https:github.comOrangeDrangonandroid-messages-desktop",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/OrangeDrangon/android-messages-desktop/releases/download/v5.6.0/Android-Messages-v5.6.0-win-x64.portable.exe#/dl.7z",
+      "url": "https:github.comOrangeDrangonandroid-messages-desktopreleasesdownloadv5.6.0Android-Messages-v5.6.0-win-x64.portable.exe#dl.7z",
       "hash": "sha512:21acb1121048d45dde0b8fdea07114dfe19ca5cccf4f131f4bc314eb096823c9918bb3b51321aa50f363db9a784d01a3d7a0e55f59ece8831da20315eff78e4c",
       "extract_dir": "$PLUGINSDIR"
     }
@@ -29,13 +29,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/OrangeDrangon/android-messages-desktop/releases",
-    "regex": "/tree/v([\\w.-]+)\""
+    "url": "https:github.comOrangeDrangonandroid-messages-desktopreleases",
+    "regex": "treev([\\w.-]+)\""
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/OrangeDrangon/android-messages-desktop/releases/download/v$version/Android-Messages-v$version-win-x64.portable.exe#/dl.7z",
+    "url": "https:github.comOrangeDrangonandroid-messages-desktopreleasesdownloadv$versionAndroid-Messages-v$version-win-x64.portable.exe#dl.7z",
     "hash": {
-      "url": "$baseurl/latest.yml",
+      "url": "$baseurllatest.yml",
       "regex": "sha512:\\s+$base64"
     }
   }

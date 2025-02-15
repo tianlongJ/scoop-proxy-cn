@@ -1,21 +1,21 @@
 {
   "version": "9.0.0.7889",
   "description": ".NET assembly browser and decompiler.",
-  "homepage": "http://ilspy.net",
+  "homepage": "http:ilspy.net",
   "license": "MIT",
   "suggest": {
     ".NET Desktop Runtime": [
-      "extras/windowsdesktop-runtime",
-      "extras/windowsdesktop-runtime-lts"
+      "extraswindowsdesktop-runtime",
+      "extraswindowsdesktop-runtime-lts"
     ]
   },
   "architecture": {
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/icsharpcode/ILSpy/releases/download/v9.0/ILSpy_binaries_9.0.0.7889-arm64.zip",
+      "url": "https:github.comicsharpcodeILSpyreleasesdownloadv9.0ILSpy_binaries_9.0.0.7889-arm64.zip",
       "hash": "316c7f97179bfac759e16403cf8b0bc798f557cfcd7ec1ff3599f442dd2f4b42"
     },
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/icsharpcode/ILSpy/releases/download/v9.0/ILSpy_binaries_9.0.0.7889-x64.zip",
+      "url": "https:github.comicsharpcodeILSpyreleasesdownloadv9.0ILSpy_binaries_9.0.0.7889-x64.zip",
       "hash": "bd30e1048773a3cfbac6ec32fe6c7c8744e9ae40e63f0099a8b2d0945640433f"
     }
   },
@@ -27,17 +27,17 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/1327739/releases/latest",
+    "url": "https:api.github.comrepositories1327739releaseslatest",
     "jsonpath": "$.assets..browser_download_url",
-    "regex": "download/v(?<tag>[\\d.]+)/ILSpy_binaries_([\\d.]+)-x64\\.zip"
+    "regex": "downloadv(?<tag>[\\d.]+)ILSpy_binaries_([\\d.]+)-x64\\.zip"
   },
   "autoupdate": {
     "architecture": {
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-arm64.zip"
+        "url": "https:github.comicsharpcodeILSpyreleasesdownloadv$matchTagILSpy_binaries_$version-arm64.zip"
       },
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-x64.zip"
+        "url": "https:github.comicsharpcodeILSpyreleasesdownloadv$matchTagILSpy_binaries_$version-x64.zip"
       }
     }
   }

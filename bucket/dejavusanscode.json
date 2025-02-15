@@ -1,14 +1,14 @@
 {
   "version": "1.2.2",
   "description": "Monospaced font with programming ligatures based on DejaVu Sans Mono",
-  "license": "https://github.com/SSNikolaevich/DejaVuSansCode/blob/master/LICENSE",
-  "homepage": "https://github.com/SSNikolaevich/DejaVuSansCode",
-  "url": "https://ghfast.top/https://github.com/SSNikolaevich/DejaVuSansCode/releases/download/v1.2.2/dejavu-code-ttf-1.2.2.zip",
+  "license": "https:github.comSSNikolaevichDejaVuSansCodeblobmasterLICENSE",
+  "homepage": "https:github.comSSNikolaevichDejaVuSansCode",
+  "url": "https:github.comSSNikolaevichDejaVuSansCodereleasesdownloadv1.2.2dejavu-code-ttf-1.2.2.zip",
   "hash": "1bb7b305e9e580a12baf717c8d10c76e3c75114d5b2f0cd0ab242ba6921dcbc8",
   "extract_dir": "dejavu-code-ttf-1.2.2\\ttf",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/SSNikolaevich/DejaVuSansCode/releases/download/v$version/dejavu-code-ttf-$version.zip",
+    "url": "https:github.comSSNikolaevichDejaVuSansCodereleasesdownloadv$versiondejavu-code-ttf-$version.zip",
     "extract_dir": "dejavu-code-ttf-$version\\ttf"
   },
   "installer": {
@@ -32,7 +32,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

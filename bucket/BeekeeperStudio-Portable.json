@@ -1,12 +1,12 @@
 {
   "version": "5.0.9",
   "description": "Beekeeper Studio. SQL editor and database management",
-  "homepage": "https://www.beekeeperstudio.io",
+  "homepage": "https:www.beekeeperstudio.io",
   "license": "MIT",
-  "changelog": "https://github.com/beekeeper-studio/beekeeper-studio/releases",
+  "changelog": "https:github.combeekeeper-studiobeekeeper-studioreleases",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.0.9/Beekeeper-Studio-Setup-5.0.9.exe#/dl.7z",
+      "url": "https:github.combeekeeper-studiobeekeeper-studioreleasesdownloadv5.0.9Beekeeper-Studio-Setup-5.0.9.exe#dl.7z",
       "hash": "sha512:3a7f3cf6dd4d46e3745a779c878e7e4c9808ebcfa4d4ed865af51948e6da7466732f860987ca1d95bab6362ffed1aab221b49c45b162a486f27d0dc6d1c615fe",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -22,16 +22,16 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/beekeeper-studio/beekeeper-studio"
+    "github": "https:github.combeekeeper-studiobeekeeper-studio"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v$version/Beekeeper-Studio-Setup-$version.exe#/dl.7z"
+        "url": "https:github.combeekeeper-studiobeekeeper-studioreleasesdownloadv$versionBeekeeper-Studio-Setup-$version.exe#dl.7z"
       }
     },
     "hash": {
-      "url": "$baseurl/latest.yml",
+      "url": "$baseurllatest.yml",
       "regex": "sha512:\\s+$base64"
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "1.2.4",
   "description": "Advanced drum machine",
-  "homepage": "http://hydrogen-music.org",
+  "homepage": "http:hydrogen-music.org",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/hydrogen-music/hydrogen/releases/download/1.2.4/Hydrogen-1.2.4-win64.exe#/dl.7z",
+      "url": "https:github.comhydrogen-musichydrogenreleasesdownload1.2.4Hydrogen-1.2.4-win64.exe#dl.7z",
       "hash": "ca60e51b916c812ba3723ab7fb680cc5419238798f6decfc2e49dfe3961020e2"
     }
   },
@@ -18,13 +18,13 @@
     ]
   ],
   "checkver": {
-    "url": "http://hydrogen-music.org/downloads/",
+    "url": "http:hydrogen-music.orgdownloads",
     "regex": "([\\w.-]+)\\s+64-Bit"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/hydrogen-music/hydrogen/releases/download/$version/Hydrogen-$version-win64.exe#/dl.7z"
+        "url": "https:github.comhydrogen-musichydrogenreleasesdownload$versionHydrogen-$version-win64.exe#dl.7z"
       }
     }
   }

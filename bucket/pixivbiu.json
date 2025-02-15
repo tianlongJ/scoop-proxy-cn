@@ -1,9 +1,9 @@
 {
   "version": "2.6.3a",
   "description": "PixivBiu 是一款不错的 Pixiv 搜索辅助工具。",
-  "homepage": "https://github.com/txperl/PixivBiu",
+  "homepage": "https:github.comtxperlPixivBiu",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/txperl/PixivBiu/releases/download/v2.6.3a/PixivBiu_v2.6.3a_win_x64.zip",
+  "url": "https:github.comtxperlPixivBiureleasesdownloadv2.6.3aPixivBiu_v2.6.3a_win_x64.zip",
   "hash": "8b71dbbd5937ba00164d68d22f83911f20cc3dee619c95bd1be35374a61eddc3",
   "bin": "PixivBiu.exe",
   "shortcuts": [
@@ -18,10 +18,10 @@
     "usr\\.token.json"
   ],
   "checkver": {
-    "url": "https://github.com/txperl/PixivBiu",
-    "regex": "/releases/tag/v(?<version>.+)?\""
+    "url": "https:github.comtxperlPixivBiu",
+    "regex": "releasestagv(?<version>.+)?\""
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/txperl/PixivBiu/releases/download/v$version/PixivBiu_v$version_win_x64.zip"
+    "url": "https:github.comtxperlPixivBiureleasesdownloadv$versionPixivBiu_v$version_win_x64.zip"
   }
 }

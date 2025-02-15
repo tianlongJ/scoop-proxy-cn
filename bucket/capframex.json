@@ -1,14 +1,14 @@
 {
   "version": "1.7.4",
   "description": "Frametimes analysis tool compatible with OCAT",
-  "homepage": "https://github.com/CXWorld/CapFrameX",
+  "homepage": "https:github.comCXWorldCapFrameX",
   "license": "MIT",
   "suggest": {
-    "OCAT": "extras/ocat"
+    "OCAT": "extrasocat"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/CXWorld/CapFrameX/releases/download/v1.7.4_release/release_1.7.4_portable.zip",
+      "url": "https:github.comCXWorldCapFrameXreleasesdownloadv1.7.4_releaserelease_1.7.4_portable.zip",
       "hash": "bcda7067baf42272803a1bf3d5c4c54b869dbc5d9e9f5a49afa4f15c19e62ede"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/CXWorld/CapFrameX/releases/download/v$version_release/release_$version_portable.zip"
+        "url": "https:github.comCXWorldCapFrameXreleasesdownloadv$version_releaserelease_$version_portable.zip"
       }
     }
   }

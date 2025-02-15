@@ -1,9 +1,9 @@
 {
   "version": "10.1.1002.1B",
   "description": "A gatis Windows utility similar to DISM, but with a GUI and based on CBS",
-  "homepage": "https://github.com/Chuyu-Team/Dism-Multi-language/",
+  "homepage": "https:github.comChuyu-TeamDism-Multi-language",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1002.2/Dism++10.1.1002.1B.zip",
+  "url": "https:github.comChuyu-TeamDism-Multi-languagereleasesdownloadv10.1.1002.2Dism++10.1.1002.1B.zip",
   "hash": "5bbab96d60704854efd8246a7d9371688b9102261544827fc8884126d70bcb3b",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\Config\\Config.ini\")) {",
@@ -60,11 +60,11 @@
   },
   "persist": "Config\\Config.ini",
   "checkver": {
-    "url": "https://api.github.com/repositories/74809720/releases/latest",
+    "url": "https:api.github.comrepositories74809720releaseslatest",
     "jsonpath": "$.assets[0].browser_download_url",
-    "regex": "v(?<tag>[\\d.]+)/Dism%2B%2B(?<version>[\\d.]+[\\w]?)\\.zip"
+    "regex": "v(?<tag>[\\d.]+)Dism%2B%2B(?<version>[\\d.]+[\\w]?)\\.zip"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v$matchTag/Dism++$version.zip"
+    "url": "https:github.comChuyu-TeamDism-Multi-languagereleasesdownloadv$matchTagDism++$version.zip"
   }
 }

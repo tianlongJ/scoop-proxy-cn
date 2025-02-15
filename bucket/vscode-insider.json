@@ -1,10 +1,10 @@
 {
   "version": "1739423177049",
-  "homepage": "https://code.visualstudio.com/",
+  "homepage": "https:code.visualstudio.com",
   "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition).",
   "license": {
     "identifier": "Freeware",
-    "url": "https://code.visualstudio.com/License/"
+    "url": "https:code.visualstudio.comLicense"
   },
   "bin": [
     [
@@ -42,9 +42,9 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z",
-        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
-        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
+        "https:code.visualstudio.comshadownload?build=insider&os=win32-x64-archive#dl.7z",
+        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptsvisual-studio-codevscode-install-context.reg",
+        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptsvisual-studio-codevscode-uninstall-context.reg"
       ],
       "hash": [
         "7f7bb3679366edffe6ebb2832e59386058a42fe2d6aa691d694498841319f42d",
@@ -54,9 +54,9 @@
     },
     "arm64": {
       "url": [
-        "https://code.visualstudio.com/sha/download?build=insider&os=win32-arm64-archive#/dl.7z",
-        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
-        "https://ghfast.top/https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
+        "https:code.visualstudio.comshadownload?build=insider&os=win32-arm64-archive#dl.7z",
+        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptsvisual-studio-codevscode-install-context.reg",
+        "https:raw.githubusercontent.comnaderiscoop-bucketmasterscriptsvisual-studio-codevscode-uninstall-context.reg"
       ],
       "hash": [
         "b2eeaf21edf4b704d2154041eac7bd713267541bd9ea1ab719a7f90d973ed939",
@@ -66,22 +66,22 @@
     }
   },
   "checkver": {
-    "url": "https://code.visualstudio.com/sha?build=insider",
+    "url": "https:code.visualstudio.comsha?build=insider",
     "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].timestamp"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z",
+        "url": "https:code.visualstudio.comshadownload?build=insider&os=win32-x64-archive#dl.7z",
         "hash": {
-          "url": "https://code.visualstudio.com/sha?build=insider",
+          "url": "https:code.visualstudio.comsha?build=insider",
           "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
         }
       },
       "arm64": {
-        "url": "https://code.visualstudio.com/sha/download?build=insider&os=win32-arm64-archive#/dl.7z",
+        "url": "https:code.visualstudio.comshadownload?build=insider&os=win32-arm64-archive#dl.7z",
         "hash": {
-          "url": "https://code.visualstudio.com/sha?build=insider",
+          "url": "https:code.visualstudio.comsha?build=insider",
           "jsonpath": "$.products[?(@.platform.os == 'win32-arm64-archive')].sha256hash"
         }
       }

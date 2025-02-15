@@ -1,9 +1,9 @@
 {
   "version": "2.9",
   "description": "DD监控室",
-  "homepage": "https://github.com/zhimingshenjun/DD_Monitor",
+  "homepage": "https:github.comzhimingshenjunDD_Monitor",
   "license": "LGPL-2.1",
-  "url": "https://ghfast.top/https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor2.9/DD.v2.9.zip",
+  "url": "https:github.comzhimingshenjunDD_MonitorreleasesdownloadDD_Monitor2.9DD.v2.9.zip",
   "hash": "003061bf990d77409cf7d6d79131874291e4208fb8d34769ce66c9aa5cd4600e",
   "pre_install": [
     "Move-Item $dir\\DD监控室* $dir\\Temp",
@@ -19,10 +19,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/zhimingshenjun/DD_Monitor",
-    "regex": "download/DD_Monitor(?<version>[\\d.]+)/DD\\.v(?<version>[\\d.]+)\\.zip"
+    "github": "https:github.comzhimingshenjunDD_Monitor",
+    "regex": "downloadDD_Monitor(?<version>[\\d.]+)DD\\.v(?<version>[\\d.]+)\\.zip"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor$version/DD.v$version.zip"
+    "url": "https:github.comzhimingshenjunDD_MonitorreleasesdownloadDD_Monitor$versionDD.v$version.zip"
   }
 }

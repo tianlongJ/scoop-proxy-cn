@@ -1,7 +1,7 @@
 {
   "version": "2.5.0",
   "description": "Docker distribution that aims to provide a frictionless Docker experience on Windows",
-  "homepage": "https://github.com/slonopotamus/stevedore",
+  "homepage": "https:github.comslonopotamusstevedore",
   "license": "Apache-2.0",
   "notes": [
     "A restart may be required, at least on the first install.",
@@ -9,21 +9,21 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/slonopotamus/stevedore/releases/download/2.5.0/stevedore-2.5.0-x86_64.msi#/setup.msi_",
+      "url": "https:github.comslonopotamusstevedorereleasesdownload2.5.0stevedore-2.5.0-x86_64.msi#setup.msi_",
       "hash": "347e500075a93cc20243928fb885a19b522716e9c01402329b0fbea6b41f62fb"
     }
   },
   "installer": {
-    "script": "Start-Process -Wait msiexec \"/i `\"$dir\\setup.msi_`\" /qn /norestart\" -Verb RunAs"
+    "script": "Start-Process -Wait msiexec \"i `\"$dir\\setup.msi_`\" qn norestart\" -Verb RunAs"
   },
   "uninstaller": {
-    "script": "Start-Process -Wait msiexec \"/x `\"$dir\\setup.msi_`\" /qn /norestart\" -Verb RunAs"
+    "script": "Start-Process -Wait msiexec \"x `\"$dir\\setup.msi_`\" qn norestart\" -Verb RunAs"
   },
   "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/slonopotamus/stevedore/releases/download/$version/stevedore-$version-x86_64.msi#/setup.msi_"
+        "url": "https:github.comslonopotamusstevedorereleasesdownload$versionstevedore-$version-x86_64.msi#setup.msi_"
       }
     }
   }

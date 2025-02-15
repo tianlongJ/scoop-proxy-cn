@@ -1,12 +1,12 @@
 {
   "version": "1.0.1059-25",
   "description": "Free Voice and Text Chat",
-  "homepage": "https://discordapp.com/",
+  "homepage": "https:discordapp.com",
   "license": {
     "identifier": "Freeware",
-    "url": "https://discordapp.com/terms"
+    "url": "https:discordapp.comterms"
   },
-  "url": "https://ghfast.top/https://github.com/portapps/discord-ptb-portable/releases/download/1.0.1059-25/discord-ptb-portable-win32-1.0.1059-25.7z",
+  "url": "https:github.comportappsdiscord-ptb-portablereleasesdownload1.0.1059-25discord-ptb-portable-win32-1.0.1059-25.7z",
   "hash": "87fb701ffcb5c8d508aed9ab4932840b53f4dcfd08c6bb5102afd51a26064e9d",
   "shortcuts": [
     [
@@ -19,13 +19,13 @@
     "log"
   ],
   "checkver": {
-    "github": "https://github.com/portapps/discord-ptb-portable",
-    "regex": "tag/([\\d.-]+)"
+    "github": "https:github.comportappsdiscord-ptb-portable",
+    "regex": "tag([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/portapps/discord-ptb-portable/releases/download/$version/discord-ptb-portable-win32-$version.7z",
+    "url": "https:github.comportappsdiscord-ptb-portablereleasesdownload$versiondiscord-ptb-portable-win32-$version.7z",
     "hash": {
-      "url": "$baseurl/checksums.txt"
+      "url": "$baseurlchecksums.txt"
     }
   }
 }

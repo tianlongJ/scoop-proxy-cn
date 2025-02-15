@@ -1,7 +1,7 @@
 {
   "version": "1.12.0.1517",
   "description": "Use `clj-deps`. Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
-  "homepage": "https://clojure.org",
+  "homepage": "https:clojure.org",
   "license": "EPL-1.0",
   "notes": [
     "Please fully exit and restart any active terminal sessions.",
@@ -13,12 +13,12 @@
   ],
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/temurin-jdk",
-      "java/oraclejdk"
+      "javaopenjdk",
+      "javatemurin-jdk",
+      "javaoraclejdk"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/clojure/brew-install/releases/download/1.12.0.1517/clojure-tools.zip",
+  "url": "https:github.comclojurebrew-installreleasesdownload1.12.0.1517clojure-tools.zip",
   "hash": "3be1e839d6b6ae0f7bd12dcbe4e888d08581fab8ddbba748e7ce3567007fc7b6",
   "extract_dir": "ClojureTools",
   "psmodule": {
@@ -37,9 +37,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/clojure/brew-install"
+    "github": "https:github.comclojurebrew-install"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/clojure/brew-install/releases/download/$version/clojure-tools.zip"
+    "url": "https:github.comclojurebrew-installreleasesdownload$versionclojure-tools.zip"
   }
 }

@@ -1,13 +1,13 @@
 {
   "version": "2.008",
   "description": "Go fonts - The Go Programming Language",
-  "license": "https://github.com/golang/image/blob/master/font/gofont/ttfs/README",
-  "homepage": "https://blog.golang.org/go-fonts",
+  "license": "https:github.comgolangimageblobmasterfontgofontttfsREADME",
+  "homepage": "https:blog.golang.orggo-fonts",
   "url": [
-    "https://github.com/golang/image/raw/master/font/gofont/ttfs/Go-Mono.ttf",
-    "https://github.com/golang/image/raw/master/font/gofont/ttfs/Go-Mono-Bold.ttf",
-    "https://github.com/golang/image/raw/master/font/gofont/ttfs/Go-Mono-Bold-Italic.ttf",
-    "https://github.com/golang/image/raw/master/font/gofont/ttfs/Go-Mono-Italic.ttf"
+    "https:github.comgolangimagerawmasterfontgofontttfsGo-Mono.ttf",
+    "https:github.comgolangimagerawmasterfontgofontttfsGo-Mono-Bold.ttf",
+    "https:github.comgolangimagerawmasterfontgofontttfsGo-Mono-Bold-Italic.ttf",
+    "https:github.comgolangimagerawmasterfontgofontttfsGo-Mono-Italic.ttf"
   ],
   "hash": [
     "19ecaf9dab2b499c62d2b586a48995789e6a862d39f0f79d3e96214792aef41d",
@@ -36,7 +36,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

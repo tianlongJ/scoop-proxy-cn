@@ -1,10 +1,10 @@
 {
   "version": "7.0.6",
   "description": "Universal development environment for PHP, Node.js, Python, Java, Go, Ruby",
-  "homepage": "https://laragon.org/",
+  "homepage": "https:laragon.org",
   "license": "MIT",
   "innosetup": true,
-  "url": "https://ghfast.top/https://github.com/leokhoa/laragon/releases/download/7.0.6/laragon-wamp.exe",
+  "url": "https:github.comleokhoalaragonreleasesdownload7.0.6laragon-wamp.exe",
   "hash": "73541d29b9483f593c54d75f4750051626c9990bcafc2cb67ae13c1ebad7f0a7",
   "shortcuts": [
     [
@@ -19,9 +19,9 @@
     "www"
   ],
   "checkver": {
-    "github": "https://github.com/leokhoa/laragon"
+    "github": "https:github.comleokhoalaragon"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/leokhoa/laragon/releases/download/$version/laragon-wamp.exe"
+    "url": "https:github.comleokhoalaragonreleasesdownload$versionlaragon-wamp.exe"
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": "20211031",
   "description": "hosts-vpn",
-  "homepage": "https://github.com/vpncn/vpncn",
+  "homepage": "https:github.comvpncnvpncn",
   "depends": [
     "sudo",
     "silentcmd",
@@ -9,7 +9,7 @@
   ],
   "license": "Apache-2.0",
   "url": [
-    "http://linkv.org/download/hosts"
+    "http:linkv.orgdownloadhosts"
   ],
   "hash": [
     ""
@@ -23,7 +23,7 @@
       "sudo hostctl replace vpn --from $hostfile",
       "Write-Host 'DONE' -ForegroundColor Yellow",
       "",
-      "cmd.exe /c ipconfig /flushdns",
+      "cmd.exe c ipconfig flushdns",
       "",
       ""
     ]

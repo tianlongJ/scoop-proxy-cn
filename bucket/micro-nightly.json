@@ -1,32 +1,32 @@
 {
   "version": "nightly-2025-02-15",
   "description": "A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.",
-  "homepage": "https://micro-editor.github.io/",
+  "homepage": "https:micro-editor.github.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-win64.zip",
+      "url": "https:github.comzyedidiamicroreleasesdownloadnightlymicro-nightly-win64.zip",
       "hash": "ce7d2ce47699621f8a3787933176ecec675f542235ab9966f840f2d40b5685a6"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-win64.zip",
+      "url": "https:github.comzyedidiamicroreleasesdownloadnightlymicro-nightly-win64.zip",
       "hash": "ce7d2ce47699621f8a3787933176ecec675f542235ab9966f840f2d40b5685a6"
     }
   },
   "extract_dir": "micro-nightly",
   "bin": "micro.exe",
   "checkver": {
-    "url": "https://api.github.com/repositories/53632140/releases/tags/nightly",
+    "url": "https:api.github.comrepositories53632140releasestagsnightly",
     "regex": "updated_at.+\"([\\d\\-]+)T.*micro-(?<micro>.+)-win",
     "replace": "${2}-${1}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-$matchMicro-win64.zip"
+        "url": "https:github.comzyedidiamicroreleasesdownloadnightlymicro-$matchMicro-win64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-$matchMicro-win64.zip"
+        "url": "https:github.comzyedidiamicroreleasesdownloadnightlymicro-$matchMicro-win64.zip"
       }
     },
     "extract_dir": "micro-$matchMicro"

@@ -1,14 +1,14 @@
 {
   "version": "1.7.1",
   "description": "微信公号文章下载工具",
-  "homepage": "https://github.com/xiaoguyu/wechatDownload",
+  "homepage": "https:github.comxiaoguyuwechatDownload",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https://github.com/xiaoguyu/wechatDownload/blob/main/LICENSE"
+    "url": "https:github.comxiaoguyuwechatDownloadblobmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xiaoguyu/wechatDownload/releases/download/v1.7.1/wechatDownload-1.7.1-win32-x64.exe#/dl.7z",
+      "url": "https:github.comxiaoguyuwechatDownloadreleasesdownloadv1.7.1wechatDownload-1.7.1-win32-x64.exe#dl.7z",
       "hash": "9fc54a92891dfc6ce106b43601c5eebb45a38e6c23ddc96c56d43bf1bb3c3ce1",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -32,13 +32,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/xiaoguyu/wechatDownload/releases",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:api.github.comreposxiaoguyuwechatDownloadreleases",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/xiaoguyu/wechatDownload/releases/download/v$version/wechatDownload-$version-win32-x64.exe#/dl.7z"
+        "url": "https:github.comxiaoguyuwechatDownloadreleasesdownloadv$versionwechatDownload-$version-win32-x64.exe#dl.7z"
       }
     }
   }

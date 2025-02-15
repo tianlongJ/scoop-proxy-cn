@@ -2,15 +2,15 @@
   "version": "2.0.3",
   "description": "A friendly, simple geometric sans serif font.",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/erikdkennedy/figtree",
+  "homepage": "https:github.comerikdkennedyfigtree",
   "url": [
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Black.ttf",
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Bold.ttf",
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-ExtraBold.ttf",
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Light.ttf",
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Medium.ttf",
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Regular.ttf",
-    "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-SemiBold.ttf"
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Black.ttf",
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Bold.ttf",
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-ExtraBold.ttf",
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Light.ttf",
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Medium.ttf",
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Regular.ttf",
+    "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-SemiBold.ttf"
   ],
   "hash": [
     "667d678b7ced2f9824ede1332134abafb5242567b6add3b0b897bf6bdcff663d",
@@ -24,13 +24,13 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Black.ttf",
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Bold.ttf",
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-ExtraBold.ttf",
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Light.ttf",
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Medium.ttf",
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-Regular.ttf",
-      "https://github.com/erikdkennedy/figtree/raw/master/fonts/ttf/Figtree-SemiBold.ttf"
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Black.ttf",
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Bold.ttf",
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-ExtraBold.ttf",
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Light.ttf",
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Medium.ttf",
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-Regular.ttf",
+      "https:github.comerikdkennedyfigtreerawmasterfontsttfFigtree-SemiBold.ttf"
     ]
   },
   "installer": {
@@ -54,7 +54,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

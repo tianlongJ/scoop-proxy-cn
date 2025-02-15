@@ -1,15 +1,15 @@
 {
   "version": "1.36",
   "description": "A stand-alone graphics debugging tool",
-  "homepage": "https://renderdoc.org",
+  "homepage": "https:renderdoc.org",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://renderdoc.org/stable/1.36/RenderDoc_1.36_64.msi",
+      "url": "https:renderdoc.orgstable1.36RenderDoc_1.36_64.msi",
       "hash": "7b4eaa4033a21a320b05aa68d12e17b66d053e25e5ce00e9cc8601ea573b45b6"
     },
     "32bit": {
-      "url": "https://renderdoc.org/stable/1.36/RenderDoc_1.36_32.msi",
+      "url": "https:renderdoc.orgstable1.36RenderDoc_1.36_32.msi",
       "hash": "4385aefef9c344938b6c78b800cd81e384552b1b55b741dbbb5042d71795df65"
     }
   },
@@ -35,15 +35,15 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/baldurk/renderdoc"
+    "github": "https:github.combaldurkrenderdoc"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://renderdoc.org/stable/$version/RenderDoc_$version_64.msi"
+        "url": "https:renderdoc.orgstable$versionRenderDoc_$version_64.msi"
       },
       "32bit": {
-        "url": "https://renderdoc.org/stable/$version/RenderDoc_$version_32.msi"
+        "url": "https:renderdoc.orgstable$versionRenderDoc_$version_32.msi"
       }
     }
   }

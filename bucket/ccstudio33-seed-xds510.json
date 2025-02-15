@@ -1,10 +1,10 @@
 {
   "version": "20210724",
   "description": "CCSTUDIO — Code Composer Studio integrated development environment (IDE)",
-  "homepage": "https://www.seeddsp.com/index.php/Home/Product/detail/id/33.html",
+  "homepage": "https:www.seeddsp.comindex.phpHomeProductdetailid33.html",
   "license": {
     "identifier": "Freeware",
-    "url": "https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html"
+    "url": "https:software-dl.ti.comccsesddocumentsccs_downloads.html"
   },
   "depends": [
     "ccstudio33"
@@ -12,15 +12,15 @@
   "notes": [
     "",
     "ccstudio33-seed-xds510",
-    "https://www.seeddsp.com/Public/Home/down/1529478447_102640977.zip",
-    "https://www.seeddsp.com/Public/Home/down/1529478515_1857678411.zip",
+    "https:www.seeddsp.comPublicHomedown1529478447_102640977.zip",
+    "https:www.seeddsp.comPublicHomedown1529478515_1857678411.zip",
     ":: SEED-XDS510PLUS仿真器安装、使用指南_CCS4.x&Above(Rev.C)",
-    "::   https://www.seeddsp.com/Public/Home/down/1509947018_340090398.pdf",
+    "::   https:www.seeddsp.comPublicHomedown1509947018_340090398.pdf",
     "",
     ""
   ],
   "url": [
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs33-seed-xds510-v20210724-cvp.7z"
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs33-seed-xds510-v20210724-cvp.7z"
   ],
   "hash": [
     "5975916b8ace34dcc42ee2aec028f4afb3107db1c3535e74b44302c789183d59"
@@ -43,7 +43,7 @@
   ],
   "post_install": [
     "",
-    "$evalDir = \"$(appdir ccstudio33 $global)\\current\".Replace('/', '\\')",
+    "$evalDir = \"$(appdir ccstudio33 $global)\\current\".Replace('', '\\')",
     "",
     "'SEED-XP', 'SEED-WIN7' | ForEach-Object { ensure \"$evalDir\\ccs\\drivers\\$_\" | Out-Null }",
     "",
@@ -75,25 +75,25 @@
   },
   "#bin": [
     [
-      "ccs/cc/bin/cc_app.exe"
+      "ccsccbincc_app.exe"
     ]
   ],
   "#shortcuts": [
     [
-      "ccs/cc/bin/cc_app.exe",
-      "TI/CCS33/CCStudio v3.3"
+      "ccsccbincc_app.exe",
+      "TICCS33CCStudio v3.3"
     ]
   ],
   "#persist": [
     "data"
   ],
   "checkver": {
-    "github": "https://github.com/SayCV/gh-cdn-cvp/releases",
+    "github": "https:github.comSayCVgh-cdn-cvpreleases",
     "regex": "ccs33-seed-xds510-v([\\d.-]+)-cvp.7z"
   },
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs33-seed-xds510-v$version-cvp.7z"
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs33-seed-xds510-v$version-cvp.7z"
     ]
   }
 }

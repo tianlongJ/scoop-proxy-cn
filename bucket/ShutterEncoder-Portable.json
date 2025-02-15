@@ -1,12 +1,12 @@
 {
   "version": "18.8",
   "description": "Shutter Encoder. A encoding software for converting images, videos, and audio files, allowing you to choose from a large number of functions.",
-  "homepage": "https://www.shutterencoder.com/en/",
+  "homepage": "https:www.shutterencoder.comen",
   "license": "GPL-3.0-only",
-  "changelog": "https://www.shutterencoder.com/changelog.html",
+  "changelog": "https:www.shutterencoder.comchangelog.html",
   "architecture": {
     "64bit": {
-      "url": "https://www.shutterencoder.com/Shutter%20Encoder%2018.8%20Windows%2064bits.zip",
+      "url": "https:www.shutterencoder.comShutter%20Encoder%2018.8%20Windows%2064bits.zip",
       "hash": "1acf236b67a96af1488b41ad423a0bf36f68355cab3e4c720c15f28386ae9aea"
     }
   },
@@ -18,12 +18,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/paulpacifico/shutter-encoder"
+    "github": "https:github.compaulpacificoshutter-encoder"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://www.shutterencoder.com/Shutter%20Encoder%20$version%20Windows%2064bits.zip"
+        "url": "https:www.shutterencoder.comShutter%20Encoder%20$version%20Windows%2064bits.zip"
       }
     },
     "extract_dir": "Shutter Encoder $version Windows 64bits"

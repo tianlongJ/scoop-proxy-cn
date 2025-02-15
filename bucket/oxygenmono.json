@@ -1,9 +1,9 @@
 {
   "version": "0.2",
-  "description": "Oxygen Font is a font family originally aimed as a desktop/gui font for integrated use with the KDE desktop",
+  "description": "Oxygen Font is a font family originally aimed as a desktopgui font for integrated use with the KDE desktop",
   "license": "GPL-3.0-or-later|OFL-1.1",
-  "homepage": "https://github.com/vernnobile/oxygenFont",
-  "url": "https://github.com/vernnobile/oxygenFont/raw/master/Oxygen-Monospace/OxygenMono-Regular.ttf",
+  "homepage": "https:github.comvernnobileoxygenFont",
+  "url": "https:github.comvernnobileoxygenFontrawmasterOxygen-MonospaceOxygenMono-Regular.ttf",
   "hash": "820e551e66d02f0c211d4b952c02e0f9745d419fe685a6d4a377f69702cae4bd",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

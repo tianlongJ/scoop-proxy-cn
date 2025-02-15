@@ -1,11 +1,11 @@
 {
   "version": "Release",
   "description": "本项目为解决一些大学无用手写作业",
-  "homepage": "https://github.com/kivvi3412/HandWrite",
+  "homepage": "https:github.comkivvi3412HandWrite",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kivvi3412/HandWrite/releases/download/Release/HandWrite-Windows-x64.zip",
+      "url": "https:github.comkivvi3412HandWritereleasesdownloadReleaseHandWrite-Windows-x64.zip",
       "hash": "2275035d46e74b3c813aba87dfa5fc220064cfbdd1484d471bcde875413a11b7",
       "extract_dir": "HandWrite-Windows"
     }
@@ -17,11 +17,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/kivvi3412/HandWrite/releases",
-    "regex": "releases/tag/([\\w\\d.]+)"
+    "url": "https:github.comkivvi3412HandWritereleases",
+    "regex": "releasestag([\\w\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/kivvi3412/HandWrite/releases/download/$version/HandWrite-Windows-x64.zip",
+    "url": "https:github.comkivvi3412HandWritereleasesdownload$versionHandWrite-Windows-x64.zip",
     "hash": {
       "mode": "download"
     }

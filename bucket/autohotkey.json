@@ -1,22 +1,22 @@
 {
   "version": "2.0.19",
   "description": "The ultimate automation scripting language for Windows.",
-  "homepage": "https://www.autohotkey.com/",
+  "homepage": "https:www.autohotkey.com",
   "license": "GPL-2.0-or-later",
   "notes": [
     "Install specific version of Interpreter(Default: Latest 1.x):",
-    "  - 'autohotkey /script \"$dir\\UX\\install-version.ahk\" [version]'",
+    "  - 'autohotkey script \"$dir\\UX\\install-version.ahk\" [version]'",
     "Uninstall Sub-versions of Interpreter:",
-    "  - 'autohotkey /script \"$dir\\UX\\ui-uninstall.ahk\"'",
-    "See also: https://github.com/ScoopInstaller/Extras/issues/10066"
+    "  - 'autohotkey script \"$dir\\UX\\ui-uninstall.ahk\"'",
+    "See also: https:github.comScoopInstallerExtrasissues10066"
   ],
-  "url": "https://ghfast.top/https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.19/AutoHotkey_2.0.19.zip",
+  "url": "https:github.comAutoHotkeyAutoHotkeyreleasesdownloadv2.0.19AutoHotkey_2.0.19.zip",
   "hash": "4e0d0e65655066a646a210951320feaef0729a3597177131adaec4066bef5869",
   "extract_to": "installer",
   "installer": {
     "script": [
-      "$ahk = @('/script', \"`\"$dir\\installer\\UX\\install.ahk`\"\", '/to', \"`\"$dir`\"\", '/user', '/silent')",
-      "if ($global) { $ahk = @('/script', \"`\"$dir\\installer\\UX\\install.ahk`\"\", '/to', \"`\"$dir`\"\", '/silent') }",
+      "$ahk = @('script', \"`\"$dir\\installer\\UX\\install.ahk`\"\", 'to', \"`\"$dir`\"\", 'user', 'silent')",
+      "if ($global) { $ahk = @('script', \"`\"$dir\\installer\\UX\\install.ahk`\"\", 'to', \"`\"$dir`\"\", 'silent') }",
       "Start-Process \"$dir\\installer\\AutoHotkey32.exe\" -ArgumentList $ahk -Wait"
     ]
   },
@@ -71,16 +71,16 @@
     "}"
   ],
   "uninstaller": {
-    "script": "Start-Process \"$dir\\UX\\AutoHotkeyUX.exe\" -ArgumentList @('/script', \"`\"$dir\\UX\\install.ahk`\"\", '/uninstall', '/silent') -Wait"
+    "script": "Start-Process \"$dir\\UX\\AutoHotkeyUX.exe\" -ArgumentList @('script', \"`\"$dir\\UX\\install.ahk`\"\", 'uninstall', 'silent') -Wait"
   },
   "checkver": {
-    "url": "https://www.autohotkey.com/download/2.0/version.txt",
+    "url": "https:www.autohotkey.comdownload2.0version.txt",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/AutoHotkey/AutoHotkey/releases/download/v$version/AutoHotkey_$version.zip",
+    "url": "https:github.comAutoHotkeyAutoHotkeyreleasesdownloadv$versionAutoHotkey_$version.zip",
     "hash": {
-      "url": "https://www.autohotkey.com/download/$majorVersion.$minorVersion/AutoHotkey_$version.zip.sha256"
+      "url": "https:www.autohotkey.comdownload$majorVersion.$minorVersionAutoHotkey_$version.zip.sha256"
     }
   }
 }

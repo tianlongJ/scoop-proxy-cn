@@ -1,9 +1,9 @@
 {
   "version": "17.0.1.450",
   "description": "Screen capture, file sharing and productivity tool. (Dev. Version)",
-  "homepage": "https://getsharex.com",
+  "homepage": "https:getsharex.com",
   "license": "GPL-3.0-only",
-  "url": "https://ghfast.top/https://github.com/ShareX/DevBuilds/releases/download/v17.0.1.450/ShareX-17.0.1.450-portable.zip",
+  "url": "https:github.comShareXDevBuildsreleasesdownloadv17.0.1.450ShareX-17.0.1.450-portable.zip",
   "hash": "f7459fc010d0628f036ef19186c9210f2731f51a1511e17977ca46e9b7fc600a",
   "pre_install": "if (!(Test-Path \"$persist_dir\\PersonalPath.cfg\")) { New-Item \"$dir\\PersonalPath.cfg\" | Out-Null }",
   "bin": "ShareX.exe",
@@ -18,15 +18,15 @@
     "ShareX"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/538422110/releases",
+    "url": "https:api.github.comrepositories538422110releases",
     "jsonpath": "$..tag_name",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ShareX/DevBuilds/releases/download/v$version/ShareX-$version-portable.zip",
+    "url": "https:github.comShareXDevBuildsreleasesdownloadv$versionShareX-$version-portable.zip",
     "hash": {
-      "url": "https://github.com/ShareX/DevBuilds/releases",
-      "regex": "ShareX-$version-portable.zip</td>\\s*<td><code>$sha256</code>"
+      "url": "https:github.comShareXDevBuildsreleases",
+      "regex": "ShareX-$version-portable.zip<td>\\s*<td><code>$sha256<code>"
     }
   }
 }

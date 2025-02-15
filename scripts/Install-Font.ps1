@@ -1,10 +1,10 @@
-# modified from https://gist.github.com/anthonyeden/0088b07de8951403a643a8485af2709b
+# modified from https:gist.github.comanthonyeden0088b07de8951403a643a8485af2709b
 
 # Run this as a Computer Startup script to allow installing fonts from C:\InstallFont\
-# Based on http://www.edugeek.net/forums/windows-7/123187-installation-fonts-without-admin-rights-2.html
+# Based on http:www.edugeek.netforumswindows-7123187-installation-fonts-without-admin-rights-2.html
 # Run this as a Computer Startup Script in Group Policy
 
-# Full details on my website - https://mediarealm.com.au/articles/windows-font-install-no-password-powershell/
+# Full details on my website - https:mediarealm.com.auarticleswindows-font-install-no-password-powershell
 
 $Destination = (New-Object -ComObject Shell.Application).Namespace(0x14)
 $TempFolder  = "C:\Windows\Temp\Fonts"

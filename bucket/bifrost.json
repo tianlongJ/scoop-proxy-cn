@@ -1,31 +1,31 @@
 {
   "version": "1.19.7",
   "description": "Samsung Firmware Downloader",
-  "homepage": "https://github.com/zacharee/SamloaderKotlin/",
+  "homepage": "https:github.comzachareeSamloaderKotlin",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/zacharee/SamloaderKotlin/blob/master/LICENSE.txt"
+    "url": "https:github.comzachareeSamloaderKotlinblobmasterLICENSE.txt"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/zacharee/SamloaderKotlin/releases/download/1.19.7/bifrost-1.19.7-windows-amd64.zip",
+      "url": "https:github.comzachareeSamloaderKotlinreleasesdownload1.19.7bifrost-1.19.7-windows-amd64.zip",
       "hash": "12fbfa67983f6c8483b0d349b0cad18d8f15d047690182624dbc0ea3ee0f64ef"
     }
   },
-  "bin": "bin/Bifrost.exe",
+  "bin": "binBifrost.exe",
   "shortcuts": [
     [
-      "bin/Bifrost.exe",
+      "binBifrost.exe",
       "Bifrost"
     ]
   ],
   "checkver": {
-    "github": "https://github.com/zacharee/SamloaderKotlin"
+    "github": "https:github.comzachareeSamloaderKotlin"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/zacharee/SamloaderKotlin/releases/download/$version/bifrost-$version-windows-amd64.zip"
+        "url": "https:github.comzachareeSamloaderKotlinreleasesdownload$versionbifrost-$version-windows-amd64.zip"
       }
     }
   }

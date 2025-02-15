@@ -1,16 +1,16 @@
 {
   "version": "2025-02-15",
   "description": "Open source digital design and verification tools. Includes tools for RTL synthesis, formal hardware verification, place & route, FPGA programming, and testing with support for HDLs like Verilog, Migen and Amaranth.",
-  "homepage": "https://github.com/YosysHQ/oss-cad-suite-build",
+  "homepage": "https:github.comYosysHQoss-cad-suite-build",
   "license": "ISC",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2025-02-15/oss-cad-suite-windows-x64-20250215.exe#/dl.7z",
+      "url": "https:github.comYosysHQoss-cad-suite-buildreleasesdownload2025-02-15oss-cad-suite-windows-x64-20250215.exe#dl.7z",
       "hash": "5f5f6a73232f1e2ddad1a82cd44e1a1453ce5862dcc4f3a736504fabb5164be9"
     }
   },
   "extract_dir": "oss-cad-suite",
-  "pre_install": "Set-Content -Path \"$dir\\start.bat\" -Value \"@cmd /k $dir\\environment.bat\"",
+  "pre_install": "Set-Content -Path \"$dir\\start.bat\" -Value \"@cmd k $dir\\environment.bat\"",
   "bin": [
     [
       "start.bat",
@@ -18,13 +18,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/YosysHQ/oss-cad-suite-build/releases",
-    "regex": "tree\\/([\\d-]+)"
+    "url": "https:github.comYosysHQoss-cad-suite-buildreleases",
+    "regex": "tree\\([\\d-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/YosysHQ/oss-cad-suite-build/releases/download/$version/oss-cad-suite-windows-x64-$cleanVersion.exe#/dl.7z"
+        "url": "https:github.comYosysHQoss-cad-suite-buildreleasesdownload$versionoss-cad-suite-windows-x64-$cleanVersion.exe#dl.7z"
       }
     }
   }

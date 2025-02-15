@@ -1,12 +1,12 @@
 {
   "version": "1.2.7",
   "description": "Clash的桌面客户端，支持 windows、linux、macos",
-  "homepage": "https://github.com/mapleafgo/clash-for-flutter",
+  "homepage": "https:github.commapleafgoclash-for-flutter",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/mapleafgo/clash-for-flutter#MIT-1-ov-file"
+    "url": "https:github.commapleafgoclash-for-flutter#MIT-1-ov-file"
   },
-  "url": "https://ghfast.top/https://github.com/mapleafgo/clash-for-flutter/releases/download/1.2.7/clash_for_flutter-1.2.7-windows-amd64-portable.zip",
+  "url": "https:github.commapleafgoclash-for-flutterreleasesdownload1.2.7clash_for_flutter-1.2.7-windows-amd64-portable.zip",
   "hash": "37c268176a9eae403b6ec4dd4f58d40b4dbb516315efdde3731db7f00fc7a5e7",
   "installer": {
     "script": [
@@ -24,10 +24,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/mapleafgo/clash-for-flutter/releases",
-    "regex": "/releases/tag/([\\d.]+)"
+    "url": "https:api.github.comreposmapleafgoclash-for-flutterreleases",
+    "regex": "releasestag([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/mapleafgo/clash-for-flutter/releases/download/$version/clash_for_flutter-$version-windows-amd64-portable.zip"
+    "url": "https:github.commapleafgoclash-for-flutterreleasesdownload$versionclash_for_flutter-$version-windows-amd64-portable.zip"
   }
 }

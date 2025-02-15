@@ -1,9 +1,9 @@
 {
   "version": "2021.2.22.1",
   "description": "图形化ADB工具箱",
-  "homepage": "https://github.com/zsh2401/AutumnBox",
+  "homepage": "https:github.comzsh2401AutumnBox",
   "license": "LGPL-3.0",
-  "url": "https://ghfast.top/https://github.com/zsh2401/AutumnBox/releases/download/v2021.2.22.1-canary/AutumnBox-v2021.2.22.1-canary.zip",
+  "url": "https:github.comzsh2401AutumnBoxreleasesdownloadv2021.2.22.1-canaryAutumnBox-v2021.2.22.1-canary.zip",
   "hash": "4d201556e1d668d7dfdea52eedd3370f5b8d2cd6af17d965030a4c031161b09c",
   "extract_dir": "AutumnBox-Canary",
   "shortcuts": [
@@ -17,10 +17,10 @@
     "adb_binary\\win32\\fastboot.exe"
   ],
   "checkver": {
-    "github": "https://github.com/zsh2401/AutumnBox"
+    "github": "https:github.comzsh2401AutumnBox"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/zsh2401/AutumnBox/releases/download/v$version-canary/AutumnBox-v$version-canary.zip",
+    "url": "https:github.comzsh2401AutumnBoxreleasesdownloadv$version-canaryAutumnBox-v$version-canary.zip",
     "hash": {
       "mode": "download"
     }

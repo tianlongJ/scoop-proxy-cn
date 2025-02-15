@@ -1,11 +1,11 @@
 {
   "version": "0.7.0",
   "description": "人人都能用英语",
-  "homepage": "https://1000h.org/",
+  "homepage": "https:1000h.org",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ZuodaoTech/everyone-can-use-english/releases/download/v0.7.0/Enjoy-win32-x64-0.7.0.zip",
+      "url": "https:github.comZuodaoTecheveryone-can-use-englishreleasesdownloadv0.7.0Enjoy-win32-x64-0.7.0.zip",
       "hash": "272779a7a4cd5f480b9b107a54a95df7e6e0bec5001d5739b101d941b2587ba3"
     }
   },
@@ -16,10 +16,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/ZuodaoTech/everyone-can-use-english"
+    "github": "https:github.comZuodaoTecheveryone-can-use-english"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ZuodaoTech/everyone-can-use-english/releases/download/v$version/Enjoy-win32-x64-$version.zip",
+    "url": "https:github.comZuodaoTecheveryone-can-use-englishreleasesdownloadv$versionEnjoy-win32-x64-$version.zip",
     "hash": {
       "mode": "download"
     }

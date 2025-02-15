@@ -1,14 +1,14 @@
 {
   "version": "0.1.4",
-  "homepage": "https://github.com/ChungZH/notepanda/",
+  "homepage": "https:github.comChungZHnotepanda",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ChungZH/notepanda/releases/download/v0.1.4/Notepanda.v0.1.4.Windows-x64.7z",
+      "url": "https:github.comChungZHnotepandareleasesdownloadv0.1.4Notepanda.v0.1.4.Windows-x64.7z",
       "hash": "af7f8e8d8475de2494bf81cba11b5c4656a243703309be4ebde4e559404d5543"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/ChungZH/notepanda/releases/download/v0.1.4/Notepanda.v0.1.4.Windows-x86.7z",
+      "url": "https:github.comChungZHnotepandareleasesdownloadv0.1.4Notepanda.v0.1.4.Windows-x86.7z",
       "hash": "49046f684efc28842ca4c31969bb6e1a6776703fa3dacc77a98362fb9dad94e2"
     }
   },
@@ -27,16 +27,16 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/ChungZH/notepanda/",
-    "regex": "tag/v([\\w.-]+)"
+    "github": "https:github.comChungZHnotepanda",
+    "regex": "tagv([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ChungZH/notepanda/releases/download/v$version/Notepanda.v$version.Windows-x64.7z"
+        "url": "https:github.comChungZHnotepandareleasesdownloadv$versionNotepanda.v$version.Windows-x64.7z"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/ChungZH/notepanda/releases/download/v$version/Notepanda.v$version.Windows-x86.7z"
+        "url": "https:github.comChungZHnotepandareleasesdownloadv$versionNotepanda.v$version.Windows-x86.7z"
       }
     }
   }

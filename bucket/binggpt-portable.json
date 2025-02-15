@@ -1,18 +1,18 @@
 {
   "version": "0.3.7",
   "description": "Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)",
-  "homepage": "https://github.com/dice2o/BingGPT",
+  "homepage": "https:github.comdice2oBingGPT",
   "license": {
     "identifier": "Apache-2.0 license",
-    "url": "https://github.com/dice2o/BingGPT/blob/main/LICENSE"
+    "url": "https:github.comdice2oBingGPTblobmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-win32-x64.zip",
+      "url": "https:github.comdice2oBingGPTreleasesdownloadv0.3.7BingGPT-0.3.7-win32-x64.zip",
       "hash": "570ad8464ab046f12821b6dfe0e8b62d4b0ff3f1c7c295e1f7445869ab6aaed8"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-win32-arm64.zip",
+      "url": "https:github.comdice2oBingGPTreleasesdownloadv0.3.7BingGPT-0.3.7-win32-arm64.zip",
       "hash": "5155fcbcde3449ec4a78aacf60856357c21c6afbd649048fac552b0c79a0823e"
     }
   },
@@ -33,15 +33,15 @@
   ],
   "persist": "User Data",
   "checkver": {
-    "github": "https://github.com/dice2o/BingGPT"
+    "github": "https:github.comdice2oBingGPT"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/dice2o/BingGPT/releases/download/v$version/BingGPT-$version-win32-x64.zip"
+        "url": "https:github.comdice2oBingGPTreleasesdownloadv$versionBingGPT-$version-win32-x64.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/dice2o/BingGPT/releases/download/v$version/BingGPT-$version-win32-arm64.zip"
+        "url": "https:github.comdice2oBingGPTreleasesdownloadv$versionBingGPT-$version-win32-arm64.zip"
       }
     }
   }

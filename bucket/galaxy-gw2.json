@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2",
+  "homepage": "https:github.comFriendsOfGalaxygalaxy-integration-gw2",
   "version": "0.5.2",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-gw2/releases/download/0.5.2/windows.zip",
+  "url": "https:github.comFriendsOfGalaxygalaxy-integration-gw2releasesdownload0.5.2windows.zip",
   "hash": "a5f26e5e5c4f16a033a68086d9f1ceeda9224e3a332d63cd689c70d3abe5887b",
   "extract_to": "integration",
   "uninstaller": {
@@ -37,7 +37,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -45,7 +45,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -67,9 +67,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-gw2"
+    "github": "https:github.comFriendsOfGalaxygalaxy-integration-gw2"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-gw2/releases/download/$version/windows.zip"
+    "url": "https:github.comFriendsOfGalaxygalaxy-integration-gw2releasesdownload$versionwindows.zip"
   }
 }

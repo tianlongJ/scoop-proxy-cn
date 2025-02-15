@@ -1,6 +1,6 @@
 {
   "description": "Find unused dependencies in Cargo.toml",
-  "homepage": "https://github.com/est31/cargo-udeps",
+  "homepage": "https:github.comest31cargo-udeps",
   "version": "0.1.49",
   "license": "MIT",
   "extract_dir": "cargo-udeps-v0.1.12-x86_64-pc-windows-msvc",
@@ -8,14 +8,14 @@
   "checkver": "github",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/est31/cargo-udeps/releases/download/v0.1.49/cargo-udeps-v0.1.49-x86_64-pc-windows-msvc.zip",
+      "url": "https:github.comest31cargo-udepsreleasesdownloadv0.1.49cargo-udeps-v0.1.49-x86_64-pc-windows-msvc.zip",
       "hash": "f6b592e436d862b51a52ff0a7ecd91057d54495682cce8db1efe9711e60f122b"
     }
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/est31/cargo-udeps/releases/download/v$version/cargo-udeps-v$version-x86_64-pc-windows-msvc.zip",
+        "url": "https:github.comest31cargo-udepsreleasesdownloadv$versioncargo-udeps-v$version-x86_64-pc-windows-msvc.zip",
         "extract_dir": "cargo-udeps-v$version-x86_64-pc-windows-msvc"
       }
     }

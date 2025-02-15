@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/MultiMC/MultiMC5",
+  "homepage": "https:github.comMultiMCMultiMC5",
   "version": "0.6.14",
   "description": "MultiMC is a Qt Minecraft launcher",
-  "url": "https://files.multimc.org/downloads/mmc-stable-win32.zip",
+  "url": "https:files.multimc.orgdownloadsmmc-stable-win32.zip",
   "hash": "d82f57db7c6816151835dcb24a41018bf91565747ec0ab986f69328d1a0724e0",
   "extract_dir": "MultiMC",
   "bin": "MultiMC.exe",
@@ -34,7 +34,7 @@
   "notes": "Increase minimum and maximum memory allocation to avoid stuttering.",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://files.multimc.org/downloads/mmc-stable-win32.zip",
+    "url": "https:files.multimc.orgdownloadsmmc-stable-win32.zip",
     "extract_dir": "MultiMC"
   }
 }

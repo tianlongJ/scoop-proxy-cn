@@ -1,12 +1,12 @@
 {
   "version": "0.3.1",
   "description": "A customizable, modern file manager powered by the web.",
-  "homepage": "https://xplorer.space/",
+  "homepage": "https:xplorer.space",
   "license": "Apache-2.0",
   "notes": "Please note that the current version is not stable yet, and you may encounter various bugs.",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kimlimjustin/xplorer/releases/download/v0.3.1/Xplorer_0.3.1_x64.msi",
+      "url": "https:github.comkimlimjustinxplorerreleasesdownloadv0.3.1Xplorer_0.3.1_x64.msi",
       "hash": "fe7dcfb53ac8ecebf390e29d087424c8d40aa42ea225ec4fef121cbf7b557d99"
     }
   },
@@ -22,12 +22,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/kimlimjustin/xplorer"
+    "github": "https:github.comkimlimjustinxplorer"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/kimlimjustin/xplorer/releases/download/v$version/Xplorer_$version_x64.msi"
+        "url": "https:github.comkimlimjustinxplorerreleasesdownloadv$versionXplorer_$version_x64.msi"
       }
     }
   }

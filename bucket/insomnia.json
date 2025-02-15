@@ -1,11 +1,11 @@
 {
   "version": "10.3.1",
   "description": "HTTP and GraphQL client",
-  "homepage": "https://insomnia.rest",
+  "homepage": "https:insomnia.rest",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Kong/insomnia/releases/download/core%4010.3.1/insomnia-10.3.1-full.nupkg",
+      "url": "https:github.comKonginsomniareleasesdownloadcore%4010.3.1insomnia-10.3.1-full.nupkg",
       "hash": "sha1:d88f9149a659fa04cd15be53ee56f59c883f88ce"
     }
   },
@@ -17,17 +17,17 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/56899284/releases",
+    "url": "https:api.github.comrepositories56899284releases",
     "regex": "\"core@([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Kong/insomnia/releases/download/core%40$version/insomnia-$version-full.nupkg"
+        "url": "https:github.comKonginsomniareleasesdownloadcore%40$versioninsomnia-$version-full.nupkg"
       }
     },
     "hash": {
-      "url": "$baseurl/RELEASES"
+      "url": "$baseurlRELEASES"
     }
   }
 }

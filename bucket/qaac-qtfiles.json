@@ -1,14 +1,14 @@
 {
   "version": "12.13.2.3",
   "description": "Use qaac without installing iTunes",
-  "homepage": "https://github.com/AnimMouse/QTFiles",
+  "homepage": "https:github.comAnimMouseQTFiles",
   "license": "MPL-2.0",
-  "depends": "muggle/qaac",
+  "depends": "muggleqaac",
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v12.13.2.3/QTfiles64.7z",
-        "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v12.13.2.3/QTfiles64-msvc.7z"
+        "https:github.comhu3rrorQTFilesreleasesdownloadv12.13.2.3QTfiles64.7z",
+        "https:github.comhu3rrorQTFilesreleasesdownloadv12.13.2.3QTfiles64-msvc.7z"
       ],
       "hash": [
         "f9923f313cf6d68be140e7cf7e1b5b2331f717d2c70bb146b6e9e314680f96ab",
@@ -26,8 +26,8 @@
     },
     "32bit": {
       "url": [
-        "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v12.13.2.3/QTfiles.7z",
-        "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v12.13.2.3/QTfiles-msvc.7z"
+        "https:github.comhu3rrorQTFilesreleasesdownloadv12.13.2.3QTfiles.7z",
+        "https:github.comhu3rrorQTFilesreleasesdownloadv12.13.2.3QTfiles-msvc.7z"
       ],
       "hash": [
         "0de24401ec922eac1f9e1e7123b5d088963ebd7acf727da1c1edb7296f21ccfb",
@@ -53,20 +53,20 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/hu3rror/QTFiles"
+    "github": "https:github.comhu3rrorQTFiles"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
         "url": [
-          "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v$version/QTfiles64.7z",
-          "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v$version/QTfiles64-msvc.7z"
+          "https:github.comhu3rrorQTFilesreleasesdownloadv$versionQTfiles64.7z",
+          "https:github.comhu3rrorQTFilesreleasesdownloadv$versionQTfiles64-msvc.7z"
         ]
       },
       "32bit": {
         "url": [
-          "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v$version/QTfiles.7z",
-          "https://ghfast.top/https://github.com/hu3rror/QTFiles/releases/download/v$version/QTfiles-msvc.7z"
+          "https:github.comhu3rrorQTFilesreleasesdownloadv$versionQTfiles.7z",
+          "https:github.comhu3rrorQTFilesreleasesdownloadv$versionQTfiles-msvc.7z"
         ]
       }
     }

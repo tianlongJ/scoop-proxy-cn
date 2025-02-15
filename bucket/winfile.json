@@ -1,12 +1,12 @@
 {
   "version": "10.3.0.0",
   "description": "Original Windows File Manager (winfile) with enhancements.",
-  "homepage": "https://github.com/Microsoft/winfile",
+  "homepage": "https:github.comMicrosoftwinfile",
   "license": "MIT",
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "extrasvcredist2022"
   },
-  "url": "https://ghfast.top/https://github.com/Microsoft/winfile/releases/download/v10.3.0.0/Winfile_v10.3.0.0.zip",
+  "url": "https:github.comMicrosoftwinfilereleasesdownloadv10.3.0.0Winfile_v10.3.0.0.zip",
   "hash": "f33bde933002aff27963eef3cbd1c07c8ebf4e8521ed02079ccbc6a63b953bef",
   "architecture": {
     "64bit": {
@@ -25,6 +25,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Microsoft/winfile/releases/download/v$version/Winfile_v$version.zip"
+    "url": "https:github.comMicrosoftwinfilereleasesdownloadv$versionWinfile_v$version.zip"
   }
 }

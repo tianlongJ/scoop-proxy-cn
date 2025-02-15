@@ -1,11 +1,11 @@
 {
   "version": "2.13.0",
   "description": "A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More).",
-  "homepage": "https://bytecodeviewer.com/",
+  "homepage": "https:bytecodeviewer.com",
   "license": "GPL-3.0",
   "url": [
-    "https://ghfast.top/https://github.com/Konloch/bytecode-viewer/releases/download/v2.13.0/Bytecode-Viewer-2.13.0.jar#/bytecode-viewer.jar",
-    "https://github.com/Konloch/bytecode-viewer/raw/v2.13.0/BCV%20Icon.ico#/icon.ico"
+    "https:github.comKonlochbytecode-viewerreleasesdownloadv2.13.0Bytecode-Viewer-2.13.0.jar#bytecode-viewer.jar",
+    "https:github.comKonlochbytecode-viewerrawv2.13.0BCV%20Icon.ico#icon.ico"
   ],
   "hash": [
     "ea82b3e7ea3149fbe467cbb9a5fd8d69f907ccbe32437fcba577149f9c858960",
@@ -22,12 +22,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/Konloch/bytecode-viewer"
+    "github": "https:github.comKonlochbytecode-viewer"
   },
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/Konloch/bytecode-viewer/releases/download/v$version/Bytecode-Viewer-$version.jar#/bytecode-viewer.jar",
-      "https://github.com/Konloch/bytecode-viewer/raw/v$version/BCV%20Icon.ico#/icon.ico"
+      "https:github.comKonlochbytecode-viewerreleasesdownloadv$versionBytecode-Viewer-$version.jar#bytecode-viewer.jar",
+      "https:github.comKonlochbytecode-viewerrawv$versionBCV%20Icon.ico#icon.ico"
     ]
   }
 }

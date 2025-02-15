@@ -1,17 +1,17 @@
 {
-  "homepage": "https://github.com/TBemme/galaxy-integration-nds",
+  "homepage": "https:github.comTBemmegalaxy-integration-nds",
   "version": "0.1.0",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/TBemme/galaxy-integration-nds/releases/download/v0.1.0/galaxy-integration-nds-0.1.0.zip",
+  "url": "https:github.comTBemmegalaxy-integration-ndsreleasesdownloadv0.1.0galaxy-integration-nds-0.1.0.zip",
   "hash": "6ddc4cfc87272509456a62ed0314459d2b1fa443907a370652bc3ff9e9c5ffd4",
   "extract_dir": "nds_81f936fb-39d9-48bc-b2c5-d4d45b80fbd9",
   "extract_to": "integration",
   "notes": [
     "COMPATIBLE EMULATORS:",
     "RetroArch, DeSmuME",
-    "NOTES/INSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
+    "NOTESINSTRUCTIONS FROM THE INTEGRATION DEVELOPER:",
     "Configure the plugin by editing the config.py file, and providing the desired paths and files.",
-    "Check https://github.com/TBemme/galaxy-integration-nds for more details..."
+    "Check https:github.comTBemmegalaxy-integration-nds for more details..."
   ],
   "uninstaller": {
     "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\nds\").Delete()"
@@ -45,7 +45,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -53,7 +53,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -76,9 +76,9 @@
   ],
   "persist": "integration\\config.py",
   "checkver": {
-    "github": "https://github.com/TBemme/galaxy-integration-nds"
+    "github": "https:github.comTBemmegalaxy-integration-nds"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/TBemme/galaxy-integration-nds/releases/download/v$version/galaxy-integration-nds-$version.zip"
+    "url": "https:github.comTBemmegalaxy-integration-ndsreleasesdownloadv$versiongalaxy-integration-nds-$version.zip"
   }
 }

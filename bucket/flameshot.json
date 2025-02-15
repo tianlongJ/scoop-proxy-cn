@@ -1,14 +1,14 @@
 {
   "version": "12.1.0",
   "description": "Powerful yet simple to use screenshot software",
-  "homepage": "https://flameshot.org",
+  "homepage": "https:flameshot.org",
   "license": "GPL-3.0-only",
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "extrasvcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/flameshot-org/flameshot/releases/download/v12.1.0/flameshot-12.1.0-win64.zip",
+      "url": "https:github.comflameshot-orgflameshotreleasesdownloadv12.1.0flameshot-12.1.0-win64.zip",
       "hash": "09d5fabedbc8e4ed9233030c10f6e3a46d051c0efa2c88c081b3ebcdf1ae7596",
       "extract_dir": "flameshot-12.1.0-win64"
     }
@@ -22,12 +22,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/flameshot-org/flameshot"
+    "github": "https:github.comflameshot-orgflameshot"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/flameshot-org/flameshot/releases/download/v$version/flameshot-$version-win64.zip",
+        "url": "https:github.comflameshot-orgflameshotreleasesdownloadv$versionflameshot-$version-win64.zip",
         "extract_dir": "flameshot-$version-win64"
       }
     },

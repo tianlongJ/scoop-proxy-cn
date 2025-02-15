@@ -1,12 +1,12 @@
 {
-  "##": "https://github.com/plexinc/plex-media-player",
+  "##": "https:github.complexincplex-media-player",
   "version": "2.58.0.1076-38e019da",
   "description": "Plex Media Player. Play media.",
-  "homepage": "https://www.plex.tv/apps-devices/#modal-devices-plex-media-player",
+  "homepage": "https:www.plex.tvapps-devices#modal-devices-plex-media-player",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://downloads.plex.tv/plexmediaplayer/2.58.0.1076-38e019da/PlexMediaPlayer-2.58.0.1076-38e019da-windows-x64.exe",
+      "url": "https:downloads.plex.tvplexmediaplayer2.58.0.1076-38e019daPlexMediaPlayer-2.58.0.1076-38e019da-windows-x64.exe",
       "hash": "sha1:7e8f7fb90c540ed98b01eba825bb70f851979adc"
     }
   },
@@ -27,15 +27,15 @@
     ]
   ],
   "checkver": {
-    "url": "https://plex.tv/api/downloads/3.json",
+    "url": "https:plex.tvapidownloads3.json",
     "jsonpath": "$.computer.Windows.version"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://downloads.plex.tv/plexmediaplayer/$version/PlexMediaPlayer-$version-windows-x64.exe",
+        "url": "https:downloads.plex.tvplexmediaplayer$versionPlexMediaPlayer-$version-windows-x64.exe",
         "hash": {
-          "url": "https://plex.tv/api/downloads/3.json",
+          "url": "https:plex.tvapidownloads3.json",
           "jsonpath": "$.computer.Windows.releases[?(@.build == 'windows-x86_64')].checksum"
         }
       }

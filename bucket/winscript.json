@@ -1,9 +1,9 @@
 {
   "version": "1.1.2",
   "description": "WinScript is an open-source tool built to help you build custom scripts for Windows 10 and 11.",
-  "homepage": "https://github.com/flick9000/winscript",
+  "homepage": "https:github.comflick9000winscript",
   "license": "GPL-3.0",
-  "url": "https://ghfast.top/https://github.com/flick9000/winscript/releases/download/v1.1.2/winscript-portable.exe",
+  "url": "https:github.comflick9000winscriptreleasesdownloadv1.1.2winscript-portable.exe",
   "hash": "764fdba83754225cd2f16d79917b286f8285cbfe31145ede4890977f3bad4021",
   "shortcuts": [
     [
@@ -13,6 +13,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/flick9000/winscript/releases/download/v$version/winscript-portable.exe"
+    "url": "https:github.comflick9000winscriptreleasesdownloadv$versionwinscript-portable.exe"
   }
 }

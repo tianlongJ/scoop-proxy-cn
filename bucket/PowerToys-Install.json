@@ -1,12 +1,12 @@
 {
   "version": "0.88.0",
   "description": "PowerToys. A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
-  "homepage": "https://github.com/microsoft/PowerToys",
+  "homepage": "https:github.commicrosoftPowerToys",
   "license": "MIT",
-  "changelog": "https://github.com/microsoft/PowerToys/releases/tag/v0.75.1",
+  "changelog": "https:github.commicrosoftPowerToysreleasestagv0.75.1",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe#/setup.exe",
+      "url": "https:github.commicrosoftPowerToysreleasesdownloadv0.88.0PowerToysSetup-0.88.0-x64.exe#setup.exe",
       "hash": "c43742db7aa3f8b01fe7ae1da591f0342767afe5bbacb72f2968ce5e8ee1e3ac"
     }
   },
@@ -30,7 +30,7 @@
       "$filepath = \"$ProgramFiles\\PowerToys\\PowerToys.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   &\"$dir\\setup.exe\" /silent /norestart | Out-Null",
+      "   &\"$dir\\setup.exe\" silent norestart | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",
@@ -43,7 +43,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe#/setup.exe"
+        "url": "https:github.commicrosoftPowerToysreleasesdownloadv$versionPowerToysSetup-$version-x64.exe#setup.exe"
       }
     }
   }

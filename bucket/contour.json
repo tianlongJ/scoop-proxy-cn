@@ -1,13 +1,13 @@
 {
   "version": "0.6.1.7494",
   "description": "Modern C++ Terminal Emulator",
-  "homepage": "https://github.com/contour-terminal/contour",
+  "homepage": "https:github.comcontour-terminalcontour",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/contour-terminal/contour/releases/download/v0.6.1.7494/contour-0.6.1.7494-win64.zip",
+      "url": "https:github.comcontour-terminalcontourreleasesdownloadv0.6.1.7494contour-0.6.1.7494-win64.zip",
       "hash": "38a85663a7d6bbf614e97514a717cb9fc1a1911e0bd2bc426028ba416bbdd2be",
-      "extract_dir": "Contour-0.6.1.7494-win64/bin"
+      "extract_dir": "Contour-0.6.1.7494-win64bin"
     }
   },
   "bin": "contour.exe",
@@ -21,8 +21,8 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/contour-terminal/contour/releases/download/v$version/contour-$version-win64.zip",
-        "extract_dir": "Contour-$version-win64/bin"
+        "url": "https:github.comcontour-terminalcontourreleasesdownloadv$versioncontour-$version-win64.zip",
+        "extract_dir": "Contour-$version-win64bin"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "1.000",
   "description": "Klee is a script font handwritten by pencil or pen. It's quiet design has an elegant look that sets itself apart from traditional script and textbook fonts. Ideal for body text.",
-  "homepage": "https://github.com/fontworks-fonts/Klee",
+  "homepage": "https:github.comfontworks-fontsKlee",
   "license": "OFL-1.1",
   "url": [
-    "https://github.com/fontworks-fonts/Klee/raw/master/fonts/ttf/KleeOne-Regular.ttf",
-    "https://github.com/fontworks-fonts/Klee/raw/master/fonts/ttf/KleeOne-SemiBold.ttf"
+    "https:github.comfontworks-fontsKleerawmasterfontsttfKleeOne-Regular.ttf",
+    "https:github.comfontworks-fontsKleerawmasterfontsttfKleeOne-SemiBold.ttf"
   ],
   "hash": [
     "74cb0a6523cc22b221ceaa7b78b56cea66512ec14b4145fd0102ffe27c30d084",
@@ -32,7 +32,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -92,13 +92,13 @@
     ]
   },
   "checkver": {
-    "url": "https://github.com/fontworks-fonts/Klee/tags",
-    "regex": "/releases/tag/Version([\\d.]+)"
+    "url": "https:github.comfontworks-fontsKleetags",
+    "regex": "releasestagVersion([\\d.]+)"
   },
   "autoupdate": {
     "url": [
-      "https://github.com/fontworks-fonts/Klee/raw/master/fonts/ttf/KleeOne-Regular.ttf",
-      "https://github.com/fontworks-fonts/Klee/raw/master/fonts/ttf/KleeOne-SemiBold.ttf"
+      "https:github.comfontworks-fontsKleerawmasterfontsttfKleeOne-Regular.ttf",
+      "https:github.comfontworks-fontsKleerawmasterfontsttfKleeOne-SemiBold.ttf"
     ]
   }
 }

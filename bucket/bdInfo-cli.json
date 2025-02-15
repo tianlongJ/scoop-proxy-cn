@@ -1,17 +1,17 @@
 {
   "version": "0.7.5.5",
-  "homepage": "https://github.com/zoffline/BDInfoCLI-ng",
+  "homepage": "https:github.comzofflineBDInfoCLI-ng",
   "description": "",
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/zoffline/BDInfoCLI-ng/UHD_Support_CLI/prebuilt/BDInfoCLI-ng_v0.7.5.5.zip",
+  "url": "https:raw.githubusercontent.comzofflineBDInfoCLI-ngUHD_Support_CLIprebuiltBDInfoCLI-ng_v0.7.5.5.zip",
   "hash": "",
   "extract_dir": "BDInfoCLI-ng_v0.7.5.5",
   "bin": "BDInfo.exe",
   "checkver": {
-    "url": "https://github.com/zoffline/BDInfoCLI-ng/tree/UHD_Support_CLI/prebuilt",
+    "url": "https:github.comzofflineBDInfoCLI-ngtreeUHD_Support_CLIprebuilt",
     "regex": "BDInfoCLI-ng_v([\\d.]+\\d+).zip"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/zoffline/BDInfoCLI-ng/UHD_Support_CLI/prebuilt/BDInfoCLI-ng_v$version.zip",
+    "url": "https:raw.githubusercontent.comzofflineBDInfoCLI-ngUHD_Support_CLIprebuiltBDInfoCLI-ng_v$version.zip",
     "extract_dir": "BDInfoCLI-ng_v$version"
   }
 }

@@ -1,20 +1,20 @@
 {
   "version": "1.7.13",
   "description": "Open-source scientific and technical publishing system built on Pandoc",
-  "homepage": "https://github.com/quarto-dev/quarto-cli",
+  "homepage": "https:github.comquarto-devquarto-cli",
   "license": "GPL-2.0",
-  "url": "https://ghfast.top/https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.13/quarto-1.7.13-win.zip",
+  "url": "https:github.comquarto-devquarto-clireleasesdownloadv1.7.13quarto-1.7.13-win.zip",
   "hash": "3112ffad35f7d54ea61f241b170fad816d5220a50f9ecc94bbd56078e43e80d8",
   "bin": "bin\\quarto.exe",
   "checkver": {
-    "url": "https://quarto.org/docs/download/_prerelease.json",
+    "url": "https:quarto.orgdocsdownload_prerelease.json",
     "jp": "$.version"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/quarto-dev/quarto-cli/releases/download/v$version/quarto-$version-win.zip",
+    "url": "https:github.comquarto-devquarto-clireleasesdownloadv$versionquarto-$version-win.zip",
     "hash": {
-      "url": "https://quarto.org/docs/download/_prerelease.json",
-      "jp": "$.assets[?(@.name =~ /\\.zip$/i)].checksum"
+      "url": "https:quarto.orgdocsdownload_prerelease.json",
+      "jp": "$.assets[?(@.name =~ \\.zip$i)].checksum"
     }
   },
   "post_install": [

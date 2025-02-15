@@ -1,11 +1,11 @@
 {
   "version": "0.2.0",
   "description": "Language server for Helm",
-  "homepage": "https://github.com/mrjosh/helm-ls",
+  "homepage": "https:github.commrjoshhelm-ls",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/mrjosh/helm-ls/releases/download/v0.2.0/helm_ls_windows_amd64.exe#/helm-ls.exe",
+      "url": "https:github.commrjoshhelm-lsreleasesdownloadv0.2.0helm_ls_windows_amd64.exe#helm-ls.exe",
       "hash": "cd91826177fee98dc7211c7375f5cbbcf0e78fb22988e6ce14d5dce7c48ec6db"
     }
   },
@@ -14,11 +14,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/mrjosh/helm-ls/releases/download/v$version/helm_ls_windows_amd64.exe#/helm-ls.exe"
+        "url": "https:github.commrjoshhelm-lsreleasesdownloadv$versionhelm_ls_windows_amd64.exe#helm-ls.exe"
       }
     },
     "hash": {
-      "url": "$baseurl/helm_ls_windows_amd64.sha256sum",
+      "url": "$baseurlhelm_ls_windows_amd64.sha256sum",
       "regex": "$sha256.*?exe"
     }
   }

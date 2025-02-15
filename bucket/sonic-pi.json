@@ -1,14 +1,14 @@
 {
   "version": "4.5.1",
   "description": "A code-based music creation and performance tool.",
-  "homepage": "https://sonic-pi.net/",
+  "homepage": "https:sonic-pi.net",
   "license": "MIT",
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "extrasvcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://sonic-pi.net/files/releases/v4.5.1/Sonic-Pi-for-Win-x64-v4-5-1.msi#/dl.msi_",
+      "url": "https:sonic-pi.netfilesreleasesv4.5.1Sonic-Pi-for-Win-x64-v4-5-1.msi#dl.msi_",
       "hash": "6caae70cd6c6c289c8b3a4a368edaff76f5e513989ece5ff4f5d77acf3c7ed7b"
     }
   },
@@ -20,12 +20,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/sonic-pi-net/sonic-pi"
+    "github": "https:github.comsonic-pi-netsonic-pi"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://sonic-pi.net/files/releases/v$version/Sonic-Pi-for-Win-x64-v$dashVersion.msi#/dl.msi_"
+        "url": "https:sonic-pi.netfilesreleasesv$versionSonic-Pi-for-Win-x64-v$dashVersion.msi#dl.msi_"
       }
     }
   }

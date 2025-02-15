@@ -1,13 +1,13 @@
 {
   "version": "2000.20240218",
   "description": "Fork of OpenTyrian with support for Tyrian 2000",
-  "homepage": "https://github.com/KScl/opentyrian2000",
+  "homepage": "https:github.comKSclopentyrian2000",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "32bit": {
       "url": [
-        "https://ghfast.top/https://github.com/KScl/opentyrian2000/releases/download/v2000.20240218/opentyrian2000-x86-Release.zip",
-        "https://www.camanis.net/tyrian/tyrian2000.zip"
+        "https:github.comKSclopentyrian2000releasesdownloadv2000.20240218opentyrian2000-x86-Release.zip",
+        "https:www.camanis.nettyriantyrian2000.zip"
       ],
       "hash": [
         "f5b0384cad2ff5d97a965f7dfcde76695d2b1953ffd99b95978ad856046ded63",
@@ -16,8 +16,8 @@
     },
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/KScl/opentyrian2000/releases/download/v2000.20240218/opentyrian2000-x64-Release.zip",
-        "https://www.camanis.net/tyrian/tyrian2000.zip"
+        "https:github.comKSclopentyrian2000releasesdownloadv2000.20240218opentyrian2000-x64-Release.zip",
+        "https:www.camanis.nettyriantyrian2000.zip"
       ],
       "hash": [
         "dc806e7678a40eb74ee2e2267aa5ecdf7b9af4455533d9d2e223698f6cbfa72d",
@@ -56,10 +56,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/KScl/opentyrian2000/releases/download/v$version/opentyrian2000-x86-Release.zip"
+        "url": "https:github.comKSclopentyrian2000releasesdownloadv$versionopentyrian2000-x86-Release.zip"
       },
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/KScl/opentyrian2000/releases/download/v$version/opentyrian2000-x64-Release.zip"
+        "url": "https:github.comKSclopentyrian2000releasesdownloadv$versionopentyrian2000-x64-Release.zip"
       }
     }
   }

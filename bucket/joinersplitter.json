@@ -1,14 +1,14 @@
 {
   "version": "1.5.3",
-  "description": "Fast video joiner/splitter using ffmpeg codec copy",
-  "homepage": "https://github.com/Rambalac/JoinerSplitter",
+  "description": "Fast video joinersplitter using ffmpeg codec copy",
+  "homepage": "https:github.comRambalacJoinerSplitter",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/Rambalac/JoinerSplitter/blob/master/licence.txt"
+    "url": "https:github.comRambalacJoinerSplitterblobmasterlicence.txt"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Rambalac/JoinerSplitter/releases/download/v1.5.3/JoinerSplitterSetup_en.msi#/dl.msi_",
+      "url": "https:github.comRambalacJoinerSplitterreleasesdownloadv1.5.3JoinerSplitterSetup_en.msi#dl.msi_",
       "hash": "f9bc0c63528bec93ad8617549f843706311e78125077369baa6304b29bce6cf5"
     }
   },
@@ -32,13 +32,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/Rambalac/JoinerSplitter/releases.atom",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:github.comRambalacJoinerSplitterreleases.atom",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Rambalac/JoinerSplitter/releases/download/v$version/JoinerSplitterSetup_en.msi#/dl.msi_"
+        "url": "https:github.comRambalacJoinerSplitterreleasesdownloadv$versionJoinerSplitterSetup_en.msi#dl.msi_"
       }
     }
   }

@@ -2,8 +2,8 @@
   "description": "Free and Open-source font for programming.",
   "version": "1.000",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/0xType/0xProto",
-  "url": "https://ghfast.top/https://github.com/0xType/0xProto/releases/download/1.000/0xProto-Regular.ttf",
+  "homepage": "https:github.com0xType0xProto",
+  "url": "https:github.com0xType0xProtoreleasesdownload1.0000xProto-Regular.ttf",
   "checkver": "github",
   "depends": "sudo",
   "installer": {

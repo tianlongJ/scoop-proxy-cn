@@ -1,13 +1,13 @@
 {
   "version": "1.2.0",
   "description": "Converts subtitle files from SubRib (.srt) format to WebVTT (.vtt) format",
-  "homepage": "https://github.com/nwoltman/srt-to-vtt-cl",
+  "homepage": "https:github.comnwoltmansrt-to-vtt-cl",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/nwoltman/srt-to-vtt-cl/releases/download/v1.2.0/bin.zip",
-        "https://github.com/nwoltman/srt-to-vtt-converter/raw/master/dist/SRT_to_VTT_Converter-x64.exe"
+        "https:github.comnwoltmansrt-to-vtt-clreleasesdownloadv1.2.0bin.zip",
+        "https:github.comnwoltmansrt-to-vtt-converterrawmasterdistSRT_to_VTT_Converter-x64.exe"
       ],
       "hash": [
         "0da807ba9e0fb47dbac0053b71e1d9bbbf8beacf9147fa87d032c859ae19bb7d",
@@ -17,8 +17,8 @@
     },
     "32bit": {
       "url": [
-        "https://ghfast.top/https://github.com/nwoltman/srt-to-vtt-cl/releases/download/v1.2.0/bin.zip",
-        "https://github.com/nwoltman/srt-to-vtt-converter/raw/master/dist/SRT_to_VTT_Converter-x86.exe"
+        "https:github.comnwoltmansrt-to-vtt-clreleasesdownloadv1.2.0bin.zip",
+        "https:github.comnwoltmansrt-to-vtt-converterrawmasterdistSRT_to_VTT_Converter-x86.exe"
       ],
       "hash": [
         "0da807ba9e0fb47dbac0053b71e1d9bbbf8beacf9147fa87d032c859ae19bb7d",
@@ -36,15 +36,15 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/nwoltman/srt-to-vtt-cl"
+    "github": "https:github.comnwoltmansrt-to-vtt-cl"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/nwoltman/srt-to-vtt-cl/releases/download/v$version/bin.zip"
+        "url": "https:github.comnwoltmansrt-to-vtt-clreleasesdownloadv$versionbin.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/nwoltman/srt-to-vtt-cl/releases/download/v$version/bin.zip"
+        "url": "https:github.comnwoltmansrt-to-vtt-clreleasesdownloadv$versionbin.zip"
       }
     }
   }

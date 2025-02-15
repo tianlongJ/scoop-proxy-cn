@@ -1,11 +1,11 @@
 {
   "version": "1.92",
   "description": "Add motion blur to videos",
-  "homepage": "https://f0e.github.io/blur",
+  "homepage": "https:f0e.github.ioblur",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/f0e/blur/releases/download/v1.92/blur-installer.exe",
+      "url": "https:github.comf0eblurreleasesdownloadv1.92blur-installer.exe",
       "hash": "12499c0bda1c0d3b735d4b723d39e7ad811ee351971cf9faffc4ae5045b2f332"
     }
   },
@@ -68,12 +68,12 @@
     "- You can override the global config file by making a file called '.blur-config.cfg' in the directory of your video",
     "- You can use blur with the 'Send To' context menu on videos in File Explorer, try it by right clicking",
     " ",
-    "You may have to install 'extras/vcredist-aio' if you have DLL errors with Blur."
+    "You may have to install 'extrasvcredist-aio' if you have DLL errors with Blur."
   ],
   "checkver": {
-    "github": "https://github.com/f0e/blur"
+    "github": "https:github.comf0eblur"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/f0e/blur/releases/download/$version/blur-installer.exe"
+    "url": "https:github.comf0eblurreleasesdownload$versionblur-installer.exe"
   }
 }

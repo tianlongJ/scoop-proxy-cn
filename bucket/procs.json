@@ -1,11 +1,11 @@
 {
   "version": "0.14.9",
   "description": "A modern replacement for ps(1)",
-  "homepage": "https://github.com/dalance/procs",
+  "homepage": "https:github.comdalanceprocs",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/dalance/procs/releases/download/v0.14.9/procs-v0.14.9-x86_64-windows.zip",
+      "url": "https:github.comdalanceprocsreleasesdownloadv0.14.9procs-v0.14.9-x86_64-windows.zip",
       "hash": "d50ad282a4de3655e7e6b1cd288d13d19de6fcefd623fc9e6a1692629d5688e9"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/dalance/procs/releases/download/v$version/procs-v$version-x86_64-windows.zip"
+        "url": "https:github.comdalanceprocsreleasesdownloadv$versionprocs-v$version-x86_64-windows.zip"
       }
     }
   }

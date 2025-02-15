@@ -1,14 +1,14 @@
 {
   "version": "1.3.4099.99",
   "description": "OpenVPN Client",
-  "homepage": "https://client.pritunl.com",
+  "homepage": "https:client.pritunl.com",
   "license": {
     "identifier": "Freeware",
-    "url": "https://github.com/pritunl/pritunl-client-electron/blob/master/LICENSE"
+    "url": "https:github.compritunlpritunl-client-electronblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4099.99/Pritunl.exe#/dl.exe",
+      "url": "https:github.compritunlpritunl-client-electronreleasesdownload1.3.4099.99Pritunl.exe#dl.exe",
       "hash": "a0c041f1d23d3164b4328c11c2dd8c4423783d06a14fa6e93c274fca47c4e71a"
     }
   },
@@ -35,13 +35,13 @@
       "Pritunl"
     ]
   ],
-  "checkver": "([\\d.]+)/Pritunl.exe",
+  "checkver": "([\\d.]+)Pritunl.exe",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe#/dl.exe",
+        "url": "https:github.compritunlpritunl-client-electronreleasesdownload$versionPritunl.exe#dl.exe",
         "hash": {
-          "url": "https://ghfast.top/https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+          "url": "https:raw.githubusercontent.compritunlpritunl-client-electronmasterSHA256",
           "regex": "$version[\\r\\n]+$sha256.*?$basename"
         }
       }

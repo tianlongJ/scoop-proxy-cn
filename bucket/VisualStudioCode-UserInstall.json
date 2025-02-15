@@ -1,16 +1,16 @@
 {
-  "##": "Download url https://code.visualstudio.com/download#",
+  "##": "Download url https:code.visualstudio.comdownload#",
   "version": "1.97.2",
   "description": "Visual Studio Code (User). is a lightweight but powerful source code editor.",
-  "homepage": "https://code.visualstudio.com/",
+  "homepage": "https:code.visualstudio.com",
   "license": {
     "identifier": "Freeware",
-    "url": "https://code.visualstudio.com/License/"
+    "url": "https:code.visualstudio.comLicense"
   },
-  "changelog": "https://code.visualstudio.com/updates/v1_97",
+  "changelog": "https:code.visualstudio.comupdatesv1_97",
   "architecture": {
     "64bit": {
-      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user#/setup.exe",
+      "url": "https:code.visualstudio.comshadownload?build=stable&os=win32-x64-user#setup.exe",
       "hash": "daabe6898fcca63afae8c69436df1f49687c390d2c7b2eb6ac6b3e9bc5821f39"
     }
   },
@@ -32,7 +32,7 @@
       "$regPath = \"HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{771FD6B0-FA20-440A-A002-3B3BAC16DC50}_is1\"",
       "if((Get-ItemProperty -LiteralPath \"$regPath\").DisplayVersion -lt [Version]\"$version\")",
       "{",
-      "   &\"$dir\\setup.exe\" /VERYSILENT /MERGETASKS=!runcode,!desktopicon,!quicklaunchicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath | Out-Null",
+      "   &\"$dir\\setup.exe\" VERYSILENT MERGETASKS=!runcode,!desktopicon,!quicklaunchicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath | Out-Null",
       "   if((Get-ItemProperty -LiteralPath \"$regPath\").DisplayVersion -lt [Version]\"$version\")",
       "   {",
       "       exit 1",
@@ -42,13 +42,13 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/microsoft/vscode"
+    "github": "https:github.commicrosoftvscode"
   },
   "autoupdate": {
-    "changelog": "https://code.visualstudio.com/updates/v$majorVersion_$minorVersion",
+    "changelog": "https:code.visualstudio.comupdatesv$majorVersion_$minorVersion",
     "architecture": {
       "64bit": {
-        "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user#/setup.exe"
+        "url": "https:code.visualstudio.comshadownload?build=stable&os=win32-x64-user#setup.exe"
       }
     }
   }

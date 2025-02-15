@@ -1,23 +1,23 @@
 {
   "version": "8.5.11",
-  "description": "Camunda workflow instance monitor/manager",
-  "homepage": "https://docs.camunda.io/docs/product-manuals/zeebe/zeebe-overview/",
+  "description": "Camunda workflow instance monitormanager",
+  "homepage": "https:docs.camunda.iodocsproduct-manualszeebezeebe-overview",
   "license": {
     "identifier": "Zeebe Community License v1.0",
-    "url": "https://camunda.com/legal/terms/cloud-terms-and-conditions/zeebe-community-license-v1-0/"
+    "url": "https:camunda.comlegaltermscloud-terms-and-conditionszeebe-community-license-v1-0"
   },
   "notes": [
     "If you are upgrading from version 1.x, you can follow the instructions on this page to migrate the settings:",
-    "https://docs.camunda.io/docs/guides/update-guide/130-to-800/"
+    "https:docs.camunda.iodocsguidesupdate-guide130-to-800"
   ],
   "suggest": {
-    "JDK": "java/openjdk",
+    "JDK": "javaopenjdk",
     "Zeebe": "zeebe",
-    "ElasticSearch": "extras/elasticsearch"
+    "ElasticSearch": "extraselasticsearch"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/camunda/camunda-platform/releases/download/8.5%2Bgen16/camunda-operate-8.5.11.zip",
+      "url": "https:github.comcamundacamunda-platformreleasesdownload8.5%2Bgen16camunda-operate-8.5.11.zip",
       "hash": "sha1:9de5dd7b7e7b8498459782a3e5da08a5bc004779"
     }
   },
@@ -30,13 +30,13 @@
   ],
   "persist": "config",
   "checkver": {
-    "url": "https://api.github.com/repos/camunda/camunda-platform/releases",
-    "regex": "download/(?<genVer>[\\d.]+%2Bgen[\\d.]+)/camunda-operate-([\\d.]+).zip"
+    "url": "https:api.github.comreposcamundacamunda-platformreleases",
+    "regex": "download(?<genVer>[\\d.]+%2Bgen[\\d.]+)camunda-operate-([\\d.]+).zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/camunda/camunda-platform/releases/download/$matchGenver/camunda-operate-$version.zip"
+        "url": "https:github.comcamundacamunda-platformreleasesdownload$matchGenvercamunda-operate-$version.zip"
       }
     },
     "hash": {

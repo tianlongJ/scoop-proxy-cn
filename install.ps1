@@ -1,4 +1,4 @@
-# Issue Tracker: https://github.com/ScoopInstaller/Install/issues
+# Issue Tracker: https:github.comScoopInstallerInstallissues
 # Unlicense License:
 #
 # This is free and unencumbered software released into the public domain.
@@ -24,7 +24,7 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 #
-# For more information, please refer to <http://unlicense.org/>
+# For more information, please refer to <http:unlicense.org>
 
 <#
 .SYNOPSIS
@@ -51,9 +51,9 @@
 .PARAMETER RunAsAdmin
     Force to run the installer as administrator.
 .LINK
-    https://scoop.sh
+    https:scoop.sh
 .LINK
-    https://github.com/ScoopInstaller/Scoop/wiki
+    https:github.comScoopInstallerScoopwiki
 #>
 param(
     [String] $ScoopDir,
@@ -137,12 +137,12 @@ function Test-IsAdministrator {
 function Test-Prerequisite {
     # Scoop requires PowerShell 5 at least
     if (($PSVersionTable.PSVersion.Major) -lt 5) {
-        Deny-Install 'PowerShell 5 or later is required to run Scoop. Go to https://microsoft.com/powershell to get the latest version of PowerShell.'
+        Deny-Install 'PowerShell 5 or later is required to run Scoop. Go to https:microsoft.compowershell to get the latest version of PowerShell.'
     }
 
     # Scoop requires TLS 1.2 SecurityProtocol, which exists in .NET Framework 4.5+
     if ([System.Enum]::GetNames([System.Net.SecurityProtocolType]) -notcontains 'Tls12') {
-        Deny-Install 'Scoop requires .NET Framework 4.5+ to work. Go to https://microsoft.com/net/download to get the latest version of .NET Framework.'
+        Deny-Install 'Scoop requires .NET Framework 4.5+ to work. Go to https:microsoft.comnetdownload to get the latest version of .NET Framework.'
     }
 
     # Ensure Robocopy.exe is accessible
@@ -155,7 +155,7 @@ function Test-Prerequisite {
         # Exception: Windows Sandbox, GitHub Actions CI
         $exception = ($env:USERNAME -eq 'WDAGUtilityAccount') -or ($env:GITHUB_ACTIONS -eq 'true' -and $env:CI -eq 'true')
         if (!$exception) {
-            Deny-Install 'Running the installer as administrator is disabled by default, see https://github.com/ScoopInstaller/Install#for-admin for details.'
+            Deny-Install 'Running the installer as administrator is disabled by default, see https:github.comScoopInstallerInstall#for-admin for details.'
         }
     }
 
@@ -183,7 +183,7 @@ function Optimize-SecurityProtocol {
     # If not, change it to support TLS 1.2
     if (!($isNewerNetFramework -and $isSystemDefault)) {
         # Set to TLS 1.2 (3072), then TLS 1.1 (768), and TLS 1.0 (192). Ssl3 has been superseded,
-        # https://docs.microsoft.com/en-us/dotnet/api/system.net.securityprotocoltype?view=netframework-4.5
+        # https:docs.microsoft.comen-usdotnetapisystem.net.securityprotocoltype?view=netframework-4.5
         [System.Net.ServicePointManager]::SecurityProtocol = 3072 -bor 768 -bor 192
         Write-Verbose 'SecurityProtocol has been updated to support TLS 1.2'
     }
@@ -198,7 +198,7 @@ function Get-Downloader {
     } elseif ($Proxy) {
         # Prepend protocol if not provided
         if (!$Proxy.IsAbsoluteUri) {
-            $Proxy = New-Object System.Uri('http://' + $Proxy.OriginalString)
+            $Proxy = New-Object System.Uri('http:' + $Proxy.OriginalString)
         }
 
         $Proxy = New-Object System.Net.WebProxy($Proxy)
@@ -259,7 +259,7 @@ function Expand-ZipArchive {
             Deny-Install "Unzip failed: can't unzip because a process is locking the file."
         }
         if (Test-isFileLocked $path) {
-            Write-InstallInfo "Waiting for $path to be unlocked by another process... ($retries/10)"
+            Write-InstallInfo "Waiting for $path to be unlocked by another process... ($retries10)"
             $retries++
             Start-Sleep -Seconds 2
         } else {
@@ -268,7 +268,7 @@ function Expand-ZipArchive {
     }
 
     # Workaround to suspend Expand-Archive verbose output,
-    # upstream issue: https://github.com/PowerShell/Microsoft.PowerShell.Archive/issues/98
+    # upstream issue: https:github.comPowerShellMicrosoft.PowerShell.Archiveissues98
     $oldVerbosePreference = $VerbosePreference
     $global:VerbosePreference = 'SilentlyContinue'
 
@@ -297,7 +297,7 @@ function Out-UTF8File {
             [System.IO.File]::AppendAllText($FilePath, $InputObject)
         } else {
             if (!$NoNewLine) {
-                # Ref: https://stackoverflow.com/questions/5596982
+                # Ref: https:stackoverflow.comquestions5596982
                 # Performance Note: `WriteAllLines` throttles memory usage while
                 # `WriteAllText` needs to keep the complete string in memory.
                 [System.IO.File]::WriteAllLines($FilePath, $InputObject)
@@ -357,7 +357,7 @@ function Import-ScoopShim {
         "set args=%args:)=``)%",
         "set invalid=`"='",
         'if !args! == !invalid! ( set args= )',
-        'where /q pwsh.exe',
+        'where q pwsh.exe',
         'if %errorlevel% equ 0 (',
         "    pwsh -noprofile -ex unrestricted -file `"$absolutePath`" $arg %args%",
         ') else (',
@@ -366,9 +366,9 @@ function Import-ScoopShim {
     ) -join "`r`n" | Out-UTF8File "$shim.cmd"
 
     @(
-        '#!/bin/sh',
+        '#!binsh',
         "# $absolutePath",
-        'if command -v pwsh.exe > /dev/null 2>&1; then',
+        'if command -v pwsh.exe > devnull 2>&1; then',
         "    pwsh.exe -noprofile -ex unrestricted -file `"$absolutePath`" $arg `"$@`"",
         'else',
         "    powershell.exe -noprofile -ex unrestricted -file `"$absolutePath`" $arg `"$@`"",
@@ -698,11 +698,11 @@ $SCOOP_CONFIG_HOME = $env:XDG_CONFIG_HOME, "$env:USERPROFILE\.config" | Select-O
 $SCOOP_CONFIG_FILE = "$SCOOP_CONFIG_HOME\scoop\config.json"
 
 # TODO: Use a specific version of Scoop and the main bucket
-$SCOOP_PACKAGE_REPO = 'https://ghfast.top/https://github.com/ScoopInstaller/Scoop/archive/master.zip'
-$SCOOP_MAIN_BUCKET_REPO = 'https://ghfast.top/https://github.com/ScoopInstaller/Main/archive/master.zip'
+$SCOOP_PACKAGE_REPO = 'https:github.comScoopInstallerScooparchivemaster.zip'
+$SCOOP_MAIN_BUCKET_REPO = 'https:github.comScoopInstallerMainarchivemaster.zip'
 
-$SCOOP_PACKAGE_GIT_REPO = 'https://github.com/ScoopInstaller/Scoop.git'
-$SCOOP_MAIN_BUCKET_GIT_REPO = 'https://github.com/ScoopInstaller/Main.git'
+$SCOOP_PACKAGE_GIT_REPO = 'https:github.comScoopInstallerScoop.git'
+$SCOOP_MAIN_BUCKET_GIT_REPO = 'https:github.comScoopInstallerMain.git'
 
 # Quit if anything goes wrong
 $oldErrorActionPreference = $ErrorActionPreference

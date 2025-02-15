@@ -1,12 +1,12 @@
 {
   "version": "3.14",
   "description": "The ultimate Object Manager namespace viewer is here.",
-  "homepage": "https://learn.microsoft.com/sysinternals/downloads/winobj",
+  "homepage": "https:learn.microsoft.comsysinternalsdownloadswinobj",
   "license": {
     "identifier": "Freeware",
-    "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    "url": "https:learn.microsoft.comsysinternalslicense-terms"
   },
-  "url": "https://download.sysinternals.com/files/WinObj.zip",
+  "url": "https:download.sysinternals.comfilesWinObj.zip",
   "hash": "585c75e0c2fb82fc43d8b986deac305fa3711db8d5f369dd874b66e721e6f5b3",
   "architecture": {
     "64bit": {
@@ -19,8 +19,8 @@
       "shortcuts": [
         [
           "winobj64.exe",
-          "SysInternals/WinObj",
-          "/accepteula"
+          "SysInternalsWinObj",
+          "accepteula"
         ]
       ]
     },
@@ -29,8 +29,8 @@
       "shortcuts": [
         [
           "Winobj.exe",
-          "SysInternals/WinObj",
-          "/accepteula"
+          "SysInternalsWinObj",
+          "accepteula"
         ]
       ]
     },
@@ -44,17 +44,17 @@
       "shortcuts": [
         [
           "Winobj64a.exe",
-          "SysInternals/WinObj",
-          "/accepteula"
+          "SysInternalsWinObj",
+          "accepteula"
         ]
       ]
     }
   },
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/winobj.md",
+    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadswinobj.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://download.sysinternals.com/files/WinObj.zip"
+    "url": "https:download.sysinternals.comfilesWinObj.zip"
   }
 }

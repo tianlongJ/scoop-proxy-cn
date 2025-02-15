@@ -1,30 +1,30 @@
 {
   "version": "13339805239",
-  "description": "Graphical process/system monitor",
-  "homepage": "https://github.com/ClementTsang/bottom",
+  "description": "Graphical processsystem monitor",
+  "homepage": "https:github.comClementTsangbottom",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip",
+      "url": "https:github.comClementTsangbottomreleasesdownloadnightlybottom_x86_64-pc-windows-msvc.zip",
       "hash": "d3e0a6e65f54fa8477caace7dba990df2e5d382986905711e99619c647f760b9"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip",
+      "url": "https:github.comClementTsangbottomreleasesdownloadnightlybottom_i686-pc-windows-msvc.zip",
       "hash": "2354ab69a5710962c8ea588b747d9d651f5d5db4a51dabc06bb3afefc6a53b8a"
     }
   },
   "bin": "btm.exe",
   "checkver": {
-    "url": "https://api.github.com/repositories/205042455/actions/workflows/nightly.yml/runs?branch=main&status=success",
+    "url": "https:api.github.comrepositories205042455actionsworkflowsnightly.ymlruns?branch=main&status=success",
     "jsonpath": "$.workflow_runs[0].id"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip"
+        "url": "https:github.comClementTsangbottomreleasesdownloadnightlybottom_x86_64-pc-windows-msvc.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip"
+        "url": "https:github.comClementTsangbottomreleasesdownloadnightlybottom_i686-pc-windows-msvc.zip"
       }
     }
   }

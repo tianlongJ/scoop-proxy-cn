@@ -1,18 +1,18 @@
 {
   "version": "1.6.0",
-  "description": "A windows tool for converting/muxing/split/concat videos.",
-  "homepage": "https://github.com/rxaa/MediaMux",
+  "description": "A windows tool for convertingmuxingsplitconcat videos.",
+  "homepage": "https:github.comrxaaMediaMux",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https://github.com/rxaa/MediaMux/blob/master/LICENSE"
+    "url": "https:github.comrxaaMediaMuxblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rxaa/MediaMux/releases/download/v1.6.0/MediaMux64.rar",
+      "url": "https:github.comrxaaMediaMuxreleasesdownloadv1.6.0MediaMux64.rar",
       "hash": "3a2b593b88ba8981d194d9ff05bdf5880d48822cbd60a07599d4fc033241a6e1"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/rxaa/MediaMux/releases/download/v1.6.0/MediaMux32.rar",
+      "url": "https:github.comrxaaMediaMuxreleasesdownloadv1.6.0MediaMux32.rar",
       "hash": "0e012f779dfd9a4ce4e8413332d3b21818cd08fc76a6e6ea9ebc511a7cc30e0b"
     }
   },
@@ -24,16 +24,16 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/rxaa/MediaMux/releases.atom",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:github.comrxaaMediaMuxreleases.atom",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rxaa/MediaMux/releases/download/v$version/MediaMux64.rar"
+        "url": "https:github.comrxaaMediaMuxreleasesdownloadv$versionMediaMux64.rar"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/rxaa/MediaMux/releases/download/v$version/MediaMux32.rar"
+        "url": "https:github.comrxaaMediaMuxreleasesdownloadv$versionMediaMux32.rar"
       }
     }
   }

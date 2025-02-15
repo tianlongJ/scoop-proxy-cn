@@ -1,14 +1,14 @@
 {
   "version": "1.97.2.25045",
-  "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition).",
-  "homepage": "https://github.com/VSCodium/vscodium",
+  "description": "Binary releases of VS Code without MS brandingtelemetrylicensing (Portable Edition).",
+  "homepage": "https:github.comVSCodiumvscodium",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/VSCodium/vscodium/releases/download/1.97.2.25045/VSCodium-win32-x64-1.97.2.25045.zip",
-        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/install-context.reg",
-        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/uninstall-context.reg"
+        "https:github.comVSCodiumvscodiumreleasesdownload1.97.2.25045VSCodium-win32-x64-1.97.2.25045.zip",
+        "https:raw.githubusercontent.comScoopInstallerExtrasmasterscriptsvscodeinstall-context.reg",
+        "https:raw.githubusercontent.comScoopInstallerExtrasmasterscriptsvscodeuninstall-context.reg"
       ],
       "hash": [
         "76785a71712718d469f99ee3aeb95209aff9f1154b553e39c81a40f0f3c811c6",
@@ -50,7 +50,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-x64-$version.zip"
+        "url": "https:github.comVSCodiumvscodiumreleasesdownload$versionVSCodium-win32-x64-$version.zip"
       }
     }
   }

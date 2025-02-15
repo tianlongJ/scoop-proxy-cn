@@ -1,13 +1,13 @@
 {
   "version": "2.1.0.8",
-  "homepage": "https://livelywallpaper.net/",
+  "homepage": "https:livelywallpaper.net",
   "description": "A free and open-source software that allows users to set animated desktop wallpapers and screensavers. ",
   "license": "GPL-3.0",
   "suggest": {
-    ".NET Desktop Runtime": "extras/windowsdesktop-runtime",
-    "vcredist": "extras/vcredist2022"
+    ".NET Desktop Runtime": "extraswindowsdesktop-runtime",
+    "vcredist": "extrasvcredist2022"
   },
-  "url": "https://ghfast.top/https://github.com/rocksdanister/lively/releases/download/v2.1.0.8/lively_setup_x86_full_v2108.exe",
+  "url": "https:github.comrocksdanisterlivelyreleasesdownloadv2.1.0.8lively_setup_x86_full_v2108.exe",
   "hash": "93e873373a84a6444f9ff0966dd36c1d38f3f7230c4011e61eb61a01a6194eb4",
   "innosetup": true,
   "bin": "Lively.exe",
@@ -23,13 +23,13 @@
     "}"
   ],
   "checkver": {
-    "github": "https://github.com/rocksdanister/lively"
+    "github": "https:github.comrocksdanisterlively"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/rocksdanister/lively/releases/download/v$version/lively_setup_x86_full_v$cleanVersion.exe",
+    "url": "https:github.comrocksdanisterlivelyreleasesdownloadv$versionlively_setup_x86_full_v$cleanVersion.exe",
     "hash": {
-      "url": "https://github.com/rocksdanister/lively/releases/latest",
-      "regex": ">SHA256</h2>\\n+<p>$sha256<"
+      "url": "https:github.comrocksdanisterlivelyreleaseslatest",
+      "regex": ">SHA256<h2>\\n+<p>$sha256<"
     }
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": "3.11.0",
   "description": "An open-source Minecraft music maker.",
-  "homepage": "https://opennbs.org/",
+  "homepage": "https:opennbs.org",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/OpenNBS/OpenNoteBlockStudio/releases/download/v3.11.0/Minecraft.Note.Block.Studio.zip",
+      "url": "https:github.comOpenNBSOpenNoteBlockStudioreleasesdownloadv3.11.0Minecraft.Note.Block.Studio.zip",
       "hash": "f86e39ac09c61f872175f0e57bc3727d6002c2872dd2c40cfadd6cd81f7971c6"
     }
   },
@@ -16,12 +16,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/OpenNBS/OpenNoteBlockStudio"
+    "github": "https:github.comOpenNBSOpenNoteBlockStudio"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/OpenNBS/OpenNoteBlockStudio/releases/download/v$version/Minecraft.Note.Block.Studio.zip"
+        "url": "https:github.comOpenNBSOpenNoteBlockStudioreleasesdownloadv$versionMinecraft.Note.Block.Studio.zip"
       }
     }
   }

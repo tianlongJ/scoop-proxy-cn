@@ -1,21 +1,21 @@
 {
   "version": "1.9",
   "description": "BTRFS filesystem driver.",
-  "homepage": "https://github.com/maharmstone/btrfs",
+  "homepage": "https:github.commaharmstonebtrfs",
   "license": "LGPL-3.0-or-later",
   "notes": [
     "If you using Windows 10 and have Secure Boot enabled, you may have to make a registry change in order for the driver to be loaded.",
-    "See https://github.com/maharmstone/btrfs#secureboot."
+    "See https:github.commaharmstonebtrfs#secureboot."
   ],
-  "url": "https://ghfast.top/https://github.com/maharmstone/btrfs/releases/download/v1.9/btrfs-1.9.zip",
+  "url": "https:github.commaharmstonebtrfsreleasesdownloadv1.9btrfs-1.9.zip",
   "hash": "673b0ecc23634d85213ba46e309bfb788ac83fcc14e4976773b324592401303a",
   "pre_install": "if (!$global) { Write-Host -Foreground Red \"$app should be installed globally.\"; break }",
   "installer": {
     "script": [
       "using namespace System.Security.Cryptography.X509Certificates",
       "# Add cert first before installing driver",
-      "$cert = (Get-AuthenticodeSignature \"$dir/btrfs.cat\").SignerCertificate",
-      "if (!(Get-ChildItem Cert:/CurrentUser/TrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq $cert.Thumbprint })) {",
+      "$cert = (Get-AuthenticodeSignature \"$dirbtrfs.cat\").SignerCertificate",
+      "if (!(Get-ChildItem Cert:CurrentUserTrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq $cert.Thumbprint })) {",
       "    Write-Host 'Cert not found, adding to trusted store...'",
       "    $store = [X509Store]::new([StoreName]::TrustedPublisher, [StoreLocation]::LocalMachine)",
       "    $store.Open([OpenFlags]::ReadWrite)",
@@ -24,24 +24,24 @@
       "}",
       "",
       "Write-Host 'Installing driver...'",
-      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('/add-driver', \"$dir/btrfs.inf\", '/install') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the installation.' }"
+      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('add-driver', \"$dirbtrfs.inf\", 'install') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the installation.' }"
     ]
   },
   "post_install": [
-    "Set-ItemProperty HKLM:/SYSTEM/CurrentControlSet/Services/btrfs Compress 1",
-    "Set-ItemProperty HKLM:/SYSTEM/CurrentControlSet/Services/btrfs CompressType 3"
+    "Set-ItemProperty HKLM:SYSTEMCurrentControlSetServicesbtrfs Compress 1",
+    "Set-ItemProperty HKLM:SYSTEMCurrentControlSetServicesbtrfs CompressType 3"
   ],
   "uninstaller": {
     "script": [
       "if ($cmd -ne 'uninstall') { return }",
-      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('/remove-device', 'ROOT\\btrfs\\0000') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the uninstallation.' }",
-      "$null = pnputil.exe /delete-driver \"$dir\\btrfs.inf\" /uninstall",
-      "$null = pnputil.exe /delete-driver \"$dir\\btrfs-vol.inf\" /uninstall",
+      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('remove-device', 'ROOT\\btrfs\\0000') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the uninstallation.' }",
+      "$null = pnputil.exe delete-driver \"$dir\\btrfs.inf\" uninstall",
+      "$null = pnputil.exe delete-driver \"$dir\\btrfs-vol.inf\" uninstall",
       "$null = sc.exe delete btrfs"
     ]
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/maharmstone/btrfs/releases/download/v$version/btrfs-$version.zip"
+    "url": "https:github.commaharmstonebtrfsreleasesdownloadv$versionbtrfs-$version.zip"
   }
 }

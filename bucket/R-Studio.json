@@ -1,14 +1,14 @@
 {
-  "homepage": "https://www.r-studio.com/zhcn/data-recovery-software/",
+  "homepage": "https:www.r-studio.comzhcndata-recovery-software",
   "version": "8.10.173981",
-  "url": "https://scoop-zapps.ziiyc.com/d/R-Studio/R-Studio-8.10.173981.7z#/dl.7z",
+  "url": "https:scoop-zapps.ziiyc.comdR-StudioR-Studio-8.10.173981.7z#dl.7z",
   "hash": "103887465930813fc271afea1fdeeb5ccfbe67fa7fdefc2e6693332f2ead6ced",
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/R-Studio.latest",
+    "url": "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterversionsR-Studio.latest",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://scoop-zapps.ziiyc.com/d/R-Studio/R-Studio-$version.7z#/dl.7z",
+    "url": "https:scoop-zapps.ziiyc.comdR-StudioR-Studio-$version.7z#dl.7z",
     "hash": {
       "url": "$url.sha256",
       "regex": "$sha256"

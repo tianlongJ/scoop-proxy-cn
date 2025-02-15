@@ -1,9 +1,9 @@
 {
   "version": "2.0.0.3",
   "description": "Simple and powerful GUI to Microsoft's RoboCopy tool.",
-  "homepage": "https://github.com/Cinchoo/ChoEazyCopy",
+  "homepage": "https:github.comCinchooChoEazyCopy",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/Cinchoo/ChoEazyCopy/releases/download/v2.0.0.3/ChoEazyCopy.zip",
+  "url": "https:github.comCinchooChoEazyCopyreleasesdownloadv2.0.0.3ChoEazyCopy.zip",
   "hash": "bf401bd5b04e7cd8822146d769bdb90a75e6faae750b425cac5cf173d86fa97d",
   "bin": "ChoEazyCopy.exe",
   "shortcuts": [
@@ -14,6 +14,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Cinchoo/ChoEazyCopy/releases/download/v$version/ChoEazyCopy.zip"
+    "url": "https:github.comCinchooChoEazyCopyreleasesdownloadv$versionChoEazyCopy.zip"
   }
 }

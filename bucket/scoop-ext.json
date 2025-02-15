@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "homepage": "https://github.com/Weidows-projects/scoop-3rd",
+  "homepage": "https:github.comWeidows-projectsscoop-3rd",
   "license": "MIT",
   "description": "辅以 scoop 本体的扩展",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Weidows-projects/scoop-3rd/releases/download/1.0.0/scoop-ext.7z",
+      "url": "https:github.comWeidows-projectsscoop-3rdreleasesdownload1.0.0scoop-ext.7z",
       "hash": "0889E4EC50A0ADA404D5E171AB729A874A8D223B44948D276925E4CB87BB3A4E"
     }
   },
@@ -22,7 +22,7 @@
     "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
     "  }",
     "}",
-    "foreach ($folder in @('.config/scoop')) {",
+    "foreach ($folder in @('.configscoop')) {",
     "  Create-Junction -runtimeCache \"$env:USERPROFILE\\$folder\" -runtimeCachePersist \"$persist_dir\\USERPROFILE\\$folder\"",
     "  Create-Junction -runtimeCache \"$env:LOCALAPPDATA\\$folder\" -runtimeCachePersist \"$persist_dir\\LOCALAPPDATA\\$folder\"",
     "  Create-Junction -runtimeCache \"$env:APPDATA\\$folder\" -runtimeCachePersist \"$persist_dir\\APPDATA\\$folder\"",

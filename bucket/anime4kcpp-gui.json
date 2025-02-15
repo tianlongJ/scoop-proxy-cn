@@ -1,11 +1,11 @@
 {
   "version": "1.12.0",
   "description": "A high performance anime upscaler (GUI Only)",
-  "homepage": "https://github.com/TianZerL/Anime4KCPP",
+  "homepage": "https:github.comTianZerLAnime4KCPP",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/TianZerL/Anime4KCPP/releases/download/v2.5.0/Anime4KCPP_GUI-1.12.0-2.5.0-Win64-msvc.7z",
+      "url": "https:github.comTianZerLAnime4KCPPreleasesdownloadv2.5.0Anime4KCPP_GUI-1.12.0-2.5.0-Win64-msvc.7z",
       "hash": "cb3f5fffea3f1e05eb7931346959d3e7adc9f9a595c4843a3eff450065769771"
     }
   },
@@ -17,13 +17,13 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/TianZerL/Anime4KCPP",
+    "github": "https:github.comTianZerLAnime4KCPP",
     "regex": "Anime4KCPP_GUI-(?<version>[\\d.]+)-(?<cli>[\\d.]+)-Win64-msvc\\.7z"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/TianZerL/Anime4KCPP/releases/download/v$matchCli/Anime4KCPP_GUI-$version-$matchCli-Win64-msvc.7z"
+        "url": "https:github.comTianZerLAnime4KCPPreleasesdownloadv$matchCliAnime4KCPP_GUI-$version-$matchCli-Win64-msvc.7z"
       }
     }
   }

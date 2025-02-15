@@ -1,20 +1,20 @@
 {
   "version": "181591",
   "description": "Docker Desktop. Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
-  "homepage": "https://www.docker.com",
+  "homepage": "https:www.docker.com",
   "license": {
     "identifier": "Apache-2.0",
-    "url": "https://github.com/moby/moby/blob/master/LICENSE"
+    "url": "https:github.commobymobyblobmasterLICENSE"
   },
   "notes": [
     "Conditions refer to the:",
-    "https://learn.microsoft.com/en-us/windows/wsl/install",
-    "https://docs.docker.com/desktop/install/windows-install",
-    "强烈建议选择 wsl-2 backend, windows/hyper-v 都是 win/amd64 架构的, 大部分镜像拉不到合适的, 就是装了个花瓶"
+    "https:learn.microsoft.comen-uswindowswslinstall",
+    "https:docs.docker.comdesktopinstallwindows-install",
+    "强烈建议选择 wsl-2 backend, windowshyper-v 都是 winamd64 架构的, 大部分镜像拉不到合适的, 就是装了个花瓶"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://desktop.docker.com/win/main/amd64/181591/Docker%20Desktop%20Installer.exe",
+      "url": "https:desktop.docker.comwinmainamd64181591Docker%20Desktop%20Installer.exe",
       "hash": "19162592ca2998303bc75c3387057a17f07e29e4692b12c52f284e569f44bd74"
     }
   },
@@ -53,13 +53,13 @@
   ],
   "env_add_path": "docker\\resources\\bin",
   "checkver": {
-    "url": "https://docs.docker.com/desktop/release-notes/",
-    "regex": "https://desktop.docker.com/win/main/amd64/([\\d.]+)/Docker%20Desktop%20Installer.exe"
+    "url": "https:docs.docker.comdesktoprelease-notes",
+    "regex": "https:desktop.docker.comwinmainamd64([\\d.]+)Docker%20Desktop%20Installer.exe"
   },
   "autoupdate": {
-    "url": "https://desktop.docker.com/win/main/amd64/$version/Docker%20Desktop%20Installer.exe",
+    "url": "https:desktop.docker.comwinmainamd64$versionDocker%20Desktop%20Installer.exe",
     "hash": {
-      "url": "https://desktop.docker.com/win/main/amd64/$version/checksums.txt",
+      "url": "https:desktop.docker.comwinmainamd64$versionchecksums.txt",
       "regex": "$.sha256"
     }
   }

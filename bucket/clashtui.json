@@ -1,15 +1,15 @@
 {
   "version": "0.2.3",
   "description": "Mihomo (Clash.Meta) TUI Client",
-  "homepage": "https://github.com/JohanChane/clashtui",
+  "homepage": "https:github.comJohanChaneclashtui",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/JohanChane/clashtui/releases/download/v0.2.3/clashtui-windows-amd64-v0.2.3.zip",
+      "url": "https:github.comJohanChaneclashtuireleasesdownloadv0.2.3clashtui-windows-amd64-v0.2.3.zip",
       "hash": "60c7a3d6db0438d744485a36e9ffa5ebc140017c1bb2cf23cb58c3ac36efb219"
     }
   },
-  "pre_install": "Get-ChildItem \"$dir/clashtui*.exe\" | Rename-Item -NewName \"clashtui.exe\"",
+  "pre_install": "Get-ChildItem \"$dirclashtui*.exe\" | Rename-Item -NewName \"clashtui.exe\"",
   "bin": "clashtui.exe",
   "suggest": {
     "nssm": "nssm",
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/JohanChane/clashtui/releases/download/v$version/clashtui-windows-amd64-v$version.zip"
+        "url": "https:github.comJohanChaneclashtuireleasesdownloadv$versionclashtui-windows-amd64-v$version.zip"
       }
     }
   }

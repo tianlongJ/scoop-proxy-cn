@@ -1,11 +1,11 @@
 {
   "version": "3.9.1",
   "description": "Google Drive CLI Client",
-  "homepage": "https://github.com/glotlabs/gdrive",
+  "homepage": "https:github.comglotlabsgdrive",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/glotlabs/gdrive/releases/download/3.9.1/gdrive_windows-x64.zip",
+      "url": "https:github.comglotlabsgdrivereleasesdownload3.9.1gdrive_windows-x64.zip",
       "hash": "md5:84d76a8e5546977ad174809f5720301d"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/glotlabs/gdrive/releases/download/$version/gdrive_windows-x64.zip"
+        "url": "https:github.comglotlabsgdrivereleasesdownload$versiongdrive_windows-x64.zip"
       }
     }
   }

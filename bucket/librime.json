@@ -1,15 +1,15 @@
 {
   "version": "1.13.0",
   "description": "Rime Input Method Engine",
-  "homepage": "https://rime.im/",
+  "homepage": "https:rime.im",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rime/librime/releases/download/1.13.0/rime-e8184dc-Windows-msvc-x64.7z",
+      "url": "https:github.comrimelibrimereleasesdownload1.13.0rime-e8184dc-Windows-msvc-x64.7z",
       "hash": "a154630ca23351bcc6cdf535007fc6db3507e3137510213a90ad71ba320b4484"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/rime/librime/releases/download/1.13.0/rime-e8184dc-Windows-msvc-x86.7z",
+      "url": "https:github.comrimelibrimereleasesdownload1.13.0rime-e8184dc-Windows-msvc-x86.7z",
       "hash": "111c87360bbdd1ac971793c6f036857cedfe39235a71fe5e2b098d201bf56033"
     }
   },
@@ -26,17 +26,17 @@
     "RIME_LIB_DIR": "$dir\\lib"
   },
   "checkver": {
-    "url": "https://api.github.com/repositories/3776878/releases/latest",
+    "url": "https:api.github.comrepositories3776878releaseslatest",
     "jsonpath": "$..browser_download_url",
-    "regex": "download/([\\d.]+)/rime-(?<hash>[\\d\\w]{7})-"
+    "regex": "download([\\d.]+)rime-(?<hash>[\\d\\w]{7})-"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x64.7z"
+        "url": "https:github.comrimelibrimereleasesdownload$versionrime-$matchHash-Windows-msvc-x64.7z"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x86.7z"
+        "url": "https:github.comrimelibrimereleasesdownload$versionrime-$matchHash-Windows-msvc-x86.7z"
       }
     }
   }

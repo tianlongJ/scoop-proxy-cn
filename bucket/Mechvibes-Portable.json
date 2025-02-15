@@ -1,15 +1,15 @@
 {
   "version": "2.3.4",
   "description": "Mechvibes. lets you play mechanical keyboard sounds as you type on your keyboard",
-  "homepage": "https://github.com/hainguyents13/mechvibes",
+  "homepage": "https:github.comhainguyents13mechvibes",
   "license": "LICENSE",
-  "changelog": "https://github.com/hainguyents13/mechvibes/releases",
-  "url": "https://ghfast.top/https://github.com/hainguyents13/mechvibes/releases/download/v2.3.4/Mechvibes.Setup.2.3.4.exe",
+  "changelog": "https:github.comhainguyents13mechvibesreleases",
+  "url": "https:github.comhainguyents13mechvibesreleasesdownloadv2.3.4Mechvibes.Setup.2.3.4.exe",
   "hash": "8b1158f6552a30da70aff106d4ab129e08980175e440c5945bb290edbb8a222e",
   "installer": {
     "args": [
-      "/S",
-      "/DIR=$dir"
+      "S",
+      "DIR=$dir"
     ]
   },
   "bin": "Mechvibes.exe",
@@ -21,6 +21,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/hainguyents13/mechvibes/releases/download/v$version/Mechvibes.Setup.$version.exe"
+    "url": "https:github.comhainguyents13mechvibesreleasesdownloadv$versionMechvibes.Setup.$version.exe"
   }
 }

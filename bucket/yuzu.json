@@ -1,14 +1,14 @@
 {
   "version": "0-1734",
   "description": "Nintendo Switch emulator",
-  "homepage": "https://yuzu-emu.org/",
+  "homepage": "https:yuzu-emu.org",
   "license": {
-    "url": "https://github.com/yuzu-emu/yuzu-mainline/blob/master/license.txt",
+    "url": "https:github.comyuzu-emuyuzu-mainlineblobmasterlicense.txt",
     "identifier": "GPL-2.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-1734/yuzu-windows-msvc-20240304-537296095.7z",
+      "url": "https:github.comyuzu-emuyuzu-mainlinereleasesdownloadmainline-0-1734yuzu-windows-msvc-20240304-537296095.7z",
       "hash": "5c644bbba1b694b01f5d52d5080aa2a5c86360d841851286df058da2ff5f6088"
     }
   },
@@ -39,13 +39,13 @@
     "plugins"
   ],
   "checkver": {
-    "github": "https://github.com/yuzu-emu/yuzu-mainline",
-    "regex": "download/mainline-([\\d.-]+)/yuzu-windows-msvc-(?<date>[\\d]{8})-(?<commit>[\\da-f]+).7z"
+    "github": "https:github.comyuzu-emuyuzu-mainline",
+    "regex": "downloadmainline-([\\d.-]+)yuzu-windows-msvc-(?<date>[\\d]{8})-(?<commit>[\\da-f]+).7z"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-$version/yuzu-windows-msvc-$matchDate-$matchCommit.7z"
+        "url": "https:github.comyuzu-emuyuzu-mainlinereleasesdownloadmainline-$versionyuzu-windows-msvc-$matchDate-$matchCommit.7z"
       }
     }
   }

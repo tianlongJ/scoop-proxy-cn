@@ -1,11 +1,11 @@
 {
   "version": "0.30.3",
   "description": "A fast and powerful log viewer and processor that translates JSON or logfmt logs into a pretty human-readable format",
-  "homepage": "https://github.com/pamburus/hl",
+  "homepage": "https:github.compamburushl",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/pamburus/hl/releases/download/v0.30.3/hl-windows.zip",
+      "url": "https:github.compamburushlreleasesdownloadv0.30.3hl-windows.zip",
       "hash": "b9fdf64ae4dcda051fd92ba54bb54f63b4bbe4b3445465c75b8c84e722daf308"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/pamburus/hl/releases/download/v$version/hl-windows.zip"
+        "url": "https:github.compamburushlreleasesdownloadv$versionhl-windows.zip"
       }
     }
   }

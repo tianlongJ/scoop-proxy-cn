@@ -1,12 +1,12 @@
 {
   "version": "1.510",
   "description": "An open-source Traditional Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字型 Klee One 改造的開源正體（繁體）中文字型。",
-  "homepage": "https://github.com/lxgw/LxgwWenkaiTC",
+  "homepage": "https:github.comlxgwLxgwWenkaiTC",
   "license": "OFL-1.1",
   "url": [
-    "https://ghfast.top/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.510/LXGWWenKaiTC-Light.ttf",
-    "https://ghfast.top/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.510/LXGWWenKaiTC-Regular.ttf",
-    "https://ghfast.top/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.510/LXGWWenKaiTC-Medium.ttf"
+    "https:github.comlxgwLxgwWenkaiTCreleasesdownloadv1.510LXGWWenKaiTC-Light.ttf",
+    "https:github.comlxgwLxgwWenkaiTCreleasesdownloadv1.510LXGWWenKaiTC-Regular.ttf",
+    "https:github.comlxgwLxgwWenkaiTCreleasesdownloadv1.510LXGWWenKaiTC-Medium.ttf"
   ],
   "hash": [
     "f5c6d0a4b61a69bb23522ec538a5bb18b445d7b89660a7c983f6a90bb0b7a0b2",
@@ -34,7 +34,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -96,9 +96,9 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Light.ttf",
-      "https://ghfast.top/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Regular.ttf",
-      "https://ghfast.top/https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiTC-Medium.ttf"
+      "https:github.comlxgwLxgwWenkaiTCreleasesdownloadv$versionLXGWWenKaiTC-Light.ttf",
+      "https:github.comlxgwLxgwWenkaiTCreleasesdownloadv$versionLXGWWenKaiTC-Regular.ttf",
+      "https:github.comlxgwLxgwWenkaiTCreleasesdownloadv$versionLXGWWenKaiTC-Medium.ttf"
     ]
   }
 }

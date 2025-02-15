@@ -1,12 +1,12 @@
 {
   "version": "2.1.2",
   "description": "Mixin Messenger desktop app",
-  "homepage": "https://mixin.one/messenger",
+  "homepage": "https:mixin.onemessenger",
   "license": "GPL-3.0-only",
   "innosetup": true,
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/MixinNetwork/flutter-app/releases/download/v2.1.2/mixin_desktop_windows_setup_amd64.exe",
+      "url": "https:github.comMixinNetworkflutter-appreleasesdownloadv2.1.2mixin_desktop_windows_setup_amd64.exe",
       "hash": "7be86030cb34bf4d9a3c67f84b85761dc4d2d5b625273847f7c3619a733714f1"
     }
   },
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/MixinNetwork/flutter-app"
+    "github": "https:github.comMixinNetworkflutter-app"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/MixinNetwork/flutter-app/releases/download/v$version/mixin_desktop_windows_setup_amd64.exe"
+        "url": "https:github.comMixinNetworkflutter-appreleasesdownloadv$versionmixin_desktop_windows_setup_amd64.exe"
       }
     }
   }

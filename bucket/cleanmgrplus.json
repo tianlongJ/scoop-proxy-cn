@@ -1,9 +1,9 @@
 {
   "version": "1.50.1300",
   "description": "An alternative to Disk Clean-up Tool (Cleanmgr.exe), whoch will be removed from Windows by Microsoft.",
-  "homepage": "https://www.builtbybel.com/apps/cleanmgrplus",
+  "homepage": "https:www.builtbybel.comappscleanmgrplus",
   "license": "Freeware",
-  "url": "https://ghfast.top/https://github.com/builtbybel/CleanmgrPlus/releases/download/1.50.1300/cleanmgrplus.zip",
+  "url": "https:github.combuiltbybelCleanmgrPlusreleasesdownload1.50.1300cleanmgrplus.zip",
   "hash": "5f70463cde65755406667e82b53ce5b77c94cb471663584592123d206e3986d7",
   "shortcuts": [
     [
@@ -13,9 +13,9 @@
   ],
   "persist": "bin",
   "checkver": {
-    "github": "https://github.com/builtbybel/CleanmgrPlus"
+    "github": "https:github.combuiltbybelCleanmgrPlus"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/builtbybel/CleanmgrPlus/releases/download/$version/cleanmgrplus.zip"
+    "url": "https:github.combuiltbybelCleanmgrPlusreleasesdownload$versioncleanmgrplus.zip"
   }
 }

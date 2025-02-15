@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
   "description": "A npm tab completion for PowerShell.",
-  "homepage": "https://github.com/PowerShell-Completion/npm-completion",
+  "homepage": "https:github.comPowerShell-Completionnpm-completion",
   "license": "Apache-2.0",
-  "url": "https://ghfast.top/https://github.com/PowerShell-Completion/npm-completion/archive/master.zip",
+  "url": "https:github.comPowerShell-Completionnpm-completionarchivemaster.zip",
   "hash": "37dc28a4634c30634d640b64127c0b496168dfcfc32ec7cf1fdedd1de12f981f",
-  "extract_dir": "npm-completion-master/src",
+  "extract_dir": "npm-completion-mastersrc",
   "post_install": [
     "Remove-Item \"$dir\\npm-completion-master\" -Recurse -Force"
   ],

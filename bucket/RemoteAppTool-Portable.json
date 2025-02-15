@@ -1,13 +1,13 @@
 {
   "version": "6.1.0.0",
-  "description": "RemoteApp Tool. A utility that allows you to create/manage RemoteApps hosted on Windows as well as generate RDP and MSI files for clients.",
-  "homepage": "http://www.kimknight.net/remoteapptool",
+  "description": "RemoteApp Tool. A utility that allows you to createmanage RemoteApps hosted on Windows as well as generate RDP and MSI files for clients.",
+  "homepage": "http:www.kimknight.netremoteapptool",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/kimmknight/remoteapptool/blob/master/LICENSE"
+    "url": "https:github.comkimmknightremoteapptoolblobmasterLICENSE"
   },
-  "changelog": "https://github.com/kimmknight/remoteapptool/releases",
-  "url": "https://ghfast.top/https://github.com/kimmknight/remoteapptool/releases/download/v6.1.0.0/RemoteApp.Tool.6100.zip",
+  "changelog": "https:github.comkimmknightremoteapptoolreleases",
+  "url": "https:github.comkimmknightremoteapptoolreleasesdownloadv6.1.0.0RemoteApp.Tool.6100.zip",
   "hash": "ad6345a0ec51638c028fc59367babba3b084ba45d8ec10cf183d64cd5fc708d7",
   "bin": "RDP2MSI.exe",
   "shortcuts": [
@@ -17,9 +17,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/kimmknight/remoteapptool"
+    "github": "https:github.comkimmknightremoteapptool"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/kimmknight/remoteapptool/releases/download/v$version/RemoteApp.Tool.$cleanVersion.zip"
+    "url": "https:github.comkimmknightremoteapptoolreleasesdownloadv$versionRemoteApp.Tool.$cleanVersion.zip"
   }
 }

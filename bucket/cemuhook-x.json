@@ -1,11 +1,11 @@
 {
-  "$schema": "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "homepage": "https://cemuhook.sshnuke.net/",
+  "$schema": "https:raw.githubusercontent.comScoopInstallerScoopmasterschema.json",
+  "homepage": "https:cemuhook.sshnuke.net",
   "version": "0.5.7.3",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://files.sshnuke.net/cemuhook_1159_0573.zip",
+      "url": "https:files.sshnuke.netcemuhook_1159_0573.zip",
       "hash": "21288935d934d5f02052dd2acdef82c71c4e090a7d7e6dffbdc64c2cbd1afef5"
     }
   },
@@ -28,7 +28,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://files.sshnuke.net/cemuhook_$matchCemu.zip"
+        "url": "https:files.sshnuke.netcemuhook_$matchCemu.zip"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "version": "1.0.143",
   "description": "A terminal for a more modern age",
-  "homepage": "https://eugeny.github.io/terminus/",
+  "homepage": "https:eugeny.github.ioterminus",
   "license": "MIT",
-  "notes": "Deprecated. Use extras/tabby",
+  "notes": "Deprecated. Use extrastabby",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Eugeny/terminus/releases/download/v1.0.143/terminus-1.0.143-setup.exe#/dl.7z",
+      "url": "https:github.comEugenyterminusreleasesdownloadv1.0.143terminus-1.0.143-setup.exe#dl.7z",
       "hash": "3c478e9fa2bab880c5bf03566f2ef0084496e8d9cb6225d4e4c8caa8bd5f905d",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",

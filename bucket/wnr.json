@@ -1,15 +1,15 @@
 {
   "version": "1.24.0",
   "description": "A timer app with strong expansibility for computers",
-  "homepage": "https://github.com/RoderickQiu/wnr",
+  "homepage": "https:github.comRoderickQiuwnr",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/RoderickQiu/wnr/releases/download/v1.24.0/wnr-1.24.0-Win-64.7z",
+      "url": "https:github.comRoderickQiuwnrreleasesdownloadv1.24.0wnr-1.24.0-Win-64.7z",
       "hash": "9f4819154b576cd540ecd3aa167de2141c739bd7687f555c2bbeb3d8a0111be4"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/RoderickQiu/wnr/releases/download/v1.24.0/wnr-1.24.0-Win-32.7z",
+      "url": "https:github.comRoderickQiuwnrreleasesdownloadv1.24.0wnr-1.24.0-Win-32.7z",
       "hash": "8351254f542f90106a2aff1239680f3b7847f5ec92c16a020b8bb610f7c86642"
     }
   },
@@ -45,16 +45,16 @@
     "wnr-statistics.json"
   ],
   "checkver": {
-    "github": "https://github.com/RoderickQiu/wnr",
-    "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
+    "github": "https:github.comRoderickQiuwnr",
+    "regex": "releasestag(?:v|V)?([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$matchHead-Win-64.7z"
+        "url": "https:github.comRoderickQiuwnrreleasesdownloadv$versionwnr-$matchHead-Win-64.7z"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$matchHead-Win-32.7z"
+        "url": "https:github.comRoderickQiuwnrreleasesdownloadv$versionwnr-$matchHead-Win-32.7z"
       }
     }
   }

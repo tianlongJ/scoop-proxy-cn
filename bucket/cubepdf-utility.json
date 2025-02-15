@@ -1,11 +1,11 @@
 {
-  "homepage": "https://www.cube-soft.jp/cubepdfutility/",
+  "homepage": "https:www.cube-soft.jpcubepdfutility",
   "version": "4.0.1",
   "description": "CubePDF Utility: CubePDF series and their library codes. The project is based on PDFium, iTextSharp, and Ghostscript.",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/cube-soft/Cube.Pdf/releases/download/9.0.1-net47/cubepdf-utility-4.0.1-x64.exe",
+      "url": "https:github.comcube-softCube.Pdfreleasesdownload9.0.1-net47cubepdf-utility-4.0.1-x64.exe",
       "hash": "437d654204eeab430f7a139e4c1ef9197ad16f5492836a3581cf1449bbf4ba2e",
       "installer": {
         "script": [
@@ -15,7 +15,7 @@
       }
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/cube-soft/Cube.Pdf/releases/download/9.0.1-net47/cubepdf-utility-4.0.1.exe",
+      "url": "https:github.comcube-softCube.Pdfreleasesdownload9.0.1-net47cubepdf-utility-4.0.1.exe",
       "hash": "35e2ccaaa41c71f76ec081578d78e612e8055eb55553a51a3d57a1313cdb9285",
       "installer": {
         "script": [
@@ -36,14 +36,14 @@
   "checkver": {
     "script": [
       "# Using checkver script",
-      "$url = 'https://github.com/cube-soft/Cube.Pdf/releases'",
+      "$url = 'https:github.comcube-softCube.Pdfreleases'",
       "",
       "$cont = (Invoke-WebRequest $url).Content",
-      "$r = 'tag/([\\w.-]+)'",
+      "$r = 'tag([\\w.-]+)'",
       "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
       "$githubversion = $matches[1]",
       "",
-      "$assetUrl = \"https://github.com/cube-soft/cube.pdf/releases/expanded_assets/$githubversion\"",
+      "$assetUrl = \"https:github.comcube-softcube.pdfreleasesexpanded_assets$githubversion\"",
       "$assetCont = (Invoke-WebRequest $assetUrl).Content",
       "$r = \"cubepdf-utility-([\\d.]+)-x64.exe\"",
       "if (!($assetCont -match $r)) { error \"Could not match $r in $url\"; continue }",
@@ -55,10 +55,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/cube-soft/Cube.Pdf/releases/download/$matchGithubversion/cubepdf-utility-$version-x64.exe"
+        "url": "https:github.comcube-softCube.Pdfreleasesdownload$matchGithubversioncubepdf-utility-$version-x64.exe"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/cube-soft/Cube.Pdf/releases/download/$matchGithubversion/cubepdf-utility-$version.exe"
+        "url": "https:github.comcube-softCube.Pdfreleasesdownload$matchGithubversioncubepdf-utility-$version.exe"
       }
     }
   }

@@ -1,15 +1,15 @@
 {
   "version": "11_2_0-esp-2022r1",
   "description": "Toolchain for Xtensa (ESP32) based on GCC",
-  "homepage": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup-scratch.html",
+  "homepage": "https:docs.espressif.comprojectsesp-idfenlatestesp32get-startedwindows-setup-scratch.html",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/espressif/crosstool-NG/releases/download/esp-2022r1/xtensa-esp32-elf-gcc11_2_0-esp-2022r1-win64.zip",
+      "url": "https:github.comespressifcrosstool-NGreleasesdownloadesp-2022r1xtensa-esp32-elf-gcc11_2_0-esp-2022r1-win64.zip",
       "hash": "f469aff6a71113e3a145466d814184339e02248b158357766970646f5d2a3da7"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/espressif/crosstool-NG/releases/download/esp-2022r1/xtensa-esp32-elf-gcc11_2_0-esp-2022r1-win32.zip",
+      "url": "https:github.comespressifcrosstool-NGreleasesdownloadesp-2022r1xtensa-esp32-elf-gcc11_2_0-esp-2022r1-win32.zip",
       "hash": "858ee049d6d8de730ed3e30285c4adc1a9cdfe077b591ed0b6f2bfa5e3564f53"
     }
   },
@@ -46,22 +46,22 @@
     "bin\\xtensa-esp32-elf-strip.exe"
   ],
   "checkver": {
-    "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-tools.html",
+    "url": "https:docs.espressif.comprojectsesp-idfenlatestesp32api-guidestoolsidf-tools.html",
     "regex": "xtensa-esp32-elf-gcc([\\d_]+-esp-([\\w-]+))-win64.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/espressif/crosstool-NG/releases/download/esp-$match2/xtensa-esp32-elf-gcc$version-win64.zip",
+        "url": "https:github.comespressifcrosstool-NGreleasesdownloadesp-$match2xtensa-esp32-elf-gcc$version-win64.zip",
         "hash": {
-          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-tools.html",
+          "url": "https:docs.espressif.comprojectsesp-idfenlatestesp32api-guidestoolsidf-tools.html",
           "regex": "win64.zip.+\\s.+SHA256: $sha256"
         }
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/espressif/crosstool-NG/releases/download/esp-$match2/xtensa-esp32-elf-gcc$version-win32.zip",
+        "url": "https:github.comespressifcrosstool-NGreleasesdownloadesp-$match2xtensa-esp32-elf-gcc$version-win32.zip",
         "hash": {
-          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-tools.html",
+          "url": "https:docs.espressif.comprojectsesp-idfenlatestesp32api-guidestoolsidf-tools.html",
           "regex": "win32.zip.+\\s.+SHA256: $sha256"
         }
       }

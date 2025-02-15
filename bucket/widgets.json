@@ -1,14 +1,14 @@
 {
   "version": "24.12.5",
   "description": "功能强大、符合人体工程学的 Windows 桌面组件系统，使用 Vue 构建。Desktop widgets for windows. built with vue3.",
-  "homepage": "https://github.com/widget-js/widgets",
+  "homepage": "https:github.comwidget-jswidgets",
   "license": {
     "identifier": "GNU General Public License v2.0",
-    "url": "https://github.com/widget-js/widgets/blob/master/LICENSE"
+    "url": "https:github.comwidget-jswidgetsblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://widget-fun.oss-cn-hangzhou.aliyuncs.com/version/installer.exe",
+      "url": "https:widget-fun.oss-cn-hangzhou.aliyuncs.comversioninstaller.exe",
       "hash": "504451d008cf42d2215a0638d24506e2873dd9a11b48bf8009a665e3168bf20f"
     }
   },
@@ -24,7 +24,7 @@
   ],
   "checkver": {
     "script": [
-      "$dl_url='https://widget-fun.oss-cn-hangzhou.aliyuncs.com/version/installer.exe'",
+      "$dl_url='https:widget-fun.oss-cn-hangzhou.aliyuncs.comversioninstaller.exe'",
       "$out_path='Widgets-' + (New-Guid).Guid + '.exe'",
       "Invoke-WebRequest -Uri $dl_url -OutFile $out_path",
       "(Get-Item $out_path).VersionInfo.FileVersion",
@@ -33,6 +33,6 @@
     "regex": "([\\d\\.]+)"
   },
   "autoupdate": {
-    "url": "https://widget-fun.oss-cn-hangzhou.aliyuncs.com/version/installer.exe"
+    "url": "https:widget-fun.oss-cn-hangzhou.aliyuncs.comversioninstaller.exe"
   }
 }

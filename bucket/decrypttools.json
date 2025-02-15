@@ -1,16 +1,16 @@
 {
   "version": "3.0",
   "description": "DecryptTools-综合解密",
-  "homepage": "https://github.com/wafinfo/DecryptTools",
+  "homepage": "https:github.comwafinfoDecryptTools",
   "license": "Freeware",
-  "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/decrypttools.json",
+  "notes": "https:github.comViCrackscoop-bucketblobmasterbucketdecrypttools.json",
   "suggest": {
     "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
+      "javaoraclejdk",
+      "javaopenjdk"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV3.0/DecryptToolsV3.0.jar",
+  "url": "https:github.comwafinfoDecryptToolsreleasesdownloadDecryptToolsV3.0DecryptToolsV3.0.jar",
   "hash": "796bbb8f10564e4d46bae4b543d32bdbc3c01c29f2df0ccd44cd11aa9471cddc",
   "pre_install": [
     "",
@@ -32,7 +32,7 @@
     "",
     "if not exist \"%jdk_path%javaw.exe\" (",
     "echo ERROR: Java executable not found in %jdk_path%.",
-    "exit /b 1",
+    "exit b 1",
     ")",
     "",
     "set \"javafx_args=\"",
@@ -51,7 +51,7 @@
     "endlocal",
     "\"@",
     "",
-    "$path = \"$dir/decrypttools.bat\"",
+    "$path = \"$dirdecrypttools.bat\"",
     "Set-Content -Path $path -Value $batContent -Encoding Ascii",
     ""
   ],
@@ -63,9 +63,9 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/wafinfo/DecryptTools/releases/latest",
+    "url": "https:api.github.comreposwafinfoDecryptToolsreleaseslatest",
     "jsonpath": "$..browser_download_url",
-    "regex": "/DecryptToolsV([\\d.]+)\\.jar"
+    "regex": "DecryptToolsV([\\d.]+)\\.jar"
   },
   "autoupdate": {
     "pre_install": [
@@ -88,7 +88,7 @@
       "",
       "if not exist \"%jdk_path%javaw.exe\" (",
       "echo ERROR: Java executable not found in %jdk_path%.",
-      "exit /b 1",
+      "exit b 1",
       ")",
       "",
       "set \"javafx_args=\"",
@@ -107,10 +107,10 @@
       "endlocal",
       "\"@",
       "",
-      "$path = \"$dir/decrypttools.bat\"",
+      "$path = \"$dirdecrypttools.bat\"",
       "Set-Content -Path $path -Value $batContent -Encoding Ascii",
       ""
     ],
-    "url": "https://ghfast.top/https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV$version/DecryptToolsV$version.jar"
+    "url": "https:github.comwafinfoDecryptToolsreleasesdownloadDecryptToolsV$versionDecryptToolsV$version.jar"
   }
 }

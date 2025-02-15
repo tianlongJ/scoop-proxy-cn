@@ -1,14 +1,14 @@
 {
   "version": "2.5.7",
   "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc.",
-  "homepage": "https://hiddify.com/",
+  "homepage": "https:hiddify.com",
   "license": {
     "identifier": "GPL-3.0",
-    "url": "https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md"
+    "url": "https:github.comhiddifyhiddify-appblobmainLICENSE.md"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Windows-Portable-x64.zip",
+      "url": "https:github.comhiddifyhiddify-appreleasesdownloadv2.5.7Hiddify-Windows-Portable-x64.zip",
       "hash": "dbb4ae2d70395c20ae3de86afd047f0be9ffb20d42be5a104e332f6469cdb6d7"
     }
   },
@@ -30,14 +30,14 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/643504282/releases",
+    "url": "https:api.github.comrepositories643504282releases",
     "jsonpath": "$..browser_download_url",
-    "regex": "/releases/download/v([\\w.]+)/(?<file>(?:hiddify|Hiddify)-(?:windows|Windows)-(?:portable|Portable)-x64\\.zip)"
+    "regex": "releasesdownloadv([\\w.]+)(?<file>(?:hiddify|Hiddify)-(?:windows|Windows)-(?:portable|Portable)-x64\\.zip)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/hiddify/hiddify-app/releases/download/v$version/$matchFile"
+        "url": "https:github.comhiddifyhiddify-appreleasesdownloadv$version$matchFile"
       }
     }
   }

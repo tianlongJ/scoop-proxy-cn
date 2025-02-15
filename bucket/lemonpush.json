@@ -1,11 +1,11 @@
 {
   "version": "1.0.4",
   "description": "同一WiFi环境下Android手机高效推送文本到电脑剪切板的工具",
-  "homepage": "https://sibtools.app/lemon_push/",
+  "homepage": "https:sibtools.applemon_push",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ishare20/lemonPush/releases/download/v1.0.4/lemon_push_v104_windows_amd64.exe",
+      "url": "https:github.comishare20lemonPushreleasesdownloadv1.0.4lemon_push_v104_windows_amd64.exe",
       "hash": "189a492bb5899350d88f161a7895dce9d41562b5abe3949b198e89a5866b0d9d"
     }
   },
@@ -23,14 +23,14 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/ishare20/lemonPush/releases",
-    "regex": "browser_download_url.*?releases/download/v([\\d.]+)/lemon_push_v([\\d.]+)_windows_amd64.exe",
+    "url": "https:api.github.comreposishare20lemonPushreleases",
+    "regex": "browser_download_url.*?releasesdownloadv([\\d.]+)lemon_push_v([\\d.]+)_windows_amd64.exe",
     "replace": "${1}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ishare20/lemonPush/releases/download/v$match1/lemon_push_v$match2_windows_amd64.exe"
+        "url": "https:github.comishare20lemonPushreleasesdownloadv$match1lemon_push_v$match2_windows_amd64.exe"
       }
     }
   }

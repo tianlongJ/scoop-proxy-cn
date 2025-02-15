@@ -1,11 +1,11 @@
 {
   "version": "0.4.1743",
-  "homepage": "https://you-get.org/",
+  "homepage": "https:you-get.org",
   "description": "A video downloader written in Python",
   "license": "MIT",
   "url": [
-    "https://ghfast.top/https://github.com/soimort/you-get/releases/download/v0.4.1743/you_get-0.4.1743-py3-none-any.whl#/dl.7z",
-    "https://github.com/soimort/you-get/raw/develop/you-get"
+    "https:github.comsoimortyou-getreleasesdownloadv0.4.1743you_get-0.4.1743-py3-none-any.whl#dl.7z",
+    "https:github.comsoimortyou-getrawdevelopyou-get"
   ],
   "hash": [
     "9f8968769772d3b50e0b38f33f119a4c0d5708ecfe0eeacee950661523b2ccf7",
@@ -14,9 +14,9 @@
   "pre_install": "Set-Content \"$dir\\you-get.bat\" '@python.exe \"%~dp0\\you-get\" %*' -Encoding ASCII",
   "bin": "you-get.bat",
   "checkver": {
-    "github": "https://github.com/soimort/you-get"
+    "github": "https:github.comsoimortyou-get"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/soimort/you-get/releases/download/v$version/you_get-$version-py3-none-any.whl#/dl.7z"
+    "url": "https:github.comsoimortyou-getreleasesdownloadv$versionyou_get-$version-py3-none-any.whl#dl.7z"
   }
 }

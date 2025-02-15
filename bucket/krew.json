@@ -1,7 +1,7 @@
 {
   "version": "0.4.4",
   "description": "Krew is the package manager for kubectl plugins.",
-  "homepage": "https://krew.sigs.k8s.io/",
+  "homepage": "https:krew.sigs.k8s.io",
   "license": "Apache-2.0",
   "notes": [
     "This application creates symlinks during installation of plugins.",
@@ -9,7 +9,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew.exe",
+      "url": "https:github.comkubernetes-sigskrewreleasesdownloadv0.4.4krew.exe",
       "hash": "dcbc1acd1009dba2b5d900043c6b8b571bbe418a4556eec070e7d4efcbddc766"
     }
   },
@@ -25,12 +25,12 @@
   },
   "persist": ".krew",
   "checkver": {
-    "github": "https://github.com/kubernetes-sigs/krew"
+    "github": "https:github.comkubernetes-sigskrew"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/kubernetes-sigs/krew/releases/download/v$version/krew.exe"
+        "url": "https:github.comkubernetes-sigskrewreleasesdownloadv$versionkrew.exe"
       }
     },
     "hash": {

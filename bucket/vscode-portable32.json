@@ -1,10 +1,10 @@
 {
   "version": "1.58.2",
   "description": "Lightweight but powerful source code editor (Portable Edition)",
-  "homepage": "https://code.visualstudio.com/",
+  "homepage": "https:code.visualstudio.com",
   "license": {
     "identifier": "Freeware",
-    "url": "https://code.visualstudio.com/License/"
+    "url": "https:code.visualstudio.comLicense"
   },
   "notes": [
     "Visual Studio Code now supports Portable Mode! Please move the following directories:",
@@ -13,9 +13,9 @@
     "Add Visual Studio Code as a context menu option by running: \"$dir\\vscode-install-context.reg\""
   ],
   "url": [
-    "https://update.code.visualstudio.com/1.58.2/win32-archive/stable#/dl.7z",
-    "https://ghfast.top/https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
-    "https://ghfast.top/https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+    "https:update.code.visualstudio.com1.58.2win32-archivestable#dl.7z",
+    "https:raw.githubusercontent.comlukesampsonscoop-extrasmasterscriptsvscode-install-context.reg",
+    "https:raw.githubusercontent.comlukesampsonscoop-extrasmasterscriptsvscode-uninstall-context.reg"
   ],
   "hash": [
     "efca034da1f39ddfed29a91cb487b2a028378d4eaebeda3c288f00e76f45da01",
@@ -54,13 +54,13 @@
   ],
   "persist": "data",
   "checkver": {
-    "url": "https://code.visualstudio.com/sha?build=stable",
+    "url": "https:code.visualstudio.comsha?build=stable",
     "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
   },
   "autoupdate": {
-    "url": "https://update.code.visualstudio.com/$version/win32-archive/stable#/dl.7z",
+    "url": "https:update.code.visualstudio.com$versionwin32-archivestable#dl.7z",
     "hash": {
-      "url": "https://code.visualstudio.com/sha?build=stable",
+      "url": "https:code.visualstudio.comsha?build=stable",
       "jsonpath": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
     }
   }

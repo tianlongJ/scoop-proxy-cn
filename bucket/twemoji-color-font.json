@@ -1,16 +1,16 @@
 {
   "version": "15.1.0",
   "description": "Twitter Unicode emoji color OpenType-SVG font.",
-  "homepage": "https://github.com/13rac1/twemoji-color-font",
+  "homepage": "https:github.com13rac1twemoji-color-font",
   "license": "MIT",
   "depends": "python",
-  "url": "https://ghfast.top/https://github.com/13rac1/twemoji-color-font/releases/download/v15.1.0/TwitterColorEmoji-SVGinOT-Win-15.1.0.zip",
+  "url": "https:github.com13rac1twemoji-color-fontreleasesdownloadv15.1.0TwitterColorEmoji-SVGinOT-Win-15.1.0.zip",
   "hash": "c2155138f64dd8ce05f0267b50306d487dd0c85c1a25cd0d98d8d6b2ea40e039",
   "extract_dir": "TwitterColorEmoji-SVGinOT-Win-15.1.0",
   "pre_install": [
-    "$cmdContent = (Get-Content \"$dir\\install.cmd\") -Replace ('(CHOICE\\s/\\w\\s\"\\w\\w(\\w+\\s)+\\w+(\\s\\w+)+\\w\\w(\\w+\\s)+\\w+\\s\\w+\\?\"$)', 'EXIT /b')",
+    "$cmdContent = (Get-Content \"$dir\\install.cmd\") -Replace ('(CHOICE\\s\\w\\s\"\\w\\w(\\w+\\s)+\\w+(\\s\\w+)+\\w\\w(\\w+\\s)+\\w+\\s\\w+\\?\"$)', 'EXIT b')",
     "$cmdContent | Set-Content \"$dir\\install.cmd\"",
-    "Remove-Item \"$dir\\uninstall.cmd\"; Start-Process 'cmd' -Wait -NoNewWindow -ArgumentList @('/c', \"$dir\\install.cmd\")"
+    "Remove-Item \"$dir\\uninstall.cmd\"; Start-Process 'cmd' -Wait -NoNewWindow -ArgumentList @('c', \"$dir\\install.cmd\")"
   ],
   "installer": {
     "script": [
@@ -33,7 +33,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -103,7 +103,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/13rac1/twemoji-color-font/releases/download/v$version/TwitterColorEmoji-SVGinOT-Win-$version.zip",
+    "url": "https:github.com13rac1twemoji-color-fontreleasesdownloadv$versionTwitterColorEmoji-SVGinOT-Win-$version.zip",
     "extract_dir": "TwitterColorEmoji-SVGinOT-Win-$version"
   }
 }

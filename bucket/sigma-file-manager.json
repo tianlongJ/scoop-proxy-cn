@@ -1,11 +1,11 @@
 {
   "version": "1.7.0",
-  "description": "\"Sigma File Manager\" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.",
-  "homepage": "https://github.com/aleksey-hoffman/sigma-file-manager",
+  "description": "\"Sigma File Manager\" is a free, open-source, quickly evolving, modern file manager (explorer  browser) app for Windows and Linux.",
+  "homepage": "https:github.comaleksey-hoffmansigma-file-manager",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/aleksey-hoffman/sigma-file-manager/releases/download/v1.7.0/Sigma-File-Manager-1.7.0-Windows-Setup.exe#/dl.7z",
+      "url": "https:github.comaleksey-hoffmansigma-file-managerreleasesdownloadv1.7.0Sigma-File-Manager-1.7.0-Windows-Setup.exe#dl.7z",
       "hash": "418285100afe0b9a2624740b94f1fa7d483bd24d88327fb99d930aef26805a3f"
     }
   },
@@ -21,10 +21,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/aleksey-hoffman/sigma-file-manager"
+    "github": "https:github.comaleksey-hoffmansigma-file-manager"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/aleksey-hoffman/sigma-file-manager/releases/download/v$version/Sigma-File-Manager-$version-Windows-Setup.exe#/dl.7z",
+    "url": "https:github.comaleksey-hoffmansigma-file-managerreleasesdownloadv$versionSigma-File-Manager-$version-Windows-Setup.exe#dl.7z",
     "hash": {
       "mode": "download"
     }

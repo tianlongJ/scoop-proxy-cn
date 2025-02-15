@@ -1,23 +1,23 @@
 {
   "version": "0.18.5",
   "description": "📥 Telegram Downloader, but more than a downloader 🚀",
-  "homepage": "https://github.com/iyear/tdl",
+  "homepage": "https:github.comiyeartdl",
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/iyear/tdl/releases/download/v0.18.5/tdl_Windows_64bit.zip",
+      "url": "https:github.comiyeartdlreleasesdownloadv0.18.5tdl_Windows_64bit.zip",
       "hash": "965c313cd9804d145e03b55a5df13b2d9f3ea30c8d562905c91f79ca81ad379a"
     }
   },
   "bin": "tdl.exe",
   "checkver": {
-    "github": "https://github.com/iyear/tdl"
+    "github": "https:github.comiyeartdl"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/iyear/tdl/releases/download/v$version/tdl_Windows_64bit.zip",
+    "url": "https:github.comiyeartdlreleasesdownloadv$versiontdl_Windows_64bit.zip",
     "hash": {
       "mode": "extract",
-      "url": "https://ghfast.top/https://github.com/iyear/tdl/releases/download/v$version/tdl_checksums.txt",
+      "url": "https:github.comiyeartdlreleasesdownloadv$versiontdl_checksums.txt",
       "regex": "$sha256  tdl_Windows_64bit.zip"
     }
   }

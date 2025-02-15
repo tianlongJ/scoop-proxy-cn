@@ -1,13 +1,13 @@
 {
   "version": "2024.07.10",
-  "homepage": "https://curl.se/wcurl/",
+  "homepage": "https:curl.sewcurl",
   "description": "A simple wrapper around curl to easily download files",
   "license": "MIT",
   "depends": [
     "curl",
     "busybox"
   ],
-  "url": "https://ghfast.top/https://github.com/curl/wcurl/archive/2024.07.10.zip",
+  "url": "https:github.comcurlwcurlarchive2024.07.10.zip",
   "hash": "67e93b65cf27eb2f3f52f0e4fb7ce104e9e93899b87495512e1d861ba998ea7d",
   "extract_dir": "wcurl-2024.07.10",
   "bin": [
@@ -18,11 +18,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/curl/wcurl/tags",
-    "regex": "tag/([\\d.-]+)"
+    "url": "https:github.comcurlwcurltags",
+    "regex": "tag([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/curl/wcurl/archive/$version.zip",
+    "url": "https:github.comcurlwcurlarchive$version.zip",
     "extract_dir": "wcurl-$version"
   }
 }

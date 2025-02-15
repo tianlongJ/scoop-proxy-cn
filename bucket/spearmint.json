@@ -1,8 +1,8 @@
 {
   "version": "1.0.3",
   "description": "Heavily modified version of the Quake III Arena engine, directly based on ioquake3 (November 2018)",
-  "homepage": "https://clover.moe/spearmint/",
-  "license": "https://github.com/zturtleman/spearmint/blob/master/COPYING.txt",
+  "homepage": "https:clover.moespearmint",
+  "license": "https:github.comzturtlemanspearmintblobmasterCOPYING.txt",
   "notes": [
     "Place game data files (such as pak0.pk3-pak8.pk3) in:",
     "",
@@ -19,13 +19,13 @@
     "    $persist_dir\\missionpackoa\\",
     "",
     "If you're missing some of the Quake 3 or Team Arena patch pk3s (pak1 or higher),",
-    "they are available at http://ioquake3.org/extras/patch-data/",
+    "they are available at http:ioquake3.orgextraspatch-data",
     ""
   ],
   "suggest": {
     "Quake 3 engines": "openarena"
   },
-  "url": "https://ghfast.top/https://github.com/zturtleman/spearmint/releases/download/release-1.0.3/spearmint-1.0.3-windows.zip",
+  "url": "https:github.comzturtlemanspearmintreleasesdownloadrelease-1.0.3spearmint-1.0.3-windows.zip",
   "hash": "d179d9a9d2213cc013e442df876090cc1f428dd9a98057a3065a8806c823872c",
   "architecture": {
     "32bit": {
@@ -125,11 +125,11 @@
     "tademo"
   ],
   "checkver": {
-    "url": "https://github.com/zturtleman/spearmint/releases/latest",
+    "url": "https:github.comzturtlemanspearmintreleaseslatest",
     "regex": "<title>Release Spearmint ([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/zturtleman/spearmint/releases/download/release-$version/spearmint-$version-windows.zip",
+    "url": "https:github.comzturtlemanspearmintreleasesdownloadrelease-$versionspearmint-$version-windows.zip",
     "extract_dir": "spearmint-$version-windows"
   }
 }

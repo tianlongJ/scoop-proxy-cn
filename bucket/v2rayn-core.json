@@ -1,11 +1,11 @@
 {
   "version": "7.6.2",
   "description": "GUI client based for v2ray-core and xray-core.",
-  "homepage": "https://github.com/2dust/v2rayN",
+  "homepage": "https:github.com2dustv2rayN",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/2dust/v2rayN/releases/download/7.6.2/v2rayN-windows-64-With-Core.zip",
+      "url": "https:github.com2dustv2rayNreleasesdownload7.6.2v2rayN-windows-64-With-Core.zip",
       "hash": "99e72564638b4152506818996fd8032c890e5c8652c95a4fcc28410ee3519afc"
     }
   },
@@ -33,7 +33,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-With-Core.zip"
+        "url": "https:github.com2dustv2rayNreleasesdownload$versionv2rayN-windows-64-With-Core.zip"
       }
     }
   }

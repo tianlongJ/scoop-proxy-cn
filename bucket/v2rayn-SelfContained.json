@@ -1,12 +1,12 @@
 {
   "version": "7.8.3",
   "description": "A V2Ray client for Windows, support Xray core and v2fly core.",
-  "homepage": "https://github.com/2dust/v2rayN",
+  "homepage": "https:github.com2dustv2rayN",
   "license": {
     "identifier": "GPL-3.0-only",
-    "url": "https://github.com/2dust/v2rayN/raw/master/LICENSE"
+    "url": "https:github.com2dustv2rayNrawmasterLICENSE"
   },
-  "url": "https://ghfast.top/https://github.com/2dust/v2rayN/releases/download/7.8.3/v2rayN-windows-64-SelfContained.zip",
+  "url": "https:github.com2dustv2rayNreleasesdownload7.8.3v2rayN-windows-64-SelfContained.zip",
   "hash": "8c4d013767f75950f28257039bda138d276a12e22f82ae1673d6bb55d77a03fe",
   "extract_dir": "v2rayN-windows-64-SelfContained",
   "pre_install": [
@@ -38,10 +38,10 @@
     "guiConfigs"
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/2dust/v2rayN/releases?per_page=1",
+    "url": "https:api.github.comrepos2dustv2rayNreleases?per_page=1",
     "jsonpath": "$[0].tag_name"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-SelfContained.zip"
+    "url": "https:github.com2dustv2rayNreleasesdownload$versionv2rayN-windows-64-SelfContained.zip"
   }
 }

@@ -1,10 +1,10 @@
 {
   "version": "126.0b9-50",
   "description": "Developer Edition of Firefox web browser developed by The Mozilla Foundation.",
-  "homepage": "https://www.mozilla.org/en-US/firefox/developer/",
+  "homepage": "https:www.mozilla.orgen-USfirefoxdeveloper",
   "license": {
     "identifier": "MPL-2.0",
-    "url": "https://www.mozilla.org/en-US/about/legal/terms/firefox/"
+    "url": "https:www.mozilla.orgen-USaboutlegaltermsfirefox"
   },
   "persist": [
     "data",
@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/portapps/phyrox-developer-portable/releases/download/126.0b9-50/phyrox-developer-portable-win64-126.0b9-50.7z#/dl.7z",
+      "url": "https:github.comportappsphyrox-developer-portablereleasesdownload126.0b9-50phyrox-developer-portable-win64-126.0b9-50.7z#dl.7z",
       "hash": "dc2f4e23da5ca821220742a515ddf4fc299c65ad11e5ba6d5e628d04724a25eb"
     }
   },
@@ -25,18 +25,18 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\phyrox-developer-portable.yml\")) { New-Item \"$dir\\phyrox-developer-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https://github.com/portapps/phyrox-developer-portable/releases",
-    "regex": "\\/releases\\/tag\\/(?:v|V)?([b\\d.-]+)"
+    "url": "https:github.comportappsphyrox-developer-portablereleases",
+    "regex": "\\releases\\tag\\(?:v|V)?([b\\d.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/portapps/phyrox-developer-portable/releases/download/$version/phyrox-developer-portable-win64-$version.7z#/dl.7z"
+        "url": "https:github.comportappsphyrox-developer-portablereleasesdownload$versionphyrox-developer-portable-win64-$version.7z#dl.7z"
       }
     },
     "hash": {
-      "url": "$baseurl/checksums.txt"
+      "url": "$baseurlchecksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https://portapps.io/app/phyrox-developer-portable/)"
+  "notes": "Installed from Portapps (https:portapps.ioappphyrox-developer-portable)"
 }

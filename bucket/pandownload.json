@@ -1,9 +1,9 @@
 {
-  "homepage": "https://pandownload.com/",
+  "homepage": "https:pandownload.com",
   "description": "A Baidu Netdisk Downloader",
   "version": "2.2.2",
   "license": "Freeware",
-  "url": "https://ghfast.top/https://github.com/kidonng/sushi/releases/download/binaries/PanDownload_v2.2.2.zip",
+  "url": "https:github.comkidonngsushireleasesdownloadbinariesPanDownload_v2.2.2.zip",
   "hash": "ab54d9194c87364011520e6f28153f66e85a4afa76581e6165f2546b214cf10a",
   "extract_dir": "PanDownload",
   "shortcuts": [
@@ -18,15 +18,15 @@
     "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
     "    }",
     "}",
-    "CreateFile 'PanData/config.ini'",
-    "CreateFile 'PanData/share.db'",
-    "CreateFile 'PanData/task.db'",
-    "CreateFile 'PanData/user.db'"
+    "CreateFile 'PanDataconfig.ini'",
+    "CreateFile 'PanDatashare.db'",
+    "CreateFile 'PanDatatask.db'",
+    "CreateFile 'PanDatauser.db'"
   ],
   "persist": [
-    "PanData/config.ini",
-    "PanData/share.db",
-    "PanData/task.db",
-    "PanData/user.db"
+    "PanDataconfig.ini",
+    "PanDatashare.db",
+    "PanDatatask.db",
+    "PanDatauser.db"
   ]
 }

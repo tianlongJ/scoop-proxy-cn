@@ -1,10 +1,10 @@
 {
   "version": "2.3.0",
   "description": "A nicer 'git pull'",
-  "homepage": "https://github.com/msiemens/PyGitUp",
+  "homepage": "https:github.commsiemensPyGitUp",
   "license": "MIT",
   "depends": "python",
-  "url": "https://ghfast.top/https://github.com/msiemens/PyGitUp/archive/v2.3.0.zip",
+  "url": "https:github.commsiemensPyGitUparchivev2.3.0.zip",
   "hash": "88c6782417d5f98c5b74c163c16768735c4bdf0243ab88efb70d11b93d1aa6a9",
   "extract_dir": "PyGitUp-2.3.0",
   "post_install": [
@@ -19,7 +19,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/msiemens/PyGitUp/archive/v$version.zip",
+    "url": "https:github.commsiemensPyGitUparchivev$version.zip",
     "extract_dir": "PyGitUp-$version"
   }
 }

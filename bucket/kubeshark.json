@@ -1,24 +1,24 @@
 {
   "version": "52.4.2",
   "description": "The API Traffic Viewer for Kubernetes",
-  "homepage": "https://kubeshark.co",
+  "homepage": "https:kubeshark.co",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kubeshark/kubeshark/releases/download/v52.4.2/kubeshark.exe",
+      "url": "https:github.comkubesharkkubesharkreleasesdownloadv52.4.2kubeshark.exe",
       "hash": "24f6852740663e780d1216244da81f108efae7b4884adc607955833f2a20c786"
     }
   },
   "bin": "kubeshark.exe",
   "checkver": {
-    "github": "https://github.com/kubeshark/kubeshark"
+    "github": "https:github.comkubesharkkubeshark"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/kubeshark/kubeshark/releases/download/v$version/kubeshark.exe",
+        "url": "https:github.comkubesharkkubesharkreleasesdownloadv$versionkubeshark.exe",
         "hash": {
-          "url": "$baseurl/kubeshark_windows_amd64.sha256",
+          "url": "$baseurlkubeshark_windows_amd64.sha256",
           "regex": "$sha256"
         }
       }

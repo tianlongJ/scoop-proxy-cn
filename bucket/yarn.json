@@ -1,7 +1,7 @@
 {
   "version": "1.22.22",
   "description": "Node.js dependency manager",
-  "homepage": "https://yarnpkg.com/",
+  "homepage": "https:yarnpkg.com",
   "license": "BSD-2-Clause",
   "suggest": {
     "Node.js": [
@@ -11,7 +11,7 @@
       "nvs"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz",
+  "url": "https:github.comyarnpkgyarnreleasesdownloadv1.22.22yarn-v1.22.22.tar.gz",
   "hash": "88268464199d1611fcf73ce9c0a6c4d44c7d5363682720d8506f6508addf36a0",
   "extract_dir": "yarn-v1.22.22",
   "post_install": [
@@ -36,11 +36,11 @@
     "mirror"
   ],
   "checkver": {
-    "url": "https://classic.yarnpkg.com/latest-version",
+    "url": "https:classic.yarnpkg.comlatest-version",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/yarnpkg/yarn/releases/download/v$version/yarn-v$version.tar.gz",
+    "url": "https:github.comyarnpkgyarnreleasesdownloadv$versionyarn-v$version.tar.gz",
     "extract_dir": "yarn-v$version"
   }
 }

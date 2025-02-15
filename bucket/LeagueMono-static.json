@@ -1,16 +1,16 @@
 {
   "version": "2.300",
   "description": "Sans-serif font featuring variable character spaces. Inspired by Fira Mono, Libertinus Mono, and Courier.",
-  "homepage": "https://www.theleagueofmoveabletype.com/league-mono",
+  "homepage": "https:www.theleagueofmoveabletype.comleague-mono",
   "license": "OFL-1.1",
   "notes": [
     "You are installing the static version of LeagueMono.",
     "This package contains 40 pre-defined styles, instead of a variable TTF font. (for better compatibility)",
     "For variable TTF version, install 'LeagueMono-variable'."
   ],
-  "url": "https://ghfast.top/https://github.com/theleagueof/league-mono/releases/download/2.300/LeagueMono-2.300.zip",
+  "url": "https:github.comtheleagueofleague-monoreleasesdownload2.300LeagueMono-2.300.zip",
   "hash": "3b685afec90f862193974fa6384ac5b472d9049356ee97591374573f1d929f64",
-  "extract_dir": "LeagueMono-2.300/static/TTF",
+  "extract_dir": "LeagueMono-2.300staticTTF",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -32,7 +32,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -92,10 +92,10 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/theleagueof/league-mono"
+    "github": "https:github.comtheleagueofleague-mono"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/theleagueof/league-mono/releases/download/$version/LeagueMono-$version.zip",
-    "extract_dir": "LeagueMono-$version/static/TTF"
+    "url": "https:github.comtheleagueofleague-monoreleasesdownload$versionLeagueMono-$version.zip",
+    "extract_dir": "LeagueMono-$versionstaticTTF"
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": "1.39.0",
-  "homepage": "https://www.usebruno.com/",
+  "homepage": "https:www.usebruno.com",
   "license": "MIT",
-  "description": "Open source IDE for exploring and testing APIs (lightweight alternative to Postman/Insomnia)",
+  "description": "Open source IDE for exploring and testing APIs (lightweight alternative to PostmanInsomnia)",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/usebruno/bruno/releases/download/v1.39.0/bruno_1.39.0_x64_win.zip",
+      "url": "https:github.comusebrunobrunoreleasesdownloadv1.39.0bruno_1.39.0_x64_win.zip",
       "hash": "5aa003b01c8f6337ad6c7ff4e184b73fb849689c815d3739b643dede555f6a83"
     }
   },
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/usebruno/bruno"
+    "github": "https:github.comusebrunobruno"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/usebruno/bruno/releases/download/v$version/bruno_$version_x64_win.zip"
+        "url": "https:github.comusebrunobrunoreleasesdownloadv$versionbruno_$version_x64_win.zip"
       }
     }
   }

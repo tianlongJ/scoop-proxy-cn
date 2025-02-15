@@ -1,11 +1,11 @@
 {
   "version": "0.0.11",
   "description": "A third-party iTunes addon to show the lyrics on the desktop. ",
-  "homepage": "https://github.com/lujjjh/iLyrics",
+  "homepage": "https:github.comlujjjhiLyrics",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/lujjjh/iLyrics/releases/download/v0.0.11/ilyrics.exe",
+      "url": "https:github.comlujjjhiLyricsreleasesdownloadv0.0.11ilyrics.exe",
       "hash": "4e0d629138eb82e96297e6ae44efb4a6aee5a91376d5f89ef64724a91ec1fa3a"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/lujjjh/iLyrics/releases/download/v$version/ilyrics.exe"
+        "url": "https:github.comlujjjhiLyricsreleasesdownloadv$versionilyrics.exe"
       }
     }
   }

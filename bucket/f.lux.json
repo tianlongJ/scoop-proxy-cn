@@ -1,13 +1,13 @@
 {
-  "##": "Duplicate of 'extras/flux'. Related: https://github.com/ScoopInstaller/Scoop/issues/5405",
+  "##": "Duplicate of 'extrasflux'. Related: https:github.comScoopInstallerScoopissues5405",
   "version": "4.134",
   "description": "Makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.",
-  "homepage": "https://justgetflux.com",
+  "homepage": "https:justgetflux.com",
   "license": {
     "identifier": "Freeware",
-    "url": "https://justgetflux.com/news/pages/eula/"
+    "url": "https:justgetflux.comnewspageseula"
   },
-  "url": "https://justgetflux.com/flux-setup4-134.exe#/dl.7z",
+  "url": "https:justgetflux.comflux-setup4-134.exe#dl.7z",
   "hash": "b53390dba0e0c227341f3c688be3aef91455c4f926e6527af6ce1e4acf74a7b3",
   "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
   "bin": "flux.exe",
@@ -18,10 +18,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://justgetflux.com/update/v4/windows-download.json",
+    "url": "https:justgetflux.comupdatev4windows-download.json",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://justgetflux.com/flux-setup$dashVersion.exe#/dl.7z"
+    "url": "https:justgetflux.comflux-setup$dashVersion.exe#dl.7z"
   }
 }

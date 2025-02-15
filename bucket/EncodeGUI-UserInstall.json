@@ -1,12 +1,12 @@
 {
   "version": "1.2.3",
   "description": "EncodeGUI. A free and open source video transcoder GUI that utilizes AI tools for a fascinating encoding experience.",
-  "homepage": "https://encodegui.com/",
+  "homepage": "https:encodegui.com",
   "license": "AGPL-3.0",
-  "changelog": "https://github.com/DaGooseYT/EncodeGUI/releases",
+  "changelog": "https:github.comDaGooseYTEncodeGUIreleases",
   "architecture": {
     "64bit": {
-      "url": "https://encodegui.com/dl/EncodeGUI_v1.2.3_win_setup.zip",
+      "url": "https:encodegui.comdlEncodeGUI_v1.2.3_win_setup.zip",
       "hash": "a8c7323a0e2142575ed052e3ff81d9daf711bb3dc90edbc1058ba5890202e0de"
     }
   },
@@ -30,7 +30,7 @@
       "if((Test-Path -Path $filepath -PathType Leaf) -eq $false)",
       "{",
       "   Get-ChildItem \"$dir\\EncodeGUI*setup.exe\" | Rename-Item -NewName 'setup.exe'",
-      "   &\"$dir\\setup.exe\" /VERYSILENT /CURRENTUSER \"/DIR=$dir\" /SUPPRESSMSGBOXES | Out-Null",
+      "   &\"$dir\\setup.exe\" VERYSILENT CURRENTUSER \"DIR=$dir\" SUPPRESSMSGBOXES | Out-Null",
       "   if((Test-Path -Path $filepath -PathType Leaf) -eq $false)",
       "   {",
       "       exit 1",
@@ -40,12 +40,12 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/DaGooseYT/EncodeGUI"
+    "github": "https:github.comDaGooseYTEncodeGUI"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://encodegui.com/dl/EncodeGUI_v$version_win_setup.zip"
+        "url": "https:encodegui.comdlEncodeGUI_v$version_win_setup.zip"
       }
     }
   }

@@ -1,10 +1,10 @@
 {
   "version": "2.6.9",
   "description": "Alt App Installer. A Program To Download And Install Windows Store Apps",
-  "homepage": "https://github.com/m-jishnu/alt-app-installer",
+  "homepage": "https:github.comm-jishnualt-app-installer",
   "license": "Mit",
-  "changelog": "https://github.com/m-jishnu/alt-app-installer/releases",
-  "url": "https://ghfast.top/https://github.com/m-jishnu/alt-app-installer/releases/download/v2.6.9/alt.app.installer.exe#/setup.7z",
+  "changelog": "https:github.comm-jishnualt-app-installerreleases",
+  "url": "https:github.comm-jishnualt-app-installerreleasesdownloadv2.6.9alt.app.installer.exe#setup.7z",
   "hash": "1af498bc6c13ca7562ba04716e60ca9aca0aa3cbfa711e596359056fc57c6de2",
   "extract_dir": "alt app installer",
   "shortcuts": [
@@ -14,9 +14,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/m-jishnu/alt-app-installer"
+    "github": "https:github.comm-jishnualt-app-installer"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/m-jishnu/alt-app-installer/releases/download/v$version/alt.app.installer.exe#/setup.7z"
+    "url": "https:github.comm-jishnualt-app-installerreleasesdownloadv$versionalt.app.installer.exe#setup.7z"
   }
 }

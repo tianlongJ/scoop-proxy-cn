@@ -1,15 +1,15 @@
 {
   "version": "1.5.2-1",
   "description": "Dual-pane file manager",
-  "homepage": "https://www.mucommander.com",
+  "homepage": "https:www.mucommander.com",
   "license": "GPL-3.0-only",
   "suggest": {
     "java": [
-      "java/temurin8-jre",
-      "java/corretto8-jre"
+      "javatemurin8-jre",
+      "javacorretto8-jre"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/mucommander/mucommander/releases/download/1.5.2-1/mucommander-1.5.2-1-portable.zip",
+  "url": "https:github.commucommandermucommanderreleasesdownload1.5.2-1mucommander-1.5.2-1-portable.zip",
   "hash": "md5:0d6d031f2f29fd0b621536894f9210b6",
   "bin": "mucommander.exe",
   "shortcuts": [
@@ -24,13 +24,13 @@
     ".mucommander"
   ],
   "checkver": {
-    "github": "https://github.com/mucommander/mucommander",
-    "regex": "download/([\\d.-]+)/"
+    "github": "https:github.commucommandermucommander",
+    "regex": "download([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$version-portable.zip",
+    "url": "https:github.commucommandermucommanderreleasesdownload$versionmucommander-$version-portable.zip",
     "hash": {
-      "url": "https://github.com/mucommander/mucommander/releases/tag/$version",
+      "url": "https:github.commucommandermucommanderreleasestag$version",
       "regex": "$md5\\s*$basename"
     }
   }

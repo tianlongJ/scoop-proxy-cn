@@ -1,14 +1,14 @@
 {
   "version": "2.2.6",
-  "description": "A suite of tools for lossless audio/CUE sheet format conversion and verification.",
-  "homepage": "http://cue.tools/wiki/Main_Page",
+  "description": "A suite of tools for lossless audioCUE sheet format conversion and verification.",
+  "homepage": "http:cue.toolswikiMain_Page",
   "license": "GPL-2.0-or-later",
   "suggest": {
-    "vcredist": "extras/vcredist2008"
+    "vcredist": "extrasvcredist2008"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/gchudov/cuetools.net/releases/download/v2.2.6/CUETools_2.2.6.zip",
+      "url": "https:github.comgchudovcuetools.netreleasesdownloadv2.2.6CUETools_2.2.6.zip",
       "hash": "103b209502935c911f2162a5babfb21550476413aee13d88187e39783a2a2e32"
     }
   },
@@ -36,12 +36,12 @@
     "CUERipper\\settings.txt"
   ],
   "checkver": {
-    "github": "https://github.com/gchudov/cuetools.net"
+    "github": "https:github.comgchudovcuetools.net"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/gchudov/cuetools.net/releases/download/v$version/CUETools_$version.zip"
+        "url": "https:github.comgchudovcuetools.netreleasesdownloadv$versionCUETools_$version.zip"
       }
     },
     "extract_dir": "CUETools_$version"

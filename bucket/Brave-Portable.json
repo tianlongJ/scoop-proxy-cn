@@ -1,19 +1,19 @@
 {
   "version": "1.75.178",
   "description": "Brave. Secure, Fast & Private Web Browser with Adblocker",
-  "homepage": "https://brave.com",
+  "homepage": "https:brave.com",
   "license": {
     "identifier": "MPL 2.0",
-    "url": "https://github.com/brave/brave-browser/blob/master/LICENSE"
+    "url": "https:github.combravebrave-browserblobmasterLICENSE"
   },
-  "changelog": "https://github.com/brave/brave-browser/blob/master/CHANGELOG_DESKTOP.md",
+  "changelog": "https:github.combravebrave-browserblobmasterCHANGELOG_DESKTOP.md",
   "architecture": {
     "64bit": {
-      "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe#/dl.7z",
+      "url": "https:brave-browser-downloads.s3.brave.comlatestbrave_installer-x64.exe#dl.7z",
       "hash": "6e95965aa4105e31cba8b6b8480e2e5329f893c51f1244b9f82d928d8b9d5fbb"
     },
     "32bit": {
-      "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-ia32.exe#/dl.7z",
+      "url": "https:brave-browser-downloads.s3.brave.comlatestbrave_installer-ia32.exe#dl.7z",
       "hash": "4c805e5c0573ad74e049f9ba83313dbf38698e4f32dcc09a05f78324cccbd84b"
     }
   },
@@ -26,16 +26,16 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/brave/brave-browser/blob/master/CHANGELOG_DESKTOP.md",
-    "regex": "releases/tag/v([\\d.]+)"
+    "url": "https:github.combravebrave-browserblobmasterCHANGELOG_DESKTOP.md",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe#/dl.7z"
+        "url": "https:brave-browser-downloads.s3.brave.comlatestbrave_installer-x64.exe#dl.7z"
       },
       "32bit": {
-        "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-ia32.exe#/dl.7z"
+        "url": "https:brave-browser-downloads.s3.brave.comlatestbrave_installer-ia32.exe#dl.7z"
       }
     }
   }

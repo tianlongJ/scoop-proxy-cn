@@ -1,13 +1,13 @@
 {
   "version": "240102",
   "description": "verilog-format : Verilog formatter",
-  "homepage": "https://github.com/ericsonj/verilog-format",
+  "homepage": "https:github.comericsonjverilog-format",
   "license": "Freeware",
   "depends": [
     "temurin8-jre"
   ],
   "url": [
-    "https://ghfast.top/https://github.com/ericsonj/verilog-format/releases/download/240102/verilog-format.jar"
+    "https:github.comericsonjverilog-formatreleasesdownload240102verilog-format.jar"
   ],
   "hash": [
     ""
@@ -27,6 +27,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ericsonj/verilog-format/releases/download/$version/verilog-format.jar"
+    "url": "https:github.comericsonjverilog-formatreleasesdownload$versionverilog-format.jar"
   }
 }

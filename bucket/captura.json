@@ -1,9 +1,9 @@
 {
   "version": "8.0.0",
   "description": "Capture Screen, Audio, Cursor, Mouse Clicks and Keystrokes.",
-  "homepage": "https://mathewsachin.github.io/Captura/",
+  "homepage": "https:mathewsachin.github.ioCaptura",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/MathewSachin/Captura/releases/download/v8.0.0/Captura-Portable.zip",
+  "url": "https:github.comMathewSachinCapturareleasesdownloadv8.0.0Captura-Portable.zip",
   "hash": "b12cec7070d7b73898fff14b7062c807f8de4d6a7400777f0e336f0dbb1ceaf0",
   "bin": [
     "captura-cli.exe",
@@ -19,9 +19,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/MathewSachin/Captura"
+    "github": "https:github.comMathewSachinCaptura"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/MathewSachin/Captura/releases/download/v$version/Captura-Portable.zip"
+    "url": "https:github.comMathewSachinCapturareleasesdownloadv$versionCaptura-Portable.zip"
   }
 }

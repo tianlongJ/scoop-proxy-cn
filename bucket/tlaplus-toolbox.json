@@ -1,9 +1,9 @@
 {
   "version": "1.8.0",
   "description": "IDE for the TLA+ tools.",
-  "homepage": "http://lamport.azurewebsites.net/tla/toolbox.html",
+  "homepage": "http:lamport.azurewebsites.nettlatoolbox.html",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/tlaplus/tlaplus/releases/download/v1.8.0/TLAToolbox-1.8.0-win32.win32.x86_64.zip",
+  "url": "https:github.comtlaplustlaplusreleasesdownloadv1.8.0TLAToolbox-1.8.0-win32.win32.x86_64.zip",
   "hash": "sha1:a5857009314ee571dd23fa62bcd2260db3816f92",
   "extract_dir": "toolbox",
   "bin": [
@@ -26,15 +26,15 @@
     ]
   },
   "checkver": {
-    "url": "https://api.github.com/repositories/50906927/releases",
+    "url": "https:api.github.comrepositories50906927releases",
     "jsonpath": "$[0].tag_name",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/tlaplus/tlaplus/releases/download/v$version/TLAToolbox-$version-win32.win32.x86_64.zip",
+    "url": "https:github.comtlaplustlaplusreleasesdownloadv$versionTLAToolbox-$version-win32.win32.x86_64.zip",
     "hash": {
-      "url": "https://github.com/tlaplus/tlaplus/releases/tag/v$version",
-      "regex": "<td>$sha1</td>\\s+<td>TLAToolbox-$version-win32\\.win32\\.x86_64\\.zip</td>"
+      "url": "https:github.comtlaplustlaplusreleasestagv$version",
+      "regex": "<td>$sha1<td>\\s+<td>TLAToolbox-$version-win32\\.win32\\.x86_64\\.zip<td>"
     }
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": "0.6.0",
   "description": "A small command-line note taking app",
-  "homepage": "https://github.com/samwho/hmm",
+  "homepage": "https:github.comsamwhohmm",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-pc-windows-msvc.zip",
+      "url": "https:github.comsamwhohmmreleasesdownloadv0.6.0hmm-x86_64-pc-windows-msvc.zip",
       "hash": "836cddbf3e4fccc00d9786ae2f69ef6110613811711c4d1b1245802a16a555a1"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/samwho/hmm/releases/download/v$version/hmm-x86_64-pc-windows-msvc.zip"
+        "url": "https:github.comsamwhohmmreleasesdownloadv$versionhmm-x86_64-pc-windows-msvc.zip"
       }
     },
     "hash": {

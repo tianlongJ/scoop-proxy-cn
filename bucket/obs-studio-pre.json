@@ -1,11 +1,11 @@
 {
   "version": "30.1.0-rc1",
   "description": "Video recording and live streaming software",
-  "homepage": "https://obsproject.com",
+  "homepage": "https:obsproject.com",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/obsproject/obs-studio/releases/download/30.1.0-rc1/OBS-Studio-30.1-rc1.zip",
+      "url": "https:github.comobsprojectobs-studioreleasesdownload30.1.0-rc1OBS-Studio-30.1-rc1.zip",
       "hash": "fcaf4e366e7b005e2878b1bebb819eb2ca884a3f1661eb69d4fe67b17e7a5638",
       "shortcuts": [
         [
@@ -21,14 +21,14 @@
     "portable_mode.txt"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/13233158/releases",
+    "url": "https:api.github.comrepositories13233158releases",
     "jsonpath": "$..assets[0].browser_download_url",
-    "regex": "/([\\d.]+-(?:rc|beta)\\d+)/"
+    "regex": "([\\d.]+-(?:rc|beta)\\d+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/obsproject/obs-studio/releases/download/$version/OBS-Studio-$majorVersion.$minorVersion-$preReleaseVersion.zip"
+        "url": "https:github.comobsprojectobs-studioreleasesdownload$versionOBS-Studio-$majorVersion.$minorVersion-$preReleaseVersion.zip"
       }
     }
   }

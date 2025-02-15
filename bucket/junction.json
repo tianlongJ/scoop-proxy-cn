@@ -1,12 +1,12 @@
 {
   "version": "1.07",
   "description": "Create Win2K NTFS junction points.",
-  "homepage": "https://learn.microsoft.com/sysinternals/downloads/junction",
+  "homepage": "https:learn.microsoft.comsysinternalsdownloadsjunction",
   "license": {
     "identifier": "Freeware",
-    "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    "url": "https:learn.microsoft.comsysinternalslicense-terms"
   },
-  "url": "https://download.sysinternals.com/files/Junction.zip",
+  "url": "https:download.sysinternals.comfilesJunction.zip",
   "hash": "157dbfbcc0e97e99a78ff075534d1aa64d0d6bf4cae942fc4ed9dd5b4285f1bb",
   "architecture": {
     "64bit": {
@@ -30,10 +30,10 @@
     }
   },
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/junction.md",
+    "url": "https:raw.githubusercontent.comMicrosoftDocssysinternalsmainsysinternalsdownloadsjunction.md",
     "regex": "#.*?v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://download.sysinternals.com/files/Junction.zip"
+    "url": "https:download.sysinternals.comfilesJunction.zip"
   }
 }

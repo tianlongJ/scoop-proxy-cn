@@ -1,11 +1,11 @@
 {
   "version": "4.3.2-2150",
   "description": "A malware samples pattern matching tool.",
-  "homepage": "https://virustotal.github.io/yara/",
+  "homepage": "https:virustotal.github.ioyara",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/VirusTotal/yara/releases/download/v4.3.2/yara-4.3.2-2150-win64.zip",
+      "url": "https:github.comVirusTotalyarareleasesdownloadv4.3.2yara-4.3.2-2150-win64.zip",
       "hash": "d878593371a0cdc0946a26e460c3bf0a0964018647a0e2239b1dc25ddc0d2365",
       "bin": [
         [
@@ -19,7 +19,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/VirusTotal/yara/releases/download/v4.3.2/yara-4.3.2-2150-win32.zip",
+      "url": "https:github.comVirusTotalyarareleasesdownloadv4.3.2yara-4.3.2-2150-win32.zip",
       "hash": "96cb75b77b0448af7f04689f9cddc90b349adfdace0beebd3639c22cec86a12b",
       "bin": [
         [
@@ -34,16 +34,16 @@
     }
   },
   "checkver": {
-    "github": "https://github.com/VirusTotal/yara",
+    "github": "https:github.comVirusTotalyara",
     "regex": "yara-([\\d.-]+)-win64"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/VirusTotal/yara/releases/download/v$matchHead/yara-$version-win64.zip"
+        "url": "https:github.comVirusTotalyarareleasesdownloadv$matchHeadyara-$version-win64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/VirusTotal/yara/releases/download/v$matchHead/yara-$version-win32.zip"
+        "url": "https:github.comVirusTotalyarareleasesdownloadv$matchHeadyara-$version-win32.zip"
       }
     }
   }

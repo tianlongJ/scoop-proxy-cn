@@ -1,9 +1,9 @@
 {
   "version": "3.3.0",
-  "description": "Nerd Fonts patched 'DaddyTimeMono' Font family. (Monospace version, Nerd Fonts Symbol/Icon will be always 1 cell wide)",
-  "homepage": "https://github.com/ryanoasis/nerd-fonts",
+  "description": "Nerd Fonts patched 'DaddyTimeMono' Font family. (Monospace version, Nerd Fonts SymbolIcon will be always 1 cell wide)",
+  "homepage": "https:github.comryanoasisnerd-fonts",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/DaddyTimeMono.zip",
+  "url": "https:github.comryanoasisnerd-fontsreleasesdownloadv3.3.0DaddyTimeMono.zip",
   "hash": "61504f83ba5e4dc5b8982bf0973db286ce66e795fd36f7075b825aa009a50a3a",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -87,6 +87,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/DaddyTimeMono.zip"
+    "url": "https:github.comryanoasisnerd-fontsreleasesdownloadv$versionDaddyTimeMono.zip"
   }
 }

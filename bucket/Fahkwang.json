@@ -1,21 +1,21 @@
 {
   "version": "nightly",
   "description": "Thai National Font. The name 'Fahkwang' means 'the wide sky'. It has been inspired by headlines in old Thai newspapers.",
-  "homepage": "https://fonts.google.com/specimen/Fahkwang",
+  "homepage": "https:fonts.google.comspecimenFahkwang",
   "license": "OFL-1.1",
   "url": [
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-Bold.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-BoldItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-ExtraLight.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-ExtraLightItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-Italic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-Light.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-LightItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-Medium.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-MediumItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-Regular.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-SemiBold.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/fahkwang/Fahkwang-SemiBoldItalic.ttf"
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-Bold.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-BoldItalic.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-ExtraLight.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-ExtraLightItalic.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-Italic.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-Light.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-LightItalic.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-Medium.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-MediumItalic.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-Regular.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-SemiBold.ttf",
+    "https:github.comgooglefontsrawmainoflfahkwangFahkwang-SemiBoldItalic.ttf"
   ],
   "installer": {
     "script": [
@@ -38,7 +38,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

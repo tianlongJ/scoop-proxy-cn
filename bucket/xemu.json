@@ -1,10 +1,10 @@
 {
   "version": "0.8.16",
   "description": "Original Xbox Emulator",
-  "homepage": "https://xemu.app",
+  "homepage": "https:xemu.app",
   "license": {
     "identifier": "GPL-2.0",
-    "url": "https://github.com/xemu-project/xemu/blob/master/COPYING"
+    "url": "https:github.comxemu-projectxemublobmasterCOPYING"
   },
   "notes": [
     "ATTENTION: xemu requires a dump of the Xbox Boot ROM, Flash ROM (BIOS) & Hard Disk Image to function.",
@@ -12,15 +12,15 @@
     "Place the Flash ROM (BIOS) file in $persist_dir\\flashrom",
     "Place the Hard Disk Image file in $persist_dir\\hdd",
     "You must still manually load the Boot ROM, Flash ROM (BIOS) & Hard Disk Image inside xemu.",
-    "Learn more at https://xemu.app/docs/required-files/"
+    "Learn more at https:xemu.appdocsrequired-files"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xemu-project/xemu/releases/download/v0.8.16/xemu-win-x86_64-release.zip",
+      "url": "https:github.comxemu-projectxemureleasesdownloadv0.8.16xemu-win-x86_64-release.zip",
       "hash": "a0371aeb84e5dc1a830c26991456497e2194ff103a5e4b186125ca26df809bbe"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/xemu-project/xemu/releases/download/v0.8.16/xemu-win-aarch64-release.zip",
+      "url": "https:github.comxemu-projectxemureleasesdownloadv0.8.16xemu-win-aarch64-release.zip",
       "hash": "7f511dd0f8e0acf4015f3c7a12d8255c9fb9ecb7d74a203858f5f927be2ac516"
     }
   },
@@ -62,15 +62,15 @@
     "xemu.toml"
   ],
   "checkver": {
-    "github": "https://github.com/xemu-project/xemu"
+    "github": "https:github.comxemu-projectxemu"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/xemu-project/xemu/releases/download/v$version/xemu-win-x86_64-release.zip"
+        "url": "https:github.comxemu-projectxemureleasesdownloadv$versionxemu-win-x86_64-release.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/xemu-project/xemu/releases/download/v$version/xemu-win-aarch64-release.zip"
+        "url": "https:github.comxemu-projectxemureleasesdownloadv$versionxemu-win-aarch64-release.zip"
       }
     }
   }

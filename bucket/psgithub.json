@@ -1,18 +1,18 @@
 {
   "version": "0.15.240",
   "description": "PowerShell module to manage GitHub through its REST API.",
-  "homepage": "https://github.com/pcgeek86/PSGitHub",
+  "homepage": "https:github.compcgeek86PSGitHub",
   "license": "MIT",
-  "url": "https://psg-prod-eastus.azureedge.net/packages/psgithub.0.15.240.nupkg",
+  "url": "https:psg-prod-eastus.azureedge.netpackagespsgithub.0.15.240.nupkg",
   "hash": "8a9f1b059808f432b1f3431b2047c4702c7b562e21ef7031ee79a56c876969fa",
   "psmodule": {
     "name": "PSGitHub"
   },
   "checkver": {
-    "url": "https://www.powershellgallery.com/packages/PSGitHub",
+    "url": "https:www.powershellgallery.compackagesPSGitHub",
     "regex": "Downloads of ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://psg-prod-eastus.azureedge.net/packages/psgithub.$version.nupkg"
+    "url": "https:psg-prod-eastus.azureedge.netpackagespsgithub.$version.nupkg"
   }
 }

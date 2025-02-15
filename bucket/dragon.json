@@ -1,9 +1,9 @@
 {
   "version": "1.3",
   "description": "Drag and drop files from CLI, like dragon, but for windows",
-  "homepage": "https://github.com/SleepyBag/dragon-win",
+  "homepage": "https:github.comSleepyBagdragon-win",
   "license": "Unknown",
-  "url": "https://ghfast.top/https://github.com/SleepyBag/dragon-win/releases/download/v1.3/DragonWindows.exe",
+  "url": "https:github.comSleepyBagdragon-winreleasesdownloadv1.3DragonWindows.exe",
   "hash": "c1ec6bb138b8073079f9f4b6b326c1c4ab09e9826ddf6fce3fb0ca11e5debafc",
   "bin": [
     [
@@ -13,6 +13,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/SleepyBag/dragon-win/releases/download/v$version/DragonWindows.exe"
+    "url": "https:github.comSleepyBagdragon-winreleasesdownloadv$versionDragonWindows.exe"
   }
 }

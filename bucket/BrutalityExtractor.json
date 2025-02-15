@@ -1,13 +1,13 @@
 {
   "version": "1.2.1",
   "description": "适用于高性能系统的多进程解压缩软件(A multiprocess decompression software for high-performance system)",
-  "homepage": "https://github.com/hxz393/BrutalityExtractor",
+  "homepage": "https:github.comhxz393BrutalityExtractor",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/hxz393/BrutalityExtractor/releases/download/v1.2.1/BrutalityExtractor.exe",
-        "https://ghfast.top/https://github.com/hxz393/BrutalityExtractor/releases/download/v1.2.1/BrutalityExtractorCli.exe"
+        "https:github.comhxz393BrutalityExtractorreleasesdownloadv1.2.1BrutalityExtractor.exe",
+        "https:github.comhxz393BrutalityExtractorreleasesdownloadv1.2.1BrutalityExtractorCli.exe"
       ],
       "hash": [
         "ae9f5a8f30a1a5c8873ac51ad0ba9f132dba9b77d6845651aafa5d5f0d0b8d10",
@@ -23,10 +23,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/hxz393/BrutalityExtractor"
+    "github": "https:github.comhxz393BrutalityExtractor"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/hxz393/BrutalityExtractor/releases/download/v$version/BrutalityExtractor.exe",
+    "url": "https:github.comhxz393BrutalityExtractorreleasesdownloadv$versionBrutalityExtractor.exe",
     "hash": {
       "mode": "download"
     }

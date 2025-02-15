@@ -1,10 +1,10 @@
 {
-  "##": "https://www.amazongames.com/en-us/support/prime-gaming/articles/download-and-install-the-amazon-games-app?",
+  "##": "https:www.amazongames.comen-ussupportprime-gamingarticlesdownload-and-install-the-amazon-games-app?",
   "version": "3.0.9202.1",
   "description": "Amazon Games. Explore all games, loot, and more for Prime members",
-  "homepage": "https://www.amazongames.com/en-us/games",
+  "homepage": "https:www.amazongames.comen-usgames",
   "license": "",
-  "url": "https://download.amazongames.com/AmazonGamesSetup.exe#/setup.exe",
+  "url": "https:download.amazongames.comAmazonGamesSetup.exe#setup.exe",
   "hash": "f6e6eb9e27a83689960f2438d86512092db2532c97d460e9b2e6a23834fa48f3",
   "installer": {
     "script": [
@@ -28,11 +28,11 @@
     ]
   },
   "checkver": {
-    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/Amazon/Games",
-    "regex": "/Amazon/Games/([\\d.]+)\"",
+    "url": "https:github.commicrosoftwinget-pkgstreemastermanifestsaAmazonGames",
+    "regex": "AmazonGames([\\d.]+)\"",
     "reverse": true
   },
   "autoupdate": {
-    "url": "https://download.amazongames.com/AmazonGamesSetup.exe#/setup.exe"
+    "url": "https:download.amazongames.comAmazonGamesSetup.exe#setup.exe"
   }
 }

@@ -1,13 +1,13 @@
 {
   "version": "1.0.20",
   "description": "A command-line tool for memory usage statistics.",
-  "homepage": "https://github.com/AkariiinMKII/WhoAteMyRAM",
+  "homepage": "https:github.comAkariiinMKIIWhoAteMyRAM",
   "license": "MIT",
   "notes": [
     "Run following command to import WhoAteMyRAM automatically in Powershell:",
     "$dir\\add-profile-content.ps1"
   ],
-  "url": "https://ghfast.top/https://github.com/AkariiinMKII/WhoAteMyRAM/archive/v1.0.20.zip",
+  "url": "https:github.comAkariiinMKIIWhoAteMyRAMarchivev1.0.20.zip",
   "hash": "ec5d16b0879697d870d52fc4752f6b185493105cc068da6c994b1339ac40af6e",
   "extract_dir": "WhoAteMyRAM-1.0.20",
   "psmodule": {
@@ -37,11 +37,11 @@
     "}"
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/AkariiinMKII/WhoAteMyRAM/tags",
-    "regex": "tags/v([\\d.]+)"
+    "url": "https:api.github.comreposAkariiinMKIIWhoAteMyRAMtags",
+    "regex": "tagsv([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/AkariiinMKII/WhoAteMyRAM/archive/v$version.zip",
+    "url": "https:github.comAkariiinMKIIWhoAteMyRAMarchivev$version.zip",
     "extract_dir": "WhoAteMyRAM-$version"
   }
 }

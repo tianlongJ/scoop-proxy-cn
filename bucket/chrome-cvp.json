@@ -8,7 +8,7 @@
     "silentcmd"
   ],
   "url": [
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.1/chrome-portable-v3.7.0.7z"
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.1chrome-portable-v3.7.0.7z"
   ],
   "hash": [
     ""
@@ -23,15 +23,15 @@
   ],
   "shortcuts": [
     [
-      "Programs/IdyChr_x64.exe",
+      "ProgramsIdyChr_x64.exe",
       "Chrome x64"
     ]
   ],
   "checkver": {
-    "url": "https://github.com/SayCV/gh-cdn-cvp/releases",
+    "url": "https:github.comSayCVgh-cdn-cvpreleases",
     "regex": "chrome-portable-v([\\d.]+).7z<"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.1/chrome-portable-v$version.7z"
+    "url": "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.1chrome-portable-v$version.7z"
   }
 }

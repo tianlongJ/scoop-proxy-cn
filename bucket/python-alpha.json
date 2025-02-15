@@ -1,15 +1,15 @@
 {
   "version": "3.14.0a5",
   "description": "A programming language that lets you work quickly and integrate systems more effectively.",
-  "homepage": "https://www.python.org/",
+  "homepage": "https:www.python.org",
   "license": "Python-2.0",
   "notes": "Allow applications and third-party installers to find python by running: \"$dir\\install-pep-514.reg\"",
   "architecture": {
     "64bit": {
       "url": [
-        "https://www.python.org/ftp/python/3.14.0/python-3.14.0a5-amd64.exe#/setup.exe",
-        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
-        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
+        "https:www.python.orgftppython3.14.0python-3.14.0a5-amd64.exe#setup.exe",
+        "https:raw.githubusercontent.comScoopInstallerMainmasterscriptspythoninstall-pep-514.reg",
+        "https:raw.githubusercontent.comScoopInstallerMainmasterscriptspythonuninstall-pep-514.reg"
       ],
       "hash": [
         "md5:14845747aaf4b02f272d48bc06133435",
@@ -19,9 +19,9 @@
     },
     "32bit": {
       "url": [
-        "https://www.python.org/ftp/python/3.14.0/python-3.14.0a5.exe#/setup.exe",
-        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
-        "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
+        "https:www.python.orgftppython3.14.0python-3.14.0a5.exe#setup.exe",
+        "https:raw.githubusercontent.comScoopInstallerMainmasterscriptspythoninstall-pep-514.reg",
+        "https:raw.githubusercontent.comScoopInstallerMainmasterscriptspythonuninstall-pep-514.reg"
       ],
       "hash": [
         "md5:88ac9616794fd0933ed6165f6afe571e",
@@ -98,20 +98,20 @@
     "Lib\\site-packages"
   ],
   "checkver": {
-    "url": "https://www.python.org/downloads/windows/",
+    "url": "https:www.python.orgdownloadswindows",
     "regex": "(?is)Pre-releases.*?python-(3[\\d.]+[ab]{1,2}[\\d]+)-"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://www.python.org/ftp/python/$matchHead/python-$version-amd64.exe#/setup.exe"
+        "url": "https:www.python.orgftppython$matchHeadpython-$version-amd64.exe#setup.exe"
       },
       "32bit": {
-        "url": "https://www.python.org/ftp/python/$matchHead/python-$version.exe#/setup.exe"
+        "url": "https:www.python.orgftppython$matchHeadpython-$version.exe#setup.exe"
       }
     },
     "hash": {
-      "url": "https://www.python.org/downloads/release/python-$cleanVersion/",
+      "url": "https:www.python.orgdownloadsreleasepython-$cleanVersion",
       "regex": "(?sm)$basename.*?$md5"
     },
     "bin": [

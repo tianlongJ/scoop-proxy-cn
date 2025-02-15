@@ -1,11 +1,11 @@
 {
   "version": "4.4.2",
   "description": "Create and view interactive cheatsheets on the command-line",
-  "homepage": "https://github.com/cheat/cheat",
+  "homepage": "https:github.comcheatcheat",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/cheat/cheat/releases/download/4.4.2/cheat-windows-amd64.exe.zip",
+      "url": "https:github.comcheatcheatreleasesdownload4.4.2cheat-windows-amd64.exe.zip",
       "hash": "9234a4e3c1748537b6f16dd83ba1de573556dfca34fcbf837f216c25dc3160b9"
     }
   },
@@ -19,7 +19,7 @@
     "if (!(Test-Path \"$persist_dir\\cheatsheets\")) {",
     "   Write-Host 'Adding community cheatsheets...' -f Yellow",
     "   New-item -ItemType Directory -Force -Path \"$persist_dir\\cheatsheets\\personal\" | Out-Null",
-    "   git clone -q 'https://github.com/cheat/cheatsheets.git' \"$persist_dir\\cheatsheets\\community\"",
+    "   git clone -q 'https:github.comcheatcheatsheets.git' \"$persist_dir\\cheatsheets\\community\"",
     "}"
   ],
   "post_install": [
@@ -39,7 +39,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/cheat/cheat/releases/download/$version/cheat-windows-amd64.exe.zip"
+        "url": "https:github.comcheatcheatreleasesdownload$versioncheat-windows-amd64.exe.zip"
       }
     }
   }

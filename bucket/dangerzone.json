@@ -1,13 +1,13 @@
 {
   "version": "0.8.1",
   "description": "Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF.",
-  "homepage": "https://dangerzone.rocks/",
+  "homepage": "https:dangerzone.rocks",
   "license": "MIT",
   "notes": [
     "DangerZone requires Docker Desktop to run.",
-    "You can download it from: https://www.docker.com/products/docker-desktop/"
+    "You can download it from: https:www.docker.comproductsdocker-desktop"
   ],
-  "url": "https://ghfast.top/https://github.com/firstlookmedia/dangerzone/releases/download/v0.8.1/Dangerzone-0.8.1.msi",
+  "url": "https:github.comfirstlookmediadangerzonereleasesdownloadv0.8.1Dangerzone-0.8.1.msi",
   "hash": "dadc9256948d4cbeb5cf24bd21bd2d1cdc7d7b50ad020f32a42a208382dc2bff",
   "extract_dir": "Dangerzone",
   "bin": "dangerzone-cli.exe",
@@ -18,9 +18,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/firstlookmedia/dangerzone"
+    "github": "https:github.comfirstlookmediadangerzone"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/firstlookmedia/dangerzone/releases/download/v$version/Dangerzone-$version.msi"
+    "url": "https:github.comfirstlookmediadangerzonereleasesdownloadv$versionDangerzone-$version.msi"
   }
 }

@@ -1,10 +1,10 @@
 {
   "version": "2.31.3",
   "description": "Advanced API Debugging Proxy",
-  "homepage": "https://reqable.com/",
+  "homepage": "https:reqable.com",
   "license": {
     "identifier": "Proprietary",
-    "url": "https://reqable.com/en-US/docs/license/"
+    "url": "https:reqable.comen-USdocslicense"
   },
   "notes": [
     "Free community version: almost all features are free, but the number of usage is limited.",
@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/reqable/reqable-app/releases/download/2.31.3/reqable-app-windows-x86_64.zip",
+      "url": "https:github.comreqablereqable-appreleasesdownload2.31.3reqable-app-windows-x86_64.zip",
       "hash": "f3839131b671d97022551574d065d7269f233e1ec84eefc99c7396865a66b180"
     }
   },
@@ -23,12 +23,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/reqable/reqable-app"
+    "github": "https:github.comreqablereqable-app"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/reqable/reqable-app/releases/download/$version/reqable-app-windows-x86_64.zip"
+        "url": "https:github.comreqablereqable-appreleasesdownload$versionreqable-app-windows-x86_64.zip"
       }
     }
   }

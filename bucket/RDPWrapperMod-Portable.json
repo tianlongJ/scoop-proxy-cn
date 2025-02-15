@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/sebaxakerhtc/rdpwrap",
+  "homepage": "https:github.comsebaxakerhtcrdpwrap",
   "description": "RDP Wrapper Mod. RDP Wrapper Library by Stas'M mod by sebaxakerhtc",
   "license": "Apache-2.0",
   "version": "1.8.9.9",
-  "changelog": "https://github.com/sebaxakerhtc/rdpwrap/releases",
+  "changelog": "https:github.comsebaxakerhtcrdpwrapreleases",
   "url": [
-    "https://ghfast.top/https://github.com/sebaxakerhtc/rdpwrap/releases/download/v1.8.9.9/RDPW_Uninstaller.exe",
-    "https://ghfast.top/https://github.com/sebaxakerhtc/rdpwrap/releases/download/v1.8.9.9/RDPW_installer.exe"
+    "https:github.comsebaxakerhtcrdpwrapreleasesdownloadv1.8.9.9RDPW_Uninstaller.exe",
+    "https:github.comsebaxakerhtcrdpwrapreleasesdownloadv1.8.9.9RDPW_installer.exe"
   ],
   "hash": [
     "ab66ac087a6f0c825cd4c49b282de4ae77c362c73d7664611c995de8fea8f0f6",
@@ -17,7 +17,7 @@
     "    error \"Administrator rights are required to install $app.\"",
     "    exit 1",
     "}",
-    "SCHTASKS /DELETE /TN RDPWUpdater /F"
+    "SCHTASKS DELETE TN RDPWUpdater F"
   ],
   "installer": {
     "file": "RDPW_installer.exe",
@@ -29,8 +29,8 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/sebaxakerhtc/rdpwrap/releases/download/v$version/RDPW_Uninstaller.exe",
-      "https://ghfast.top/https://github.com/sebaxakerhtc/rdpwrap/releases/download/v$version/RDPW_installer.exe"
+      "https:github.comsebaxakerhtcrdpwrapreleasesdownloadv$versionRDPW_Uninstaller.exe",
+      "https:github.comsebaxakerhtcrdpwrapreleasesdownloadv$versionRDPW_installer.exe"
     ]
   }
 }

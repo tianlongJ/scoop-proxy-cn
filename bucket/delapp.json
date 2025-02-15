@@ -1,12 +1,12 @@
 {
   "version": "1.0.2",
   "description": "A simple tool to delete files or folders in Windows",
-  "homepage": "https://github.com/differentrain/Delapp",
+  "homepage": "https:github.comdifferentrainDelapp",
   "license": "MIT",
   "suggest": {
-    ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+    ".NET Desktop Runtime": "extraswindowsdesktop-runtime"
   },
-  "url": "https://ghfast.top/https://github.com/differentrain/Delapp/releases/download/1.0.2/Delapp.zip",
+  "url": "https:github.comdifferentrainDelappreleasesdownload1.0.2Delapp.zip",
   "hash": "e1613df86a3a4928b36100de1412af694cf84476e655b12c8f50ef9560c17227",
   "shortcuts": [
     [
@@ -16,6 +16,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/differentrain/Delapp/releases/download/$version/Delapp.zip"
+    "url": "https:github.comdifferentrainDelappreleasesdownload$versionDelapp.zip"
   }
 }

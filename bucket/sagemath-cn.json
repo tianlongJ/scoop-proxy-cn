@@ -1,11 +1,11 @@
 {
   "version": "0.6.3-9.3",
   "description": "Mathematics software system",
-  "homepage": "https://www.sagemath.org",
+  "homepage": "https:www.sagemath.org",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.nju.edu.cn/sagemath/win/SageMath-9.3-Installer-v0.6.3.exe",
+      "url": "https:mirror.nju.edu.cnsagemathwinSageMath-9.3-Installer-v0.6.3.exe",
       "hash": "94ca5fb3ab84ac1a52960ca91de483f0a1c9a1fb393c30abfc6037057b3987e9"
     }
   },
@@ -17,7 +17,7 @@
       "    '$cwd_unix = (& \"$exedir\\cygpath.exe\" -- (Get-Location).Path)'",
       "    '$args_unix = ($args | ForEach-Object { & \"$exedir\\cygpath.exe\" -- $_ })'",
       "    '$args_unix_quoted = ($args_unix | ForEach-Object { \"''$_''\" })',",
-      "    '& \"$exedir\\bash.exe\" --login -c \"cd ''$cwd_unix'' && /opt/sagemath-*/sage $args_unix_quoted\"'",
+      "    '& \"$exedir\\bash.exe\" --login -c \"cd ''$cwd_unix'' && optsagemath-*sage $args_unix_quoted\"'",
       ")",
       "Set-Content $dir\\sagemath.ps1 $CONT -Encoding ASCII",
       "@('etc\\fstab.d', 'dev\\shm', 'dev\\mqueue', 'home\\sage') | ForEach-Object {",
@@ -49,30 +49,30 @@
     [
       "runtime\\bin\\mintty.exe",
       "SageMath",
-      "-t 'SageMath' /bin/bash --login -c '/opt/sagemath-*/sage'",
+      "-t 'SageMath' binbash --login -c 'optsagemath-*sage'",
       "sagemath.ico"
     ],
     [
       "runtime\\bin\\mintty.exe",
       "SageMath Shell",
-      "-t 'SageMath Shell' /bin/bash --login -c '/opt/sagemath-*/sage -sh'",
+      "-t 'SageMath Shell' binbash --login -c 'optsagemath-*sage -sh'",
       "sagemath.ico"
     ],
     [
       "runtime\\bin\\mintty.exe",
       "SageMath Notebook",
-      "-t \"SageMath Notebook\" /bin/bash --login -c \"/opt/sagemath-*/sage --notebook\"",
+      "-t \"SageMath Notebook\" binbash --login -c \"optsagemath-*sage --notebook\"",
       "sagemath.ico"
     ]
   ],
   "checkver": {
-    "github": "https://github.com/sagemath/sage-windows",
-    "regex": "tag/([\\d-.]+)"
+    "github": "https:github.comsagemathsage-windows",
+    "regex": "tag([\\d-.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.nju.edu.cn/sagemath/win/SageMath-$preReleaseVersion-Installer-v$matchHead.exe"
+        "url": "https:mirror.nju.edu.cnsagemathwinSageMath-$preReleaseVersion-Installer-v$matchHead.exe"
       }
     }
   }

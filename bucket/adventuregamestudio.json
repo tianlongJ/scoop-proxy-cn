@@ -1,9 +1,9 @@
 {
   "version": "3.6.1.22",
-  "homepage": "https://www.adventuregamestudio.co.uk/",
+  "homepage": "https:www.adventuregamestudio.co.uk",
   "description": "An IDE and the engine meant for creating and running videogames of adventure (aka “quest”) genre.",
   "license": "Artistic-2.0",
-  "url": "https://ghfast.top/https://github.com/adventuregamestudio/ags/releases/download/v3.6.1.22/AGS-3.6.1.22.zip",
+  "url": "https:github.comadventuregamestudioagsreleasesdownloadv3.6.1.22AGS-3.6.1.22.zip",
   "hash": "768a72f314d088bfdbddd3ab1923a407329854b8e6fcedb6cb306c5d29189490",
   "shortcuts": [
     [
@@ -16,12 +16,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/adventuregamestudio/ags"
+    "github": "https:github.comadventuregamestudioags"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/adventuregamestudio/ags/releases/download/v$version/AGS-$version.zip",
+    "url": "https:github.comadventuregamestudioagsreleasesdownloadv$versionAGS-$version.zip",
     "hash": {
-      "url": "$baseurl/checksums.sha256",
+      "url": "$baseurlchecksums.sha256",
       "regex": "$sha256\\s+$basename"
     }
   }

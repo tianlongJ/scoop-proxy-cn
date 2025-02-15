@@ -1,11 +1,11 @@
 {
-  "homepage": "https://bitcoincore.org/en/about/",
+  "homepage": "https:bitcoincore.orgenabout",
   "description": "The Bitcoin client software called Bitcoin Core",
   "version": "28.1",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://bitcoincore.org/bin/bitcoin-core-28.1/bitcoin-28.1-win64.zip",
+      "url": "https:bitcoincore.orgbinbitcoin-core-28.1bitcoin-28.1-win64.zip",
       "hash": "2d636ad562b347c96d36870d6ed810f4a364f446ca208258299f41048b35eab0",
       "extract_dir": "bitcoin-28.1"
     }
@@ -19,18 +19,18 @@
   ],
   "persist": "appdata",
   "checkver": {
-    "url": "https://bitcoincore.org/en/download/",
+    "url": "https:bitcoincore.orgendownload",
     "regex": "Latest version: ([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://bitcoincore.org/bin/bitcoin-core-$version/bitcoin-$version-win64.zip",
+        "url": "https:bitcoincore.orgbinbitcoin-core-$versionbitcoin-$version-win64.zip",
         "extract_dir": "bitcoin-$version"
       }
     },
     "hash": {
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/bitcoin-core/guix.sigs/main/$version/fanquake/all.SHA256SUMS",
+      "url": "https:raw.githubusercontent.combitcoin-coreguix.sigsmain$versionfanquakeall.SHA256SUMS",
       "mode": "extract"
     }
   },

@@ -1,14 +1,14 @@
 {
   "version": "2.5",
   "description": "A Nintendo WiiU emulator capable of online play",
-  "homepage": "https://cemu.info/",
+  "homepage": "https:cemu.info",
   "license": "MPL-2.0",
   "suggest": {
-    "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
+    "Microsoft Visual C++ Runtime 2022": "extrasvcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/cemu-project/Cemu/releases/download/v2.5/cemu-2.5-windows-x64.zip",
+      "url": "https:github.comcemu-projectCemureleasesdownloadv2.5cemu-2.5-windows-x64.zip",
       "hash": "73221d437176903af317f5d67b16374d3e4485ed6ae5b3a976d26be69e3f15ab"
     }
   },
@@ -58,12 +58,12 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/cemu-project/Cemu"
+    "github": "https:github.comcemu-projectCemu"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/cemu-project/Cemu/releases/download/v$version/cemu-$version-windows-x64.zip"
+        "url": "https:github.comcemu-projectCemureleasesdownloadv$versioncemu-$version-windows-x64.zip"
       }
     },
     "extract_dir": "Cemu_$version"

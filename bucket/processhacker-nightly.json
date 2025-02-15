@@ -1,16 +1,16 @@
 {
   "version": "3.0.4953",
   "description": "A powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.",
-  "homepage": "https://processhacker.sourceforge.io/nightly.php",
+  "homepage": "https:processhacker.sourceforge.ionightly.php",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ProcessHackerRepoTool/nightly-builds-mirror/releases/download/3.0.4953/processhacker-3.0.4953-bin.zip",
+      "url": "https:github.comProcessHackerRepoToolnightly-builds-mirrorreleasesdownload3.0.4953processhacker-3.0.4953-bin.zip",
       "hash": "a5c3eecb80afc94cd28511dbca55b297dbd414ec061d309b1777730bbd8933ea",
       "extract_dir": "64bit"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/ProcessHackerRepoTool/nightly-builds-mirror/releases/download/3.0.4953/processhacker-3.0.4953-bin.zip",
+      "url": "https:github.comProcessHackerRepoToolnightly-builds-mirrorreleasesdownload3.0.4953processhacker-3.0.4953-bin.zip",
       "hash": "a5c3eecb80afc94cd28511dbca55b297dbd414ec061d309b1777730bbd8933ea",
       "extract_dir": "32bit"
     }
@@ -37,10 +37,10 @@
     "usernotesdb.xml"
   ],
   "checkver": {
-    "url": "https://github.com/ProcessHackerRepoTool/nightly-builds-mirror/releases",
-    "regex": "/tag/([\\d.]+)"
+    "url": "https:github.comProcessHackerRepoToolnightly-builds-mirrorreleases",
+    "regex": "tag([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ProcessHackerRepoTool/nightly-builds-mirror/releases/download/$version/processhacker-$version-bin.zip"
+    "url": "https:github.comProcessHackerRepoToolnightly-builds-mirrorreleasesdownload$versionprocesshacker-$version-bin.zip"
   }
 }

@@ -2,13 +2,13 @@
   "version": "2.004",
   "description": "Noto Sans CJK fonts",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/googlefonts/noto-cjk",
+  "homepage": "https:github.comgooglefontsnoto-cjk",
   "url": [
-    "https://github.com/googlefonts/noto-cjk/raw/Sans2.004/Sans/Variable/TTF/NotoSansCJKhk-VF.ttf",
-    "https://github.com/googlefonts/noto-cjk/raw/Sans2.004/Sans/Variable/TTF/NotoSansCJKjp-VF.ttf",
-    "https://github.com/googlefonts/noto-cjk/raw/Sans2.004/Sans/Variable/TTF/NotoSansCJKkr-VF.ttf",
-    "https://github.com/googlefonts/noto-cjk/raw/Sans2.004/Sans/Variable/TTF/NotoSansCJKsc-VF.ttf",
-    "https://github.com/googlefonts/noto-cjk/raw/Sans2.004/Sans/Variable/TTF/NotoSansCJKtc-VF.ttf"
+    "https:github.comgooglefontsnoto-cjkrawSans2.004SansVariableTTFNotoSansCJKhk-VF.ttf",
+    "https:github.comgooglefontsnoto-cjkrawSans2.004SansVariableTTFNotoSansCJKjp-VF.ttf",
+    "https:github.comgooglefontsnoto-cjkrawSans2.004SansVariableTTFNotoSansCJKkr-VF.ttf",
+    "https:github.comgooglefontsnoto-cjkrawSans2.004SansVariableTTFNotoSansCJKsc-VF.ttf",
+    "https:github.comgooglefontsnoto-cjkrawSans2.004SansVariableTTFNotoSansCJKtc-VF.ttf"
   ],
   "hash": [
     "c485d72ca089ce65a83c483c1ddbf1791828b4c8e3c45ea5eae8063fe2164495",
@@ -38,7 +38,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

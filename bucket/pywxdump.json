@@ -1,26 +1,26 @@
 {
   "version": "3.1.42",
-  "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-  "homepage": "https://github.com/xaoyaoo/PyWxDump",
+  "description": "获取微信账号信息(昵称账号手机邮箱数据库密钥wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
+  "homepage": "https:github.comxaoyaooPyWxDump",
   "license": {
     "identifier": "MIT License",
-    "url": "https://github.com/xaoyaoo/PyWxDump/blob/master/LICENSE"
+    "url": "https:github.comxaoyaooPyWxDumpblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xaoyaoo/PyWxDump/releases/download/v3.1.42/wxdump.exe",
+      "url": "https:github.comxaoyaooPyWxDumpreleasesdownloadv3.1.42wxdump.exe",
       "hash": "24ae5907d70cd5eb5f227324e4e251fdd96d6e480b3f6b77ea8bd8463da27c47"
     }
   },
   "bin": "pywxdump.exe",
   "checkver": {
-    "url": "https://api.github.com/repos/xaoyaoo/PyWxDump/releases",
-    "regex": "(?sm)browser_download_url.*?/releases/download/v([\\d.]+)/(?<file>(?:py)?wxdump\\.exe)"
+    "url": "https:api.github.comreposxaoyaooPyWxDumpreleases",
+    "regex": "(?sm)browser_download_url.*?releasesdownloadv([\\d.]+)(?<file>(?:py)?wxdump\\.exe)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/xaoyaoo/PyWxDump/releases/download/v$version/$matchFile"
+        "url": "https:github.comxaoyaooPyWxDumpreleasesdownloadv$version$matchFile"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/igr/dm2",
+  "homepage": "https:github.comigrdm2",
   "version": "1.23.1",
   "license": "GPL-3.0-only",
-  "url": "https://ghfast.top/https://github.com/igr/dm2/releases/download/v1.23.1/dm2-1.23.1.zip",
+  "url": "https:github.comigrdm2releasesdownloadv1.23.1dm2-1.23.1.zip",
   "hash": "f95205ede94267ecf3bef85e0e4e65cd1199dc9a903a2b02b54536d4a767e68d",
   "bin": "DM2.exe",
   "shortcuts": [
@@ -14,6 +14,6 @@
   "persist": "DM2.ini",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/igr/dm2/releases/download/v$version/dm2-$version.zip"
+    "url": "https:github.comigrdm2releasesdownloadv$versiondm2-$version.zip"
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": "1.12",
   "description": "Records Spotify while it plays without ads.",
-  "homepage": "https://jwallet.github.io/spy-spotify/overview.html",
+  "homepage": "https:jwallet.github.iospy-spotifyoverview.html",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/jwallet/spy-spotify/releases/download/1.12/Spytify-v.1.12.zip",
+  "url": "https:github.comjwalletspy-spotifyreleasesdownload1.12Spytify-v.1.12.zip",
   "hash": "d94a5c91889f6503bf93ef6d2493fc9c354aaa4dc8c60103398554bde20025bb",
   "bin": "Spytify.exe",
   "shortcuts": [
@@ -13,9 +13,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/jwallet/spy-spotify"
+    "github": "https:github.comjwalletspy-spotify"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/jwallet/spy-spotify/releases/download/$version/Spytify-v.$version.zip"
+    "url": "https:github.comjwalletspy-spotifyreleasesdownload$versionSpytify-v.$version.zip"
   }
 }

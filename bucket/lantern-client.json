@@ -1,11 +1,11 @@
 {
   "version": "7.9.7",
-  "description": "HTTP/HTTPS proxy",
-  "homepage": "https://lantern.io/",
+  "description": "HTTPHTTPS proxy",
+  "homepage": "https:lantern.io",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://media.githubusercontent.com/media/getlantern/lantern-binaries/main/lantern-installer-64-bit.exe#/dl.7z",
+      "url": "https:media.githubusercontent.commediagetlanternlantern-binariesmainlantern-installer-64-bit.exe#dl.7z",
       "hash": "69480dbc2b3aab13e4ad4bc9989a39e14f0d90275206cdf9401b150ce3c85405"
     }
   },
@@ -19,13 +19,13 @@
   ],
   "persist": "lantern.yaml",
   "checkver": {
-    "url": "https://github.com/getlantern/lantern-binaries/commits/main/lantern-installer-64-bit.exe",
+    "url": "https:github.comgetlanternlantern-binariescommitsmainlantern-installer-64-bit.exe",
     "regex": "Lantern binaries for version ([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://media.githubusercontent.com/media/getlantern/lantern-binaries/main/lantern-installer-64-bit.exe#/dl.7z"
+        "url": "https:media.githubusercontent.commediagetlanternlantern-binariesmainlantern-installer-64-bit.exe#dl.7z"
       }
     }
   }

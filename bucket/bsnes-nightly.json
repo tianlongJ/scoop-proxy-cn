@@ -1,12 +1,12 @@
 {
   "version": "2024-11-02",
   "description": "Nintendo SNES (Super Nintendo Entertainment System) emulator",
-  "homepage": "https://github.com/bsnes-emu/bsnes",
+  "homepage": "https:github.combsnes-emubsnes",
   "license": {
     "identifier": "GPL-3.0",
-    "url": "https://github.com/bsnes-emu/bsnes/blob/master/LICENSE.txt"
+    "url": "https:github.combsnes-emubsnesblobmasterLICENSE.txt"
   },
-  "url": "https://ghfast.top/https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip",
+  "url": "https:github.combsnes-emubsnesreleasesdownloadnightlybsnes-windows.zip",
   "hash": "ccf15124577d512f5a47a56d2b31569161653cdbd0cc5a3916e8af4dfd15c2f7",
   "extract_dir": "bsnes-nightly",
   "bin": "bsnes.exe",
@@ -21,11 +21,11 @@
     "settings.bml"
   ],
   "checkver": {
-    "url": "https://github.com/bsnes-emu/bsnes/releases",
+    "url": "https:github.combsnes-emubsnesreleases",
     "regex": "nightly (\\d{4}\\-\\d{2}\\-\\d{2})"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip",
+    "url": "https:github.combsnes-emubsnesreleasesdownloadnightlybsnes-windows.zip",
     "extract_dir": "bsnes-nightly"
   }
 }

@@ -1,12 +1,12 @@
 {
   "version": "2024.12.20",
   "description": "Professional archiving, cataloging, and library management suite providing connectivity to PostgreSQL and SQLite.",
-  "homepage": "https://textbrowser.github.io/biblioteq/",
+  "homepage": "https:textbrowser.github.iobiblioteq",
   "license": "BSD-3-Clause",
   "suggest": {
-    "vcredist": "extras/vcredist2022"
+    "vcredist": "extrasvcredist2022"
   },
-  "url": "https://ghfast.top/https://github.com/textbrowser/biblioteq/releases/download/2024.12.20/BiblioteQ-2024.12.20.zip",
+  "url": "https:github.comtextbrowserbiblioteqreleasesdownload2024.12.20BiblioteQ-2024.12.20.zip",
   "hash": "04ce4fdef2173dc7770f84debb8a97b581e8cc0a32c4a2b804bf8297413d91d8",
   "extract_dir": "BiblioteQ",
   "pre_install": "Remove-Item \"$dir\\vc_red*\"",
@@ -18,9 +18,9 @@
   ],
   "persist": ".biblioteq",
   "checkver": {
-    "github": "https://github.com/textbrowser/biblioteq"
+    "github": "https:github.comtextbrowserbiblioteq"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/textbrowser/biblioteq/releases/download/$version/BiblioteQ-$version.zip"
+    "url": "https:github.comtextbrowserbiblioteqreleasesdownload$versionBiblioteQ-$version.zip"
   }
 }

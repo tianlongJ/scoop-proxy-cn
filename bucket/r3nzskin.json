@@ -1,14 +1,14 @@
 {
   "version": "3.3.0",
   "description": "Skin changer for League of Legends (LOL)",
-  "homepage": "https://github.com/R3nzTheCodeGOD/R3nzSkin",
+  "homepage": "https:github.comR3nzTheCodeGODR3nzSkin",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/R3nzTheCodeGOD/R3nzSkin/blob/main/LICENSE"
+    "url": "https:github.comR3nzTheCodeGODR3nzSkinblobmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/R3nzTheCodeGOD/R3nzSkin/releases/download/v3.3.0/R3nzSkin.zip",
+      "url": "https:github.comR3nzTheCodeGODR3nzSkinreleasesdownloadv3.3.0R3nzSkin.zip",
       "hash": "ba7ec562a7d6b72e2e2e5c48c65a6665fade6bdbdbe73cb0010c33af7bed65cc"
     }
   },
@@ -28,13 +28,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/R3nzTheCodeGOD/R3nzSkin/releases",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:api.github.comreposR3nzTheCodeGODR3nzSkinreleases",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/R3nzTheCodeGOD/R3nzSkin/releases/download/v$version/R3nzSkin.zip"
+        "url": "https:github.comR3nzTheCodeGODR3nzSkinreleasesdownloadv$versionR3nzSkin.zip"
       }
     }
   }

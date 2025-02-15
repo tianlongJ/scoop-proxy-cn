@@ -1,9 +1,9 @@
 {
   "version": "1.510",
   "description": "LXGW WenKai for Screen Reading.",
-  "homepage": "https://github.com/lxgw/LxgwWenKai-Screen",
+  "homepage": "https:github.comlxgwLxgwWenKai-Screen",
   "license": "OFL-1.1",
-  "url": "https://ghfast.top/https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.510/LXGWWenKaiScreen.ttf",
+  "url": "https:github.comlxgwLxgwWenKai-Screenreleasesdownloadv1.510LXGWWenKaiScreen.ttf",
   "hash": "24053cec96f782a4b5997629ad6298b79c67ccc565651f7dd8f366b2a9d31775",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -87,6 +87,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v$version/LXGWWenKaiScreen.ttf"
+    "url": "https:github.comlxgwLxgwWenKai-Screenreleasesdownloadv$versionLXGWWenKaiScreen.ttf"
   }
 }

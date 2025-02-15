@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/JTNDev/galaxy-integration-gc",
+  "homepage": "https:github.comJTNDevgalaxy-integration-gc",
   "version": "0.3.4",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/JTNDev/galaxy-integration-gc/releases/download/v0.3.4/Dolphin-GCN-Retroarch-v0.3.4.zip",
+  "url": "https:github.comJTNDevgalaxy-integration-gcreleasesdownloadv0.3.4Dolphin-GCN-Retroarch-v0.3.4.zip",
   "hash": "e04d499bc843ca5c9c8c79b90412d2b671c9c47af8d87e7f43d00562cf73e11f",
   "extract_dir": "dolphin_gc_6804a766-c1fd-48cf-9a8b-8661a970a6cb",
   "extract_to": "integration",
@@ -42,7 +42,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -50,7 +50,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -73,10 +73,10 @@
   ],
   "persist": "integration\\user_config.py",
   "checkver": {
-    "github": "https://github.com/JTNDev/galaxy-integration-gc",
-    "re": "/releases/download/v([\\d.]+)/(?<file>((Dolphin?)(.|-)(GameCube.Plugin.|GCN-Retroarch-))(v)?([\\d.]+)?.(zip|7z))"
+    "github": "https:github.comJTNDevgalaxy-integration-gc",
+    "re": "releasesdownloadv([\\d.]+)(?<file>((Dolphin?)(.|-)(GameCube.Plugin.|GCN-Retroarch-))(v)?([\\d.]+)?.(zip|7z))"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/JTNDev/galaxy-integration-gc/releases/download/v$version/$matchFile"
+    "url": "https:github.comJTNDevgalaxy-integration-gcreleasesdownloadv$version$matchFile"
   }
 }

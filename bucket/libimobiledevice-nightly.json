@@ -1,130 +1,130 @@
 {
-  "homepage": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg",
-  "description": "A cross-platform protocol library to communicate with iOS devices, http://www.libimobiledevice.org.",
+  "homepage": "https:github.comNyaMistylibimobiledevice-nightly-pkg",
+  "description": "A cross-platform protocol library to communicate with iOS devices, http:www.libimobiledevice.org.",
   "version": "20250213_123842-c6a36595",
   "license": "LGPL 2.1",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20250213_123842-c6a36595/x86_64-mingw64.tar",
+      "url": "https:github.comNyaMistylibimobiledevice-nightly-pkgreleasesdownload20250213_123842-c6a36595x86_64-mingw64.tar",
       "hash": "7513887559967ebd4dfa9b2a85213e826ae4fe4e419bfc92ab45220865db2d0a",
       "extract_dir": "mingw64"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20250213_123842-c6a36595/i686-mingw32.tar",
+      "url": "https:github.comNyaMistylibimobiledevice-nightly-pkgreleasesdownload20250213_123842-c6a36595i686-mingw32.tar",
       "hash": "b43876414cf56106d29080d3c34856cedfe09d0e630ca405e5fa46c75d72b2fb",
       "extract_dir": "mingw32"
     }
   },
   "bin": [
     [
-      "bin/idevice_id.exe",
+      "binidevice_id.exe",
       "idevice_id_n"
     ],
     [
-      "bin/ideviceactivation.exe",
+      "binideviceactivation.exe",
       "ideviceactivation_n"
     ],
     [
-      "bin/idevicebackup.exe",
+      "binidevicebackup.exe",
       "idevicebackup_n"
     ],
     [
-      "bin/idevicebackup2.exe",
+      "binidevicebackup2.exe",
       "idevicebackup2_n"
     ],
     [
-      "bin/idevicecrashreport.exe",
+      "binidevicecrashreport.exe",
       "idevicecrashreport_n"
     ],
     [
-      "bin/idevicedate.exe",
+      "binidevicedate.exe",
       "idevicedate_n"
     ],
     [
-      "bin/idevicedebug.exe",
+      "binidevicedebug.exe",
       "idevicedebug_n"
     ],
     [
-      "bin/idevicedebugserverproxy.exe",
+      "binidevicedebugserverproxy.exe",
       "idevicedebugserverproxy_n"
     ],
     [
-      "bin/idevicediagnostics.exe",
+      "binidevicediagnostics.exe",
       "idevicediagnostics_n"
     ],
     [
-      "bin/ideviceenterrecovery.exe",
+      "binideviceenterrecovery.exe",
       "ideviceenterrecovery_n"
     ],
     [
-      "bin/ideviceimagemounter.exe",
+      "binideviceimagemounter.exe",
       "ideviceimagemounter_n"
     ],
     [
-      "bin/ideviceinfo.exe",
+      "binideviceinfo.exe",
       "ideviceinfo_n"
     ],
     [
-      "bin/ideviceinstaller.exe",
+      "binideviceinstaller.exe",
       "ideviceinstaller_n"
     ],
     [
-      "bin/idevicename.exe",
+      "binidevicename.exe",
       "idevicename_n"
     ],
     [
-      "bin/idevicenotificationproxy.exe",
+      "binidevicenotificationproxy.exe",
       "idevicenotificationproxy_n"
     ],
     [
-      "bin/idevicepair.exe",
+      "binidevicepair.exe",
       "idevicepair_n"
     ],
     [
-      "bin/ideviceprovision.exe",
+      "binideviceprovision.exe",
       "ideviceprovision_n"
     ],
     [
-      "bin/idevicerestore.exe",
+      "binidevicerestore.exe",
       "idevicerestore_n"
     ],
     [
-      "bin/idevicescreenshot.exe",
+      "binidevicescreenshot.exe",
       "idevicescreenshot_n"
     ],
     [
-      "bin/idevicesyslog.exe",
+      "binidevicesyslog.exe",
       "idevicesyslog_n"
     ],
     [
-      "bin/inetcat.exe",
+      "bininetcat.exe",
       "inetcat_n"
     ],
     [
-      "bin/iproxy.exe",
+      "biniproxy.exe",
       "iproxy_n"
     ],
     [
-      "bin/irecovery.exe",
+      "binirecovery.exe",
       "irecovery_n"
     ],
     [
-      "bin/plistutil.exe",
+      "binplistutil.exe",
       "plistutil_n"
     ]
   ],
   "checkver": {
-    "github": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg",
-    "re": "/releases/tag/([\\da-f-_]+?)\""
+    "github": "https:github.comNyaMistylibimobiledevice-nightly-pkg",
+    "re": "releasestag([\\da-f-_]+?)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/$version/x86_64-mingw64.tar",
+        "url": "https:github.comNyaMistylibimobiledevice-nightly-pkgreleasesdownload$versionx86_64-mingw64.tar",
         "extract_dir": "mingw64"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/$version/i686-mingw32.tar",
+        "url": "https:github.comNyaMistylibimobiledevice-nightly-pkgreleasesdownload$versioni686-mingw32.tar",
         "extract_dir": "mingw32"
       }
     }

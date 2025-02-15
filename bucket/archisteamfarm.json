@@ -1,21 +1,21 @@
 {
   "version": "6.1.2.3",
   "description": "C# Farming Steam cards from multiple accounts simultaneously.",
-  "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
+  "homepage": "https:github.comJustArchiNETArchiSteamFarm",
   "license": "Apache-2.0",
   "suggest": {
-    ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
-    "vcredist": "extras/vcredist2022"
+    ".NET Desktop Runtime": "extraswindowsdesktop-runtime-lts",
+    "vcredist": "extrasvcredist2022"
   },
   "notes": [
     "ArchiSteamFarm has a built-in updater, So you should DISABLE it in configuration file,",
     "Or run 'scoop hold archisteamfarm' to disable updates via Scoop.",
     "ASF Config Generator:",
-    "https://justarchinet.github.io/ASF-WebConfigGenerator/"
+    "https:justarchinet.github.ioASF-WebConfigGenerator"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.2.3/ASF-win-x64.zip",
+      "url": "https:github.comJustArchiNETArchiSteamFarmreleasesdownload6.1.2.3ASF-win-x64.zip",
       "hash": "af2030ceab4b45d1545d3eb6bd7796752101d9804aa174bda806185f28aec129"
     }
   },
@@ -34,7 +34,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
+        "url": "https:github.comJustArchiNETArchiSteamFarmreleasesdownload$versionASF-win-x64.zip"
       }
     }
   }

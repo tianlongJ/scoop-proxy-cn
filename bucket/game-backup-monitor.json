@@ -1,18 +1,18 @@
 {
   "version": "1.4.1",
   "description": "Game save data backup tool with optional cloud support",
-  "homepage": "https://mikemaximus.github.io/gbm-web/",
+  "homepage": "https:mikemaximus.github.iogbm-web",
   "license": {
     "identifier": "GPL-3.0-or-later",
-    "url": "https://github.com/MikeMaximus/gbm/blob/master/LICENSE"
+    "url": "https:github.comMikeMaximusgbmblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/MikeMaximus/gbm/releases/download/v1.4.1/GBM.v1.4.1.64-bit.7z",
+      "url": "https:github.comMikeMaximusgbmreleasesdownloadv1.4.1GBM.v1.4.1.64-bit.7z",
       "hash": "13df9a0a41ab2fd3603188b5147b4a7180eb0407429d47bf39a478cae5643a71"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/MikeMaximus/gbm/releases/download/v1.4.1/GBM.v1.4.1.32-bit.7z",
+      "url": "https:github.comMikeMaximusgbmreleasesdownloadv1.4.1GBM.v1.4.1.32-bit.7z",
       "hash": "5592254036d1ea628bee0f2a93bf110c8fde4e51d062a0c544c6ade0abec72c9"
     }
   },
@@ -23,15 +23,15 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/MikeMaximus/gbm"
+    "github": "https:github.comMikeMaximusgbm"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/MikeMaximus/gbm/releases/download/v$version/GBM.v$version.64-bit.7z"
+        "url": "https:github.comMikeMaximusgbmreleasesdownloadv$versionGBM.v$version.64-bit.7z"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/MikeMaximus/gbm/releases/download/v$version/GBM.v$version.32-bit.7z"
+        "url": "https:github.comMikeMaximusgbmreleasesdownloadv$versionGBM.v$version.32-bit.7z"
       }
     }
   }

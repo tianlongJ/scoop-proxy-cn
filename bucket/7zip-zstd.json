@@ -1,15 +1,15 @@
 {
   "version": "v22.01-v1.5.5-R3",
-  "description": "Multi-format compression/decompression tool with brotli and other codecs (beta version)",
-  "homepage": "https://github.com/mcmilk/7-Zip-zstd/",
+  "description": "Multi-format compressiondecompression tool with brotli and other codecs (beta version)",
+  "homepage": "https:github.commcmilk7-Zip-zstd",
   "license": "LGPL-2.1-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/mcmilk/7-Zip-zstd/releases/download/v22.01-v1.5.5-R3/7z22.01-zstd-x64.exe#/dl.7z",
+      "url": "https:github.commcmilk7-Zip-zstdreleasesdownloadv22.01-v1.5.5-R37z22.01-zstd-x64.exe#dl.7z",
       "hash": "d542d78397bbed8e77c221f36cad461a0d83f1263b993a7048e81df40f403fb8"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/mcmilk/7-Zip-zstd/releases/download/v22.01-v1.5.5-R3/7z22.01-zstd-x32.exe#/dl.7z",
+      "url": "https:github.commcmilk7-Zip-zstdreleasesdownloadv22.01-v1.5.5-R37z22.01-zstd-x32.exe#dl.7z",
       "hash": "cc1b8c360656df516684c61da2b23e2185e27c23d255fd3db6a792373dcc1ba3"
     }
   },
@@ -28,16 +28,16 @@
     "Formats"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/61958135/releases",
+    "url": "https:api.github.comrepositories61958135releases",
     "jsonpath": "$[0].tag_name"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/mcmilk/7-Zip-zstd/releases/download/$version/7z$matchHead-zstd-x64.exe#/dl.7z"
+        "url": "https:github.commcmilk7-Zip-zstdreleasesdownload$version7z$matchHead-zstd-x64.exe#dl.7z"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/mcmilk/7-Zip-zstd/releases/download/$version/7z$matchHead-zstd-x32.exe#/dl.7z"
+        "url": "https:github.commcmilk7-Zip-zstdreleasesdownload$version7z$matchHead-zstd-x32.exe#dl.7z"
       }
     }
   }

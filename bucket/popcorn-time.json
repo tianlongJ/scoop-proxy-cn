@@ -1,11 +1,11 @@
 {
   "version": "0.5.1",
   "description": "A free BitTorrent client that includes an integrated media player.",
-  "homepage": "https://popcorn-time.site/",
+  "homepage": "https:popcorn-time.site",
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5.1/Popcorn-Time-0.5.1-win64.zip",
+      "url": "https:github.compopcorn-officialpopcorn-desktopreleasesdownloadv0.5.1Popcorn-Time-0.5.1-win64.zip",
       "hash": "d399bfa5e86edccd47ed6d94a906f7fed67b38216b4befd8b1589734383e0e7a"
     }
   },
@@ -18,12 +18,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/popcorn-official/popcorn-desktop"
+    "github": "https:github.compopcorn-officialpopcorn-desktop"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/Popcorn-Time-$version-win64.zip"
+        "url": "https:github.compopcorn-officialpopcorn-desktopreleasesdownloadv$versionPopcorn-Time-$version-win64.zip"
       }
     }
   }

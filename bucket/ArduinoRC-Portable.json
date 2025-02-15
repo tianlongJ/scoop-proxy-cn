@@ -1,12 +1,12 @@
 {
   "version": "2.3.4",
   "description": "Arduino IDE RC. Makes it easy to write code and upload it to the board. (Release Candidate)",
-  "homepage": "https://www.arduino.cc/en/software",
+  "homepage": "https:www.arduino.ccensoftware",
   "license": "AGPL-3.0-or-later",
-  "changelog": "https://github.com/arduino/arduino-ide/releases",
+  "changelog": "https:github.comarduinoarduino-idereleases",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/arduino/arduino-ide/releases/download/2.3.4/arduino-ide_2.3.4_Windows_64bit.zip",
+      "url": "https:github.comarduinoarduino-idereleasesdownload2.3.4arduino-ide_2.3.4_Windows_64bit.zip",
       "hash": "745baef00b134a27fc8a83653261ffa1513d750568c4aa24acc4980546d6e971"
     }
   },
@@ -17,13 +17,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/arduino/arduino-ide/releases",
-    "regex": "tag/([\\d.]+(-rc\\d+)?)"
+    "url": "https:api.github.comreposarduinoarduino-idereleases",
+    "regex": "tag([\\d.]+(-rc\\d+)?)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/arduino/arduino-ide/releases/download/$version/arduino-ide_$version_Windows_64bit.zip"
+        "url": "https:github.comarduinoarduino-idereleasesdownload$versionarduino-ide_$version_Windows_64bit.zip"
       }
     }
   }

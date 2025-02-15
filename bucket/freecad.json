@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
   "description": "A free and open-source multi-platform parametric 3D modeler.",
-  "homepage": "https://www.freecadweb.org",
+  "homepage": "https:www.freecadweb.org",
   "license": "LGPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-Windows-x86_64-py311.7z",
+      "url": "https:github.comFreeCADFreeCADreleasesdownload1.0.0FreeCAD_1.0.0-conda-Windows-x86_64-py311.7z",
       "hash": "c32c43897172c2669ade854a4e71b9e158e7e86dfaf728e2aba0b6e3104347ae"
     }
   },
-  "pre_install": "pushd $dir ; mv */* . ; rm FreeCAD_* ; popd",
+  "pre_install": "pushd $dir ; mv ** . ; rm FreeCAD_* ; popd",
   "bin": "bin\\FreeCADCmd.exe",
   "shortcuts": [
     [
@@ -18,13 +18,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/5736080/releases",
+    "url": "https:api.github.comrepositories5736080releases",
     "regex": "FreeCAD_([\\d.]+)-conda-Windows-x86_64-(?<suffix>[\\w.-]+)\\.7z"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/FreeCAD/FreeCAD/releases/download/$matchHead/FreeCAD_$version-conda-Windows-x86_64-$matchSuffix.7z"
+        "url": "https:github.comFreeCADFreeCADreleasesdownload$matchHeadFreeCAD_$version-conda-Windows-x86_64-$matchSuffix.7z"
       }
     },
     "hash": {

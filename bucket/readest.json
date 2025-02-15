@@ -1,14 +1,14 @@
 {
   "version": "0.9.11",
   "description": "An open-source ebook reader designed for immersive and deep reading experiences",
-  "homepage": "https://readest.com/",
+  "homepage": "https:readest.com",
   "license": {
     "identifier": "AGPL-3.0 license",
-    "url": "https://github.com/readest/readest#AGPL-3.0-1-ov-file"
+    "url": "https:github.comreadestreadest#AGPL-3.0-1-ov-file"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/readest/readest/releases/download/v0.9.11/Readest_0.9.11_x64-setup.exe#/dl.7z",
+      "url": "https:github.comreadestreadestreleasesdownloadv0.9.11Readest_0.9.11_x64-setup.exe#dl.7z",
       "hash": "09d7bac02094e45dac8aa8c7a648e0a2b3fae4df0db0a81f3f676f4515011c63"
     }
   },
@@ -16,7 +16,7 @@
   "installer": {
     "script": [
       "# handle runtime cache",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:LOCALAPPDATA\\com.bilingify.readest\"",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\userdata\" -Target \"$env:APPDATA\\com.bilingify.readest\"",
       "Remove-Module -Name AppsUtils"
@@ -24,7 +24,7 @@
   },
   "uninstaller": {
     "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
       "Dismount-ExternalRuntimeData -Target \"$env:LOCALAPPDATA\\com.bilingify.readest\"",
       "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\com.bilingify.readest\"",
       "Remove-Module -Name AppsUtils"
@@ -38,12 +38,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/readest/readest"
+    "github": "https:github.comreadestreadest"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/readest/readest/releases/download/v$version/Readest_$version_x64-setup.exe#/dl.7z"
+        "url": "https:github.comreadestreadestreleasesdownloadv$versionReadest_$version_x64-setup.exe#dl.7z"
       }
     }
   }

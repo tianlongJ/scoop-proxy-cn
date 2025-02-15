@@ -1,17 +1,17 @@
 {
   "version": "1731874563",
   "description": "Just some personal scripts",
-  "homepage": "https://github.com/brian6932/personal-scripts",
-  "url": "https://codeload.github.com/brian6932/personal-scripts/zip/refs/heads/main#/_.zip",
+  "homepage": "https:github.combrian6932personal-scripts",
+  "url": "https:codeload.github.combrian6932personal-scriptsziprefsheadsmain#_.zip",
   "license": "Unknown",
   "hash": "98028ba7e9c4a759a7aebf7e207c99fbeb9160a479fc7d7cf003157e83ef9052",
-  "pre_install": "Rename-Item \"$dir/personal-scripts-main\" \"$dir/bin\"",
+  "pre_install": "Rename-Item \"$dirpersonal-scripts-main\" \"$dirbin\"",
   "env_add_path": "bin",
   "checkver": {
-    "script": "try { Get-Date (Invoke-RestMethod https://api.github.com/repositories/465033301/commits)[0].commit.committer.date -UFormat %s } catch { '' }",
+    "script": "try { Get-Date (Invoke-RestMethod https:api.github.comrepositories465033301commits)[0].commit.committer.date -UFormat %s } catch { '' }",
     "regex": "\\A(\\d+)\\Z"
   },
   "autoupdate": {
-    "url": "https://codeload.github.com/brian6932/personal-scripts/zip/refs/heads/main#/_.zip"
+    "url": "https:codeload.github.combrian6932personal-scriptsziprefsheadsmain#_.zip"
   }
 }

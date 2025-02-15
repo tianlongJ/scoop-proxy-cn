@@ -1,11 +1,11 @@
 {
   "version": "5.0.3.10",
   "description": "qBittorrent BitTorrent client with anti-leech enhancements",
-  "homepage": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
+  "homepage": "https:github.comc0re100qBittorrent-Enhanced-Edition",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.0.3.10/qbittorrent_enhanced_5.0.3.10_x64_setup.exe#/dl.7z",
+      "url": "https:github.comc0re100qBittorrent-Enhanced-Editionreleasesdownloadrelease-5.0.3.10qbittorrent_enhanced_5.0.3.10_x64_setup.exe#dl.7z",
       "hash": "f9f5017c251933d788bc6ab9a4cdc4abf2d64cccb4cd82e28803ff787cc2c369"
     }
   },
@@ -19,13 +19,13 @@
   ],
   "persist": "profile",
   "checkver": {
-    "github": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
-    "regex": "releases/tag/release-([\\d.]+)"
+    "github": "https:github.comc0re100qBittorrent-Enhanced-Edition",
+    "regex": "releasestagrelease-([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-$version/qbittorrent_enhanced_$version_x64_setup.exe#/dl.7z"
+        "url": "https:github.comc0re100qBittorrent-Enhanced-Editionreleasesdownloadrelease-$versionqbittorrent_enhanced_$version_x64_setup.exe#dl.7z"
       }
     }
   }

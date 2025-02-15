@@ -1,17 +1,17 @@
 {
   "version": "2.1.7",
   "description": "Regular expression search and replace tool for Windows.",
-  "homepage": "https://tools.stefankueng.com/grepWin.html",
+  "homepage": "https:tools.stefankueng.comgrepWin.html",
   "license": "GPL-3.0-only",
   "notes": "Run '$dir\\install-context.reg' to add grepWin to right-click context menu.",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/stefankueng/grepWin/releases/download/2.1.7/grepWin-x64-2.1.7_portable.zip",
+      "url": "https:github.comstefankuenggrepWinreleasesdownload2.1.7grepWin-x64-2.1.7_portable.zip",
       "hash": "c334fd84753fe28759a16f818476fef16248b4a0eddf555e904694ce306a6ecb",
       "pre_install": "Rename-Item \"$dir\\grepWin-x64-${version}_portable.exe\" 'grepWin.exe'"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/stefankueng/grepWin/releases/download/2.1.7/grepWin-2.1.7_portable.zip",
+      "url": "https:github.comstefankuenggrepWinreleasesdownload2.1.7grepWin-2.1.7_portable.zip",
       "hash": "6f6079876dd947d12fc20802b1fcc6470791ceb1a227c1ce79bdc89066079e87",
       "pre_install": "Rename-Item \"$dir\\grepWin-${version}_portable.exe\" 'grepWin.exe'"
     }
@@ -39,7 +39,7 @@
     [
       "grepWin.exe",
       "grepWin",
-      "/portable"
+      "portable"
     ]
   ],
   "pre_uninstall": [
@@ -51,15 +51,15 @@
     "}"
   ],
   "checkver": {
-    "github": "https://github.com/stefankueng/grepWin"
+    "github": "https:github.comstefankuenggrepWin"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.zip"
+        "url": "https:github.comstefankuenggrepWinreleasesdownload$versiongrepWin-x64-$version_portable.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.zip"
+        "url": "https:github.comstefankuenggrepWinreleasesdownload$versiongrepWin-$version_portable.zip"
       }
     }
   }

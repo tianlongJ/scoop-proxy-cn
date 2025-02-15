@@ -1,11 +1,11 @@
 {
   "version": "2.84.1",
-  "description": "Glide/DirectX implementation on D3D11/12. Play your old Glide and DirectX games even on the latest, modern versions of Windows.",
-  "homepage": "https://github.com/dege-diosg/dgVoodoo2",
-  "license": "http://dege.freeweb.hu/dgVoodoo2/ReadmeGeneral/#redistributionrights",
+  "description": "GlideDirectX implementation on D3D1112. Play your old Glide and DirectX games even on the latest, modern versions of Windows.",
+  "homepage": "https:github.comdege-diosgdgVoodoo2",
+  "license": "http:dege.freeweb.hudgVoodoo2ReadmeGeneral#redistributionrights",
   "notes": [
     "",
-    "A guide for using the software can be found here: https://www.pcgamingwiki.com/wiki/DgVoodoo_2",
+    "A guide for using the software can be found here: https:www.pcgamingwiki.comwikiDgVoodoo_2",
     "",
     "Basically, you take the DLLs for whatever API you need to convert and copy them to the directory of the application you want to run - usually where the EXE file is located, otherwise where you find other DLL files.",
     "",
@@ -24,10 +24,10 @@
       "dgVoodoo"
     ]
   ],
-  "url": "https://ghfast.top/https://github.com/dege-diosg/dgVoodoo2/releases/download/v2.84.1/dgVoodoo2_84_1.zip",
+  "url": "https:github.comdege-diosgdgVoodoo2releasesdownloadv2.84.1dgVoodoo2_84_1.zip",
   "hash": "f2a7add0a7918e6d373baa74019b6d7955e23ab7b87c9a605f53a1a4e79c1fa9",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/dege-diosg/dgVoodoo2/releases/download/v$version/dgVoodoo$underscoreVersion.zip"
+    "url": "https:github.comdege-diosgdgVoodoo2releasesdownloadv$versiondgVoodoo$underscoreVersion.zip"
   }
 }

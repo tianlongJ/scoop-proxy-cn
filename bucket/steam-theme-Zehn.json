@@ -1,12 +1,12 @@
 {
   "version": "ac47c16",
   "description": "A skin to make Steam look more like a native GNOME app",
-  "homepage": "https://github.com/yurisuika/Zehn",
+  "homepage": "https:github.comyurisuikaZehn",
   "license": "MIT",
   "depends": "steam",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/yurisuika/Zehn/archive/refs/heads/master.zip",
+      "url": "https:github.comyurisuikaZehnarchiverefsheadsmaster.zip",
       "hash": "6834c7d65d440a06ac0ea503ea15b997f8fa149557159e29fa2b0370780ee165"
     }
   },
@@ -16,11 +16,11 @@
     "Copy-Item -Recurse -Force \"$dir\\Zehn-master\" $env:SCOOP\\persist\\steam\\steamui\\skins\\Zehn"
   ],
   "checkver": {
-    "url": "https://github.com/yurisuika/Zehn/commits/master",
-    "regex": "<span class=\"Button-label\">([\\d\\w]+)</span>"
+    "url": "https:github.comyurisuikaZehncommitsmaster",
+    "regex": "<span class=\"Button-label\">([\\d\\w]+)<span>"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/yurisuika/Zehn/archive/refs/heads/master.zip",
+    "url": "https:github.comyurisuikaZehnarchiverefsheadsmaster.zip",
     "hash": {
       "mode": "download"
     }

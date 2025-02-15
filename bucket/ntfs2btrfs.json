@@ -1,15 +1,15 @@
 {
   "version": "20230501",
   "description": "Conversion tool from NTFS to Btrfs",
-  "homepage": "https://github.com/maharmstone/ntfs2btrfs",
+  "homepage": "https:github.commaharmstonentfs2btrfs",
   "license": "GPL-2.0-only",
   "notes": "ntfs2btrfs requires admin privileges to use",
   "suggest": {
-    "WinBtrfs": "nonportable/winbtrfs-np"
+    "WinBtrfs": "nonportablewinbtrfs-np"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/maharmstone/ntfs2btrfs/releases/download/20230501/ntfs2btrfs-20230501.zip",
+      "url": "https:github.commaharmstonentfs2btrfsreleasesdownload20230501ntfs2btrfs-20230501.zip",
       "hash": "01b30ff72feeddca987cc7a40a613c4f123e713027e5f969f652ab918cf2d846"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/maharmstone/ntfs2btrfs/releases/download/$version/ntfs2btrfs-$version.zip"
+        "url": "https:github.commaharmstonentfs2btrfsreleasesdownload$versionntfs2btrfs-$version.zip"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft",
+  "homepage": "https:github.comFriendsOfGalaxygalaxy-integration-minecraft",
   "version": "1.0.3",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/1.0.3/windows.zip",
+  "url": "https:github.comFriendsOfGalaxygalaxy-integration-minecraftreleasesdownload1.0.3windows.zip",
   "hash": "785a8f6bf617b6cd5857ab3ab2bb60380ee95cdfe46262cd545ab47e193c6417",
   "extract_to": "integration",
   "uninstaller": {
@@ -37,7 +37,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -45,7 +45,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -67,9 +67,9 @@
     "}"
   ],
   "checkver": {
-    "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft"
+    "github": "https:github.comFriendsOfGalaxygalaxy-integration-minecraft"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-minecraft/releases/download/$version/windows.zip"
+    "url": "https:github.comFriendsOfGalaxygalaxy-integration-minecraftreleasesdownload$versionwindows.zip"
   }
 }

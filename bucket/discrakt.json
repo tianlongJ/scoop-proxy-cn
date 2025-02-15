@@ -1,17 +1,17 @@
 {
   "version": "2.6.1",
-  "description": "An easy-to-use Trakt/Plex Discord Rich Presence",
-  "homepage": "https://github.com/afonsojramos/discrakt",
+  "description": "An easy-to-use TraktPlex Discord Rich Presence",
+  "homepage": "https:github.comafonsojramosdiscrakt",
   "license": "MIT",
   "notes": [
     "Configure \"$dir\\credentials.ini\" with the required client IDs.",
-    "See https://github.com/afonsojramos/discrakt#setup"
+    "See https:github.comafonsojramosdiscrakt#setup"
   ],
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/afonsojramos/discrakt/releases/download/v2.6.1/discrakt_win64.exe#/discrakt.exe",
-        "https://ghfast.top/https://github.com/afonsojramos/discrakt/releases/download/v2.6.1/credentials.ini"
+        "https:github.comafonsojramosdiscraktreleasesdownloadv2.6.1discrakt_win64.exe#discrakt.exe",
+        "https:github.comafonsojramosdiscraktreleasesdownloadv2.6.1credentials.ini"
       ],
       "hash": [
         "77e13364934e6f340bcf2427f1536a8b0bd86e2ed311528ae450c297171a0709",
@@ -26,8 +26,8 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://ghfast.top/https://github.com/afonsojramos/discrakt/releases/download/v$version/discrakt_win64.exe#/discrakt.exe",
-          "https://ghfast.top/https://github.com/afonsojramos/discrakt/releases/download/v$version/credentials.ini"
+          "https:github.comafonsojramosdiscraktreleasesdownloadv$versiondiscrakt_win64.exe#discrakt.exe",
+          "https:github.comafonsojramosdiscraktreleasesdownloadv$versioncredentials.ini"
         ]
       }
     }

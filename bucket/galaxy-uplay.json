@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/GOG-Nebula/galaxy-integration-uplay",
+  "homepage": "https:github.comGOG-Nebulagalaxy-integration-uplay",
   "version": "5eb6810",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/GOG-Nebula/galaxy-integration-uplay/releases/download/early_release_0.55.5.1/uplay_win_afb5a69c-b2ee-4d58-b916-f4cd75d4999a.zip",
+  "url": "https:github.comGOG-Nebulagalaxy-integration-uplayreleasesdownloadearly_release_0.55.5.1uplay_win_afb5a69c-b2ee-4d58-b916-f4cd75d4999a.zip",
   "hash": "e6362512345a9b60199c31747eaef609790d820f9ba63abaf03ea3a119ff78de",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/GOG-Nebula/galaxy-integration-uplay/blob/master/LICENSE"
+    "url": "https:github.comGOG-Nebulagalaxy-integration-uplayblobmasterLICENSE"
   },
   "extract_to": "integration",
   "uninstaller": {
@@ -41,7 +41,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -49,7 +49,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -71,10 +71,10 @@
     "}"
   ],
   "checkver": {
-    "github": "https://github.com/GOG-Nebula/galaxy-integration-uplay",
-    "regex": "commit[/:]\\s?([a-f0-9]{7})"
+    "github": "https:github.comGOG-Nebulagalaxy-integration-uplay",
+    "regex": "commit[:]\\s?([a-f0-9]{7})"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/GOG-Nebula/galaxy-integration-uplay/archive/refs/heads/master.zip"
+    "url": "https:github.comGOG-Nebulagalaxy-integration-uplayarchiverefsheadsmaster.zip"
   }
 }

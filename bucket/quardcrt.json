@@ -1,14 +1,14 @@
 {
   "version": "0.5.1",
-  "description": "quardCRT is a terminal emulation software that supports multiple terminal protocols, can be used across platforms without dependencies, and has a completely consistent user experience on windows/linux/mac. It supports multiple tabs and history management.",
-  "homepage": "https://github.com/QQxiaoming/quardCRT",
+  "description": "quardCRT is a terminal emulation software that supports multiple terminal protocols, can be used across platforms without dependencies, and has a completely consistent user experience on windowslinuxmac. It supports multiple tabs and history management.",
+  "homepage": "https:github.comQQxiaomingquardCRT",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https://github.com/QQxiaoming/quardCRT/blob/main/LICENSE"
+    "url": "https:github.comQQxiaomingquardCRTblobmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/QQxiaoming/quardCRT/releases/download/V0.5.1/quardCRT_windows_V051_x86_64_msvc_setup.exe",
+      "url": "https:github.comQQxiaomingquardCRTreleasesdownloadV0.5.1quardCRT_windows_V051_x86_64_msvc_setup.exe",
       "hash": "945a6b866341d409bacc78561a0cce437bec75b54f52e25a6f8389c6eb17dac4"
     }
   },
@@ -29,13 +29,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/QQxiaoming/quardCRT/releases.atom",
-    "regex": "/releases/tag/V([\\d.]+)"
+    "url": "https:github.comQQxiaomingquardCRTreleases.atom",
+    "regex": "releasestagV([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/QQxiaoming/quardCRT/releases/download/V$version/quardCRT_windows_V$cleanVersion_x86_64_msvc_setup.exe"
+        "url": "https:github.comQQxiaomingquardCRTreleasesdownloadV$versionquardCRT_windows_V$cleanVersion_x86_64_msvc_setup.exe"
       }
     }
   }

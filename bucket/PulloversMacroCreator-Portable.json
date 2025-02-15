@@ -1,10 +1,10 @@
 {
   "version": "5.4.1",
   "description": "Pullover's Macro Creator. Automation tool and script generator based on AutoHotkey language",
-  "homepage": "https://www.macrocreator.com",
+  "homepage": "https:www.macrocreator.com",
   "license": "GPL-3.0-or-later",
-  "changelog": "https://github.com/Pulover/PuloversMacroCreator/releases",
-  "url": "https://ghfast.top/https://github.com/Pulover/PuloversMacroCreator/releases/download/v5.4.1/PuloversMacroCreator-Portable.zip",
+  "changelog": "https:github.comPuloverPuloversMacroCreatorreleases",
+  "url": "https:github.comPuloverPuloversMacroCreatorreleasesdownloadv5.4.1PuloversMacroCreator-Portable.zip",
   "hash": "aebdf335913eae4270b585339727b44593a98d17d73a3aae80e4d46d27c01310",
   "architecture": {
     "64bit": {
@@ -29,9 +29,9 @@
     "MacroCreator.ini"
   ],
   "checkver": {
-    "github": "https://github.com/Pulover/PuloversMacroCreator"
+    "github": "https:github.comPuloverPuloversMacroCreator"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Pulover/PuloversMacroCreator/releases/download/v$version/PuloversMacroCreator-Portable.zip"
+    "url": "https:github.comPuloverPuloversMacroCreatorreleasesdownloadv$versionPuloversMacroCreator-Portable.zip"
   }
 }

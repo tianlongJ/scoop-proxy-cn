@@ -1,7 +1,7 @@
 {
   "version": "28.1.2",
   "description": "Video recording and live streaming software",
-  "homepage": "https://obsproject.com",
+  "homepage": "https:obsproject.com",
   "license": "GPL-2.0-only",
   "notes": [
     "Add Virtual Camera module by running: \"$dir\\data\\obs-plugins\\win-dshow\\virtualcam-install.bat\"",
@@ -9,7 +9,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-28.1.2-Full-x64.zip",
+      "url": "https:cdn-fastly.obsproject.comdownloadsOBS-Studio-28.1.2-Full-x64.zip",
       "hash": "920079bed721e52c83f36b1745a6cc5fefafc192017bd430fd77f39141e6c9ca",
       "shortcuts": [
         [
@@ -25,13 +25,13 @@
     "portable_mode.txt"
   ],
   "checkver": {
-    "url": "https://github.com/obsproject/obs-studio/tags?after=29.0.0-beta1",
-    "regex": "/obsproject/obs-studio/releases/tag/(28[\\d.]+)"
+    "url": "https:github.comobsprojectobs-studiotags?after=29.0.0-beta1",
+    "regex": "obsprojectobs-studioreleasestag(28[\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-$version-Full-x64.zip"
+        "url": "https:cdn-fastly.obsproject.comdownloadsOBS-Studio-$version-Full-x64.zip"
       }
     }
   }

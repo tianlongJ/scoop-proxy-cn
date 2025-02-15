@@ -1,15 +1,15 @@
 {
   "version": "0.23.1-beta",
   "description": "The private YouTube client",
-  "homepage": "https://freetubeapp.io",
+  "homepage": "https:freetubeapp.io",
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.1-beta/freetube-0.23.1-win-x64-portable.7z",
+      "url": "https:github.comFreeTubeAppFreeTubereleasesdownloadv0.23.1-betafreetube-0.23.1-win-x64-portable.7z",
       "hash": "21c15770003dc3a67a8dd10b346d6f13b6026c797c6212048b2d266dc218d20f"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.1-beta/freetube-0.23.1-win-arm64-portable.7z",
+      "url": "https:github.comFreeTubeAppFreeTubereleasesdownloadv0.23.1-betafreetube-0.23.1-win-arm64-portable.7z",
       "hash": "84a07922625b97ebc7d78388fad07eee91d64c0e95f55dc086e0f37c92419304"
     }
   },
@@ -20,16 +20,16 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/FreeTubeApp/FreeTube/tags",
-    "regex": "v([\\w.-]+)</a></h2>"
+    "url": "https:github.comFreeTubeAppFreeTubetags",
+    "regex": "v([\\w.-]+)<a><h2>"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/FreeTubeApp/FreeTube/releases/download/v$version/freetube-$matchHead-win-x64-portable.7z"
+        "url": "https:github.comFreeTubeAppFreeTubereleasesdownloadv$versionfreetube-$matchHead-win-x64-portable.7z"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/FreeTubeApp/FreeTube/releases/download/v$version/freetube-$matchHead-win-arm64-portable.7z"
+        "url": "https:github.comFreeTubeAppFreeTubereleasesdownloadv$versionfreetube-$matchHead-win-arm64-portable.7z"
       }
     }
   }

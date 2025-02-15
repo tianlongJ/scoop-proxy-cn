@@ -1,13 +1,13 @@
 {
   "version": "16.7",
   "description": "Optimizer. Advanced configuration utility that helps you restore your privacy and increase your security.",
-  "homepage": "https://github.com/hellzerg/optimizer",
+  "homepage": "https:github.comhellzergoptimizer",
   "license": {
     "identifier": "GPL-3.0 license",
-    "url": "https://github.com/hellzerg/optimizer/blob/master/LICENSE"
+    "url": "https:github.comhellzergoptimizerblobmasterLICENSE"
   },
-  "changelog": "https://github.com/hellzerg/optimizer/releases",
-  "url": "https://ghfast.top/https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe",
+  "changelog": "https:github.comhellzergoptimizerreleases",
+  "url": "https:github.comhellzergoptimizerreleasesdownload16.7Optimizer-16.7.exe",
   "hash": "03a234060541b686ac4265754aff43df9325c21383f90e17f831e67965d717f8",
   "pre_install": "Get-ChildItem \"$dir\\Optimizer*.exe\" | Rename-Item -NewName 'Optimizer.exe'",
   "shortcuts": [
@@ -17,10 +17,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/hellzerg/optimizer/releases",
-    "regex": "/releases/tag/([\\d.]+)"
+    "url": "https:api.github.comreposhellzergoptimizerreleases",
+    "regex": "releasestag([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/hellzerg/optimizer/releases/download/$version/Optimizer-$version.exe"
+    "url": "https:github.comhellzergoptimizerreleasesdownload$versionOptimizer-$version.exe"
   }
 }

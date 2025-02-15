@@ -1,11 +1,11 @@
 {
   "version": "1.3.82",
   "description": "Mission Planner Ground Control Station for ArduPilot (C# .net)",
-  "homepage": "https://github.com/ArduPilot/MissionPlanner",
+  "homepage": "https:github.comArduPilotMissionPlanner",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ArduPilot/MissionPlanner/releases/download/MissionPlanner1.3.82/MissionPlanner-1.3.82.zip",
+      "url": "https:github.comArduPilotMissionPlannerreleasesdownloadMissionPlanner1.3.82MissionPlanner-1.3.82.zip",
       "hash": "e79e1f143c47328e23577cab3dd1a00d843a5de5be4d675520890640805dac24"
     }
   },
@@ -17,13 +17,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/ArduPilot/MissionPlanner/releases/latest",
+    "url": "https:github.comArduPilotMissionPlannerreleaseslatest",
     "regex": "MissionPlanner([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ArduPilot/MissionPlanner/releases/download/MissionPlanner$version/MissionPlanner-$version.zip"
+        "url": "https:github.comArduPilotMissionPlannerreleasesdownloadMissionPlanner$versionMissionPlanner-$version.zip"
       }
     }
   }

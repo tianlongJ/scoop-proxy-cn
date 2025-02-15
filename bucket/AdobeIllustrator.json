@@ -1,8 +1,8 @@
 {
   "version": "25.0.0.60",
-  "homepage": "https://www.ghpym.com/ai2021green.html",
+  "homepage": "https:www.ghpym.comai2021green.html",
   "depends": "sudo",
-  "url": "https://scoop-zapps.ziiyc.com/d/AdobeIllustrator/AdobeIllustrator-25.0.0.60.7z#/dl.7z",
+  "url": "https:scoop-zapps.ziiyc.comdAdobeIllustratorAdobeIllustrator-25.0.0.60.7z#dl.7z",
   "hash": "9e35a68a29598776fe5486894cd96162539d56e1c7bf56bfc12757763d17cb5f",
   "pre_install": [
     "$null, $bucket = find_manifest($app)",
@@ -11,10 +11,10 @@
     "(gc \"$bucketdir\\..\\scripts\\AdobeIllustrator\\Uninstall.bat\") | out-file -enc oem \"$dir\\Uninstall.bat\""
   ],
   "installer": {
-    "script": "sudo cmd /c \"$dir\\Install.bat\""
+    "script": "sudo cmd c \"$dir\\Install.bat\""
   },
   "uninstaller": {
-    "script": "sudo cmd /c \"$dir\\Uninstall.bat\""
+    "script": "sudo cmd c \"$dir\\Uninstall.bat\""
   },
   "extract_dir": "Illustrator",
   "shortcuts": [
@@ -24,11 +24,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/AdobeIllustrator.latest",
+    "url": "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterversionsAdobeIllustrator.latest",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://scoop-zapps.ziiyc.com/d/AdobeIllustrator/AdobeIllustrator-$version.7z#/dl.7z",
+    "url": "https:scoop-zapps.ziiyc.comdAdobeIllustratorAdobeIllustrator-$version.7z#dl.7z",
     "hash": {
       "url": "$url.sha256",
       "regex": "$sha256"

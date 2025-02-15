@@ -1,8 +1,8 @@
 {
   "version": "1.1.1",
   "description": "DotNetVersions",
-  "homepage": "https://github.com/jmalarcon/DotNetVersions",
-  "url": "https://ghfast.top/https://github.com/jmalarcon/DotNetVersions/releases/download/v1.1.1/DotNetVersions.zip",
+  "homepage": "https:github.comjmalarconDotNetVersions",
+  "url": "https:github.comjmalarconDotNetVersionsreleasesdownloadv1.1.1DotNetVersions.zip",
   "hash": "",
   "bin": "DotNetVersions.exe",
   "shortcuts": [
@@ -13,6 +13,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/jmalarcon/DotNetVersions/releases/download/v$version/DotNetVersions.zip"
+    "url": "https:github.comjmalarconDotNetVersionsreleasesdownloadv$versionDotNetVersions.zip"
   }
 }

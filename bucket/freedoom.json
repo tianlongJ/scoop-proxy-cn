@@ -1,7 +1,7 @@
 {
   "version": "0.13.0",
   "description": "Free content replacements for Doom and Doom II single-player game",
-  "homepage": "https://freedoom.github.io/",
+  "homepage": "https:freedoom.github.io",
   "license": "BSD-3-Clause",
   "notes": "GZDoom is a recommended Doom source port by the Freedoom project",
   "suggest": {
@@ -15,14 +15,14 @@
       "qzdoom"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
+  "url": "https:github.comfreedoomfreedoomreleasesdownloadv0.13.0freedoom-0.13.0.zip",
   "hash": "3f9b264f3e3ce503b4fb7f6bdcb1f419d93c7b546f4df3e874dd878db9688f59",
   "extract_dir": "freedoom-0.13.0",
   "installer": {
     "script": [
       "$dlFile = 'dl.zip'",
       "$archiveUrls = @(",
-      "   \"https://ghfast.top/https://github.com/freedoom/freedoom/releases/download/v$version/freedm-$version.zip\"",
+      "   \"https:github.comfreedoomfreedoomreleasesdownloadv$versionfreedm-$version.zip\"",
       ")",
       "$archiveUrls | ForEach-Object {",
       "   Invoke-CachedDownload $app $version \"$_\" \"$dir\\$dlFile\"",
@@ -51,10 +51,10 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/freedoom/freedoom"
+    "github": "https:github.comfreedoomfreedoom"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/freedoom/freedoom/releases/download/v$version/freedoom-$version.zip",
+    "url": "https:github.comfreedoomfreedoomreleasesdownloadv$versionfreedoom-$version.zip",
     "extract_dir": "freedoom-$version"
   }
 }

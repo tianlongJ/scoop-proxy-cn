@@ -1,22 +1,22 @@
 {
-  "$schema": "https://ghfast.top/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "homepage": "https://github.com/Ecks1337/RyuSAK",
+  "$schema": "https:raw.githubusercontent.comScoopInstallerScoopmasterschema.json",
+  "homepage": "https:github.comEcks1337RyuSAK",
   "license": "GPLv3",
   "version": "1.6.2",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Ecks1337/RyuSAK/releases/download/v1.6.2/RyuSAK-win32-x64-1.6.2.zip",
+      "url": "https:github.comEcks1337RyuSAKreleasesdownloadv1.6.2RyuSAK-win32-x64-1.6.2.zip",
       "hash": "25288b17fb16f9424003d33247651da2cc6d4a8ca8fcc0c4b52b5addf7e8760e"
     }
   },
   "bin": "RyuSAK.exe",
   "checkver": {
-    "github": "https://github.com/Ecks1337/RyuSAK"
+    "github": "https:github.comEcks1337RyuSAK"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Ecks1337/RyuSAK/releases/download/v$version/RyuSAK-win32-x64-$version.zip"
+        "url": "https:github.comEcks1337RyuSAKreleasesdownloadv$versionRyuSAK-win32-x64-$version.zip"
       }
     }
   },

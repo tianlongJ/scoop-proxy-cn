@@ -1,11 +1,11 @@
 {
   "version": "25.02",
   "description": "Powerful and intelligent flash cards",
-  "homepage": "https://apps.ankiweb.net",
+  "homepage": "https:apps.ankiweb.net",
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ankitects/anki/releases/download/25.02/anki-25.02-windows-qt6.exe#/dl.7z",
+      "url": "https:github.comankitectsankireleasesdownload25.02anki-25.02-windows-qt6.exe#dl.7z",
       "hash": "16e3076dde0048cf7247af001552682d96ca3d0e9ca8ce16a6bb2d63e6ac57c8"
     }
   },
@@ -13,10 +13,10 @@
     "@(",
     "    '@echo off'",
     "    'SET _allParams=\"%*\"'",
-    "    'IF /i %_allParams:-b =%==%_allParams% ('",
-    "    \"    start `\"anki`\" /D `\"%~dp0`\" `\"%~dp0anki.exe`\" -b `\"$persist_dir\\data`\" %*\"",
+    "    'IF i %_allParams:-b =%==%_allParams% ('",
+    "    \"    start `\"anki`\" D `\"%~dp0`\" `\"%~dp0anki.exe`\" -b `\"$persist_dir\\data`\" %*\"",
     "    ') ELSE ('",
-    "    '    start \"anki\" /D \"%~dp0\" \"%~dp0anki.exe\" %*'",
+    "    '    start \"anki\" D \"%~dp0\" \"%~dp0anki.exe\" %*'",
     "    ')'",
     ") | Set-Content \"$dir\\anki.cmd\" -Encoding ASCII",
     "Remove-Item \"$dir\\`$*\" -Recurse"
@@ -32,16 +32,16 @@
   ],
   "persist": "data",
   "checkver": {
-    "github": "https://github.com/ankitects/anki"
+    "github": "https:github.comankitectsanki"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ankitects/anki/releases/download/$version/anki-$version-windows-qt6.exe#/dl.7z"
+        "url": "https:github.comankitectsankireleasesdownload$versionanki-$version-windows-qt6.exe#dl.7z"
       }
     },
     "hash": {
-      "url": "$baseurl/anki-$version-checksums.txt"
+      "url": "$baseurlanki-$version-checksums.txt"
     }
   }
 }

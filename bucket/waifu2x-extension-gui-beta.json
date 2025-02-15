@@ -1,13 +1,13 @@
 {
   "version": "3.121.12-beta",
-  "description": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x, Real-ESRGAN, SRMD, RealSR, Anime4K, RIFE, CAIN, DAIN, and ACNet.",
-  "homepage": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
+  "description": "Video, Image and GIF upscaleenlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x, Real-ESRGAN, SRMD, RealSR, Anime4K, RIFE, CAIN, DAIN, and ACNet.",
+  "homepage": "https:github.comAaronFeng753Waifu2x-Extension-GUI",
   "license": {
     "identifier": "Freeware"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v3.121.12-beta/Waifu2x-Extension-GUI-v3.121.12-beta-Win64.7z",
+      "url": "https:github.comAaronFeng753Waifu2x-Extension-GUIreleasesdownloadv3.121.12-betaWaifu2x-Extension-GUI-v3.121.12-beta-Win64.7z",
       "hash": "ec2b27d99623eff24fc908145a988c492436112dcb41fc9eaadd2a16817151c6",
       "extract_dir": "waifu2x-extension-gui"
     }
@@ -32,15 +32,15 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/AaronFeng753/Waifu2x-Extension-GUI/releases",
-    "regex": "(?sm)browser_download_url.*?releases/download/v([\\d.]+-[\\w]+)/(?<file>Waifu2x-Extension-GUI.*?.7z)"
+    "url": "https:api.github.comreposAaronFeng753Waifu2x-Extension-GUIreleases",
+    "regex": "(?sm)browser_download_url.*?releasesdownloadv([\\d.]+-[\\w]+)(?<file>Waifu2x-Extension-GUI.*?.7z)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v$version/$matchFile",
+        "url": "https:github.comAaronFeng753Waifu2x-Extension-GUIreleasesdownloadv$version$matchFile",
         "hash": {
-          "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/tag/v$version",
+          "url": "https:github.comAaronFeng753Waifu2x-Extension-GUIreleasestagv$version",
           "mode": "extract",
           "regex": "(?sm)$basename.*?$sha256"
         }

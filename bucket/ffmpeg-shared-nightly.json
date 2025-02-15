@@ -1,11 +1,11 @@
 {
   "version": "118469",
   "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
-  "homepage": "https://ffmpeg.org",
+  "homepage": "https:ffmpeg.org",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-02-14-12-59/ffmpeg-N-118469-g75ade2dd49-win64-gpl-shared.zip",
+      "url": "https:github.comBtbNFFmpeg-Buildsreleasesdownloadautobuild-2025-02-14-12-59ffmpeg-N-118469-g75ade2dd49-win64-gpl-shared.zip",
       "hash": "76440f8864da96293ba7491a77b38ea74d32feb01fb366b806eff3a2fb8432cb",
       "extract_dir": "ffmpeg-N-118469-g75ade2dd49-win64-gpl-shared"
     }
@@ -16,14 +16,14 @@
     "bin\\ffprobe.exe"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/292087234/releases",
+    "url": "https:api.github.comrepositories292087234releases",
     "jsonpath": "$..browser_download_url",
-    "regex": "autobuild-(?<time>[\\d-]+)/ffmpeg-N-(\\d+)-g(?<hash>[a-z\\d]+)-win64-gpl-shared\\.zip"
+    "regex": "autobuild-(?<time>[\\d-]+)ffmpeg-N-(\\d+)-g(?<hash>[a-z\\d]+)-win64-gpl-shared\\.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-win64-gpl-shared.zip",
+        "url": "https:github.comBtbNFFmpeg-Buildsreleasesdownloadautobuild-$matchTimeffmpeg-N-$version-g$matchHash-win64-gpl-shared.zip",
         "extract_dir": "ffmpeg-N-$version-g$matchHash-win64-gpl-shared"
       }
     }

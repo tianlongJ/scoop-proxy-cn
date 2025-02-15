@@ -1,11 +1,11 @@
 {
   "version": "122",
   "description": "Compiler infrastructure and toolchain library for WebAssembly",
-  "homepage": "https://github.com/WebAssembly/binaryen",
+  "homepage": "https:github.comWebAssemblybinaryen",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/WebAssembly/binaryen/releases/download/version_122/binaryen-version_122-x86_64-windows.tar.gz",
+      "url": "https:github.comWebAssemblybinaryenreleasesdownloadversion_122binaryen-version_122-x86_64-windows.tar.gz",
       "hash": "478dedfda90092acbeda3525a78d127f13385eb0ec0fb772b844472a96ad42f5"
     }
   },
@@ -24,13 +24,13 @@
     "bin\\wasm-merge.exe"
   ],
   "checkver": {
-    "github": "https://github.com/WebAssembly/binaryen",
-    "regex": "tag/version_(\\d+)"
+    "github": "https:github.comWebAssemblybinaryen",
+    "regex": "tagversion_(\\d+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz",
+        "url": "https:github.comWebAssemblybinaryenreleasesdownloadversion_$versionbinaryen-version_$version-x86_64-windows.tar.gz",
         "hash": {
           "url": "$url.sha256"
         }

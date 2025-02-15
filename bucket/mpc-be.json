@@ -1,11 +1,11 @@
 {
   "version": "1.8.3",
   "description": "Fork of Media Player Classic containing additional features and bug fixes.",
-  "homepage": "https://sourceforge.net/projects/mpcbe/",
+  "homepage": "https:sourceforge.netprojectsmpcbe",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Aleksoid1978/MPC-BE/releases/download/1.8.3/MPC-BE.1.8.3.x64.7z",
+      "url": "https:github.comAleksoid1978MPC-BEreleasesdownload1.8.3MPC-BE.1.8.3.x64.7z",
       "hash": "sha1:843d25cda19d101446018fc9b6ce6568de64b06d",
       "extract_dir": "MPC-BE.1.8.3.x64",
       "bin": [
@@ -23,7 +23,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/Aleksoid1978/MPC-BE/releases/download/1.8.3/MPC-BE.1.8.3.x86.7z",
+      "url": "https:github.comAleksoid1978MPC-BEreleasesdownload1.8.3MPC-BE.1.8.3.x86.7z",
       "hash": "sha1:195bf399f39f55a20fa2c6617508615b4caeae47",
       "extract_dir": "MPC-BE.1.8.3.x86",
       "bin": "mpc-be.exe",
@@ -47,21 +47,21 @@
     "favorites.mpc_lst"
   ],
   "checkver": {
-    "github": "https://github.com/Aleksoid1978/MPC-BE"
+    "github": "https:github.comAleksoid1978MPC-BE"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Aleksoid1978/MPC-BE/releases/download/$version/MPC-BE.$version.x64.7z",
+        "url": "https:github.comAleksoid1978MPC-BEreleasesdownload$versionMPC-BE.$version.x64.7z",
         "extract_dir": "MPC-BE.$version.x64"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/Aleksoid1978/MPC-BE/releases/download/$version/MPC-BE.$version.x86.7z",
+        "url": "https:github.comAleksoid1978MPC-BEreleasesdownload$versionMPC-BE.$version.x86.7z",
         "extract_dir": "MPC-BE.$version.x86"
       }
     },
     "hash": {
-      "url": "$baseurl/mpc-be.$version.checksums.sha"
+      "url": "$baseurlmpc-be.$version.checksums.sha"
     }
   }
 }

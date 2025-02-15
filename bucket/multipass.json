@@ -1,10 +1,10 @@
 {
   "version": "1.14.1",
   "description": "A lightweight VM manager, designed for developers who want a fresh Ubuntu environment with a single command.",
-  "homepage": "https://multipass.run",
+  "homepage": "https:multipass.run",
   "license": {
     "identifier": "GPL-3.0-only",
-    "url": "https://github.com/canonical/multipass/blob/main/COPYING.GPL.txt"
+    "url": "https:github.comcanonicalmultipassblobmainCOPYING.GPL.txt"
   },
   "notes": [
     "Select hypervisor:",
@@ -13,11 +13,11 @@
     "Daemon Management:",
     " - See 'multipassd --help'",
     "",
-    "Official documentation: https://multipass.run/docs"
+    "Official documentation: https:multipass.rundocs"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/canonical/multipass/releases/download/v1.14.1/multipass-1.14.1+win-win64.exe#/dl.7z",
+      "url": "https:github.comcanonicalmultipassreleasesdownloadv1.14.1multipass-1.14.1+win-win64.exe#dl.7z",
       "hash": "5469cc8a114925537f66174e608c59fa21a86753176f957fc005e95492a96599"
     }
   },
@@ -33,12 +33,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/canonical/multipass"
+    "github": "https:github.comcanonicalmultipass"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/canonical/multipass/releases/download/v$version/multipass-$version+win-win64.exe#/dl.7z"
+        "url": "https:github.comcanonicalmultipassreleasesdownloadv$versionmultipass-$version+win-win64.exe#dl.7z"
       }
     }
   }

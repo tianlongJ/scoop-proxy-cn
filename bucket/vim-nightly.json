@@ -1,7 +1,7 @@
 {
   "version": "9.1.1113",
   "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
-  "homepage": "https://www.vim.org",
+  "homepage": "https:www.vim.org",
   "license": "Vim",
   "notes": "Add gVim as a context menu option by running: \"$dir\\install-context.reg\"",
   "suggest": {
@@ -9,11 +9,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/vim/vim-win32-installer/releases/download/v9.1.1113/gvim_9.1.1113_x64.zip",
+      "url": "https:github.comvimvim-win32-installerreleasesdownloadv9.1.1113gvim_9.1.1113_x64.zip",
       "hash": "7c36a938d2f13dafe9299bcc9de6b0900fe505162f52300708cb93a3e7bd40e5"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/vim/vim-win32-installer/releases/download/v9.1.1113/gvim_9.1.1113_x86.zip",
+      "url": "https:github.comvimvim-win32-installerreleasesdownloadv9.1.1113gvim_9.1.1113_x86.zip",
       "hash": "b813827be2cdbc1fb065154c2d59e3ba890c00cdd6651ac0f4b889cfc3eda409"
     }
   },
@@ -98,15 +98,15 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/vim/vim-win32-installer"
+    "github": "https:github.comvimvim-win32-installer"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip"
+        "url": "https:github.comvimvim-win32-installerreleasesdownloadv$versiongvim_$version_x64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x86.zip"
+        "url": "https:github.comvimvim-win32-installerreleasesdownloadv$versiongvim_$version_x86.zip"
       }
     },
     "extract_dir": "vim\\vim$majorVersion$minorVersion"

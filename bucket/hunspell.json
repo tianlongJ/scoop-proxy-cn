@@ -1,11 +1,11 @@
 {
   "version": "1.7.2",
   "description": "The most popular spellchecking library",
-  "homepage": "https://github.com/iquiw/hunspell-binary",
+  "homepage": "https:github.comiquiwhunspell-binary",
   "license": "GPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/iquiw/hunspell-binary/releases/download/v1.7.2/hunspell-v1.7.2.7z",
+      "url": "https:github.comiquiwhunspell-binaryreleasesdownloadv1.7.2hunspell-v1.7.2.7z",
       "hash": "9234ab41e0fab218839435e2ca0ecf040ce2becddb054511932e38f3640972f2"
     }
   },
@@ -15,11 +15,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/iquiw/hunspell-binary/releases/download/v$version/hunspell-v$version.7z"
+        "url": "https:github.comiquiwhunspell-binaryreleasesdownloadv$versionhunspell-v$version.7z"
       }
     },
     "hash": {
-      "url": "$baseurl/sha256sum.txt"
+      "url": "$baseurlsha256sum.txt"
     }
   }
 }

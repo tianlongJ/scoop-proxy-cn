@@ -1,21 +1,21 @@
 {
   "version": "2.2.6rc11",
   "description": "ZFS filesystem driver for Windows",
-  "homepage": "https://github.com/openzfsonwindows/openzfs",
+  "homepage": "https:github.comopenzfsonwindowsopenzfs",
   "license": "CDDL",
-  "url": "https://ghfast.top/https://github.com/openzfsonwindows/openzfs/releases/download/zfswin-2.2.6rc11/OpenZFSOnWindows-debug-2.2.6rc11.exe",
+  "url": "https:github.comopenzfsonwindowsopenzfsreleasesdownloadzfswin-2.2.6rc11OpenZFSOnWindows-debug-2.2.6rc11.exe",
   "hash": "2d6db0837407e4ea2542989c1ede24710f8ea1af9b375d3430c97ba6df7ae4d9",
   "innosetup": true,
   "pre_install": [
     "if (!$global) { Write-Host -Foreground Red \"$app should be installed globally.\"; break }",
-    "'symbols', 'CODE_OF_CONDUCT.md', 'HowToDebug.txt', 'README,*.md' | ForEach-Object { Remove-Item -Recurse \"$dir/$_\" }"
+    "'symbols', 'CODE_OF_CONDUCT.md', 'HowToDebug.txt', 'README,*.md' | ForEach-Object { Remove-Item -Recurse \"$dir$_\" }"
   ],
   "installer": {
     "script": [
       "using namespace System.Security.Cryptography.X509Certificates",
       "# Add cert first before installing driver",
-      "$cert = (Get-AuthenticodeSignature \"$dir/OpenZFS.cat\").SignerCertificate",
-      "if (!(Get-ChildItem Cert:/CurrentUser/TrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq $cert.Thumbprint })) {",
+      "$cert = (Get-AuthenticodeSignature \"$dirOpenZFS.cat\").SignerCertificate",
+      "if (!(Get-ChildItem Cert:CurrentUserTrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq $cert.Thumbprint })) {",
       "    Write-Host 'Cert not found, adding to trusted store...'",
       "    $store = [X509Store]::new([StoreName]::TrustedPublisher, [StoreLocation]::LocalMachine)",
       "    $store.Open([OpenFlags]::ReadWrite)",
@@ -24,14 +24,14 @@
       "}",
       "",
       "Write-Host 'Installing driver...'",
-      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('/add-driver', \"$dir\\OpenZFS.inf\", '/install') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the installation.' }"
+      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('add-driver', \"$dir\\OpenZFS.inf\", 'install') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the installation.' }"
     ]
   },
   "uninstaller": {
     "script": [
       "if ($cmd -ne 'uninstall') { return }",
-      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('/remove-device', 'ROOT\\OpenZFS\\0000') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the uninstallation.' }",
-      "$null = pnputil.exe /delete-driver \"$dir\\OpenZFS.inf\" /uninstall",
+      "$null = Invoke-ExternalCommand pnputil.exe -ArgumentList @('remove-device', 'ROOT\\OpenZFS\\0000') -RunAs -ContinueExitCodes @{ 3010 = 'A system reboot is required to finalize the uninstallation.' }",
+      "$null = pnputil.exe delete-driver \"$dir\\OpenZFS.inf\" uninstall",
       "$null = sc.exe delete OpenZFS"
     ]
   },
@@ -45,11 +45,11 @@
     "zstreamdump.exe"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/283909729/releases/latest",
+    "url": "https:api.github.comrepositories283909729releaseslatest",
     "jsonpath": "$.tag_name",
     "regex": "\\Azfswin-([\\w.]+)\\Z"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/openzfsonwindows/openzfs/releases/download/zfswin-$version/OpenZFSOnWindows-debug-$version.exe"
+    "url": "https:github.comopenzfsonwindowsopenzfsreleasesdownloadzfswin-$versionOpenZFSOnWindows-debug-$version.exe"
   }
 }

@@ -1,14 +1,14 @@
 {
   "version": "2104",
   "description": "Nintendo 3DS emulator",
-  "homepage": "https://citra-emu.org/",
+  "homepage": "https:citra-emu.org",
   "license": {
-    "url": "https://github.com/citra-emu/citra-nightly/blob/master/license.txt",
+    "url": "https:github.comcitra-emucitra-nightlyblobmasterlicense.txt",
     "identifier": "GPL-2.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/citra-emu/citra-nightly/releases/download/nightly-2104/citra-windows-msvc-20240303-0ff3440.7z",
+      "url": "https:github.comcitra-emucitra-nightlyreleasesdownloadnightly-2104citra-windows-msvc-20240303-0ff3440.7z",
       "hash": "92bc583bb702fac50a49d59752ec897a445b541089d7fabbf352bc44dac2fc1b"
     }
   },
@@ -36,13 +36,13 @@
   ],
   "persist": "user",
   "checkver": {
-    "github": "https://github.com/citra-emu/citra-nightly",
-    "regex": "download/nightly-([\\d]+)/citra-windows-(?<env>[\\w]+)-(?<commit>[\\d]{8}-[\\da-f]{7})\\.(?<zip>7z|zip)"
+    "github": "https:github.comcitra-emucitra-nightly",
+    "regex": "downloadnightly-([\\d]+)citra-windows-(?<env>[\\w]+)-(?<commit>[\\d]{8}-[\\da-f]{7})\\.(?<zip>7z|zip)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/citra-emu/citra-nightly/releases/download/nightly-$version/citra-windows-$matchEnv-$matchCommit.$matchZip"
+        "url": "https:github.comcitra-emucitra-nightlyreleasesdownloadnightly-$versioncitra-windows-$matchEnv-$matchCommit.$matchZip"
       }
     },
     "extract_dir": "nightly-$matchEnv"

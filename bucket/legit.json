@@ -1,10 +1,10 @@
 {
   "version": "1.2.0",
   "description": "Complementary command-line interface for Git.",
-  "homepage": "https://frostming.github.io/legit/",
+  "homepage": "https:frostming.github.iolegit",
   "license": {
     "identifier": "Freeware",
-    "url": "https://github.com/frostming/legit/blob/master/LICENSE"
+    "url": "https:github.comfrostminglegitblobmasterLICENSE"
   },
   "suggest": {
     "git": [
@@ -12,7 +12,7 @@
       "git-with-openssh"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/frostming/legit/releases/download/1.2.0/legit.exe",
+  "url": "https:github.comfrostminglegitreleasesdownload1.2.0legit.exe",
   "hash": "2c4aa8a777141cad9171a7aec9b91d6570443644f7ca040903773620074d361b",
   "post_install": "'y' | legit --install | Out-Null",
   "uninstaller": {
@@ -20,10 +20,10 @@
   },
   "bin": "legit.exe",
   "checkver": {
-    "github": "https://github.com/frostming/legit"
+    "github": "https:github.comfrostminglegit"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/frostming/legit/releases/download/$version/legit.exe",
+    "url": "https:github.comfrostminglegitreleasesdownload$versionlegit.exe",
     "hash": {
       "url": "$url.sha256"
     }

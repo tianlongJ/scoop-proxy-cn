@@ -1,10 +1,10 @@
 {
   "version": "1.0.3.0",
   "description": "Accent Applicator. Is a light program for Windows 10 that applies your accent color to some UI elements in desktop apps by updating System Colors",
-  "homepage": "https://github.com/mcdenis/AccentApplicator",
+  "homepage": "https:github.commcdenisAccentApplicator",
   "license": "MIT License",
-  "changelog": "https://github.com/mcdenis/AccentApplicator/releases",
-  "url": "https://ghfast.top/https://github.com/mcdenis/AccentApplicator/releases/download/v1.0.3.0/AccentApplicator_1.0.3.0_x86.appx#/setup.appx",
+  "changelog": "https:github.commcdenisAccentApplicatorreleases",
+  "url": "https:github.commcdenisAccentApplicatorreleasesdownloadv1.0.3.0AccentApplicator_1.0.3.0_x86.appx#setup.appx",
   "hash": "776cdaae263b453bd401f0650f9498a0682773eaacf26aaa0ef1f22b11df4de1",
   "installer": {
     "script": [
@@ -13,7 +13,7 @@
       "    exit 1",
       "}",
       "",
-      "reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AppModelUnlock\" /t REG_DWORD /f /v \"AllowAllTrustedApps\" /d 1",
+      "reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AppModelUnlock\" t REG_DWORD f v \"AllowAllTrustedApps\" d 1",
       "",
       "Add-AppxPackage \"$dir\\setup.appx\""
     ]
@@ -29,9 +29,9 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/mcdenis/AccentApplicator"
+    "github": "https:github.commcdenisAccentApplicator"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/mcdenis/AccentApplicator/releases/download/v$version/AccentApplicator_$version_x86.appx#/setup.appx"
+    "url": "https:github.commcdenisAccentApplicatorreleasesdownloadv$versionAccentApplicator_$version_x86.appx#setup.appx"
   }
 }

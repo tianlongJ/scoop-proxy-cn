@@ -1,10 +1,10 @@
 {
   "version": "10.4.0.00006",
   "description": "CCSTUDIO — Code Composer Studio integrated development environment (IDE)",
-  "homepage": "https://www.ti.com/tool/CCSTUDIO",
+  "homepage": "https:www.ti.comtoolCCSTUDIO",
   "license": {
     "identifier": "Freeware",
-    "url": "https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html"
+    "url": "https:software-dl.ti.comccsesddocumentsccs_downloads.html"
   },
   "#depends": [
     ""
@@ -12,22 +12,22 @@
   "notes": [
     "",
     "ccstudio",
-    "https://www.ti.com/tool/download/CCSTUDIO",
-    "https://software-dl.ti.com/ccs/esd/CCSv10/CCS_10_4_0/exports/CCS10.4.0.00006_win64.zip?tracked=1#/dl.zip",
+    "https:www.ti.comtooldownloadCCSTUDIO",
+    "https:software-dl.ti.comccsesdCCSv10CCS_10_4_0exportsCCS10.4.0.00006_win64.zip?tracked=1#dl.zip",
     "Code Composer Studio؜™ software is an integrated development environment (IDE) that supports TI's microcontroller (MCU) and embedded processor portfolios.",
-    "https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html",
+    "https:software-dl.ti.comccsesddocumentsccs_downloads.html",
     "If you are using a 32bit Windows System please use CCSv8.3.1 or earlier.",
     "If you need to use one of these older probes please use CCSv8.3.1 or earlier.",
     "",
     ""
   ],
   "url": [
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v10.4.0.00006-p01-eclipse.7z",
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v10.4.0.00006-p02-ccs_base.7z",
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v10.4.0.00006-p03-tools.7z",
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v10.4.0.00006-p04-miscs.7z",
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v10.4.0.00006-p05-xdctools.7z",
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v10.4.0.00006-p06-Blackhawk.7z"
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v10.4.0.00006-p01-eclipse.7z",
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v10.4.0.00006-p02-ccs_base.7z",
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v10.4.0.00006-p03-tools.7z",
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v10.4.0.00006-p04-miscs.7z",
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v10.4.0.00006-p05-xdctools.7z",
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v10.4.0.00006-p06-Blackhawk.7z"
   ],
   "hash": [
     "7f46b4f7c5ea5725e5fff4d2ea60e7312a5dc0e070cc57e2f63a234b1d796c75",
@@ -67,38 +67,38 @@
   },
   "bin": [
     [
-      "ccs/eclipse/ccstudio.exe"
+      "ccseclipseccstudio.exe"
     ]
   ],
   "shortcuts": [
     [
-      "ccs/eclipse/ccstudio.exe",
-      "TI/Code Composer Studio 10.4.0"
+      "ccseclipseccstudio.exe",
+      "TICode Composer Studio 10.4.0"
     ],
     [
-      "Blackhawk/Emulation/Drivers/Bh560v2/v1.1.0.13/amd64/blackhwk.cpl",
-      "TI/Blackhawk Control Panel (64-bit)"
+      "BlackhawkEmulationDriversBh560v2v1.1.0.13amd64blackhwk.cpl",
+      "TIBlackhawk Control Panel (64-bit)"
     ],
     [
-      "Blackhawk/Emulation/Drivers/LAN/v2.0.0.6/bhethcfg.exe",
-      "TI/LAN560 Configuration Utility"
+      "BlackhawkEmulationDriversLANv2.0.0.6bhethcfg.exe",
+      "TILAN560 Configuration Utility"
     ]
   ],
   "#persist": [
     "data"
   ],
   "checkver": {
-    "github": "https://github.com/SayCV/gh-cdn-cvp/releases",
+    "github": "https:github.comSayCVgh-cdn-cvpreleases",
     "regex": "ccs-v([\\d.-]+)-p01-eclipse.7z"
   },
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v$version-p01-eclipse.7z",
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v$version-p02-ccs_base.7z",
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v$version-p03-tools.7z",
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v$version-p04-miscs.7z",
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v$version-p05-xdctools.7z",
-      "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/ccs-v$version-p06-Blackhawk.7z"
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v$version-p01-eclipse.7z",
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v$version-p02-ccs_base.7z",
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v$version-p03-tools.7z",
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v$version-p04-miscs.7z",
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v$version-p05-xdctools.7z",
+      "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0ccs-v$version-p06-Blackhawk.7z"
     ]
   }
 }

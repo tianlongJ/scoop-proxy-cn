@@ -1,11 +1,11 @@
 {
   "version": "4.2.5-1",
   "description": "JupyterLab desktop application, based on Electron",
-  "homepage": "https://github.com/jupyterlab/jupyterlab-desktop",
+  "homepage": "https:github.comjupyterlabjupyterlab-desktop",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/jupyterlab/jupyterlab-desktop/releases/download/v4.2.5-1/JupyterLab-Setup-Windows-x64.exe#/dl.7z",
+      "url": "https:github.comjupyterlabjupyterlab-desktopreleasesdownloadv4.2.5-1JupyterLab-Setup-Windows-x64.exe#dl.7z",
       "hash": "sha512:37d56715b3af84274ec2839233faa2bb617993756b13996b2d55b3f77e2be45c22341557e9bed8401124d98d63ea326c987ec881ef599f25d81457fab9b8fb69"
     }
   },
@@ -21,12 +21,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/jupyterlab/jupyterlab-desktop"
+    "github": "https:github.comjupyterlabjupyterlab-desktop"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/jupyterlab/jupyterlab-desktop/releases/download/v$version/JupyterLab-Setup-Windows-x64.exe#/dl.7z"
+        "url": "https:github.comjupyterlabjupyterlab-desktopreleasesdownloadv$versionJupyterLab-Setup-Windows-x64.exe#dl.7z"
       }
     }
   }

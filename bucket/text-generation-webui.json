@@ -1,19 +1,19 @@
 {
   "version": "0.2023.08.14",
   "description": "A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.",
-  "homepage": "https://github.com/oobabooga/text-generation-webui",
+  "homepage": "https:github.comoobaboogatext-generation-webui",
   "license": {
     "identifier": "AGPL-3.0 license",
-    "url": "https://github.com/oobabooga/text-generation-webui/blob/main/LICENSE"
+    "url": "https:github.comoobaboogatext-generation-webuiblobmainLICENSE"
   },
   "notes": [
     "text-generation-webui Model files are not included. You can download them here:",
-    "https://huggingface.co/meta-llama",
-    "https://huggingface.co/TheBloke"
+    "https:huggingface.cometa-llama",
+    "https:huggingface.coTheBloke"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_windows.zip",
+      "url": "https:github.comoobaboogatext-generation-webuireleasesdownloadinstallersoobabooga_windows.zip",
       "hash": "d78335e0a4c33f24a05305fc302ec0d71f2a49a602e373dfa0baf116a4419a13"
     }
   },
@@ -37,14 +37,14 @@
     "text-generation-webui"
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/oobabooga/text-generation-webui/releases/tags/installers",
-    "regex": "(?sm)oobabooga_windows.*?updated_at.*?(\\d+)-(\\d+)-(\\d+)T.*?releases/download/installers/oobabooga_windows.zip",
+    "url": "https:api.github.comreposoobaboogatext-generation-webuireleasestagsinstallers",
+    "regex": "(?sm)oobabooga_windows.*?updated_at.*?(\\d+)-(\\d+)-(\\d+)T.*?releasesdownloadinstallersoobabooga_windows.zip",
     "replace": "0.${1}.${2}.${3}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/oobabooga/text-generation-webui/releases/download/installers/oobabooga_windows.zip"
+        "url": "https:github.comoobaboogatext-generation-webuireleasesdownloadinstallersoobabooga_windows.zip"
       }
     }
   }

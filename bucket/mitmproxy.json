@@ -1,9 +1,9 @@
 {
   "version": "11.1.2",
   "description": "A free and open source interactive HTTPS proxy",
-  "homepage": "https://mitmproxy.org/",
+  "homepage": "https:mitmproxy.org",
   "license": "MIT",
-  "url": "https://snapshots.mitmproxy.org/11.1.2/mitmproxy-11.1.2-windows-x86_64.zip",
+  "url": "https:snapshots.mitmproxy.org11.1.2mitmproxy-11.1.2-windows-x86_64.zip",
   "hash": "9f87b812dc040d5d9f0e737456cdd72a0451ce149d7fd7a2b948723a1ef9e2af",
   "bin": [
     "mitmproxy.exe",
@@ -25,9 +25,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/mitmproxy/mitmproxy"
+    "github": "https:github.commitmproxymitmproxy"
   },
   "autoupdate": {
-    "url": "https://snapshots.mitmproxy.org/$version/mitmproxy-$version-windows-x86_64.zip"
+    "url": "https:snapshots.mitmproxy.org$versionmitmproxy-$version-windows-x86_64.zip"
   }
 }

@@ -1,12 +1,12 @@
 {
   "version": "0.0.1",
   "description": "项目是基于 Flutter 编写的一个 Linux文档 软件，目前支持Android，iOS, Window，Mac，Linux平台。",
-  "homepage": "https://github.com/sky-wei/flutter_penguin",
+  "homepage": "https:github.comsky-weiflutter_penguin",
   "license": {
     "identifier": "Apache-2.0 license",
-    "url": "https://github.com/sky-wei/flutter_penguin/blob/main/LICENSE.txt"
+    "url": "https:github.comsky-weiflutter_penguinblobmainLICENSE.txt"
   },
-  "url": "https://ghfast.top/https://github.com/sky-wei/flutter_penguin/releases/download/v0.0.1/windows-linuxdoc-0.0.1.zip",
+  "url": "https:github.comsky-weiflutter_penguinreleasesdownloadv0.0.1windows-linuxdoc-0.0.1.zip",
   "hash": "d2da164ed13a76699c8cbad80fe3712101d1278556f3783bd26f9787b92f9001",
   "extract_dir": "windows-linuxdoc-0.0.1",
   "installer": {
@@ -25,11 +25,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/sky-wei/flutter_penguin/releases.atom",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:github.comsky-weiflutter_penguinreleases.atom",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/sky-wei/flutter_penguin/releases/download/v$version/windows-linuxdoc-$version.zip",
+    "url": "https:github.comsky-weiflutter_penguinreleasesdownloadv$versionwindows-linuxdoc-$version.zip",
     "extract_dir": "windows-linuxdoc-$version"
   }
 }

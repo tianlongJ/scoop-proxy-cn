@@ -1,9 +1,9 @@
 {
   "version": "5.2.10",
   "description": "Updates WeakAuras installed from Wago.",
-  "homepage": "https://weakauras.wtf/",
+  "homepage": "https:weakauras.wtf",
   "license": "GPL-2.0-or-later",
-  "url": "https://ghfast.top/https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.2.10/WeakAuras-Companion-Setup-5.2.10.exe#/dl.7z",
+  "url": "https:github.comWeakAurasWeakAuras-Companionreleasesdownloadv5.2.10WeakAuras-Companion-Setup-5.2.10.exe#dl.7z",
   "hash": "sha512:c077fdf9e541de599a5629bb4b8f1d1f41b7535edcc62e0e2c352c780b91a09a3625caeb36aefdc60f4271da5476cbf978f418e79dd18440d56f594ba94cdb06",
   "extract_dir": "$PLUGINSDIR",
   "installer": {
@@ -19,12 +19,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/WeakAuras/WeakAuras-Companion"
+    "github": "https:github.comWeakAurasWeakAuras-Companion"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v$version/WeakAuras-Companion-Setup-$version.exe#/dl.7z",
+    "url": "https:github.comWeakAurasWeakAuras-Companionreleasesdownloadv$versionWeakAuras-Companion-Setup-$version.exe#dl.7z",
     "hash": {
-      "url": "$baseurl/latest.yml",
+      "url": "$baseurllatest.yml",
       "find": "sha512:\\s+(.*)"
     }
   }

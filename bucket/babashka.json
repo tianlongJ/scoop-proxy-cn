@@ -1,15 +1,15 @@
 {
   "version": "1.12.196",
   "description": "A Clojure babushka for the grey areas of Bash",
-  "homepage": "https://github.com/babashka/babashka",
+  "homepage": "https:github.combabashkababashka",
   "license": "EPL-1.0",
-  "depends": "extras/vcredist2022",
+  "depends": "extrasvcredist2022",
   "suggest": {
     "curl": "curl"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/babashka/babashka/releases/download/v1.12.196/babashka-1.12.196-windows-amd64.zip",
+      "url": "https:github.combabashkababashkareleasesdownloadv1.12.196babashka-1.12.196-windows-amd64.zip",
       "hash": "cae666ad3f864c9d8240e85d5109860aa548cd7796c14480043bb9df62443274"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/babashka/babashka/releases/download/v$version/babashka-$version-windows-amd64.zip"
+        "url": "https:github.combabashkababashkareleasesdownloadv$versionbabashka-$version-windows-amd64.zip"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": "0.2022.05.23",
   "description": "hosts-ms",
-  "homepage": "https://github.com/SayCV/gh-cdn-cvp",
+  "homepage": "https:github.comSayCVgh-cdn-cvp",
   "license": "MIT",
   "depends": [
     "sudo",
@@ -9,7 +9,7 @@
     "hostctl"
   ],
   "url": [
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.1/hosts-ms-v0.2022.05.23.7z"
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.1hosts-ms-v0.2022.05.23.7z"
   ],
   "hash": [
     ""
@@ -23,15 +23,15 @@
     "sudo hostctl replace ms --from $hostfile",
     "Write-Host 'DONE' -ForegroundColor Yellow",
     "",
-    "cmd.exe /c ipconfig /flushdns",
+    "cmd.exe c ipconfig flushdns",
     "",
     ""
   ],
   "checkver": {
-    "url": "https://github.com/SayCV/gh-cdn-cvp/releases",
+    "url": "https:github.comSayCVgh-cdn-cvpreleases",
     "regex": "hosts-ms-v([\\d.]+).7z<"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.1/hosts-ms-v$version.7z"
+    "url": "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.1hosts-ms-v$version.7z"
   }
 }

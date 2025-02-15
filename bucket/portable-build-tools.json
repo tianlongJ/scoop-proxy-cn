@@ -1,15 +1,15 @@
 {
   "version": "2.10.1",
-  "homepage": "https://github.com/Data-Oriented-House/PortableBuildTools",
+  "homepage": "https:github.comData-Oriented-HousePortableBuildTools",
   "description": "Portable VS Build Tools installer",
-  "license": "https://go.microsoft.com/fwlink/?LinkId=2179911",
+  "license": "https:go.microsoft.comfwlink?LinkId=2179911",
   "notes": [
     "This package defaults to download and install the latest MSVC toolchain in new installs and persist it in $persist_dir\\BuildTools.",
     " - You can use GUI application to download and install other versions of MSVC toolchains.",
     " - You can use `scoop uninstall portable-build-tools -p` to uninstall PortableBuildTools and MSVC toolchains.",
-    " - Read license https://go.microsoft.com/fwlink/?LinkId=2179911."
+    " - Read license https:go.microsoft.comfwlink?LinkId=2179911."
   ],
-  "url": "https://ghfast.top/https://github.com/Data-Oriented-House/PortableBuildTools/releases/download/v2.10.1/PortableBuildTools.exe",
+  "url": "https:github.comData-Oriented-HousePortableBuildToolsreleasesdownloadv2.10.1PortableBuildTools.exe",
   "hash": "ecfd41a750b8efbc0d910fda612adf100c8996f8c10c538a323dc072da3da7c0",
   "installer": {
     "script": [
@@ -28,7 +28,7 @@
     ]
   },
   "post_install": [
-    "startmenu_shortcut \"$env:ComSpec\" \"Developer Command Prompt for PortableBuildTools\" \"/k `\"$persist_dir\\BuildTools\\devcmd.bat`\"\" $Null $global",
+    "startmenu_shortcut \"$env:ComSpec\" \"Developer Command Prompt for PortableBuildTools\" \"k `\"$persist_dir\\BuildTools\\devcmd.bat`\"\" $Null $global",
     "startmenu_shortcut \"$env:SystemRoot\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \"Developer PowerShell for PortableBuildTools\" \"-noe -file `\"$persist_dir\\BuildTools\\devcmd.ps1`\"\" $Null $global"
   ],
   "post_uninstall": [
@@ -50,6 +50,6 @@
   "persist": "BuildTools",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Data-Oriented-House/PortableBuildTools/releases/download/v$version/PortableBuildTools.exe"
+    "url": "https:github.comData-Oriented-HousePortableBuildToolsreleasesdownloadv$versionPortableBuildTools.exe"
   }
 }

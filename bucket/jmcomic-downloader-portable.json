@@ -1,17 +1,17 @@
 {
   "version": "0.13.0",
   "description": "禁漫天堂 18comic.vip jmcomic 18comic 的多线程下载器，带图形界面，已打包exe，带收藏夹，免费下载收费的漫画，下载速度飞快",
-  "homepage": "https://github.com/lanyeeee/jmcomic-downloader",
+  "homepage": "https:github.comlanyeeeejmcomic-downloader",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/lanyeeee/jmcomic-downloader#MIT-1-ov-file"
+    "url": "https:github.comlanyeeeejmcomic-downloader#MIT-1-ov-file"
   },
-  "url": "https://ghfast.top/https://github.com/lanyeeee/jmcomic-downloader/releases/download/v0.13.0/jmcomic-downloader_0.13.0_windows_x64_portable.zip",
+  "url": "https:github.comlanyeeeejmcomic-downloaderreleasesdownloadv0.13.0jmcomic-downloader_0.13.0_windows_x64_portable.zip",
   "hash": "ca7ac10303f7324a182ac9895772e389a01f2828aab0670eeabecc77b9af4c03",
   "installer": {
     "script": [
       "# handle runtime cache",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:LOCALAPPDATA\\com.lanyeeee.jmcomic-downloader\"",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\userdata\" -Target \"$env:APPDATA\\com.lanyeeee.jmcomic-downloader\"",
       "Remove-Module -Name AppsUtils"
@@ -19,7 +19,7 @@
   },
   "uninstaller": {
     "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
       "Dismount-ExternalRuntimeData -Target \"$env:LOCALAPPDATA\\com.lanyeeee.jmcomic-downloader\"",
       "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\com.lanyeeee.jmcomic-downloader\"",
       "Remove-Module -Name AppsUtils"
@@ -32,11 +32,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/lanyeeee/jmcomic-downloader/releases",
+    "url": "https:api.github.comreposlanyeeeejmcomic-downloaderreleases",
     "jp": "$[0].assets[*].browser_download_url",
-    "regex": "/releases/download/v(?<tag>[\\d.]+)/(?<file>jmcomic-downloader_([\\d.]+)_(?:windows)?_x64_portable\\.zip)"
+    "regex": "releasesdownloadv(?<tag>[\\d.]+)(?<file>jmcomic-downloader_([\\d.]+)_(?:windows)?_x64_portable\\.zip)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/lanyeeee/jmcomic-downloader/releases/download/v$matchTag/$matchFile"
+    "url": "https:github.comlanyeeeejmcomic-downloaderreleasesdownloadv$matchTag$matchFile"
   }
 }

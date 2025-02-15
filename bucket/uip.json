@@ -1,11 +1,11 @@
 {
   "version": "0.1.6",
   "description": "A tool to obtain your public IP address with the help of STUN servers",
-  "homepage": "https://github.com/dndx/uip",
+  "homepage": "https:github.comdndxuip",
   "license": "Apache-2.0|MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/dndx/uip/releases/download/v0.1.6/uip_x86_64-pc-windows-msvc.exe",
+      "url": "https:github.comdndxuipreleasesdownloadv0.1.6uip_x86_64-pc-windows-msvc.exe",
       "hash": "474af59faad44bd133d767967fbcacc729b029d1e74708d3cea77cca676efbfb",
       "bin": [
         [
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/dndx/uip/releases/download/v$version/uip_x86_64-pc-windows-msvc.exe"
+        "url": "https:github.comdndxuipreleasesdownloadv$versionuip_x86_64-pc-windows-msvc.exe"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": "6.0.64",
   "description": "GUI tool for creating, updating, and deploying NuGet packages",
-  "homepage": "https://github.com/NuGetPackageExplorer/NuGetPackageExplorer",
+  "homepage": "https:github.comNuGetPackageExplorerNuGetPackageExplorer",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://packages.chocolatey.org/NugetPackageExplorer.6.0.64.nupkg",
+      "url": "https:packages.chocolatey.orgNugetPackageExplorer.6.0.64.nupkg",
       "hash": "8de46df4cee6b084b9e73a47bf12829ea394e75f528970271ede2eb5da4e73fc"
     }
   },
@@ -18,17 +18,17 @@
     ]
   ],
   "checkver": {
-    "url": "https://chocolatey.org/packages/NugetPackageExplorer",
+    "url": "https:chocolatey.orgpackagesNugetPackageExplorer",
     "regex": "Chocolatey.*?([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://packages.chocolatey.org/NugetPackageExplorer.$version.nupkg"
+        "url": "https:packages.chocolatey.orgNugetPackageExplorer.$version.nupkg"
       }
     },
     "hash": {
-      "url": "https://chocolatey.org/packages/NugetPackageExplorer",
+      "url": "https:chocolatey.orgpackagesNugetPackageExplorer",
       "regex": "$sha256.*?$basename"
     }
   }

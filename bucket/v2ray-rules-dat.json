@@ -1,15 +1,15 @@
 {
   "version": "202502142211",
-  "description": "Data files from Loyalsoldier/v2ray-rules-dat, works for v2ray and Xray.",
-  "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
+  "description": "Data files from Loyalsoldierv2ray-rules-dat, works for v2ray and Xray.",
+  "homepage": "https:github.comLoyalsoldierv2ray-rules-dat",
   "license": {
     "identifier": "GPL-3.0-or-later",
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/raw/master/LICENSE"
+    "url": "https:github.comLoyalsoldierv2ray-rules-datrawmasterLICENSE"
   },
   "depends": "v2ray",
   "url": [
-    "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202502142211/geoip.dat",
-    "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202502142211/geosite.dat"
+    "https:github.comLoyalsoldierv2ray-rules-datreleasesdownload202502142211geoip.dat",
+    "https:github.comLoyalsoldierv2ray-rules-datreleasesdownload202502142211geosite.dat"
   ],
   "hash": [
     "de4870ef9da1f91a2621f0be495d608c489cc6e1a873345b2889147714f0042e",
@@ -39,8 +39,8 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geoip.dat",
-      "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geosite.dat"
+      "https:github.comLoyalsoldierv2ray-rules-datreleasesdownload$versiongeoip.dat",
+      "https:github.comLoyalsoldierv2ray-rules-datreleasesdownload$versiongeosite.dat"
     ],
     "hash": {
       "url": "$url.sha256sum"

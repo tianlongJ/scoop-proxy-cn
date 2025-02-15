@@ -1,11 +1,11 @@
 {
   "version": "0.2.7",
-  "description": "Share content between Windows and iOS/Android",
-  "homepage": "https://github.com/YanxinTang/clipboard-online",
+  "description": "Share content between Windows and iOSAndroid",
+  "homepage": "https:github.comYanxinTangclipboard-online",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/YanxinTang/clipboard-online/releases/download/v0.2.7/clipboard-online.exe",
+      "url": "https:github.comYanxinTangclipboard-onlinereleasesdownloadv0.2.7clipboard-online.exe",
       "hash": "123252db2add7af730062878737a8e989017a42a70c47f90560103800b9a9a69"
     }
   },
@@ -17,7 +17,7 @@
     "         'port' = '8086'",
     "         'authkey' = ''",
     "         'logLevel' = 'warning'",
-    "         'tempDir' = './temp'",
+    "         'tempDir' = '.temp'",
     "         'reserveHistory' = $false",
     "         'notify' = @{",
     "           'copy' = $false",
@@ -41,7 +41,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/YanxinTang/clipboard-online/releases/download/v$version/clipboard-online.exe"
+        "url": "https:github.comYanxinTangclipboard-onlinereleasesdownloadv$versionclipboard-online.exe"
       }
     }
   }

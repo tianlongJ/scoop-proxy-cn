@@ -1,8 +1,8 @@
 {
-  "homepage": "https://polymc.org/",
+  "homepage": "https:polymc.org",
   "version": "6.1",
   "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC).",
-  "url": "https://ghfast.top/https://github.com/PolyMC/PolyMC/releases/download/6.1/PolyMC-Windows-Portable-6.1.zip",
+  "url": "https:github.comPolyMCPolyMCreleasesdownload6.1PolyMC-Windows-Portable-6.1.zip",
   "hash": "ce8305a0e230dee1332db4796bcb1dd07bab2928792f7c3f752dc432523ffff6",
   "bin": "polymc.exe",
   "shortcuts": [
@@ -18,8 +18,8 @@
     "       Write-Output \"Creating $path...\"",
     "   }",
     "}",
-    "create $dir/polymc.cfg File",
-    "create $dir/accounts.json File '{\"accounts\":{}, \"formatVersion\": 3}'"
+    "create $dirpolymc.cfg File",
+    "create $diraccounts.json File '{\"accounts\":{}, \"formatVersion\": 3}'"
   ],
   "persist": [
     "polymc.cfg",
@@ -32,9 +32,9 @@
   ],
   "notes": "Increase minimum and maximum memory allocation to avoid stuttering. Changes to the config are destructive!",
   "checkver": {
-    "github": "https://github.com/PolyMC/PolyMC"
+    "github": "https:github.comPolyMCPolyMC"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/PolyMC/PolyMC/releases/download/$version/PolyMC-Windows-Portable-$version.zip"
+    "url": "https:github.comPolyMCPolyMCreleasesdownload$versionPolyMC-Windows-Portable-$version.zip"
   }
 }

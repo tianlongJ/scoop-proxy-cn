@@ -1,22 +1,22 @@
 {
-  "homepage": "https://github.com/imLinguin/comet",
+  "homepage": "https:github.comimLinguincomet",
   "description": "GOG Downloading module for Heroic Games Launcher ",
   "version": "0.2.0",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/imLinguin/comet/releases/download/v0.2.0/comet-x86_64-pc-windows-msvc.exe",
+      "url": "https:github.comimLinguincometreleasesdownloadv0.2.0comet-x86_64-pc-windows-msvc.exe",
       "hash": "590a89a83877d0b58ef515ad03865114fbcb3f71fad71d606d72a3eb20a334e9",
       "bin": "comet-x86_64-pc-windows-msvc.exe"
     }
   },
   "checkver": {
-    "github": "https://github.com/imLinguin/comet"
+    "github": "https:github.comimLinguincomet"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/imLinguin/comet/releases/download/v$version/comet-x86_64-pc-windows-msvc.exe"
+        "url": "https:github.comimLinguincometreleasesdownloadv$versioncomet-x86_64-pc-windows-msvc.exe"
       }
     }
   }

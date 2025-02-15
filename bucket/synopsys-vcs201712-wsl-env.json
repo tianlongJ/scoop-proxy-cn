@@ -1,7 +1,7 @@
 {
   "version": "2017.12",
   "description": "VCS is a Verilog compiler and simulator from Synopsys. VCS has a graphical interface which you can use to debug your code.",
-  "homepage": "https://www.synopsys.com/",
+  "homepage": "https:www.synopsys.com",
   "license": "Trialware",
   "depends": [
     "synopsys-installer35-wsl",
@@ -13,7 +13,7 @@
     "  Please Restart WSL"
   ],
   "url": [
-    "https://ghfast.top/https://github.com/excitoon/empty/releases/download/empty-1.0.7/empty-1.0.7.zip"
+    "https:github.comexcitoonemptyreleasesdownloadempty-1.0.7empty-1.0.7.zip"
   ],
   "hash": [
     "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"

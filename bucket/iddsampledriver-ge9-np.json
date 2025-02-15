@@ -1,13 +1,13 @@
 {
   "version": "0.0.1.4",
-  "description": "Windows Indirect Display Driver using the IddCx class extension driver. Virtual monitors for Windows 10/11.",
-  "homepage": "https://github.com/ge9/IddSampleDriver",
+  "description": "Windows Indirect Display Driver using the IddCx class extension driver. Virtual monitors for Windows 1011.",
+  "homepage": "https:github.comge9IddSampleDriver",
   "license": "MIT,CC0 | Public Domain",
   "notes": "Use \"C:\\IddSampleDriver\\option.txt\" to set the number of monitors and resolutions, then restart the driver from the Device Manager.",
-  "depends": "extras/nefcon",
+  "depends": "extrasnefcon",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ge9/IddSampleDriver/releases/download/0.0.1.4/IddSampleDriver.zip",
+      "url": "https:github.comge9IddSampleDriverreleasesdownload0.0.1.4IddSampleDriver.zip",
       "hash": "e93b88f31ce3201814cba1fb4e11eb43e6f991f4d2a5e33145728a8dbfdd4eb7"
     }
   },
@@ -51,6 +51,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ge9/IddSampleDriver/releases/download/$version/IddSampleDriver.zip"
+    "url": "https:github.comge9IddSampleDriverreleasesdownload$versionIddSampleDriver.zip"
   }
 }

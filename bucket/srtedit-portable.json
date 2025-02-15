@@ -1,14 +1,14 @@
 {
   "version": "6.3.2012.1001",
   "description": "srtedit",
-  "homepage": "http://www.xitongzhijia.net/soft/92161.html",
+  "homepage": "http:www.xitongzhijia.netsoft92161.html",
   "#depends": [
     "sudo",
     "silentcmd",
     "hostctl"
   ],
   "url": [
-    "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/srtedit-portable-v6.3.2012.1001.7z"
+    "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0srtedit-portable-v6.3.2012.1001.7z"
   ],
   "hash": [
     "26e00c66e6da834b8bced1714b84b997e64868c3c8aa822f5a96703ac263a15b"
@@ -44,10 +44,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/SayCV/gh-cdn-cvp/releases",
+    "github": "https:github.comSayCVgh-cdn-cvpreleases",
     "regex": "srtedit-portable-v([\\d.-]+).exe"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/SayCV/gh-cdn-cvp/releases/download/v1.0.0/srtedit-portable-v$version.7z"
+    "url": "https:github.comSayCVgh-cdn-cvpreleasesdownloadv1.0.0srtedit-portable-v$version.7z"
   }
 }

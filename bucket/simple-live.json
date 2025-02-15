@@ -1,9 +1,9 @@
 {
   "version": "1.7.5",
   "description": "A Flutter project can make you watch live with ease.",
-  "homepage": "https://github.com/xiaoyaocz/dart_simple_live/",
+  "homepage": "https:github.comxiaoyaoczdart_simple_live",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/xiaoyaocz/dart_simple_live/releases/download/v1.7.5/simple_live_app-1.7.5+10705-windows.zip",
+  "url": "https:github.comxiaoyaoczdart_simple_livereleasesdownloadv1.7.5simple_live_app-1.7.5+10705-windows.zip",
   "hash": "54ed2d6f1f0ebadfbccd540a4755f9ed173e724c367d78ca476096ed458376d5",
   "checkver": "github",
   "shortcuts": [
@@ -18,6 +18,6 @@
     "Remove-Item $runtimeCache -Recurse -Force -ErrorAction SilentlyContinue"
   ],
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/xiaoyaocz/dart_simple_live/releases/download/v$version/simple_live_app-$version+10703-windows.zip"
+    "url": "https:github.comxiaoyaoczdart_simple_livereleasesdownloadv$versionsimple_live_app-$version+10703-windows.zip"
   }
 }

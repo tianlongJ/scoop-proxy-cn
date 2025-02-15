@@ -1,10 +1,10 @@
 {
   "version": "2.5.0.1",
   "description": "Yet Another System Region and Language Simulator",
-  "homepage": "https://pooi.moe/Locale-Emulator/",
+  "homepage": "https:pooi.moeLocale-Emulator",
   "license": "LGPL-3.0-only,MS-PL",
   "notes": "Please run Locale Emulator Installer to complete installation.",
-  "url": "https://ghfast.top/https://github.com/xupefei/Locale-Emulator/releases/download/v2.5.0.1/Locale.Emulator.2.5.0.1.zip",
+  "url": "https:github.comxupefeiLocale-Emulatorreleasesdownloadv2.5.0.1Locale.Emulator.2.5.0.1.zip",
   "hash": "808ff584426d52cc775ad6406da00622f454be95bd4c8fbca42eef4b7235ad5c",
   "pre_install": "if (!(Test-Path \"$persist_dir\\LEConfig.xml\")) { New-Item \"$dir\\LEConfig.xml\" | Out-Null }",
   "bin": [
@@ -30,9 +30,9 @@
   ],
   "persist": "LEConfig.xml",
   "checkver": {
-    "github": "https://github.com/xupefei/Locale-Emulator"
+    "github": "https:github.comxupefeiLocale-Emulator"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/xupefei/Locale-Emulator/releases/download/v$version/Locale.Emulator.$version.zip"
+    "url": "https:github.comxupefeiLocale-Emulatorreleasesdownloadv$versionLocale.Emulator.$version.zip"
   }
 }

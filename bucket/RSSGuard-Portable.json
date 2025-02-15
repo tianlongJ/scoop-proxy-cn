@@ -1,12 +1,12 @@
 {
   "version": "4.8.1",
-  "description": "RSS Guard. A simple, light and easy-to-use RSS/ATOM feed aggregator developed using Qt framework which supports online feed synchronization.",
-  "homepage": "https://github.com/martinrotter/rssguard",
+  "description": "RSS Guard. A simple, light and easy-to-use RSSATOM feed aggregator developed using Qt framework which supports online feed synchronization.",
+  "homepage": "https:github.commartinrotterrssguard",
   "license": "GPL-3.0-only",
-  "changelog": "https://github.com/martinrotter/rssguard/releases",
+  "changelog": "https:github.commartinrotterrssguardreleases",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/martinrotter/rssguard/releases/download/4.8.1/rssguard-4.8.1-3dde4064f-win10.7z",
+      "url": "https:github.commartinrotterrssguardreleasesdownload4.8.1rssguard-4.8.1-3dde4064f-win10.7z",
       "hash": "f5783fc0fcd0cff889fcdf2b3a0c33320f6ff89697cd0039fab429acd8b1c14d"
     }
   },
@@ -19,13 +19,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/martinrotter/rssguard/releases/latest",
+    "url": "https:api.github.comreposmartinrotterrssguardreleaseslatest",
     "regex": "rssguard-(?<version>[\\d.]+)-(?<commit>[\\d\\w.]+)-win10\\.7z"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/martinrotter/rssguard/releases/download/$matchVersion/rssguard-$matchVersion-$matchCommit-win10.7z"
+        "url": "https:github.commartinrotterrssguardreleasesdownload$matchVersionrssguard-$matchVersion-$matchCommit-win10.7z"
       }
     }
   }

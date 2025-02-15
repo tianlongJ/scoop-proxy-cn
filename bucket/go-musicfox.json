@@ -1,14 +1,14 @@
 {
   "version": "4.6.0",
   "description": "go-musicfox是用Go写的又一款网易云音乐命令行客户端，支持UnblockNeteaseMusic、各种音质级别、lastfm、MPRIS、MacOS交互响应（睡眠暂停、蓝牙耳机连接断开响应、菜单栏控制等）...",
-  "homepage": "https://github.com/go-musicfox/go-musicfox",
+  "homepage": "https:github.comgo-musicfoxgo-musicfox",
   "license": {
     "identifier": "MIT license",
-    "url": "https://github.com/go-musicfox/go-musicfox/blob/master/LICENSE"
+    "url": "https:github.comgo-musicfoxgo-musicfoxblobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/go-musicfox/go-musicfox/releases/download/v4.6.0/go-musicfox_4.6.0_windows_amd64.zip",
+      "url": "https:github.comgo-musicfoxgo-musicfoxreleasesdownloadv4.6.0go-musicfox_4.6.0_windows_amd64.zip",
       "hash": "57e81086f9e14c511cf42fd5858cbcea0b092f2ec81144313c1127b46cd2542f",
       "extract_dir": "go-musicfox_4.6.0_windows_amd64"
     }
@@ -16,14 +16,14 @@
   "installer": {
     "script": [
       "# handle runtime cache",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
       "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:USERPROFILE\\.go-musicfox\"",
       "Remove-Module -Name AppsUtils"
     ]
   },
   "uninstaller": {
     "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/AppsUtils.psm1)",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsAppsUtils.psm1)",
       "Dismount-ExternalRuntimeData -Target \"$env:USERPROFILE\\.go-musicfox\"",
       "Remove-Module -Name AppsUtils"
     ]
@@ -36,12 +36,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/go-musicfox/go-musicfox"
+    "github": "https:github.comgo-musicfoxgo-musicfox"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/go-musicfox/go-musicfox/releases/download/v$version/go-musicfox_$version_windows_amd64.zip",
+        "url": "https:github.comgo-musicfoxgo-musicfoxreleasesdownloadv$versiongo-musicfox_$version_windows_amd64.zip",
         "extract_dir": "go-musicfox_$version_windows_amd64"
       }
     }

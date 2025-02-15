@@ -1,18 +1,18 @@
 {
   "version": "2.0.0",
   "description": "Manage MEGA.nz account and files from command line.",
-  "homepage": "https://mega.nz/cmd",
+  "homepage": "https:mega.nzcmd",
   "license": {
     "identifier": "Freeware",
-    "url": "https://github.com/meganz/MEGAcmd/blob/master/LICENSE"
+    "url": "https:github.commeganzMEGAcmdblobmasterLICENSE"
   },
-  "url": "https://mega.nz/MEGAcmdSetup.exe#/dl.7z",
+  "url": "https:mega.nzMEGAcmdSetup.exe#dl.7z",
   "hash": "61e49edce275ddf4c014391dd26acb530edcfd5a9a67b53c80f6ceed256d9ece",
   "post_install": [
     "Remove-Item \"$dir\\`$*\", \"$dir\\unins*\" -Recurse",
     "$datapath = if ($global) { $env:APPDATA } else { $env:LOCALAPPDATA }",
     "if (!(Test-Path \"$datapath\\MEGAcmd\")) {",
-    "    & \"$env:COMSPEC\" /c mklink /j \"$datapath\\MEGAcmd\" \"$dir\\\" | Out-Null",
+    "    & \"$env:COMSPEC\" c mklink j \"$datapath\\MEGAcmd\" \"$dir\\\" | Out-Null",
     "}",
     "if (!(Test-Path \"$persist_dir\\.megaCmd\\megacmd.cfg\")) {",
     "    Set-Content \"$dir\\.megaCmd\\megacmd.cfg\" 'updaterregistered=1', 'autoupdate=0' -Encoding Ascii",
@@ -22,7 +22,7 @@
     "script": [
       "$datapath = if ($global) { $env:APPDATA } else { $env:LOCALAPPDATA }",
       "if ((Get-Item \"$datapath\\MEGAcmd\" -ErrorAction SilentlyContinue).Attributes -band [IO.FileAttributes]::ReparsePoint) {",
-      "    & \"$env:COMSPEC\" /c \"rmdir `\"$datapath\\MEGAcmd`\"\"",
+      "    & \"$env:COMSPEC\" c \"rmdir `\"$datapath\\MEGAcmd`\"\"",
       "}"
     ]
   },
@@ -114,10 +114,10 @@
   ],
   "persist": ".megaCmd",
   "checkver": {
-    "url": "https://github.com/meganz/MEGAcmd/tags",
-    "regex": "tag/([\\d.]+)_Win"
+    "url": "https:github.commeganzMEGAcmdtags",
+    "regex": "tag([\\d.]+)_Win"
   },
   "autoupdate": {
-    "url": "https://mega.nz/MEGAcmdSetup.exe#/dl.7z"
+    "url": "https:mega.nzMEGAcmdSetup.exe#dl.7z"
   }
 }

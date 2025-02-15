@@ -1,36 +1,36 @@
 {
   "version": "4.3.2",
-  "description": "A collection of tools for creating/validating/supercompressing/converting or information display of ktx files.",
-  "homepage": "https://github.com/KhronosGroup/KTX-Software",
+  "description": "A collection of tools for creatingvalidatingsupercompressingconverting or information display of ktx files.",
+  "homepage": "https:github.comKhronosGroupKTX-Software",
   "license": {
     "identifier": "Apache-2.0|Multiple licences",
-    "url": "https://github.com/KhronosGroup/KTX-Software/blob/master/LICENSE.md"
+    "url": "https:github.comKhronosGroupKTX-SoftwareblobmasterLICENSE.md"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/KhronosGroup/KTX-Software/releases/download/v4.3.2/KTX-Software-4.3.2-Windows-x64.exe#/dl.7z",
+      "url": "https:github.comKhronosGroupKTX-Softwarereleasesdownloadv4.3.2KTX-Software-4.3.2-Windows-x64.exe#dl.7z",
       "hash": "7026747cf969fa9d24f46114428ceac4e69cb43532c234192f9285bb871b7906"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/KhronosGroup/KTX-Software/releases/download/v4.3.2/KTX-Software-4.3.2-Windows-arm64.exe#/dl.7z",
+      "url": "https:github.comKhronosGroupKTX-Softwarereleasesdownloadv4.3.2KTX-Software-4.3.2-Windows-arm64.exe#dl.7z",
       "hash": "d02a77df6b3a37aab37389aaa3050c6f2c44bec14b32f1a63306b6703d167af9"
     }
   },
   "bin": [
-    "bin/ktx2check.exe",
-    "bin/ktx2ktx2.exe",
-    "bin/ktxinfo.exe",
-    "bin/ktxsc.exe",
-    "bin/toktx.exe"
+    "binktx2check.exe",
+    "binktx2ktx2.exe",
+    "binktxinfo.exe",
+    "binktxsc.exe",
+    "bintoktx.exe"
   ],
   "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/KhronosGroup/KTX-Software/releases/download/v$version/KTX-Software-$version-Windows-x64.exe#/dl.7z"
+        "url": "https:github.comKhronosGroupKTX-Softwarereleasesdownloadv$versionKTX-Software-$version-Windows-x64.exe#dl.7z"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/KhronosGroup/KTX-Software/releases/download/v$version/KTX-Software-$version-Windows-arm64.exe#/dl.7z"
+        "url": "https:github.comKhronosGroupKTX-Softwarereleasesdownloadv$versionKTX-Software-$version-Windows-arm64.exe#dl.7z"
       }
     }
   }

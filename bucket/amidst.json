@@ -1,14 +1,14 @@
 {
   "version": "4.7",
-  "description": "Minecraft interface and data/structure tracking tool",
-  "homepage": "https://github.com/toolbox4minecraft/amidst",
+  "description": "Minecraft interface and datastructure tracking tool",
+  "homepage": "https:github.comtoolbox4minecraftamidst",
   "license": "GPL-3.0-only",
   "suggest": {
-    "Java Runtime Environment": "java/temurin-jre"
+    "Java Runtime Environment": "javatemurin-jre"
   },
   "url": [
-    "https://ghfast.top/https://github.com/toolbox4minecraft/amidst/releases/download/v4.7/amidst-v4-7.jar#/amidst.jar",
-    "https://ghfast.top/https://raw.githubusercontent.com/toolbox4minecraft/amidst/master/src/main/resources/amidst/icon/amidst.ico"
+    "https:github.comtoolbox4minecraftamidstreleasesdownloadv4.7amidst-v4-7.jar#amidst.jar",
+    "https:raw.githubusercontent.comtoolbox4minecraftamidstmastersrcmainresourcesamidsticonamidst.ico"
   ],
   "hash": [
     "a1e7118c3ec952ebc5ca6f0dfe1484e5c6c0150a234bacb13aec69c164655bd3",
@@ -26,6 +26,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/toolbox4minecraft/amidst/releases/download/v$version/amidst-v$dashVersion.jar#/amidst.jar"
+    "url": "https:github.comtoolbox4minecraftamidstreleasesdownloadv$versionamidst-v$dashVersion.jar#amidst.jar"
   }
 }

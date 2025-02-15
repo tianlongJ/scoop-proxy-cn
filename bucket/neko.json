@@ -1,16 +1,16 @@
 {
   "version": "2.4.0",
   "description": "A high-level dynamically typed programming language",
-  "homepage": "https://nekovm.org",
+  "homepage": "https:nekovm.org",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/HaxeFoundation/neko/releases/download/v2-4-0/neko-2.4.0-win64.zip",
+      "url": "https:github.comHaxeFoundationnekoreleasesdownloadv2-4-0neko-2.4.0-win64.zip",
       "hash": "334e192434483ddcd7062132a1af1cf961c4871258d92d2710a3c2e7a8225aca",
       "extract_dir": "neko-2.4.0-win64"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/HaxeFoundation/neko/releases/download/v2-4-0/neko-2.4.0-win.zip",
+      "url": "https:github.comHaxeFoundationnekoreleasesdownloadv2-4-0neko-2.4.0-win.zip",
       "hash": "8fde93b092d802cce53c43b7944ac72f7a9daa68ad4b3bb13edb2be855e5a5dc",
       "extract_dir": "neko-2.4.0-win"
     }
@@ -26,17 +26,17 @@
     "NEKO_INSTPATH": "$dir"
   },
   "checkver": {
-    "github": "https://github.com/HaxeFoundation/neko",
+    "github": "https:github.comHaxeFoundationneko",
     "regex": "neko-([\\d.]+)-win64"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/HaxeFoundation/neko/releases/download/v$dashVersion/neko-$version-win64.zip",
+        "url": "https:github.comHaxeFoundationnekoreleasesdownloadv$dashVersionneko-$version-win64.zip",
         "extract_dir": "neko-$version-win64"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/HaxeFoundation/neko/releases/download/v$dashVersion/neko-$version-win.zip",
+        "url": "https:github.comHaxeFoundationnekoreleasesdownloadv$dashVersionneko-$version-win.zip",
         "extract_dir": "neko-$version-win"
       }
     }

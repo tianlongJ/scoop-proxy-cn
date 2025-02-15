@@ -1,11 +1,11 @@
 {
   "version": "0.6.0",
-  "description": "Recursively searches/replaces directories for a regex pattern.",
-  "homepage": "https://github.com/dalance/amber",
+  "description": "Recursively searchesreplaces directories for a regex pattern.",
+  "homepage": "https:github.comdalanceamber",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/dalance/amber/releases/download/v0.6.0/amber-v0.6.0-x86_64-win.zip",
+      "url": "https:github.comdalanceamberreleasesdownloadv0.6.0amber-v0.6.0-x86_64-win.zip",
       "hash": "df3dd61b80d62d582776f3ff31aeeda7031a675935204246505b0d7f2e5cf50e"
     }
   },
@@ -13,14 +13,14 @@
     "ambs.exe",
     "ambr.exe"
   ],
-  "extract_dir": "target/x86_64-pc-windows-msvc/release",
+  "extract_dir": "targetx86_64-pc-windows-msvcrelease",
   "checkver": {
-    "github": "https://github.com/dalance/amber"
+    "github": "https:github.comdalanceamber"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/dalance/amber/releases/download/v$version/amber-v$version-x86_64-win.zip"
+        "url": "https:github.comdalanceamberreleasesdownloadv$versionamber-v$version-x86_64-win.zip"
       }
     }
   }

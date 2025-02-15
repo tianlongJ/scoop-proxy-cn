@@ -1,4 +1,4 @@
-python3.exe -m pip install requests mutagen websockets git+https://github.com/animelover1984/youtube-dl
+python3.exe -m pip install requests mutagen websockets git+https:github.comanimelover1984youtube-dl
 
 Get-Command -Name "pip.exe" |
 Select-Object -ExpandProperty Source |

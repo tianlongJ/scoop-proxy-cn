@@ -1,9 +1,9 @@
 {
   "version": "5.8.2",
   "description": "Bulk program uninstaller with advanced automation",
-  "homepage": "https://www.bcuninstaller.com/",
+  "homepage": "https:www.bcuninstaller.com",
   "license": "Apache-2.0",
-  "url": "https://ghfast.top/https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.8.2/BCUninstaller_5.8.2_portable.zip",
+  "url": "https:github.comKlocmanBulk-Crap-Uninstallerreleasesdownloadv5.8.2BCUninstaller_5.8.2_portable.zip",
   "hash": "547812d2ff9ff7304bcc372cb8de3c0a698668ec677c32103fb3c52616835d88",
   "architecture": {
     "64bit": {
@@ -35,12 +35,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
+    "github": "https:github.comKlocmanBulk-Crap-Uninstaller"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$version/BCUninstaller_$version_portable.zip",
+    "url": "https:github.comKlocmanBulk-Crap-Uninstallerreleasesdownloadv$versionBCUninstaller_$version_portable.zip",
     "hash": {
-      "url": "https://sourceforge.net/projects/bulk-crap-uninstaller/files/v$version/",
+      "url": "https:sourceforge.netprojectsbulk-crap-uninstallerfilesv$version",
       "regex": "$basename.*?\"sha1\":\"$sha1"
     }
   }

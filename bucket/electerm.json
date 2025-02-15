@@ -1,11 +1,11 @@
 {
   "version": "1.60.56",
-  "description": "Terminal/ssh/serial port/sftp client",
-  "homepage": "https://electerm.github.io/electerm/",
+  "description": "Terminalsshserial portsftp client",
+  "homepage": "https:electerm.github.ioelecterm",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/electerm/electerm/releases/download/v1.60.56/electerm-1.60.56-win-x64.tar.gz",
+      "url": "https:github.comelectermelectermreleasesdownloadv1.60.56electerm-1.60.56-win-x64.tar.gz",
       "hash": "723a4d5474bdc19cc14dd40366372d5d02e42db2c3f2e24f0fd35e0396c9beb9",
       "extract_dir": "electerm-1.60.56-win-x64"
     }
@@ -18,12 +18,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/electerm/electerm"
+    "github": "https:github.comelectermelecterm"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
+        "url": "https:github.comelectermelectermreleasesdownloadv$versionelecterm-$version-win-x64.tar.gz",
         "extract_dir": "electerm-$version-win-x64"
       }
     }

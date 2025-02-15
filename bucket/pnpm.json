@@ -1,11 +1,11 @@
 {
   "version": "10.4.0",
   "description": "A fast and disk space efficient Node package manager.",
-  "homepage": "https://pnpm.io/",
+  "homepage": "https:pnpm.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/pnpm/pnpm/releases/download/v10.4.0/pnpm-win-x64.exe#/pnpm.exe",
+      "url": "https:github.compnpmpnpmreleasesdownloadv10.4.0pnpm-win-x64.exe#pnpm.exe",
       "hash": "c14b8255313cc9a215c1fe64c84bb75b6640034c491e7cd347ceb3b92943c977"
     }
   },
@@ -16,7 +16,7 @@
       "$auth = Get-GitHubToken",
       "$head = @{}",
       "if($auth) { $head.add('authorization', \"Bearer $auth\") }",
-      "$url = 'https://api.github.com/repositories/50565430/releases'",
+      "$url = 'https:api.github.comrepositories50565430releases'",
       "$latest_ver = [Version]::new(0,0,0,0) # note: Powershell 5 does not support casting 'int' or 'float' to 'System.Version'",
       "$releases = $(Invoke-WebRequest -Headers $head $url).Content | ConvertFrom-Json",
       "$releases | ForEach-Object {",
@@ -31,6 +31,6 @@
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/pnpm/pnpm/releases/download/v$version/pnpm-win-x64.exe#/pnpm.exe"
+    "url": "https:github.compnpmpnpmreleasesdownloadv$versionpnpm-win-x64.exe#pnpm.exe"
   }
 }

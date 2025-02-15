@@ -1,9 +1,9 @@
 {
   "version": "3.3.1",
   "description": "Implementation of todo.txt for Windows using the .NET framework",
-  "homepage": "https://benrhughes.github.io/todotxt.net/",
+  "homepage": "https:benrhughes.github.iotodotxt.net",
   "license": "BSD-2-Clause-FreeBSD",
-  "url": "https://ghfast.top/https://github.com/benrhughes/todotxt.net/releases/download/v3.3.1/todotxt-portable-3.3.1.zip",
+  "url": "https:github.combenrhughestodotxt.netreleasesdownloadv3.3.1todotxt-portable-3.3.1.zip",
   "hash": "1b85b951595ec1416b5a63553685f3d2a6a25dfea34128c58e93ee184729187c",
   "extract_dir": "ProgramFiles",
   "pre_install": "if (!(Test-Path \"$persist_dir\\todotxt.settings\")) { New-Item \"$dir\\todotxt.settings\" -ItemType File | Out-Null }",
@@ -16,9 +16,9 @@
   ],
   "persist": "todotxt.settings",
   "checkver": {
-    "github": "https://github.com/benrhughes/todotxt.net"
+    "github": "https:github.combenrhughestodotxt.net"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/benrhughes/todotxt.net/releases/download/v$version/todotxt-portable-$version.zip"
+    "url": "https:github.combenrhughestodotxt.netreleasesdownloadv$versiontodotxt-portable-$version.zip"
   }
 }

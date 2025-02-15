@@ -1,13 +1,13 @@
 {
   "version": "3.1.0",
   "description": "Open source reimplementation of the game Jazz Jackrabbit 2",
-  "homepage": "http://deat.tk/jazz2/",
+  "homepage": "http:deat.tkjazz2",
   "license": "GPL-3.0-only",
   "notes": [
     "",
     "First, you need to provide some form of game data.",
     "",
-    "The original shareware version works (i.e., NOT the shareware version of The Secret Files release), though it's recommended to buy the full version on GOG here: https://www.gog.com/game/jazz_jackrabbit_2_collection",
+    "The original shareware version works (i.e., NOT the shareware version of The Secret Files release), though it's recommended to buy the full version on GOG here: https:www.gog.comgamejazz_jackrabbit_2_collection",
     "",
     "Copy the corresponding game data to the \"$persist_dir\\Source\" dir.",
     "",
@@ -22,7 +22,7 @@
     "Now you've a complete edition to copy to the Source dir of Jazz² Resurrection!",
     ""
   ],
-  "url": "https://ghfast.top/https://github.com/deathkiller/jazz2/releases/download/3.1.0/Jazz2_3.1.0_Windows.zip",
+  "url": "https:github.comdeathkillerjazz2releasesdownload3.1.0Jazz2_3.1.0_Windows.zip",
   "hash": "38a2ec9edaef69d138d484920d93fe1e3acaf38538208b6c43fb205f5875ec6c",
   "architecture": {
     "64bit": {
@@ -56,9 +56,9 @@
     "Jazz2.config"
   ],
   "checkver": {
-    "github": "https://github.com/deathkiller/jazz2"
+    "github": "https:github.comdeathkillerjazz2"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/deathkiller/jazz2/releases/download/$version/Jazz2_$version_Windows.zip"
+    "url": "https:github.comdeathkillerjazz2releasesdownload$versionJazz2_$version_Windows.zip"
   }
 }

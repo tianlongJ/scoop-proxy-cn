@@ -1,8 +1,8 @@
 {
-  "homepage": "https://www.facebook.com/AthenasArmorSetSearch/",
+  "homepage": "https:www.facebook.comAthenasArmorSetSearch",
   "version": "1.4.8b",
   "description": "Monster Hunter Portable 3rd character build tool",
-  "url": "https://ghfast.top/https://github.com/Deide/athenas-ass/releases/download/4/athenas-ass-mhP3rd-v1.48b.zip",
+  "url": "https:github.comDeideathenas-assreleasesdownload4athenas-ass-mhP3rd-v1.48b.zip",
   "bin": "athenas-ass-mhP3rd-v1.48b.exe",
   "persist": [
     "Data",

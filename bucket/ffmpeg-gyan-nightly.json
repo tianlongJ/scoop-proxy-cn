@@ -1,17 +1,17 @@
 {
   "version": "2025-02-13",
   "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
-  "homepage": "https://ffmpeg.org",
+  "homepage": "https:ffmpeg.org",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2025-02-13-git-19a2d26177-full_build.7z",
+      "url": "https:www.gyan.devffmpegbuildspackagesffmpeg-2025-02-13-git-19a2d26177-full_build.7z",
       "hash": "10c727975318e12b8d4b4108e71f54af9a301c65318067996679833802e8a86e",
       "extract_dir": "ffmpeg-2025-02-13-git-19a2d26177-full_build"
     }
   },
   "post_install": [
-    "# Workaround for https://github.com/ScoopInstaller/Main/issues/2611",
+    "# Workaround for https:github.comScoopInstallerMainissues2611",
     "Remove-Item \"$scoopdir\\shims\\ffmpeg.ps1\", \"$scoopdir\\shims\\ffplay.ps1\", \"$scoopdir\\shims\\ffprobe.ps1\" -ErrorAction SilentlyContinue"
   ],
   "bin": [
@@ -20,15 +20,15 @@
     "bin\\ffprobe.exe"
   ],
   "checkver": {
-    "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z.ver",
+    "url": "https:www.gyan.devffmpegbuildsffmpeg-git-full.7z.ver",
     "regex": "([\\d-]+)-git-(?<commit>[a-z\\d]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-git-$matchCommit-full_build.7z",
+        "url": "https:www.gyan.devffmpegbuildspackagesffmpeg-$version-git-$matchCommit-full_build.7z",
         "hash": {
-          "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-git-$matchCommit-full_build.7z.sha256"
+          "url": "https:www.gyan.devffmpegbuildspackagesffmpeg-$version-git-$matchCommit-full_build.7z.sha256"
         },
         "extract_dir": "ffmpeg-$version-git-$matchCommit-full_build"
       }

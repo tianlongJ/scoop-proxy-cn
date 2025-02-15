@@ -1,9 +1,9 @@
 {
   "version": "3.02",
   "description": "Open-source pan-CJK font families with enormous range of weights, the CJK serif you have dreamed of. (Simplified Chinese version)",
-  "homepage": "https://github.com/Pal3love/dream-han-cjk",
+  "homepage": "https:github.comPal3lovedream-han-cjk",
   "license": "OFL-1.1",
-  "url": "https://ghfast.top/https://github.com/Pal3love/dream-han-cjk/releases/download/dream-3.02-sans-2.004-serif-2.003/DreamHanSerifCN.zip",
+  "url": "https:github.comPal3lovedream-han-cjkreleasesdownloaddream-3.02-sans-2.004-serif-2.003DreamHanSerifCN.zip",
   "hash": "08adc234312b8a062ef821cef342d83b76e53335f22d2fbd2b3f1663b4298a88",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -86,10 +86,10 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/Pal3love/dream-han-cjk",
+    "github": "https:github.comPal3lovedream-han-cjk",
     "regex": "dream-([\\d.]+)-sans-(?<sans>[\\d.]+)-serif-(?<serif>[\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Pal3love/dream-han-cjk/releases/download/dream-$version-sans-$matchSans-serif-$matchSerif/DreamHanSerifCN.zip"
+    "url": "https:github.comPal3lovedream-han-cjkreleasesdownloaddream-$version-sans-$matchSans-serif-$matchSerifDreamHanSerifCN.zip"
   }
 }

@@ -1,22 +1,22 @@
 {
   "##": [
-    "The requirements are listed in https://github.com/TASVideos/BizHawk-Prereqs/blob/master/README",
-    "The list of firmware-specific directories to persist comes from the base directories listed in BizHawk's /src/BizHawk.Client.Common/config/PathEntryCollection.cs"
+    "The requirements are listed in https:github.comTASVideosBizHawk-PrereqsblobmasterREADME",
+    "The list of firmware-specific directories to persist comes from the base directories listed in BizHawk's srcBizHawk.Client.CommonconfigPathEntryCollection.cs"
   ],
   "version": "2.10",
   "description": "Multi system emulator",
-  "homepage": "http://tasvideos.org/BizHawk.html",
+  "homepage": "http:tasvideos.orgBizHawk.html",
   "license": "MIT",
   "notes": ".NET Framework 4.8 is required.",
   "suggest": {
     "vcredist": [
-      "extras/vcredist2010",
-      "extras/vcredist2022"
+      "extrasvcredist2010",
+      "extrasvcredist2022"
     ]
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/TASVideos/BizHawk/releases/download/2.10/BizHawk-2.10-win-x64.zip",
+      "url": "https:github.comTASVideosBizHawkreleasesdownload2.10BizHawk-2.10-win-x64.zip",
       "hash": "fdd0e7ae57afcb04509861408fdbb499bec52cffcc7b008526b60d3548a872ec"
     }
   },
@@ -84,13 +84,13 @@
     "ZXSpectrum"
   ],
   "checkver": {
-    "url": "http://tasvideos.org/Bizhawk/ReleaseHistory",
+    "url": "http:tasvideos.orgBizhawkReleaseHistory",
     "regex": ">\\s*BizHawk\\s*([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/TASVideos/BizHawk/releases/download/$version/BizHawk-$version-win-x64.zip"
+        "url": "https:github.comTASVideosBizHawkreleasesdownload$versionBizHawk-$version-win-x64.zip"
       }
     }
   }

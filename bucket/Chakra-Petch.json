@@ -1,21 +1,21 @@
 {
   "version": "nightly",
   "description": "Thai National Font. The name 'Chakra Petch' means a crystal disc.",
-  "homepage": "https://fonts.google.com/specimen/Chakra+Petch",
+  "homepage": "https:fonts.google.comspecimenChakra+Petch",
   "license": "OFL-1.1",
   "url": [
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-Bold.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-ExtraLight.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-ExtraLightItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-Italic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-Light.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-LightItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-Medium.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-MediumItalic.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-Regular.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-SemiBold.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/chakrapetch/ChakraPetch-SemiBoldItalic.ttf"
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-Bold.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-BoldItalic.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-ExtraLight.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-ExtraLightItalic.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-Italic.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-Light.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-LightItalic.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-Medium.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-MediumItalic.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-Regular.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-SemiBold.ttf",
+    "https:github.comgooglefontsrawmainoflchakrapetchChakraPetch-SemiBoldItalic.ttf"
   ],
   "installer": {
     "script": [
@@ -38,7 +38,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

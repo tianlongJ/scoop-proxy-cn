@@ -1,8 +1,8 @@
 {
   "version": "0.4.0-alpha",
   "description": "Qilin is a free, open-source and fully hackable text editor developed for exact sciences in mind. It fully supports KaTeX and AsciiMath.",
-  "homepage": "https://github.com/qilin-editor/qilin-app",
-  "url": "https://ghfast.top/https://github.com/qilin-editor/qilin-app/releases/download/v0.4.0-alpha/qilin-windows.zip",
+  "homepage": "https:github.comqilin-editorqilin-app",
+  "url": "https:github.comqilin-editorqilin-appreleasesdownloadv0.4.0-alphaqilin-windows.zip",
   "hash": "df27d35e915d822311b6fd71d99a228dbee389c2374450bb36c7d9d9e254c81f",
   "extract_dir": "win64",
   "shortcuts": [
@@ -12,10 +12,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/qilin-editor/qilin-app/releases",
-    "regex": "/qilin-editor/qilin-app/tree/v(.+?)\""
+    "url": "https:github.comqilin-editorqilin-appreleases",
+    "regex": "qilin-editorqilin-apptreev(.+?)\""
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/qilin-editor/qilin-app/releases/download/v$version/qilin-windows.zip"
+    "url": "https:github.comqilin-editorqilin-appreleasesdownloadv$versionqilin-windows.zip"
   }
 }

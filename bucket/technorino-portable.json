@@ -1,16 +1,16 @@
 {
   "version": "13278094143",
   "description": "Chat client for twitch.tv. Only nightlies are supported (fork of Chatterino 2).",
-  "homepage": "https://github.com/2547techno/technorino",
+  "homepage": "https:github.com2547technotechnorino",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/2547techno/technorino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.3.zip",
+      "url": "https:github.com2547technotechnorinoreleasesdownloadnightly-buildchatterino-windows-x86-64-Qt-6.7.3.zip",
       "hash": "157fc474a20ed0472c88a043a5bc23f8a1a1d8a02497785000bec338cbc2012e",
       "extract_dir": "Chatterino2",
       "pre_install": [
-        "Get-ChildItem \"$dir/chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('chatterino', 'technorino-portable') }",
-        "$modes = \"$dir/modes\"",
+        "Get-ChildItem \"$dirchatterino.exe\" | Rename-Item -NewName { $_.name.Replace('chatterino', 'technorino-portable') }",
+        "$modes = \"$dirmodes\"",
         "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Invoke-Expression \"'portable' >$(if (Test-Path $modes) { '>' }) `$modes\""
       ]
@@ -31,9 +31,9 @@
   "checkver": {
     "script": [
       "try {",
-      "    $null = (Invoke-WebRequest https://ghfast.top/https://raw.githubusercontent.com/2547techno/technorino/technorino/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
+      "    $null = (Invoke-WebRequest https:raw.githubusercontent.com2547technotechnorinotechnorino.githubworkflowsbuild.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
       "    $Matches[1],",
-      "    (Invoke-RestMethod 'https://api.github.com/repositories/604452497/actions/workflows/build.yml/runs?branch=technorino&status=success').workflow_runs[0].id -join ' '",
+      "    (Invoke-RestMethod 'https:api.github.comrepositories604452497actionsworkflowsbuild.ymlruns?branch=technorino&status=success').workflow_runs[0].id -join ' '",
       "}",
       "catch { '' }"
     ],
@@ -42,7 +42,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/2547techno/technorino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
+        "url": "https:github.com2547technotechnorinoreleasesdownloadnightly-buildchatterino-windows-x86-64-Qt-$matchQt.zip"
       }
     }
   }

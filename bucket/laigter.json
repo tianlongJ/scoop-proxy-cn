@@ -1,9 +1,9 @@
 {
   "version": "1.12.1",
   "description": "Automatic normal map generator for sprites",
-  "homepage": "https://azagaya.itch.io/laigter",
+  "homepage": "https:azagaya.itch.iolaigter",
   "license": "GPL-3.0-only",
-  "url": "https://ghfast.top/https://github.com/azagaya/laigter/releases/download/1.12.1/laigter-windows.zip",
+  "url": "https:github.comazagayalaigterreleasesdownload1.12.1laigter-windows.zip",
   "hash": "93dd4a40b33c275b3df5aa015f390f0fb515f19fd519c825f744ede60413f1af",
   "extract_dir": "laigter-windows",
   "bin": "laigter.exe",
@@ -14,9 +14,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/azagaya/laigter"
+    "github": "https:github.comazagayalaigter"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/azagaya/laigter/releases/download/$version/laigter-windows.zip"
+    "url": "https:github.comazagayalaigterreleasesdownload$versionlaigter-windows.zip"
   }
 }

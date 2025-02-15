@@ -1,9 +1,9 @@
 {
   "version": "0.5.0.4",
   "description": "Minimalist secure text editor and binary encryptor",
-  "homepage": "https://evpo.net/encryptpad/",
+  "homepage": "https:evpo.netencryptpad",
   "license": "GPL-2.0-only",
-  "url": "https://ghfast.top/https://github.com/evpo/EncryptPad/releases/download/v0.5.0.4/encryptpad0_5_0_4_win32.zip",
+  "url": "https:github.comevpoEncryptPadreleasesdownloadv0.5.0.4encryptpad0_5_0_4_win32.zip",
   "hash": "sha1:90bdd5281dce62bfe180578c296fc3f35612c7bd",
   "bin": [
     "encryptcli.exe",
@@ -17,12 +17,12 @@
   ],
   "persist": "encryptpad_repository",
   "checkver": {
-    "github": "https://github.com/evpo/EncryptPad"
+    "github": "https:github.comevpoEncryptPad"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/evpo/EncryptPad/releases/download/v$version/encryptpad$underscoreVersion_win32.zip",
+    "url": "https:github.comevpoEncryptPadreleasesdownloadv$versionencryptpad$underscoreVersion_win32.zip",
     "hash": {
-      "url": "$baseurl/sha1sum.txt"
+      "url": "$baseurlsha1sum.txt"
     }
   }
 }

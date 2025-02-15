@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/JTNDev/galaxy-integration-wii",
+  "homepage": "https:github.comJTNDevgalaxy-integration-wii",
   "version": "0.5.1",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/JTNDev/galaxy-integration-wii/releases/download/0.5.1/galaxy-integration-wii.zip",
+  "url": "https:github.comJTNDevgalaxy-integration-wiireleasesdownload0.5.1galaxy-integration-wii.zip",
   "hash": "97aad525dc33e654564dc98bce4390795d99786842f5359ece1a3295841e9d28",
   "extract_dir": "dolphin_fc3e85e4-c66b-4310-96c0-8f95cc43e546",
   "extract_to": "integration",
@@ -42,7 +42,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -50,7 +50,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -73,10 +73,10 @@
   ],
   "persist": "integration\\user_config.py",
   "checkver": {
-    "github": "https://github.com/JTNDev/galaxy-integration-wii",
-    "re": "/releases/download/v?([\\d.]+)/(?<file>(galaxy-integration-wii(-)?|Wii.Dolphin.|Dolphin.Wii.Plugin.|Dolphin-Wii-Galaxy-2.0-Plugin-)(v)?([\\d.]+)?.(zip|7z))"
+    "github": "https:github.comJTNDevgalaxy-integration-wii",
+    "re": "releasesdownloadv?([\\d.]+)(?<file>(galaxy-integration-wii(-)?|Wii.Dolphin.|Dolphin.Wii.Plugin.|Dolphin-Wii-Galaxy-2.0-Plugin-)(v)?([\\d.]+)?.(zip|7z))"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/JTNDev/galaxy-integration-wii/releases/download/$version/$matchFile"
+    "url": "https:github.comJTNDevgalaxy-integration-wiireleasesdownload$version$matchFile"
   }
 }

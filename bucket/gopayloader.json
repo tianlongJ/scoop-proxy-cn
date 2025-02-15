@@ -1,11 +1,11 @@
 {
   "version": "0.4.4",
-  "description": "HTTP/S benchmark/load testing cross-platform tool with optional JWT generation",
-  "homepage": "https://github.com/domsolutions/gopayloader",
+  "description": "HTTPS benchmarkload testing cross-platform tool with optional JWT generation",
+  "homepage": "https:github.comdomsolutionsgopayloader",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/domsolutions/gopayloader/releases/download/0.4.4/gopayloader-windows-amd64.tar.gz",
+      "url": "https:github.comdomsolutionsgopayloaderreleasesdownload0.4.4gopayloader-windows-amd64.tar.gz",
       "hash": "08ad6dd2ba67a5a6028fe40fac0812d81ef6a6e883d38bbfe68df8f5e94313e9"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/domsolutions/gopayloader/releases/download/$version/gopayloader-windows-amd64.tar.gz"
+        "url": "https:github.comdomsolutionsgopayloaderreleasesdownload$versiongopayloader-windows-amd64.tar.gz"
       }
     }
   }

@@ -1,19 +1,19 @@
 {
   "version": "2025-02-15",
   "description": "Frontend for emulators, game engines and media players",
-  "homepage": "https://www.retroarch.com/",
+  "homepage": "https:www.retroarch.com",
   "license": {
-    "url": "https://github.com/libretro/RetroArch/blob/master/COPYING",
+    "url": "https:github.comlibretroRetroArchblobmasterCOPYING",
     "identifier": "GPL-3.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https://buildbot.libretro.com/nightly/windows/x86_64/2025-02-15_RetroArch.7z",
+      "url": "https:buildbot.libretro.comnightlywindowsx86_642025-02-15_RetroArch.7z",
       "hash": "0826c02a62ad0804fefb6a3fce07bdd8c1aea7a1f58aa0477cc6664e8101fa82",
       "extract_dir": "RetroArch-Win64"
     },
     "32bit": {
-      "url": "https://buildbot.libretro.com/nightly/windows/x86/2025-02-15_RetroArch.7z",
+      "url": "https:buildbot.libretro.comnightlywindowsx862025-02-15_RetroArch.7z",
       "hash": "1f127ee080a6fd60d51327bc6f2f55c6445907fa527e2df692de411c72e4ae4c",
       "extract_dir": "RetroArch-Win32"
     }
@@ -51,23 +51,23 @@
     "retroarch.cfg"
   ],
   "checkver": {
-    "url": "https://buildbot.libretro.com/nightly/windows/x86_64/",
+    "url": "https:buildbot.libretro.comnightlywindowsx86_64",
     "regex": "(?smi)(\\d{4}-\\d{2}-\\d{2})_RetroArch\\.7z",
     "reverse": true
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://buildbot.libretro.com/nightly/windows/x86_64/$version_RetroArch.7z"
+        "url": "https:buildbot.libretro.comnightlywindowsx86_64$version_RetroArch.7z"
       },
       "32bit": {
-        "url": "https://buildbot.libretro.com/nightly/windows/x86/$version_RetroArch.7z"
+        "url": "https:buildbot.libretro.comnightlywindowsx86$version_RetroArch.7z"
       }
     }
   },
   "notes": [
-    "ATTENTION: Retroarch requires BIOS/firmware files for some emulation.",
+    "ATTENTION: Retroarch requires BIOSfirmware files for some emulation.",
     "It is recommended to read the libretro docs for each core you plan to use.",
-    "See https://docs.libretro.com/library/bios/ for more information."
+    "See https:docs.libretro.comlibrarybios for more information."
   ]
 }

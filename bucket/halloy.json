@@ -1,21 +1,21 @@
 {
   "version": "2025.1",
   "description": "Halloy is an open-source IRC client written in Rust, with the iced GUI library.",
-  "homepage": "https://halloy.squidowl.org/",
+  "homepage": "https:halloy.squidowl.org",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/squidowl/halloy/releases/download/2025.1/halloy-installer.msi",
+      "url": "https:github.comsquidowlhalloyreleasesdownload2025.1halloy-installer.msi",
       "hash": "dc177e7cb0cd949ccc19f00e65e5b7ef207fbd62f00aef701add493175fc95cd"
     }
   },
-  "extract_dir": "PFiles64/Halloy",
+  "extract_dir": "PFiles64Halloy",
   "installer": {
     "script": [
       "if (!(Test-Path \"$persist_dir\\config.toml\")) {",
       "    $configContent = '# Halloy config.",
       "# For a complete list of available options,",
-      "# please visit https://halloy.squidowl.org/configuration/index.html",
+      "# please visit https:halloy.squidowl.orgconfigurationindex.html",
       "[servers.liberachat]",
       "    nickname = \"halloy8765\"",
       "    server = \"irc.libera.chat\"",
@@ -41,16 +41,16 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/squidowl/halloy"
+    "github": "https:github.comsquidowlhalloy"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/squidowl/halloy/releases/download/$version/halloy-installer.msi"
+        "url": "https:github.comsquidowlhalloyreleasesdownload$versionhalloy-installer.msi"
       }
     },
     "hash": {
-      "url": "$baseurl/checksums.txt"
+      "url": "$baseurlchecksums.txt"
     }
   }
 }

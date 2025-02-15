@@ -1,12 +1,12 @@
 {
   "version": "1.11",
   "description": "YoutubeDownloader. Download videos from YouTube.",
-  "homepage": "https://github.com/Tyrrrz/YoutubeDownloader",
+  "homepage": "https:github.comTyrrrzYoutubeDownloader",
   "license": "GPL-3.0-or-later",
-  "changelog": "https://github.com/Tyrrrz/YoutubeDownloader/releases",
+  "changelog": "https:github.comTyrrrzYoutubeDownloaderreleases",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Tyrrrz/YoutubeDownloader/releases/download/1.11/YoutubeDownloader.zip",
+      "url": "https:github.comTyrrrzYoutubeDownloaderreleasesdownload1.11YoutubeDownloader.zip",
       "hash": "4cc00cae9ff106a92dcc12986970b83bba52cb2c3783d6c0a89e72b74788bf5d"
     }
   },
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Tyrrrz/YoutubeDownloader/releases/download/$version/YoutubeDownloader.zip"
+        "url": "https:github.comTyrrrzYoutubeDownloaderreleasesdownload$versionYoutubeDownloader.zip"
       }
     }
   }

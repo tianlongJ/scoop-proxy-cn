@@ -1,9 +1,9 @@
 {
   "version": "1.9.762.2018",
   "description": "Portable executable (PE) manipulation toolkit. Process Viewer and PE files Editor, Dumper, Rebuilder, Comparator, Analyzer are included.",
-  "homepage": "https://petoolse.github.io/petools/",
+  "homepage": "https:petoolse.github.iopetools",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/petoolse/petools/releases/download/v1.9.762/PE.Tools.v1.9.762.2018.7z",
+  "url": "https:github.competoolsepetoolsreleasesdownloadv1.9.762PE.Tools.v1.9.762.2018.7z",
   "hash": "b831343a1441039c68a60777cef9ecb1f41381bff369c2f993cd3db6bf8c9fb8",
   "pre_install": "if (!(Test-Path \"$persist_dir\\PETools.ini\")) { New-Item \"$dir\\PETools.ini\" | Out-Null }",
   "shortcuts": [
@@ -14,10 +14,10 @@
   ],
   "persist": "PETools.ini",
   "checkver": {
-    "github": "https://github.com/petoolse/petools/",
+    "github": "https:github.competoolsepetools",
     "regex": "PE.Tools.v([\\d.]+)\\.7z"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/petoolse/petools/releases/download/v$matchHead/PE.Tools.v$version.7z"
+    "url": "https:github.competoolsepetoolsreleasesdownloadv$matchHeadPE.Tools.v$version.7z"
   }
 }

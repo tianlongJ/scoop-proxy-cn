@@ -1,12 +1,12 @@
 {
   "version": "2.7.9",
   "description": "KeePassXC. Community fork of KeePass",
-  "homepage": "https://keepassxc.org",
+  "homepage": "https:keepassxc.org",
   "license": "GPL-2.0-only",
-  "changelog": "https://github.com/keepassxreboot/keepassxc/releases",
+  "changelog": "https:github.comkeepassxrebootkeepassxcreleases",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/keepassxreboot/keepassxc/releases/download/2.7.9/KeePassXC-2.7.9-Win64.zip",
+      "url": "https:github.comkeepassxrebootkeepassxcreleasesdownload2.7.9KeePassXC-2.7.9-Win64.zip",
       "hash": "febce8934a02f2b0eb13f2a3eb586321f374a87c5e7c85d5a06729a868799781",
       "extract_dir": "KeePassXC-2.7.9-Win64"
     }
@@ -25,12 +25,12 @@
   ],
   "persist": "config",
   "checkver": {
-    "github": "https://github.com/keepassxreboot/keepassxc"
+    "github": "https:github.comkeepassxrebootkeepassxc"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/keepassxreboot/keepassxc/releases/download/$version/KeePassXC-$version-Win64.zip",
+        "url": "https:github.comkeepassxrebootkeepassxcreleasesdownload$versionKeePassXC-$version-Win64.zip",
         "extract_dir": "KeePassXC-$version-Win64"
       }
     },

@@ -1,18 +1,18 @@
 {
   "version": "2.11.1",
-  "description": "Pode. A cross-platform PowerShell web framework for creating REST APIs, Web Sites, and TCP/SMTP servers.",
-  "homepage": "https://badgerati.github.io/Pode/",
+  "description": "Pode. A cross-platform PowerShell web framework for creating REST APIs, Web Sites, and TCPSMTP servers.",
+  "homepage": "https:badgerati.github.ioPode",
   "license": "MIT",
-  "changelog": "https://badgerati.github.io/Pode/release-notes/",
-  "url": "https://ghfast.top/https://github.com/Badgerati/Pode/releases/download/v2.11.1/2.11.1-Binaries.zip",
+  "changelog": "https:badgerati.github.ioPoderelease-notes",
+  "url": "https:github.comBadgeratiPodereleasesdownloadv2.11.12.11.1-Binaries.zip",
   "hash": "2a7e765badc0fcf8cd72ae244063703478fdb81abbf91420faae16ca4c5d61f2",
   "psmodule": {
     "name": "Pode"
   },
   "checkver": {
-    "github": "https://github.com/Badgerati/Pode"
+    "github": "https:github.comBadgeratiPode"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Badgerati/Pode/releases/download/v$version/$version-Binaries.zip"
+    "url": "https:github.comBadgeratiPodereleasesdownloadv$version$version-Binaries.zip"
   }
 }

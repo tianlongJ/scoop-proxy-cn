@@ -1,33 +1,33 @@
 {
   "version": "2.44.0",
   "description": "Declarative CLI version manager written in Go",
-  "homepage": "https://aquaproj.github.io/",
+  "homepage": "https:aquaproj.github.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/aquaproj/aqua/releases/download/v2.44.0/aqua_windows_amd64.zip",
+      "url": "https:github.comaquaprojaquareleasesdownloadv2.44.0aqua_windows_amd64.zip",
       "hash": "756ca77cbd54e53067fc67648f28d1e89f7de5593b90a81cabed52ccf692ccce"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/aquaproj/aqua/releases/download/v2.44.0/aqua_windows_amd64.zip",
+      "url": "https:github.comaquaprojaquareleasesdownloadv2.44.0aqua_windows_amd64.zip",
       "hash": "756ca77cbd54e53067fc67648f28d1e89f7de5593b90a81cabed52ccf692ccce"
     }
   },
   "bin": "aqua.exe",
   "checkver": {
-    "github": "https://github.com/aquaproj/aqua"
+    "github": "https:github.comaquaprojaqua"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/aquaproj/aqua/releases/download/v$version/aqua_windows_amd64.zip"
+        "url": "https:github.comaquaprojaquareleasesdownloadv$versionaqua_windows_amd64.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/aquaproj/aqua/releases/download/v$version/aqua_windows_amd64.zip"
+        "url": "https:github.comaquaprojaquareleasesdownloadv$versionaqua_windows_amd64.zip"
       }
     },
     "hash": {
-      "url": "$baseurl/aqua_$version_checksums.txt"
+      "url": "$baseurlaqua_$version_checksums.txt"
     }
   }
 }

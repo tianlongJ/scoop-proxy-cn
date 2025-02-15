@@ -1,12 +1,12 @@
 {
   "version": "8.110.0.218-97",
   "description": "A telecommunications application software product that specializes in providing video chat and voice calls.",
-  "homepage": "https://www.skype.com/en/get-skype/",
+  "homepage": "https:www.skype.comenget-skype",
   "license": {
     "identifier": "Freeware",
-    "url": "https://www.microsoft.com/en-us/servicesagreement/"
+    "url": "https:www.microsoft.comen-usservicesagreement"
   },
-  "url": "https://ghfast.top/https://github.com/portapps/skype-portable/releases/download/8.110.0.218-97/skype-portable-win32-8.110.0.218-97.7z#/dl.7z",
+  "url": "https:github.comportappsskype-portablereleasesdownload8.110.0.218-97skype-portable-win32-8.110.0.218-97.7z#dl.7z",
   "hash": "0011e74683cb81fa8668c64747765d561ef27fe4ea418909cc9d6cbb3696387b",
   "persist": [
     "data",
@@ -21,14 +21,14 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\skype-portable.yml\")) { New-Item \"$dir\\skype-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https://github.com/portapps/skype-portable/releases",
-    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    "url": "https:github.comportappsskype-portablereleases",
+    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/portapps/skype-portable/releases/download/$version/skype-portable-win32-$version.7z#/dl.7z",
+    "url": "https:github.comportappsskype-portablereleasesdownload$versionskype-portable-win32-$version.7z#dl.7z",
     "hash": {
-      "url": "$baseurl/checksums.txt"
+      "url": "$baseurlchecksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https://portapps.io/app/skype-portable/)"
+  "notes": "Installed from Portapps (https:portapps.ioappskype-portable)"
 }

@@ -1,15 +1,15 @@
 {
   "version": "3.35.0",
   "description": "Utility for downloading TV and radio programmes from BBC iPlayer and BBC Sounds",
-  "homepage": "https://github.com/get-iplayer/get_iplayer",
+  "homepage": "https:github.comget-iplayerget_iplayer",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/get-iplayer/get_iplayer_win32/releases/download/3.35.0/get_iplayer-3.35.0-windows-x64-setup.exe",
+      "url": "https:github.comget-iplayerget_iplayer_win32releasesdownload3.35.0get_iplayer-3.35.0-windows-x64-setup.exe",
       "hash": "00bb8cdcd78cde0a50fab41b6f67eb3405981f73c15c1d514d66cf31291e74b2"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/get-iplayer/get_iplayer_win32/releases/download/3.35.0/get_iplayer-3.35.0-windows-x86-setup.exe",
+      "url": "https:github.comget-iplayerget_iplayer_win32releasesdownload3.35.0get_iplayer-3.35.0-windows-x86-setup.exe",
       "hash": "52eeb9ad047c35b15cdd8a282eea26ed688520bf8156448ca262065df2b75dcb"
     }
   },
@@ -43,7 +43,7 @@
     [
       "scoop_get_iplayer.cmd",
       "get_iplayer",
-      "--search dontshowanymatches && cd %HOMEDRIVE%%HOMEPATH% && cmd.exe /k get_iplayer.cmd --help",
+      "--search dontshowanymatches && cd %HOMEDRIVE%%HOMEPATH% && cmd.exe k get_iplayer.cmd --help",
       "get_iplayer.ico"
     ],
     [
@@ -65,15 +65,15 @@
     "radio"
   ],
   "checkver": {
-    "github": "https://github.com/get-iplayer/get_iplayer_win32"
+    "github": "https:github.comget-iplayerget_iplayer_win32"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x64-setup.exe"
+        "url": "https:github.comget-iplayerget_iplayer_win32releasesdownload$versionget_iplayer-$version-windows-x64-setup.exe"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x86-setup.exe"
+        "url": "https:github.comget-iplayerget_iplayer_win32releasesdownload$versionget_iplayer-$version-windows-x86-setup.exe"
       }
     },
     "hash": {

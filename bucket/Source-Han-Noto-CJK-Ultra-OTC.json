@@ -1,8 +1,8 @@
 {
   "version": "20190603",
-  "homepage": "https://github.com/adobe-fonts/source-han-super-otc",
+  "homepage": "https:github.comadobe-fontssource-han-super-otc",
   "license": "OFL-1.1",
-  "url": "https://ghfast.top/https://github.com/adobe-fonts/source-han-super-otc/releases/download/20190603/SourceHanNotoCJK.ttc",
+  "url": "https:github.comadobe-fontssource-han-super-otcreleasesdownload20190603SourceHanNotoCJK.ttc",
   "hash": "md5:d50619f15a3c4130bc26380bfe8bca52",
   "installer": {
     "script": [
@@ -25,7 +25,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -86,9 +86,9 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/adobe-fonts/source-han-super-otc/releases/download/$version/SourceHanNotoCJK.ttc",
+    "url": "https:github.comadobe-fontssource-han-super-otcreleasesdownload$versionSourceHanNotoCJK.ttc",
     "hash": {
-      "url": "https://github.com/adobe-fonts/source-han-super-otc",
+      "url": "https:github.comadobe-fontssource-han-super-otc",
       "find": "href=\"#source-han--noto-cjksourcehannotocjkttc\">.+?MD5 hash is ([A-Fa-f0-9]{32})"
     }
   }

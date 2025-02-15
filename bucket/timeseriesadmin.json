@@ -1,11 +1,11 @@
 {
   "version": "0.1.13",
   "description": "Administration panel and querying interface for InfluxDB databases",
-  "homepage": "https://timeseriesadmin.github.io/",
+  "homepage": "https:timeseriesadmin.github.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/timeseriesadmin/timeseriesadmin/releases/download/v0.1.13/TimeSeriesAdmin.exe#/dl.7z",
+      "url": "https:github.comtimeseriesadmintimeseriesadminreleasesdownloadv0.1.13TimeSeriesAdmin.exe#dl.7z",
       "hash": "2d31679e4764b1d106ef24591372e7ec34ba88a6e4def9074b0efd7109f65a56",
       "installer": {
         "script": [
@@ -22,12 +22,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/timeseriesadmin/timeseriesadmin"
+    "github": "https:github.comtimeseriesadmintimeseriesadmin"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/timeseriesadmin/timeseriesadmin/releases/download/v$version/TimeSeriesAdmin.exe#/dl.7z"
+        "url": "https:github.comtimeseriesadmintimeseriesadminreleasesdownloadv$versionTimeSeriesAdmin.exe#dl.7z"
       }
     }
   }

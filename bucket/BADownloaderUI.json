@@ -1,11 +1,11 @@
 {
   "version": "3.4.0",
   "description": "BADownloader - 使用 wails 重构后的全新版本",
-  "homepage": "https://github.com/HIM049/BADownloaderUI",
+  "homepage": "https:github.comHIM049BADownloaderUI",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/HIM049/BADownloaderUI/releases/download/3.4.0/BADownloader-3.4.0-win.exe#/BADownloaderUI.exe",
+      "url": "https:github.comHIM049BADownloaderUIreleasesdownload3.4.0BADownloader-3.4.0-win.exe#BADownloaderUI.exe",
       "hash": "052310c68783335ec67499ef2fd5303bba8870bc7b7d101dc2baf19f959dad88"
     }
   },
@@ -22,12 +22,12 @@
     "config.json"
   ],
   "checkver": {
-    "github": "https://github.com/HIM049/BADownloaderUI"
+    "github": "https:github.comHIM049BADownloaderUI"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/HIM049/BADownloaderUI/releases/download/$version/BADownloader-$version-win.exe#/BADownloaderUI.exe"
+        "url": "https:github.comHIM049BADownloaderUIreleasesdownload$versionBADownloader-$version-win.exe#BADownloaderUI.exe"
       }
     },
     "hash": {

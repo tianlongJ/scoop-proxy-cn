@@ -1,17 +1,17 @@
 {
   "version": "8.22",
-  "description": "Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.",
-  "homepage": "https://github.com/tonikelope/megabasterd",
+  "description": "Yet another unofficial (and ugly) cross-platform MEGA downloaderuploaderstreaming suite.",
+  "homepage": "https:github.comtonikelopemegabasterd",
   "license": "GPL-3.0-only",
   "suggest": {
     "JDK": [
-      "java/openjdk",
-      "java/oraclejdk"
+      "javaopenjdk",
+      "javaoraclejdk"
     ]
   },
   "url": [
-    "https://ghfast.top/https://github.com/tonikelope/megabasterd/releases/download/v8.22/MegaBasterd_8.22.jar#/MegaBasterd.jar",
-    "https://ghfast.top/https://raw.githubusercontent.com/tonikelope/megabasterd/v8.22/src/main/resources/images/pica_roja_big.ico#/MegaBasterd.ico"
+    "https:github.comtonikelopemegabasterdreleasesdownloadv8.22MegaBasterd_8.22.jar#MegaBasterd.jar",
+    "https:raw.githubusercontent.comtonikelopemegabasterdv8.22srcmainresourcesimagespica_roja_big.ico#MegaBasterd.ico"
   ],
   "hash": [
     "4a31af5c8eeeb2559747b34222dc63f43a0ca8a558bb9bdba256d7954e90d003",
@@ -29,8 +29,8 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/tonikelope/megabasterd/releases/download/v$version/MegaBasterd_$version.jar#/MegaBasterd.jar",
-      "https://ghfast.top/https://raw.githubusercontent.com/tonikelope/megabasterd/v$version/src/main/resources/images/pica_roja_big.ico#/MegaBasterd.ico"
+      "https:github.comtonikelopemegabasterdreleasesdownloadv$versionMegaBasterd_$version.jar#MegaBasterd.jar",
+      "https:raw.githubusercontent.comtonikelopemegabasterdv$versionsrcmainresourcesimagespica_roja_big.ico#MegaBasterd.ico"
     ]
   }
 }

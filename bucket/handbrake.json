@@ -1,14 +1,14 @@
 {
   "version": "1.9.1",
   "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
-  "homepage": "https://handbrake.fr",
+  "homepage": "https:handbrake.fr",
   "license": "GPL-2.0-only",
   "suggest": {
-    ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+    ".NET Desktop Runtime": "extraswindowsdesktop-runtime-lts"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/HandBrake/HandBrake/releases/download/1.9.1/HandBrake-1.9.1-x86_64-Win_GUI.zip",
+      "url": "https:github.comHandBrakeHandBrakereleasesdownload1.9.1HandBrake-1.9.1-x86_64-Win_GUI.zip",
       "hash": "a768b73ac6faf9c921f47fc7d2acbef386ceece4bfbc261af2a5fb3b8796e859"
     }
   },
@@ -36,17 +36,17 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/HandBrake/HandBrake"
+    "github": "https:github.comHandBrakeHandBrake"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/HandBrake/HandBrake/releases/download/$version/HandBrake-$version-x86_64-Win_GUI.zip"
+        "url": "https:github.comHandBrakeHandBrakereleasesdownload$versionHandBrake-$version-x86_64-Win_GUI.zip"
       }
     },
     "hash": {
-      "url": "https://handbrake.fr/rotation.php?file=$basename",
-      "regex": "<td>$sha256</td>"
+      "url": "https:handbrake.frrotation.php?file=$basename",
+      "regex": "<td>$sha256<td>"
     }
   }
 }

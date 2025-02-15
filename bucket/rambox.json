@@ -1,14 +1,14 @@
 {
   "version": "2.4.1",
   "description": "Tool for organizing web apps into one application with rich features",
-  "homepage": "https://rambox.app",
+  "homepage": "https:rambox.app",
   "license": {
     "identifier": "Proprietary",
-    "url": "https://rambox.app/eula/"
+    "url": "https:rambox.appeula"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ramboxapp/download/releases/download/v2.4.1/Rambox-2.4.1-win-x64.exe#/dl.7z",
+      "url": "https:github.comramboxappdownloadreleasesdownloadv2.4.1Rambox-2.4.1-win-x64.exe#dl.7z",
       "hash": "sha512:637ae7b476ed0ba6cd22ddb4991a7e00cb26bf9619faeac45534a6f231b9374d5ff371e79078874bfee9d6ea24b50d0081535fc32097571ad6f5c37ad8c83284"
     }
   },
@@ -23,14 +23,14 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/ramboxapp/download"
+    "github": "https:github.comramboxappdownload"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ramboxapp/download/releases/download/v$version/Rambox-$version-win-x64.exe#/dl.7z",
+        "url": "https:github.comramboxappdownloadreleasesdownloadv$versionRambox-$version-win-x64.exe#dl.7z",
         "hash": {
-          "url": "$baseurl/latest.yml",
+          "url": "$baseurllatest.yml",
           "regex": "sha512:\\s+$base64"
         }
       }

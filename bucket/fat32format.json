@@ -1,16 +1,16 @@
 {
   "version": "a027932",
   "description": "FAT32 format tool that supports volumes greater than 32 GB",
-  "homepage": "https://github.com/0xbadfca11/fat32format",
+  "homepage": "https:github.com0xbadfca11fat32format",
   "license": "GPL-2.0-only",
-  "url": "https://ghfast.top/https://github.com/0xbadfca11/fat32format/releases/download/releasea027932/fat32format.exe",
+  "url": "https:github.com0xbadfca11fat32formatreleasesdownloadreleasea027932fat32format.exe",
   "hash": "782ea117b209aa3b882d847025640e6c433b2f70c7555345c9d459522aed9b50",
   "bin": "fat32format.exe",
   "checkver": {
-    "github": "https://github.com/0xbadfca11/fat32format",
-    "regex": "tag/release([\\w.-]+)"
+    "github": "https:github.com0xbadfca11fat32format",
+    "regex": "tagrelease([\\w.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/0xbadfca11/fat32format/releases/download/release$version/fat32format.exe"
+    "url": "https:github.com0xbadfca11fat32formatreleasesdownloadrelease$versionfat32format.exe"
   }
 }

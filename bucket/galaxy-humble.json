@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
+  "homepage": "https:github.comFriendsOfGalaxygalaxy-integration-humble",
   "version": "0.9.5",
   "depends": "sudo",
-  "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/0.9.5/windows.zip",
+  "url": "https:github.comFriendsOfGalaxygalaxy-integration-humblereleasesdownload0.9.5windows.zip",
   "hash": "81302b8198515a58dcbd2e22aab2816b0281a5a768e9adb14cadbb62d929ebd4",
   "extract_to": "integration",
   "persist": "integration\\config.ini",
@@ -38,7 +38,7 @@
     "} else {",
     "    $response=\"Y\"",
     "}",
-    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [Y/N]'",
+    "$msg = 'Would you like to attach this integration folder to GOG Galaxy programmatically? [YN]'",
     "while(\"Y\",\"N\" -notcontains $response) {",
     "    $response =  (Read-Host -Prompt $msg).ToUpper()",
     "}",
@@ -46,7 +46,7 @@
     "    Write-Host \"No worries! Just make sure you follow these steps:\" -f Yellow",
     "    Write-Host \"1) Open a Command Prompt via (Run as Administrator)\" -f Yellow",
     "    Write-Host \"2) Run:\" -f Yellow",
-    "    Write-Host \"mklink /D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
+    "    Write-Host \"mklink D $([char]0x22)%localappdata%\\GOG.com\\Galaxy\\plugins\\installed\\$integration$([char]0x22) $([char]0x22)$scoopdir\\apps\\$app\\current\\integration$([char]0x22)\" -f Yellow",
     "} elseif ($link) {",
     "    sudo New-Item -ItemType SymbolicLink -Path $path -Target $source 2`>`&1 `> symlink.log",
     "    $installed = Get-ChildItem -Path $gi_path -Depth 0 -Filter $wildcard | % { $_.FullName }",
@@ -69,9 +69,9 @@
     "Write-Host \"This plugin has a config file located here: $persist_dir\\integration\\config.ini\" -f Magenta"
   ],
   "checkver": {
-    "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble"
+    "github": "https:github.comFriendsOfGalaxygalaxy-integration-humble"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/$version/windows.zip"
+    "url": "https:github.comFriendsOfGalaxygalaxy-integration-humblereleasesdownload$versionwindows.zip"
   }
 }

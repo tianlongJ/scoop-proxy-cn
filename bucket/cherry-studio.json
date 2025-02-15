@@ -1,14 +1,14 @@
 {
   "version": "0.9.24",
   "description": "A desktop client that supports for multiple LLM providers",
-  "homepage": "https://cherry-ai.com/",
+  "homepage": "https:cherry-ai.com",
   "license": {
     "identifier": "Apache-2.0",
-    "url": "https://github.com/CherryHQ/cherry-studio/raw/refs/heads/main/LICENSE"
+    "url": "https:github.comCherryHQcherry-studiorawrefsheadsmainLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://cherrystudio.ocool.online/Cherry-Studio-0.9.24-setup.exe",
+      "url": "https:cherrystudio.ocool.onlineCherry-Studio-0.9.24-setup.exe",
       "hash": "ed1daba71c86dbda39002ba4a80103671ca7ce3f0b314afb7c431776e77b1d36"
     }
   },
@@ -45,12 +45,12 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/CherryHQ/cherry-studio"
+    "github": "https:github.comCherryHQcherry-studio"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://cherrystudio.ocool.online/Cherry-Studio-$version-setup.exe"
+        "url": "https:cherrystudio.ocool.onlineCherry-Studio-$version-setup.exe"
       }
     }
   }

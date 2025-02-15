@@ -1,11 +1,11 @@
 {
   "version": "7.26.0",
   "description": "E-book manager.",
-  "homepage": "https://calibre-ebook.com/",
+  "homepage": "https:calibre-ebook.com",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kovidgoyal/calibre/releases/download/v7.26.0/calibre-64bit-7.26.0.msi",
+      "url": "https:github.comkovidgoyalcalibrereleasesdownloadv7.26.0calibre-64bit-7.26.0.msi",
       "hash": "f737537b4df4bdc9ef15e9c24a68ad6423f4c300ba82341062f734dfda138c37",
       "extract_dir": "PFiles\\Calibre2"
     }
@@ -49,12 +49,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/kovidgoyal/calibre"
+    "github": "https:github.comkovidgoyalcalibre"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-64bit-$version.msi"
+        "url": "https:github.comkovidgoyalcalibrereleasesdownloadv$versioncalibre-64bit-$version.msi"
       }
     }
   }

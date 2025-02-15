@@ -1,25 +1,25 @@
 {
   "version": "3.18.3",
   "description": "A CLI for Quarkus Java framework",
-  "homepage": "https://quarkus.io/",
+  "homepage": "https:quarkus.io",
   "license": "Apache-2.0",
   "suggest": {
-    "JDK": "java/openjdk"
+    "JDK": "javaopenjdk"
   },
-  "url": "https://ghfast.top/https://github.com/quarkusio/quarkus/releases/download/3.18.3/quarkus-cli-3.18.3.zip",
+  "url": "https:github.comquarkusioquarkusreleasesdownload3.18.3quarkus-cli-3.18.3.zip",
   "extract_dir": "quarkus-cli-3.18.3",
   "hash": "1e03496b4544e5849b6cc3970518334d0266dea9b5139fb231a0cb89a5b5d309",
   "bin": "bin\\quarkus.bat",
   "checkver": {
-    "url": "https://registry.quarkus.io/client/platforms",
+    "url": "https:registry.quarkus.ioclientplatforms",
     "jsonpath": "$..version",
     "regex": "([\\d+\\.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/quarkusio/quarkus/releases/download/$version/quarkus-cli-$version.zip",
+    "url": "https:github.comquarkusioquarkusreleasesdownload$versionquarkus-cli-$version.zip",
     "extract_dir": "quarkus-cli-$version",
     "hash": {
-      "url": "$baseurl/checksums_sha256.txt"
+      "url": "$baseurlchecksums_sha256.txt"
     }
   }
 }

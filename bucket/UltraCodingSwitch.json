@@ -1,9 +1,9 @@
 {
-  "homepage": "https://github.com/zhoujin7/tomato-extra",
+  "homepage": "https:github.comzhoujin7tomato-extra",
   "description": "Text Encoding converter. 编码转换工具.",
   "version": "1.0.0.0",
   "license": "Freeware",
-  "url": "https://sourceforge.net/projects/tomato-extra/files/apps/UltraCodingSwitch.exe",
+  "url": "https:sourceforge.netprojectstomato-extrafilesappsUltraCodingSwitch.exe",
   "hash": "1229db464cd1f2fe1a7d08be3c6df296f5707771c7c6320df9a4682947ea5517",
   "bin": "UltraCodingSwitch.exe",
   "shortcuts": [

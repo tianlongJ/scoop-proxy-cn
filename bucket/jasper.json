@@ -1,11 +1,11 @@
 {
   "version": "1.1.2",
   "description": "Flexible and powerful issue reader for GitHub",
-  "homepage": "https://jasperapp.io",
+  "homepage": "https:jasperapp.io",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/jasperapp/jasper/releases/download/v1.1.2/jasper_v1.1.2_windows_setup.exe#/dl.7z",
+      "url": "https:github.comjasperappjasperreleasesdownloadv1.1.2jasper_v1.1.2_windows_setup.exe#dl.7z",
       "hash": "d3ff48f0cde1f4f4063c690ca9b89f788ebacde9bf6f081a7bd7d90cfd8ff57e"
     }
   },
@@ -17,9 +17,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/jasperapp/jasper"
+    "github": "https:github.comjasperappjasper"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/jasperapp/jasper/releases/download/v$version/jasper_v$version_windows_setup.exe#/dl.7z"
+    "url": "https:github.comjasperappjasperreleasesdownloadv$versionjasper_v$version_windows_setup.exe#dl.7z"
   }
 }

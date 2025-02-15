@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "description": "fancy fork of ffpb",
-  "homepage": "https://github.com/Aetopia/ffpb",
+  "homepage": "https:github.comAetopiaffpb",
   "license": "MIT",
-  "url": "https://ghfast.top/https://github.com/Aetopia/ffprogress/releases/download/v0.4.1.1/ffprogress.exe",
+  "url": "https:github.comAetopiaffprogressreleasesdownloadv0.4.1.1ffprogress.exe",
   "hash": "5E398F5EF3D5DC398CB8FBE5425D55C3CC3608608845D3C8EFD588B623E45D8B",
   "bin": "ffprogress.exe"
 }

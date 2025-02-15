@@ -1,12 +1,12 @@
 {
   "version": "1.5.1",
   "description": "Customization marketplace for Windows programs.",
-  "homepage": "https://windhawk.net/",
+  "homepage": "https:windhawk.net",
   "license": {
     "identifier": "GPL-3.0-or-later",
-    "url": "https://github.com/ramensoftware/windhawk/blob/main/LICENSE"
+    "url": "https:github.comramensoftwarewindhawkblobmainLICENSE"
   },
-  "url": "https://ghfast.top/https://github.com/ramensoftware/windhawk/releases/download/v1.5.1/windhawk_setup_offline.exe",
+  "url": "https:github.comramensoftwarewindhawkreleasesdownloadv1.5.1windhawk_setup_offline.exe",
   "hash": "a53a9f236ee8b19914208c3bcc64a55e222c5154899d104a5297dc34cee99a02",
   "bin": "windhawk.exe",
   "pre_install": [
@@ -18,9 +18,9 @@
   ],
   "installer": {
     "args": [
-      "/portable",
-      "/S",
-      "/D=$dir"
+      "portable",
+      "S",
+      "D=$dir"
     ]
   },
   "post_install": [
@@ -41,9 +41,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/ramensoftware/windhawk"
+    "github": "https:github.comramensoftwarewindhawk"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ramensoftware/windhawk/releases/download/v$version/windhawk_setup_offline.exe"
+    "url": "https:github.comramensoftwarewindhawkreleasesdownloadv$versionwindhawk_setup_offline.exe"
   }
 }

@@ -1,26 +1,26 @@
 {
   "##": [
-    "For command-line usage, see: https://sandboxie-plus.com/sandboxie/startcommandline/",
+    "For command-line usage, see: https:sandboxie-plus.comsandboxiestartcommandline",
     "The installer is made with InnoSetup, but the app will not work without installing the drivers (via the installer)"
   ],
   "version": "1.15.6",
   "description": "Sandbox isolation software (plus variant)",
-  "homepage": "https://sandboxie-plus.com/",
+  "homepage": "https:sandboxie-plus.com",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.6/Sandboxie-Plus-x64-v1.15.6.exe#/setup.exe",
+      "url": "https:github.comsandboxie-plusSandboxiereleasesdownloadv1.15.6Sandboxie-Plus-x64-v1.15.6.exe#setup.exe",
       "hash": "d15417cbdac508909f5721cb2585defecea299cc0466e82c34e28c854a0b5153"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.6/Sandboxie-Plus-x86-v1.15.6.exe#/setup.exe",
+      "url": "https:github.comsandboxie-plusSandboxiereleasesdownloadv1.15.6Sandboxie-Plus-x86-v1.15.6.exe#setup.exe",
       "hash": "6d35b0a058e9f5886a7484529658c758e7f5728b3acb9b71b699ed63a0fd1b2d"
     }
   },
   "installer": {
     "script": [
       "if (!(is_admin)) { error \"$app requires admin rights to install\"; break }",
-      "Start-Process \"$dir\\setup.exe\" -ArgumentList @('/verysilent', \"/dir=`\"$dir`\"\") -Wait -Verb RunAs | Out-Null",
+      "Start-Process \"$dir\\setup.exe\" -ArgumentList @('verysilent', \"dir=`\"$dir`\"\") -Wait -Verb RunAs | Out-Null",
       "Remove-Item \"$([Environment]::GetFolderPath('commonstartmenu'))\\Programs\\Sandboxie-Plus\" -Recurse",
       "Remove-Item \"$([Environment]::GetFolderPath('Desktop'))\\Sandboxie-Plus.lnk\"",
       "Remove-Item \"$dir\\setup.exe\""
@@ -30,7 +30,7 @@
   "uninstaller": {
     "script": [
       "if (!(is_admin)) { error \"$app requires admin rights to uninstall\"; break }",
-      "Invoke-ExternalCommand \"$dir\\unins000.exe\" -ArgumentList '/verysilent' -RunAs | Out-Null"
+      "Invoke-ExternalCommand \"$dir\\unins000.exe\" -ArgumentList 'verysilent' -RunAs | Out-Null"
     ]
   },
   "bin": [
@@ -47,12 +47,12 @@
     [
       "Start.exe",
       "Sandboxie Start Menu",
-      "/box:__ask__ start_menu"
+      "box:__ask__ start_menu"
     ],
     [
       "Start.exe",
       "Run any program sandboxed",
-      "/box:__ask__ run_dialog"
+      "box:__ask__ run_dialog"
     ],
     [
       "Start.exe",
@@ -61,16 +61,16 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/sandboxie-plus/Sandboxie",
-    "regex": "Release v([\\d.]+) / (?<classicver>[\\d.]+)"
+    "github": "https:github.comsandboxie-plusSandboxie",
+    "regex": "Release v([\\d.]+)  (?<classicver>[\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x64-v$version.exe#/setup.exe"
+        "url": "https:github.comsandboxie-plusSandboxiereleasesdownloadv$versionSandboxie-Plus-x64-v$version.exe#setup.exe"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x86-v$version.exe#/setup.exe"
+        "url": "https:github.comsandboxie-plusSandboxiereleasesdownloadv$versionSandboxie-Plus-x86-v$version.exe#setup.exe"
       }
     }
   }

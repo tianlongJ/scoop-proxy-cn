@@ -1,14 +1,14 @@
 {
   "version": "5.0.3",
   "description": "Free and reliable P2P Bittorent client.",
-  "homepage": "https://www.qbittorrent.org/",
+  "homepage": "https:www.qbittorrent.org",
   "license": {
     "identifier": "GPL-2.0-only",
-    "url": "https://github.com/qbittorrent/qBittorrent/blob/master/COPYING"
+    "url": "https:github.comqbittorrentqBittorrentblobmasterCOPYING"
   },
   "architecture": {
     "64bit": {
-      "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.0.3/qbittorrent_5.0.3_x64_setup.exe#/dl.7z",
+      "url": "https:downloads.sourceforge.netprojectqbittorrentqbittorrent-win32qbittorrent-5.0.3qbittorrent_5.0.3_x64_setup.exe#dl.7z",
       "hash": "sha1:5fbde5f904a7c0e1346b9bcef4a66a7a7dd7e5b9"
     }
   },
@@ -16,7 +16,7 @@
     "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Force -Recurse",
     "if ((!(Test-Path \"$persist_dir\\profile\")) -and ((Test-Path \"$persist_dir\\..\\qbittorrent-portable\\profile\") -or (Test-Path \"$env:APPDATA\\qBittorrent\"))) {",
     "    Write-Host \"Scoop is migrating qbittorrent to use portable mode by default.\" -ForegroundColor Yellow",
-    "    Write-Host \"For details, see: https://github.com/ScoopInstaller/Extras/issues/5845\" -ForegroundColor Yellow",
+    "    Write-Host \"For details, see: https:github.comScoopInstallerExtrasissues5845\" -ForegroundColor Yellow",
     "    if ((Test-Path \"$persist_dir\\..\\qbittorrent-portable\\profile\") -and (Test-Path \"$env:APPDATA\\qBittorrent\")) {",
     "        Write-Host \"Both portable and non-portable qBittorrent profile exist.\" -ForegroundColor Yellow",
     "        Write-Host \"Scoop will prioritize and import the non-portable one.\" -ForegroundColor Yellow",
@@ -44,12 +44,12 @@
   ],
   "persist": "profile",
   "checkver": {
-    "sourceforge": "qbittorrent/qbittorrent-win32"
+    "sourceforge": "qbittorrentqbittorrent-win32"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_x64_setup.exe#/dl.7z"
+        "url": "https:downloads.sourceforge.netprojectqbittorrentqbittorrent-win32qbittorrent-$versionqbittorrent_$version_x64_setup.exe#dl.7z"
       }
     }
   }

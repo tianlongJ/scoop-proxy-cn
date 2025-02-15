@@ -1,7 +1,7 @@
 {
   "version": "1.97.2.25045",
   "description": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
-  "homepage": "https://vscodium.com/",
+  "homepage": "https:vscodium.com",
   "license": "MIT",
   "notes": [
     "Add VSCodium as a context menu option by running 'reg import \"$dir\\install-context.reg\"'",
@@ -9,11 +9,11 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/VSCodium/vscodium/releases/download/1.97.2.25045/VSCodium-win32-x64-1.97.2.25045.zip",
+      "url": "https:github.comVSCodiumvscodiumreleasesdownload1.97.2.25045VSCodium-win32-x64-1.97.2.25045.zip",
       "hash": "76785a71712718d469f99ee3aeb95209aff9f1154b553e39c81a40f0f3c811c6"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/VSCodium/vscodium/releases/download/1.97.2.25045/VSCodium-win32-arm64-1.97.2.25045.zip",
+      "url": "https:github.comVSCodiumvscodiumreleasesdownload1.97.2.25045VSCodium-win32-arm64-1.97.2.25045.zip",
       "hash": "97edcfb31345bbcd54ba6de1838408939f601a8bc3ea8df24eb3a0aaa1a69487"
     }
   },
@@ -53,13 +53,13 @@
     "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
     "if ((Test-Path \"$extensions_file\")) {",
     "    info 'Adjusting path in extensions file...'",
-    "    (Get-Content \"$extensions_file\") -replace '(?<=vscodium(/|\\\\\\\\)).*?(?=(/|\\\\\\\\)data(/|\\\\\\\\)extensions)', $version | Set-Content \"$extensions_file\"",
+    "    (Get-Content \"$extensions_file\") -replace '(?<=vscodium(|\\\\\\\\)).*?(?=(|\\\\\\\\)data(|\\\\\\\\)extensions)', $version | Set-Content \"$extensions_file\"",
     "}"
   ],
   "env_add_path": "bin",
   "bin": [
     [
-      "bin/codium.cmd",
+      "bincodium.cmd",
       "vscodium"
     ]
   ],
@@ -71,15 +71,15 @@
   ],
   "persist": "data",
   "checkver": {
-    "github": "https://github.com/VSCodium/vscodium"
+    "github": "https:github.comVSCodiumvscodium"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-x64-$version.zip"
+        "url": "https:github.comVSCodiumvscodiumreleasesdownload$versionVSCodium-win32-x64-$version.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-arm64-$version.zip"
+        "url": "https:github.comVSCodiumvscodiumreleasesdownload$versionVSCodium-win32-arm64-$version.zip"
       }
     },
     "hash": {

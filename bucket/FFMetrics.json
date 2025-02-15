@@ -1,9 +1,9 @@
 {
   "version": "1.5.0",
   "description": "Visualizes Video Quality Metrics (PSNR, SSIM & VMAF) calculated by ffmpeg.exe",
-  "homepage": "https://github.com/fifonik/FFMetrics",
+  "homepage": "https:github.comfifonikFFMetrics",
   "license": "Unknown",
-  "url": "https://ghfast.top/https://github.com/fifonik/FFMetrics/releases/download/v1.5.0/FFMetrics.1.5.0.zip",
+  "url": "https:github.comfifonikFFMetricsreleasesdownloadv1.5.0FFMetrics.1.5.0.zip",
   "hash": "cb864ced6fba4b231579120fe75ff536d3f0ebbb4ce2cd028b86808fceb18e57",
   "shortcuts": [
     [
@@ -13,9 +13,9 @@
   ],
   "depends": "ffmpeg",
   "checkver": {
-    "github": "https://github.com/fifonik/FFMetrics"
+    "github": "https:github.comfifonikFFMetrics"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/fifonik/FFMetrics/releases/download/v$version/FFMetrics.$version.zip"
+    "url": "https:github.comfifonikFFMetricsreleasesdownloadv$versionFFMetrics.$version.zip"
   }
 }

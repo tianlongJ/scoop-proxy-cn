@@ -1,13 +1,13 @@
 {
   "version": "146",
   "description": "Server-side program for Mindustry, a sandbox tower-defense game",
-  "homepage": "https://mindustrygame.github.io/",
+  "homepage": "https:mindustrygame.github.io",
   "license": "GPL-3.0-only",
   "suggest": {
-    "Java Runtime Environment": "java/adoptopenjdk-hotspot-jre",
-    "Mindustry": "games/mindustry"
+    "Java Runtime Environment": "javaadoptopenjdk-hotspot-jre",
+    "Mindustry": "gamesmindustry"
   },
-  "url": "https://ghfast.top/https://github.com/Anuken/Mindustry/releases/download/v146/server-release.jar#/Mindustry-Server.jar",
+  "url": "https:github.comAnukenMindustryreleasesdownloadv146server-release.jar#Mindustry-Server.jar",
   "hash": "2b0b47a72b2acde535e5dfe2751cd3a1b65c0bed047d3c33e26146716bf99243",
   "pre_install": "Set-Content -Path \"$dir\\mindustry-server.bat\" -Value \"pushd $dir && java -jar Mindustry-Server.jar && popd\"",
   "bin": "mindustry-server.bat",
@@ -18,10 +18,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/Anuken/Mindustry/releases",
-    "regex": "Anuken\\/Mindustry\\/tree\\/v(\\d+)"
+    "url": "https:github.comAnukenMindustryreleases",
+    "regex": "Anuken\\Mindustry\\tree\\v(\\d+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Anuken/Mindustry/releases/download/v$version/server-release.jar#/Mindustry-Server.jar"
+    "url": "https:github.comAnukenMindustryreleasesdownloadv$versionserver-release.jar#Mindustry-Server.jar"
   }
 }

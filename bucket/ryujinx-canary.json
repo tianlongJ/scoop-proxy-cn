@@ -1,19 +1,19 @@
 {
-  "version": "1.2.387",
+  "version": "1.2.389",
   "description": "Nintendo Switch emulator",
-  "homepage": "https://github.com/GreemDev/Ryujinx-Canary",
+  "homepage": "https:github.comGreemDevRyujinx-Canary",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/GreemDev/Ryujinx/blob/master/LICENSE.txt"
+    "url": "https:github.comGreemDevRyujinxblobmasterLICENSE.txt"
   },
   "notes": [
     "ATTENTION: Ryujinx requires Nintendo Switch firmware and a prod.keys file to function.",
-    "Learn more at https://github.com/GreemDev/Ryujinx/wiki/FAQ-and-Troubleshooting"
+    "Learn more at https:github.comGreemDevRyujinxwikiFAQ-and-Troubleshooting"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/GreemDev/Ryujinx-Canary/releases/download/1.2.387/ryujinx-canary-1.2.387-win_x64.zip",
-      "hash": "831f9dc2ae77d6466a4bbd108babbda36ff3ebb02fce2dfc3a6d3d3b9ec235bc"
+      "url": "https:github.comGreemDevRyujinx-Canaryreleasesdownload1.2.389ryujinx-canary-1.2.389-win_x64.zip",
+      "hash": "fd0fd186f665ff8f914a212e1298f257ea5c779825b6f163cf4e49f45f92bc3f"
     }
   },
   "extract_dir": "publish",
@@ -36,12 +36,12 @@
   ],
   "persist": "portable",
   "checkver": {
-    "github": "https://github.com/GreemDev/Ryujinx-Canary"
+    "github": "https:github.comGreemDevRyujinx-Canary"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/GreemDev/Ryujinx-Canary/releases/download/$version/ryujinx-canary-$version-win_x64.zip"
+        "url": "https:github.comGreemDevRyujinx-Canaryreleasesdownload$versionryujinx-canary-$version-win_x64.zip"
       }
     }
   }

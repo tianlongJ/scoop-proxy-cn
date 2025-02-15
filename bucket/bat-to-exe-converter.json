@@ -1,9 +1,9 @@
 {
   "version": "3.2.0.0",
   "description": "f2ko's Bat to Exe Converter, does what it says on the tin",
-  "homepage": "https://www.f2ko.de/programme/bat-to-exe-converter",
+  "homepage": "https:www.f2ko.deprogrammebat-to-exe-converter",
   "license": "Freeware",
-  "url": "https://revoltcars.tk/holes/Bat_To_Exe_Converter_Portable.7z",
+  "url": "https:revoltcars.tkholesBat_To_Exe_Converter_Portable.7z",
   "hash": "db0afb64da868ec95e72b5f450467951524aba7d219764459e100fac9ed0a7f9",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\settings\")) { New-Item \"$dir\\settings\" | Out-Null }",
@@ -24,11 +24,11 @@
   ],
   "persist": "settings",
   "checkver": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/BatToExeConverter.latest",
+    "url": "https:raw.githubusercontent.comkkzzhizhouscoop-zappsmasterversionsBatToExeConverter.latest",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://scoop-zapps.ziiyc.com/d/BatToExeConverter/BatToExeConverter-$version.zip",
+    "url": "https:scoop-zapps.ziiyc.comdBatToExeConverterBatToExeConverter-$version.zip",
     "hash": {
       "url": "$url.sha256",
       "regex": "$sha256"

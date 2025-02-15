@@ -2,12 +2,12 @@
   "version": "1.085",
   "description": "Recursive Mono & Sans is a variable font family for code & UI",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/arrowtype/recursive",
+  "homepage": "https:github.comarrowtyperecursive",
   "url": [
-    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Bold-1.085.ttf",
-    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-BoldItalic-1.085.ttf",
-    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Italic-1.085.ttf",
-    "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Regular-1.085.ttf"
+    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoDuotoneRecMonoDuotone-Bold-1.085.ttf",
+    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoDuotoneRecMonoDuotone-BoldItalic-1.085.ttf",
+    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoDuotoneRecMonoDuotone-Italic-1.085.ttf",
+    "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-1.085Recursive_CodeRecMonoDuotoneRecMonoDuotone-Regular-1.085.ttf"
   ],
   "hash": [
     "25fd3352f579d630bac6239295eaf6a51185fb066e4392e33e3eda25f0ab11ad",
@@ -18,10 +18,10 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Bold-$version.ttf",
-      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoDuotone/RecMonoDuotone-BoldItalic-$version.ttf",
-      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Italic-$version.ttf",
-      "https://github.com/arrowtype/recursive/raw/main/fonts/ArrowType-Recursive-$version/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Regular-$version.ttf"
+      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoDuotoneRecMonoDuotone-Bold-$version.ttf",
+      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoDuotoneRecMonoDuotone-BoldItalic-$version.ttf",
+      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoDuotoneRecMonoDuotone-Italic-$version.ttf",
+      "https:github.comarrowtyperecursiverawmainfontsArrowType-Recursive-$versionRecursive_CodeRecMonoDuotoneRecMonoDuotone-Regular-$version.ttf"
     ]
   },
   "installer": {
@@ -45,7 +45,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",

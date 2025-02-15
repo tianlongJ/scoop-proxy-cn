@@ -1,13 +1,13 @@
 {
   "version": "136.0b6",
   "description": "Firefox Developer Edition: open source web browser. Custom policies.json file. Italian Language Pack.",
-  "homepage": "https://www.mozilla.org/it/firefox/developer/",
+  "homepage": "https:www.mozilla.orgitfirefoxdeveloper",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
       "url": [
-        "https://archive.mozilla.org/pub/devedition/releases/136.0b6/win64/it/Firefox%20Setup%20136.0b6.exe#/dl.7z",
-        "https://ghfast.top/https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+        "https:archive.mozilla.orgpubdeveditionreleases136.0b6win64itFirefox%20Setup%20136.0b6.exe#dl.7z",
+        "https:raw.githubusercontent.comstarisescoop-confettimasterscriptsfirefox-policies.json#policies.json"
       ],
       "hash": [
         "sha512:a16830b6547bba2830ba3ba9e0d6684160f85f2f0a4b9e00e74d6ab0330443309c72875e8936d486a473ba398dc79182ecef00de3ce4a3a3d4b04c8eb001b904",
@@ -16,8 +16,8 @@
     },
     "32bit": {
       "url": [
-        "https://archive.mozilla.org/pub/devedition/releases/136.0b6/win32/it/Firefox%20Setup%20136.0b6.exe#/dl.7z",
-        "https://ghfast.top/https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+        "https:archive.mozilla.orgpubdeveditionreleases136.0b6win32itFirefox%20Setup%20136.0b6.exe#dl.7z",
+        "https:raw.githubusercontent.comstarisescoop-confettimasterscriptsfirefox-policies.json#policies.json"
       ],
       "hash": [
         "sha512:9c6cb0ea94c6b7ed51d128709388545a9efa3ec66da4e2c0bd59e95a7230866d8ff255b4053271b7232b0b94a81618595128891d624a75026803864260b911d6",
@@ -50,23 +50,23 @@
     ]
   ],
   "checkver": {
-    "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+    "url": "https:product-details.mozilla.org1.0firefox_versions.json",
     "jsonpath": "$.FIREFOX_DEVEDITION"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win64/it/Firefox%20Setup%20$version.exe#/dl.7z",
+        "url": "https:archive.mozilla.orgpubdeveditionreleases$versionwin64itFirefox%20Setup%20$version.exe#dl.7z",
         "hash": {
-          "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
-          "regex": "$sha512\\s+win64/it/$basename"
+          "url": "https:archive.mozilla.orgpubdeveditionreleases$versionSHA512SUMS",
+          "regex": "$sha512\\s+win64it$basename"
         }
       },
       "32bit": {
-        "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win32/it/Firefox%20Setup%20$version.exe#/dl.7z",
+        "url": "https:archive.mozilla.orgpubdeveditionreleases$versionwin32itFirefox%20Setup%20$version.exe#dl.7z",
         "hash": {
-          "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
-          "regex": "$sha512\\s+win32/it/$basename"
+          "url": "https:archive.mozilla.orgpubdeveditionreleases$versionSHA512SUMS",
+          "regex": "$sha512\\s+win32it$basename"
         }
       }
     }

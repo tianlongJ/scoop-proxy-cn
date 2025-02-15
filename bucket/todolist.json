@@ -1,15 +1,15 @@
 {
   "version": "9.0.6",
   "description": "This free (for life) Windows desktop application offers an effective and flexible way to stay on top of your daily tasks.",
-  "homepage": "https://www.abstractspoon.com",
+  "homepage": "https:www.abstractspoon.com",
   "license": {
     "identifier": "EPL-1.0",
-    "url": "https://opensource.org/licenses/eclipse-1.0.php"
+    "url": "https:opensource.orglicenseseclipse-1.0.php"
   },
   "suggest": {
-    "vcredist": "extras/vcredist2010"
+    "vcredist": "extrasvcredist2010"
   },
-  "url": "https://ghfast.top/https://raw.githubusercontent.com/abstractspoon/ToDoList_Downloads/master/Latest/todolist_exe.zip",
+  "url": "https:raw.githubusercontent.comabstractspoonToDoList_DownloadsmasterLatesttodolist_exe.zip",
   "hash": "643a95c4258fc35f552afcbda469e6cdb51b8d30f1c1dabf21b9431683fa5548",
   "pre_install": [
     "function persistFile ([String] $name) {",
@@ -41,11 +41,11 @@
     "Resources\\TaskLists"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/39107460/commits",
+    "url": "https:api.github.comrepositories39107460commits",
     "jsonpath": "$..message",
     "regex": "Update todolist_exe.zip to (\\d+[\\d.]+\\.\\d+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://raw.githubusercontent.com/abstractspoon/ToDoList_Downloads/master/Latest/todolist_exe.zip"
+    "url": "https:raw.githubusercontent.comabstractspoonToDoList_DownloadsmasterLatesttodolist_exe.zip"
   }
 }

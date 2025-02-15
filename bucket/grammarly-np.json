@@ -1,15 +1,15 @@
 {
   "version": "1.2.135.1595",
-  "homepage": "https://www.grammarly.com/",
+  "homepage": "https:www.grammarly.com",
   "description": "An AI-powered grammar assistant and plagiarism detector that helps with improving writing in english.",
   "license": {
     "identifier": "Freeware",
-    "url": "https://www.grammarly.com/terms"
+    "url": "https:www.grammarly.comterms"
   },
-  "url": "https://download-windows.grammarly.com/versions/1.2.135.1595/GrammarlyInstaller.exe",
+  "url": "https:download-windows.grammarly.comversions1.2.135.1595GrammarlyInstaller.exe",
   "hash": "b4dfd6058a299c0d6e16a5818da887f00318347cf59c6b64b9c8f49c1192a3f2",
   "pre_install": [
-    "Start-Process \"$dir\\GrammarlyInstaller.exe\" -Args '/S'",
+    "Start-Process \"$dir\\GrammarlyInstaller.exe\" -Args 'S'",
     "while (!(Test-Path \"$env:LOCALAPPDATA\\Grammarly\\DesktopIntegrations\\Uninstall.exe\")) {",
     "   Start-Sleep -Milliseconds 6500",
     "}",
@@ -24,7 +24,7 @@
   "pre_uninstall": [
     "Stop-Process -Name 'Grammarly.Desktop' -ErrorAction 'SilentlyContinue' -Force",
     "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
-    "Start-Process \"$env:LOCALAPPDATA\\Grammarly\\DesktopIntegrations\\Uninstall.exe\" -Args '/S'",
+    "Start-Process \"$env:LOCALAPPDATA\\Grammarly\\DesktopIntegrations\\Uninstall.exe\" -Args 'S'",
     "while ((Test-Path \"$env:LOCALAPPDATA\\Grammarly\\DesktopIntegrations\")) {",
     "   Start-Sleep -Milliseconds 6500",
     "}",
@@ -44,12 +44,12 @@
   "checkver": {
     "script": [
       "$userAgent = [Microsoft.PowerShell.Commands.PSUserAgent].GetMembers('Static, NonPublic').Where{$_.Name -eq 'UserAgent'}.GetValue($null,$null)",
-      "<## Credits to @vedantmgoyal2009 for the PowerShell script. Link to their GitHub profile: https://github.com/vedantmgoyal2009 ##>",
-      "(Invoke-RestMethod 'https://update-windows.grammarly.com/update' -Method 'Post' -Body '{\"currentVersion\": \"0.0.0.0\"}' -UserAgent $userAgent).version"
+      "<## Credits to @vedantmgoyal2009 for the PowerShell script. Link to their GitHub profile: https:github.comvedantmgoyal2009 ##>",
+      "(Invoke-RestMethod 'https:update-windows.grammarly.comupdate' -Method 'Post' -Body '{\"currentVersion\": \"0.0.0.0\"}' -UserAgent $userAgent).version"
     ],
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://download-windows.grammarly.com/versions/$version/GrammarlyInstaller.exe"
+    "url": "https:download-windows.grammarly.comversions$versionGrammarlyInstaller.exe"
   }
 }

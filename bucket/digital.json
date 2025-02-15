@@ -1,15 +1,15 @@
 {
   "version": "0.31",
   "description": "A digital logic designer and circuit simulator",
-  "homepage": "https://github.com/hneemann/Digital",
+  "homepage": "https:github.comhneemannDigital",
   "license": "GPL-3.0-only",
   "suggest": {
     "JDK": [
-      "java/opendk",
-      "java/oraclejdk"
+      "javaopendk",
+      "javaoraclejdk"
     ]
   },
-  "url": "https://ghfast.top/https://github.com/hneemann/Digital/releases/download/v0.31/Digital.zip",
+  "url": "https:github.comhneemannDigitalreleasesdownloadv0.31Digital.zip",
   "hash": "12f014c8b99140554f8f7464ebc771bbe3de6af39c83c20463492bcb892afc69",
   "extract_dir": "Digital",
   "pre_install": "Set-Content \"$dir\\Digital.bat\" '@start javaw.exe -jar \"%~dp0Digital.jar\" %*' -Encoding Ascii",
@@ -23,6 +23,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/hneemann/Digital/releases/download/v$version/Digital.zip"
+    "url": "https:github.comhneemannDigitalreleasesdownloadv$versionDigital.zip"
   }
 }

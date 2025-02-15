@@ -1,11 +1,11 @@
 {
   "version": "2.25.0",
   "description": "Allows deleting all resources of an AWS account.",
-  "homepage": "https://github.com/rebuy-de/aws-nuke",
+  "homepage": "https:github.comrebuy-deaws-nuke",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rebuy-de/aws-nuke/releases/download/v2.25.0/aws-nuke-v2.25.0-windows-amd64.zip",
+      "url": "https:github.comrebuy-deaws-nukereleasesdownloadv2.25.0aws-nuke-v2.25.0-windows-amd64.zip",
       "hash": "d7a8a0e68bfb2c26cf4fa3931d6608828c483fdd7f34f04a2316bde12eb6ea1f"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rebuy-de/aws-nuke/releases/download/v$version/aws-nuke-v$version-windows-amd64.zip"
+        "url": "https:github.comrebuy-deaws-nukereleasesdownloadv$versionaws-nuke-v$version-windows-amd64.zip"
       }
     }
   }

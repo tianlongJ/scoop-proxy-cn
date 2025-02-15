@@ -1,13 +1,13 @@
 {
   "version": "2.2.1.9",
   "description": "Structured Storage .net component.",
-  "homepage": "https://github.com/ironfede/openmcdf",
+  "homepage": "https:github.comironfedeopenmcdf",
   "license": "MPL-2.0",
   "#depends": [
     ""
   ],
   "extract_dir": "StructuredStorageXplorer",
-  "url": "https://ghfast.top/https://github.com/ironfede/openmcdf/releases/download/v2.2.1.9/StructuredStorageXplorer.zip",
+  "url": "https:github.comironfedeopenmcdfreleasesdownloadv2.2.1.9StructuredStorageXplorer.zip",
   "hash": "",
   "post_install": [
     "",
@@ -28,9 +28,9 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/ironfede/openmcdf"
+    "github": "https:github.comironfedeopenmcdf"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ironfede/openmcdf/releases/download/v$version/StructuredStorageXplorer.zip"
+    "url": "https:github.comironfedeopenmcdfreleasesdownloadv$versionStructuredStorageXplorer.zip"
   }
 }

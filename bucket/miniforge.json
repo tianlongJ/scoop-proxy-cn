@@ -1,27 +1,27 @@
 {
   "version": "24.11.3-0",
-  "homepage": "https://github.com/conda-forge/miniforge",
+  "homepage": "https:github.comconda-forgeminiforge",
   "description": "A minimal conda distribution specific to conda-forge.",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/conda-forge/miniforge/releases/download/24.11.3-0/Miniforge3-24.11.3-0-Windows-x86_64.exe",
+      "url": "https:github.comconda-forgeminiforgereleasesdownload24.11.3-0Miniforge3-24.11.3-0-Windows-x86_64.exe",
       "hash": "4a17db28f7599c61ba0ec537f73882b746cde262d7ac8a4865e82af2f5fba126"
     }
   },
   "installer": {
     "script": [
-      "# https://github.com/ScoopInstaller/Scoop/pull/5065",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/DoradoUtils.psm1)",
+      "# https:github.comScoopInstallerScooppull5065",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsDoradoUtils.psm1)",
       "Move-Item \"$dir\\$fname\" \"$dir\\..\\setup.exe\" | Out-Null",
-      "Invoke-ExternalCommand2 -Path \"$dir\\..\\setup.exe\" -ArgumentList @('/S', '/InstallationType=JustMe', '/RegisterPython=0', '/AddToPath=0', '/NoRegistry=1', '/NoShortcuts=1', \"/D=$dir\") | Out-Null",
+      "Invoke-ExternalCommand2 -Path \"$dir\\..\\setup.exe\" -ArgumentList @('S', 'InstallationType=JustMe', 'RegisterPython=0', 'AddToPath=0', 'NoRegistry=1', 'NoShortcuts=1', \"D=$dir\") | Out-Null",
       "Remove-Module -Name DoradoUtils"
     ]
   },
   "uninstaller": {
     "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scripts/DoradoUtils.psm1)",
-      "Start-Process \"$dir\\Uninstall-Miniforge3.exe\" -ArgumentList '/S' -Wait | Out-Null",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name spc) scriptsDoradoUtils.psm1)",
+      "Start-Process \"$dir\\Uninstall-Miniforge3.exe\" -ArgumentList 'S' -Wait | Out-Null",
       "Remove-Module -Name DoradoUtils"
     ]
   },
@@ -34,13 +34,13 @@
     "(& $dir\\scripts\\conda.exe shell.powershell hook) | Out-String | Invoke-Expression"
   ],
   "checkver": {
-    "github": "https://github.com/conda-forge/miniforge",
-    "regex": "tag/([\\d.-]+)"
+    "github": "https:github.comconda-forgeminiforge",
+    "regex": "tag([\\d.-]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/conda-forge/miniforge/releases/download/$version/Miniforge3-$version-Windows-x86_64.exe",
+        "url": "https:github.comconda-forgeminiforgereleasesdownload$versionMiniforge3-$version-Windows-x86_64.exe",
         "hash": {
           "url": "$url.sha256"
         }
@@ -52,8 +52,8 @@
     "You may choose to install the one from the official bucket if you do not care about python PATH pollution.",
     "",
     "Conda base env is not persisted by Scoop, packages installed to the base env will be removed when upgrading the app.",
-    "We advice to setup 'envs_dirs' to use a seperated path like '~/.conda/envs' and avoid using the base env.",
-    "https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs",
+    "We advice to setup 'envs_dirs' to use a seperated path like '~.condaenvs' and avoid using the base env.",
+    "https:conda.ioprojectscondaenlatestuser-guideconfigurationuse-condarc.html#specify-environment-directories-envs-dirs",
     "",
     "To enable conda tab-completion autoload, you can add the following code to your PowerShell $PROFILE:",
     "(& conda 'shell.powershell' 'hook') | Out-String | Invoke-Expression"

@@ -1,14 +1,14 @@
 {
   "version": "1.0.2817",
   "description": "Xbox 360 Research Emulator",
-  "homepage": "https://xenia.jp",
+  "homepage": "https:xenia.jp",
   "license": {
     "identifier": "BSD-3-Clause",
-    "url": "https://github.com/xenia-project/xenia/blob/master/LICENSE"
+    "url": "https:github.comxenia-projectxeniablobmasterLICENSE"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xenia-project/release-builds-windows/releases/download/v1.0.2817-master/xenia_master.zip",
+      "url": "https:github.comxenia-projectrelease-builds-windowsreleasesdownloadv1.0.2817-masterxenia_master.zip",
       "hash": "6c17e35817fdc7c04d9c890280096ddda54e80a21ad7765861ffedd3c2a5d6d5"
     }
   },
@@ -38,13 +38,13 @@
     "cache"
   ],
   "checkver": {
-    "github": "https://github.com/xenia-project/release-builds-windows",
-    "regex": "v([\\d.]+)-master/xenia_master\\.zip"
+    "github": "https:github.comxenia-projectrelease-builds-windows",
+    "regex": "v([\\d.]+)-masterxenia_master\\.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/xenia-project/release-builds-windows/releases/download/v$version-master/xenia_master.zip"
+        "url": "https:github.comxenia-projectrelease-builds-windowsreleasesdownloadv$version-masterxenia_master.zip"
       }
     }
   }

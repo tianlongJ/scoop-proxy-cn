@@ -1,16 +1,16 @@
 {
   "version": "3.0.4",
   "description": "Inbucket is an email testing application; it will accept messages for any email address and make them available to view via a web interface.",
-  "homepage": "https://www.inbucket.org/",
+  "homepage": "https:www.inbucket.org",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/inbucket/inbucket/releases/download/v3.0.4/inbucket_3.0.4_windows_amd64.zip",
+      "url": "https:github.cominbucketinbucketreleasesdownloadv3.0.4inbucket_3.0.4_windows_amd64.zip",
       "hash": "abaee34764dffeb03af1a6da98a2bb24ceedc1f123beef992a8a907488284a19",
       "extract_dir": "inbucket_3.0.4_windows_amd64"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/inbucket/inbucket/releases/download/v3.0.4/inbucket-client_3.0.4_windows_arm64.zip",
+      "url": "https:github.cominbucketinbucketreleasesdownloadv3.0.4inbucket-client_3.0.4_windows_arm64.zip",
       "hash": "2ad574d8c789ee9e3426796e558318ca2252a1a6680bcee0b0c659c9ea20b7e5",
       "extract_dir": "inbucket-client_3.0.4_windows_arm64"
     }
@@ -27,21 +27,21 @@
   },
   "persist": "cert",
   "checkver": {
-    "github": "https://github.com/inbucket/inbucket"
+    "github": "https:github.cominbucketinbucket"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/inbucket/inbucket/releases/download/v$version/inbucket_$version_windows_amd64.zip",
+        "url": "https:github.cominbucketinbucketreleasesdownloadv$versioninbucket_$version_windows_amd64.zip",
         "extract_dir": "inbucket_$version_windows_amd64"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/inbucket/inbucket/releases/download/v$version/inbucket_$version_windows_arm64.zip",
+        "url": "https:github.cominbucketinbucketreleasesdownloadv$versioninbucket_$version_windows_arm64.zip",
         "extract_dir": "inbucket_$version_windows_arm64"
       }
     },
     "hash": {
-      "url": "$baseurl/inbucket_$version_checksums.txt"
+      "url": "$baseurlinbucket_$version_checksums.txt"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "version": "3.7.3",
   "description": "Bring macOS 'Quick Look' feature to Windows",
-  "homepage": "https://pooi.moe/QuickLook/",
+  "homepage": "https:pooi.moeQuickLook",
   "license": "GPL-3.0-or-later",
   "notes": [
     "If upgrading from QuickLook 3.6.9 or older, move the following directory to retain your settings:",
     "From \"$env:APPDATA\\pooi.moe\\QuickLook\" to \"$env:USERPROFILE\\scoop\\persist\\quicklook\\UserData\""
   ],
-  "url": "https://ghfast.top/https://github.com/QL-Win/QuickLook/releases/download/3.7.3/QuickLook-3.7.3.zip",
+  "url": "https:github.comQL-WinQuickLookreleasesdownload3.7.3QuickLook-3.7.3.zip",
   "hash": "e1f964fe2490b229359bd6900f801998aef8af25781d8786ceda197206404e0f",
   "bin": "QuickLook.exe",
   "shortcuts": [
@@ -18,9 +18,9 @@
   ],
   "persist": "UserData",
   "checkver": {
-    "github": "https://github.com/QL-Win/QuickLook"
+    "github": "https:github.comQL-WinQuickLook"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/QL-Win/QuickLook/releases/download/$version/QuickLook-$version.zip"
+    "url": "https:github.comQL-WinQuickLookreleasesdownload$versionQuickLook-$version.zip"
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": "1.19.5",
   "description": "Quick file searcher and app launcher with community-made plugins",
-  "homepage": "https://www.flowlauncher.com",
+  "homepage": "https:www.flowlauncher.com",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.19.5/Flow-Launcher-Portable.zip",
+      "url": "https:github.comFlow-LauncherFlow.Launcherreleasesdownloadv1.19.5Flow-Launcher-Portable.zip",
       "hash": "ee99f3c06c5f7367557a02a6f931fe843ce346c8c0b6ee2270161231e46ac8ec"
     }
   },
@@ -23,10 +23,10 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/Flow-Launcher/Flow.Launcher"
+    "github": "https:github.comFlow-LauncherFlow.Launcher"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/Flow-Launcher-Portable.zip",
+    "url": "https:github.comFlow-LauncherFlow.Launcherreleasesdownloadv$versionFlow-Launcher-Portable.zip",
     "persist": [
       [
         "app-$version\\UserData",

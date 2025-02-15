@@ -1,11 +1,11 @@
 {
   "version": "1.3.2",
-  "description": "Microphone controller using keyboard/mouse shortcuts",
-  "homepage": "https://github.com/SaifAqqad/AHK_MicMute",
+  "description": "Microphone controller using keyboardmouse shortcuts",
+  "homepage": "https:github.comSaifAqqadAHK_MicMute",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/SaifAqqad/AHK_MicMute/releases/download/1.3.2/MicMute.exe",
+      "url": "https:github.comSaifAqqadAHK_MicMutereleasesdownload1.3.2MicMute.exe",
       "hash": "41b1ba1339e3b8e40bf67a6abff4b902486a73584cb39c434ff9b12b05a869ef"
     }
   },
@@ -21,11 +21,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/SaifAqqad/AHK_MicMute/releases/download/$version/MicMute.exe"
+        "url": "https:github.comSaifAqqadAHK_MicMutereleasesdownload$versionMicMute.exe"
       }
     },
     "hash": {
-      "url": "$baseurl/MicMute.sha256"
+      "url": "$baseurlMicMute.sha256"
     }
   }
 }

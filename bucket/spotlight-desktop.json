@@ -1,13 +1,13 @@
 {
   "version": "2.0.1",
   "description": "Simple app to change the desktop wallpaper to the Windows Spotlight Lock Screen image.",
-  "homepage": "https://github.com/onlineth/Spotlight-Desktop",
+  "homepage": "https:github.comonlinethSpotlight-Desktop",
   "license": "AGPL-3.0",
   "notes": [
     "This is a simple app that will take the current Spotlight Lock Screen image and set it to your desktop wallpaper.",
     ""
   ],
-  "url": "https://ghfast.top/https://github.com/onlineth/Spotlight-Desktop/releases/download/2.0.1/SpotlightDesktop.msi",
+  "url": "https:github.comonlinethSpotlight-Desktopreleasesdownload2.0.1SpotlightDesktop.msi",
   "hash": "f14135aaf2333309b8b39d55bbc0bcb081d2272403829aeac9f23310c0a3e660",
   "extract_dir": "",
   "post_install": [
@@ -49,11 +49,11 @@
     "data"
   ],
   "checkver": {
-    "github": "https://github.com/onlineth/Spotlight-Desktop/tags",
+    "github": "https:github.comonlinethSpotlight-Desktoptags",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/onlineth/Spotlight-Desktop/releases/download/$version/SpotlightDesktop.msi",
+    "url": "https:github.comonlinethSpotlight-Desktopreleasesdownload$versionSpotlightDesktop.msi",
     "extract_dir": ""
   }
 }

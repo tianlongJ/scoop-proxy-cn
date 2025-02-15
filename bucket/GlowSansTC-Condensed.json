@@ -1,9 +1,9 @@
 {
   "version": "0.93",
   "description": "SHSans-derived CJK font family with a more concise & modern look.",
-  "homepage": "https://welai.github.io/glow-sans",
+  "homepage": "https:welai.github.ioglow-sans",
   "license": "OFL-1.1",
-  "url": "https://ghfast.top/https://github.com/welai/glow-sans/releases/download/v0.93/GlowSansTC-Condensed-v0.93.zip",
+  "url": "https:github.comwelaiglow-sansreleasesdownloadv0.93GlowSansTC-Condensed-v0.93.zip",
   "hash": "md5:103fed28cb7d94871037756d352aa08c",
   "installer": {
     "script": [
@@ -26,7 +26,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -83,12 +83,12 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/welai/glow-sans"
+    "github": "https:github.comwelaiglow-sans"
   },
   "autoupdate": {
     "hash": {
-      "url": "$baseurl/md5-v$version.txt"
+      "url": "$baseurlmd5-v$version.txt"
     },
-    "url": "https://ghfast.top/https://github.com/welai/glow-sans/releases/download/v$version/GlowSansTC-Condensed-v$version.zip"
+    "url": "https:github.comwelaiglow-sansreleasesdownloadv$versionGlowSansTC-Condensed-v$version.zip"
   }
 }

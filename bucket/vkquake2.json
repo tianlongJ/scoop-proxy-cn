@@ -1,7 +1,7 @@
 {
   "version": "1.5.9",
   "description": "Quake II source port based on v3.21 with Vulkan support",
-  "homepage": "https://github.com/kondrak/vkQuake2",
+  "homepage": "https:github.comkondrakvkQuake2",
   "license": "GPL-2.0-or-later",
   "notes": [
     "",
@@ -28,9 +28,9 @@
     "",
     "This project uses Miniaudio for music playback if the original game CD is not available.",
     "",
-    "For the base game, copy all the tracks into the baseq2/music directory following the trackXX.[ogg,flac,mp3,wav] naming scheme (so track02.ogg, track03.ogg... for OGG files etc.).",
+    "For the base game, copy all the tracks into the baseq2music directory following the trackXX.[ogg,flac,mp3,wav] naming scheme (so track02.ogg, track03.ogg... for OGG files etc.).",
     "",
-    "For Ground Zero, The Reckoning and Zaero, copy the tracks to rogue/music, xatrix/music, and zaero/music directories respectively.",
+    "For Ground Zero, The Reckoning and Zaero, copy the tracks to roguemusic, xatrixmusic, and zaeromusic directories respectively.",
     "",
     "Tip: Create a soft symbolic link to the music directory if you want to save space.",
     "",
@@ -38,16 +38,16 @@
     ""
   ],
   "suggest": {
-    "vcredist": "extras/vcredist2019"
+    "vcredist": "extrasvcredist2019"
   },
   "architecture": {
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/kondrak/vkQuake2/releases/download/1.5.9/vkquake2-1.5.9_win32.zip",
+      "url": "https:github.comkondrakvkQuake2releasesdownload1.5.9vkquake2-1.5.9_win32.zip",
       "hash": "b3b187331d7d0ecb0bebd37c6bd45912198a7fbee04c57afac3e8bdbaff22a91",
       "extract_dir": "vkquake2-1.5.9_win32"
     },
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kondrak/vkQuake2/releases/download/1.5.9/vkquake2-1.5.9_win64.zip",
+      "url": "https:github.comkondrakvkQuake2releasesdownload1.5.9vkquake2-1.5.9_win64.zip",
       "hash": "901b924bf0bd24d0fd63acd938ff6c58c30d6c165bc6747a1a50140a5bdfdc7c",
       "extract_dir": "vkquake2-1.5.9_win64"
     }
@@ -100,11 +100,11 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/kondrak/vkQuake2/releases/download/$version/vkquake2-$version_win32.zip",
+        "url": "https:github.comkondrakvkQuake2releasesdownload$versionvkquake2-$version_win32.zip",
         "extract_dir": "vkquake2-$version_win32"
       },
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/kondrak/vkQuake2/releases/download/$version/vkquake2-$version_win64.zip",
+        "url": "https:github.comkondrakvkQuake2releasesdownload$versionvkquake2-$version_win64.zip",
         "extract_dir": "vkquake2-$version_win64"
       }
     }

@@ -1,11 +1,11 @@
 {
   "version": "0.12.3",
-  "description": "2D action/RPG space game that combines elements from the action, RPG and simulation",
-  "homepage": "https://naev.org",
+  "description": "2D actionRPG space game that combines elements from the action, RPG and simulation",
+  "homepage": "https:naev.org",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/naev/naev/releases/download/v0.12.3/naev-0.12.3-win64.exe#/dl.7z",
+      "url": "https:github.comnaevnaevreleasesdownloadv0.12.3naev-0.12.3-win64.exe#dl.7z",
       "hash": "e586f6a4f23380449326c367fa75e969dfec6fce798e46881cb09d4f49eecaaa"
     }
   },
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/naev/naev"
+    "github": "https:github.comnaevnaev"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/naev/naev/releases/download/v$version/naev-$version-win64.exe#/dl.7z"
+        "url": "https:github.comnaevnaevreleasesdownloadv$versionnaev-$version-win64.exe#dl.7z"
       }
     }
   }

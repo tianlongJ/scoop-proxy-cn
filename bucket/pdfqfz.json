@@ -1,9 +1,9 @@
 {
   "version": "1.28",
   "description": "PDF加盖骑缝章的小工具",
-  "homepage": "https://github.com/flytkgl/PDFQFZ",
+  "homepage": "https:github.comflytkglPDFQFZ",
   "license": "Unknown",
-  "url": "https://ghfast.top/https://github.com/flytkgl/PDFQFZ/releases/download/v1.28/PDFQFZ.exe",
+  "url": "https:github.comflytkglPDFQFZreleasesdownloadv1.28PDFQFZ.exe",
   "hash": "1daac7d2f315c4eebbc3f899a91575082449c6c6294e0a44cccad358870913b0",
   "bin": "PDFQFZ.exe",
   "shortcuts": [
@@ -13,10 +13,10 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/flytkgl/PDFQFZ/releases",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https:api.github.comreposflytkglPDFQFZreleases",
+    "regex": "releasestagv([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/flytkgl/PDFQFZ/releases/download/v$version/PDFQFZ.exe"
+    "url": "https:github.comflytkglPDFQFZreleasesdownloadv$versionPDFQFZ.exe"
   }
 }

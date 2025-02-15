@@ -1,11 +1,11 @@
 {
   "version": "1.1.3",
   "description": "The first open source fingerprint browser.",
-  "homepage": "https://github.com/zmzimpl/chrome-power-app",
+  "homepage": "https:github.comzmzimplchrome-power-app",
   "license": "AGPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/zmzimpl/chrome-power-app/releases/download/v1.1.3/chrome-power-Setup-1.1.3.exe#dl.7z",
+      "url": "https:github.comzmzimplchrome-power-appreleasesdownloadv1.1.3chrome-power-Setup-1.1.3.exe#dl.7z",
       "hash": "d9ff7d54a3987436a71aef38db263402863650234b751c9231078a18385edcc4"
     }
   },
@@ -42,13 +42,13 @@
     "resources\\Chrome-bin\\chrome"
   ],
   "checkver": {
-    "github": "https://github.com/zmzimpl/chrome-power-app"
+    "github": "https:github.comzmzimplchrome-power-app"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/zmzimpl/chrome-power-app/releases/download/v$version/chrome-power-Setup-$version.exe#dl.7z",
+    "url": "https:github.comzmzimplchrome-power-appreleasesdownloadv$versionchrome-power-Setup-$version.exe#dl.7z",
     "hash": {
       "mode": "extract",
-      "url": "https://ghfast.top/https://github.com/zmzimpl/chrome-power-app/releases/download/v$version/latest.yml",
+      "url": "https:github.comzmzimplchrome-power-appreleasesdownloadv$versionlatest.yml",
       "regex": "sha512: $sha512"
     }
   }

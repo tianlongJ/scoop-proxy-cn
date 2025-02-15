@@ -1,17 +1,17 @@
 {
   "version": "0.6.1",
   "description": "A flutter manga reader compatible with Tachiyomi extensions and backups",
-  "homepage": "https://github.com/Suwayomi/Tachidesk-Sorayomi",
+  "homepage": "https:github.comSuwayomiTachidesk-Sorayomi",
   "license": {
     "identifier": "MPL-2.0",
-    "url": "https://github.com/Suwayomi/Tachidesk-Sorayomi/blob/main/LICENSE"
+    "url": "https:github.comSuwayomiTachidesk-SorayomiblobmainLICENSE"
   },
   "suggest": {
-    "Tachidesk-Server": "extras/tachidesk-server"
+    "Tachidesk-Server": "extrastachidesk-server"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.1/tachidesk-sorayomi-0.6.1-windows-x64.zip",
+      "url": "https:github.comSuwayomiTachidesk-Sorayomireleasesdownload0.6.1tachidesk-sorayomi-0.6.1-windows-x64.zip",
       "hash": "942ed4a7a041ef7980175e0050443e374642af176625250a223e0a15f09f22e5"
     }
   },
@@ -22,12 +22,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/Suwayomi/Tachidesk-Sorayomi"
+    "github": "https:github.comSuwayomiTachidesk-Sorayomi"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/$version/tachidesk-sorayomi-$version-windows-x64.zip"
+        "url": "https:github.comSuwayomiTachidesk-Sorayomireleasesdownload$versiontachidesk-sorayomi-$version-windows-x64.zip"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "version": "0.4",
   "description": "GUI Tool To Removes Ads From Various Places Around Windows 11",
-  "homepage": "https://github.com/xM4ddy/OFGB",
+  "homepage": "https:github.comxM4ddyOFGB",
   "license": {
     "identifier": "Unlicense license",
-    "url": "https://github.com/xM4ddy/OFGB#Unlicense-1-ov-file"
+    "url": "https:github.comxM4ddyOFGB#Unlicense-1-ov-file"
   },
-  "url": "https://ghfast.top/https://github.com/xM4ddy/OFGB/releases/download/v0.4/OFGB.exe",
+  "url": "https:github.comxM4ddyOFGBreleasesdownloadv0.4OFGB.exe",
   "hash": "1cf97ccebcdf33ce37199fcef01c348faed81077eb340e36da35171cbb7ba1ae",
   "bin": "OFGB.exe",
   "shortcuts": [
@@ -16,11 +16,11 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/xM4ddy/OFGB/releases",
+    "url": "https:api.github.comreposxM4ddyOFGBreleases",
     "jsonpath": "$[0].assets[*].browser_download_url",
-    "regex": "/releases/download/v([\\d.]+)/OFGB\\.exe"
+    "regex": "releasesdownloadv([\\d.]+)OFGB\\.exe"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/xM4ddy/OFGB/releases/download/v$version/OFGB.exe"
+    "url": "https:github.comxM4ddyOFGBreleasesdownloadv$versionOFGB.exe"
   }
 }

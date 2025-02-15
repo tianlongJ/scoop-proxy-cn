@@ -1,11 +1,11 @@
 {
   "version": "3.4.17-beta3",
   "description": "Extend your GitHub workflow beyond your browser.",
-  "homepage": "https://desktop.github.com/",
+  "homepage": "https:desktop.github.com",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://central.github.com/deployments/desktop/desktop/latest/GitHubDesktop-3.4.17-beta3-x64-full.nupkg?env=beta",
+      "url": "https:central.github.comdeploymentsdesktopdesktoplatestGitHubDesktop-3.4.17-beta3-x64-full.nupkg?env=beta",
       "hash": "sha1:b96d0e81d67ecaf5c74f49257318d358f4832f02"
     }
   },
@@ -18,16 +18,16 @@
     ]
   ],
   "checkver": {
-    "url": "https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?env=beta",
+    "url": "https:central.github.comapideploymentsdesktopdesktoplatestRELEASES?env=beta",
     "regex": "GitHubDesktop-([\\d.\\-beta]+)-full\\.nupkg",
     "reverse": true
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://central.github.com/deployments/desktop/desktop/latest/GitHubDesktop-$version-x64-full.nupkg?env=beta",
+        "url": "https:central.github.comdeploymentsdesktopdesktoplatestGitHubDesktop-$version-x64-full.nupkg?env=beta",
         "hash": {
-          "url": "https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?env=beta",
+          "url": "https:central.github.comapideploymentsdesktopdesktoplatestRELEASES?env=beta",
           "regex": "$sha1\\s+GithubDesktop-$version-"
         }
       }

@@ -1,22 +1,22 @@
 {
   "version": "2.6",
   "description": "Computer screen gamma adjuster based on the current time",
-  "homepage": "https://github.com/Tyrrrz/LightBulb",
+  "homepage": "https:github.comTyrrrzLightBulb",
   "license": "MIT",
   "suggest": {
-    ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+    ".NET Desktop Runtime": "extraswindowsdesktop-runtime"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Tyrrrz/LightBulb/releases/download/2.6/LightBulb.win-x64.zip",
+      "url": "https:github.comTyrrrzLightBulbreleasesdownload2.6LightBulb.win-x64.zip",
       "hash": "ce61593f9c25cdaa8c8ba7902581a98abafc34425c5fd285bcad44d38723b8fa"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/Tyrrrz/LightBulb/releases/download/2.6/LightBulb.win-x86.zip",
+      "url": "https:github.comTyrrrzLightBulbreleasesdownload2.6LightBulb.win-x86.zip",
       "hash": "7e951fea72402785d6795c91bc49ae35190dd3ad3279a8d5b859d139c6e7b490"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/Tyrrrz/LightBulb/releases/download/2.6/LightBulb.win-arm64.zip",
+      "url": "https:github.comTyrrrzLightBulbreleasesdownload2.6LightBulb.win-arm64.zip",
       "hash": "1509a52fe16b75aa928a9f20220a8f43f3e203b1caae7dafb37182c4e77b65a6"
     }
   },
@@ -35,19 +35,19 @@
   ],
   "persist": "Settings.json",
   "checkver": {
-    "url": "https://api.github.com/repositories/78772975/tags",
-    "regex": "tags/([\\d.]+)"
+    "url": "https:api.github.comrepositories78772975tags",
+    "regex": "tags([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Tyrrrz/LightBulb/releases/download/$version/LightBulb.win-x64.zip"
+        "url": "https:github.comTyrrrzLightBulbreleasesdownload$versionLightBulb.win-x64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/Tyrrrz/LightBulb/releases/download/$version/LightBulb.win-x86.zip"
+        "url": "https:github.comTyrrrzLightBulbreleasesdownload$versionLightBulb.win-x86.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/Tyrrrz/LightBulb/releases/download/$version/LightBulb.win-arm64.zip"
+        "url": "https:github.comTyrrrzLightBulbreleasesdownload$versionLightBulb.win-arm64.zip"
       }
     }
   }

@@ -1,16 +1,16 @@
 {
   "version": "1.16.6",
-  "description": "A monitor brightness controller based on DDC/CI",
-  "homepage": "https://github.com/xanderfrangos/twinkle-tray",
+  "description": "A monitor brightness controller based on DDCCI",
+  "homepage": "https:github.comxanderfrangostwinkle-tray",
   "license": "MIT",
   "notes": [
     "Twinkle Tray supports requesting brightness changes with command 'twinkle-tray'.",
     "Visit README page for more information:",
-    "https://github.com/xanderfrangos/twinkle-tray#command-line-arguments"
+    "https:github.comxanderfrangostwinkle-tray#command-line-arguments"
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.16.6/Twinkle.Tray.v1.16.6.exe#/dl.7z",
+      "url": "https:github.comxanderfrangostwinkle-trayreleasesdownloadv1.16.6Twinkle.Tray.v1.16.6.exe#dl.7z",
       "hash": "eac7a93a8951d72ff42781941c4d3c2d2ec8ed022235ffdb3ef45db2d83b9cb9",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -58,7 +58,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/xanderfrangos/twinkle-tray/releases/download/v$version/Twinkle.Tray.v$version.exe#/dl.7z"
+        "url": "https:github.comxanderfrangostwinkle-trayreleasesdownloadv$versionTwinkle.Tray.v$version.exe#dl.7z"
       }
     }
   }

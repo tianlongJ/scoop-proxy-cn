@@ -1,9 +1,9 @@
 {
   "version": "0.9.45",
   "description": "CJK sans-serif font that focuses on on-screen readibility.",
-  "homepage": "http://wenq.org/",
+  "homepage": "http:wenq.org",
   "license": "GPL-2.0-or-later",
-  "url": "https://dl.sourceforge.net/projects/wqy/files/wqy-zenhei/0.9.45 (Fighting-state RC1)/wqy-zenhei-0.9.45.tar.gz",
+  "url": "https:dl.sourceforge.netprojectswqyfileswqy-zenhei0.9.45 (Fighting-state RC1)wqy-zenhei-0.9.45.tar.gz",
   "hash": "sha1:b86b65d3048ade868fcc89229cfac6baf80a3e54",
   "extract_dir": "wqy-zenhei",
   "installer": {
@@ -27,7 +27,7 @@
       "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
       "if (-not $global) {",
       "    # Ensure user font install directory exists and has correct permission settings",
-      "    # See https://github.com/matthewjberger/scoop-nerd-fonts/issues/198#issuecomment-1488996737",
+      "    # See https:github.commatthewjbergerscoop-nerd-fontsissues198#issuecomment-1488996737",
       "    New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
       "    $accessControlList = Get-Acl $fontInstallDir",
       "    $allApplicationPackagesAccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule([System.Security.Principal.SecurityIdentifier]::new(\"S-1-15-2-1\"), \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
@@ -87,10 +87,10 @@
     ]
   },
   "checkver": {
-    "url": "https://sourceforge.net/projects/wqy/files/wqy-zenhei/",
+    "url": "https:sourceforge.netprojectswqyfileswqy-zenhei",
     "regex": "<tr title=\\\"([\\d.]+)(?<suffix>.*?)\\\""
   },
   "autoupdate": {
-    "url": "https://dl.sourceforge.net/projects/wqy/files/wqy-zenhei/$version$matchSuffix/wqy-zenhei-$version.tar.gz"
+    "url": "https:dl.sourceforge.netprojectswqyfileswqy-zenhei$version$matchSuffixwqy-zenhei-$version.tar.gz"
   }
 }

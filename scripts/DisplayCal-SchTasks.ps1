@@ -1,4 +1,4 @@
-# Project URL - https://github.com/starise/Scoop-Confetti
+# Project URL - https:github.comstariseScoop-Confetti
 # MIT License - Copyright (c) 2020 Andrea Brandi
 
 #Requires -RunAsAdministrator
@@ -8,7 +8,7 @@ param (
 )
 
 function Get-EventQueryTrigger($query) {
-    $CIMTriggerClass = Get-CimClass -ClassName MSFT_TaskEventTrigger -Namespace Root/Microsoft/Windows/TaskScheduler:MSFT_TaskEventTrigger
+    $CIMTriggerClass = Get-CimClass -ClassName MSFT_TaskEventTrigger -Namespace RootMicrosoftWindowsTaskScheduler:MSFT_TaskEventTrigger
     $eventTrigger = New-CimInstance -CimClass $CIMTriggerClass -ClientOnly
     $eventTrigger.Subscription = $query
     $eventTrigger.Enabled = $true
@@ -22,9 +22,9 @@ function Register-DisplayCalSchTasks($query) {
 @"
 <QueryList>
   <Query Id="0" Path="System">
-    <Select Path="System">*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and (Level=4 or Level=0) and (EventID=1)]]</Select>
-  </Query>
-</QueryList>
+    <Select Path="System">*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and (Level=4 or Level=0) and (EventID=1)]]<Select>
+  <Query>
+<QueryList>
 "@
     # Create array of triggers
     $triggers = @()

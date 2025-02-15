@@ -1,10 +1,10 @@
 {
   "version": "1.19.25",
   "description": "balenaEtcher. Flash OS images to SD cards & USB drives, safely and easily.",
-  "homepage": "https://www.balena.io/etcher/",
+  "homepage": "https:www.balena.ioetcher",
   "license": "Apache-2.0",
-  "changelog": "https://github.com/balena-io/etcher/blob/master/CHANGELOG.md",
-  "url": "https://ghfast.top/https://github.com/balena-io/etcher/releases/download/v1.19.25/balenaEtcher-1.19.25.Setup.exe#/setup.exe",
+  "changelog": "https:github.combalena-ioetcherblobmasterCHANGELOG.md",
+  "url": "https:github.combalena-ioetcherreleasesdownloadv1.19.25balenaEtcher-1.19.25.Setup.exe#setup.exe",
   "hash": "5684b1f0db8dcfa7d19b1aef810639d7753e48b487a20cf63f0dc524ded5d4cf",
   "pre_install": [
     "$processname = \"balenaEtcher\"",
@@ -25,7 +25,7 @@
       "$filepath = \"$AppData\\Programs\\balena-etcher\\balenaEtcher.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   &\"$dir\\setup.exe\" /S | Out-Null",
+      "   &\"$dir\\setup.exe\" S | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",
@@ -39,9 +39,9 @@
     "if (Test-Path \"$DesktopPath\\balenaEtcher.lnk\") {Remove-Item \"$DesktopPath\\balenaEtcher.lnk\" -Force}"
   ],
   "checkver": {
-    "github": "https://github.com/balena-io/etcher"
+    "github": "https:github.combalena-ioetcher"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/balena-io/etcher/releases/download/v$version/balenaEtcher-$version.Setup.exe#/setup.exe"
+    "url": "https:github.combalena-ioetcherreleasesdownloadv$versionbalenaEtcher-$version.Setup.exe#setup.exe"
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": "1.46.4",
   "description": "Encore is the end-to-end Backend Development Platform that lets you escape cloud complexity.",
-  "homepage": "https://github.com/encoredev/encore",
+  "homepage": "https:github.comencoredevencore",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://d2f391esomvqpi.cloudfront.net/encore-1.46.4-windows_amd64.tar.gz",
+      "url": "https:d2f391esomvqpi.cloudfront.netencore-1.46.4-windows_amd64.tar.gz",
       "hash": "d0e448a8b24489b530281fe32f6083c57b1f87c7afa68c445750eab7c90be72d"
     }
   },
@@ -30,11 +30,11 @@
   ],
   "env_add_path": "bin",
   "checkver": {
-    "url": "https://encore.dev/api/releases",
+    "url": "https:encore.devapireleases",
     "regex": "\"([\\d.]+)\","
   },
   "autoupdate": {
-    "url": "https://d2f391esomvqpi.cloudfront.net/encore-$version-windows_amd64.tar.gz",
+    "url": "https:d2f391esomvqpi.cloudfront.netencore-$version-windows_amd64.tar.gz",
     "hash": {
       "mode": "download"
     }

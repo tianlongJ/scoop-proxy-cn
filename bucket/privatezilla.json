@@ -1,11 +1,11 @@
 {
   "version": "0.60.0",
   "description": "Security and privacy checker for Windows 10",
-  "homepage": "https://www.builtbybel.com/ms-apps/privatezilla",
+  "homepage": "https:www.builtbybel.comms-appsprivatezilla",
   "license": "MIT",
   "url": [
-    "https://ghfast.top/https://github.com/builtbybel/privatezilla/releases/download/0.60.0/privatezilla.zip",
-    "https://ghfast.top/https://raw.githubusercontent.com/builtbybel/privatezilla/0.60.0/scripts/packages.zip"
+    "https:github.combuiltbybelprivatezillareleasesdownload0.60.0privatezilla.zip",
+    "https:raw.githubusercontent.combuiltbybelprivatezilla0.60.0scriptspackages.zip"
   ],
   "hash": [
     "541139164555109babee6d7349034c4722684fd4a7cd9050d82709a351a4f432",
@@ -19,12 +19,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/builtbybel/privatezilla"
+    "github": "https:github.combuiltbybelprivatezilla"
   },
   "autoupdate": {
     "url": [
-      "https://ghfast.top/https://github.com/builtbybel/privatezilla/releases/download/$version/privatezilla.zip",
-      "https://ghfast.top/https://raw.githubusercontent.com/builtbybel/privatezilla/$version/scripts/packages.zip"
+      "https:github.combuiltbybelprivatezillareleasesdownload$versionprivatezilla.zip",
+      "https:raw.githubusercontent.combuiltbybelprivatezilla$versionscriptspackages.zip"
     ]
   }
 }

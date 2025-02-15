@@ -1,11 +1,11 @@
 {
   "version": "23.0.1",
   "description": "A visual, drag n drop, layout tool for designing JavaFX application user interfaces.",
-  "homepage": "https://gluonhq.com/products/scene-builder/",
+  "homepage": "https:gluonhq.comproductsscene-builder",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/gluonhq/scenebuilder/releases/download/23.0.1/SceneBuilder-23.0.1.msi",
+      "url": "https:github.comgluonhqscenebuilderreleasesdownload23.0.1SceneBuilder-23.0.1.msi",
       "hash": "bdc61d48d56433468c0bbde4324b26ce1bda02071bbc70898360dea6bd9ddd03"
     }
   },
@@ -18,16 +18,16 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/gluonhq/scenebuilder"
+    "github": "https:github.comgluonhqscenebuilder"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/gluonhq/scenebuilder/releases/download/$version/SceneBuilder-$version.msi"
+        "url": "https:github.comgluonhqscenebuilderreleasesdownload$versionSceneBuilder-$version.msi"
       }
     },
     "hash": {
-      "url": "$baseurl/checksums_sha256.txt"
+      "url": "$baseurlchecksums_sha256.txt"
     }
   }
 }

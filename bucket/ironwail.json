@@ -1,7 +1,7 @@
 {
   "version": "0.8.0",
   "description": "Fork of QuakeSpasm with a focus on high performance instead of maximum compatibility, with a few extra features sprinkled on top",
-  "homepage": "https://github.com/andrei-drexler/ironwail",
+  "homepage": "https:github.comandrei-drexlerironwail",
   "license": "GPL-2.0-or-later",
   "notes": [
     "",
@@ -19,7 +19,7 @@
     "- Quake Mission Pack 3 - Abyss of Pandemonium:",
     "    $persist_dir\\abyss\\",
     "",
-    "- Quake - Arcane Dimensions (https://www.moddb.com/mods/arcane-dimensions):",
+    "- Quake - Arcane Dimensions (https:www.moddb.commodsarcane-dimensions):",
     "    $persist_dir\\ad\\",
     "",
     "Ironwail also detects the Steam release. If you have that installed, no additional setup is required. Just start the app and you will be presented with the option of running the Remastered or Original version.",
@@ -29,12 +29,12 @@
   ],
   "architecture": {
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/andrei-drexler/ironwail/releases/download/v0.8.0/ironwail-0.8.0-win32.zip",
+      "url": "https:github.comandrei-drexlerironwailreleasesdownloadv0.8.0ironwail-0.8.0-win32.zip",
       "hash": "cae2e45a33568328ad8d52c26d24294c29ede64f09a89187512269f1b401b3b8",
       "extract_dir": "ironwail-0.8.0-win32"
     },
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/andrei-drexler/ironwail/releases/download/v0.8.0/ironwail-0.8.0-win64.zip",
+      "url": "https:github.comandrei-drexlerironwailreleasesdownloadv0.8.0ironwail-0.8.0-win64.zip",
       "hash": "c785ed7012e8cecc6fcdb0e4491c661004d4e6952b185150d3013844a88ad4b5",
       "extract_dir": "ironwail-0.8.0-win64"
     }
@@ -83,11 +83,11 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/andrei-drexler/ironwail/releases/download/v$version/ironwail-$version-win32.zip",
+        "url": "https:github.comandrei-drexlerironwailreleasesdownloadv$versionironwail-$version-win32.zip",
         "extract_dir": "ironwail-$version-win32"
       },
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/andrei-drexler/ironwail/releases/download/v$version/ironwail-$version-win64.zip",
+        "url": "https:github.comandrei-drexlerironwailreleasesdownloadv$versionironwail-$version-win64.zip",
         "extract_dir": "ironwail-$version-win64"
       }
     }

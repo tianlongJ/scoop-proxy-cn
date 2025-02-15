@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.shipofharkinian.com",
+  "homepage": "https:www.shipofharkinian.com",
   "version": "2024",
   "description": "Zelda Ocarina of Time Decompilation",
   "license": {
@@ -7,7 +7,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/HarbourMasters/Shipwright/releases/download/let-it-snow-2024/SoH-Holiday-2024-Win64.zip",
+      "url": "https:github.comHarbourMastersShipwrightreleasesdownloadlet-it-snow-2024SoH-Holiday-2024-Win64.zip",
       "hash": "b5caa26e3952c9582c4cf53529af5ac6888fe7911f420b777ba65624c8dad18d",
       "shortcuts": [
         [
@@ -23,10 +23,10 @@
     "roms"
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/HarbourMasters/Shipwright/releases",
+    "url": "https:api.github.comreposHarbourMastersShipwrightreleases",
     "jsonpath": {
       "version": "$.[0].name",
-      "download": "$.[0].assets[?(@.name =~ /.+Win64\\.zip$/i)].browser_download_url"
+      "download": "$.[0].assets[?(@.name =~ .+Win64\\.zip$i)].browser_download_url"
     },
     "regex": "([\\d\\.]+\\d+)"
   },

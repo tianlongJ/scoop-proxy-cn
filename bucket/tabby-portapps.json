@@ -1,12 +1,12 @@
 {
   "version": "1.0.207-11",
   "description": "A terminal for a more modern age.",
-  "homepage": "https://tabby.sh/",
+  "homepage": "https:tabby.sh",
   "license": {
     "identifier": "MIT",
-    "url": "https://github.com/Eugeny/tabby/blob/master/LICENSE"
+    "url": "https:github.comEugenytabbyblobmasterLICENSE"
   },
-  "url": "https://ghfast.top/https://github.com/portapps/tabby-portable/releases/download/1.0.207-11/tabby-portable-win64-1.0.207-11.7z#/dl.7z",
+  "url": "https:github.comportappstabby-portablereleasesdownload1.0.207-11tabby-portable-win64-1.0.207-11.7z#dl.7z",
   "hash": "b028eee7abcdbf799eeccf53608104f59bbb4af99a1a80f52fbf64d9a68de675",
   "persist": [
     "data",
@@ -21,14 +21,14 @@
   ],
   "pre_install": "if(!(Test-Path \"$persist_dir\\tabby-portable.yml\")) { New-Item \"$dir\\tabby-portable.yml\" | Out-Null }",
   "checkver": {
-    "url": "https://github.com/portapps/tabby-portable/releases",
-    "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    "url": "https:github.comportappstabby-portablereleases",
+    "regex": "\\releases\\tag\\(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/portapps/tabby-portable/releases/download/$version/tabby-portable-win64-$version.7z#/dl.7z",
+    "url": "https:github.comportappstabby-portablereleasesdownload$versiontabby-portable-win64-$version.7z#dl.7z",
     "hash": {
-      "url": "$baseurl/checksums.txt"
+      "url": "$baseurlchecksums.txt"
     }
   },
-  "notes": "Installed from Portapps (https://portapps.io/app/tabby-portable/)"
+  "notes": "Installed from Portapps (https:portapps.ioapptabby-portable)"
 }

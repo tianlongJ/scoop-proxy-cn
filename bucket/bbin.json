@@ -1,13 +1,13 @@
 {
   "version": "0.2.4",
   "description": "Babashka script or project installer",
-  "homepage": "https://github.com/babashka/bbin",
+  "homepage": "https:github.combabashkabbin",
   "license": "MIT",
   "notes": "Folder ~\\.local\\bin was added to your PATH environment variable.",
-  "depends": "scoop-clojure/babashka",
+  "depends": "scoop-clojurebabashka",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/babashka/bbin/archive/refs/tags/v0.2.4.zip",
+      "url": "https:github.combabashkabbinarchiverefstagsv0.2.4.zip",
       "hash": "f30b8a1ee1dbd3b91720dd6e13cd108f1864583da61bf41583722dcb620cbbed",
       "extract_dir": "bbin-0.2.4"
     }
@@ -27,13 +27,13 @@
   ],
   "bin": "bbin.bat",
   "checkver": {
-    "url": "https://api.github.com/repos/babashka/bbin/tags",
+    "url": "https:api.github.comreposbabashkabbintags",
     "regex": "\"v([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/babashka/bbin/archive/refs/tags/v$version.zip",
+        "url": "https:github.combabashkabbinarchiverefstagsv$version.zip",
         "extract_dir": "bbin-$version"
       }
     }

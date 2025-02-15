@@ -1,10 +1,10 @@
 {
   "version": "3.8.4",
   "description": "Simplewall. Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.",
-  "homepage": "https://www.henrypp.org/product/simplewall",
+  "homepage": "https:www.henrypp.orgproductsimplewall",
   "license": "GPL-3.0-only",
-  "changelog": "https://github.com/henrypp/simplewall/blob/master/CHANGELOG.md",
-  "url": "https://ghfast.top/https://github.com/henrypp/simplewall/releases/download/v.3.8.4/simplewall-3.8.4-bin.zip",
+  "changelog": "https:github.comhenryppsimplewallblobmasterCHANGELOG.md",
+  "url": "https:github.comhenryppsimplewallreleasesdownloadv.3.8.4simplewall-3.8.4-bin.zip",
   "hash": "0e3a120f0dabcad3bae502cef03264387479f511230d0f923819906d777a6529",
   "architecture": {
     "64bit": {
@@ -31,13 +31,13 @@
     "profile.xml"
   ],
   "checkver": {
-    "github": "https://github.com/henrypp/simplewall",
+    "github": "https:github.comhenryppsimplewall",
     "regex": "simplewall-([\\d.]+)-bin\\.zip"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/henrypp/simplewall/releases/download/v.$version/simplewall-$version-bin.zip",
+    "url": "https:github.comhenryppsimplewallreleasesdownloadv.$versionsimplewall-$version-bin.zip",
     "hash": {
-      "url": "$baseurl/simplewall-$version.sha256"
+      "url": "$baseurlsimplewall-$version.sha256"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": "2.1.0.8",
   "description": "Free and open-source software that allows users to set animated and interactive desktop wallpapers.",
-  "homepage": "https://rocksdanister.github.io/lively/",
+  "homepage": "https:rocksdanister.github.iolively",
   "license": "GPL-3.0-only",
-  "url": "https://ghfast.top/https://github.com/rocksdanister/lively/releases/download/v2.1.0.8/lively_setup_x86_full_v2108.exe",
+  "url": "https:github.comrocksdanisterlivelyreleasesdownloadv2.1.0.8lively_setup_x86_full_v2108.exe",
   "hash": "93e873373a84a6444f9ff0966dd36c1d38f3f7230c4011e61eb61a01a6194eb4",
   "pre_install": [
     "$runtimeCache = \"$env:USERPROFILE\\AppData\\Local\\Lively Wallpaper\"",
@@ -28,13 +28,13 @@
   "innosetup": true,
   "persist": "data",
   "checkver": {
-    "github": "https://github.com/rocksdanister/lively"
+    "github": "https:github.comrocksdanisterlively"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/rocksdanister/lively/releases/download/v$version/lively_setup_x86_full_v$cleanVersion.exe",
+    "url": "https:github.comrocksdanisterlivelyreleasesdownloadv$versionlively_setup_x86_full_v$cleanVersion.exe",
     "hash": {
       "mode": "extract",
-      "url": "https://github.com/rocksdanister/lively/releases/tag/v$version",
+      "url": "https:github.comrocksdanisterlivelyreleasestagv$version",
       "regex": "SHA256:<br>$sha256"
     }
   }
