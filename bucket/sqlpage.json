@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/sqlpage/SQLpage/releases/download/v0.33.0/sqlpage-windows.zip",
+      "url": "https://github.com/sqlpage/SQLpage/releases/download/v0.33.0/sqlpage-windows.zip",
       "hash": "7b14ba5cdbc64712d2ea5c36188e1cd235e580ce7c4741bda2a3fe98c7914ffa"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/sqlpage/SQLpage/releases/download/v$version/sqlpage-windows.zip"
+        "url": "https://github.com/sqlpage/SQLpage/releases/download/v$version/sqlpage-windows.zip"
       }
     }
   }

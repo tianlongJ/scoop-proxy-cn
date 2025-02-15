@@ -5,7 +5,7 @@
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/nini22P/Iris/releases/download/v1.3.3/Iris_windows.zip",
+      "url": "https://github.com/nini22P/Iris/releases/download/v1.3.3/Iris_windows.zip",
       "hash": "595bb59631a534f5088e29154f7dd03a0342913a55af88244e1bb3fbf42b5e87"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/nini22P/Iris/releases/download/v$version/Iris_windows.zip"
+        "url": "https://github.com/nini22P/Iris/releases/download/v$version/Iris_windows.zip"
       }
     }
   }

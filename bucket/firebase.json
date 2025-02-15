@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/firebase/firebase-tools/releases/download/v13.31.1/firebase-tools-win.exe#/firebase.exe",
+      "url": "https://github.com/firebase/firebase-tools/releases/download/v13.31.1/firebase-tools-win.exe#/firebase.exe",
       "hash": "def949d5c4f754a95e9d2c86e18c98192acc3ed2fd038bf47623418b7f179e51"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/firebase/firebase-tools/releases/download/v$version/firebase-tools-win.exe#/firebase.exe"
+        "url": "https://github.com/firebase/firebase-tools/releases/download/v$version/firebase-tools-win.exe#/firebase.exe"
       }
     }
   }

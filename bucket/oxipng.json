@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/shssoichiro/oxipng/releases/download/v9.1.4/oxipng-9.1.4-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/shssoichiro/oxipng/releases/download/v9.1.4/oxipng-9.1.4-x86_64-pc-windows-msvc.zip",
       "hash": "304c300fa8ba7989f1b36da0298c7e887f9cedee0abf115290678a539e61d152",
       "extract_dir": "oxipng-9.1.4-x86_64-pc-windows-msvc"
     }
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/shssoichiro/oxipng/releases/download/v$version/oxipng-$version-x86_64-pc-windows-msvc.zip",
+        "url": "https://github.com/shssoichiro/oxipng/releases/download/v$version/oxipng-$version-x86_64-pc-windows-msvc.zip",
         "extract_dir": "oxipng-$version-x86_64-pc-windows-msvc"
       }
     }

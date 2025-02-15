@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/aliyun/aliyun-cli/releases/download/v3.0.252/aliyun-cli-windows-3.0.252-amd64.zip",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/download/v3.0.252/aliyun-cli-windows-3.0.252-amd64.zip",
       "hash": "e7ad573e49678d418daed19f36562fcae241428414e5d41adf6dcac5b91965a2"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/aliyun/aliyun-cli/releases/download/v$version/aliyun-cli-windows-$version-amd64.zip"
+        "url": "https://github.com/aliyun/aliyun-cli/releases/download/v$version/aliyun-cli-windows-$version-amd64.zip"
       }
     }
   }

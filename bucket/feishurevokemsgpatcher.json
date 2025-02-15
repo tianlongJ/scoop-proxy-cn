@@ -4,7 +4,7 @@
   "homepage": "https://github.com/flydoos/FeiShuRevokeMsgPatcher",
   "license": "MulanPSL-2.0",
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/feishurevokemsgpatcher.json",
-  "url": "https://ghfast.top/https://github.com/flydoos/FeiShuRevokeMsgPatcher/releases/download/2.5.7/FeiShuRevokeMsgPatcher.v2.5.7.zip",
+  "url": "https://github.com/flydoos/FeiShuRevokeMsgPatcher/releases/download/2.5.7/FeiShuRevokeMsgPatcher.v2.5.7.zip",
   "hash": "511c9f1c20fd6f96d02467d5072556c2d436e0969378ca6560e66ec490f3cddc",
   "shortcuts": [
     [
@@ -14,6 +14,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/flydoos/FeiShuRevokeMsgPatcher/releases/download/$version/FeiShuRevokeMsgPatcher.v$version.zip"
+    "url": "https://github.com/flydoos/FeiShuRevokeMsgPatcher/releases/download/$version/FeiShuRevokeMsgPatcher.v$version.zip"
   }
 }

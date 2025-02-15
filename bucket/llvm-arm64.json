@@ -5,7 +5,7 @@
   "license": "NCSA",
   "architecture": {
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-woa64.exe#/dl.7z",
+      "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-woa64.exe#/dl.7z",
       "hash": "08d871c9a20caf0987ede1a4e44d489e28854c9f2fff3da98b486891f4856e05"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-woa64.exe#/dl.7z"
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-woa64.exe#/dl.7z"
       }
     }
   }

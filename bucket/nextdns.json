@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/nextdns/nextdns/releases/download/v1.44.6/nextdns_1.44.6_windows_amd64.zip",
+      "url": "https://github.com/nextdns/nextdns/releases/download/v1.44.6/nextdns_1.44.6_windows_amd64.zip",
       "hash": "71aad4bdac9b17b9fb62af73c7c92cbe1684b5d7dd5991268d0939ea30703b6e"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/nextdns/nextdns/releases/download/v1.44.6/nextdns_1.44.6_windows_386.zip",
+      "url": "https://github.com/nextdns/nextdns/releases/download/v1.44.6/nextdns_1.44.6_windows_386.zip",
       "hash": "5060818bbc66cac3d5d9b835431ec9aa348b6b98e8db1b48ed8088edf42c7a1d"
     }
   },
@@ -20,10 +20,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/nextdns/nextdns/releases/download/v$version/nextdns_$version_windows_amd64.zip"
+        "url": "https://github.com/nextdns/nextdns/releases/download/v$version/nextdns_$version_windows_amd64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/nextdns/nextdns/releases/download/v$version/nextdns_$version_windows_386.zip"
+        "url": "https://github.com/nextdns/nextdns/releases/download/v$version/nextdns_$version_windows_386.zip"
       }
     },
     "hash": {

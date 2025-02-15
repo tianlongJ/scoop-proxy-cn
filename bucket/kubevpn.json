@@ -5,15 +5,15 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/kubenetworks/kubevpn/releases/download/v2.3.12/kubevpn_v2.3.12_windows_amd64.zip",
+      "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.3.12/kubevpn_v2.3.12_windows_amd64.zip",
       "hash": "72d1008a1028b8f97e8b669fb94a54ae9008f6711e35256727f6e0902727d051"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/kubenetworks/kubevpn/releases/download/v2.3.12/kubevpn_v2.3.12_windows_386.zip",
+      "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.3.12/kubevpn_v2.3.12_windows_386.zip",
       "hash": "3f2134452af02e5cb8a2f98379314d2a737ca7f37b2a5ffde670d77e03a3b576"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/kubenetworks/kubevpn/releases/download/v2.3.12/kubevpn_v2.3.12_windows_arm64.zip",
+      "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.3.12/kubevpn_v2.3.12_windows_arm64.zip",
       "hash": "a9b0088d7a4bb35700b814561606e59ca85b0e48d67ed201871fc0caae504be0"
     }
   },
@@ -31,13 +31,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_amd64.zip"
+        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_amd64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_386.zip"
+        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_386.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_arm64.zip"
+        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_arm64.zip"
       }
     }
   }

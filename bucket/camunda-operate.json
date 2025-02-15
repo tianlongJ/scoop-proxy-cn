@@ -17,7 +17,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/camunda/camunda-platform/releases/download/8.5%2Bgen16/camunda-operate-8.5.11.zip",
+      "url": "https://github.com/camunda/camunda-platform/releases/download/8.5%2Bgen16/camunda-operate-8.5.11.zip",
       "hash": "sha1:9de5dd7b7e7b8498459782a3e5da08a5bc004779"
     }
   },
@@ -36,7 +36,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/camunda/camunda-platform/releases/download/$matchGenver/camunda-operate-$version.zip"
+        "url": "https://github.com/camunda/camunda-platform/releases/download/$matchGenver/camunda-operate-$version.zip"
       }
     },
     "hash": {

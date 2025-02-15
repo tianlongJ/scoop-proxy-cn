@@ -5,11 +5,11 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/cargo-bins/cargo-binstall/releases/download/v1.10.23/cargo-binstall-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.10.23/cargo-binstall-x86_64-pc-windows-msvc.zip",
       "hash": "e3abbe9a4607ec25b13bcb753a6107b8c4c3c96182613077d8e31e98c1c5d05f"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/cargo-bins/cargo-binstall/releases/download/v1.10.23/cargo-binstall-aarch64-pc-windows-msvc.zip",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.10.23/cargo-binstall-aarch64-pc-windows-msvc.zip",
       "hash": "e22b0a697ebf017cfb05302bc02c59f79536cd9f63e7dd385a4da3da3fbbdc76"
     }
   },
@@ -20,10 +20,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/cargo-bins/cargo-binstall/releases/download/v$version/cargo-binstall-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v$version/cargo-binstall-x86_64-pc-windows-msvc.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/cargo-bins/cargo-binstall/releases/download/v$version/cargo-binstall-aarch64-pc-windows-msvc.zip"
+        "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v$version/cargo-binstall-aarch64-pc-windows-msvc.zip"
       }
     }
   }

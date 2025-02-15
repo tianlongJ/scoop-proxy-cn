@@ -5,17 +5,17 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-windows-amd64.zip",
+      "url": "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-windows-amd64.zip",
       "hash": "0803f06d721e5399e48794538294099b195d51cc84b27bdb67e131096ad93ee4",
       "extract_dir": "rclone-v1.69.1-windows-amd64"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-windows-386.zip",
+      "url": "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-windows-386.zip",
       "hash": "c7fdcf976c14fee0b493508088aeb11a2b9b028b51444b69101b291aad59e5fb",
       "extract_dir": "rclone-v1.69.1-windows-386"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-windows-arm64.zip",
+      "url": "https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-windows-arm64.zip",
       "hash": "0f8a786c1eae54594bd067e05c1d22b3b346c5a8fb02392c446f63bab52be5aa",
       "extract_dir": "rclone-v1.69.1-windows-arm64"
     }
@@ -59,15 +59,15 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
+        "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
         "extract_dir": "rclone-v$version-windows-amd64"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-386.zip",
+        "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-386.zip",
         "extract_dir": "rclone-v$version-windows-386"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-arm64.zip",
+        "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-arm64.zip",
         "extract_dir": "rclone-v$version-windows-arm64"
       }
     },

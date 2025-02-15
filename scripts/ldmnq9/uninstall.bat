@@ -1,7 +1,7 @@
 @ECHO OFF&(PUSHD "%~DP0")&(REG QUERY "HKU\S-1-5-19">NUL 2>&1)||(
 powershell -Command "Start-Process '%~sdpnx0' -Verb RunAs"&&EXIT)
 
-ECHO.&ECHO ÕýÔÚÐ¶ÔØ, ÇëÉÔµÈ...
+ECHO.&ECHO ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½, ï¿½ï¿½ï¿½Ôµï¿½...
 taskkill /f /im ld.exe >NUL 2>NUL
 taskkill /f /im aapt.exe >NUL 2>NUL
 taskkill /f /im ldcam.exe >NUL 2>NUL
@@ -27,7 +27,7 @@ taskkill /f /im dnmultiplayer.exe /t >NUL 2>NUL
 taskkill /f /im LdVBoxHeadless.exe /t >NUL 2>NUL
 taskkill /f /im vmware-vdiskmanager.exe >NUL 2>NUL
 
-::Ð¶ÔØVirtualBoxÄÚºË×é¼þ
+::Ð¶ï¿½ï¿½VirtualBoxï¿½Úºï¿½ï¿½ï¿½ï¿½
 sc stop LdVKbd >NUL 2>NUL&sc delete LdVKbd >NUL 2>NUL
 sc stop LdVMou >NUL 2>NUL&sc delete LdVMou >NUL 2>NUL
 sc stop Ld9BoxSup >NUL 2>NUL&sc delete Ld9BoxSup >NUL 2>NUL
@@ -51,7 +51,7 @@ if exist "%ProgramW6432%\ldplayer9box\x86\VBoxProxyStub-x86.dll" regsvr32 /s /u 
 if exist "%ProgramW6432%\ldplayer9box" rd/s/q "%ProgramW6432%\ldplayer9box" 2>NUL
 )
 
-::Çå³ýÏµÍ³Ïà¹Ø²ÐÁôÊý¾Ý
+::ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½Ø²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 rd/s/q "C:\ChangZhi" 2>NUL
 rd/s/q "%AppData%\changzhi2" 2>NUL
 rd/s/q "%AppData%\leidian" 2>NUL
@@ -76,20 +76,20 @@ rd /s /q "%WinDir%\System32\DriverStore\FileRepository\ldvkbd.inf_amd64_ae5a64c7
 rd /s /q "%WinDir%\System32\DriverStore\FileRepository\ldvmou.inf_amd64_ed17807b03d15bc9" 2>NUL
 rd /s /q "%WinDir%\System32\DriverStore\FileRepository\ldscpvbus.inf_amd64_623ff10be9719b7b" 2>NUL
 
-::Çå³ý×ÀÃæºÍ¿ªÊ¼²Ëµ¥¿ì½Ý·½Ê½
-del/q "%Public%\Desktop\ÎÞ½çÈ¤Á¬.lnk" >NUL 2>NUL
-del/q "%Public%\Desktop\À×µçÄ£ÄâÆ÷9.lnk" >NUL 2>NUL
-del/q "%Public%\Desktop\À×µç¶à¿ªÆ÷9.lnk" >NUL 2>NUL
-del/q "%UserProfile%\Desktop\À×µçÄ£ÄâÆ÷9.lnk" >NUL 2>NUL
-del/q "%UserProfile%\Desktop\À×µç¶à¿ªÆ÷9.lnk" >NUL 2>NUL
-del/q "%AppData%\Microsoft\Windows\Start Menu\À×µçÄ£ÄâÆ÷9.lnk" >NUL 2>NUL
-del/q "%AppData%\Microsoft\Windows\Start Menu\À×µç¶à¿ªÆ÷9.lnk" >NUL 2>NUL
-rd/s/q "%AppData%\Microsoft\Windows\Start Menu\Programs\ÎÞ½çÈ¤Á¬"2>NUL
-rd/s/q "%ProgramData%\Microsoft\Windows\Start Menu\Programs\ÎÞ½çÈ¤Á¬"2>NUL
-rd/s/q "%AppData%\Microsoft\Windows\Start Menu\Programs\À×µçÄ£ÄâÆ÷9"2>NUL
-rd/s/q "%ProgramData%\Microsoft\Windows\Start Menu\Programs\À×µçÄ£ÄâÆ÷9"2>NUL
+::ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½Ê¼ï¿½Ëµï¿½ï¿½ï¿½Ý·ï¿½Ê½
+del/q "%Public%\Desktop\ï¿½Þ½ï¿½È¤ï¿½ï¿½.lnk" >NUL 2>NUL
+del/q "%Public%\Desktop\ï¿½×µï¿½Ä£ï¿½ï¿½ï¿½ï¿½9.lnk" >NUL 2>NUL
+del/q "%Public%\Desktop\ï¿½×µï¿½à¿ªï¿½ï¿½9.lnk" >NUL 2>NUL
+del/q "%UserProfile%\Desktop\ï¿½×µï¿½Ä£ï¿½ï¿½ï¿½ï¿½9.lnk" >NUL 2>NUL
+del/q "%UserProfile%\Desktop\ï¿½×µï¿½à¿ªï¿½ï¿½9.lnk" >NUL 2>NUL
+del/q "%AppData%\Microsoft\Windows\Start Menu\ï¿½×µï¿½Ä£ï¿½ï¿½ï¿½ï¿½9.lnk" >NUL 2>NUL
+del/q "%AppData%\Microsoft\Windows\Start Menu\ï¿½×µï¿½à¿ªï¿½ï¿½9.lnk" >NUL 2>NUL
+rd/s/q "%AppData%\Microsoft\Windows\Start Menu\Programs\ï¿½Þ½ï¿½È¤ï¿½ï¿½"2>NUL
+rd/s/q "%ProgramData%\Microsoft\Windows\Start Menu\Programs\ï¿½Þ½ï¿½È¤ï¿½ï¿½"2>NUL
+rd/s/q "%AppData%\Microsoft\Windows\Start Menu\Programs\ï¿½×µï¿½Ä£ï¿½ï¿½ï¿½ï¿½9"2>NUL
+rd/s/q "%ProgramData%\Microsoft\Windows\Start Menu\Programs\ï¿½×µï¿½Ä£ï¿½ï¿½ï¿½ï¿½9"2>NUL
 
-::Çå³ýÏà¹Ø×¢²á±í¼üÖµ
+::ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 reg delete "HKCU\Software\leidian\ldremote" /f >NUL 2>NUL
 reg delete "HKCU\Software\leidian\ldplayer9" /f >NUL 2>NUL
 reg delete "HKCU\Software\ChangZhi2" /f >NUL 2>NUL
@@ -112,7 +112,7 @@ reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "ldremote"
 reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\leidian9" /f >NUL 2>NUL
 reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\leidian9" /f /reg:32 >NUL 2>NUL
 
-::²¹³äÑ­»·ÇåÀíÏµÍ³²ÐÁôÎÄ¼þ
+::ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
 del /f /q "%WinDir%\System32\drivers\LdScpVBus.sys" >NUL 2>NUL
 del /f /q "%WinDir%\System32\WdfCoInstaller01009.dll" >NUL 2>NUL
 rd /s /q "%WinDir%\System32\DriverStore\FileRepository\ldvkbd.inf_amd64_ae5a64c7e0d5232d" 2>NUL
@@ -121,9 +121,9 @@ rd /s /q "%WinDir%\System32\DriverStore\FileRepository\ldscpvbus.inf_amd64_623ff
 rd /s /q "%AppData%\leidian9" 2>NUL
 
 CLS
-ECHO.&ECHO Çå³ýÍê³É£¬È·ÈÏÉ¾³ý£¿
-ECHO.&ECHO [1]É¾³ýÈí¼þµ«±£ÁôÓÃ»§Êý¾Ý
-ECHO.&ECHO [2]É¾³ýÈí¼þ²¢ÒÆ³ýÓÃ»§Êý¾Ý
+ECHO.&ECHO ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½È·ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½
+ECHO.&ECHO [1]É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½
+ECHO.&ECHO [2]É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½
 
 CHOICE /C 12 /N >NUL 2>NUL
 

@@ -5,7 +5,7 @@
   "license": {
     "identifier": "GPL-3.0 License"
   },
-  "url": "https://ghfast.top/https://github.com/neo4j/neo4j-browser/releases/download/2025.2.0/neo4j-browser-2025.2.0.tgz",
+  "url": "https://github.com/neo4j/neo4j-browser/releases/download/2025.2.0/neo4j-browser-2025.2.0.tgz",
   "hash": "eb9a77af4e78581a5a8f9fe4424297f4000e5f81d820e95d69c598743f752fb8",
   "extract_dir": "package",
   "pre_install": [
@@ -26,6 +26,6 @@
     "github": "https://github.com/neo4j/neo4j-browser"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/neo4j/neo4j-browser/releases/download/$version/neo4j-browser-$version.tgz"
+    "url": "https://github.com/neo4j/neo4j-browser/releases/download/$version/neo4j-browser-$version.tgz"
   }
 }

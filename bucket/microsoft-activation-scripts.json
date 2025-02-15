@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/blob/master/LICENSE"
   },
-  "url": "https://ghfast.top/https://github.com/massgravel/Microsoft-Activation-Scripts/archive/master.zip",
+  "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/master.zip",
   "hash": "1d0a0aaacdd0157e3fca0028b17d27e3c5698c9018477bf2ddb9a80a487d2e4f",
   "extract_dir": "Microsoft-Activation-Scripts-master",
   "env_add_path": "MAS\\All-In-One-Version",
@@ -16,6 +16,6 @@
     "replace": "0.${1}.${2}.${3}.${short}"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/massgravel/Microsoft-Activation-Scripts/archive/master.zip"
+    "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/master.zip"
   }
 }

@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/buxuku/video-subtitle-master#MIT-1-ov-file"
   },
-  "url": "https://ghfast.top/https://github.com/buxuku/video-subtitle-master/releases/download/v1.6.0/Video-Subtitle-Master_Windows_1.6.0_x64.exe#/dl.7z",
+  "url": "https://github.com/buxuku/video-subtitle-master/releases/download/v1.6.0/Video-Subtitle-Master_Windows_1.6.0_x64.exe#/dl.7z",
   "hash": "sha512:b7c8866edfd046343b29c793d4f313c4943b7980cadd68c69e87da82597326b88a65db0798858edb55eae1a5bd090da33bf850e59e931f5ec529a512a3761c91",
   "pre_install": [
     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -38,7 +38,7 @@
     "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/buxuku/video-subtitle-master/releases/download/v$version/Video-Subtitle-Master_Windows_$version_x64.exe#/dl.7z",
+    "url": "https://github.com/buxuku/video-subtitle-master/releases/download/v$version/Video-Subtitle-Master_Windows_$version_x64.exe#/dl.7z",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"

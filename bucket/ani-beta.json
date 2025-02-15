@@ -6,7 +6,7 @@
     "identifier": "AGPL-3.0 license",
     "url": "https://github.com/open-ani/ani#AGPL-3.0-1-ov-file"
   },
-  "url": "https://ghfast.top/https://github.com/open-ani/ani/releases/download/v4.5.0-alpha02/ani-4.5.0-alpha02-windows-x86_64.zip",
+  "url": "https://github.com/open-ani/ani/releases/download/v4.5.0-alpha02/ani-4.5.0-alpha02-windows-x86_64.zip",
   "hash": "70ecbcf916bea1c3bd0aa2b773a4ed1f463221095c9e94b32d7233fda2b7b86c",
   "extract_dir": "Ani",
   "installer": {
@@ -38,6 +38,6 @@
     "regex": "/releases/tag/v([\\d.]+-[\\w]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/open-ani/ani/releases/download/v$version/ani-$version-windows-x86_64.zip"
+    "url": "https://github.com/open-ani/ani/releases/download/v$version/ani-$version-windows-x86_64.zip"
   }
 }

@@ -8,7 +8,7 @@
     "64bit": {
       "url": [
         "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=134.0.3124.5&dl#/dl.7z",
-        "https://ghfast.top/https://raw.githubusercontent.com/ACooper81/SharedFiles/master/Icons/msedgedev.ico"
+        "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/Icons/msedgedev.ico"
       ],
       "hash": [
         "d310af0d5a55f734f4a95d8d1ac20393299ffbb4e33b20dd054de004206f421d",
@@ -18,7 +18,7 @@
     "32bit": {
       "url": [
         "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=134.0.3124.5&dl#/dl.7z",
-        "https://ghfast.top/https://raw.githubusercontent.com/ACooper81/SharedFiles/master/Icons/msedgedev.ico"
+        "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/Icons/msedgedev.ico"
       ],
       "hash": [
         "2beab0e7851b6d5bd316736b1bb13247c2e8b4dddcf28403d8941aa2e84b3d38",

@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "hash": "c8db6d3a18577f068ad1e1630055928c7f6c0a092a4d6f15eb58784188f8163f",
-      "url": "https://ghfast.top/https://github.com/dbgate/dbgate/releases/download/v6.1.6/dbgate-6.1.6-win_x64.zip"
+      "url": "https://github.com/dbgate/dbgate/releases/download/v6.1.6/dbgate-6.1.6-win_x64.zip"
     }
   },
   "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
@@ -31,7 +31,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/dbgate/dbgate/releases/download/v$version/dbgate-$version-win_x64.zip"
+        "url": "https://github.com/dbgate/dbgate/releases/download/v$version/dbgate-$version-win_x64.zip"
       }
     }
   }

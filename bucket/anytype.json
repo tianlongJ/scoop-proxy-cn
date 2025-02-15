@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/anyproto/anytype-ts/releases/download/v0.45.2/Anytype.Setup.0.45.2.exe#/dl.7z",
+      "url": "https://github.com/anyproto/anytype-ts/releases/download/v0.45.2/Anytype.Setup.0.45.2.exe#/dl.7z",
       "hash": "a1622925dcee718243137005df45ea79a07bc5828f90fd480578a581d3feb687",
       "pre_install": [
         "Remove-Item \"$dir\\resources\" -Recurse",
@@ -30,7 +30,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.$version.exe#/dl.7z"
+        "url": "https://github.com/anyproto/anytype-ts/releases/download/v$version/Anytype.Setup.$version.exe#/dl.7z"
       }
     }
   }

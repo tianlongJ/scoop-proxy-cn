@@ -5,11 +5,11 @@
   "version": "3.0.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/mansuf/mangadex-downloader/releases/download/v3.0.0/mangadex-dl_x64_v3.0.0.zip",
+      "url": "https://github.com/mansuf/mangadex-downloader/releases/download/v3.0.0/mangadex-dl_x64_v3.0.0.zip",
       "hash": "adf8a5cae863753076cb98ca1090b142c404c38427dd01b8e6fca62054532db4"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/mansuf/mangadex-downloader/releases/download/v3.0.0/mangadex-dl_x86_v3.0.0.zip",
+      "url": "https://github.com/mansuf/mangadex-downloader/releases/download/v3.0.0/mangadex-dl_x86_v3.0.0.zip",
       "hash": "23ff7e6780ed0bdb2920ef279ce2a407c412ea565a368618791d218ae6beed19"
     }
   },
@@ -27,10 +27,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/mansuf/mangadex-downloader/releases/download/v$version/mangadex-dl_x64_v$version.zip"
+        "url": "https://github.com/mansuf/mangadex-downloader/releases/download/v$version/mangadex-dl_x64_v$version.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/mansuf/mangadex-downloader/releases/download/v$version/mangadex-dl_x86_v$version.zip"
+        "url": "https://github.com/mansuf/mangadex-downloader/releases/download/v$version/mangadex-dl_x86_v$version.zip"
       }
     }
   }

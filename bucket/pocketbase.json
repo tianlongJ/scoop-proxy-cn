@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/pocketbase/pocketbase/releases/download/v0.25.4/pocketbase_0.25.4_windows_amd64.zip",
+      "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.25.4/pocketbase_0.25.4_windows_amd64.zip",
       "hash": "02d6869a927a8192b27a5c93f1b9693c8b533bc9795ddae9b345223cc039158d"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/pocketbase/pocketbase/releases/download/v0.25.4/pocketbase_0.25.4_windows_arm64.zip",
+      "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.25.4/pocketbase_0.25.4_windows_arm64.zip",
       "hash": "b123f6a6ac0e9f4f5265ad023d0111e949915fbba6b57accc0db098f7e02f2ae"
     }
   },
@@ -24,10 +24,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/pocketbase/pocketbase/releases/download/v$version/pocketbase_$version_windows_amd64.zip"
+        "url": "https://github.com/pocketbase/pocketbase/releases/download/v$version/pocketbase_$version_windows_amd64.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/pocketbase/pocketbase/releases/download/v$version/pocketbase_$version_windows_arm64.zip"
+        "url": "https://github.com/pocketbase/pocketbase/releases/download/v$version/pocketbase_$version_windows_arm64.zip"
       }
     },
     "hash": {

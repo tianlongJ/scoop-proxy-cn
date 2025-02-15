@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/RSSNext/Follow#GPL-3.0-1-ov-file"
   },
-  "url": "https://ghfast.top/https://github.com/RSSNext/Follow/releases/download/v0.3.5/Follow-0.3.5-windows-x64.exe#/dl.7z",
+  "url": "https://github.com/RSSNext/Follow/releases/download/v0.3.5/Follow-0.3.5-windows-x64.exe#/dl.7z",
   "hash": "sha512:a9fc4d69fa276e1428ac1f6b0f03621fb4e2ec9061e5d6a564348d3af11767637c048bd24e921ae690df3d2e61fb36cc66734d25d5e31a159df4d94288f80e0b",
   "pre_install": [
     "Get-Item \"$dir\\Follow*.nupkg\" | Rename-Item -NewName 'Follow.nupkg'",
@@ -40,7 +40,7 @@
     "regex": "/releases/tag/v([\\w.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/RSSNext/Follow/releases/download/v$version/Follow-$version-windows-x64.exe#/dl.7z",
+    "url": "https://github.com/RSSNext/Follow/releases/download/v$version/Follow-$version-windows-x64.exe#/dl.7z",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"

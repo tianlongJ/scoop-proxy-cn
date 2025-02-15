@@ -6,8 +6,8 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghfast.top/https://github.com/raphamorim/rio/releases/download/v0.2.7/Rio-portable-x86_64.exe#/rio.exe",
-        "https://ghfast.top/https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
+        "https://github.com/raphamorim/rio/releases/download/v0.2.7/Rio-portable-x86_64.exe#/rio.exe",
+        "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
       ],
       "hash": [
         "96db9a5cc65d1c4d003944fb4771a348b5516439bf98f30c4898a127c942cf77",
@@ -16,8 +16,8 @@
     },
     "arm64": {
       "url": [
-        "https://ghfast.top/https://github.com/raphamorim/rio/releases/download/v0.2.7/Rio-portable-aarch64.exe#/rio.exe",
-        "https://ghfast.top/https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
+        "https://github.com/raphamorim/rio/releases/download/v0.2.7/Rio-portable-aarch64.exe#/rio.exe",
+        "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
       ],
       "hash": [
         "ca550197b2fae2b01b94053cd7b7e8f4967e12f13b067a934da3c35cdec43062",
@@ -39,14 +39,14 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://ghfast.top/https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-x86_64.exe#/rio.exe",
-          "https://ghfast.top/https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
+          "https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-x86_64.exe#/rio.exe",
+          "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
         ]
       },
       "arm64": {
         "url": [
-          "https://ghfast.top/https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-aarch64.exe#/rio.exe",
-          "https://ghfast.top/https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
+          "https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-aarch64.exe#/rio.exe",
+          "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
         ]
       }
     }

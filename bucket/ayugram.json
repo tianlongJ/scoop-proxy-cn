@@ -6,7 +6,7 @@
     "identifier": "Freeware",
     "url": "https://github.com/AyuGram/AyuGramDesktop/blob/dev/LICENSE"
   },
-  "url": "https://ghfast.top/https://github.com/AyuGram/AyuGramDesktop/releases/download/v5.11.1/AyuGram.zip",
+  "url": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v5.11.1/AyuGram.zip",
   "hash": "accce4124920f97db89cd41e24bfcd54069da965aa5ca8e798484425da1bcb48",
   "shortcuts": [
     [
@@ -20,6 +20,6 @@
     "regex": "/releases/tag/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/AyuGram/AyuGramDesktop/releases/download/v$version/AyuGram.zip"
+    "url": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v$version/AyuGram.zip"
   }
 }

@@ -1,7 +1,7 @@
-@ECHO OFF&PUSHD %~DP0 &TITLE WPSOfficeÐ¶ÔØ³ÌÐò
+@ECHO OFF&PUSHD %~DP0 &TITLE WPSOfficeÐ¶ï¿½Ø³ï¿½ï¿½ï¿½
 color 2F
 SetLocal EnableDelayedExpansion
-echo ¡¡¡¡¡¡ÕýÔÚÐ¶ÔØÖÐ..ÇëÉÔµÈ..
+echo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½..ï¿½ï¿½ï¿½Ôµï¿½..
 taskkill /f /im et*>NUL 2>NUL
 taskkill /f /im wpp*>NUL 2>NUL
 taskkill /f /im wps*>NUL 2>NUL
@@ -42,15 +42,15 @@ del/f "%AppData%\Kingsoft\wps"2>NUL
 rd/s/q "%AppData%\Kingsoft\kaccountsdk"2>NUL
 rd/s/q "%AppData%\Kingsoft\kdynsdk"2>NUL
 rd/s/q "%LocalAppData%\Kingsoft\WPS Cloud Files"2>nul
-del/f/q "%userprofile%\Desktop\WPS±í¸ñ.lnk" >nul 2>nul
-del/f/q "%userprofile%\Desktop\WPSÑÝÊ¾.lnk" >nul 2>nul
-del/f/q "%userprofile%\Desktop\WPSÎÄ×Ö.lnk" >nul 2>nul
-del/f/q "%userprofile%\×ÀÃæ\WPS±í¸ñ.lnk" >nul 2>nul
-del/f/q "%userprofile%\×ÀÃæ\WPSÑÝÊ¾.lnk" >nul 2>nul
-del/f/q "%userprofile%\×ÀÃæ\WPSÎÄ×Ö.lnk" >nul 2>nul
-del/f/q "%public%\Desktop\WPS±í¸ñ.lnk" >nul 2>nul
-del/f/q "%public%\Desktop\WPSÑÝÊ¾.lnk" >nul 2>nul
-del/f/q "%public%\Desktop\WPSÎÄ×Ö.lnk" >nul 2>nul
-del/f/q "%public%\×ÀÃæ\WPS±í¸ñ.lnk" >nul 2>nul
-del/f/q "%public%\×ÀÃæ\WPSÑÝÊ¾.lnk" >nul 2>nul
-del/f/q "%public%\×ÀÃæ\WPSÎÄ×Ö.lnk" >nul 2>nul
+del/f/q "%userprofile%\Desktop\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%userprofile%\Desktop\WPSï¿½ï¿½Ê¾.lnk" >nul 2>nul
+del/f/q "%userprofile%\Desktop\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%userprofile%\ï¿½ï¿½ï¿½ï¿½\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%userprofile%\ï¿½ï¿½ï¿½ï¿½\WPSï¿½ï¿½Ê¾.lnk" >nul 2>nul
+del/f/q "%userprofile%\ï¿½ï¿½ï¿½ï¿½\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%public%\Desktop\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%public%\Desktop\WPSï¿½ï¿½Ê¾.lnk" >nul 2>nul
+del/f/q "%public%\Desktop\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%public%\ï¿½ï¿½ï¿½ï¿½\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul
+del/f/q "%public%\ï¿½ï¿½ï¿½ï¿½\WPSï¿½ï¿½Ê¾.lnk" >nul 2>nul
+del/f/q "%public%\ï¿½ï¿½ï¿½ï¿½\WPSï¿½ï¿½ï¿½ï¿½.lnk" >nul 2>nul

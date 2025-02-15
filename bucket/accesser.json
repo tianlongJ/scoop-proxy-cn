@@ -1,10 +1,10 @@
 {
-  "version": "0.10.1",
+  "version": "0.10.0",
   "description": "A tool which can help you bypass SNI RST",
   "homepage": "https://urenko.github.io/Accesser/",
   "license": "GPL-3.0-only",
-  "url": "https://ghfast.top/https://github.com/URenko/Accesser/releases/download/v0.10.1/Accesser.exe",
-  "hash": "3a1fb8a5b84961126dca6fd39766e8a738a53a4fbabcc9621940907d91f651ca",
+  "url": "https://github.com/URenko/Accesser/releases/download/v0.10.0/Accesser.exe",
+  "hash": "1fd133013dceac12125d357c4002c28d4420ddc9062eea4d8d7b5249c08087c4",
   "persist": "config.json",
   "bin": "Accesser.exe",
   "shortcuts": [
@@ -22,7 +22,7 @@
     "github": "https://github.com/URenko/Accesser"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/URenko/Accesser/releases/download/v$version/Accesser.exe",
+    "url": "https://github.com/URenko/Accesser/releases/download/v$version/Accesser.exe",
     "hash": {
       "url": "https://github.com/URenko/Accesser/releases/tag/v$version",
       "regex": "SHA256: $sha256"

@@ -5,12 +5,12 @@
   "license": "LGPL 2.1",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20250213_123842-c6a36595/x86_64-mingw64.tar",
+      "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20250213_123842-c6a36595/x86_64-mingw64.tar",
       "hash": "7513887559967ebd4dfa9b2a85213e826ae4fe4e419bfc92ab45220865db2d0a",
       "extract_dir": "mingw64"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20250213_123842-c6a36595/i686-mingw32.tar",
+      "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20250213_123842-c6a36595/i686-mingw32.tar",
       "hash": "b43876414cf56106d29080d3c34856cedfe09d0e630ca405e5fa46c75d72b2fb",
       "extract_dir": "mingw32"
     }
@@ -120,11 +120,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/$version/x86_64-mingw64.tar",
+        "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/$version/x86_64-mingw64.tar",
         "extract_dir": "mingw64"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/$version/i686-mingw32.tar",
+        "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/$version/i686-mingw32.tar",
         "extract_dir": "mingw32"
       }
     }

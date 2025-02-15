@@ -5,11 +5,11 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/securego/gosec/releases/download/v2.22.1/gosec_2.22.1_windows_amd64.tar.gz",
+      "url": "https://github.com/securego/gosec/releases/download/v2.22.1/gosec_2.22.1_windows_amd64.tar.gz",
       "hash": "66a0ef76f57c2ac9368a6544d3f1b74003482d7396ed199d0ad6be974158cbfc"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/securego/gosec/releases/download/v2.22.1/gosec_2.22.1_windows_arm64.tar.gz",
+      "url": "https://github.com/securego/gosec/releases/download/v2.22.1/gosec_2.22.1_windows_arm64.tar.gz",
       "hash": "7e32dfeb105b345704ae2e35f45c68752fa57f45ceb438a71d9ef54fa677b4ce"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/securego/gosec/releases/download/v$version/gosec_$version_windows_amd64.tar.gz"
+        "url": "https://github.com/securego/gosec/releases/download/v$version/gosec_$version_windows_amd64.tar.gz"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/securego/gosec/releases/download/v$version/gosec_$version_windows_arm64.tar.gz"
+        "url": "https://github.com/securego/gosec/releases/download/v$version/gosec_$version_windows_arm64.tar.gz"
       }
     },
     "hash": {

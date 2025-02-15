@@ -118,7 +118,7 @@ rd /s /q "%WinDir%\System32\DriverStore\FileRepository\ldscpvbus.inf_amd64_623ff
 rd /s /q "%AppData%\leidian9" 2>NUL
 
 CLS
-ECHO.&ECHO Clear complete, confirm deletion£¿
+ECHO.&ECHO Clear complete, confirm deletionï¿½ï¿½
 ECHO.&ECHO [1]Remove software but keep user data
 ECHO.&ECHO [2]Remove software and user data
 

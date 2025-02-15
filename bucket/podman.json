@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/containers/podman/releases/download/v5.4.0/podman-5.4.0-setup.exe",
+      "url": "https://github.com/containers/podman/releases/download/v5.4.0/podman-5.4.0-setup.exe",
       "hash": "6043131f88e40a862a8a08058441dec459813a3117a1a2e6f1148540a2e73877"
     }
   },
@@ -76,7 +76,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/containers/podman/releases/download/v$version/podman-$version-setup.exe",
+        "url": "https://github.com/containers/podman/releases/download/v$version/podman-$version-setup.exe",
         "hash": {
           "url": "$baseurl/shasums"
         }

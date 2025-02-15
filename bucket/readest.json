@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/readest/readest/releases/download/v0.9.11/Readest_0.9.11_x64-setup.exe#/dl.7z",
+      "url": "https://github.com/readest/readest/releases/download/v0.9.11/Readest_0.9.11_x64-setup.exe#/dl.7z",
       "hash": "09d7bac02094e45dac8aa8c7a648e0a2b3fae4df0db0a81f3f676f4515011c63"
     }
   },
@@ -43,7 +43,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/readest/readest/releases/download/v$version/Readest_$version_x64-setup.exe#/dl.7z"
+        "url": "https://github.com/readest/readest/releases/download/v$version/Readest_$version_x64-setup.exe#/dl.7z"
       }
     }
   }

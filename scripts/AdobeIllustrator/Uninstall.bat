@@ -1,8 +1,8 @@
 @ECHO OFF&(PUSHD "%~DP0")&(REG QUERY "HKU\S-1-5-19">NUL 2>&1)||(
 powershell -Command "Start-Process '%~sdpnx0' -Verb RunAs"&&EXIT)
 
-ECHO.&ECHO ÉÔµÈ...
-::½áÊøAdobe²úÆ·È«²¿½ø³Ì
+ECHO.&ECHO ï¿½Ôµï¿½...
+::ï¿½ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 taskkill /F /IM armsvc.exe >NUL 2>NUL
 taskkill /F /IM AcroTray.exe >NUL 2>NUL
 taskkill /F /IM AGSService.exe >NUL 2>NUL
@@ -33,7 +33,7 @@ taskkill /f /IM dynamiclinkmanager.exe >NUL 2>NUL
 taskkill /f /IM ImporterREDServer.exe >NUL 2>NUL
 taskkill /f /IM Illustrator.exe >NUL 2>NUL
 
-::Çå³ýAdobe²úÆ·Ïà¹Ø¿ª»úÆô¶¯Ïî£»
+::ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·ï¿½ï¿½Ø¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î£»
 reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "CCXProcess" >NUL 2>NUL
 reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v "AdobeGCInvoker-1.0" >NUL 2>NUL
 reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v "AdobeAAMUpdater-1.0" >NUL 2>NUL
@@ -43,21 +43,21 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v "AdobeAAMU
 reg delete "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run" /f /v "Adobe CCXProcess" >NUL 2>NUL
 reg delete "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run" /f /v "AdobeAAMUpdater-1.0" >NUL 2>NUL
 
-::Çå³ýAdobe²úÆ·²ÐÁôµÄ°²×°ÐÅÏ¢£»
+::ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½Ä°ï¿½×°ï¿½ï¿½Ï¢ï¿½ï¿½
 rd/s/q "%AppData%\Adobe\Adobe PCD"2>NUL
 rd/s/q "%ProgramData%\Adobe\Installer"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\caps"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\backup"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\Installers"2>NUL
 
-::Çå³ýAdobe²úÆ·¼¤»îÐÅÏ¢¼°»º´æ£»
+::ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½æ£»
 rd/s/q "%AppData%\Adobe\SLData"2>NUL
 rd/s/q "%AppData%\Adobe\SLStore"2>NUL
 rd/s/q "%ProgramData%\Adobe\SLStore"2>NUL
 rd/s/q "%ProgramData%\regid.1986-12.com.adobe"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\SLCache"2>NUL
 
-::Çå³ýAdobe²úÆ·Õý°æÑéÖ¤AAM×é¼þ
+::ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤AAMï¿½ï¿½ï¿½
 rd/s/q "%AppData%\Adobe\OOBE"2>NUL
 rd/s/q "%LocalAppData%\Adobe\OOBE"2>NUL
 rd/s/q "%CommonProgramW6432%\Adobe\OOBE"2>NUL
@@ -65,7 +65,7 @@ rd/s/q "%CommonProgramW6432%\Adobe\OOBE"2>NUL
 rd/s/q "%CommonProgramW6432%\Adobe\AAMUpdaterInventory"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\AAMUpdaterInventory"2>NUL
 
-::Çå³ýAdobe²úÆ·¿âºÍÔÆÍ¬²½×é¼þ
+::ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½
 rd/s/q "%TEMP%\CreativeCloud"2>NUL
 rd/s/q "%ProgramData%\Adobe Sync"2>NUL
 rd/s/q "%ProgramW6432%\Adobe\Adobe Sync"2>NUL
@@ -112,7 +112,7 @@ reg delete "HKLM\SOFTWARE\Classes\Wow6432Node\Interface\{F4FCF137-0EAE-4FA1-8B39
 reg delete "HKLM\SOFTWARE\Classes\WOW6432Node\Interface\{7A1355AF-958A-4360-89B1-A55ACEA38F96}" /f >NUL 2>NUL
 reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\AdobePluginInstallerAgent.exe" /f >NUL 2>NUL
 
-::Çå³ýUXPÖ÷ÆÁÄ»°æ±¾µü´ú²ÐÁôÎÄ¼þ;
+::ï¿½ï¿½ï¿½UXPï¿½ï¿½ï¿½ï¿½Ä»ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½;
 ::rd/s/q "%LocalAppData%\UXP"2>NUL
 ::rd/s/q "%CommonProgramW6432%\Adobe\UXP"2>NUL
 rd/s/q "%CommonProgramW6432%\Adobe\CEP\extensions\com.adobe.ccx.fnft-3.3.0"2>NUL
@@ -142,7 +142,7 @@ rd/s/q "%CommonProgramFiles(x86)%\Adobe\CEP\extensions\CC_LIBRARIES_PANEL_EXTENS
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\CEP\extensions\CC_LIBRARIES_PANEL_EXTENSION_3_8_299"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\CEP\extensions\CC_LIBRARIES_PANEL_EXTENSION_3_9_275"2>NUL
 
-::Çå³ýAdobe²úÆ·Ïà¹ØÁÙÊ±²ÐÁôÎÄ¼þ£»
+::ï¿½ï¿½ï¿½Adobeï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
 rd/s/q "%TEMP%\UXP"2>NUL
 rd/s/q "%TEMP%\Adobe"2>NUL
 rd/s/q "%TEMP%\Adobe Temp"2>NUL
@@ -193,7 +193,7 @@ rd/s/q "%CommonProgramFiles(x86)%\Adobe\Adobe PCD"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\PCF"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Starth"2>NUL
 
-::Çå³ýIllustrator²úÆ·²ÐÁô
+::ï¿½ï¿½ï¿½Illustratorï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½
 rd/s/q "%AppData%\Adobe\UPI"2>NUL
 rd/s/q "%AppData%\Adobe\AIRobin 24 Settings"2>NUL
 rd/s/q "%AppData%\Adobe\AIRobin 25.0.0 Settings"2>NUL
@@ -214,14 +214,14 @@ rd/s/q "%CommonProgramW6432%\Adobe\Bridge 2021 Extensions\Adobe Illustrator Auto
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\Bridge 2020 Extensions\Adobe Illustrator Automation 2020"2>NUL
 rd/s/q "%CommonProgramFiles(x86)%\Adobe\Bridge 2021 Extensions\Adobe Illustrator Automation 2021"2>NUL
 
-::É¾³ýAI×ÀÃæºÍ¿ªÊ¼²Ëµ¥¿ì½Ý·½Ê½
+::É¾ï¿½ï¿½AIï¿½ï¿½ï¿½ï¿½Í¿ï¿½Ê¼ï¿½Ëµï¿½ï¿½ï¿½Ý·ï¿½Ê½
 del/q "Adobe Illustrator 2021.lnk" >NUL 2>NUL
 del/q "%Public%\Desktop\Adobe Illustrator 2021.lnk" >NUL 2>NUL
 del/q "%UserProfile%\Desktop\Adobe Illustrator 2021.lnk" >NUL 2>NUL
 rd/s/q "%AppData%\Microsoft\Windows\Start Menu\Programs\Adobe Illustrator 2021"2>NUL
 rd/s/q "%ProgramData%\Microsoft\Windows\Start Menu\Programs\Adobe Illustrator 2021"2>NUL
 
-::É¾³ýIllustrator²úÆ·×¢²á±í¼üÖµ
+::É¾ï¿½ï¿½Illustratorï¿½ï¿½Æ·×¢ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 reg delete "HKCU\SOFTWARE\Classes\.ai" /f >NUL 2>NUL
 reg delete "HKCU\SOFTWARE\Adobe\CSXS.10" /f >NUL 2>NUL
 reg delete "HKCU\SOFTWARE\Adobe\CommonFiles\CRLog" /f >NUL 2>NUL
@@ -585,4 +585,4 @@ reg delete "HKLM\SOFTWARE\Classes\CLSID\{C3D06A66-549F-4B75-BC44-93A66FBB367D}" 
 reg delete "HKLM\SOFTWARE\Classes\FileType\{C3D06A66-549F-4B75-BC44-93A66FBB367D}" /f >NUL 2>NUL
 ASSOC .=. >NUL 2>NUL
 
-CLS&ECHO.&ECHO Íê³É
+CLS&ECHO.&ECHO ï¿½ï¿½ï¿½

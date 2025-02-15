@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/HandBrake/HandBrake/releases/download/1.9.1/HandBrakeCLI-1.9.1-win-x86_64.zip",
+      "url": "https://github.com/HandBrake/HandBrake/releases/download/1.9.1/HandBrakeCLI-1.9.1-win-x86_64.zip",
       "hash": "b744e2a077c8cf1cd9905ea6be0f7080208e74aba81e4930a12d8c013c1440fe"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/HandBrake/HandBrake/releases/download/$version/HandBrakeCLI-$version-win-x86_64.zip"
+        "url": "https://github.com/HandBrake/HandBrake/releases/download/$version/HandBrakeCLI-$version-win-x86_64.zip"
       }
     },
     "hash": {
