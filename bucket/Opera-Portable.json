@@ -1,5 +1,5 @@
 {
-  "version": "117.0.5408.35",
+  "version": "117.0.5408.53",
   "description": "Opera. Fast, secure, easy-to-use browser.",
   "homepage": "https://www.opera.com/",
   "license": {
@@ -8,12 +8,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://download1.operacdn.com/pub/opera/desktop/117.0.5408.35/win/Opera_117.0.5408.35_Autoupdate_x64.exe#/dl.7z",
-      "hash": "b777c507b249a6d3a67600687d69e806e803b0ab95094c00b299dcd55a7b5664"
+      "url": "https://download1.operacdn.com/pub/opera/desktop/117.0.5408.53/win/Opera_117.0.5408.53_Autoupdate_x64.exe#/dl.7z",
+      "hash": "f48e2d1b43b255127c8a7d40a87e0789ea35ffaa71c81e88eb9a646168e850e9"
     },
     "32bit": {
-      "url": "https://download1.operacdn.com/pub/opera/desktop/117.0.5408.35/win/Opera_117.0.5408.35_Autoupdate.exe#/dl.7z",
-      "hash": "911d986bc96e9d7e0302d594985d91386a6d3eeac4fbff796a61ca10a6370a93"
+      "url": "https://download1.operacdn.com/pub/opera/desktop/117.0.5408.53/win/Opera_117.0.5408.53_Autoupdate.exe#/dl.7z",
+      "hash": "4bbe41745e2a3508d123e381f305f56fb80dee5ea3ad49aa640bd91f6b5d5452"
     }
   },
   "installer": {

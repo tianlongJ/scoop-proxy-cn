@@ -1,20 +1,20 @@
 {
-  "version": "1.8.1",
+  "version": "1.8.3",
   "homepage": "https://www.koodoreader.com",
   "description": "All-in-one ebook reader.",
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v1.8.1/Koodo-Reader-1.8.1-x64-Win.zip",
-      "hash": "d7810b44f455d91ccb8bec152514236a94bea65a18dcd8707dac7e6a43685106"
+      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v1.8.3/Koodo-Reader-1.8.3-x64-Win.zip",
+      "hash": "cbd9c81b3e5f69e4af0b9854cf405e78124bc62327dc4d48afd9ba4b0ce5e430"
     },
     "32bit": {
-      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v1.8.1/Koodo-Reader-1.8.1-ia32-Win.zip",
-      "hash": "ee22df5deca8452ebdfeb9825d3ade6d9e323f4490c6408709eaeac7cc4eac44"
+      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v1.8.3/Koodo-Reader-1.8.3-ia32-Win.zip",
+      "hash": "738407e3a832f429b8dabcf1216ab0c1c350dd03526111468cbba4db437e2009"
     },
     "arm64": {
-      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v1.8.1/Koodo-Reader-1.8.1-arm64-Win.zip",
-      "hash": "9031e1053218893e6ce0e41555513f4651d8686a894346281d757908d61edb0b"
+      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v1.8.3/Koodo-Reader-1.8.3-arm64-Win.zip",
+      "hash": "0ecd1e0704f8268ef5da6b07cbf9fbf0a37944fc259d204438b63d9b959724c6"
     }
   },
   "shortcuts": [

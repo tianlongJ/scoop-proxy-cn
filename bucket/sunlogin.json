@@ -8,7 +8,7 @@
   "architecture": {
     "64bit": {
       "url": "https://down.oray.com/sunlogin/windows/SunloginClient_15.8.2.19742_x64.exe",
-      "hash": "md5:807d4c7f9996c2f915a1a9d51b1ddc62",
+      "hash": "md5:e22ed8a72a31d13bc6315b9b1cd24d6a",
       "shortcuts": [
         [
           "SunloginClient_15.8.2.19742_x64.exe",
@@ -18,7 +18,7 @@
     },
     "32bit": {
       "url": "https://down.oray.com/sunlogin/windows/SunloginClient_15.8.2.19742.exe",
-      "hash": "md5:45cefd779cc2f5871b5c09d056d4d35b",
+      "hash": "md5:a42bd7a551a7e9510ebb48bf6cfcef93",
       "shortcuts": [
         [
           "SunloginClient_15.8.2.19742.exe",
