@@ -8,7 +8,21 @@
       "url": "https://open.u-tools.cn/download/uTools-6.1.0.exe#/dl.7z",
       "hash": "b6eea8420f124dda26823c846f846f04bd2ceb6693303a7d7d273d43ceabd892",
       "installer": {
-        "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
+        "script": [
+            "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\\utools\"",
+            "ensure \"$persist_dir\" | Out-Null",
+            "$targetPath = \"$env:APPDATA\\uTools\"",
+            "$linkType = (Get-Item -Path $targetPath -ErrorAction SilentlyContinue).LinkType",
+            "if (Test-Path $targetPath) {",
+            "    if ($linkType -eq 'Junction') {",
+            "        Remove-Item -Path $targetPath -Force",
+            "    } else {",
+            "        Get-ChildItem -Path $targetPath -Force | Move-Item -Destination $persist_dir -Force",
+            "        Remove-Item -Path $targetPath -Force -Recurse",
+            "    }",
+            "}",
+            "New-Item \"$env:APPDATA\\uTools\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+        ]
       }
     },
     "32bit": {
@@ -19,10 +33,16 @@
       }
     }
   },
-  "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
+  "extract_dir": "$PLUGINSDIR",
+  "extract_to": "PLUGINSDIR",
+  "bin": "utools\\uTools.exe",
+  "post_install": "Remove-Item -RECURSE $original_dir/PLUGINSDIR",
+  "uninstaller": {
+    "script": "Remove-Item \"$env:APPDATA\\uTools\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+  },
   "shortcuts": [
     [
-      "uTools.exe",
+      "utools\\uTools.exe",
       "uTools"
     ]
   ],
