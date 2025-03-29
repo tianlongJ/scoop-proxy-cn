@@ -15,11 +15,13 @@
       "regex": "$md5"
     }
   },
+  "pre_install": [
+    "Expand-7ZipArchive \"$dir\\mailmaster.7z\" \"$dir\" -Removal",
+    "Move-Item \"$dir\\MailMaster-bin\\*\" \"$dir\" -Force",
+    "Remove-Item \"$dir\\MailMaster-bin\" -Force -Recurse"
+  ],
   "installer": {
     "script": [
-      "Expand-7ZipArchive \"$dir\\mailmaster.7z\" \"$dir\" -Removal",
-      "Move-Item \"$dir\\MailMaster-bin\\*\" \"$dir\" -Force",
-      "Remove-Item \"$dir\\MailMaster-bin\" -Force -Recurse",
       "ensure \"$persist_dir\" | Out-Null",
       "$targetPath = \"$env:LOCALAPPDATA\\Netease\\MailMaster\"",
       "$linkType = (Get-Item -Path $targetPath -ErrorAction SilentlyContinue).LinkType",
