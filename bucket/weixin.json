@@ -1,0 +1,59 @@
+{
+  "version": "4.0.3.18",
+  "description": "Free messaging and calling app by Tencent",
+  "homepage": "https://pc.weixin.qq.com/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.wechat.com/en/service_terms.html"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
+      "hash": "83df070fc83225e9b3ab89eb8751997e685445e47b86003c4059ce7746262a92"
+    }
+  },
+  "pre_install": [
+    "Expand-7zipArchive \"$dir\\`install.7z\" \"$dir\"",
+    "Remove-Item \"$dir\\install.7z\" -Force -Recurse"
+  ],
+  "installer": {
+    "script": [
+      "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse",
+      "$configpath = \"$env:APPDATA\\Tencent\\xwechat\\config\"",
+      "ensure \"$configpath\" | Out-Null",
+      "Set-Content -NoNewline -Path \"$configpath\\51a1fffea11325a1e4104c6b3de47af7.ini\" -Value \"$persist_dir\"",
+      "$regpath = \"HKCU:Software\\Tencent\\Weixin\"",
+      "if (!(Test-Path \"$regpath\")) {",
+      "    New-Item -Path \"$regpath\" -Type Directory -Force | Out-Null",
+      "}",
+      "New-ItemProperty -Path $regpath -Name \"FileSavePath\" -Value \"$persist_dir\" -Force | Out-Null"
+    ]
+  },
+  "shortcuts": [
+    [
+      "Weixin.exe",
+      "微信"
+    ]
+  ],
+  "persist": "xwechat_files",
+  "uninstaller": {
+    "script": [
+      "Remove-Item -Path \"$env:APPDATA\\Tencent\\xwechat\\config\\51a1fffea11325a1e4104c6b3de47af7.ini\" -Force | Out-Null",
+      "Remove-ItemProperty -Path \"HKCU:Software\\Tencent\\Weixin\" -Name \"FileSavePath\" -Force | Out-Null"
+    ]
+  },
+  "checkver": {
+    "script": [
+      "$resp = Invoke-WebRequest -UseBasicParsing -Uri 'https://luban.m.qq.com/api/public/software-manager/softwareProxy' -Body 'cmdid=3318&jprxReq%5Breq%5D%5Bsoft_id_list%5D%5B%5D=11488' -Method 'POST'",
+      "Write-Output $resp.Content"
+    ],
+    "jsonpath": "$..ver_name"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z"
+      }
+    }
+  }
+}
