@@ -9,7 +9,7 @@
   "architecture": {
     "64bit": {
       "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
-      "hash": "83df070fc83225e9b3ab89eb8751997e685445e47b86003c4059ce7746262a92"
+      "hash": "0de1703d15cfff163fd9db9b94e1e831e7e26131ea412e70bb0d2796c0050390"
     }
   },
   "pre_install": [
