@@ -1,18 +1,18 @@
 {
-  "version": "24.0.0-nightly2025040877f88b9485",
+  "version": "24.0.0-nightly20250411795dd8eb79",
   "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications. (nightly verison)",
   "homepage": "https://nodejs.org",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://nodejs.org/download/nightly/v24.0.0-nightly2025040877f88b9485/node-v24.0.0-nightly2025040877f88b9485-win-x64.7z",
-      "hash": "d25e8f66517346cfe10fe5cb9bd8e8c2a7b2510ed11c01b4d53625c385dd04d9",
-      "extract_dir": "node-v24.0.0-nightly2025040877f88b9485-win-x64"
+      "url": "https://nodejs.org/download/nightly/v24.0.0-nightly20250411795dd8eb79/node-v24.0.0-nightly20250411795dd8eb79-win-x64.7z",
+      "hash": "a7a4de639430bfe1599d903e33e52169c2ea0887cdc39f0ef20eba1442fa9b9a",
+      "extract_dir": "node-v24.0.0-nightly20250411795dd8eb79-win-x64"
     },
     "arm64": {
-      "url": "https://nodejs.org/download/nightly/v24.0.0-nightly2025040877f88b9485/node-v24.0.0-nightly2025040877f88b9485-win-arm64.7z",
-      "hash": "468e263d417d3a14b3a8f6d956472dcd340ede8323e932e93755dd7d39187a90",
-      "extract_dir": "node-v24.0.0-nightly2025040877f88b9485-win-arm64"
+      "url": "https://nodejs.org/download/nightly/v24.0.0-nightly20250411795dd8eb79/node-v24.0.0-nightly20250411795dd8eb79-win-arm64.7z",
+      "hash": "639ac957132f179468e78706715f3b1947f707ff56e59acfb7a4c0136f7766a7",
+      "extract_dir": "node-v24.0.0-nightly20250411795dd8eb79-win-arm64"
     }
   },
   "persist": [
