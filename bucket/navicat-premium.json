@@ -1,13 +1,13 @@
 {
-  "version": "16.3.12",
+  "version": "16.0.14",
   "url": "https://download.navicat.com/download/navicat163_premium_cs_x64.exe",
   "description": "A database development tool that allows you to simultaneously connect to MySQL, Redis, PostgreSQL, SQL Server, Oracle, MariaDB, SQLite, and MongoDB databases from a single application.",
   "homepage": "https://www.navicat.com/en/products/navicat-premium",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://download.navicat.com/download/navicat163_premium_cs_x64.exe",
-      "hash": "1b2e408693b108463d443a60e5d8abbb8af5484840b104f5d148b1ea0193297f"
+      "url": "https://download.navicat.com/download/navicat160_premium_cs_x64.exe",
+      "hash": "6fcbbd70ca662ac638c9f3857b2ea5524fdd38e2b4d216dcb69b321bb857c53c"
     }
   },
   "innosetup": true,
