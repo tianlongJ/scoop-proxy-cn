@@ -10,7 +10,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v1.46/BlueTeamToolsV1.46.jar",
+  "url": "https://ghfast.top/https://github.com/abc123info/BlueTeamTools/releases/download/v1.46/BlueTeamToolsV1.46.jar",
   "hash": "edad6e0e823a4a46fb4002299379d795b8262e730b13886127e5f64f8c11ca15",
   "pre_install": [
     "Set-Content \"$dir\\blueteamtools.bat\" '@pushd %~dp0",
@@ -31,6 +31,6 @@
       "@start javaw.exe -jar \"BlueTeamToolsV$version.jar\" %*",
       "@popd' -Encoding Ascii"
     ],
-    "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.jar"
+    "url": "https://ghfast.top/https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.jar"
   }
 }

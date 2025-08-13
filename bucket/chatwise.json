@@ -5,7 +5,7 @@
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/egoist/chatwise-releases/releases/download/v0.8.98/ChatWise_0.8.98_x64-setup.exe#/dl.7z",
+      "url": "https://ghfast.top/https://github.com/egoist/chatwise-releases/releases/download/v0.8.98/ChatWise_0.8.98_x64-setup.exe#/dl.7z",
       "hash": "897a0510bb780583122996930890255d799d83f018c9651f3a95985833c389ca"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
+        "url": "https://ghfast.top/https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
       }
     }
   }

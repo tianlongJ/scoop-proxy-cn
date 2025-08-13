@@ -6,7 +6,7 @@
     "identifier": "Apache-2.0 license",
     "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown#Apache-2.0-1-ov-file"
   },
-  "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown/releases/download/V6.39/BilibiliDown.v6.39.release.zip",
+  "url": "https://ghfast.top/https://github.com/nICEnnnnnnnLee/BilibiliDown/releases/download/V6.39/BilibiliDown.v6.39.release.zip",
   "hash": "sha1:3958c94e5130f7b3d65369ea6075937788c1f9b7",
   "shortcuts": [
     [
@@ -19,7 +19,7 @@
     "regex": "/releases/tag/V([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown/releases/download/V$version/BilibiliDown.v$version.release.zip",
+    "url": "https://ghfast.top/https://github.com/nICEnnnnnnnLee/BilibiliDown/releases/download/V$version/BilibiliDown.v$version.release.zip",
     "hash": {
       "url": "$url.sha1"
     }

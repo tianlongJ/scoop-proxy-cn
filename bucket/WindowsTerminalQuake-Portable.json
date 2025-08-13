@@ -6,7 +6,7 @@
   "changelog": "https://github.com/flyingpie/windows-terminal-quake/releases",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/vKeybLayoutFix/win-x64_self-contained.zip",
+      "url": "https://ghfast.top/https://github.com/flyingpie/windows-terminal-quake/releases/download/vKeybLayoutFix/win-x64_self-contained.zip",
       "hash": "464a50a98ad67d67f93aeb7a61671035ec99fe417a47a94ecea56888605a750f"
     }
   },
@@ -31,7 +31,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v$matchMain/win-x64_self-contained.zip"
+        "url": "https://ghfast.top/https://github.com/flyingpie/windows-terminal-quake/releases/download/v$matchMain/win-x64_self-contained.zip"
       }
     }
   },

@@ -5,7 +5,7 @@
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/fiatjaf/nak/releases/download/v0.15.2/nak-v0.15.2-windows-amd64.exe#/nak.exe",
+      "url": "https://ghfast.top/https://github.com/fiatjaf/nak/releases/download/v0.15.2/nak-v0.15.2-windows-amd64.exe#/nak.exe",
       "hash": "f6ed27ed441e7e3573d8562662c5af9dd1be259498400fbbc2529b039118b4de"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/fiatjaf/nak/releases/download/v$version/nak-v$version-windows-amd64.exe#/nak.exe"
+        "url": "https://ghfast.top/https://github.com/fiatjaf/nak/releases/download/v$version/nak-v$version-windows-amd64.exe#/nak.exe"
       }
     }
   }

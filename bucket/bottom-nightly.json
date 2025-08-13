@@ -1,15 +1,15 @@
 {
-  "version": "16868225065",
+  "version": "16895655972",
   "description": "Graphical process/system monitor",
   "homepage": "https://github.com/ClementTsang/bottom",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip",
       "hash": "b9f32bbad9634dd42bb5fc24a5e4f6f4b7bece47d2d505dff7d9c0fc413cba29"
     },
     "32bit": {
-      "url": "https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip",
       "hash": "d705548103ead45a0aff39b2d434ef1135a3cc1aece1c4275902b612d338ff1b"
     }
   },
@@ -21,10 +21,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip"
       },
       "32bit": {
-        "url": "https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip"
       }
     }
   }

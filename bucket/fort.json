@@ -5,15 +5,15 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/tnodir/fort/releases/download/v3.18.11/FortFirewall-3.18.11-windows10-x86_64.exe",
+      "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v3.18.11/FortFirewall-3.18.11-windows10-x86_64.exe",
       "hash": "3148376bf71573ef5afa96c1184157e631898e81e88bda693df6bfffb768fd2f"
     },
     "32bit": {
-      "url": "https://github.com/tnodir/fort/releases/download/v3.18.11/FortFirewall-3.18.11-windows-x86.exe",
+      "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v3.18.11/FortFirewall-3.18.11-windows-x86.exe",
       "hash": "3e71396b48dc5cfda7eda115667ef9f145746be12957e0f168dd2c35ea1cc5ad"
     },
     "arm64": {
-      "url": "https://github.com/tnodir/fort/releases/download/v3.18.11/FortFirewall-3.18.11-windows10-arm64.exe",
+      "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v3.18.11/FortFirewall-3.18.11-windows10-arm64.exe",
       "hash": "a2dc57596ba0bb42aa830118724bb242bb035161edef2cb622a4d44764fd47bd"
     }
   },
@@ -51,13 +51,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-x86_64.exe"
+        "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-x86_64.exe"
       },
       "32bit": {
-        "url": "https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows-x86.exe"
+        "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows-x86.exe"
       },
       "arm64": {
-        "url": "https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-arm64.exe"
+        "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-arm64.exe"
       }
     }
   }

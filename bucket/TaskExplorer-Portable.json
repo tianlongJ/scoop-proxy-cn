@@ -4,7 +4,7 @@
   "homepage": "https://github.com/DavidXanatos/TaskExplorer",
   "license": "GPL-3.0-only",
   "changelog": "https://github.com/DavidXanatos/TaskExplorer/releases",
-  "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v1.6.5/TaskExplorer-v1.6.5.exe",
+  "url": "https://ghfast.top/https://github.com/DavidXanatos/TaskExplorer/releases/download/v1.6.5/TaskExplorer-v1.6.5.exe",
   "hash": "544c1f73e1562615295e2b51762ec8321ad40f3a25741fe14cad63b81e527761",
   "architecture": {
     "64bit": {
@@ -27,6 +27,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v$version/TaskExplorer-v$version.exe"
+    "url": "https://ghfast.top/https://github.com/DavidXanatos/TaskExplorer/releases/download/v$version/TaskExplorer-v$version.exe"
   }
 }

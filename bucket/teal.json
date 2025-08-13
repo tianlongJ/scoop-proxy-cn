@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/teal-language/tl/releases/download/v0.24.7/tl-0.24.7-windows-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/teal-language/tl/releases/download/v0.24.7/tl-0.24.7-windows-x86_64.zip",
       "hash": "5de7653a5f6bb00b7ef4666cbc8d4c7ff33d8bc5c7a291c4ef6d50de23f55381"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/teal-language/tl/releases/download/v$version/tl-$version-windows-x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/teal-language/tl/releases/download/v$version/tl-$version-windows-x86_64.zip"
       }
     }
   }

@@ -15,29 +15,12 @@
       "regex": "$md5"
     }
   },
-  "pre_install": [
-    "Expand-7ZipArchive \"$dir\\mailmaster.7z\" \"$dir\" -Removal",
-    "Move-Item \"$dir\\MailMaster-bin\\*\" \"$dir\" -Force",
-    "Remove-Item \"$dir\\MailMaster-bin\" -Force -Recurse"
-  ],
   "installer": {
     "script": [
-      "ensure \"$persist_dir\" | Out-Null",
-      "$targetPath = \"$env:LOCALAPPDATA\\Netease\\MailMaster\"",
-      "$linkType = (Get-Item -Path $targetPath -ErrorAction SilentlyContinue).LinkType",
-      "if (Test-Path $targetPath) {",
-      "    if ($linkType -eq 'Junction') {",
-      "        Remove-Item -Path $targetPath -Force",
-      "    } else {",
-      "        Get-ChildItem -Path $targetPath -Force | Move-Item -Destination $persist_dir -Force",
-      "        Remove-Item -Path $targetPath -Force -Recurse",
-      "    }",
-      "}",
-      "New-Item \"$env:LOCALAPPDATA\\Netease\\MailMaster\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+      "Expand-7ZipArchive \"$dir\\mailmaster.7z\" \"$dir\" -Removal",
+      "Move-Item \"$dir\\MailMaster-bin\\*\" \"$dir\" -Force",
+      "Remove-Item \"$dir\\MailMaster-bin\" -Force -Recurse"
     ]
-  },
-  "uninstaller": {
-    "script": "Remove-Item \"$env:LOCALAPPDATA\\Netease\\MailMaster\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
   },
   "shortcuts": [
     [

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ForceCLI/force/releases/download/v1.2.0/force_windows_amd64.zip",
+      "url": "https://ghfast.top/https://github.com/ForceCLI/force/releases/download/v1.2.0/force_windows_amd64.zip",
       "hash": "5c464563aa01dab2ea2b4c1c328aa049754aade94c29dbf6b0cc8dec64d330ab"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.zip"
+        "url": "https://ghfast.top/https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.zip"
       }
     }
   }

@@ -15,7 +15,7 @@
       "ffmpeg-shared"
     ]
   },
-  "url": "https://github.com/mikf/gallery-dl/releases/download/v1.30.2/gallery_dl-1.30.2.tar.gz",
+  "url": "https://ghfast.top/https://github.com/mikf/gallery-dl/releases/download/v1.30.2/gallery_dl-1.30.2.tar.gz",
   "hash": "30828ca52cd69dc49f594ede00b298d2a8efe49c6055e885379a6ca58285bd09",
   "extract_dir": "gallery_dl-1.30.2",
   "installer": {
@@ -33,7 +33,7 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/mikf/gallery-dl/releases/download/v$version/gallery_dl-$version.tar.gz",
+    "url": "https://ghfast.top/https://github.com/mikf/gallery-dl/releases/download/v$version/gallery_dl-$version.tar.gz",
     "extract_dir": "gallery_dl-$version"
   }
 }

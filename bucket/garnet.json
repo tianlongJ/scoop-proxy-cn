@@ -17,11 +17,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/microsoft/garnet/releases/download/v1.0.81/win-x64-based-readytorun.zip",
+      "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v1.0.81/win-x64-based-readytorun.zip",
       "hash": "215ff9680049ff792d643cabc335dca888c346abbabb8ce3282e50b8cbe9d147"
     },
     "arm64": {
-      "url": "https://github.com/microsoft/garnet/releases/download/v1.0.81/win-arm64-based-readytorun.zip",
+      "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v1.0.81/win-arm64-based-readytorun.zip",
       "hash": "dc1d7b0fa263775df9c425b75ba9eb33ea8770bced88b1343d15dd50cc65309a"
     }
   },
@@ -38,10 +38,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/microsoft/garnet/releases/download/v$version/win-x64-based-readytorun.zip"
+        "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v$version/win-x64-based-readytorun.zip"
       },
       "arm64": {
-        "url": "https://github.com/microsoft/garnet/releases/download/v$version/win-arm64-based-readytorun.zip"
+        "url": "https://ghfast.top/https://github.com/microsoft/garnet/releases/download/v$version/win-arm64-based-readytorun.zip"
       }
     }
   }

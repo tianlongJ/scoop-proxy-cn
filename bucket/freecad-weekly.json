@@ -5,7 +5,7 @@
   "license": "LGPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds-42885-conda-Windows-x86_64-py311.7z",
+      "url": "https://ghfast.top/https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds-42885-conda-Windows-x86_64-py311.7z",
       "hash": "0c0ed49713eea11af4537b4bb51a981ffd5d8f8e90a97cc2c71907b7d2494304"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds-$version-conda-Windows-x86_64-py311.7z"
+        "url": "https://ghfast.top/https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds-$version-conda-Windows-x86_64-py311.7z"
       }
     },
     "hash": {

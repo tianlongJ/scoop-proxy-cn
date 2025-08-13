@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Pacalini/PicaComic/releases/download/v4.2.6/PicaComic-4.2.6-windows.zip",
+      "url": "https://ghfast.top/https://github.com/Pacalini/PicaComic/releases/download/v4.2.6/PicaComic-4.2.6-windows.zip",
       "hash": "cb39aa90cacac0fb286ff3cbd7077d00133e543fb15a90ba5d1264a69f4214cf"
     }
   },
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Pacalini/PicaComic/releases/download/v$version/PicaComic-$version-windows.zip"
+        "url": "https://ghfast.top/https://github.com/Pacalini/PicaComic/releases/download/v$version/PicaComic-$version-windows.zip"
       }
     }
   }

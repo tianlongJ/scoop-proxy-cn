@@ -6,7 +6,7 @@
   "depends": "dotnet-sdk",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/exelix11/SysDVR/releases/download/v6.2/SysDVR-Client-Windows-x64.7z",
+      "url": "https://ghfast.top/https://github.com/exelix11/SysDVR/releases/download/v6.2/SysDVR-Client-Windows-x64.7z",
       "hash": "e52f79519b78dd3b744a336c957015c2bdaca77e63ab5ad9701add92c1bbd27c"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/exelix11/SysDVR/releases/download/v$version/SysDVR-Client-Windows-x64.7z"
+        "url": "https://ghfast.top/https://github.com/exelix11/SysDVR/releases/download/v$version/SysDVR-Client-Windows-x64.7z"
       }
     }
   }

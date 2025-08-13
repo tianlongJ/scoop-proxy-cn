@@ -26,21 +26,21 @@ taskkill /f /im dnmultiplayer.exe /t >NUL 2>NUL
 taskkill /f /im LdVBoxHeadless.exe /t >NUL 2>NUL
 taskkill /f /im vmware-vdiskmanager.exe >NUL 2>NUL
 
-::ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+::±ê¼ÇÈí¼þÂ·¾¶¼ì²â¼üÖµ
 reg add "HKCU\SOFTWARE\leidian\ldplayer9" /f /v "DataDir" /d "%~dp0vms\" >NUL 2>NUL
 reg add "HKCU\SOFTWARE\leidian\ldplayer9" /f /v "InstallDir" /d "%~dp0\" >NUL 2>NUL
 
-::ï¿½ï¿½×°Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Úºï¿½VirtualBox
+::°²×°Ä£ÄâÆ÷ÄÚºËVirtualBox
 IF NOT EXIST "%ProgramW6432%" (
-ECHO.&ECHO ï¿½ÔµÈ£ï¿½ï¿½ï¿½ï¿½Ú°ï¿½×°Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Úºï¿½..
+ECHO.&ECHO ÉÔµÈ£¬ÕýÔÚ°²×°Ä£ÄâÆ÷ÄÚºË..
 start /wait dnrepairer.exe -RegServer
 ) ELSE (
-ECHO.&ECHO ï¿½ÔµÈ£ï¿½ï¿½ï¿½ï¿½Ú°ï¿½×°Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Úºï¿½...
+ECHO.&ECHO ÉÔµÈ£¬ÕýÔÚ°²×°Ä£ÄâÆ÷ÄÚºË...
 start /wait dnrepairer.exe -RegServer
 )
 
-::ï¿½ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+::Çå³ý°²×°²ÐÁôµÄ¿ª»úÆô¶¯Ïî
 reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "LDNews" >NUL 2>NUL
 reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "ldremote" >NUL 2>NUL
 
-ECHO.&ECHO ï¿½ï¿½ï¿½ &TIMEOUT /t 2 >NUL&EXIT
+ECHO.&ECHO Íê³É &TIMEOUT /t 2 >NUL&EXIT

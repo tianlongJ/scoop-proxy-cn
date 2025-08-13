@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/renmu123/biliLive-tools#GPL-3.0-1-ov-file"
   },
-  "url": "https://github.com/renmu123/biliLive-tools/releases/download/2.4.0/biliLive-tools-2.4.0-win-x64.zip",
+  "url": "https://ghfast.top/https://github.com/renmu123/biliLive-tools/releases/download/2.4.0/biliLive-tools-2.4.0-win-x64.zip",
   "hash": "6d7c4106d7ee1f3b93f8ad9b410e7619ced715829e2beda0e85b164132e791b5",
   "installer": {
     "script": [
@@ -29,6 +29,6 @@
     "regex": "/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/renmu123/biliLive-tools/releases/download/$version/biliLive-tools-$version-win-x64.zip"
+    "url": "https://ghfast.top/https://github.com/renmu123/biliLive-tools/releases/download/$version/biliLive-tools-$version-win-x64.zip"
   }
 }

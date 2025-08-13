@@ -2,7 +2,7 @@
   "homepage": "https://www.nikse.dk/SubtitleEdit/",
   "license": "GNU",
   "version": "4.0.13",
-  "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/4.0.13/SE4013.zip",
+  "url": "https://ghfast.top/https://github.com/SubtitleEdit/subtitleedit/releases/download/4.0.13/SE4013.zip",
   "hash": "cf32b80696666f4fc2e44d07c1cfa48e8dcae90d8c381de3472598d66ab8af6a",
   "shortcuts": [
     [
@@ -14,6 +14,6 @@
     "github": "https://github.com/SubtitleEdit/subtitleedit"
   },
   "autoupdate": {
-    "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip"
+    "url": "https://ghfast.top/https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip"
   }
 }

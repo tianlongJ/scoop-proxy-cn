@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.11.034503/yt-dlp.exe",
+      "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.11.034503/yt-dlp.exe",
       "hash": "c2fea6db305fbfd58b55d690be0b506ba384bc91995c24a278f0d26989d7d615"
     },
     "32bit": {
-      "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.11.034503/yt-dlp_x86.exe#/yt-dlp.exe",
+      "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.11.034503/yt-dlp_x86.exe#/yt-dlp.exe",
       "hash": "df29235145b5872acdd8aefaa3f8ac182b0cd57c75682d2a94e6958a36305c83"
     }
   },
@@ -27,10 +27,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/$version/yt-dlp.exe"
+        "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/$version/yt-dlp.exe"
       },
       "32bit": {
-        "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
+        "url": "https://ghfast.top/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
       }
     },
     "hash": {

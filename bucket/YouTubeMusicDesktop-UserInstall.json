@@ -3,7 +3,7 @@
   "description": "Free cross platform Desktop Player for YouTube Music",
   "homepage": "https://ytmdesktop.app/",
   "license": "",
-  "url": "https://github.com/ytmdesktop/ytmdesktop/releases/download/v2.0.9/YouTube.Music.Desktop.App-2.0.9.Setup.exe#/setup.exe",
+  "url": "https://ghfast.top/https://github.com/ytmdesktop/ytmdesktop/releases/download/v2.0.9/YouTube.Music.Desktop.App-2.0.9.Setup.exe#/setup.exe",
   "hash": "aaa81ac6fb32ac6b8e2e07b36875c5b749603f5a4c76f02dd740e6616d4845ea",
   "pre_install": [
     "$processname = \"YouTube Music Desktop App\"",
@@ -43,6 +43,6 @@
     "github": "https://github.com/ytmdesktop/ytmdesktop"
   },
   "autoupdate": {
-    "url": "https://github.com/ytmdesktop/ytmdesktop/releases/download/v$version/YouTube.Music.Desktop.App-$version.Setup.exe#/setup.exe"
+    "url": "https://ghfast.top/https://github.com/ytmdesktop/ytmdesktop/releases/download/v$version/YouTube.Music.Desktop.App-$version.Setup.exe#/setup.exe"
   }
 }

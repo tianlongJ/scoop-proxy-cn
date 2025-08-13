@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/ying-ck/fanqienovel-downloader#GPL-3.0-1-ov-file"
   },
-  "url": "https://github.com/ying-ck/fanqienovel-downloader/releases/download/v1.2.6/fanqienovel-downloader-v1.2.6.exe",
+  "url": "https://ghfast.top/https://github.com/ying-ck/fanqienovel-downloader/releases/download/v1.2.6/fanqienovel-downloader-v1.2.6.exe",
   "hash": "cc99f5b09606ddd4f2a8ceb2caa3b27976524810c90dfa590316b232cc1eb8bf",
   "pre_install": "Get-ChildItem \"$dir\\fanqienovel*.exe\" | Rename-Item -NewName 'fanqienovel.exe'",
   "shortcuts": [
@@ -22,6 +22,6 @@
     "regex": "/releases/download/v([\\d.]+)/(?<file>fanqienovel-downloader.*?\\.exe)"
   },
   "autoupdate": {
-    "url": "https://github.com/ying-ck/fanqienovel-downloader/releases/download/v$version/$matchFile"
+    "url": "https://ghfast.top/https://github.com/ying-ck/fanqienovel-downloader/releases/download/v$version/$matchFile"
   }
 }

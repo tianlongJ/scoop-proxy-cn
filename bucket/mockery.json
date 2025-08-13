@@ -5,11 +5,11 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/vektra/mockery/releases/download/v3.5.2/mockery_3.5.2_Windows_x86_64.tar.gz",
+      "url": "https://ghfast.top/https://github.com/vektra/mockery/releases/download/v3.5.2/mockery_3.5.2_Windows_x86_64.tar.gz",
       "hash": "3304d2e5c3a0be08ad3a3593858e15e70b0569a134a3bda3d2e58df7ee2c0cc4"
     },
     "arm64": {
-      "url": "https://github.com/vektra/mockery/releases/download/v3.5.2/mockery_3.5.2_Windows_arm64.tar.gz",
+      "url": "https://ghfast.top/https://github.com/vektra/mockery/releases/download/v3.5.2/mockery_3.5.2_Windows_arm64.tar.gz",
       "hash": "dc9f4e59c73dda1537407d2b773bb96268611c3f93d32543ac0e90f79adfbe76"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/vektra/mockery/releases/download/v$version/mockery_$version_Windows_x86_64.tar.gz"
+        "url": "https://ghfast.top/https://github.com/vektra/mockery/releases/download/v$version/mockery_$version_Windows_x86_64.tar.gz"
       },
       "arm64": {
-        "url": "https://github.com/vektra/mockery/releases/download/v$version/mockery_$version_Windows_arm64.tar.gz"
+        "url": "https://ghfast.top/https://github.com/vektra/mockery/releases/download/v$version/mockery_$version_Windows_arm64.tar.gz"
       }
     },
     "hash": {

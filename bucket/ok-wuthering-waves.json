@@ -5,7 +5,7 @@
   "license": "AGPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ok-oldking/ok-wuthering-waves/releases/download/v2.5.14/ok-ww-win32.zip",
+      "url": "https://ghfast.top/https://github.com/ok-oldking/ok-wuthering-waves/releases/download/v2.5.14/ok-ww-win32.zip",
       "hash": "6c63415415dcb6e2d46baf32a06a415a7053cc79cbd40008d8252fe80871a838",
       "extract_dir": "ok-ww"
     }
@@ -25,7 +25,7 @@
     "github": "https://github.com/ok-oldking/ok-wuthering-waves"
   },
   "autoupdate": {
-    "url": "https://github.com/ok-oldking/ok-wuthering-waves/releases/download/v$version/ok-ww-win32.zip",
+    "url": "https://ghfast.top/https://github.com/ok-oldking/ok-wuthering-waves/releases/download/v$version/ok-ww-win32.zip",
     "hash": {
       "mode": "extract",
       "url": "https://github.com/ok-oldking/ok-wuthering-waves/releases/expanded_assets/v$version",

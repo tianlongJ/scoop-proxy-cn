@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/jcaromiq/goku/releases/download/v2.0.0/goku-Windows-msvc-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/jcaromiq/goku/releases/download/v2.0.0/goku-Windows-msvc-x86_64.zip",
       "hash": "9ffbbbf95f0b532d0a510ff6f4d99d84268c8e4560e88d4601d1dcb7f9e9568c"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/jcaromiq/goku/releases/download/v$version/goku-Windows-msvc-x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/jcaromiq/goku/releases/download/v$version/goku-Windows-msvc-x86_64.zip"
       }
     },
     "hash": {

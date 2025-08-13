@@ -4,8 +4,8 @@
   "homepage": "https://github.com/tomasklaen/uosc",
   "license": "GPL-3.0-only",
   "url": [
-    "https://github.com/tomasklaen/uosc/releases/download/5.11.0/uosc.zip",
-    "https://github.com/tomasklaen/uosc/releases/download/5.11.0/uosc.conf"
+    "https://ghfast.top/https://github.com/tomasklaen/uosc/releases/download/5.11.0/uosc.zip",
+    "https://ghfast.top/https://github.com/tomasklaen/uosc/releases/download/5.11.0/uosc.conf"
   ],
   "hash": [
     "eecd86cc5034009ad95189f3171d876b569bada3a7dbef5e7590a4e0aed0392b",
@@ -14,8 +14,8 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://github.com/tomasklaen/uosc/releases/download/$version/uosc.zip",
-      "https://github.com/tomasklaen/uosc/releases/download/$version/uosc.conf"
+      "https://ghfast.top/https://github.com/tomasklaen/uosc/releases/download/$version/uosc.zip",
+      "https://ghfast.top/https://github.com/tomasklaen/uosc/releases/download/$version/uosc.conf"
     ]
   }
 }

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/flameshot-org/flameshot/releases/download/v13.0.1/flameshot-13.0.1-win64.zip",
+      "url": "https://ghfast.top/https://github.com/flameshot-org/flameshot/releases/download/v13.0.1/flameshot-13.0.1-win64.zip",
       "hash": "e4274d2674047cf5ba9d716e1094cad1b9a298cb67f447ece736042d1e603bb1",
       "extract_dir": "flameshot-13.0.1-win64"
     }
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/flameshot-org/flameshot/releases/download/v$version/flameshot-$version-win64.zip",
+        "url": "https://ghfast.top/https://github.com/flameshot-org/flameshot/releases/download/v$version/flameshot-$version-win64.zip",
         "extract_dir": "flameshot-$version-win64"
       }
     },

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/mikumifa/biliTickerBuy/releases/download/v2.14.0/biliTickerBuy_windows_amd64_v2.14.0.zip",
+      "url": "https://ghfast.top/https://github.com/mikumifa/biliTickerBuy/releases/download/v2.14.0/biliTickerBuy_windows_amd64_v2.14.0.zip",
       "hash": "6b50f2b9497a0f332bbf229c5826fa4773f9d3d452007cb006fe076e6431d0d8"
     }
   },
@@ -24,7 +24,7 @@
     "github": "https://github.com/mikumifa/biliTickerBuy"
   },
   "autoupdate": {
-    "url": "https://github.com/mikumifa/biliTickerBuy/releases/download/v$version/biliTickerBuy_windows_amd64_v$version.zip",
+    "url": "https://ghfast.top/https://github.com/mikumifa/biliTickerBuy/releases/download/v$version/biliTickerBuy_windows_amd64_v$version.zip",
     "hash": {
       "mode": "download"
     }

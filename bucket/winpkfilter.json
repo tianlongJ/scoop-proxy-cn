@@ -5,17 +5,17 @@
   "license": "MIT",
   "architecture": {
     "32bit": {
-      "url": "https://github.com/wiresock/ndisapi/releases/download/v3.6.1/Windows.Packet.Filter.3.6.1.1.x86.msi",
+      "url": "https://ghfast.top/https://github.com/wiresock/ndisapi/releases/download/v3.6.1/Windows.Packet.Filter.3.6.1.1.x86.msi",
       "hash": "187447dbcc5e3e8f8ff8d369659f6d2e8fbdf4c8f808af8106ba516de340c961",
       "extract_dir": "PFiles\\Windows Packet Filter"
     },
     "64bit": {
-      "url": "https://github.com/wiresock/ndisapi/releases/download/v3.6.1/Windows.Packet.Filter.3.6.1.1.x64.msi",
+      "url": "https://ghfast.top/https://github.com/wiresock/ndisapi/releases/download/v3.6.1/Windows.Packet.Filter.3.6.1.1.x64.msi",
       "hash": "cc41c7c9a7a03bd83cd39e1a1a0e5b9256a11d1a31c21809dcae8a5dd6658c27",
       "extract_dir": "PFiles64\\Windows Packet Filter"
     },
     "arm64": {
-      "url": "https://github.com/wiresock/ndisapi/releases/download/v3.6.1/Windows.Packet.Filter.3.6.1.1.ARM64.msi",
+      "url": "https://ghfast.top/https://github.com/wiresock/ndisapi/releases/download/v3.6.1/Windows.Packet.Filter.3.6.1.1.ARM64.msi",
       "hash": "034f3c9a7d8ee332faa2d3e9d1f388f4cc7a853ef70fd4266f9926436e97ae11",
       "extract_dir": "PFiles64\\Windows Packet Filter"
     }
@@ -41,13 +41,13 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://github.com/wiresock/ndisapi/releases/download/v$version/Windows.Packet.Filter.$version.1.x86.msi"
+        "url": "https://ghfast.top/https://github.com/wiresock/ndisapi/releases/download/v$version/Windows.Packet.Filter.$version.1.x86.msi"
       },
       "64bit": {
-        "url": "https://github.com/wiresock/ndisapi/releases/download/v$version/Windows.Packet.Filter.$version.1.x64.msi"
+        "url": "https://ghfast.top/https://github.com/wiresock/ndisapi/releases/download/v$version/Windows.Packet.Filter.$version.1.x64.msi"
       },
       "arm64": {
-        "url": "https://github.com/wiresock/ndisapi/releases/download/v$version/Windows.Packet.Filter.$version.1.ARM64.msi"
+        "url": "https://ghfast.top/https://github.com/wiresock/ndisapi/releases/download/v$version/Windows.Packet.Filter.$version.1.ARM64.msi"
       }
     }
   }

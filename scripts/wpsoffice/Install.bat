@@ -1,7 +1,7 @@
-@ECHO OFF&PUSHD %~DP0 &TITLE WPSOfficeï¿½Ì»ï¿½ï¿½ï¿½ï¿½ï¿½
+@ECHO OFF&PUSHD %~DP0 &TITLE WPSOfficeÂÌ»¯³ÌÐò
 color 2F
 SetLocal EnableDelayedExpansion
-ECHO Í£Ö¹ï¿½ï¿½Ø½ï¿½ï¿½ï¿½
+ECHO Í£Ö¹Ïà¹Ø½ø³Ì
 taskkill /f /im et*>NUL 2>NUL
 taskkill /f /im wpp*>NUL 2>NUL
 taskkill /f /im wps*>NUL 2>NUL

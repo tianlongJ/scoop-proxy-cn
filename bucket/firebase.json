@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/firebase/firebase-tools/releases/download/v14.12.0/firebase-tools-win.exe#/firebase.exe",
+      "url": "https://ghfast.top/https://github.com/firebase/firebase-tools/releases/download/v14.12.0/firebase-tools-win.exe#/firebase.exe",
       "hash": "93e26a1bb41c716b19e4d983df0d9723e2ba89a8a4bf22489f030a82950208f4"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/firebase/firebase-tools/releases/download/v$version/firebase-tools-win.exe#/firebase.exe"
+        "url": "https://ghfast.top/https://github.com/firebase/firebase-tools/releases/download/v$version/firebase-tools-win.exe#/firebase.exe"
       }
     }
   }

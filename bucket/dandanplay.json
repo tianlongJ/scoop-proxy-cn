@@ -5,7 +5,7 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/kaedei/dandanplay/releases/download/windows-16.0.2.808/dandanplay-x64_16.0.2.zip",
+      "url": "https://ghfast.top/https://github.com/kaedei/dandanplay/releases/download/windows-16.0.2.808/dandanplay-x64_16.0.2.zip",
       "hash": "0b5ebd0d1ab8c35d283147f728f16eda40d39802036d2ccf2713a1cfaffdac3b"
     }
   },
@@ -39,6 +39,6 @@
     "regex": ">windows-([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$matchHead.zip"
+    "url": "https://ghfast.top/https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$matchHead.zip"
   }
 }

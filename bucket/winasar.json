@@ -4,7 +4,7 @@
   "homepage": "https://github.com/flydoos/WinASAR",
   "license": "MulanPSL-2.0",
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/winasar.json",
-  "url": "https://github.com/flydoos/WinASAR/releases/download/1.6.0/WinASAR.v1.6.0.zip",
+  "url": "https://ghfast.top/https://github.com/flydoos/WinASAR/releases/download/1.6.0/WinASAR.v1.6.0.zip",
   "hash": "ccf89102371f141fcd232c77e5768e470eb0cd5f1543b7de6f1e79d0b408fb17",
   "shortcuts": [
     [
@@ -14,6 +14,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/flydoos/WinASAR/releases/download/$version/WinASAR.v$version.zip"
+    "url": "https://ghfast.top/https://github.com/flydoos/WinASAR/releases/download/$version/WinASAR.v$version.zip"
   }
 }

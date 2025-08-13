@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/adil192/saber/releases/download/v0.26.2/SaberInstaller_v0.26.2.exe",
+      "url": "https://ghfast.top/https://github.com/adil192/saber/releases/download/v0.26.2/SaberInstaller_v0.26.2.exe",
       "hash": "caca55f9bcdaf582f94c5565b7f5a58b1b03fffacf974fdd098fa0cfe89e0096"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/adil192/saber/releases/download/v$version/SaberInstaller_v$version$matchExtra.exe"
+        "url": "https://ghfast.top/https://github.com/adil192/saber/releases/download/v$version/SaberInstaller_v$version$matchExtra.exe"
       }
     }
   }

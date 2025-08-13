@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.0.3/SyncClipboard_win_x64_portable.zip",
+      "url": "https://ghfast.top/https://github.com/Jeric-X/SyncClipboard/releases/download/v3.0.3/SyncClipboard_win_x64_portable.zip",
       "hash": "d5601f1ec18fbdd2d50bdfc4866cf2d116292f18d1f9b921da8e7692d50d52e7"
     },
     "arm64": {
-      "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.0.3/SyncClipboard_win_arm64_portable.zip",
+      "url": "https://ghfast.top/https://github.com/Jeric-X/SyncClipboard/releases/download/v3.0.3/SyncClipboard_win_arm64_portable.zip",
       "hash": "17907e1d44634e64613b57e1c563851024be0be140cbf4fd53b6599017fb69c0"
     }
   },
@@ -40,10 +40,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v$version/SyncClipboard_win_x64_portable.zip"
+        "url": "https://ghfast.top/https://github.com/Jeric-X/SyncClipboard/releases/download/v$version/SyncClipboard_win_x64_portable.zip"
       },
       "arm64": {
-        "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v$version/SyncClipboard_win_arm64_portable.zip"
+        "url": "https://ghfast.top/https://github.com/Jeric-X/SyncClipboard/releases/download/v$version/SyncClipboard_win_arm64_portable.zip"
       }
     }
   }

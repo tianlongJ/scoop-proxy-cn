@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Windscribe/Desktop-App/releases/download/v2.16.14/Windscribe_2.16.14_amd64.exe",
+      "url": "https://ghfast.top/https://github.com/Windscribe/Desktop-App/releases/download/v2.16.14/Windscribe_2.16.14_amd64.exe",
       "hash": "ecf7a5fe00be0f64456690a3eacdc7bfb0b86c8b0d209664168f4a51d5baf9b5"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Windscribe/Desktop-App/releases/download/v$version/Windscribe_$version_amd64.exe"
+        "url": "https://ghfast.top/https://github.com/Windscribe/Desktop-App/releases/download/v$version/Windscribe_$version_amd64.exe"
       }
     }
   }

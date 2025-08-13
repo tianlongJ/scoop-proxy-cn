@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/akiirui/mpv-handler/releases/download/v0.3.16/mpv-handler-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/akiirui/mpv-handler/releases/download/v0.3.16/mpv-handler-windows-amd64.zip",
       "hash": "sha512:95bd9eaab0ea62246c07deea659ede1f03055679c1b4cead59b6e367ce73644f5f8bc0aaacda3bcbac3f907da8509968d444d5e8be0be69c4d4e4dc9c65db52e"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/akiirui/mpv-handler/releases/download/v$version/mpv-handler-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/akiirui/mpv-handler/releases/download/v$version/mpv-handler-windows-amd64.zip"
       }
     },
     "hash": {

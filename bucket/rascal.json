@@ -6,7 +6,7 @@
   "suggest": {
     "JRE": "java/temurin-lts-jre"
   },
-  "url": "https://github.com/usethesource/rascal/releases/download/v0.40.17/rascal-0.40.17.jar",
+  "url": "https://ghfast.top/https://github.com/usethesource/rascal/releases/download/v0.40.17/rascal-0.40.17.jar",
   "hash": "sha1:a69a0141581d5198619078f8ec03a628b881f56c",
   "pre_install": [
     "Move-Item -Path \"$dir\\rascal-*.jar\" -Destination \"$dir\\rascal.jar\""
@@ -14,9 +14,9 @@
   "bin": "rascal.jar",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/usethesource/rascal/releases/download/v$version/rascal-$version.jar",
+    "url": "https://ghfast.top/https://github.com/usethesource/rascal/releases/download/v$version/rascal-$version.jar",
     "hash": {
-      "url": "https://github.com/usethesource/rascal/releases/download/v$version/rascal-$version.jar.sha1"
+      "url": "https://ghfast.top/https://github.com/usethesource/rascal/releases/download/v$version/rascal-$version.jar.sha1"
     }
   }
 }

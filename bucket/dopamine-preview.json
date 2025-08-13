@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.39/Dopamine-3.0.0-preview.39.exe#/dl.7z",
+      "url": "https://ghfast.top/https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.39/Dopamine-3.0.0-preview.39.exe#/dl.7z",
       "hash": "f82d3e59f96098bc1dfef549e539252d40fa4c52777f9c5db9b6d142a16d83de"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/digimezzo/dopamine/releases/download/v$matchMajor-preview.$matchBuild/Dopamine-$matchMajor-preview.$matchBuild.exe#/dl.7z"
+        "url": "https://ghfast.top/https://github.com/digimezzo/dopamine/releases/download/v$matchMajor-preview.$matchBuild/Dopamine-$matchMajor-preview.$matchBuild.exe#/dl.7z"
       }
     }
   }

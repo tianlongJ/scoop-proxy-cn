@@ -4,7 +4,7 @@
   "homepage": "https://windhawk.net/",
   "license": "",
   "changelog": "https://github.com/ramensoftware/windhawk/releases",
-  "url": "https://github.com/ramensoftware/windhawk/releases/download/v1.6.1/windhawk_setup.exe#/setup.exe",
+  "url": "https://ghfast.top/https://github.com/ramensoftware/windhawk/releases/download/v1.6.1/windhawk_setup.exe#/setup.exe",
   "hash": "a37f8d5be2216f55c9c624fed32272b6baab68a67c2b8c2f5f1d5e86b889d244",
   "persist": "windhawk\\AppData",
   "installer": {
@@ -21,6 +21,6 @@
     "github": "https://github.com/ramensoftware/windhawk"
   },
   "autoupdate": {
-    "url": "https://github.com/ramensoftware/windhawk/releases/download/v$version/windhawk_setup.exe#/setup.exe"
+    "url": "https://ghfast.top/https://github.com/ramensoftware/windhawk/releases/download/v$version/windhawk_setup.exe#/setup.exe"
   }
 }

@@ -10,7 +10,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.0/2Ship-Rena-Alfa-Win64.zip",
+      "url": "https://ghfast.top/https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.0/2Ship-Rena-Alfa-Win64.zip",
       "hash": "05a9c520bd6fd7beebb563a7c391f981b9c749d16a06a1b01eae2c8605bc1d6c"
     }
   },
@@ -55,7 +55,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/$version/2Ship-$matchMajorname-$matchMinorname-Win64.zip"
+        "url": "https://ghfast.top/https://github.com/HarbourMasters/2ship2harkinian/releases/download/$version/2Ship-$matchMajorname-$matchMinorname-Win64.zip"
       }
     }
   }

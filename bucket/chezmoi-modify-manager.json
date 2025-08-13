@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.5.3/chezmoi_modify_manager-v3.5.3-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.5.3/chezmoi_modify_manager-v3.5.3-x86_64-pc-windows-msvc.zip",
       "hash": "cffd5ef72963ae97213c1c11cf0a762e10ce6873680fda591984ce0b288dbc57"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v$version/chezmoi_modify_manager-v$version-x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v$version/chezmoi_modify_manager-v$version-x86_64-pc-windows-msvc.zip"
       }
     }
   }

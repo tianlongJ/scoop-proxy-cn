@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V230/FanControl_230_net_8_0.zip",
+      "url": "https://ghfast.top/https://github.com/Rem0o/FanControl.Releases/releases/download/V230/FanControl_230_net_8_0.zip",
       "hash": "ea866ca4888878240382f0c737f144feee710a1912ae6a5a071328825d88fc43"
     }
   },
@@ -30,7 +30,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_$version_net_$matchNetver.zip"
+        "url": "https://ghfast.top/https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_$version_net_$matchNetver.zip"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "Apache-2.0|MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/alexpovel/srgn/releases/download/srgn-v0.14.0/srgn-x86_64-pc-windows-msvc.tgz",
+      "url": "https://ghfast.top/https://github.com/alexpovel/srgn/releases/download/srgn-v0.14.0/srgn-x86_64-pc-windows-msvc.tgz",
       "hash": "948bc8c343cc9635870f57f91dadd11b37014f7eaa8eeefd0b1ac8b96beb4a41"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/alexpovel/srgn/releases/download/srgn-v$version/srgn-x86_64-pc-windows-msvc.tgz"
+        "url": "https://ghfast.top/https://github.com/alexpovel/srgn/releases/download/srgn-v$version/srgn-x86_64-pc-windows-msvc.tgz"
       }
     }
   }

@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.1.4/biome-win32-x64.exe#/biome.exe",
+      "url": "https://ghfast.top/https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.1.4/biome-win32-x64.exe#/biome.exe",
       "hash": "7e38cc76b7e3683bbe50ff6c00545b90ba26931e410b2df46192d932ec0b6a86"
     },
     "arm64": {
-      "url": "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.1.4/biome-win32-arm64.exe#/biome.exe",
+      "url": "https://ghfast.top/https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.1.4/biome-win32-arm64.exe#/biome.exe",
       "hash": "b8911546fa6ad3191c11c3b5a5eab6a9dd9db138d5d28257e718a6ab40b4c4da"
     }
   },
@@ -22,10 +22,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%40$version/biome-win32-x64.exe#/biome.exe"
+        "url": "https://ghfast.top/https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%40$version/biome-win32-x64.exe#/biome.exe"
       },
       "arm64": {
-        "url": "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%40$version/biome-win32-arm64.exe#/biome.exe"
+        "url": "https://ghfast.top/https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%40$version/biome-win32-arm64.exe#/biome.exe"
       }
     }
   }

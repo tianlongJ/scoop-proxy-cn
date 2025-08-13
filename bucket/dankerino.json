@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.1.zip",
+      "url": "https://ghfast.top/https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.1.zip",
       "hash": "ecf7ed20fe864ba1e81f3e0e1c0c5e164940781617d757faad6f04a81c2af90e"
     }
   },
@@ -24,7 +24,7 @@
   "checkver": {
     "script": [
       "try {",
-      "    $null = (Invoke-WebRequest https://raw.githubusercontent.com/Mm2PL/dankerino/dankerino/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
+      "    $null = (Invoke-WebRequest https://ghfast.top/https://raw.githubusercontent.com/Mm2PL/dankerino/dankerino/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
       "    $Matches[1],",
       "    (Invoke-RestMethod 'https://api.github.com/repositories/202738310/actions/workflows/build.yml/runs?branch=dankerino&status=success').workflow_runs[0].id -join ' '",
       "}",
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
+        "url": "https://ghfast.top/https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
       }
     }
   }

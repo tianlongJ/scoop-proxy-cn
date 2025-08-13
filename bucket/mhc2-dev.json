@@ -5,7 +5,7 @@
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/dantmnf/MHC2/releases/download/ci-build/MHC2Gen.zip",
+      "url": "https://ghfast.top/https://github.com/dantmnf/MHC2/releases/download/ci-build/MHC2Gen.zip",
       "hash": "ef14feabf722fd7197b370ec76dbbbeb0297a4e6ff86e5801969e29341d160fd"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/dantmnf/MHC2/releases/download/ci-build/MHC2Gen.zip"
+        "url": "https://ghfast.top/https://github.com/dantmnf/MHC2/releases/download/ci-build/MHC2Gen.zip"
       }
     }
   }

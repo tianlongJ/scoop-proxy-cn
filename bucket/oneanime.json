@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/Predidit/oneAnime#GPL-3.0-1-ov-file"
   },
-  "url": "https://github.com/Predidit/oneAnime/releases/download/1.4.1/oneAnime_windows_1.4.1.zip",
+  "url": "https://ghfast.top/https://github.com/Predidit/oneAnime/releases/download/1.4.1/oneAnime_windows_1.4.1.zip",
   "hash": "a2275c313820fbdc047417aaa12189d6009a9866fc5be2a62bd215c7db4763c1",
   "installer": {
     "script": [
@@ -28,6 +28,6 @@
     "regex": "/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/Predidit/oneAnime/releases/download/$version/oneAnime_windows_$version.zip"
+    "url": "https://ghfast.top/https://github.com/Predidit/oneAnime/releases/download/$version/oneAnime_windows_$version.zip"
   }
 }

@@ -3,7 +3,7 @@
   "description": "Emby/Jellyfin 调用外部本地播放器，并回传播放记录。适配 Plex。",
   "homepage": "https://github.com/kjtsune/embyToLocalPlayer",
   "license": "Unknown",
-  "url": "https://github.com/kjtsune/embyToLocalPlayer/releases/download/2025.05.21/embyToLocalPlayer.zip",
+  "url": "https://ghfast.top/https://github.com/kjtsune/embyToLocalPlayer/releases/download/2025.05.21/embyToLocalPlayer.zip",
   "hash": "43336959280bdbe16bcd0574b4df837e1e513f1bcf3ba16c71d4d0366d743d29",
   "pre_install": "Set-Content \"$dir\\embyToLocalPlayer_d.bat\" 'echo 1 | %~dp0\\embyToLocalPlayer_debug.bat' -Encoding ASCII",
   "bin": [
@@ -19,6 +19,6 @@
   "persist": "embyToLocalPlayer_config.ini",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/kjtsune/embyToLocalPlayer/releases/download/$version/embyToLocalPlayer.zip"
+    "url": "https://ghfast.top/https://github.com/kjtsune/embyToLocalPlayer/releases/download/$version/embyToLocalPlayer.zip"
   }
 }

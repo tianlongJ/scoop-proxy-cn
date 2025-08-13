@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.3.13/kaf-cli_v1.3.13_windows_amd64.zip",
+      "url": "https://ghfast.top/https://github.com/ystyle/kaf-cli/releases/download/v1.3.13/kaf-cli_v1.3.13_windows_amd64.zip",
       "hash": "c42c4e8f21dda25397c2ff6a99472425dbd084e375fbed672a92da510661aff0"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ystyle/kaf-cli/releases/download/v$version/kaf-cli_v$version_windows_amd64.zip"
+        "url": "https://ghfast.top/https://github.com/ystyle/kaf-cli/releases/download/v$version/kaf-cli_v$version_windows_amd64.zip"
       }
     }
   }

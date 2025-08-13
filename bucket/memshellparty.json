@@ -10,7 +10,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://github.com/ReaJason/MemShellParty/releases/download/v1.10.0/boot-1.10.0.jar",
+  "url": "https://ghfast.top/https://github.com/ReaJason/MemShellParty/releases/download/v1.10.0/boot-1.10.0.jar",
   "hash": "ee3dbd483b5e65297c31e3555d6d33c516b301396ae08e22656de42fa4711a77",
   "pre_install": [
     "",
@@ -70,6 +70,6 @@
     "github": "https://github.com/ReaJason/MemShellParty"
   },
   "autoupdate": {
-    "url": "https://github.com/ReaJason/MemShellParty/releases/download/v$version/boot-$version.jar"
+    "url": "https://ghfast.top/https://github.com/ReaJason/MemShellParty/releases/download/v$version/boot-$version.jar"
   }
 }

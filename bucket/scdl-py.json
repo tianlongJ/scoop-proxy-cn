@@ -10,7 +10,7 @@
       "ffmpeg-nightly"
     ]
   },
-  "url": "https://github.com/flyingrub/scdl/archive/master.zip",
+  "url": "https://ghfast.top/https://github.com/flyingrub/scdl/archive/master.zip",
   "hash": "609efac0f6f9dc0e0a7f3c436506b619ee2628d9b2a64f5c03d95d452e07ff1c",
   "extract_dir": "scdl-master",
   "installer": {
@@ -32,6 +32,6 @@
     "replace": "$1$2.$3.$4"
   },
   "autoupdate": {
-    "url": "https://github.com/flyingrub/scdl/archive/master.zip"
+    "url": "https://ghfast.top/https://github.com/flyingrub/scdl/archive/master.zip"
   }
 }

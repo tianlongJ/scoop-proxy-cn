@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/chen08209/FlClash#GPL-3.0-1-ov-file"
   },
-  "url": "https://github.com/chen08209/FlClash/releases/download/v0.8.87/FlClash-0.8.87-windows-amd64.zip",
+  "url": "https://ghfast.top/https://github.com/chen08209/FlClash/releases/download/v0.8.87/FlClash-0.8.87-windows-amd64.zip",
   "hash": "12eb730f59681b3b57784e881de04e9b50c0b5df578ef7c5afe4774e446f176d",
   "installer": {
     "script": [
@@ -36,6 +36,6 @@
     "regex": "/releases/download/v([\\d.]+)/FlClash-([\\d.]+)-windows-amd64"
   },
   "autoupdate": {
-    "url": "https://github.com/chen08209/FlClash/releases/download/v$version/FlClash-$version-windows-amd64.zip"
+    "url": "https://ghfast.top/https://github.com/chen08209/FlClash/releases/download/v$version/FlClash-$version-windows-amd64.zip"
   }
 }

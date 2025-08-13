@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0 license",
     "url": "https://github.com/JoeanAmier/TikTokDownloader#GPL-3.0-1-ov-file"
   },
-  "url": "https://github.com/JoeanAmier/TikTokDownloader/releases/download/5.6/TikTokDownloader_V5.6_Windows_X64.zip",
+  "url": "https://ghfast.top/https://github.com/JoeanAmier/TikTokDownloader/releases/download/5.6/TikTokDownloader_V5.6_Windows_X64.zip",
   "hash": "2f71694eb27a44873580c216597ee0eb5bd2e1823267444230f32c9e04ec6ce6",
   "shortcuts": [
     [
@@ -20,6 +20,6 @@
     "regex": "(?<file>TikTokDownloader_V([\\d.]+)_W.*?\\.zip)"
   },
   "autoupdate": {
-    "url": "https://github.com/JoeanAmier/TikTokDownloader/releases/download/$version/$matchFile"
+    "url": "https://ghfast.top/https://github.com/JoeanAmier/TikTokDownloader/releases/download/$version/$matchFile"
   }
 }

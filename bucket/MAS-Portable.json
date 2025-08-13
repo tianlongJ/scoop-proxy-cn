@@ -7,7 +7,7 @@
   },
   "changelog": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases",
   "notes": "For more details, check Homepage: <https://massgrave.dev>",
-  "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip#/dl.7z_",
+  "url": "https://ghfast.top/https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip#/dl.7z_",
   "hash": "9ad3e18d8a58c9e39a944b1a8a1276327926f9b0d2f42cb9cc3033af8f4cb579",
   "pre_install": "Expand-7zipArchive \"$dir\\$fname\" -Switches '-p1234' -ExtractDir \"MAS_$version\" -Removal",
   "bin": [
@@ -25,6 +25,6 @@
       "regex": "(?sm)File: $basename.*?SHA-1: $sha1",
       "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/$version"
     },
-    "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip#/dl.7z_"
+    "url": "https://ghfast.top/https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip#/dl.7z_"
   }
 }

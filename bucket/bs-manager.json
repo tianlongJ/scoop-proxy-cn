@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Zagrios/bs-manager/releases/download/v1.5.3/bs-manager-1.5.3-x64.nsis.7z",
+      "url": "https://ghfast.top/https://github.com/Zagrios/bs-manager/releases/download/v1.5.3/bs-manager-1.5.3-x64.nsis.7z",
       "hash": "46ed4909b412593b819fdd42b43a9d0815c05b3aaa1b6feda5714fc369d0f921"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Zagrios/bs-manager/releases/download/v$version/bs-manager-$version-x64.nsis.7z"
+        "url": "https://ghfast.top/https://github.com/Zagrios/bs-manager/releases/download/v$version/bs-manager-$version-x64.nsis.7z"
       }
     }
   }

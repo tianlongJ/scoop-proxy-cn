@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/xaoyaoo/PyWxDump/releases/download/v3.1.45/wxdump.exe",
+      "url": "https://ghfast.top/https://github.com/xaoyaoo/PyWxDump/releases/download/v3.1.45/wxdump.exe",
       "hash": "4adec4fa84faf254897b85569bc2e3f5d77948e8d0263ab45082686ada3888b2"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/xaoyaoo/PyWxDump/releases/download/v$version/$matchFile"
+        "url": "https://ghfast.top/https://github.com/xaoyaoo/PyWxDump/releases/download/v$version/$matchFile"
       }
     }
   }

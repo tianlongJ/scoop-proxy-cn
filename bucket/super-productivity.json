@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/johannesjo/super-productivity/releases/download/v14.3.2/Super-Productivity-Setup-x64.exe#/dl.7z",
+      "url": "https://ghfast.top/https://github.com/johannesjo/super-productivity/releases/download/v14.3.2/Super-Productivity-Setup-x64.exe#/dl.7z",
       "hash": "sha512:6bf34e4b2800d06de143b958d6f68e4d56ad09081bfb8f3e06dfadc28d970f3127b4c3007cd60b49a0c92669af079deb387f1ca5486f3ece33f3e1985596c2d6",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -13,7 +13,7 @@
       ]
     },
     "arm64": {
-      "url": "https://github.com/johannesjo/super-productivity/releases/download/v14.3.2/Super-Productivity-Setup-arm64.exe#/dl.7z",
+      "url": "https://ghfast.top/https://github.com/johannesjo/super-productivity/releases/download/v14.3.2/Super-Productivity-Setup-arm64.exe#/dl.7z",
       "hash": "sha512:69c33b6b0e804b1b1126cea5a0f5e4d474503d05459e05471ec87846186bc2876758fea99aed7b008a61353dfb7102db0ef0403506938063958bd1f8eb55ab1a",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
@@ -33,10 +33,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/johannesjo/super-productivity/releases/download/v$version/Super-Productivity-Setup-x64.exe#/dl.7z"
+        "url": "https://ghfast.top/https://github.com/johannesjo/super-productivity/releases/download/v$version/Super-Productivity-Setup-x64.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https://github.com/johannesjo/super-productivity/releases/download/v$version/Super-Productivity-Setup-arm64.exe#/dl.7z"
+        "url": "https://ghfast.top/https://github.com/johannesjo/super-productivity/releases/download/v$version/Super-Productivity-Setup-arm64.exe#/dl.7z"
       }
     },
     "hash": {

@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/MrMarble/termsvg/releases/download/v0.9.3/termsvg-0.9.3-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/MrMarble/termsvg/releases/download/v0.9.3/termsvg-0.9.3-windows-amd64.zip",
       "hash": "6fb589ea649ea1645ac87be700c347248097d5b860f3f8069e36f953a4a9f0dc",
       "extract_dir": "termsvg-0.9.3-windows-amd64"
     }
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/MrMarble/termsvg/releases/download/v$version/termsvg-$version-windows-amd64.zip",
+        "url": "https://ghfast.top/https://github.com/MrMarble/termsvg/releases/download/v$version/termsvg-$version-windows-amd64.zip",
         "extract_dir": "termsvg-$version-windows-amd64"
       }
     }

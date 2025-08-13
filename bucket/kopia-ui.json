@@ -6,7 +6,7 @@
     "identifier": "Apache-2.0 license",
     "url": "https://github.com/kopia/kopia#Apache-2.0-1-ov-file"
   },
-  "url": "https://github.com/kopia/kopia/releases/download/v0.21.1/KopiaUI-Setup-0.21.1.exe#/dl.7z",
+  "url": "https://ghfast.top/https://github.com/kopia/kopia/releases/download/v0.21.1/KopiaUI-Setup-0.21.1.exe#/dl.7z",
   "hash": "ee67481765e164f7311df3b047deb5d6741d99113c19f90183b29d05c656c351",
   "pre_install": [
     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -43,7 +43,7 @@
     "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/kopia/kopia/releases/download/v$version/KopiaUI-Setup-$version.exe#/dl.7z",
+    "url": "https://ghfast.top/https://github.com/kopia/kopia/releases/download/v$version/KopiaUI-Setup-$version.exe#/dl.7z",
     "hash": {
       "url": "$baseurl/checksums.txt"
     }

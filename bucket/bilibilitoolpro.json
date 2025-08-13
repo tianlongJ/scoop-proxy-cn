@@ -8,17 +8,17 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/3.8.0/bilibili-tool-pro-v3.8.0-win-x64.zip",
+      "url": "https://ghfast.top/https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/3.8.0/bilibili-tool-pro-v3.8.0-win-x64.zip",
       "hash": "dab48fc64629549cab98d1948b8ea8ece2c40ac588aa4f5769b4c845992824cd",
       "extract_dir": "win-x64"
     },
     "32bit": {
-      "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/3.8.0/bilibili-tool-pro-v3.8.0-win-x86.zip",
+      "url": "https://ghfast.top/https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/3.8.0/bilibili-tool-pro-v3.8.0-win-x86.zip",
       "hash": "f6b17854856ec022e0671aa73bde9e5dfefb02b553f161577e2bd43bf3239c53",
       "extract_dir": "win-x86"
     },
     "arm64": {
-      "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/3.8.0/bilibili-tool-pro-v3.8.0-win-arm64.zip",
+      "url": "https://ghfast.top/https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/3.8.0/bilibili-tool-pro-v3.8.0-win-arm64.zip",
       "hash": "954c6c29aad0c3b2a91b2053d269437e159c39cccf0f0cbeaea9f3ce56d51945",
       "extract_dir": "win-arm64"
     }
@@ -57,13 +57,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-x64.zip"
+        "url": "https://ghfast.top/https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-x64.zip"
       },
       "32bit": {
-        "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-x86.zip"
+        "url": "https://ghfast.top/https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-x86.zip"
       },
       "arm64": {
-        "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-arm64.zip"
+        "url": "https://ghfast.top/https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-arm64.zip"
       }
     }
   }

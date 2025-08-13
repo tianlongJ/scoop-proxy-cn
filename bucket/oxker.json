@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/mrjackwills/oxker/releases/download/v0.10.5/oxker_windows_x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/mrjackwills/oxker/releases/download/v0.10.5/oxker_windows_x86_64.zip",
       "hash": "639347b121754dcf15183e2dde5f3577b9bfbedfd8ed2e12615c14902dc472b6"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/mrjackwills/oxker/releases/download/v$version/oxker_windows_x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/mrjackwills/oxker/releases/download/v$version/oxker_windows_x86_64.zip"
       }
     }
   }

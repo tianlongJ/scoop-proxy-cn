@@ -7,7 +7,7 @@
   "suggest": {
     "An LLVM/Clang/LLD based mingw-w64 toolchain": "Scoop-littleli/llvm-mingw"
   },
-  "url": "https://github.com/vlang/v/releases/download/weekly.2025.33/v_windows.zip",
+  "url": "https://ghfast.top/https://github.com/vlang/v/releases/download/weekly.2025.33/v_windows.zip",
   "hash": "a95f47a0bf8a07dd0ec133ee7544780eb5d0226def1b14023ad19e8463a53fc2",
   "extract_dir": "v",
   "bin": "v.exe",
@@ -16,6 +16,6 @@
     "url": "https://github.com/vlang/v/releases/latest"
   },
   "autoupdate": {
-    "url": "https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
+    "url": "https://ghfast.top/https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
   }
 }

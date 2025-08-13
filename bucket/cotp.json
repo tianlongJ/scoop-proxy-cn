@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/replydev/cotp/releases/download/v1.9.6/cotp-1.9.6-x86_64-win-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/replydev/cotp/releases/download/v1.9.6/cotp-1.9.6-x86_64-win-msvc.zip",
       "hash": "758bef7e3d97e5cf69ff5e5d349a0b7ba803ba91c18e71188fad2bfe2e223c8e",
       "extract_dir": "cotp-v1.9.6-x86_64-win-gnu"
     }
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/replydev/cotp/releases/download/v$version/cotp-$version-x86_64-win-msvc.zip",
+        "url": "https://ghfast.top/https://github.com/replydev/cotp/releases/download/v$version/cotp-$version-x86_64-win-msvc.zip",
         "extract_dir": "cotp-v$version-x86_64-win-gnu"
       }
     }

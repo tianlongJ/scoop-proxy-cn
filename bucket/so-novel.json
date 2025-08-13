@@ -6,7 +6,7 @@
     "identifier": "Apache-2.0 license",
     "url": "https://github.com/freeok/so-novel#AGPL-3.0-1-ov-file"
   },
-  "url": "https://github.com/freeok/so-novel/releases/download/v1.8.5/sonovel-windows.tar.gz",
+  "url": "https://ghfast.top/https://github.com/freeok/so-novel/releases/download/v1.8.5/sonovel-windows.tar.gz",
   "hash": "72ab4602d2a3d4e25cf6105f38da9db74ba42a44cf6431f197e6fdaab48d0ca9",
   "extract_dir": "SoNovel",
   "bin": "SoNovel.exe",
@@ -22,6 +22,6 @@
     "regex": "/releases/download/v([\\d.]+)/(?<file>sonovel-win.*?\\.tar.gz)"
   },
   "autoupdate": {
-    "url": "https://github.com/freeok/so-novel/releases/download/v$version/$matchFile"
+    "url": "https://ghfast.top/https://github.com/freeok/so-novel/releases/download/v$version/$matchFile"
   }
 }

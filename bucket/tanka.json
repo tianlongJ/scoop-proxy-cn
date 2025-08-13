@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/grafana/tanka/releases/download/v0.33.0/tk-windows-amd64.exe#/tk.exe",
+      "url": "https://ghfast.top/https://github.com/grafana/tanka/releases/download/v0.33.0/tk-windows-amd64.exe#/tk.exe",
       "hash": "38d1f25913e4cff55305cfc0f7d4a1267baa5c0b904051edabc960879112c1db"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/grafana/tanka/releases/download/v$version/tk-windows-amd64.exe#/tk.exe"
+        "url": "https://ghfast.top/https://github.com/grafana/tanka/releases/download/v$version/tk-windows-amd64.exe#/tk.exe"
       }
     }
   }

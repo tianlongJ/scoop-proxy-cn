@@ -7,7 +7,7 @@
     "64bit": {
       "url": [
         "https://archive.mozilla.org/pub/devedition/releases/142.0b9/win64/it/Firefox%20Setup%20142.0b9.exe#/dl.7z",
-        "https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+        "https://ghfast.top/https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
       ],
       "hash": [
         "sha512:c89225cb982bc52669922c5434376547bdc537b386fc9b472e43dfb0a5eb8d957aa72143bf4f2f27b3cdba564dad9c8780a89c44bc068a4c70979cb2a651c2b8",
@@ -17,7 +17,7 @@
     "32bit": {
       "url": [
         "https://archive.mozilla.org/pub/devedition/releases/142.0b9/win32/it/Firefox%20Setup%20142.0b9.exe#/dl.7z",
-        "https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+        "https://ghfast.top/https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
       ],
       "hash": [
         "sha512:7dcea31638db3684d805150cb7188659b5d2c2720b85c4b7961d5c481395d0b701e01d7f7a480d4b901885dda39903bd2db83857756921ac4668d4f8092aba89",

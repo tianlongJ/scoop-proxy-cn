@@ -5,15 +5,15 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/wakatime/wakatime-cli/releases/download/v1.130.1/wakatime-cli-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/wakatime/wakatime-cli/releases/download/v1.130.1/wakatime-cli-windows-amd64.zip",
       "hash": "2c98e678239b614cff6558f4141df490ad0c109834de7791b8309948e6484697"
     },
     "32bit": {
-      "url": "https://github.com/wakatime/wakatime-cli/releases/download/v1.130.1/wakatime-cli-windows-386.zip",
+      "url": "https://ghfast.top/https://github.com/wakatime/wakatime-cli/releases/download/v1.130.1/wakatime-cli-windows-386.zip",
       "hash": "58c0620f58ae59dfef0125e9062bc42327d901dfb87a5d14722d458b21167c75"
     },
     "arm64": {
-      "url": "https://github.com/wakatime/wakatime-cli/releases/download/v1.130.1/wakatime-cli-windows-arm64.zip",
+      "url": "https://ghfast.top/https://github.com/wakatime/wakatime-cli/releases/download/v1.130.1/wakatime-cli-windows-arm64.zip",
       "hash": "e554bbaed11181c651ecc86468d74a7270671c560e137213bcd1400579c4c016"
     }
   },
@@ -25,13 +25,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-amd64.zip"
       },
       "32bit": {
-        "url": "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-386.zip"
+        "url": "https://ghfast.top/https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-386.zip"
       },
       "arm64": {
-        "url": "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-arm64.zip"
+        "url": "https://ghfast.top/https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-arm64.zip"
       }
     },
     "hash": {

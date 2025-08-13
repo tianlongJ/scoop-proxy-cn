@@ -6,7 +6,7 @@
   "changelog": "https://github.com/microsoft/PowerToys/releases/tag/v0.75.1",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.92.1/PowerToysSetup-0.92.1-x64.exe#/setup.exe",
+      "url": "https://ghfast.top/https://github.com/microsoft/PowerToys/releases/download/v0.92.1/PowerToysSetup-0.92.1-x64.exe#/setup.exe",
       "hash": "b5b263c259a5eb40d76e564dbdd095bf878593924e61761e8eb70b8351622e62"
     }
   },
@@ -43,7 +43,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe#/setup.exe"
+        "url": "https://ghfast.top/https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe#/setup.exe"
       }
     }
   }

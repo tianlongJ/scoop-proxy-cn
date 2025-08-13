@@ -4,7 +4,7 @@
   "homepage": "https://thorium.rocks/",
   "license": "BSD-3-Clause",
   "changelog": "https://github.com/Alex313031/Thorium-Win/releases",
-  "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/Thorium_SSE3_130.0.6723.174.zip",
+  "url": "https://ghfast.top/https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/Thorium_SSE3_130.0.6723.174.zip",
   "hash": "fbe6c6d673f964ace536bda405f572cccb53e897acab8f0bb96b1f214efc6b01",
   "persist": "USER_DATA",
   "bin": "bin\\thorium.exe",
@@ -20,6 +20,6 @@
     "regex": "/Alex313031/Thorium-Win/tree/M([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
+    "url": "https://ghfast.top/https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
   }
 }

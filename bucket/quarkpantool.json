@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ihmily/QuarkPanTool/releases/download/v0.0.5/QuarkPanTool_v0.0.5.zip",
+      "url": "https://ghfast.top/https://github.com/ihmily/QuarkPanTool/releases/download/v0.0.5/QuarkPanTool_v0.0.5.zip",
       "hash": "b8c1bd53a6c206d707664ca877b5d40a540d7967afa889649d4fac8cc107680c",
       "extract_dir": "QuarkPanTool_v0.0.5"
     }
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ihmily/QuarkPanTool/releases/download/v$version/QuarkPanTool_v$version.zip",
+        "url": "https://ghfast.top/https://github.com/ihmily/QuarkPanTool/releases/download/v$version/QuarkPanTool_v$version.zip",
         "extract_dir": "QuarkPanTool_v$version"
       }
     }

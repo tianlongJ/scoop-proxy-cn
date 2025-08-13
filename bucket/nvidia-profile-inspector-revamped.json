@@ -3,7 +3,7 @@
   "description": "A more modern version of Nvidia Profile Inspector - all features supported & easy to use",
   "version": "5.2",
   "license": "MIT",
-  "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v5.2/NVPI-Revamped.zip",
+  "url": "https://ghfast.top/https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v5.2/NVPI-Revamped.zip",
   "hash": "f0fa87a5289d88ea9380bd476326edd50d17a1757c86ca1d56d5ffc9e82eaf98",
   "shortcuts": [
     [
@@ -13,6 +13,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v$version/NVPI-Revamped.zip"
+    "url": "https://ghfast.top/https://github.com/xHybred/NvidiaProfileInspectorRevamped/releases/download/v$version/NVPI-Revamped.zip"
   }
 }

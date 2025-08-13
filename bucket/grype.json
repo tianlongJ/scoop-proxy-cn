@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/anchore/grype/releases/download/v0.97.2/grype_0.97.2_windows_amd64.zip",
+      "url": "https://ghfast.top/https://github.com/anchore/grype/releases/download/v0.97.2/grype_0.97.2_windows_amd64.zip",
       "hash": "86e45c3d225bc8b8400475f9542b708d52993134252305fd264252e9886d029d"
     }
   },
@@ -14,11 +14,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/anchore/grype/releases/download/v$version/grype_$version_windows_amd64.zip"
+        "url": "https://ghfast.top/https://github.com/anchore/grype/releases/download/v$version/grype_$version_windows_amd64.zip"
       }
     },
     "hash": {
-      "url": "https://github.com/anchore/grype/releases/download/v$version/grype_$version_checksums.txt"
+      "url": "https://ghfast.top/https://github.com/anchore/grype/releases/download/v$version/grype_$version_checksums.txt"
     }
   }
 }

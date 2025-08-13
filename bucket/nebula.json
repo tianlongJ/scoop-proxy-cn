@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/slackhq/nebula/releases/download/v1.9.6/nebula-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/slackhq/nebula/releases/download/v1.9.6/nebula-windows-amd64.zip",
       "hash": "784a03670be169bbd0cc8bf3f7e857597d491a93513fcb38ed9381fd8fea3182"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/slackhq/nebula/releases/download/v$version/nebula-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/slackhq/nebula/releases/download/v$version/nebula-windows-amd64.zip"
       }
     }
   }

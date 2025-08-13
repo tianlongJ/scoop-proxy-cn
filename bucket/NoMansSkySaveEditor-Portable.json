@@ -5,8 +5,8 @@
   "license": "Unknown",
   "changelog": "https://github.com/goatfungus/NMSSaveEditor/blob/master/CHANGELOG.md",
   "url": [
-    "https://raw.githubusercontent.com/goatfungus/NMSSaveEditor/master/NMSSaveEditor.exe",
-    "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/icons/nms-save-editor.ico"
+    "https://ghfast.top/https://raw.githubusercontent.com/goatfungus/NMSSaveEditor/master/NMSSaveEditor.exe",
+    "https://ghfast.top/https://raw.githubusercontent.com/ACooper81/SharedFiles/master/icons/nms-save-editor.ico"
   ],
   "hash": [
     "d0cb1fa50458b6d678cde245f5febd87c5f28b2b0098b635420c193e17f2e0fd",
@@ -27,10 +27,10 @@
     "NMSSaveEditor.conf"
   ],
   "checkver": {
-    "url": "https://raw.githubusercontent.com/goatfungus/NMSSaveEditor/refs/heads/master/VERSION.txt",
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/goatfungus/NMSSaveEditor/refs/heads/master/VERSION.txt",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://raw.githubusercontent.com/goatfungus/NMSSaveEditor/master/NMSSaveEditor.exe"
+    "url": "https://ghfast.top/https://raw.githubusercontent.com/goatfungus/NMSSaveEditor/master/NMSSaveEditor.exe"
   }
 }

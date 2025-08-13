@@ -6,7 +6,7 @@
   "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/frpc-desktop.json",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.2/Frpc-Desktop-1.2.2.exe#/dl.7z",
+      "url": "https://ghfast.top/https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.2/Frpc-Desktop-1.2.2.exe#/dl.7z",
       "hash": "e794d3b62f7f37d20f6e95b5109714538a7e250303e3edcd72dae16ce39445b0",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/luckjiawei/frpc-desktop/releases/download/v$version/Frpc-Desktop-$version.exe#/dl.7z"
+        "url": "https://ghfast.top/https://github.com/luckjiawei/frpc-desktop/releases/download/v$version/Frpc-Desktop-$version.exe#/dl.7z"
       }
     }
   }

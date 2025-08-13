@@ -5,7 +5,7 @@
   "license": "GPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/3003h/Eros-FE/releases/download/v1.9.0+558/Eros-FE_1.9.0+558_windows.zip",
+      "url": "https://ghfast.top/https://github.com/3003h/Eros-FE/releases/download/v1.9.0+558/Eros-FE_1.9.0+558_windows.zip",
       "hash": "4efba0dd40f807d5a38b0c85adb15c531de69838cf79fd1dca494c7a2afc54bf",
       "extract_dir": "Eros-FE"
     }
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/3003h/Eros-FE/releases/download/v$version/Eros-FE_$version_windows.zip"
+        "url": "https://ghfast.top/https://github.com/3003h/Eros-FE/releases/download/v$version/Eros-FE_$version_windows.zip"
       }
     }
   }

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/pattazl/showKeyBoard/releases/download/1.49/ShowKeyBoard_Setup_v1.49_250802.exe#/dl.7z",
+      "url": "https://ghfast.top/https://github.com/pattazl/showKeyBoard/releases/download/1.49/ShowKeyBoard_Setup_v1.49_250802.exe#/dl.7z",
       "hash": "47362931a5621071160a01629d45305993a1ae2022d0acd305d1e83c1ec445cb"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/pattazl/showKeyBoard/releases/download/$version/ShowKeyBoard_Setup_v$version_$matchDate.exe#/dl.7z"
+        "url": "https://ghfast.top/https://github.com/pattazl/showKeyBoard/releases/download/$version/ShowKeyBoard_Setup_v$version_$matchDate.exe#/dl.7z"
       }
     }
   }

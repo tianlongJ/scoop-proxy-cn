@@ -1,10 +1,10 @@
 {
-  "version": "2.0.1.8",
+  "version": "1.0.9.1",
   "description": "Bing Wallpaper. Bring your desktop to life with a new background each day",
   "homepage": "https://www.microsoft.com/en-au/bing/bing-wallpaper",
   "license": "Freeware",
-  "url": "https://download.microsoft.com/download/a/b/9/ab92b51f-92ea-4d46-9d21-9446bd20eed8/Installer/2.0.1.8/Bing/W011/BingWallpaper.exe#/dl.7z",
-  "hash": "cb50e27887bc632a44c45716b58c3fa3c7d10773518df7ed0bf864689c9029c5",
+  "url": "https://download.microsoft.com/download/e/8/f/e8ff8991-04f4-4a97-9339-871b30e12eea/Installer/1.0.9.1/Bing/W022/BingWallpaper.exe#/dl.7z",
+  "hash": "602be9c42b727d51ccd9b19b37ad08e45436fbf5bcc9cab45a0fe7c3260dc7f3",
   "extract_to": "installer",
   "installer": {
     "script": [

@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/d2phap/ImageGlass/releases/download/9.3.2.520/ImageGlass_9.3.2.520_x64.zip",
+      "url": "https://ghfast.top/https://github.com/d2phap/ImageGlass/releases/download/9.3.2.520/ImageGlass_9.3.2.520_x64.zip",
       "hash": "c4e2abc2398bf07e49687502bedd808c18b8e229b4f4dfb782a2fc3e488f0ad3",
       "extract_dir": "ImageGlass_Kobe_9.3.2.520_x64"
     }
@@ -37,7 +37,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
+        "url": "https://ghfast.top/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
         "hash": {
           "url": "https://imageglass.org/download",
           "regex": "(?sm)Download portable x64 version.*?$sha1"

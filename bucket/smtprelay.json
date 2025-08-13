@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/decke/smtprelay/releases/download/v1.12.0/smtprelay-v1.12.0-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/decke/smtprelay/releases/download/v1.12.0/smtprelay-v1.12.0-windows-amd64.zip",
       "hash": "md5:8af2b47d7d3e632d199d97c21d1c6437"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/decke/smtprelay/releases/download/v$version/smtprelay-v$version-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/decke/smtprelay/releases/download/v$version/smtprelay-v$version-windows-amd64.zip"
       }
     },
     "hash": {

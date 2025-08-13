@@ -5,7 +5,7 @@
   "license": "EPL-1.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/juji-io/datalevin/releases/download/0.9.22/dtlv-0.9.22-windows-amd64.zip",
+      "url": "https://ghfast.top/https://github.com/juji-io/datalevin/releases/download/0.9.22/dtlv-0.9.22-windows-amd64.zip",
       "hash": "7452327c4d246f2d710f7fdbfed60cde8ab70e52f7411664c78c82503433d35f"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/juji-io/datalevin/releases/download/$version/dtlv-$version-windows-amd64.zip"
+        "url": "https://ghfast.top/https://github.com/juji-io/datalevin/releases/download/$version/dtlv-$version-windows-amd64.zip"
       }
     }
   }

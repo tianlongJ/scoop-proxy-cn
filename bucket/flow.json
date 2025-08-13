@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/facebook/flow/releases/download/v0.278.0/flow-win64-v0.278.0.zip",
+      "url": "https://ghfast.top/https://github.com/facebook/flow/releases/download/v0.278.0/flow-win64-v0.278.0.zip",
       "hash": "6d02bd175c6e753dd743e65a5262923044f8d6a5bc3dd9375e2458caa092d9ec"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/facebook/flow/releases/download/v$version/flow-win64-v$version.zip"
+        "url": "https://ghfast.top/https://github.com/facebook/flow/releases/download/v$version/flow-win64-v$version.zip"
       }
     }
   }

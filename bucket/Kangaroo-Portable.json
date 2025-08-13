@@ -9,7 +9,7 @@
   "changelog": "https://github.com/dbkangaroo/kangaroo/releases",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/dbkangaroo/kangaroo/releases/download/v8.0.1.801/kangaroo-multiple-8.0.1.801-x86_64.exe",
+      "url": "https://ghfast.top/https://github.com/dbkangaroo/kangaroo/releases/download/v8.0.1.801/kangaroo-multiple-8.0.1.801-x86_64.exe",
       "hash": "5da5c417b5ab789b4455e20aac92e2b280666ff6cf0040e07e7c36d272a2a5b4"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/dbkangaroo/kangaroo/releases/download/v$version/kangaroo-multiple-$version-x86_64.exe"
+        "url": "https://ghfast.top/https://github.com/dbkangaroo/kangaroo/releases/download/v$version/kangaroo-multiple-$version-x86_64.exe"
       }
     },
     "hash": {

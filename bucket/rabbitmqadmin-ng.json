@@ -10,7 +10,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.8.0/rabbitmqadmin-2.8.0-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe",
+      "url": "https://ghfast.top/https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.8.0/rabbitmqadmin-2.8.0-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe",
       "hash": "d12104bb0479cc88d043d3d85a0d87458f261fce71ea3fa22bf25393726fcebd"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v$version/rabbitmqadmin-$version-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe"
+        "url": "https://ghfast.top/https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v$version/rabbitmqadmin-$version-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe"
       }
     }
   }

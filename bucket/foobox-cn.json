@@ -6,7 +6,7 @@
     "identifier": "Freeware",
     "url": "https://www.foobar2000.org/license"
   },
-  "url": "https://github.com/dream7180/foobox-cn/releases/download/8.5.1/foobox_x64.cn.v8.5.1-1.exe",
+  "url": "https://ghfast.top/https://github.com/dream7180/foobox-cn/releases/download/8.5.1/foobox_x64.cn.v8.5.1-1.exe",
   "hash": "0b0a8e07a0fe92c4049ae7a613277e180fde1f220347be98e6ede5096942c045",
   "shortcuts": [
     [
@@ -24,6 +24,6 @@
     "regex": "download/(?<version>([\\d.]+?))/(?<a>(.+?))\""
   },
   "autoupdate": {
-    "url": "https://github.com/dream7180/foobox-cn/releases/download/$version/$matchA"
+    "url": "https://ghfast.top/https://github.com/dream7180/foobox-cn/releases/download/$version/$matchA"
   }
 }

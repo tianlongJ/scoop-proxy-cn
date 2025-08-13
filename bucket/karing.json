@@ -5,7 +5,7 @@
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/KaringX/karing/releases/download/v1.2.1.827/karing_1.2.1.827_windows_x64.zip",
+      "url": "https://ghfast.top/https://github.com/KaringX/karing/releases/download/v1.2.1.827/karing_1.2.1.827_windows_x64.zip",
       "hash": "accdf0bae0588602384d52310189e24c5769faebde5a7dad1e8161c66c2d92e2"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/KaringX/karing/releases/download/v$version/karing_$version_windows_x64.zip"
+        "url": "https://ghfast.top/https://github.com/KaringX/karing/releases/download/v$version/karing_$version_windows_x64.zip"
       }
     }
   }

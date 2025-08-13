@@ -5,7 +5,7 @@
   "license": "GPLv3",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/mmatyas/pegasus-frontend/releases/download/continuous/pegasus-fe_alpha16-89-g66433328_win-mingw-static.zip",
+      "url": "https://ghfast.top/https://github.com/mmatyas/pegasus-frontend/releases/download/continuous/pegasus-fe_alpha16-89-g66433328_win-mingw-static.zip",
       "hash": "8b9f5e7152ae69e83e26b84a33bd65ef9ca2b5193b84acf701c31cfe5c4e30fd"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/mmatyas/pegasus-frontend/releases/download/continuous/pegasus-fe_alpha$matchMajor-$matchMinor-$matchCommit_win-mingw-static.zip"
+        "url": "https://ghfast.top/https://github.com/mmatyas/pegasus-frontend/releases/download/continuous/pegasus-fe_alpha$matchMajor-$matchMinor-$matchCommit_win-mingw-static.zip"
       }
     }
   }

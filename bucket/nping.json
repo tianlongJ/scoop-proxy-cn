@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/hanshuaikang/Nping/releases/download/v0.4.0/nping-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/hanshuaikang/Nping/releases/download/v0.4.0/nping-x86_64-pc-windows-msvc.zip",
       "hash": "b66c8e95811f80954bb16b205e21ab6d71d184eb20fd8b67dff878e0f4252c38"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/hanshuaikang/Nping/releases/download/v$version/nping-x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/hanshuaikang/Nping/releases/download/v$version/nping-x86_64-pc-windows-msvc.zip"
       }
     }
   }

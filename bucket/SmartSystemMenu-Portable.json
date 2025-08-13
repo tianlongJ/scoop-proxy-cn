@@ -4,7 +4,7 @@
   "homepage": "https://github.com/AlexanderPro/SmartSystemMenu",
   "license": "MIT",
   "changelog": "https://github.com/AlexanderPro/SmartSystemMenu/releases",
-  "url": "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v2.31.0/SmartSystemMenu_v2.31.0.zip",
+  "url": "https://ghfast.top/https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v2.31.0/SmartSystemMenu_v2.31.0.zip",
   "hash": "208012e702efc2c855ae951895ce959855f335eb92355ba93bf81b03fbeda304",
   "shortcuts": [
     [
@@ -15,6 +15,6 @@
   "persist": "SmartSystemMenu.xml",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v$version/SmartSystemMenu_v$version.zip"
+    "url": "https://ghfast.top/https://github.com/AlexanderPro/SmartSystemMenu/releases/download/v$version/SmartSystemMenu_v$version.zip"
   }
 }

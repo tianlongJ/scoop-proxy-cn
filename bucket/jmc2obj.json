@@ -3,7 +3,7 @@
   "description": "A Minecraft to .Obj exporter written in Java.",
   "version": "127",
   "license": "GPL-2.0-only",
-  "url": "https://github.com/jmc2obj/j-mc-2-obj/releases/download/127/jMc2Obj-127.jar",
+  "url": "https://ghfast.top/https://github.com/jmc2obj/j-mc-2-obj/releases/download/127/jMc2Obj-127.jar",
   "hash": "23c103bbecf3ca6637d91dc60becdc129019046faa689b2c514c87dc70f86fc5",
   "checkver": {
     "github": "https://github.com/jmc2obj/j-mc-2-obj",
@@ -11,6 +11,6 @@
   },
   "pre_install": "Rename-Item @(Get-ChildItem $dir\\jMc2Obj-*.jar)[0] $dir\\jMc2Obj.jar",
   "autoupdate": {
-    "url": "https://github.com/jmc2obj/j-mc-2-obj/releases/download/$version/jMc2Obj-$version.jar"
+    "url": "https://ghfast.top/https://github.com/jmc2obj/j-mc-2-obj/releases/download/$version/jMc2Obj-$version.jar"
   }
 }

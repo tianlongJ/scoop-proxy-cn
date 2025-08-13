@@ -10,7 +10,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://github.com/abc123info/Struts2VulsScanTools/releases/download/v19.68/Struts2_19.68.jar",
+  "url": "https://ghfast.top/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v19.68/Struts2_19.68.jar",
   "hash": "7833478431d17b5083747dd83b982d1cd2c5021fab6f7017276c854432b22984",
   "pre_install": [
     "Set-Content \"$dir\\struts2vulsscantools.bat\" '@pushd %~dp0",
@@ -26,7 +26,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/abc123info/Struts2VulsScanTools/releases/download/v$version/Struts2_$version.jar",
+    "url": "https://ghfast.top/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v$version/Struts2_$version.jar",
     "pre_install": [
       "Set-Content \"$dir\\struts2vulsscantools.bat\" '@pushd %~dp0",
       "@start javaw.exe -jar \"Struts2_$version.jar\" %*",

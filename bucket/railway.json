@@ -5,15 +5,15 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v4.6.1/railway-v4.6.1-x86_64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/railwayapp/cli/releases/download/v4.6.1/railway-v4.6.1-x86_64-pc-windows-msvc.zip",
       "hash": "aafbec447bacc5f6859ae1b7cdaead2902ac210b662c7c647f96d2c21a2f6caf"
     },
     "32bit": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v4.6.1/railway-v4.6.1-i686-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/railwayapp/cli/releases/download/v4.6.1/railway-v4.6.1-i686-pc-windows-msvc.zip",
       "hash": "452eaf655846c487a5d09e134c3288247eb3a3651663d9a82f4be80380405e6c"
     },
     "arm64": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v4.6.1/railway-v4.6.1-aarch64-pc-windows-msvc.zip",
+      "url": "https://ghfast.top/https://github.com/railwayapp/cli/releases/download/v4.6.1/railway-v4.6.1-aarch64-pc-windows-msvc.zip",
       "hash": "b755fbe457d8e193681d4513deac21875d99e2fe9d63083c85b85c8533356b51"
     }
   },
@@ -22,13 +22,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/railwayapp/cli/releases/download/v$version/railway-v$version-x86_64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/railwayapp/cli/releases/download/v$version/railway-v$version-x86_64-pc-windows-msvc.zip"
       },
       "32bit": {
-        "url": "https://github.com/railwayapp/cli/releases/download/v$version/railway-v$version-i686-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/railwayapp/cli/releases/download/v$version/railway-v$version-i686-pc-windows-msvc.zip"
       },
       "arm64": {
-        "url": "https://github.com/railwayapp/cli/releases/download/v$version/railway-v$version-aarch64-pc-windows-msvc.zip"
+        "url": "https://ghfast.top/https://github.com/railwayapp/cli/releases/download/v$version/railway-v$version-aarch64-pc-windows-msvc.zip"
       }
     }
   }

@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/OpenLoco/OpenLoco/raw/master/LICENSE"
   },
-  "url": "https://github.com/OpenLoco/OpenLoco/releases/download/v25.07/OpenLoco-v25.07-win32.zip",
+  "url": "https://ghfast.top/https://github.com/OpenLoco/OpenLoco/releases/download/v25.07/OpenLoco-v25.07-win32.zip",
   "hash": "83d1498ef42a961c87f5cf65cebcfcd5ef8c5c947a3591152e945294ca70888b",
   "bin": "OpenLoco.exe",
   "shortcuts": [
@@ -17,6 +17,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/OpenLoco/OpenLoco/releases/download/v$version/OpenLoco-v$version-win32.zip"
+    "url": "https://ghfast.top/https://github.com/OpenLoco/OpenLoco/releases/download/v$version/OpenLoco-v$version-win32.zip"
   }
 }

@@ -7,8 +7,8 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-client_windows.exe",
-        "https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-server_windows.exe"
+        "https://ghfast.top/https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-client_windows.exe",
+        "https://ghfast.top/https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-server_windows.exe"
       ],
       "hash": [
         "dda342de0a7e948f135ed1d54e1e8149dcc0427fabd6e6e10fe6d5c0d3a65c91",
@@ -31,8 +31,8 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows.exe",
-          "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows.exe"
+          "https://ghfast.top/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows.exe",
+          "https://ghfast.top/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows.exe"
         ]
       }
     }

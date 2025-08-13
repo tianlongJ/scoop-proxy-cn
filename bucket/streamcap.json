@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ihmily/StreamCap/releases/download/v1.0.1/StreamCap_1.0.1_Win_x64.zip",
+      "url": "https://ghfast.top/https://github.com/ihmily/StreamCap/releases/download/v1.0.1/StreamCap_1.0.1_Win_x64.zip",
       "hash": "7ccc69cfdb48f9f1fc45a4fb8b4c243c402ce14a1456ca85b59631520ef37d62",
       "extract_dir": "StreamCap_1.0.1_Win_x64"
     }
@@ -43,7 +43,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ihmily/StreamCap/releases/download/v$version/StreamCap_$version_Win_x64.zip",
+        "url": "https://ghfast.top/https://github.com/ihmily/StreamCap/releases/download/v$version/StreamCap_$version_Win_x64.zip",
         "extract_dir": "StreamCap_$version_Win_x64"
       }
     }

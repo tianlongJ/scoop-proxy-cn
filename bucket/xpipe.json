@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/xpipe-io/xpipe/releases/download/17.4/xpipe-portable-windows-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/xpipe-io/xpipe/releases/download/17.4/xpipe-portable-windows-x86_64.zip",
       "hash": "77c96a68c8e9ef81bc0d9c5f529c44b588b520be6891a62552a71fe719246395",
       "extract_dir": "xpipe-17.4"
     }
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/xpipe-io/xpipe/releases/download/$version/xpipe-portable-windows-x86_64.zip",
+        "url": "https://ghfast.top/https://github.com/xpipe-io/xpipe/releases/download/$version/xpipe-portable-windows-x86_64.zip",
         "extract_dir": "xpipe-$version"
       }
     },

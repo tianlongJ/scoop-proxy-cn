@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0-only",
     "url": "https://github.com/2dust/v2rayN/raw/master/LICENSE"
   },
-  "url": "https://github.com/2dust/v2rayN/releases/download/7.13.8/v2rayN-windows-64-SelfContained.zip",
+  "url": "https://ghfast.top/https://github.com/2dust/v2rayN/releases/download/7.13.8/v2rayN-windows-64-SelfContained.zip",
   "hash": "e83edc0c0f7406a1c1722cda8cdeff5ce90f70aebd2d101dafc33f6f3f89ce18",
   "extract_dir": "v2rayN-windows-64-SelfContained",
   "pre_install": [
@@ -42,6 +42,6 @@
     "jsonpath": "$[0].tag_name"
   },
   "autoupdate": {
-    "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-SelfContained.zip"
+    "url": "https://ghfast.top/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-SelfContained.zip"
   }
 }

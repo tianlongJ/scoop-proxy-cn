@@ -3,7 +3,7 @@
   "description": "Bitwarden. Password management solutions for individuals, teams, and business organizations",
   "homepage": "https://bitwarden.com",
   "license": "GPL-3.0-or-later",
-  "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2025.7.0/Bitwarden-Portable-2025.7.0.exe",
+  "url": "https://ghfast.top/https://github.com/bitwarden/clients/releases/download/desktop-v2025.7.0/Bitwarden-Portable-2025.7.0.exe",
   "hash": "40594a0fe48701519ede148c874534196316fa5d3423436defdeb1f9f223ad2b",
   "pre_install": "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
   "bin": "Bitwarden.exe",
@@ -25,6 +25,6 @@
     "regex": "Desktop v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
+    "url": "https://ghfast.top/https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
   }
 }

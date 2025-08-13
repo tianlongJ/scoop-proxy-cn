@@ -5,7 +5,7 @@
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/guygodin/VirtualDesktop/releases/download/v1.33.4/VirtualDesktop.Streamer.Setup.exe",
+      "url": "https://ghfast.top/https://github.com/guygodin/VirtualDesktop/releases/download/v1.33.4/VirtualDesktop.Streamer.Setup.exe",
       "hash": "2cfa4c16d4a7dc8c9d1402ce0d53cf906240faf933397babddd32479e5634f84"
     }
   },
@@ -16,7 +16,7 @@
     "github": "https://github.com/guygodin/VirtualDesktop"
   },
   "autoupdate": {
-    "url": "https://github.com/guygodin/VirtualDesktop/releases/download/v$version/VirtualDesktop.Streamer.Setup.exe",
+    "url": "https://ghfast.top/https://github.com/guygodin/VirtualDesktop/releases/download/v$version/VirtualDesktop.Streamer.Setup.exe",
     "hash": {
       "mode": "download"
     }

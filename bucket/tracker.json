@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ShenMian/tracker/releases/download/v0.1.8/tracker-windows-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/ShenMian/tracker/releases/download/v0.1.8/tracker-windows-x86_64.zip",
       "hash": "59346cc996c697e49a46d0adf4fd3a5191e1645e9e846bf585df0f5bc503f61f"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ShenMian/tracker/releases/download/v$version/tracker-windows-x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/ShenMian/tracker/releases/download/v$version/tracker-windows-x86_64.zip"
       }
     }
   }

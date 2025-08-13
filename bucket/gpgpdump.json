@@ -5,7 +5,7 @@
   "version": "0.15.8",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v0.15.8/gpgpdump_0.15.8_Windows_64bit.zip",
+      "url": "https://ghfast.top/https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v0.15.8/gpgpdump_0.15.8_Windows_64bit.zip",
       "hash": "ec356eecf9b9415f7869117a8ed35e20f39263342bab3b667b14357dd441a260"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v$version/gpgpdump_$version_Windows_64bit.zip"
+        "url": "https://ghfast.top/https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v$version/gpgpdump_$version_Windows_64bit.zip"
       }
     },
     "hash": {

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.6.6/go-musicfox_4.6.6_windows_amd64.zip",
+      "url": "https://ghfast.top/https://github.com/go-musicfox/go-musicfox/releases/download/v4.6.6/go-musicfox_4.6.6_windows_amd64.zip",
       "hash": "c89287fb45cdee215a3e2c3098b1d8204be2d53eb9a747ebf0c166a1806abbc5",
       "extract_dir": "go-musicfox_4.6.6_windows_amd64"
     }
@@ -41,7 +41,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v$version/go-musicfox_$version_windows_amd64.zip",
+        "url": "https://ghfast.top/https://github.com/go-musicfox/go-musicfox/releases/download/v$version/go-musicfox_$version_windows_amd64.zip",
         "extract_dir": "go-musicfox_$version_windows_amd64"
       }
     }

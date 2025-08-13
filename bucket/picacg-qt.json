@@ -5,7 +5,7 @@
   "license": "LGPLv3",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/tonquer/picacg-qt/releases/download/v1.5.2/bika_v1.5.2_windows_x64.7z",
+      "url": "https://ghfast.top/https://github.com/tonquer/picacg-qt/releases/download/v1.5.2/bika_v1.5.2_windows_x64.7z",
       "hash": "1e6809d927b0e939c6f6909241cf3b604b2ed39b3cb0f9e12c27cbd78979fc0f",
       "extract_dir": "bika_v1.5.2_windows_x64\\bika"
     }
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/tonquer/picacg-qt/releases/download/v$version/bika_v$version_windows_x64.7z",
+        "url": "https://ghfast.top/https://github.com/tonquer/picacg-qt/releases/download/v$version/bika_v$version_windows_x64.7z",
         "extract_dir": "bika_v$version_windows_x64\\bika"
       }
     }

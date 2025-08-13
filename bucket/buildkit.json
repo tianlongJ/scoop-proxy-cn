@@ -5,7 +5,7 @@
   "version": "0.23.2",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/moby/buildkit/releases/download/v0.23.2/buildkit-v0.23.2.windows-amd64.tar.gz",
+      "url": "https://ghfast.top/https://github.com/moby/buildkit/releases/download/v0.23.2/buildkit-v0.23.2.windows-amd64.tar.gz",
       "hash": "26e064095fd1554e9e0585ce8dfc5a95d70895b8ff5d85c25eb62e94cb2fa6d6"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/moby/buildkit/releases/download/v$version/buildkit-v$version.windows-amd64.tar.gz"
+        "url": "https://ghfast.top/https://github.com/moby/buildkit/releases/download/v$version/buildkit-v$version.windows-amd64.tar.gz"
       }
     }
   }
