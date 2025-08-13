@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/Feel-ix-343/markdown-oxide/releases/download/v0.25.6/markdown-oxide-v0.25.6-x86_64-pc-windows-gnu.zip",
+      "url": "https://github.com/Feel-ix-343/markdown-oxide/releases/download/v0.25.6/markdown-oxide-v0.25.6-x86_64-pc-windows-gnu.zip",
       "hash": "f67a6a4ea4cd1309a6aa41a48c5baacd813d6844d97435f6a7da16a8c5ac1f7f",
       "extract_dir": "markdown-oxide-v0.25.6-x86_64-pc-windows-gnu"
     }
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/Feel-ix-343/markdown-oxide/releases/download/v$version/markdown-oxide-v$version-x86_64-pc-windows-gnu.zip",
+        "url": "https://github.com/Feel-ix-343/markdown-oxide/releases/download/v$version/markdown-oxide-v$version-x86_64-pc-windows-gnu.zip",
         "extract_dir": "markdown-oxide-v$version-x86_64-pc-windows-gnu"
       }
     }

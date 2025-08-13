@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-win64.zip",
+      "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-win64.zip",
       "hash": "8b8f13f95a121c6ecb5bf4da8ef749fa60d1f207e095fd3f94ad85af9e7223ed"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-win64.zip",
+      "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-win64.zip",
       "hash": "8b8f13f95a121c6ecb5bf4da8ef749fa60d1f207e095fd3f94ad85af9e7223ed"
     }
   },
@@ -23,10 +23,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-$matchMicro-win64.zip"
+        "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-$matchMicro-win64.zip"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/zyedidia/micro/releases/download/nightly/micro-$matchMicro-win64.zip"
+        "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-$matchMicro-win64.zip"
       }
     },
     "extract_dir": "micro-$matchMicro"

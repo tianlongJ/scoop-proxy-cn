@@ -6,17 +6,17 @@
   "notes": "To start syncthing automatically, use a method described at https://docs.syncthing.net/users/autostart.html#windows",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/syncthing/syncthing/releases/download/v2.0.0/syncthing-windows-amd64-v2.0.0.zip",
+      "url": "https://github.com/syncthing/syncthing/releases/download/v2.0.0/syncthing-windows-amd64-v2.0.0.zip",
       "hash": "431db53c30e9e0d721a8b25251cd0948bb59298f01bb652ed72a74f3a382e99f",
       "extract_dir": "syncthing-windows-amd64-v2.0.0"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/syncthing/syncthing/releases/download/v2.0.0/syncthing-windows-386-v2.0.0.zip",
+      "url": "https://github.com/syncthing/syncthing/releases/download/v2.0.0/syncthing-windows-386-v2.0.0.zip",
       "hash": "6a3eec81b64d1d85afcefeeba23da86b3d33c4af571f18774141802f740597f1",
       "extract_dir": "syncthing-windows-386-v2.0.0"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/syncthing/syncthing/releases/download/v2.0.0/syncthing-windows-arm64-v2.0.0.zip",
+      "url": "https://github.com/syncthing/syncthing/releases/download/v2.0.0/syncthing-windows-arm64-v2.0.0.zip",
       "hash": "93c94aa4ea3fb3e4d43afdffa505f899abe9deb8532ad7fb8c24acb16b64de83",
       "extract_dir": "syncthing-windows-arm64-v2.0.0"
     }
@@ -42,15 +42,15 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-amd64-v$version.zip",
+        "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-amd64-v$version.zip",
         "extract_dir": "syncthing-windows-amd64-v$version"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-386-v$version.zip",
+        "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-386-v$version.zip",
         "extract_dir": "syncthing-windows-386-v$version"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-arm64-v$version.zip",
+        "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-arm64-v$version.zip",
         "extract_dir": "syncthing-windows-arm64-v$version"
       }
     },

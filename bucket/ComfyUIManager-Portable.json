@@ -4,7 +4,7 @@
   "homepage": "https://github.com/ltdrdata/ComfyUI-Manager",
   "license": "GPL-3.0",
   "depends": "ComfyUI-Portable",
-  "url": "https://ghfast.top/https://github.com/ltdrdata/ComfyUI-Manager/archive/refs/heads/main.zip",
+  "url": "https://github.com/ltdrdata/ComfyUI-Manager/archive/refs/heads/main.zip",
   "hash": "c82aa6395a70dc2bcf8dec3971bfc5c20fa733e5adbcb56f147be06d2cd905c4",
   "installer": {
     "script": [
@@ -30,6 +30,6 @@
     "jsonpath": "$[0].sha"
   },
   "autoupdate": {
-    "url": "https://ghfast.top/https://github.com/ltdrdata/ComfyUI-Manager/archive/refs/heads/main.zip"
+    "url": "https://github.com/ltdrdata/ComfyUI-Manager/archive/refs/heads/main.zip"
   }
 }

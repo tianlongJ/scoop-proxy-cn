@@ -5,11 +5,11 @@
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.1-x86_64.exe",
+      "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.1-x86_64.exe",
       "hash": "fc1dd9299975978d339ab15121653234e8c4705d595ea1b7687b95bd8f43d946"
     },
     "32bit": {
-      "url": "https://ghfast.top/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.1-x86-sciter.exe",
+      "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.1-x86-sciter.exe",
       "hash": "7ab4f77fa9756a9949ea603de35388bc24436b85cc4efced2ca4ff0ca546f26e"
     }
   },
@@ -36,10 +36,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86_64.exe"
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86_64.exe"
       },
       "32bit": {
-        "url": "https://ghfast.top/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86-sciter.exe"
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86-sciter.exe"
       }
     }
   }

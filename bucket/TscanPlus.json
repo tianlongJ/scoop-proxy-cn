@@ -4,11 +4,11 @@
   "homepage": "https://github.com/TideSec/TscanPlus",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/TideSec/TscanPlus/releases/download/v2.9.6/TscanPlus_Win_Amd64_v2.9.6.zip",
+      "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.9.6/TscanPlus_Win_Amd64_v2.9.6.zip",
       "hash": "65ec563836bf9f9a271097eab69bbae4353f2a02b1d1d2dcf4d36b6a3013e058"
     },
     "arm64": {
-      "url": "https://ghfast.top/https://github.com/TideSec/TscanPlus/releases/download/v2.9.6/TscanPlus_Win_Arm64_v2.9.6.zip",
+      "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.9.6/TscanPlus_Win_Arm64_v2.9.6.zip",
       "hash": "3008e2ee6086b71fdd956f2bcc81d1b0f5bb20e83420942b817a3fa6606ae9af"
     }
   },
@@ -17,10 +17,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
+        "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
       },
       "arm64": {
-        "url": "https://ghfast.top/https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip"
+        "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip"
       }
     }
   }

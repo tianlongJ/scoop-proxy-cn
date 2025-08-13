@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/ggml-org/llama.cpp/releases/download/b6140/llama-b6140-bin-win-vulkan-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6140/llama-b6140-bin-win-vulkan-x64.zip",
       "hash": "97b99448fe0023cf62ca2617413996389dd5f139d429d438d3fc136a74c3e31b"
     }
   },
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-vulkan-x64.zip"
+        "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-vulkan-x64.zip"
       }
     }
   }

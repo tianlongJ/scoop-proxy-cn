@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghfast.top/https://github.com/electerm/electerm/releases/download/v1.100.50/electerm-1.100.50-win-x64.tar.gz",
+      "url": "https://github.com/electerm/electerm/releases/download/v1.100.50/electerm-1.100.50-win-x64.tar.gz",
       "hash": "c5918b36915d37deefb4331fc63f9ab62a54527e2a7add179287c1d534618180",
       "extract_dir": "electerm-1.100.50-win-x64"
     }
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghfast.top/https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
+        "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
         "extract_dir": "electerm-$version-win-x64"
       }
     }
