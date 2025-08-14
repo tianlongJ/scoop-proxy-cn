@@ -6,7 +6,7 @@
   "changelog": "https://github.com/builtbybel/Flyby11/releases",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/builtbybel/Flyby11/releases/download/1.1.131/FlyoobeApp.zip",
+      "url": "https://ghfast.top/https://github.com/builtbybel/Flyby11/releases/download/1.1.131/FlyoobeApp.zip",
       "hash": "1a82e98f04a0fcaba8c8062a40f3db4b6538079e7f6d331cfee8b39b0038b3ef"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/builtbybel/Flyby11/releases/download/$version/FlyoobeApp.zip"
+        "url": "https://ghfast.top/https://github.com/builtbybel/Flyby11/releases/download/$version/FlyoobeApp.zip"
       }
     }
   }

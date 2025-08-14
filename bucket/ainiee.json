@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/NEKOparapa/AiNiee/releases/download/AiNiee7.0.2/AiNiee7.0.2.zip",
+      "url": "https://ghfast.top/https://github.com/NEKOparapa/AiNiee/releases/download/AiNiee7.0.2/AiNiee7.0.2.zip",
       "hash": "1fee3b34157049e91eebf8461d47043a2e92767ceaa8924ecf8ba51e9d4ed75e"
     }
   },
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/NEKOparapa/AiNiee/releases/download/AiNiee$version/AiNiee$version.zip"
+        "url": "https://ghfast.top/https://github.com/NEKOparapa/AiNiee/releases/download/AiNiee$version/AiNiee$version.zip"
       }
     }
   }

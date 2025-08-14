@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/sst/opencode/releases/download/v0.4.45/opencode-windows-x64.zip",
+      "url": "https://ghfast.top/https://github.com/sst/opencode/releases/download/v0.4.45/opencode-windows-x64.zip",
       "hash": "4b041c1bbc0d9d919b216bf0ce77f5017a5da74f5839aec2dbf10d7bead628d2"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/sst/opencode/releases/download/v$version/opencode-windows-x64.zip"
+        "url": "https://ghfast.top/https://github.com/sst/opencode/releases/download/v$version/opencode-windows-x64.zip"
       }
     }
   }

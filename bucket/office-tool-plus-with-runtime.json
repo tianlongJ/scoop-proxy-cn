@@ -5,11 +5,11 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.25.54.0/Office_Tool_with_runtime_v10.25.54.0_x64.7z",
+      "url": "https://ghfast.top/https://github.com/YerongAI/Office-Tool/releases/download/v10.25.54.0/Office_Tool_with_runtime_v10.25.54.0_x64.7z",
       "hash": "755f9bad03c2601abb313f35c3af00b65aafedf8e43331cd673efa0e4051cfef"
     },
     "arm64": {
-      "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.25.54.0/Office_Tool_with_runtime_v10.25.54.0_arm64.7z",
+      "url": "https://ghfast.top/https://github.com/YerongAI/Office-Tool/releases/download/v10.25.54.0/Office_Tool_with_runtime_v10.25.54.0_arm64.7z",
       "hash": "0afbf1b87b17b9c9413378512aa538181631bd2b6ff68021dce073fa4838e968"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_x64.7z",
+        "url": "https://ghfast.top/https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_x64.7z",
         "hash": {
           "url": "https://github.com/YerongAI/Office-Tool/releases/tag/v$version",
           "mode": "extract",
@@ -33,7 +33,7 @@
         }
       },
       "arm64": {
-        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_arm64.7z",
+        "url": "https://ghfast.top/https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_arm64.7z",
         "hash": {
           "url": "https://github.com/YerongAI/Office-Tool/releases/tag/v$version",
           "mode": "extract",

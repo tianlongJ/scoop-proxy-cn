@@ -16,7 +16,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.105/pcsx2-v2.5.105-windows-x64-Qt.7z",
+      "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v2.5.105/pcsx2-v2.5.105-windows-x64-Qt.7z",
       "hash": "ce5e202a76193a8c0bd5eec381b019830bac5d76cf2c73906b99a8d4c11a94f7"
     }
   },
@@ -69,7 +69,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
+        "url": "https://ghfast.top/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
       }
     }
   }

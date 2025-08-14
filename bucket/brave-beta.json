@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/brave/brave-browser/releases/download/v1.82.144/brave-v1.82.144-win32-x64.zip",
+      "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v1.82.144/brave-v1.82.144-win32-x64.zip",
       "hash": "2800680ce21704aca1edeb9f72f1639d62da1be4386b5c746f044e94b98fc864"
     }
   },
@@ -31,7 +31,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
+        "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "arm64": {
-      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6152/llama-b6152-bin-win-opencl-adreno-arm64.zip",
+      "url": "https://ghfast.top/https://github.com/ggml-org/llama.cpp/releases/download/b6152/llama-b6152-bin-win-opencl-adreno-arm64.zip",
       "hash": "719b97ae2477adaa7fb1596a0d1f182ce3658705b52bc35298eefe0869301805"
     }
   },
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "arm64": {
-        "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-opencl-adreno-arm64.zip"
+        "url": "https://ghfast.top/https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-opencl-adreno-arm64.zip"
       }
     }
   }

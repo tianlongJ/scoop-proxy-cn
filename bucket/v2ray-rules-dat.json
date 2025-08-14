@@ -8,8 +8,8 @@
   },
   "depends": "v2ray",
   "url": [
-    "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202508140036/geoip.dat",
-    "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202508140036/geosite.dat"
+    "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202508140036/geoip.dat",
+    "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202508140036/geosite.dat"
   ],
   "hash": [
     "f490d394f51f91e4befea1abd68a7b9574fe1bffc89d25bc26bcf90fc481d47e",
@@ -39,8 +39,8 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geoip.dat",
-      "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geosite.dat"
+      "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geoip.dat",
+      "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/geosite.dat"
     ],
     "hash": {
       "url": "$url.sha256sum"

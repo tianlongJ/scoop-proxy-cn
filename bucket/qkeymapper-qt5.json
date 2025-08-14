@@ -8,12 +8,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Zalafina/QKeyMapper/releases/download/v1.3.8.20250812/QKeyMapper_v1.3.8.20250812_Qt5_x64.zip",
+      "url": "https://ghfast.top/https://github.com/Zalafina/QKeyMapper/releases/download/v1.3.8.20250812/QKeyMapper_v1.3.8.20250812_Qt5_x64.zip",
       "hash": "827d8936e9dced296f6cdf2210a2fb09269ea688e8df4f54ae21a44acf3cdc36",
       "extract_dir": "QKeyMapper_Qt5_x64"
     },
     "32bit": {
-      "url": "https://github.com/Zalafina/QKeyMapper/releases/download/v1.3.8.20250812/QKeyMapper_v1.3.8.20250812_Qt5_x86.zip",
+      "url": "https://ghfast.top/https://github.com/Zalafina/QKeyMapper/releases/download/v1.3.8.20250812/QKeyMapper_v1.3.8.20250812_Qt5_x86.zip",
       "hash": "98d036d4ebc03f9b5c17b64c94888515f9e70a00e9f7328fece2e7dae6b42638",
       "extract_dir": "QKeyMapper_Qt5_x86"
     }
@@ -33,10 +33,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Zalafina/QKeyMapper/releases/download/v$matchTag/QKeyMapper_v$version_Qt5_x64.zip"
+        "url": "https://ghfast.top/https://github.com/Zalafina/QKeyMapper/releases/download/v$matchTag/QKeyMapper_v$version_Qt5_x64.zip"
       },
       "32bit": {
-        "url": "https://github.com/Zalafina/QKeyMapper/releases/download/v$matchTag/QKeyMapper_v$version_Qt5_x86.zip"
+        "url": "https://ghfast.top/https://github.com/Zalafina/QKeyMapper/releases/download/v$matchTag/QKeyMapper_v$version_Qt5_x86.zip"
       }
     }
   }

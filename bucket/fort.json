@@ -5,15 +5,15 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows10-x86_64.exe",
+      "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows10-x86_64.exe",
       "hash": "8a68221d1a2b58a871f1038e1bbec3eb926797355fe576550218437d0a154688"
     },
     "32bit": {
-      "url": "https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows-x86.exe",
+      "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows-x86.exe",
       "hash": "1264ecedaf5dca82ae866fff62ec3ad94720a118da4810dbc331e6207182954b"
     },
     "arm64": {
-      "url": "https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows10-arm64.exe",
+      "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows10-arm64.exe",
       "hash": "e136d0383dcf1b3430603df298d1b22d46cf7523ab2005e6bc7e731807dfe274"
     }
   },
@@ -51,13 +51,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-x86_64.exe"
+        "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-x86_64.exe"
       },
       "32bit": {
-        "url": "https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows-x86.exe"
+        "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows-x86.exe"
       },
       "arm64": {
-        "url": "https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-arm64.exe"
+        "url": "https://ghfast.top/https://github.com/tnodir/fort/releases/download/v$version/FortFirewall-$version-windows10-arm64.exe"
       }
     }
   }

@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-08-13/ruffle-nightly-2025_08_13-windows-x86_64.zip",
+      "url": "https://ghfast.top/https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-08-13/ruffle-nightly-2025_08_13-windows-x86_64.zip",
       "hash": "370a50889e7e06c3821643635a4636f6d0559f4d732e00880d650bc2dde632d0"
     },
     "32bit": {
-      "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-08-13/ruffle-nightly-2025_08_13-windows-x86_32.zip",
+      "url": "https://ghfast.top/https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-08-13/ruffle-nightly-2025_08_13-windows-x86_32.zip",
       "hash": "7af044c8366de1a90285951168c85a6a21cce3ca1e6f0deb2af886a765248081"
     }
   },
@@ -27,10 +27,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreVersion-windows-x86_64.zip"
+        "url": "https://ghfast.top/https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreVersion-windows-x86_64.zip"
       },
       "32bit": {
-        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreVersion-windows-x86_32.zip"
+        "url": "https://ghfast.top/https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreVersion-windows-x86_32.zip"
       }
     }
   }

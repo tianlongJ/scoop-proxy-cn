@@ -6,7 +6,7 @@
     "identifier": "GPL-3.0-or-later",
     "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/raw/master/LICENSE"
   },
-  "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/archive/d70c515365d5bf09ff06ada4200319c18cccd00b.zip",
+  "url": "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/archive/d70c515365d5bf09ff06ada4200319c18cccd00b.zip",
   "hash": "c61531840312334bb106dcbf8ddc6823570adda2a06c4ea240b1dc95050da48f",
   "extract_dir": "v2ray-rules-dat-d70c515365d5bf09ff06ada4200319c18cccd00b",
   "checkver": {
@@ -15,7 +15,7 @@
     "replace": "0.${1}.${2}.${3}.${short}"
   },
   "autoupdate": {
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/archive/$matchSha.zip",
+    "url": "https://ghfast.top/https://github.com/Loyalsoldier/v2ray-rules-dat/archive/$matchSha.zip",
     "extract_dir": "v2ray-rules-dat-$matchSha"
   }
 }

@@ -9,15 +9,15 @@
   "changelog": "https://brave.com/latest/",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/brave/brave-browser/releases/download/v1.81.135/BraveBrowserStandaloneSilentSetup.exe#/setup.exe",
+      "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v1.81.135/BraveBrowserStandaloneSilentSetup.exe#/setup.exe",
       "hash": "687504b98483301a519fba580da46e7b0723a8a67911d8ba5fdd52273f2a3bb8"
     },
     "32bit": {
-      "url": "https://github.com/brave/brave-browser/releases/download/v1.81.135/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe",
+      "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v1.81.135/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe",
       "hash": "e390996cef5f3e875210c87cc786ac2e890ff0440d3231a85d1f0f97a31bcd31"
     },
     "arm64": {
-      "url": "https://github.com/brave/brave-browser/releases/download/v1.81.135/BraveBrowserStandaloneSilentSetupArm64.exe#/setup.exe",
+      "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v1.81.135/BraveBrowserStandaloneSilentSetupArm64.exe#/setup.exe",
       "hash": "2bc9813b014974b9445edb6ae772acd0962b776e8b5dc4a1eacd267ac5800635"
     }
   },
@@ -60,13 +60,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup.exe#/setup.exe"
+        "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe"
+        "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe"
       },
       "arm64": {
-        "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetupArm64.exe#/setup.exe"
+        "url": "https://ghfast.top/https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetupArm64.exe#/setup.exe"
       }
     },
     "hash": {

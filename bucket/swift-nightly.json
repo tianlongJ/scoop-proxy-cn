@@ -13,11 +13,11 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20250813.2/installer-amd64.exe#/swiftsetup.exe",
+      "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/20250813.2/installer-amd64.exe#/swiftsetup.exe",
       "hash": "dbefabc2f5844dca66598ffb8d24fa440ba91e36f8d9e1afaf5ff7cea8a713e4"
     },
     "arm64": {
-      "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20250813.2/installer-arm64.exe#/swiftsetup.exe",
+      "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/20250813.2/installer-arm64.exe#/swiftsetup.exe",
       "hash": "d01a3f4deb32cd23e734d3675562e46d7302fc22981ee30f2f0e30b66a47c608"
     }
   },
@@ -57,10 +57,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
+        "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
       },
       "arm64": {
-        "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
+        "url": "https://ghfast.top/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
       }
     }
   }

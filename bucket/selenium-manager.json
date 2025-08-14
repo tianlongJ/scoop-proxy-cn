@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/selenium-manager-acecd4f/selenium-manager-windows.exe#/selenium-manager.exe",
+      "url": "https://ghfast.top/https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/selenium-manager-acecd4f/selenium-manager-windows.exe#/selenium-manager.exe",
       "hash": "eb6e3b19bb70c3fee7fdb332153d7c7c523034044059900e80b663b8817e720c"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/$matchManagerversion/selenium-manager-windows.exe#/selenium-manager.exe"
+        "url": "https://ghfast.top/https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/$matchManagerversion/selenium-manager-windows.exe#/selenium-manager.exe"
       }
     }
   }

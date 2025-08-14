@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6152/llama-b6152-bin-win-sycl-x64.zip",
+      "url": "https://ghfast.top/https://github.com/ggml-org/llama.cpp/releases/download/b6152/llama-b6152-bin-win-sycl-x64.zip",
       "hash": "beccc81b61dce55a7200e47e9e86781b37a5277c34aa2df10088db7c3cd6a70f"
     }
   },
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-sycl-x64.zip"
+        "url": "https://ghfast.top/https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-sycl-x64.zip"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "AGPL-3.0, Apache-2.0, GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/deevus/zed-windows-builds/releases/download/v0.198.6/zed.zip",
+      "url": "https://ghfast.top/https://github.com/deevus/zed-windows-builds/releases/download/v0.198.6/zed.zip",
       "hash": "efbfcb65ba14dd044143fe4404003571a71a6a6f739d0563320e80cda186f98a"
     }
   },
@@ -21,9 +21,9 @@
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
   },
   "autoupdate": {
-    "url": "https://github.com/deevus/zed-windows-builds/releases/download/v$version/zed.zip",
+    "url": "https://ghfast.top/https://github.com/deevus/zed-windows-builds/releases/download/v$version/zed.zip",
     "hash": {
-      "url": "https://github.com/deevus/zed-windows-builds/releases/download/v$version/sha256sums.txt"
+      "url": "https://ghfast.top/https://github.com/deevus/zed-windows-builds/releases/download/v$version/sha256sums.txt"
     }
   }
 }

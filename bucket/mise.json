@@ -13,11 +13,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/jdx/mise/releases/download/v2025.8.9/mise-v2025.8.9-windows-x64.zip",
+      "url": "https://ghfast.top/https://github.com/jdx/mise/releases/download/v2025.8.9/mise-v2025.8.9-windows-x64.zip",
       "hash": "4acde7d4e97fde014961868e52ce2424883e1a6427b735947aaf8d82baed98f4"
     },
     "arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2025.8.9/mise-v2025.8.9-windows-arm64.zip",
+      "url": "https://ghfast.top/https://github.com/jdx/mise/releases/download/v2025.8.9/mise-v2025.8.9-windows-arm64.zip",
       "hash": "f8f78a4f869638bde8b8b71eff2322ef4d75d45a2935e2d2d9ff3691adf66142"
     }
   },
@@ -29,10 +29,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/jdx/mise/releases/download/v$version/mise-v$version-windows-x64.zip"
+        "url": "https://ghfast.top/https://github.com/jdx/mise/releases/download/v$version/mise-v$version-windows-x64.zip"
       },
       "arm64": {
-        "url": "https://github.com/jdx/mise/releases/download/v$version/mise-v$version-windows-arm64.zip"
+        "url": "https://ghfast.top/https://github.com/jdx/mise/releases/download/v$version/mise-v$version-windows-arm64.zip"
       }
     },
     "hash": {
